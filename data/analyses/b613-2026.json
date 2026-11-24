@@ -1,7 +1,7 @@
 {
   "billId": "B613/2026",
   "slug": "b613-2026",
-  "updatedAt": "2026-11-24T12:03:04.638Z",
+  "updatedAt": "2026-11-24T14:26:00.936Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -30,21 +30,21 @@
     "key": "f1dc6b8c8367a55f"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "Interzicerea salariilor și plăților din partid pentru șefii centrali ai partidelor",
-    "summaryTlDr": "O inițiativă cu un obiectiv legitim — limitarea auto-remunerării liderilor politici din banii partidului — dar redactată imprecis și disproporționat. Prin blocarea inclusiv a salariilor plătite din cotizații private și prin lipsa unui mecanism de constatare a pierderii mandatului, proiectul riscă să lovească partidele mici extraparlamentare și să genereze blocaje juridice.",
-    "initiatorClaim": "Inițiatorul susține că legea elimină conflictul de interese în care liderii din conducerea centrală a partidelor decid cheltuirea banilor partidului — inclusiv subvenții de la buget — în propriul beneficiu patrimonial.",
-    "realityCheck": "În prezent, art. 13 din Legea nr. 14/2003 obligă partidele să aibă adunare generală și organ executiv, fără a interzice salarizarea conducerii, iar Legea nr. 334/2006 permite cheltuieli de personal din subvenții. Proiectul interzice însă complet orice salariu sau plată (directă ori indirectă) pentru liderii executivi centrali, inclusiv din cotizații și donații private, aplicându-se și partidelor fără subvenții de stat. În practică, parlamentarii și primarii partidelor mari au deja salarii publice, în timp ce liderii formațiunilor noi sau extraparlamentare nu se mai pot dedica full-time construcției politice pe banii membrilor lor.",
+    "plainTitle": "Șefii partidelor nu mai pot fi plătiți de propriul partid",
+    "summaryTlDr": "Ideea are un scop legitim: liderul care decide cum se cheltuie subvenția nu ar trebui să fie și cel care o încasează. Textul e însă formulat larg și vag, iar încetarea automată a funcției, fără ca cineva să o constate, poate crea haos juridic în partide, inclusiv la depunerea listelor de candidați.",
+    "initiatorClaim": "Inițiatoarea vrea să separe poziția de conducere din partid de interesul patrimonial al titularului. Argumentul ei este că partidele pot folosi subvenții de la bugetul de stat pentru cheltuieli de personal (art. 25 alin. (1) lit. b) din Legea nr. 334/2006), iar statutele nu garantează o regulă uniformă.",
+    "realityCheck": "Legea în vigoare (art. 13 din Legea nr. 14/2003) prevede doar că adunarea generală și organul executiv sunt foruri obligatorii, fără nicio regulă privind plata membrilor conducerii. Proiectul interzice orice salariu, indemnizație, onorariu sau avantaj patrimonial plătit de partid, indiferent dacă banii vin din subvenții publice sau din cotizații și donații private. Sancțiunea este încetarea de drept a funcției după 30 de zile (90 pentru situațiile existente), fără să se spună cine constată încetarea și ce se întâmplă cu actele semnate între timp. Interdicția nu acoperă fundațiile, firmele sau alte entități afiliate partidului, așa că poate fi ocolită ușor.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 13¹ alin. 1-5)",
-      "proposalContent": "Limitarea interdicției exclusiv la sumele provenite din subvenții publice (prin modificarea Legii nr. 334/2006), definirea clară a „funcțiilor de conducere” și a noțiunii „indirect”, reglementarea sancțiunii pentru incompatibilitățile survenite pe durata mandatului și stabilirea autorității competente să constate încetarea de drept a funcției.",
-      "argumentation": "Interzicerea remunerării inclusiv din cotizații private afectează disproporționat partidele extraparlamentare, ai căror lideri nu au salarii publice (art. 8, 40, 53 Constituție). Lipsa unei proceduri de constatare a încetării de drept și omisiunea incompatibilităților apărute după preluarea funcției încalcă art. 1 alin. (5) privind previzibilitatea legii.",
-      "otherComments": "Se impune corelarea cu art. 25 din Legea nr. 334/2006 și clarificarea efectelor asupra actelor semnate de un lider aflat în incompatibilitate (ex. liste electorale), pentru a evita blocaje juridice. De asemenea, la art. 13¹ alin. (2) trebuie corectată eroarea materială „territoriale” în „teritoriale”."
+      "articleRef": "Art. I (art. 13¹ alin. 1, 2, 5) și Art. II",
+      "proposalContent": "Alin.(1): enumerarea expresă a funcțiilor vizate (președinte, vicepreședinți, secretar general). Alin.(2): interdicția să vizeze doar plățile finanțate din subvenții publice. Alin.(5): să se stabilească cine constată încetarea (ex. AEP) și că actele semnate până la constatare rămân valabile.",
+      "argumentation": "„Funcții de conducere în organul executiv central” nu e definit: poate cuprinde zeci de membri ai biroului executiv. Încetarea de drept fără constatare poate invalida acte ale partidului, inclusiv liste de candidați. Interdicția totală, inclusiv pe bani privați, lovește partidele mici, ai căror lideri nu au alt venit (art. 8, 40, 53 Constituție).",
+      "otherComments": "Măsura are scop legitim (folosirea corectă a subvențiilor), dar nu acoperă plățile prin fundații, firme sau entități afiliate partidului, iar „direct sau indirect” rămâne neclar (rude? firma titularului?). Se recomandă corectarea „territoriale” → „teritoriale” și solicitarea avizului AEP."
     }
   },
   "council": {
@@ -83,8 +83,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 48359,
+      "sourceEndMarker": "SF-0178F18D",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Șefii partidelor nu mai pot fi plătiți de propriul partid",
+      "verdictShort": "Ideea are un scop legitim: liderul care decide cum se cheltuie subvenția nu ar trebui să fie și cel care o încasează. Textul e însă formulat larg și vag, iar încetarea automată a funcției, fără ca cineva să o constate, poate crea haos juridic în partide, inclusiv la depunerea listelor de candidați.",
+      "initiatorClaim": "Inițiatoarea vrea să separe poziția de conducere din partid de interesul patrimonial al titularului. Argumentul ei este că partidele pot folosi subvenții de la bugetul de stat pentru cheltuieli de personal (art. 25 alin. (1) lit. b) din Legea nr. 334/2006), iar statutele nu garantează o regulă uniformă.",
+      "realityCheck": "Legea în vigoare (art. 13 din Legea nr. 14/2003) prevede doar că adunarea generală și organul executiv sunt foruri obligatorii, fără nicio regulă privind plata membrilor conducerii. Proiectul interzice orice salariu, indemnizație, onorariu sau avantaj patrimonial plătit de partid, indiferent dacă banii vin din subvenții publice sau din cotizații și donații private. Sancțiunea este încetarea de drept a funcției după 30 de zile (90 pentru situațiile existente), fără să se spună cine constată încetarea și ce se întâmplă cu actele semnate între timp. Interdicția nu acoperă fundațiile, firmele sau alte entități afiliate partidului, așa că poate fi ocolită ușor.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. 13¹ alin. (1): noțiunea „funcții de conducere în cadrul organului executiv de la nivel central” nu este definită. Poate viza doar președintele sau secretarul general, dar și toți membrii unui birou executiv care are zeci de persoane. Legea lasă denumirea organelor la latitudinea statutului (art. 13 alin. (1) în vigoare), deci aria de aplicare va diferi de la un partid la altul.",
+        "Art. 13¹ alin. (2): interdicția acoperă toate sumele, inclusiv cele din fonduri private (cotizații, donații), deși justificarea din expunerea de motive se sprijină pe subvențiile publice. Formula „direct sau indirect” este imprecisă: nu reiese dacă vizează plăți către rude sau către firma titularului.",
+        "Art. 13¹ alin. (5) și art. II alin. (2): încetarea de drept a funcției nu are o autoritate care să o constate (AEP, instanță, organ statutar) și nici o regulă privind valabilitatea actelor semnate după expirarea termenului. Riscul concret: contestarea listelor de candidați, a mandatelor sau a contractelor semnate de un lider al cărui mandat a încetat fără să știe cineva.",
+        "Art. 13¹ alin. (3): excepția pentru decontarea cheltuielilor și folosirea bunurilor partidului este rezonabilă, dar formula „exclusiv pentru exercitarea atribuțiilor” lasă o zonă gri (de exemplu, mașina sau locuința de serviciu).",
+        "Partidele mici și extraparlamentare sunt afectate disproporționat: liderii lor nu au, de regulă, o indemnizație de parlamentar și nu se pot dedica full-time conducerii fără a fi plătiți de partid. Liderii partidelor mari sunt adesea deja remunerați din bani publici prin mandatele elective, situație pe care legea nu o atinge."
+      ],
+      "blindSpotsCaught": "Interdicția vizează doar plățile făcute de partid și de organizațiile sale teritoriale. Rămân în afara ei fundațiile, institutele, societățile comerciale sau asociațiile afiliate partidului, care pot prelua plata, deci ocolirea legii este facilă. Încetarea de drept fără un mecanism de constatare poate fi folosită ca armă în conflicte interne sau de adversari, pentru a contesta în instanță listele de candidați depuse de partid. Proiectul modifică o lege organică (art. 73 alin. (3) lit. a) din Constituție), deci are nevoie de majoritate absolută. Există și o eroare de redactare repetată: „territoriale” în loc de „teritoriale”.",
+      "constitutionalityNote": "Proiectul atinge art. 8 (pluralismul politic și organizarea democratică internă), art. 40 (libertatea de asociere și autonomia partidelor) și art. 41 (dreptul la muncă și libera alegere a profesiei), cu test de proporționalitate pe art. 53. Scopul este legitim, având în vedere finanțarea publică. Mijlocul pare însă excesiv: interdicția acoperă și fondurile private, deși existau alternative mai puțin intruzive (limitarea la plățile din subvenții, plafonare, publicarea remunerațiilor). Lipsa definiției funcțiilor vizate și lipsa mecanismului de constatare a încetării de drept ridică probleme de claritate și previzibilitate (art. 1 alin. (5)). Ghidurile Comisiei de la Veneția privind reglementarea partidelor recomandă o intervenție minimă a statului în organizarea internă a acestora. Riscul de neconstituționalitate este moderat, nu major.",
+      "euLawNote": "Proiectul nu reglementează o profesie, deci Directiva (UE) 2018/958 nu se aplică. Nu privește servicii ale societății informaționale sau reglementări tehnice, deci notificarea TRIS (Directiva 2015/1535) nu este necesară. Nu afectează Regulamentul (UE, Euratom) nr. 1141/2014 privind partidele politice europene și nu are impact relevant asupra pieței unice. Impactul asupra IMM-urilor și cetățenilor este nul, iar bugetul nu este afectat.",
+      "senatForm": {
+        "articleRef": "Art. I (art. 13¹ alin. 1, 2, 5) și Art. II",
+        "proposalContent": "Alin.(1): enumerarea expresă a funcțiilor vizate (președinte, vicepreședinți, secretar general). Alin.(2): interdicția să vizeze doar plățile finanțate din subvenții publice. Alin.(5): să se stabilească cine constată încetarea (ex. AEP) și că actele semnate până la constatare rămân valabile.",
+        "argumentation": "„Funcții de conducere în organul executiv central” nu e definit: poate cuprinde zeci de membri ai biroului executiv. Încetarea de drept fără constatare poate invalida acte ale partidului, inclusiv liste de candidați. Interdicția totală, inclusiv pe bani privați, lovește partidele mici, ai căror lideri nu au alt venit (art. 8, 40, 53 Constituție).",
+        "otherComments": "Măsura are scop legitim (folosirea corectă a subvențiilor), dar nu acoperă plățile prin fundații, firme sau entități afiliate partidului, iar „direct sau indirect” rămâne neclar (rude? firma titularului?). Se recomandă corectarea „territoriale” → „teritoriale” și solicitarea avizului AEP."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -137,7 +165,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:03:04.638Z",
+      "replacedAt": "2026-11-24T14:26:00.936Z",
       "reasons": [
         "model"
       ]

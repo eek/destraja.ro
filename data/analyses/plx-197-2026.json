@@ -2,122 +2,149 @@
   "billId": "PL-x 197/2026",
   "slug": "plx-197-2026",
   "version": "senat",
-  "updatedAt": "2026-11-10T13:59:25.980Z",
+  "updatedAt": "2026-11-24T14:22:43.492Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2747,
+    "ordinanceChars": 0,
+    "memoChars": 5222,
+    "memoSupplied": 5222,
+    "marker": "SF-EAD71ED2"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-197-2026.json",
+    "form": "senat",
+    "textHash": "ead71ed21eefa559",
+    "fetchedAt": "2026-11-19T10:36:03.123Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1330,
+    "truncated": false,
+    "included": true,
+    "key": "2e8afd76d77c4eb2"
+  },
   "consensus": {
-    "riskScore": 4.7,
+    "riskScore": 5.5,
     "riskLevel": "yellow",
-    "plainTitle": "Etichetele cosmeticelor pot trimite la un cod QR în loc de stickerul în limba română",
-    "summaryTlDr": "Este o lege tehnică, cu un scop util: mai puține stickere lipite manual și informații mai ușor de citit. Are însă trei probleme: mută și avertismentele de siguranță în online, trimite la o literă din Regulamentul UE care pare să nu existe și intră în tensiune cu armonizarea deplină a etichetării cosmeticelor la nivel UE.",
-    "initiatorClaim": "Inițiatorii vor să scadă costurile de etichetare a cosmeticelor importate, generate de stickerele în limba română lipite manual. Susțin că informația digitală prin cod QR este mai lizibilă, se poate actualiza și este mai sustenabilă.",
-    "realityCheck": "Articolul 20¹ permite ca precauțiile de utilizare, funcția produsului și lista ingredientelor (art.19 alin.(1) lit. d, f, g din Reg. 1223/2009) să fie furnizate printr-un cod QR care duce la o pagină în limba română. Numele producătorului, cantitatea, termenul de valabilitate și lotul rămân pe ambalaj. Formularea „și prin mijloace electronice” lasă neclar dacă QR-ul doar completează eticheta fizică (caz în care legea e redundantă, fiindcă acest lucru e deja permis) sau o înlocuiește, cum reiese din expunerea de motive. Efectul practic previzibil este că precauțiile de siguranță în limba română vor fi doar online, iar cine nu are smartphone sau internet nu are o alternativă reală: fallback-ul funcționează doar când codul e „temporar inaccesibil”.",
+    "plainTitle": "Coduri QR în locul etichetelor fizice la cosmetice, cu risc de conflict cu regulile UE",
+    "summaryTlDr": "Deși urmărește un scop practic legitim — eliminarea etichetelor lipite manual pe cosmeticele importate —, proiectul încalcă direct Regulamentul european privind cosmeticele și conține erori grave de redactare. Operatorii economici care s-ar baza pe această lege riscă neconformitate față de dreptul UE, iar consumatorii fără smartphone pierd accesul la alergeni și precauții.",
+    "initiatorClaim": "Inițiatorii susțin că proiectul modernizează informarea consumatorilor, reduce costurile și risipa de materiale generate de aplicarea manuală a stickerelor în limba română pe produsele cosmetice importate și aliniază România la tendințele europene de digitalizare.",
+    "realityCheck": "Textul introduce o ambiguitate majoră: permite furnizarea precauțiilor, funcției și listei de ingrediente „și” prin cod QR, dar sugerează în același timp eliminarea obligației de înscriere fizică a acestora. Cum Regulamentul (CE) nr. 1223/2009 este direct aplicabil și nu permite statelor membre să înlocuiască unilateral eticheta fizică cu un cod QR, legea creează o capcană juridică pentru firme, reduce protecția consumatorilor vulnerabili și impune păstrarea paginii web doar 12 luni de la punerea pe piață a lotului.",
     "affectedGroups": [
+      "Toți cetățenii",
       "IMM & Antreprenori",
-      "Sănătate & Educație",
-      "Toți cetățenii"
+      "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – art.20¹ alin.(1) și (2)",
-      "proposalContent": "Alin.(1): se elimină lit.(d) din opțiunea QR (precauțiile rămân fizic în limba română); la lit.c) se elimină trimiterea la lit.(h), inexistentă. Alin.(2): pagina rămâne accesibilă cel puțin până la expirarea datei de durabilitate minimă/PAO a ultimei unități, minim 36 luni; fără cookie-uri de urmărire, publicitate, cont sau aplicație obligatorie.",
-      "argumentation": "Precauțiile de utilizare (lit.d) sunt informații de siguranță; mutarea lor exclusiv online le face inaccesibile celor fără smartphone. Art.19 alin.(1) din Reg.1223/2009 are literele a)-g), deci trimiterea la lit.(h) e lipsită de previzibilitate. Un produs poate fi folosit ani după cumpărare, peste termenul de 12 luni din alin.(2).",
-      "otherComments": "Textul trebuie notificat în TRIS (Dir. 2015/1535) înainte de adoptare, altfel e inopozabil operatorilor. Recomand corelarea cu regimul contravențional din Codul consumului și clarificarea dacă QR completează sau înlocuiește eticheta fizică în limba română, având în vedere caracterul de armonizare deplină al art.19 din Reg.1223/2009."
+      "articleRef": "Articol unic (art. 20^1 din Legea nr. 296/2004)",
+      "proposalContent": "Clarificarea că QR-ul este strict suplimentar etichetei fizice impuse de Reg. (CE) 1223/2009 (nu înlocuitor), eliminarea trimiterii eronate la lit. (h) inexistentă, păstrarea denumirilor INCI pentru ingrediente și extinderea accesului paginii web pe toată durata de valabilitate a lotului (sau respingerea până la modificarea Regulamentului UE).",
+      "argumentation": "Regulamentul (CE) 1223/2009 este direct aplicabil și impune etichetarea fizică a precauțiilor, funcției și ingredientelor; legea națională nu poate deroga unilateral (art. 148 alin. 2 Constituție). Firmele riscă sancțiuni, iar România riscă infringement. În plus, art. 19 alin. (1) lit. (h) nu există, iar 12 luni nu acoperă valabilitatea cosmeticelor.",
+      "otherComments": "Înainte de adoptare, proiectul trebuie notificat Comisiei Europene prin procedura TRIS (Directiva (UE) 2015/1535) ca reglementare tehnică și corelat cu Ministerul Sănătății și ANPC. Soluția sigură pentru etichetarea digitală este susținerea modificării Regulamentului (CE) 1223/2009 la nivelul UE, nu o derogare națională neaplicabilă."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 95244,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 91072,
+      "sourceEndMarker": "SF-EAD71ED2",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Etichetarea digitală prin cod QR pentru produsele cosmetice: intenție bună de debirocratizare, dar text vulnerabil juridic",
-      "verdictShort": "Proiectul vizează reducerea costurilor cu etichetele fizice lipite manual pe cosmeticele importate, permițând afișarea precauțiilor, funcției produsului și ingredientelor prin cod QR. Din păcate, redactarea conține erori tehnice flagrante (trimitere la o literă inexistentă din Regulamentul UE), se află în tensiune cu aplicabilitatea directă a Regulamentului (CE) nr. 1223/2009 și permite ștergerea paginii web înainte de expirarea produsului.",
-      "initiatorClaim": "Inițiatorii susțin că vor să elimine obligația aplicării manuale de stickere suplimentare în limba română pe produsele cosmetice, permițând furnizarea precauțiilor de utilizare, a funcției produsului și a listei de ingrediente prin cod QR, în deplină concordanță cu Regulamentul (CE) nr. 1223/2009.",
-      "realityCheck": "În realitate, Regulamentul (CE) nr. 1223/2009 este direct aplicabil și impune ca precauțiile, funcția și ingredientele să fie tipărite fizic pe ambalaj, statele membre având competență doar asupra limbii pentru anumite elemente (nu și pentru lista de ingrediente INCI). În plus, textul folosește sintagma ambiguă „și prin mijloace electronice” (care literal nu scutește comerciantul de eticheta fizică în română de la art. 20) și permite închiderea paginii web la 12 luni de la punerea pe piață a lotului, deși cosmeticele stau pe raft și în casele consumatorilor 24-36 de luni.",
+      "plainTitle": "Coduri QR în locul etichetelor fizice la cosmetice, cu risc de conflict cu regulile UE",
+      "verdictShort": "Deși urmărește un scop practic legitim — eliminarea etichetelor lipite manual pe cosmeticele importate —, proiectul încalcă direct Regulamentul european privind cosmeticele și conține erori grave de redactare. Operatorii economici care s-ar baza pe această lege riscă neconformitate față de dreptul UE, iar consumatorii fără smartphone pierd accesul la alergeni și precauții.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul modernizează informarea consumatorilor, reduce costurile și risipa de materiale generate de aplicarea manuală a stickerelor în limba română pe produsele cosmetice importate și aliniază România la tendințele europene de digitalizare.",
+      "realityCheck": "Textul introduce o ambiguitate majoră: permite furnizarea precauțiilor, funcției și listei de ingrediente „și” prin cod QR, dar sugerează în același timp eliminarea obligației de înscriere fizică a acestora. Cum Regulamentul (CE) nr. 1223/2009 este direct aplicabil și nu permite statelor membre să înlocuiască unilateral eticheta fizică cu un cod QR, legea creează o capcană juridică pentru firme, reduce protecția consumatorilor vulnerabili și impune păstrarea paginii web doar 12 luni de la punerea pe piață a lotului.",
       "affectedGroups": [
-        "IMM & Antreprenori",
-        "Sănătate & Educație",
-        "Toți cetățenii"
+        "Toți cetățenii",
+        "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Trimitere la o normă europeană inexistentă (Art. 20¹ alin. (1) lit. c): textul adoptat de Senat face referire la „art. 19 alin. (1) lit. (a), (b), (c), (e) și (h) din Regulamentul (CE) nr. 1223/2009”, însă art. 19 alin. (1) din regulamentul european are doar literele (a)-(g), litera (h) neexistând.",
-        "Confuzie între etichetarea fizică obligatorie în UE și traducerea în limba română (Art. 20¹ alin. (1) lit. c): prin enumerarea doar a literelor (a), (b), (c), (e) și (h) ca rămânând „obligatoriu înscrise fizic pe recipient sau pe ambalaj”, textul sugerează per a contrario că precauțiile (lit. d), funcția (lit. f) și lista de ingrediente INCI (lit. g) nu ar mai trebui înscrise fizic pe ambalaj, ceea ce încalcă direct art. 19 alin. (1) din Regulamentul (CE) nr. 1223/2009.",
-        "Contradicție internă a normei (Art. 20¹ alin. (1)): partea introductivă prevede că informațiile pot fi puse la dispoziție „și prin mijloace electronice” (cumulativ), în timp ce Expunerea de motive și lit. c) urmăresc înlocuirea etichetei fizice (alternativ), lăsând importatorii expuși amenzilor ANPC în baza art. 20 din Legea nr. 296/2004.",
-        "Risc pentru sănătatea consumatorilor alergici (Art. 20¹ alin. (1) lit. d și alin. (2)): pagina web cu precauții și ingrediente trebuie menținută doar „12 luni după punerea pe piață a ultimei unități din lot”, perioadă mult mai scurtă decât valabilitatea uzuală a cosmeticelor (24-36 luni), iar în caz de indisponibilitate tehnică a codului QR, consumatorul este trimis la serviciul de relații cu clienții."
+        "Conflict direct cu Regulamentul (CE) nr. 1223/2009 (art. 20¹ alin. 1): Regulamentul UE impune inscripționarea fizică pe recipient/ambalaj (sau pe prospect/card fizic, conform art. 19 alin. 2) pentru precauții (lit. d), funcție (lit. f) și ingrediente (lit. g). România nu poate deroga unilateral prin lege națională de la un regulament european de armonizare completă.",
+        "Contradicție internă și trimitere la un text inexistent (art. 20¹ alin. 1 și lit. c): alin. (1) spune că informațiile pot fi oferite „și” electronic, dar lit. c) restrânge obligația etichetei fizice la lit. (a), (b), (c), (e) și „(h)”, deși art. 19 alin. (1) din Regulamentul (CE) nr. 1223/2009 nu are nicio literă (h) — se oprește la lit. (g).",
+        "Risc pentru consumatorii fără internet și durată insuficientă a paginii web (art. 20¹ alin. 1 lit. d și alin. 2): scoaterea precauțiilor de utilizare și a ingredientelor de pe ambalaj afectează persoanele alergice sau fără smartphone, iar menținerea site-ului doar 12 luni după punerea pe piață a ultimei unități din lot este mai scurtă decât valabilitatea uzuală a cosmeticelor (24–36 luni).",
+        "Cerință necorelată privind limba ingredientelor (art. 20¹ alin. 1 lit. b): obligă la afișarea integrală în limba română inclusiv a listei de ingrediente (lit. g), deși Regulamentul UE prevede folosirea nomenclaturii comune internaționale INCI, tocmai pentru recunoașterea unitară a substanțelor alergene."
       ],
-      "blindSpotsCaught": "Conform art. 19 alin. (5) din Regulamentul (CE) nr. 1223/2009, statele membre pot stabili limba națională doar pentru lit. (b), (c), (d) și (f), NU și pentru lit. (g) (lista ingredientelor), care folosește nomenclatorul standardizat european INCI (netraductibil în română). Includerea lit. (g) în excepția națională pentru limba română arată o confuzie tehnică a redactării, iar adoptarea unei reglementări tehnice naționale de etichetare fără notificarea prealabilă a Comisiei Europene încalcă Directiva (UE) 2015/1535 (TRIS).",
-      "constitutionalityNote": "Proiectul ridică probleme de constituționalitate prin raportare la Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), din cauza trimiterii la inexistenta lit. (h) a art. 19 alin. (1) din Regulamentul 1223/2009 și a contradicției dintre conjuncția „și” din alin. (1) și excluderea per a contrario de la înscrierea fizică din lit. c). De asemenea, derogarea printr-o lege națională de la obligația de înscriere fizică pe ambalaj stabilită printr-un regulament UE direct aplicabil încalcă Art. 148 alin. (2) și (4) din Constituție.",
-      "euLawNote": "Regulamentul (CE) nr. 1223/2009 are aplicabilitate directă (art. 288 TFUE) și armonizează exhaustiv etichetarea cosmeticelor (cauza CJUE C-667/19). Statele membre nu pot permite unilateral înlocuirea listei fizice de ingrediente (lit. g) cu un cod QR; digitalizarea etichetei cosmetice face obiectul unei revizuiri legislative la nivelul Comisiei Europene. În plus, măsura constituie o reglementare tehnică națională supusă obligației de notificare și standstill conform Directivei (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Cea mai gravă chichiță este trimiterea din art. 20¹ alin. (1) lit. c) la o literă fantomă — „art. 19 alin. (1) lit. (h)” din Regulamentul (CE) nr. 1223/2009 — care nu există în actul european. Totodată, importatorii care ar elimina stickerele fizice bazându-se pe legea română pot fi totuși sancționați în temeiul Regulamentului UE direct aplicabil (iar proiectul nici nu precizează regimul sancționator sau autoritatea de control între ANPC și Ministerul Sănătății). În plus, instituirea de cerințe tehnice pentru etichetare electronică și pagini web obligatorii intră sub incidența obligației de notificare TRIS (Directiva (UE) 2015/1535).",
+      "constitutionalityNote": "Proiectul prezintă vicii serioase raportat la art. 148 alin. (2) din Constituție (prioritatea reglementărilor comunitare obligatorii față de legile interne contrare), încercând să acorde o derogare națională de la un Regulament UE direct aplicabil. De asemenea, încalcă cerințele de claritate, precizie și previzibilitate ale legii prevăzute de art. 1 alin. (5) din Constituție prin contradicția dintre caracterul aparent suplimentar („și prin mijloace electronice”) și excluderea de la etichetarea fizică din lit. c), prin referirea la o dispoziție inexistentă (lit. h) și prin lipsa corelării cu legislația specială aplicabilă cosmeticelor și cu regimul contravențional.",
+      "euLawNote": "Încalcă direct art. 19 alin. (1), (2) și (5) și art. 9 din Regulamentul (CE) nr. 1223/2009, care realizează o armonizare completă privind etichetarea cosmeticelor și lasă statelor membre doar stabilirea limbii, nu înlocuirea etichetei fizice cu un cod QR; digitalizarea etichetelor poate fi introdusă legal doar prin modificarea Regulamentului la nivel european. Totodată, proiectul constituie o reglementare tehnică în sensul Directivei (UE) 2015/1535 (TRIS), iar adoptarea sa fără notificarea prealabilă a Comisiei Europene îl face inopozabil și expune România la procedură de infringement. Directiva (UE) 2018/958 (testul de proporționalitate) nu este incidentă direct, nefiind vizată o profesie reglementată, însă măsura creează incertitudine juridică pe piața unică.",
       "senatForm": {
-        "articleRef": "Articol unic (Art. 20^1 alin. (1) și (2))",
-        "proposalContent": "La alin.(1) lit.c) se elimină trimiterea la lit.(h) (inexistentă în art.19 alin.(1) din Regulamentul 1223/2009) și se clarifică faptul că doar traducerea în limba română pentru lit.(d) și (f) poate fi oferită exclusiv prin cod QR, lista INCI (lit.g) rămânând fizic pe ambalaj. La alin.(2), pagina web rămâne activă pe toată durata de valabilitate a lotului.",
-        "argumentation": "Art.19 alin.(1) din Regulamentul 1223/2009 are doar lit.(a)-(g), lit.(h) fiind inexistentă. România nu poate elimina de pe ambalaj lista fizică a ingredientelor (lit.g - INCI), având competență doar asupra limbii pentru lit.(b), (c), (d) și (f) conform art.19 alin.(5). Totodată, 12 luni de la punerea pe piață este sub valabilitatea uzuală a cosmeticelor (24-36 luni).",
-        "otherComments": "Formula „pot fi puse la dispoziția consumatorului și prin mijloace electronice” din alin.(1) contrazice intenția de eliminare a etichetelor suplimentare (stickere), creând confuzie față de art.20 din Legea 296/2004. De asemenea, proiectul necesită notificare TRIS conform Directivei (UE) 2015/1535 înainte de adoptare, sub sancțiunea inopozabilității."
-      }
+        "articleRef": "Articol unic (art. 20^1 din Legea nr. 296/2004)",
+        "proposalContent": "Clarificarea că QR-ul este strict suplimentar etichetei fizice impuse de Reg. (CE) 1223/2009 (nu înlocuitor), eliminarea trimiterii eronate la lit. (h) inexistentă, păstrarea denumirilor INCI pentru ingrediente și extinderea accesului paginii web pe toată durata de valabilitate a lotului (sau respingerea până la modificarea Regulamentului UE).",
+        "argumentation": "Regulamentul (CE) 1223/2009 este direct aplicabil și impune etichetarea fizică a precauțiilor, funcției și ingredientelor; legea națională nu poate deroga unilateral (art. 148 alin. 2 Constituție). Firmele riscă sancțiuni, iar România riscă infringement. În plus, art. 19 alin. (1) lit. (h) nu există, iar 12 luni nu acoperă valabilitatea cosmeticelor.",
+        "otherComments": "Înainte de adoptare, proiectul trebuie notificat Comisiei Europene prin procedura TRIS (Directiva (UE) 2015/1535) ca reglementare tehnică și corelat cu Ministerul Sănătății și ANPC. Soluția sigură pentru etichetarea digitală este susținerea modificării Regulamentului (CE) 1223/2009 la nivelul UE, nu o derogare națională neaplicabilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 66631,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Etichetele cosmeticelor pot trimite la un cod QR în loc de stickerul în limba română",
-      "verdictShort": "Este o lege tehnică, cu un scop util: mai puține stickere lipite manual și informații mai ușor de citit. Are însă trei probleme: mută și avertismentele de siguranță în online, trimite la o literă din Regulamentul UE care pare să nu existe și intră în tensiune cu armonizarea deplină a etichetării cosmeticelor la nivel UE.",
-      "initiatorClaim": "Inițiatorii vor să scadă costurile de etichetare a cosmeticelor importate, generate de stickerele în limba română lipite manual. Susțin că informația digitală prin cod QR este mai lizibilă, se poate actualiza și este mai sustenabilă.",
-      "realityCheck": "Articolul 20¹ permite ca precauțiile de utilizare, funcția produsului și lista ingredientelor (art.19 alin.(1) lit. d, f, g din Reg. 1223/2009) să fie furnizate printr-un cod QR care duce la o pagină în limba română. Numele producătorului, cantitatea, termenul de valabilitate și lotul rămân pe ambalaj. Formularea „și prin mijloace electronice” lasă neclar dacă QR-ul doar completează eticheta fizică (caz în care legea e redundantă, fiindcă acest lucru e deja permis) sau o înlocuiește, cum reiese din expunerea de motive. Efectul practic previzibil este că precauțiile de siguranță în limba română vor fi doar online, iar cine nu are smartphone sau internet nu are o alternativă reală: fallback-ul funcționează doar când codul e „temporar inaccesibil”.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Sănătate & Educație",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Art.20¹ alin.(1) lit.c) trimite la art.19 alin.(1) lit.(h) din Reg. 1223/2009. După forma consolidată pe care o cunosc, art.19 alin.(1) are doar literele a)–g), deci trimiterea pare să vizeze o normă inexistentă, ceea ce afectează previzibilitatea textului. Trebuie verificat pe textul consolidat actual.",
-        "Art.20¹ alin.(1) include lit.(d), adică precauțiile de utilizare, printre informațiile care pot fi doar digitale. Acestea sunt informații de siguranță: alergeni, avertizări pentru copii, contact cu ochii. Ar trebui să rămână fizic în limba română.",
-        "Art.20¹ alin.(2) cere menținerea paginii web doar 12 luni după punerea pe piață a ultimei unități din lot. Cosmeticele au frecvent o durabilitate de 30 de luni sau mai mult, plus perioada după deschidere (PAO), așa că un consumator poate rămâne fără informații în timp ce folosește încă produsul.",
-        "Lit.d) prevede fallback-ul (pagina generală sau serviciul clienți) doar pentru inaccesibilitatea temporară a codului. Nu acoperă consumatorul fără smartphone, care este tocmai categoria vulnerabilă invocată în expunerea de motive.",
-        "Textul nu face legătura cu regimul de sancțiuni din Codul consumului și nu stabilește cine verifică (ANPC) sau ce se întâmplă dacă pagina e incompletă ori neactualizată.",
-        "Nu există limite privind colectarea de date pe pagina de destinație: tracking, cookie-uri de marketing, cont sau aplicație obligatorie. QR-ul poate deveni un canal de profilare a consumatorilor."
-      ],
-      "blindSpotsCaught": "Art.19 din Reg. 1223/2009 este direct aplicabil și de armonizare deplină. El cere ca informațiile să figureze pe recipient și ambalaj și permite, doar pentru lit. d) și g) și doar când este practic imposibil, un prospect sau o etichetă atașată fizic, nu un suport digital. Statul membru stabilește prin art.19 alin.(5) limba informațiilor de la lit. b), c), d), f), nu și suportul lor. Varianta cea mai apărabilă a legii ar fi deci: eticheta fizică completă în limba originală, plus traducerea în română prin QR. Textul nu spune însă explicit acest lucru. Expunerea de motive invocă practici din Franța, Italia, Spania și Germania fără nicio sursă. În plus, Comisia Europeană a propus în 2025, în pachetul omnibus privind substanțele chimice, reguli unitare de etichetare digitală a cosmeticelor, deci o lege națională separată riscă să devină rapid necorelată.",
-      "constitutionalityNote": "Nu văd o problemă gravă de constituționalitate în fond. Pe forma textului însă: (1) trimiterea la o literă (h) care pare inexistentă și ambiguitatea „și prin mijloace electronice” (completare sau înlocuire) afectează claritatea și previzibilitatea normei, în sensul art.1 alin.(5) din Constituție și al jurisprudenței CCR privind calitatea legii. (2) Art.148 alin.(2) consacră prioritatea dreptului UE, deci o normă internă care ar permite înlocuirea informațiilor fizice cerute de art.19 din Reg. 1223/2009 ar fi inaplicabilă în măsura conflictului. (3) Art.45 (libertatea economică) și art.135 alin.(2) lit.a) (protecția consumatorilor) trebuie echilibrate, iar mutarea online a precauțiilor de siguranță înclină balanța în defavoarea protecției. Procedura este corectă: Senatul a fost prima cameră, Camera Deputaților decide, conform art.75–76 alin.(2). Art.23 alin.(12) nu este incident, deoarece textul nu are dimensiune penală.",
-      "euLawNote": "Reg. (CE) 1223/2009: art.19 este normă de armonizare deplină, iar statele membre nu pot adăuga derogări privind suportul informațiilor obligatorii. Textul este compatibil doar dacă QR-ul este interpretat ca suport pentru versiunea în limba română (art.19 alin.(5)), cu eticheta fizică completă păstrată. Directiva (UE) 2015/1535 (TRIS): o regulă națională de etichetare a produselor este o specificație tehnică, deci proiectul trebuie notificat Comisiei înainte de adoptarea finală. Fără notificare, potrivit jurisprudenței CJUE, norma nu poate fi opusă operatorilor. Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu este incidentă. Piața unică: efectul este mai degrabă favorabil, fiindcă reduce bariera practică a reetichetării produselor importate din alte state membre, ceea ce ajută distribuitorii mici și concurența.",
-      "senatForm": {
-        "articleRef": "Art. unic – art.20¹ alin.(1) și (2)",
-        "proposalContent": "Alin.(1): se elimină lit.(d) din opțiunea QR (precauțiile rămân fizic în limba română); la lit.c) se elimină trimiterea la lit.(h), inexistentă. Alin.(2): pagina rămâne accesibilă cel puțin până la expirarea datei de durabilitate minimă/PAO a ultimei unități, minim 36 luni; fără cookie-uri de urmărire, publicitate, cont sau aplicație obligatorie.",
-        "argumentation": "Precauțiile de utilizare (lit.d) sunt informații de siguranță; mutarea lor exclusiv online le face inaccesibile celor fără smartphone. Art.19 alin.(1) din Reg.1223/2009 are literele a)-g), deci trimiterea la lit.(h) e lipsită de previzibilitate. Un produs poate fi folosit ani după cumpărare, peste termenul de 12 luni din alin.(2).",
-        "otherComments": "Textul trebuie notificat în TRIS (Dir. 2015/1535) înainte de adoptare, altfel e inopozabil operatorilor. Recomand corelarea cu regimul contravențional din Codul consumului și clarificarea dacă QR completează sau înlocuiește eticheta fizică în limba română, având în vedere caracterul de armonizare deplină al art.19 din Reg.1223/2009."
-      },
-      "status": "ok"
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 173595,
+      "durationMs": 74277,
+      "sourceEndMarker": "SF-EAD71ED2",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Coduri QR pe cosmetice: informații suplimentare sau etichete eliminate?",
-      "verdictShort": "Digitalizarea poate ajuta consumatorii, dar forma Senatului trebuie corectată: lasă ambiguu dacă informațiile obligatorii pot dispărea de pe etichetă și trimite la o dispoziție europeană inexistentă. Proiectul nu introduce taxe sau monopoluri, însă poate induce operatorilor o falsă siguranță privind conformitatea produselor.",
-      "initiatorClaim": "Inițiatorii promit reducerea costurilor și a etichetelor suplimentare, informații mai lizibile în română și mai puține materiale consumate. Susțin că accesul prin QR păstrează integral protecția consumatorilor și respectă dreptul UE.",
-      "realityCheck": "Art. 20¹ permite informarea electronică pentru precauții, funcția produsului și ingrediente, impunând condiții privind pagina dedicată și disponibilitatea acesteia. Cuvântul „și” și clauza de neexonerare susțin o utilizare suplimentară, dar enumerarea separată a informațiilor care rămân fizic pe produs sugerează posibilitatea înlocuirii celorlalte. În interpretarea conformă dreptului UE, eliminarea etichetelor obligatorii nu este permisă, astfel încât economiile promise prin această eliminare nu rezultă legal din proiect.",
+      "plainTitle": "Informații despre cosmetice prin cod QR",
+      "verdictShort": "Informarea suplimentară prin QR este utilă, dar proiectul lasă neclar dacă poate înlocui informațiile obligatorii de pe etichetă. Ambiguitatea privește inclusiv precauțiile de utilizare și trebuie eliminată înainte de adoptare.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea costurilor și a etichetelor suplimentare în limba română, oferind informații accesibile electronic. Susțin că soluția respectă integral regulamentul european și păstrează protecția consumatorilor.",
+      "realityCheck": "Proiectul adaugă art.20¹, fără să modifice actualul art.20 privind protecția asigurată de ambalaje, și introduce condiții pentru informarea electronică despre precauții, funcția produsului și ingrediente. Cuvântul „și” și menținerea obligațiilor existente susțin interpretarea că QR-ul este suplimentar, dar enumerarea separată a informațiilor care rămân fizic pe ambalaj sugerează posibilitatea înlocuirii celorlalte. Reducerea etichetelor fizice promisă în motivare nu poate fi obținută legal prin derogare națională de la regulamentul european.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 20¹ alin. (1) lit. c) trimite la art. 19 alin. (1) lit. h) din Regulamentul nr. 1223/2009, deși enumerarea se încheie la lit. g). Totodată, formula generală „pe recipient sau pe ambalaj” nu reproduce regula europeană privind înscrierea pe ambele, cu excepțiile prevăzute expres. [Regulamentul, art. 19](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A02009R1223-20260518).",
-        "Art. 20¹ alin. (1) lit. b) cere integral informații în română, fără să distingă lista ingredientelor: aceasta folosește denumirile comune din glosarul european, potrivit art. 19 alin. (6), nu traduceri libere care să le înlocuiască. [Regulamentul, art. 19 alin. (5)-(6)](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A02009R1223-20260518).",
-        "Art. 20¹ alin. (1) lit. d) nu stabilește durata maximă a indisponibilității, timpul de răspuns al serviciului pentru clienți sau modalitatea de acces fără internet. Pagina generală și serviciul pentru clienți nu garantează singure accesul imediat la avertismente înaintea utilizării.",
-        "Art. 20¹ alin. (2) cere acces pe durata comercializării și minimum 12 luni după punerea pe piață a ultimei unități din lot; nu garantează 12 luni după ultima vânzare către consumator sau acces pe întreaga perioadă de utilizare. Actualizarea paginii nu este însoțită de obligații explicite privind păstrarea versiunii corespunzătoare fiecărui lot.",
-        "Textul nu introduce taxe, autorizații, furnizori exclusivi sau sancțiuni noi și nu prevede cheltuieli bugetare directe. Pentru operatorii care aleg QR-ul apar costuri de găzduire, traducere, actualizare și continuitate, relativ mai apăsătoare pentru IMM-uri; reducerea prețurilor nu este demonstrată. Deși expunerea promite o perioadă de conformare, articolul unic nu o instituie."
+        "Art.20¹ alin.(1) lit.c) trimite la art.19 alin.(1) lit.h) din Regulamentul (CE) nr.1223/2009, deși enumerarea respectivă se încheie la lit.g). Trimiterea trebuie corectată.",
+        "Regulamentul impune înscrierea informațiilor obligatorii pe recipient și ambalaj, cu excepții precise; lista ingredientelor poate figura numai pe ambalaj. Formula națională generală „pe recipient sau pe ambalaj” nu redă corect aceste diferențe.",
+        "Precauțiile de utilizare, vizate de art.20¹ alin.(1), sunt informații de siguranță. Excepțiile europene pentru imposibilitatea practică a înscrierii anumitor informații prevăd suporturi precum prospectul, eticheta sau cartonașul, fără să autorizeze o înlocuire generală prin QR.",
+        "Art.20¹ alin.(1) lit.b) cere integral informațiile în română, însă ingredientele se identifică potrivit nomenclaturii comune prevăzute de regulament. Textul trebuie să evite interpretarea că denumirile standardizate ale ingredientelor trebuie traduse.",
+        "Alternativa paginii generale ori a serviciului de relații cu clienții, prevăzută la alin.(1) lit.d), nu garantează accesul imediat la precauții. Persoanele fără telefon compatibil sau internet nu beneficiază efectiv de înlocuirea etichetei prin informare electronică.",
+        "Alin.(2) stabilește păstrarea paginii pe durata comercializării și minimum 12 luni după punerea pe piață a ultimei unități din lot. Nu corelează explicit accesibilitatea cu întreaga perioadă de utilizare și nici actualizarea informațiilor cu formula lotului cumpărat.",
+        "Proiectul nu introduce taxe, sancțiuni proprii sau furnizori privilegiați. Poate genera costuri de realizare, traducere, actualizare și întreținere a paginilor, mai ales pentru IMM-uri; economiile și reducerea prețurilor invocate nu sunt demonstrate.",
+        "Nu există dispoziții tranzitorii sau termen special de conformare, deși motivarea afirmă contrariul. În lipsa unui termen ulterior, se aplică regula constituțională a intrării în vigoare la trei zile de la publicare."
       ],
-      "blindSpotsCaught": "CJUE a stabilit în cauza C-667/19, punctele 39-46, că derogarea pentru precauții și ingrediente se interpretează strict și că dificultățile financiare ale traducerii și reetichetării nu justifică omiterea informațiilor. Hotărârea privește un catalog, nu codurile QR; raționamentul său contrazice însă justificarea unei înlocuiri generale a etichetelor pentru reducerea costurilor. [Hotărârea CJUE](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62019CJ0667).",
-      "constitutionalityNote": "Ambiguitatea dintre completare și substituire, trimiterea inexistentă și lipsa unor repere pentru indisponibilitatea temporară ridică probleme de claritate și previzibilitate prin raportare la art. 1 alin. (5). Art. 23 alin. (12) nu fundamentează aici o critică penală distinctă: proiectul nu stabilește infracțiuni sau pedepse. Protecția sănătății, potrivit art. 34, justifică păstrarea accesului efectiv la avertismente. O derogare națională de la obligațiile europene ar pune în discuție art. 148 alin. (2) și (4), fără ca orice neconcordanță cu dreptul UE să însemne automat neconstituționalitate. [Constituția republicată](https://legislatie.just.ro/Public/DetaliiDocumentAfis/47355).",
-      "euLawNote": "România nu poate autoriza unilateral înlocuirea etichetării armonizate printr-o pagină web; QR-ul suplimentar este compatibil în principiu. Directiva 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor; proporționalitatea și concurența trebuie totuși evaluate, fără a inventa obligația testului din această directivă. [Directiva, art. 2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). TRIS trebuie analizat pentru condițiile tehnice de etichetare a produselor, chiar dacă proiectul nu reglementează AI și simpla folosire a unui site nu îl transformă într-o reglementare a serviciilor digitale. Dacă dispozițiile constituie o reglementare tehnică notificabilă, sunt necesare notificarea proiectului și respectarea termenului de așteptare, sub rezerva excepțiilor aplicabile; documentele furnizate nu dovedesc îndeplinirea sau încălcarea acestei proceduri. [Directiva 2015/1535, art. 1 și 5-7](https://eur-lex.europa.eu/legal-content/eng/TXT/?uri=CELEX%3A32015L1535).",
+      "blindSpotsCaught": "Problema centrală este contradicția dintre informarea aparent suplimentară, exprimată prin „și”, și selecția informațiilor care „rămân obligatoriu” fizice. Clauza de păstrare a obligațiilor existente permite o interpretare conformă dreptului UE, dar atunci avantajul principal promis — eliminarea etichetelor obligatorii — nu rezultă. Trimiterea la lit.h), inexistentă, amplifică neclaritatea.",
+      "constitutionalityNote": "Art.1 alin.(5) este relevant pentru previzibilitate: operatorii și autoritățile trebuie să poată determina exact ce informații rămân fizice și care sunt doar suplimentare. O interpretare care ar permite derogarea de la regulamentul european ar ridica probleme prin raportare la art.148 alin.(2) și (4), iar accesul efectiv la precauții interesează protecția sănătății din art.34. Art.23 alin.(12) nu este direct incident, deoarece proiectul nu instituie infracțiuni sau pedepse. Deficiențele nu justifică declararea automată a întregului proiect ca neconstituțional.",
+      "euLawNote": "Regulamentul (CE) nr.1223/2009 este direct aplicabil: art.19 permite informarea electronică suplimentară, dar nu oferă o autorizare generală pentru substituirea etichetării fizice prin QR. Cerințele lingvistice de la alin.(5) și nomenclatura ingredientelor de la alin.(6) trebuie respectate distinct. Directiva (UE) 2018/958 privește reglementarea accesului la profesii și a exercitării acestora; proiectul nu intră, prin obiectul descris, în acest domeniu. Pentru Directiva (UE) 2015/1535 trebuie verificată eventuala calificare a condițiilor de etichetare drept reglementare tehnică notificabilă și aplicabilitatea excepțiilor; existența QR-ului nu dovedește singură reglementarea unui serviciu al societății informaționale. Nu se instituie un monopol, dar cerințele naționale incompatibile pot crea obstacole pe piața unică. Documentele furnizate nu dovedesc notificarea TRIS sau practicile străine invocate; verificarea online nu a fost disponibilă.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 20¹ propus",
-        "proposalContent": "Art. 20¹. — Informațiile prevăzute la art. 19 alin. (1) lit. d), f) și g) din Regulamentul (CE) nr. 1223/2009 pot fi oferite suplimentar prin cod QR sau identificator echivalent, fără înlocuirea etichetării obligatorii. Accesul electronic este direct și gratuit. Se respectă regimul lingvistic al art. 19 alin. (5) și (6). Informațiile corespund produsului și lotului.",
-        "argumentation": "QR-ul poate completa informarea, dar legea națională nu poate înlătura obligațiile regulamentului UE. Rescrierea elimină ambiguitatea privind înlocuirea etichetei, păstrează nomenclatura comună a ingredientelor și previne afișarea unei formule diferite de cea a lotului cumpărat.",
-        "otherComments": "Înlocuirea integrală elimină și trimiterea la lit. h), inexistentă. Este necesară verificarea încadrării TRIS. Termenul de amendamente din fișă, 30.03.2026, este depășit; observațiile unui cetățean nu constituie automat amendamente parlamentare."
-      }
+        "articleRef": "Articol unic – art.20¹, integral",
+        "proposalContent": "Art.20¹. – Informațiile despre produsele cosmetice pot fi furnizate suplimentar prin cod QR sau identificator electronic echivalent, lizibil și durabil, aplicat pe recipient ori ambalaj, cu acces direct și gratuit la pagina produsului. Informarea electronică nu înlocuiește obligațiile de etichetare și de limbă prevăzute la art.19 din Regulamentul (CE) nr.1223/2009.",
+        "argumentation": "Informarea digitală suplimentară este utilă, dar legea națională nu poate autoriza înlocuirea etichetării impuse de regulamentul european. Reformularea elimină ambiguitatea, trimiterea la lit.h), inexistentă, și riscul interpretării că precauțiile obligatorii pot fi accesibile exclusiv online.",
+        "otherComments": "Propunere cetățenească pentru Comisia pentru industrii și servicii a Camerei Deputaților, în vederea eventualei preluări de către un deputat. Termenul de amendamente indicat în fișă, 30.03.2026, este depășit; posibilitatea valorificării în etapa actuală trebuie verificată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-10T13:59:25.980Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:22:43.492Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -2,14 +2,41 @@
   "billId": "Pl-x 113/2026",
   "slug": "plx-113-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T00:14:14.591Z",
+  "updatedAt": "2026-11-24T14:22:05.671Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1786,
+    "ordinanceChars": 0,
+    "memoChars": 7565,
+    "memoSupplied": 7565,
+    "marker": "SF-6C4FEFCC"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-113-2026.json",
+    "form": "initiator",
+    "textHash": "6c4fefccb7528ff1",
+    "fetchedAt": "2026-11-19T10:38:42.834Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1969,
+    "truncated": false,
+    "included": true,
+    "key": "cc9379b9ea597c2a"
+  },
   "consensus": {
-    "riskScore": 6.3,
+    "riskScore": 6.5,
     "riskLevel": "yellow",
-    "plainTitle": "Amenda contează ca primită chiar dacă nu ridici plicul de la poștă",
-    "summaryTlDr": "Ideea de simplificare e rezonabilă, dar textul e redactat neglijent. Amenda devine „comunicată” și când plicul rămâne neridicat la poștă, iar legea nu spune de când curg termenele. Fără câteva garanții, oamenii pot pierde dreptul de a contesta sau plata a jumătate din minim fără să fi văzut vreodată procesul-verbal.",
-    "initiatorClaim": "Inițiatorii vor să simplifice comunicarea amenzilor. Plicul ar putea merge la adresa unde omul chiar locuiește, iar procesul-verbal neridicat de la poștă ar fi considerat comunicat, fără afișare suplimentară la domiciliu. Ei spun că astfel amenzile s-ar plăti mai repede.",
-    "realityCheck": "Legea face două lucruri. Permite trimiterea plicului la reședința sau la adresa aleasă de contravenient. Declară procesul-verbal comunicat dacă plicul nu e ridicat de la poștă în termenul scris pe aviz, așa că autoritățile nu mai trebuie să afișeze actul și la domiciliu. Efectul secundar: termenele de 15 zile pentru plângere și pentru plata a jumătate din minim pot începe să curgă fără ca omul să fi văzut amenda, iar legea nu spune exact din ce zi. Redactarea alin. (1) e confuză: prevede afișarea „la domiciliu” tocmai pentru cei care nu locuiesc acolo. În plus, pare să scoată din text înștiințarea de plată și afișarea la sediul firmelor.",
+    "plainTitle": "Amenzile neridicate de la poștă se vor considera oficial comunicate",
+    "summaryTlDr": "Sub pretextul simplificării birocrației, proiectul instituie o ficțiune juridică periculoasă: o amendă neridicată de la poștă este considerată legal comunicată, fără dată certă și fără dovada că ai primit măcar avizul poștal. Riști să pierzi fără vină termenul de 15 zile pentru contestație sau plata la jumătate și să te trezești direct cu conturile poprite.",
+    "initiatorClaim": "Inițiatorii susțin că vor să coreleze legea contravențiilor cu Codul de procedură civilă, permițând trimiterea amenzilor la reședința cunoscută sau adresa aleasă și eliminând obligația dublei proceduri (poștă + afișare la domiciliu), pentru a reduce birocrația autorităților locale și a grăbi plata voluntară.",
+    "realityCheck": "În realitate, noul art. 27 alin. (3) depășește Codul de procedură civilă și consideră comunicarea îndeplinită prin simpla neprezentare la poștă în termenul de pe aviz, fără a preciza măcar data exactă de la care încep să curgă cele 15 zile pentru contestare în instanță sau plata la jumătate. În plus, rescrierea stângace a alin. (1) elimină expres mențiunea actuală privind afișarea procesului-verbal la sediul persoanelor juridice și creează ambiguitate asupra caracterului subsidiar al afișării.",
     "affectedGroups": [
       "Toți cetățenii",
       "Șoferi & Auto",
@@ -17,23 +44,24 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 2 – art. 27 alin. (3) OG 2/2001",
-      "proposalContent": "(3) În cazul comunicării prin poștă, procedura se socotește îndeplinită la data semnării confirmării de primire, la data consemnării refuzului de către funcționarul poștal ori, dacă trimiterea nu este ridicată, la împlinirea termenului de 10 zile de la data avizării, consemnată pe aviz. Avizul lăsat destinatarului menționează termenul și efectele neridicării.",
-      "argumentation": "Textul inițiatorului nu fixează data comunicării când plicul nu e ridicat, iar termenul de ridicare ar fi stabilit de operatorul poștal, nu de lege. De această dată depind termenul de 15 zile pentru plângere (art. 31) și plata a jumătate din minim (art. 28). Fără dată certă și avertizare pe aviz, textul riscă să încalce art. 1 alin. (5) și art. 21 din Constituție.",
-      "otherComments": "La alin. (1): reintroduceți „și a înștiințării de plată”, prezentă în forma în vigoare; afișarea să rămână subsidiară poștei (ICCJ, RIL nr. 10/2013) și posibilă la sediul persoanei juridice; locul ales se indică în scris de contravenient. Merită menționată expres repunerea în termen (art. 186 C.proc.civ.)."
+      "articleRef": "Art. Unic, pct. 1-2 (art. 27 alin. 1 și 3)",
+      "proposalContent": "La alin. (1), se păstrează expres afișarea subsidiară și la sediul persoanelor juridice. La alin. (3), se elimină teza „ori în cazul neprezentării la poștă pentru ridicarea procesului-verbal în termenul menționat pe avizul de primire”, limitând comunicarea poștală la confirmarea de primire sau refuzul consemnat, conform art. 165 pct. 2 CPC.",
+      "argumentation": "Comunicarea fictivă la neridicarea de la poștă nu există în CPC, nu indică data certă a comunicării (art. 1 alin. 5 Constituție) și afectează accesul la justiție și apărare (art. 21, 24 Constituție, art. 6 CEDO). Fără dovada primirii avizului, cetățenii pot pierde fără culpă termenul de 15 zile pentru plângere și plata la jumătate.",
+      "otherComments": "Pentru eficientizarea comunicării fără a afecta dreptul la apărare, recomandăm introducerea comunicării electronice opționale (ex. prin SPV sau e-mail declarat) și păstrarea afișării subsidiare cu înregistrare audio-video din art. 27 alin. (2), conform Deciziei ICCJ (RIL) nr. 10/2013."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 92665,
-      "riskScore": 8,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 77678,
+      "sourceEndMarker": "SF-6C4FEFCC",
+      "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Amenzile neridicate de la poștă devin automat comunicate și bune de executat silit, fără afișare la ușă",
-      "verdictShort": "Sub pretextul debirocratizării, proiectul anulează protecția stabilită de ÎCCJ (Decizia RIL nr. 10/2013): dacă nu ridici plicul de la poștă în termenul de păstrare (ești în concediu, în spital sau avizul s-a pierdut în cutia poștală), amenda se consideră comunicată, deși plicul sigilat se întoarce la emitent, iar cetățeanul pierde termenul de 15 zile pentru contestație sau plata la jumătate.",
-      "initiatorClaim": "Inițiatorii susțin că vor să adapteze regulile de comunicare la situația în care contravenientul locuiește la o altă reședință și să scurteze procedurile autorităților locale, care în prezent trebuie să și afișeze procesul-verbal la domiciliu dacă plicul nu este ridicat de la poștă.",
-      "realityCheck": "În timp ce completarea alin. (1) privind trimiterea la reședința cunoscută sau la adresa aleasă este utilă, noul alin. (3) creează o capcană procedurală gravă: neprezentarea la oficiul poștal în termenul de păstrare echivalează cu îndeplinirea comunicării. Cum avizul poștal lăsat în cutie nu conține procesul-verbal (nici fapta, nici suma, nici contul de plată), iar după expirarea termenului plicul este returnat emitentului, cetățeanul nici nu află pentru ce a fost sancționat și nici nu mai poate ridica actul, trezindu-se direct cu poprire după expirarea celor 15 zile de contestație.",
+      "plainTitle": "Amenzile neridicate de la poștă se vor considera oficial comunicate",
+      "verdictShort": "Sub pretextul simplificării birocrației, proiectul instituie o ficțiune juridică periculoasă: o amendă neridicată de la poștă este considerată legal comunicată, fără dată certă și fără dovada că ai primit măcar avizul poștal. Riști să pierzi fără vină termenul de 15 zile pentru contestație sau plata la jumătate și să te trezești direct cu conturile poprite.",
+      "initiatorClaim": "Inițiatorii susțin că vor să coreleze legea contravențiilor cu Codul de procedură civilă, permițând trimiterea amenzilor la reședința cunoscută sau adresa aleasă și eliminând obligația dublei proceduri (poștă + afișare la domiciliu), pentru a reduce birocrația autorităților locale și a grăbi plata voluntară.",
+      "realityCheck": "În realitate, noul art. 27 alin. (3) depășește Codul de procedură civilă și consideră comunicarea îndeplinită prin simpla neprezentare la poștă în termenul de pe aviz, fără a preciza măcar data exactă de la care încep să curgă cele 15 zile pentru contestare în instanță sau plata la jumătate. În plus, rescrierea stângace a alin. (1) elimină expres mențiunea actuală privind afișarea procesului-verbal la sediul persoanelor juridice și creează ambiguitate asupra caracterului subsidiar al afișării.",
       "affectedGroups": [
         "Toți cetățenii",
         "Șoferi & Auto",
@@ -41,64 +69,38 @@
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 27 alin. (3) propus răstoarnă Decizia ÎCCJ nr. 10/2013 (Recurs în Interesul Legii), care stabilise obligatoriu că, în caz de neridicare a corespondenței de la oficiul poștal, autoritatea trebuie să afișeze procesul-verbal la domiciliu cu martor pentru ca sancțiunea să fie adusă efectiv la cunoștința cetățeanului.",
-        "Paradoxul plicului returnat: contrar afirmației din Expunerea de Motive că măsura ar încuraja „plata voluntară într-un timp mai scurt”, contravenientul care a ratat termenul poștal nu are fizic procesul-verbal (plicul fiind returnat sigilat instituției emitente), deci nu poate nici să achite jumătate din minimul amenzii în 15 zile (art. 28 OG 2/2001), nici să formuleze plângere motivată în instanță (art. 31 OG 2/2001).",
-        "Viciu de tehnică legislativă la Art. 27 alin. (3): textul prevede că procedura e îndeplinită „la data semnării (...) ori a consemnării refuzului (...) ori în cazul neprezentării la poștă (...) în termenul menționat pe avizul de primire”, fără să precizeze care este data exactă de la care curge termenul de 15 zile în a treia ipoteză (data avizării, ultima zi de păstrare sau data returnării plicului).",
-        "Omisiune la Art. 27 alin. (1): prin rescrierea textului, inițiatorii au eliminat sintagma „și a înștiințării de plată” din debutul articolului („Comunicarea procesului-verbal și a înștiințării de plată se face...”), creând o necorelare cu art. 14 alin. (1) și art. 25 alin. (3) din OG 2/2001."
+        "Art. 27 alin. (3) introduce ficțiunea comunicării la simpla neprezentare la oficiul poștal în termenul din aviz, eliminând în practică garanția afișării subsidiare (statuată de ICCJ prin Decizia RIL nr. 10/2013) și expunând cetățenii plecați sau cu avize rătăcite la executare silită fără știința lor.",
+        "Art. 27 alin. (3) suferă de un viciu grav de claritate: enunță că procedura se socotește îndeplinită „la data semnării... ori a consemnării... ori în cazul neprezentării la poștă”, fără a stabili ce dată calendaristică exactă marchează comunicarea în caz de neridicare (expirarea avizului, returnarea plicului sau mențiunea poștașului).",
+        "Art. 27 alin. (1) intercalează „ori prin afișare la domiciliul contravenientului” doar în teza privind persoanele fizice care nu locuiesc la domiciliu și omite complet afișarea la sediul persoanelor juridice, existentă în forma actuală a legii.",
+        "Expunerea de motive declară „Nu este cazul” la secțiunea privind impactul asupra drepturilor și libertăților fundamentale, ignorând complet că procesul-verbal necontestat în 15 zile devine direct titlu executoriu."
       ],
-      "blindSpotsCaught": "Inițiatorii invocă preluarea regulilor de citare din Codul de procedură civilă, însă ignoră diferența fundamentală de mecanism: la citarea civilă (art. 163 C.proc.civ.), după afișarea înștiințării, actul rămâne la dispoziția părții la sediul instanței pe tot parcursul procesului, pe când la trimiterea poștală cu aviz de primire, după expirarea termenului de păstrare, oficiul poștal returnează plicul expeditorului, lăsând destinatarul în imposibilitatea de a lua cunoștință de act chiar în momentul în care începe să-i curgă termenul de decădere de 15 zile.",
-      "constitutionalityNote": "Ridică serioase obiecții de neconstituționalitate raportat la Art. 1 alin. (5) (lipsa de previzibilitate privind ziua exactă de la care curge termenul de 15 zile în caz de neridicare), Art. 21 (accesul liber la justiție) și Art. 24 (dreptul la apărare). Curtea Constituțională și ÎCCJ au statuat constant că, întrucât procesul-verbal necontestat în 15 zile devine titlu executoriu, comunicarea nu poate rămâne o simplă ficțiune poștală fără ca actul să fie măcar afișat la domiciliu.",
-      "euLawNote": "Nu vizează Directiva (UE) 2018/958 sau procedura TRIS (2015/1535), însă intră sub incidența Art. 6 din CEDO și Art. 47 din Carta Drepturilor Fundamentale a UE: în jurisprudența CEDO (cauza Anghel c. României), materia contravențională este asimilată „acuzației în materie penală”, ceea ce obligă statul să garanteze dreptul efectiv (nu iluzoriu) al persoanei de a cunoaște acuzația și de a avea acces la o instanță înainte de executarea silită.",
+      "blindSpotsCaught": "Expunerea de motive afirmă că preia regulile din Codul de procedură civilă, dar omite un detaliu esențial: art. 165 pct. 2 C.proc.civ. prevede îndeplinirea procedurii prin poștă doar la data semnării confirmării sau a consemnării refuzului de primire, NU și la simpla neprezentare la poștă. Mai mult, în forma propusă a alin. (3), lipsa unei date certe de la care curge termenul de decădere de 15 zile va bloca instanțele în interpretări contradictorii, iar la alin. (1) dispare accidental posibilitatea afișării la sediul firmelor.",
+      "constitutionalityNote": "Proiectul prezintă riscuri serioase de neconstituționalitate față de art. 1 alin. (5) (lipsa de claritate și previzibilitate privind data exactă a comunicării în caz de neridicare și sintaxa defectuoasă a alin. 1), precum și față de art. 21 (accesul liber la justiție) și art. 24 (dreptul la apărare), raportate la art. 20 din Constituție și art. 6 CEDO. Întrucât materia contravențională este asimilată acuzațiilor penale în jurisprudența CEDO, instituirea unei prezumții absolute de comunicare fără dovada recepționării avizului și fără garanția subsidiară a afișării afectează disproporționat dreptul de a contesta sancțiunea în instanță.",
+      "euLawNote": "Proiectul reglementează o procedură internă de comunicare a contravențiilor și nu intră în domeniul de aplicare al Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate), al Directivei (UE) 2015/1535 (TRIS privind reglementări tehnice/servicii digitale) sau al regulilor pieței unice. Totuși, pentru sancțiunile aplicate în domenii cu incidență europeană (de exemplu, circulația rutieră transfrontalieră), lipsa unei notificări efective și previzibile poate intra în tensiune cu dreptul la o cale de atac efectivă garantat de art. 47 din Carta Drepturilor Fundamentale a UE.",
       "senatForm": {
-        "articleRef": "Articolul Unic, pct. 1 și pct. 2 (Art. 27)",
-        "proposalContent": "La pct. 1, alin. (1) să înceapă cu: „Comunicarea procesului-verbal și a înștiințării de plată se face...”. La pct. 2, eliminarea tezei finale din alin. (3) („ori în cazul neprezentării la poștă pentru ridicarea procesului-verbal în termenul menționat pe avizul de primire”) și menținerea obligației de afișare subsidiară în caz de neridicare.",
-        "argumentation": "Dacă plicul nu e ridicat în termenul de păstrare, Poșta îl returnează sigilat emitentului. Cetățeanul nu află conținutul procesului-verbal (avizul poștal nu indică fapta sau suma), pierzând atât dreptul de a plăti jumătate din minim în 15 zile, cât și dreptul de a-l contesta în instanță (Art. 21 și 24 Constituție, Decizia RIL ÎCCJ nr. 10/2013).",
-        "otherComments": "Alin. (3) este și imprevizibil (Art. 1 alin. 5 Constituție): în ipoteza neprezentării la poștă, nu stabilește data exactă de la care curge termenul de 15 zile (data avizării, data expirării păstrării sau data returnării). De asemenea, la alin. (1) a fost omisă sintagma „și a înștiințării de plată”, obligatorie conform art. 25 alin. (3) din OG 2/2001."
-      }
+        "articleRef": "Art. Unic, pct. 1-2 (art. 27 alin. 1 și 3)",
+        "proposalContent": "La alin. (1), se păstrează expres afișarea subsidiară și la sediul persoanelor juridice. La alin. (3), se elimină teza „ori în cazul neprezentării la poștă pentru ridicarea procesului-verbal în termenul menționat pe avizul de primire”, limitând comunicarea poștală la confirmarea de primire sau refuzul consemnat, conform art. 165 pct. 2 CPC.",
+        "argumentation": "Comunicarea fictivă la neridicarea de la poștă nu există în CPC, nu indică data certă a comunicării (art. 1 alin. 5 Constituție) și afectează accesul la justiție și apărare (art. 21, 24 Constituție, art. 6 CEDO). Fără dovada primirii avizului, cetățenii pot pierde fără culpă termenul de 15 zile pentru plângere și plata la jumătate.",
+        "otherComments": "Pentru eficientizarea comunicării fără a afecta dreptul la apărare, recomandăm introducerea comunicării electronice opționale (ex. prin SPV sau e-mail declarat) și păstrarea afișării subsidiare cu înregistrare audio-video din art. 27 alin. (2), conform Deciziei ICCJ (RIL) nr. 10/2013."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 180573,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Amenda contează ca primită chiar dacă nu ridici plicul de la poștă",
-      "verdictShort": "Ideea de simplificare e rezonabilă, dar textul e redactat neglijent. Amenda devine „comunicată” și când plicul rămâne neridicat la poștă, iar legea nu spune de când curg termenele. Fără câteva garanții, oamenii pot pierde dreptul de a contesta sau plata a jumătate din minim fără să fi văzut vreodată procesul-verbal.",
-      "initiatorClaim": "Inițiatorii vor să simplifice comunicarea amenzilor. Plicul ar putea merge la adresa unde omul chiar locuiește, iar procesul-verbal neridicat de la poștă ar fi considerat comunicat, fără afișare suplimentară la domiciliu. Ei spun că astfel amenzile s-ar plăti mai repede.",
-      "realityCheck": "Legea face două lucruri. Permite trimiterea plicului la reședința sau la adresa aleasă de contravenient. Declară procesul-verbal comunicat dacă plicul nu e ridicat de la poștă în termenul scris pe aviz, așa că autoritățile nu mai trebuie să afișeze actul și la domiciliu. Efectul secundar: termenele de 15 zile pentru plângere și pentru plata a jumătate din minim pot începe să curgă fără ca omul să fi văzut amenda, iar legea nu spune exact din ce zi. Redactarea alin. (1) e confuză: prevede afișarea „la domiciliu” tocmai pentru cei care nu locuiesc acolo. În plus, pare să scoată din text înștiințarea de plată și afișarea la sediul firmelor.",
-      "affectedGroups": [
-        "Toți cetățenii",
-        "Șoferi & Auto",
-        "Justiție & Drepturi Civile",
-        "IMM & Antreprenori"
-      ],
-      "keyFindings": [
-        "Art. unic pct. 2 (noul art. 27 alin. 3): plicul neridicat de la poștă în termenul de pe aviz echivalează cu comunicarea, dar textul nu spune la ce dată. Nu e clar dacă e ziua avizării sau ultima zi a termenului. De această dată depind cele 15 zile pentru plângere (art. 31) și cele 15 zile pentru plata a jumătate din minim (art. 28).",
-        "Art. unic pct. 1 (art. 27 alin. 1): sintagma „ori prin afișare la domiciliul contravenientului” apare în fraza despre cei care nu locuiesc la domiciliu, deci prevede afișarea tocmai unde omul nu locuiește. Nu e clar nici dacă afișarea rămâne subsidiară poștei, cum a stabilit ÎCCJ prin RIL nr. 10/2013. Afișarea la sediul persoanelor juridice dispare din text.",
-        "Tot pct. 1: trimiterea la „reședința cunoscută” sau la „locul ales” ajută cu adevărat pe cei care nu stau la adresa din buletin. Totuși, agentul nu e obligat să verifice reședința în evidența populației, iar legea nu spune cum își alege omul adresa. Combinată cu ficțiunea din alin. (3), această protecție depinde de bunăvoința agentului.",
-        "Efectul util: dispare dublarea poștă plus afișare pentru plicurile neridicate. Primăriile și poliția economisesc deplasări și martori, iar amenzile se încasează mai repede. Legea nu creează taxe, amenzi sau obligații noi pentru cetățeni ori IMM-uri.",
-        "Tehnică legislativă: când alin. (1) e înlocuit integral, formula corectă este „se modifică”, nu „se completează”. Titlul omite cuvântul „Guvernului” din denumirea OG nr. 2/2001."
-      ],
-      "blindSpotsCaught": "Expunerea de motive spune că preia regulile de citare din Codul de procedură civilă, dar preia doar ficțiunea de comunicare, nu și garanțiile. În procesul civil, partea știe de regulă că are un litigiu. În materie contravențională, procesul-verbal e adesea încheiat în lipsă (de pildă pe baza camerelor sau prin constatări ulterioare), așa că omul nu are de ce să aștepte un plic. În plus, „termenul menționat pe avizul de primire” nu e fixat de lege, ci de regulile operatorului poștal. Nici cazul „destinatar mutat sau necunoscut”, când nu se lasă aviz, nu e reglementat. Forma în vigoare a art. 27 se referă și la înștiințarea de plată, iar noul alin. (1) o omite. Dacă nu e reluată în alt alineat, comunicarea înștiințării de plată rămâne fără regulă.",
-      "constitutionalityNote": "Procedural, propunerea e corect încadrată. Este lege ordinară (art. 76 alin. 2), cu Senatul primă cameră sesizată și Camera Deputaților cameră decizională (art. 75), iar avizul Consiliului Legislativ e obligatoriu. Pe fond, o ficțiune de comunicare nu e neconstituțională în sine, fiindcă și Codul de procedură civilă are soluții similare. Totuși, contravențiile intră în „materia penală” în sensul art. 6 CEDO (Anghel c. România, 2007), aplicabil prin art. 20 din Constituție, deci garanțiile trebuie să fie reale. Alin. (3) nu stabilește data comunicării pentru plicul neridicat și lasă durata termenului la latitudinea operatorului poștal. Alin. (1) are o construcție gramaticală echivocă. Ambele probleme țin de calitatea legii (art. 1 alin. 5) și pot afecta accesul liber la justiție (art. 21) și dreptul la apărare (art. 24). Art. 23 alin. (12) nu este afectat, pentru că propunerea nu creează sancțiuni noi.",
-      "euLawNote": "Propunerea nu reglementează o profesie, deci Directiva (UE) 2018/958 nu se aplică. Nu conține reguli tehnice și nici cerințe pentru servicii ale societății informaționale, deci nu trebuie notificată prin TRIS (Directiva 2015/1535). Textul folosește termeni neutri („poștă”, „funcționar poștal”) și nu favorizează un anumit operator, ceea ce e compatibil cu piața liberalizată a serviciilor poștale (Directiva 97/67/CE). Dovezile emise de curierii privați ar trebui tratate la fel ca cele ale Poștei. Nu are efecte asupra concurenței. Când OG 2/2001 servește la sancționarea unor obligații din dreptul UE, de pildă în protecția consumatorilor, se aplică și art. 47 din Carta drepturilor fundamentale (dreptul la o cale de atac efectivă). În aceste cazuri, o dată certă a comunicării devine și mai importantă.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 2 – art. 27 alin. (3) OG 2/2001",
-        "proposalContent": "(3) În cazul comunicării prin poștă, procedura se socotește îndeplinită la data semnării confirmării de primire, la data consemnării refuzului de către funcționarul poștal ori, dacă trimiterea nu este ridicată, la împlinirea termenului de 10 zile de la data avizării, consemnată pe aviz. Avizul lăsat destinatarului menționează termenul și efectele neridicării.",
-        "argumentation": "Textul inițiatorului nu fixează data comunicării când plicul nu e ridicat, iar termenul de ridicare ar fi stabilit de operatorul poștal, nu de lege. De această dată depind termenul de 15 zile pentru plângere (art. 31) și plata a jumătate din minim (art. 28). Fără dată certă și avertizare pe aviz, textul riscă să încalce art. 1 alin. (5) și art. 21 din Constituție.",
-        "otherComments": "La alin. (1): reintroduceți „și a înștiințării de plată”, prezentă în forma în vigoare; afișarea să rămână subsidiară poștei (ICCJ, RIL nr. 10/2013) și posibilă la sediul persoanei juridice; locul ales se indică în scris de contravenient. Merită menționată expres repunerea în termen (art. 186 C.proc.civ.)."
-      }
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 98000,
+      "durationMs": 78196,
+      "sourceEndMarker": "SF-6C4FEFCC",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Amenda poate fi considerată comunicată chiar dacă nu ridici plicul",
-      "verdictShort": "Comunicarea la adresa aleasă este utilă, dar echivalarea neridicării plicului cu o comunicare îndeplinită creează un risc serios pentru contestarea amenzii. Forma inițiatorului necesită corectarea acestei reguli și clarificarea procedurii.",
-      "initiatorClaim": "Inițiatorii urmăresc comunicarea proceselor-verbale la reședința cunoscută sau la adresa aleasă și reducerea întârzierilor administrative. Ei susțin că eliminarea afișării după neridicarea corespondenței ar accelera conformarea și plata amenzilor.",
-      "realityCheck": "Art. 27 alin. (1) propus diversifică adresele de comunicare, însă nu stabilește suficient cum sunt identificate și dovedite. Noul alin. (3) consideră comunicarea îndeplinită inclusiv prin neridicarea trimiterii, fără să precizeze expres data comunicării în această ipoteză sau garanțiile privind avizarea. Coroborat cu art. 28 și 31 din OG nr. 2/2001, mecanismul poate declanșa termenele de 15 zile pentru plata redusă și plângere fără primirea procesului-verbal. [OG nr. 2/2001](https://legislatie.just.ro/Public/DetaliiDocument/284399)",
+      "plainTitle": "Amenzi considerate comunicate chiar dacă nu ridici scrisoarea",
+      "verdictShort": "Proiectul permite declanșarea termenelor pentru contestarea amenzii și plata redusă prin simpla neridicare a corespondenței. Lipsa unor garanții clare privind avizarea și data comunicării creează un risc serios pentru exercitarea dreptului la apărare.",
+      "initiatorClaim": "Inițiatorii urmăresc comunicarea la adresa unde persoana locuiește efectiv sau la adresa aleasă și simplificarea procedurilor administrative. Ei susțin că eliminarea afișării după neridicarea corespondenței va scurta procedurile și va încuraja plata voluntară.",
+      "realityCheck": "Articolul unic pct. 1 introduce adrese alternative pentru persoanele fizice și precizează sediile relevante pentru persoanele juridice. Pct. 2 permite considerarea comunicării ca îndeplinită inclusiv prin neridicarea trimiterii, fără să stabilească explicit data exactă a acestui efect sau garanțiile avizării. Astfel, termene importante pot curge fără cunoașterea efectivă a procesului-verbal, iar afișarea ulterioară poate deveni inutilă juridic.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Șoferi & Auto",
@@ -106,21 +108,45 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 27 alin. (3): refuzul expres și neprezentarea la poștă au semnificații diferite. ÎCCJ nr. 10/2013 admite comunicarea prin refuz expres consemnat, dar cere afișarea subsidiară după neridicarea corespondenței. Proiectul schimbă această soluție; simpla diferență față de interpretarea legii actuale nu dovedește automat neconstituționalitatea. [Decizia ÎCCJ nr. 10/2013](https://legislatie.just.ro/Public/DetaliiDocumentAfis/150021)",
-        "Art. 27 alin. (1): lipsesc procedura alegerii adresei, dovada faptului că persoana nu locuiește la domiciliu și criteriile comunicării la sediul unui dezmembrământ. Redactarea face neclară și ordinea comunicării poștale și afișării, inclusiv pentru persoanele juridice. Consiliul Legislativ a semnalat aceste deficiențe și a criticat soluția privind neridicarea trimiterii. [Avizul Consiliului Legislativ](https://www.senat.ro/Legis/PDF/2025/25L625LG.pdf?nocache=true)",
-        "Art. 37 din OG nr. 2/2001: procesul-verbal neatacat în termen constituie titlu executoriu. Comunicarea prezumată poate astfel conduce la executare fără contestarea prealabilă, chiar dacă destinatarul nu a primit actul. [OG nr. 2/2001](https://legislatie.just.ro/Public/DetaliiDocument/284399)",
-        "Proiectul nu introduce taxe sau amenzi noi. Poate reduce costurile autorităților cu afișarea, dar poate transfera către cetățeni și IMM-uri costuri de litigiu și riscul pierderii plății reduse; acestea sunt efecte potențiale, necuantificate în expunerea de motive.",
-        "Analiza privește forma inițiatorului. Fișa Camerei consemnează respingerea de către Senat la 25 februarie 2026 și depunerea unui raport de respingere al Comisiei juridice la 19 mai 2026; raportul nu reprezintă singur respingerea definitivă de către Camera Deputaților. [Fișa Pl-x 113/2026](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?idp=23042)"
+        "Articolul unic pct. 2: actualul art. 27 nu echivalează expres neridicarea trimiterii cu îndeplinirea comunicării. Noul alin. (3) introduce această regulă, cu efecte asupra destinatarilor absenți temporar sau avizați defectuos.",
+        "Comunicarea declanșează, potrivit regulilor generale din OG nr. 2/2001, termenul de 15 zile pentru plângere și termenul de 15 zile pentru plata a jumătate din minimul amenzii. Procesul-verbal neatacat în termen devine titlu executoriu; proiectul nu majorează însă amenzile.",
+        "Noul alin. (3) nu precizează expres că, pentru neridicare, data comunicării este data expirării termenului poștal. Nu fixează durata acestuia, condițiile avizării ori dovada lăsării avizului și confundă funcțional avizul de primire cu înștiințarea pentru ridicarea trimiterii.",
+        "Articolul unic pct. 1: acum afișarea este prevăzută expres atât la domiciliu, cât și la sediu. Textul propus menționează expres afișarea numai la domiciliul contravenientului, lăsând neclară aplicarea ei persoanelor juridice; nici ordinea adreselor alternative nu este suficient precizată.",
+        "Martorul la afișare există deja în lege. Excepția pentru afișarea înregistrată audio-video, prevăzută de art. 27 alin. (2), rămâne în vigoare: proiectul nu o abrogă.",
+        "Autoritățile pot economisi cheltuieli cu afișarea, iar comunicarea la reședința cunoscută poate fi utilă. Cetățenii și IMM-urile suportă însă riscul unor contestații suplimentare și al pierderii plății reduse; expunerea de motive nu cuantifică aceste efecte și declară nejustificat lipsa impactului asupra drepturilor."
       ],
-      "blindSpotsCaught": "Textul confundă avizul de primire, care dovedește primirea, cu înștiințarea privind ridicarea trimiterii și termenul de păstrare. Nu reglementează expres dovada avizării și nici momentul exact al comunicării prin neprezentare. Totodată, alin. (2) existent rămâne aplicabil: înregistrarea audio-video a afișării permite lipsa semnăturii martorului; proiectul nu elimină această excepție. [Art. 27 în vigoare](https://legislatie.just.ro/Public/DetaliiDocument/284399)",
-      "constitutionalityNote": "Există vulnerabilități prin art. 1 alin. (5), privind claritatea și previzibilitatea, și prin art. 21 și 24, privind accesul efectiv la justiție și apărarea. CCR nr. 424/2014 a justificat constituționalitatea regimului analizat atunci inclusiv prin afișarea subsidiară după neridicarea corespondenței; eliminarea acestei garanții necesită o justificare și protecții adecvate. Art. 23 alin. (12) privește legalitatea pedepselor: proiectul nu definește contravenții sau sancțiuni noi, astfel că problema principală este procedurală. Acestea sunt riscuri de neconstituționalitate, nu o constatare a neconstituționalității proiectului. [Decizia CCR nr. 424/2014](https://legislatie.just.ro/Public/DetaliiDocument/160455), [Constituția României](https://www.cdep.ro/pls/dic/site.page?den=act2_1&par1=2)",
-      "euLawNote": "Nu rezultă monopoluri, privilegii concurențiale sau bariere sectoriale din text. Directiva (UE) 2018/958 nu este aplicabilă: privește restricțiile privind accesul la profesii reglementate și exercitarea lor. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este incidentă: proiectul nu introduce reglementări tehnice pentru produse sau norme specifice serviciilor societății informaționale și nu reglementează servicii digitale ori AI. Aceste concluzii privesc domeniul directivelor, fără a înlătura cerința generală a unei proceduri proporționale. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32018L0958), [Comisia Europeană – domeniul TRIS](https://technical-regulation-information-system.ec.europa.eu/en/faq)",
+      "blindSpotsCaught": "Decizia ÎCCJ nr. 10/2013 distinge refuzul expres de primire de simpla neridicare și stabilește caracterul subsidiar al afișării față de comunicarea poștală. Proiectul schimbă legislativ această soluție pentru neridicare; modificarea este posibilă în principiu, dar necesită garanții adecvate. Textul se încheie fără dispoziții tranzitorii speciale și fără alte modificări sau abrogări; nu rezultă o autorizare de redeschidere retroactivă a termenelor expirate.",
+      "constitutionalityNote": "Problema principală privește art. 1 alin. (5), art. 21 și art. 24 din Constituție: destinatarul trebuie să poată prevedea momentul comunicării și să aibă o posibilitate efectivă de contestare. Comunicarea prezumată nu este automat neconstituțională, însă echivalarea neridicării cu informarea, fără condiții clare privind avizarea, ridică un risc substanțial. Repunerea în termen, în condițiile dreptului comun aplicabil prin art. 47 din OG nr. 2/2001, rămâne posibilă, dar presupune demersuri și justificări suplimentare. Art. 23 alin. (12) nu este temeiul central: proiectul nu instituie contravenții ori sancțiuni noi.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor care restrâng accesul la profesii reglementate sau exercitarea acestora; proiectul nu intră, prin obiectul său, în acest domeniu. Nu introduce reglementări tehnice pentru produse ori reguli privind servicii ale societății informaționale, astfel că nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu creează monopoluri sau bariere profesionale. Dacă sancțiunea concretă intră în domeniul dreptului UE, procedura trebuie să respecte protecția jurisdicțională efectivă, inclusiv art. 47 din Carta drepturilor fundamentale.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 2 – art. 27 alin. (3)",
-        "proposalContent": "(3) Comunicarea prin poștă este îndeplinită la data semnării confirmării de primire de către destinatar sau persoana îndreptățită legal ori a consemnării refuzului expres de primire într-un proces-verbal al funcționarului poștal. Neprezentarea la poștă nu echivalează cu refuzul; în acest caz se procedează la afișare, potrivit alin. (1) și (2).",
-        "argumentation": "Neridicarea trimiterii poate avea cauze obiective și nu dovedește refuzul primirii. Echivalarea lor poate declanșa termenele de contestare și de plată redusă fără o informare adecvată. Textul păstrează distincția din Decizia ÎCCJ nr. 10/2013 și garantează o etapă suplimentară de comunicare.",
-        "otherComments": "La alin. (1), precizați dovada reședinței și a adresei alese, ordinea comunicărilor și aplicarea afișării subsidiare inclusiv persoanelor juridice. Clarificați primirea prin reprezentant și criteriile comunicării la sedii secundare. Păstrați excepția de la martor prevăzută la alin. (2)."
-      }
+        "articleRef": "Articolul unic pct. 2 – art. 27 alin. (3)",
+        "proposalContent": "(3) În cazul comunicării prin poștă, procedura este îndeplinită la data semnării confirmării de primire de către destinatar sau persoana îndreptățită ori a consemnării de către funcționarul poștal a refuzului expres de primire. Neridicarea trimiterii nu echivalează cu refuzul; în acest caz, comunicarea se face prin afișare potrivit alin. (1) și (2).",
+        "argumentation": "Simpla neridicare nu dovedește informarea sau refuzul. Comunicarea declanșează termenele de 15 zile pentru plângere și plata redusă; o prezumție fără garanții poate împiedica exercitarea acestor drepturi. Soluția păstrează refuzul expres și afișarea subsidiară, în acord cu Decizia ÎCCJ nr. 10/2013.",
+        "otherComments": "La alin. (1), trebuie păstrată expres afișarea și la sediul persoanei juridice și precizată ordinea adreselor alternative. Alin. (2), privind înregistrarea audio-video, rămâne aplicabil. Analiza privește forma inițiatorului furnizată; sursele externe și eventualele amendamente ulterioare nu au putut fi verificate online."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T00:14:14.591Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 8,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:22:05.671Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

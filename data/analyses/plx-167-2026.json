@@ -2,119 +2,175 @@
   "billId": "Pl-x 167/2026",
   "slug": "plx-167-2026",
   "version": "camera",
-  "updatedAt": "2026-10-29T10:01:59.548Z",
+  "updatedAt": "2026-11-24T15:08:29.263Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "camera",
+    "billChars": 1042,
+    "ordinanceChars": 0,
+    "memoChars": 3520,
+    "memoSupplied": 3520,
+    "marker": "SF-6C3B01B6"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-167-2026.json",
+    "form": "camera",
+    "textHash": "6c3b01b6a38c0077",
+    "fetchedAt": "2026-11-19T11:21:00.892Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1744,
+    "truncated": false,
+    "included": true,
+    "key": "e90d2ffda2212301"
+  },
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Referendumul pentru comasarea sau separarea comunelor ar fi valabil de la 20% prezență, nu de la 30%",
-    "summaryTlDr": "Schimbarea este rezonabilă și merge în direcția recomandată de Comisia de la Veneția, dar e scrisă neglijent. Derogarea generică de la „art. 5” din Legea nr. 3/2000 lasă neclar dacă mai contează pragul de validare de 25% din înscriși, iar de asta depinde dacă legea chiar coboară pragul la 20%.",
-    "initiatorClaim": "Inițiatorii spun că depopularea, migrația și absenteismul fac ca referendumurile locale pentru comasarea localităților să eșueze la pragul de participare. Un prag de 20% ar da greutate votului celor care participă și ar reduce fragmentarea administrativă.",
-    "realityCheck": "Legea schimbă un singur lucru: prezența minimă la referendumul local pentru modificarea limitelor UAT (art. 95 alin. 4 din Codul administrativ) scade de la 30% la 20% din înscrișii în listele electorale permanente. Nu creează niciun stimulent pentru comasare, iar pragul redus se aplică la fel și separărilor de sate în comune noi. Pragul de validare de 25% din art. 5 alin. (3) nu este menționat explicit. Dacă rămâne în vigoare, pragul efectiv coboară doar spre 25%, nu la 20%.",
+    "plainTitle": "Referendumul local pentru unirea sau separarea comunelor și orașelor ar fi valabil cu doar 20% prezență la vot",
+    "summaryTlDr": "Scopul de a debloca comasările voluntare e legitim, dar textul are o derogare vagă de la „art. 5” din Legea 3/2000. Aceasta fie face pragul de 20% inutil, fie elimină complet pragul de validare a rezultatului. În plus, nu are nicio regulă de tranziție, deși regulile unui referendum nu ar trebui schimbate cu puțin înainte de vot.",
+    "initiatorClaim": "Inițiatorii spun că depopularea și absenteismul blochează referendumurile locale pentru alipirea localităților. Coborârea pragului de participare la 20% ar facilita comasarea voluntară și ar reduce fragmentarea administrativă și costurile.",
+    "realityCheck": "Proiectul adaugă un singur alineat, art. 95 alin. (5) din Codul administrativ. Pentru orice referendum local privind înființarea, reînființarea sau reorganizarea UAT, pragul de prezență scade de la 30% (art. 5 Legea 3/2000) la 20%. Textul nu spune ce se întâmplă cu pragul de validare a rezultatului (25% opțiuni valabile din cei înscriși): dacă rămâne, un referendum cu 20–24% prezență e valabil, dar rezultatul nu poate fi validat matematic. Pe lângă comasări, textul ușurează la fel și desprinderea satelor și înființarea de noi comune, adică exact fragmentarea pe care motivarea pretinde că o combate.",
     "affectedGroups": [
       "Toți cetățenii",
-      "Proprietari & Imobiliare",
-      "Justiție & Drepturi Civile"
+      "Justiție & Drepturi Civile",
+      "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – art. 95 alin. (5) Cod administrativ",
-      "proposalContent": "„(5) Prin derogare de la art. 5 alin. (2) și (3) din Legea nr. 3/2000, cu modificările și completările ulterioare, referendumul prevăzut la alin. (4) este valabil dacă participă cel puțin 20% din persoanele înscrise în listele electorale permanente, iar rezultatul este validat dacă opțiunile valabil exprimate reprezintă cel puțin 15% din numărul acestora.”",
-      "argumentation": "Textul derogă generic de la „art. 5” și coboară doar pragul de participare. Dacă rămâne pragul de validare de 25% din înscriși (art. 5 alin. 3), un referendum cu 20–24% prezență e valabil, dar rezultatul nu poate fi validat. Dacă derogarea acoperă tot art. 5, dispare orice prag de validare. Precizarea alineatelor asigură claritatea (art. 1 alin. 5 Constituție).",
-      "otherComments": "Corectați „Legea 3/2000” în „Legea nr. 3/2000” (Legea nr. 24/2000). Pragul se aplică oricărei modificări de limite, inclusiv desprinderii de sate în comune noi, deci poate crește fragmentarea invocată. Recomandăm aplicarea doar referendumurilor convocate la cel puțin un an după intrarea în vigoare (Codul de bune practici al Comisiei de la Veneția)."
+      "articleRef": "Art. I – art. 95 alin. (5) OUG 57/2019",
+      "proposalContent": "(5) Prin derogare de la art. 5 alin. (2) și (3) din Legea nr. 3/2000, referendumul prevăzut la alin. (4) este valabil dacă participă cel puțin 20% din persoanele înscrise în listele electorale permanente, iar rezultatul e validat dacă opțiunile valabil exprimate reprezintă cel puțin 15% din acestea.",
+      "argumentation": "Textul derogă vag de la „art. 5” din Legea 3/2000. Dacă rămâne pragul de validare de 25% din înscriși, un referendum cu 20–24% prezență e valabil, dar rezultatul nu poate fi validat. Dacă derogarea vizează tot art. 5, dispare orice prag de validare. Indicarea alineatelor înlătură ambiguitatea (art. 1 alin. 5 Constituție).",
+      "otherComments": "Recomandăm: aplicarea doar referendumurilor stabilite la cel puțin un an după intrarea în vigoare (Comisia de la Veneția, CCR Dec. 334/2013); adoptarea ca lege organică (art. 73 alin. 3 lit. d); precizarea că pragul se aplică și separării sau reînființării UAT, nu doar comasării invocate în motivare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 57620,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 109582,
+      "sourceEndMarker": "SF-6C3B01B6",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Scăderea la 20% a prezenței minime la referendumul local pentru modificarea granițelor comunelor și orașelor",
-      "verdictShort": "Intenția de a debloca comasarea voluntară a comunelor depopulate este justificată demografic, însă textul adoptat tacit de Camera Deputaților conține o eroare tehnică majoră: scade pragul de prezență la 20%, dar uită de pragul de 25% voturi valide din Legea 3/2000, făcând legea contradictorie și vulnerabilă la CCR.",
-      "initiatorClaim": "Inițiatorii susțin că depopularea și migrația împiedică atingerea pragului actual de prezență de 30% la referendumurile locale pentru comasarea voluntară a localităților, fiind necesară reducerea pragului la 20% din listele electorale permanente.",
-      "realityCheck": "Textul modifică art. 95 din Codul administrativ pentru ORICE modificare de limite teritoriale (nu doar comasări voluntare, ci și dezlipiri sau mutări de terenuri/sate între UAT-uri). Mai grav, derogă generic de la art. 5 din Legea 3/2000 doar pentru condiția de „valabilitate” (prezență de 20%), ignorând că art. 5 alin. (3) din Legea 3/2000 cere încă un prag de 25% opțiuni valabil exprimate pentru „validarea rezultatului”.",
+      "plainTitle": "Prag de prezență redus la 20% pentru referendumurile privind limitele localităților, cu o contradicție juridică majoră",
+      "verdictShort": "Scopul de a debloca comasările voluntare de localități este legitim, dar textul adoptat tacit de Camera Deputaților conține un viciu grav de corelare cu Legea referendumului și un risc serios de neconstituționalitate pe competența Camerelor. În plus, pragul redus se aplică și ruperii de localități sau modificării limitelor de județe, nu doar comasărilor invocate de inițiatori.",
+      "initiatorClaim": "Inițiatorii susțin că pragul actual de prezență de 30% blochează comasarea voluntară a localităților depopulate din cauza absenteismului și propun reducerea acestuia la 20% pentru a eficientiza administrația locală.",
+      "realityCheck": "În realitate, noul art. 95 alin. (5) din Codul administrativ derogă generic de la „art. 5 din Legea 3/2000” stabilind un prag de prezență de 20%, dar nu reglementează ce se întâmplă cu pragul de validare de 25% opțiuni valabil exprimate din art. 5 alin. (3) al aceleiași legi — generând fie un blocaj matematic, fie eliminarea totală a pragului de validare. De asemenea, derogarea acoperă toate situațiile din art. 95 alin. (4) (inclusiv înființarea de noi comune sau modificarea limitelor orașelor și județelor), deși garanția finală a adoptării prin lege în Parlament rămâne în vigoare.",
       "affectedGroups": [
         "Toți cetățenii",
-        "Proprietari & Imobiliare",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Proprietari & Imobiliare"
       ],
       "keyFindings": [
-        "Conflict normativ direct cu art. 5 alin. (3) din Legea nr. 3/2000: noul art. 95 alin. (5) scade la 20% pragul de participare (reglementat de art. 5 alin. 2 din Legea 3/2000), dar nu reglementează ce se întâmplă cu pragul de validare a rezultatului de 25% din totalul înscrișilor pe liste (art. 5 alin. 3 din Legea 3/2000). Dacă alin. (3) rămâne aplicabil, o prezență de 20%-24% nu poate produce 25% voturi valide; dacă este înlăturat implicit, dispare orice prag de opțiuni valabil exprimate.",
-        "Efect mai larg decât cel declarat în Expunerea de Motive: deși inițiatorii invocă exclusiv „comasarea voluntară” a localităților, art. 95 alin. (4) din OUG 57/2019 vizează orice modificare a limitelor teritoriale (inclusiv cedarea unor zone industriale/imobiliare între UAT-uri sau scindarea unei comune), care ar putea fi decisă cu votul a doar 10% + 1 din alegătorii înscriși pe liste.",
-        "Deficiență de tehnică legislativă în interiorul art. 95 din OUG 57/2019: referendumul pentru modificarea limitelor teritoriale este menționat atât la alin. (1), cât și la alin. (4) ale art. 95, însă derogarea propusă la alin. (5) face trimitere exclusiv la alin. (4)."
+        "Contradicție normativă în raport cu art. 5 alin. (3) din Legea nr. 3/2000: noul art. 95 alin. (5) derogă generic de la „art. 5” și coboară prezența minimă de la 30% la 20%, dar tace asupra pragului de validare (25% opțiuni valabil exprimate). Dacă alin. (3) rămâne aplicabil, un referendum cu prezență între 20% și 24,99% este matematic imposibil de validat; dacă este înlăturat integral, dispare orice prag de validare și regula majorității.",
+        "Sferă mai largă decât pretextul din expunerea de motive: deși inițiatorii invocă exclusiv comasarea comunelor depopulate, art. 95 alin. (4) din OUG nr. 57/2019 (nemodificat) include „înființarea, reînființarea sau reorganizarea” tuturor UAT-urilor (comune, orașe, municipii și județe). Pragul de 20% ar facilita inclusiv divizarea unor localități (fragmentare administrativă).",
+        "Viciu de procedură bicamerală (art. 75 din Constituție): proiectul modifică prin derogare regulile referendumului (lege organică potrivit art. 73 alin. (3) lit. d), unde Camera Deputaților este decizională), dar a fost introdus în Codul administrativ (art. 73 alin. (3) lit. o), unde Senatul este decizional) și adoptat tacit în Camera Deputaților fără dezbatere.",
+        "Impact administrativ și garanții păstrate: modificarea nu elimină obligația consultării locale și nici condiția ca reorganizarea teritorială să se facă numai prin lege adoptată de Parlament (art. 95 alin. (4) rămâne în vigoare), însă nu clarifică expres dacă pragul de 20% trebuie atins distinct în fiecare UAT afectat."
       ],
-      "blindSpotsCaught": "Proiectul a trecut tacit de Camera Deputaților fără raport de fond, motiv pentru care nimeni nu a observat capcana dublului cvorum din art. 5 al Legii nr. 3/2000 (30% prezență la alin. 2 + 25% voturi valabil exprimate la alin. 3). În plus, derogarea de la legea organică a referendumului (Legea 3/2000, art. 5 și art. 13-14) se face impropriu printr-un alineat în Codul administrativ, fără corelarea cu Legea nr. 351/2001.",
-      "constitutionalityNote": "Risc ridicat de neconstituționalitate prin raportare la art. 1 alin. (5) din Constituție (principiul legalității, clarității și previzibilității legii), întrucât lasă incertă aplicabilitatea cvorumului de 25% opțiuni valabil exprimate prevăzut de art. 5 alin. (3) din Legea nr. 3/2000. De asemenea, vizând regimul referendumului (art. 73 alin. 3 lit. d din Constituție), legea are caracter organic și necesită adoptarea cu majoritatea prevăzută de art. 76 alin. (1).",
-      "euLawNote": "Nu încalcă dreptul UE și nu intră sub incidența Directivei (UE) 2018/958 sau a procedurii TRIS (Directiva 2015/1535). Organizarea administrativ-teritorială ține de competența exclusivă a statelor membre, cu respectarea principiului consultării comunităților locale prevăzut de art. 5 din Carta europeană a autonomiei locale.",
+      "blindSpotsCaught": "Derogarea nediferențiată de la întregul „art. 5 din Legea 3/2000” (fără a indica alin. (2) și fără a corela alin. (3) – pragul de 25% opțiuni valabil exprimate) creează un blocaj de aplicare imediată sau un vid juridic privind validarea rezultatului. Totodată, „camuflarea” unei norme de referendum (art. 73 alin. (3) lit. d)) într-un articol din Codul administrativ (lit. o)) inversează ordinea constituțională a Camerelor (art. 75 alin. (1)), dublată de adoptarea tacită în Camera Deputaților și de crearea unei reglementări paralele contrare Legii nr. 24/2000 privind tehnica legislativă.",
+      "constitutionalityNote": "Proiectul prezintă două vulnerabilități serioase la CCR: (1) încălcarea art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), din cauza derogării imprecise de la întregul art. 5 al Legii nr. 3/2000, care lasă neclară soarta pragului de validare de 25% și a regulii de adoptare; (2) încălcarea art. 75 alin. (1), (4) și (5) raportat la art. 73 alin. (3) lit. d) și o), deoarece normele privind desfășurarea referendumului intră în competența decizională a Camerei Deputaților, nu a Senatului, iar neaplicarea mecanismului de întoarcere a legii poate atrage neconstituționalitatea extrinsecă. Pe fond, reducerea pragului de prezență nu contravine în sine art. 2 sau art. 120 din Constituție.",
+      "euLawNote": "Organizarea administrativ-teritorială internă și regulile referendumurilor locale țin de competența exclusivă a statelor membre (art. 4 alin. (2) TUE). Proiectul nu afectează piața unică și nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) sau a Directivei (UE) 2015/1535 (TRIS – servicii digitale/reglementări tehnice). Ca reper european de soft law, Codul de bune practici în materie de referendum al Comisiei de la Veneția descurajează pragurile ridicate de prezență (care stimulează boicotul), dar cere reguli clare și lipsite de ambiguitate.",
       "senatForm": {
-        "articleRef": "Articol unic - Art. 95 alin. (5) din OUG 57/2019",
-        "proposalContent": "„(5) Prin derogare de la prevederile art. 5 alin. (2) și (3) din Legea nr. 3/2000, referendumul prevăzut la alin. (1) și (4) este valabil dacă la acesta participă cel puțin 20% din persoanele înscrise în listele electorale permanente, iar rezultatul este validat dacă opțiunile valabil exprimate reprezintă cel puțin 15% din cei înscriși pe aceste liste.”",
-        "argumentation": "Art. 5 din Legea 3/2000 prevede două praguri cumulative: 30% prezență pentru valabilitate (alin. 2) și 25% opțiuni valabil exprimate pentru validarea rezultatului (alin. 3). Scăderea pragului de prezență la 20% fără corelarea alin. (3) face norma inaplicabilă (20% prezență nu poate atinge 25% voturi valide) sau neclară, încălcând art. 1 alin. (5) din Constituție.",
-        "otherComments": "De asemenea, trimiterea trebuie făcută atât la alin. (1), cât și la alin. (4) ale art. 95 din OUG 57/2019, ambele reglementând referendumul pentru modificarea limitelor teritoriale ale UAT. Suplimentar, este necesar avizul Consiliului Legislativ privind corelarea cu art. 13-14 din Legea nr. 3/2000, lege organică sediu al materiei."
-      }
+        "articleRef": "Art. unic (art. 95 alin. (5) din OUG 57/2019)",
+        "proposalContent": "„(5) Prin derogare de la art. 5 alin. (2) și (3) din Legea nr. 3/2000, referendumul de la alin. (4) pentru comasarea UAT-urilor este valabil dacă participă cel puțin 20% din alegătorii înscriși pe listele permanente din fiecare UAT, iar rezultatul se validează dacă opțiunile valabil exprimate reprezintă cel puțin 15% din cei înscriși.”",
+        "argumentation": "Forma actuală derogă generic de la art. 5 din Legea nr. 3/2000 fără a corela pragul de prezență (20%) cu cel de validare din art. 5 alin. (3) (25%), creând un blocaj matematic sau un vid de validare (art. 1 alin. (5) Constituție). Totodată, limitarea la comasări și verificarea pragului în fiecare UAT previn fragmentarea administrativă.",
+        "otherComments": "Atenție la art. 75 alin. (1), (4) și (5) din Constituție: derogarea de la Legea nr. 3/2000 vizează regimul referendumului (art. 73 alin. (3) lit. d)), unde Camera Deputaților este decizională. Recomandăm retrimiterea la Camera Deputaților sau modificarea directă a Legii nr. 3/2000 pentru a evita neconstituționalitatea și reglementările paralele."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 125935,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Referendumul pentru comasarea sau separarea comunelor ar fi valabil de la 20% prezență, nu de la 30%",
-      "verdictShort": "Schimbarea este rezonabilă și merge în direcția recomandată de Comisia de la Veneția, dar e scrisă neglijent. Derogarea generică de la „art. 5” din Legea nr. 3/2000 lasă neclar dacă mai contează pragul de validare de 25% din înscriși, iar de asta depinde dacă legea chiar coboară pragul la 20%.",
-      "initiatorClaim": "Inițiatorii spun că depopularea, migrația și absenteismul fac ca referendumurile locale pentru comasarea localităților să eșueze la pragul de participare. Un prag de 20% ar da greutate votului celor care participă și ar reduce fragmentarea administrativă.",
-      "realityCheck": "Legea schimbă un singur lucru: prezența minimă la referendumul local pentru modificarea limitelor UAT (art. 95 alin. 4 din Codul administrativ) scade de la 30% la 20% din înscrișii în listele electorale permanente. Nu creează niciun stimulent pentru comasare, iar pragul redus se aplică la fel și separărilor de sate în comune noi. Pragul de validare de 25% din art. 5 alin. (3) nu este menționat explicit. Dacă rămâne în vigoare, pragul efectiv coboară doar spre 25%, nu la 20%.",
+      "durationMs": 47614,
+      "sourceEndMarker": "SF-6C3B01B6",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Referendumul local pentru unirea sau separarea comunelor și orașelor ar fi valabil cu doar 20% prezență la vot",
+      "verdictShort": "Scopul de a debloca comasările voluntare e legitim, dar textul are o derogare vagă de la „art. 5” din Legea 3/2000. Aceasta fie face pragul de 20% inutil, fie elimină complet pragul de validare a rezultatului. În plus, nu are nicio regulă de tranziție, deși regulile unui referendum nu ar trebui schimbate cu puțin înainte de vot.",
+      "initiatorClaim": "Inițiatorii spun că depopularea și absenteismul blochează referendumurile locale pentru alipirea localităților. Coborârea pragului de participare la 20% ar facilita comasarea voluntară și ar reduce fragmentarea administrativă și costurile.",
+      "realityCheck": "Proiectul adaugă un singur alineat, art. 95 alin. (5) din Codul administrativ. Pentru orice referendum local privind înființarea, reînființarea sau reorganizarea UAT, pragul de prezență scade de la 30% (art. 5 Legea 3/2000) la 20%. Textul nu spune ce se întâmplă cu pragul de validare a rezultatului (25% opțiuni valabile din cei înscriși): dacă rămâne, un referendum cu 20–24% prezență e valabil, dar rezultatul nu poate fi validat matematic. Pe lângă comasări, textul ușurează la fel și desprinderea satelor și înființarea de noi comune, adică exact fragmentarea pe care motivarea pretinde că o combate.",
       "affectedGroups": [
         "Toți cetățenii",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Articolul unic introduce art. 95 alin. (5) în OUG nr. 57/2019. Pentru referendumul local de modificare a limitelor teritoriale, prezența minimă scade de la 30% (art. 5 alin. 2 din Legea nr. 3/2000) la 20% din persoanele înscrise în listele electorale permanente.",
-        "Textul ignoră pragul de validare din art. 5 alin. (3) din Legea nr. 3/2000: opțiunile valabil exprimate trebuie să reprezinte cel puțin 25% din înscriși. Dacă acest prag se aplică în continuare, la o prezență de 20–24% rezultatul nu poate fi validat matematic. Dacă derogarea generică de la „art. 5” îl înlătură, o majoritate simplă dintr-o prezență de 20%, adică aproximativ 10% din înscriși, poate decide soarta unei comune.",
-        "Derogarea se aplică oricărui referendum de la alin. (4), nu doar comasărilor. Relaxarea ușurează în aceeași măsură desprinderea de sate și înființarea de comune noi, adică exact fragmentarea pe care expunerea de motive spune că o combate.",
-        "Cauza structurală a prezenței scăzute nu este atinsă: listele electorale permanente sunt umflate de persoane plecate în străinătate care își păstrează domiciliul în localitate. Pragul rămâne raportat la aceleași liste.",
-        "Camera Deputaților a adoptat proiectul tacit (art. 75 alin. 2 teza a III-a din Constituție), fără dezbatere și fără amendamente. Senatul este cameră decizională. Proiectul nu are impact bugetar direct și nu creează obligații noi pentru cetățeni sau IMM-uri."
+        "Art. 95 alin. (5) nou: derogare „de la prevederile art. 5” din Legea nr. 3/2000, fără indicarea alineatelor. Art. 5 conține două praguri distincte: participare 30% (alin. 2) și validare a rezultatului 25% din înscriși (alin. 3). Derogarea expresă privește doar participarea, iar raportul cu pragul de 25% rămâne neclar.",
+        "Contradicție internă: dacă pragul de 25% din alin. (3) rămâne aplicabil, coborârea participării la 20% nu are efect practic, pentru că rezultatul nu poate fi validat sub 25% prezență. Dacă derogarea e citită ca vizând întreg art. 5, rezultatul ar putea fi decis de circa 10% din alegători, fără niciun prag de validare.",
+        "Domeniul de aplicare (alin. 4) cuprinde înființarea, reînființarea și reorganizarea UAT. Pragul redus favorizează deci și separarea localităților (reînființarea comunelor), nu doar comasarea invocată în expunerea de motive.",
+        "Lipsesc dispozițiile tranzitorii: pragul nou s-ar aplica imediat, inclusiv referendumurilor deja stabilite sau în curs de organizare.",
+        "Referendumul are caracter consultativ: modificarea limitelor se face tot prin lege (art. 95 alin. 4). Impactul real e limitat la validitatea consultării, nu la decizia finală.",
+        "Impact bugetar și birocratic neglijabil pentru cetățeni și IMM-uri. Proiectul nu creează taxe, sancțiuni sau obligații noi și nu are fișă financiară, care nici nu pare necesară."
       ],
-      "blindSpotsCaught": "Formularea „prin derogare de la prevederile art. 5” nu precizează alineatele. Art. 5 conține atât pragul de participare de 30% (alin. 2), cât și pragul de validare de 25% din înscriși (alin. 3), deci efectul juridic al textului este ambiguu. Trimiterea scrisă „Legea 3/2000”, fără „nr.”, încalcă normele de tehnică legislativă din Legea nr. 24/2000. Lipsește și o normă tranzitorie: Comisia de la Veneția și CCR (Decizia nr. 334/2013, privind coborârea pragului la 30%) au cerut ca regulile fundamentale ale referendumului să nu se schimbe cu mai puțin de un an înaintea consultării.",
-      "constitutionalityNote": "Organizarea referendumului este domeniu de lege organică (art. 73 alin. 3 lit. d), deci legea trebuie adoptată cu majoritate absolută. Fixarea pragurilor ține de marja de apreciere a legiuitorului, iar CCR a validat anterior reducerea pragului general la 30%. Coborârea la 20% nu încalcă, în sine, art. 2, art. 3 alin. (3) sau art. 120, iar consultarea comunităților cerută de art. 5 din Carta europeană a autonomiei locale (ratificată prin Legea nr. 199/1997) rămâne asigurată. Vulnerabilitatea reală este lipsa de claritate și previzibilitate (art. 1 alin. 5): destinatarii nu pot ști sigur dacă se mai aplică pragul de validare de 25%. Aplicarea imediată, fără perioadă tranzitorie, poate fi contestată prin raportare la Decizia CCR nr. 334/2013.",
-      "euLawNote": "Proiectul nu are incidență în dreptul UE. Nu reglementează profesii, așa că testul de proporționalitate din Directiva (UE) 2018/958 nu se aplică. Nu privește servicii ale societății informaționale sau reguli tehnice, deci nu necesită notificare TRIS conform Directivei (UE) 2015/1535. Nu afectează piața unică sau concurența. Standardele relevante sunt cele ale Consiliului Europei: Codul de bune practici în materie de referendum al Comisiei de la Veneția recomandă evitarea pragurilor de participare, iar proiectul merge în această direcție.",
+      "blindSpotsCaught": "Ambiguitatea „art. 5” versus alin. (2) și (3): pragul de 25% validare din înscriși e mai mare decât noul prag de 20% participare, deci norma se poate anula singură. Pe plan procedural, Camera Deputaților a adoptat proiectul tacit (art. 75 alin. 2 teza a III-a), fără dezbatere sau amendamente, iar Senatul decide. Derogarea e plasată în Codul administrativ, nu în legea referendumului, ceea ce fragmentează reglementarea. Redacțional, lipsește „nr.” la „Legea 3/2000”.",
+      "constitutionalityNote": "Art. 3 alin. (3) din Constituție permite organizarea teritoriului prin lege, iar stabilirea pragurilor de referendum ține de marja legiuitorului. Fiind o normă privind organizarea referendumului, legea trebuie adoptată ca lege organică (art. 73 alin. 3 lit. d). Riscul principal privește claritatea și previzibilitatea (art. 1 alin. 5), din cauza derogării nedeterminate de la art. 5. Prin Decizia nr. 334/2013, CCR a statuat, cu trimitere la Codul de bune practici al Comisiei de la Veneția, că modificarea pragurilor nu se aplică referendumurilor organizate în anul următor intrării în vigoare. Lipsa unei reguli de tranziție expune legea la critici similare. Autonomia locală (art. 120) nu e afectată negativ, iar consultarea cetățenilor se păstrează.",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu e incidentă. Directiva (UE) 2015/1535 (TRIS) nu e incidentă, pentru că proiectul nu privește servicii digitale, produse sau AI. Proiectul nu are impact asupra pieței unice sau a concurenței. Relevantă e Carta europeană a autonomiei locale (art. 5, consultarea comunităților la modificarea limitelor), cu care proiectul e compatibil. Codul de bune practici în materie de referendum al Comisiei de la Veneția recomandă evitarea cvorumurilor de participare și stabilitatea regulilor cu cel puțin un an înainte de vot.",
       "senatForm": {
-        "articleRef": "Art. unic – art. 95 alin. (5) Cod administrativ",
-        "proposalContent": "„(5) Prin derogare de la art. 5 alin. (2) și (3) din Legea nr. 3/2000, cu modificările și completările ulterioare, referendumul prevăzut la alin. (4) este valabil dacă participă cel puțin 20% din persoanele înscrise în listele electorale permanente, iar rezultatul este validat dacă opțiunile valabil exprimate reprezintă cel puțin 15% din numărul acestora.”",
-        "argumentation": "Textul derogă generic de la „art. 5” și coboară doar pragul de participare. Dacă rămâne pragul de validare de 25% din înscriși (art. 5 alin. 3), un referendum cu 20–24% prezență e valabil, dar rezultatul nu poate fi validat. Dacă derogarea acoperă tot art. 5, dispare orice prag de validare. Precizarea alineatelor asigură claritatea (art. 1 alin. 5 Constituție).",
-        "otherComments": "Corectați „Legea 3/2000” în „Legea nr. 3/2000” (Legea nr. 24/2000). Pragul se aplică oricărei modificări de limite, inclusiv desprinderii de sate în comune noi, deci poate crește fragmentarea invocată. Recomandăm aplicarea doar referendumurilor convocate la cel puțin un an după intrarea în vigoare (Codul de bune practici al Comisiei de la Veneția)."
-      }
+        "articleRef": "Art. I – art. 95 alin. (5) OUG 57/2019",
+        "proposalContent": "(5) Prin derogare de la art. 5 alin. (2) și (3) din Legea nr. 3/2000, referendumul prevăzut la alin. (4) este valabil dacă participă cel puțin 20% din persoanele înscrise în listele electorale permanente, iar rezultatul e validat dacă opțiunile valabil exprimate reprezintă cel puțin 15% din acestea.",
+        "argumentation": "Textul derogă vag de la „art. 5” din Legea 3/2000. Dacă rămâne pragul de validare de 25% din înscriși, un referendum cu 20–24% prezență e valabil, dar rezultatul nu poate fi validat. Dacă derogarea vizează tot art. 5, dispare orice prag de validare. Indicarea alineatelor înlătură ambiguitatea (art. 1 alin. 5 Constituție).",
+        "otherComments": "Recomandăm: aplicarea doar referendumurilor stabilite la cel puțin un an după intrarea în vigoare (Comisia de la Veneția, CCR Dec. 334/2013); adoptarea ca lege organică (art. 73 alin. 3 lit. d); precizarea că pragul se aplică și separării sau reînființării UAT, nu doar comasării invocate în motivare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 145016,
+      "durationMs": 75952,
+      "sourceEndMarker": "SF-6C3B01B6",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Participare de 20% la referendumul pentru schimbarea granițelor localităților",
-      "verdictShort": "Reducerea pragului poate facilita consultarea comunităților, fără să introducă taxe, sancțiuni sau privilegii economice. Problema este redactarea: derogarea generală de la art. 5 lasă neclar dacă dispare și condiția distinctă de validare a rezultatului.",
-      "initiatorClaim": "Inițiatorii urmăresc să faciliteze comasarea voluntară a localităților afectate de depopulare și lipsa resurselor. Ei susțin că reducerea participării obligatorii la 20% va debloca referendumurile și va permite economii administrative.",
-      "realityCheck": "Textul reduce pragul de participare pentru toate referendumurile privind modificarea limitelor teritoriale prevăzute la art. 95 alin. (4), fără să limiteze măsura la comasări voluntare. Legea nr. 3/2000 prevede separat participarea de minimum 30% și opțiuni valabil exprimate reprezentând minimum 25% din persoanele înscrise în listele permanente; formularea propusă nu precizează expres soarta celei de-a doua condiții. Modificarea nu comasează direct localități și nu garantează economii: schimbarea limitelor necesită în continuare intervenția legiuitorului.",
+      "plainTitle": "Prag de participare mai mic la referendumurile pentru reorganizarea localităților",
+      "verdictShort": "Reducerea pragului de participare nu este, în sine, neconstituțională. Problema principală este derogarea imprecisă: proiectul nu clarifică dacă elimină și condiția distinctă privind voturile valabil exprimate, ceea ce poate compromite aplicarea pragului de 20%.",
+      "initiatorClaim": "Inițiatorii urmăresc facilitarea comasărilor voluntare și reducerea costurilor administrației locale. Ei susțin că absenteismul împiedică reorganizări utile comunităților.",
+      "realityCheck": "Proiectul introduce exclusiv un prag de participare de 20% pentru referendumurile prevăzute de art. 95 alin. (4), fără să realizeze vreo comasare sau să garanteze economii bugetare. Domeniul său include înființarea, reînființarea și reorganizarea unităților administrativ-teritoriale prin modificarea limitelor, fiind mai larg decât comasările prezentate în motivare. Raportul dintre noul prag și condiția generală de validare a rezultatului trebuie precizat expres.",
       "affectedGroups": [
-        "Toți cetățenii",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 95 alin. (5) propus stabilește participarea minimă la 20%. Nu introduce taxe, amenzi, autorizații, restricții profesionale sau obligații pentru IMM-uri.",
-        "Art. 5 alin. (3) din Legea nr. 3/2000 privește totalul opțiunilor valabil exprimate, nu numărul voturilor favorabile. Dacă această condiție rămâne aplicabilă, participarea între 20% și sub 25% nu poate produce un rezultat validat.",
-        "Derogarea vizează întregul art. 5, deși acesta cuprinde și principiile votului. Redactarea trebuie să identifice alineatele derogate și să reglementeze expres validarea rezultatului.",
-        "Domeniul normei este mai larg decât justificarea despre comasări: acoperă modificarea limitelor teritoriale prevăzută de art. 95 alin. (4). Pragurile și rezultatul trebuie raportate clar la fiecare unitate administrativ-teritorială consultată.",
-        "Economiile administrative descrise în expunerea de motive sunt efecte posibile ale unor reorganizări ulterioare. Textul analizat nu stabilește economii, reorganizări concrete sau sarcini birocratice noi pentru cetățeni și firme.",
-        "Reducerea cvorumului permite validarea unei consultări cu participare mai redusă, dar nu dovedește singură o încălcare a democrației sau autonomiei locale. Contează claritatea condițiilor, informarea comunităților și stabilitatea regulilor."
+        "Art. 95 alin. (4) rămâne aplicabil: modificarea limitelor teritoriale necesită atât consultarea obligatorie prin referendum local, cât și adoptarea unei legi. Referendumul nu modifică singur teritoriul.",
+        "Regimul general de referință din art. 5 alin. (2) și (3) al Legii nr. 3/2000 distinge participarea de minimum 30% de validarea rezultatului, pentru care opțiunile valabil exprimate trebuie să reprezinte minimum 25% din electorat. Actualitatea acestei forme nu a putut fi verificată online.",
+        "Noul alin. (5) derogă de la întregul art. 5, dar reglementează explicit numai participarea. Dacă pragul de 25% rămâne aplicabil, participarea de 20% nu este suficientă pentru validarea rezultatului; dacă se urmărește înlăturarea lui, aceasta trebuie spusă expres.",
+        "Proiectul nu introduce taxe, sancțiuni, obligații pentru IMM-uri sau proceduri birocratice suplimentare pentru cetățeni. Eventualele economii depind de reorganizări ulterioare și nu rezultă automat din această modificare.",
+        "Textul nu cuprinde dispoziții tranzitorii privind referendumurile deja declanșate sau programate. Schimbarea regulilor de validare necesită delimitare temporală clară."
       ],
-      "blindSpotsCaught": "Capcana principală este confundarea cvorumului de participare cu pragul opțiunilor valabil exprimate. Derogarea poate fi citită restrâns, doar pentru participare, sau extins, și asupra pragului de 25%; aceste interpretări produc rezultate diferite. Separat, stadiul indicat este la Senat: comisiile Camerei Deputaților și termenul din aprilie nu trebuie prezentate drept traseu actual de depunere.",
-      "constitutionalityNote": "Există o vulnerabilitate de claritate și previzibilitate raportată la art. 1 alin. (5), fără ca neconstituționalitatea să poată fi declarată certă numai din această redactare. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident, deoarece proiectul nu instituie pedepse. Constituția nu fixează un cvorum numeric pentru această consultare; reducerea lui nu contrazice automat autonomia locală din art. 120. Absența unei reguli tranzitorii trebuie examinată în lumina Deciziei CCR nr. 334/2013 privind stabilitatea regulilor referendumului și intervalul de un an. Sunt relevante caracterul organic al reglementării și competența Camerelor potrivit art. 73, 75 și 76, deoarece textul intersectează organizarea teritorială cu materia referendumului. Adoptarea tacită prevăzută de art. 75 alin. (2) nu constituie, în sine, un viciu.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nu intră nici în procedura TRIS din Directiva (UE) 2015/1535, deoarece nu stabilește reglementări tehnice pentru produse ori norme pentru serviciile societății informaționale. Nu rezultă restricții directe asupra concurenței, libertății de stabilire sau prestării serviciilor. Eventualele efecte economice ale unor reorganizări viitoare nu sunt instituite prin acest alineat.",
+      "blindSpotsCaught": "Participarea la referendum și validarea rezultatului sunt condiții juridice distincte. Derogarea globală poate fi interpretată diferit tocmai asupra acestei distincții. În plus, proiectul privește toate operațiunile teritoriale acoperite de art. 95 alin. (4), nu doar comasările voluntare invocate în expunerea de motive.",
+      "constitutionalityNote": "Principala vulnerabilitate privește claritatea și previzibilitatea cerute de art. 1 alin. (5): trebuie stabilit expres ce se întâmplă cu pragul distinct pentru validarea rezultatului. Constituția nu fixează un procent minim de participare la aceste referendumuri, astfel că pragul de 20% nu demonstrează singur încălcarea art. 2 sau a principiilor autonomiei locale din art. 120. Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident, deoarece proiectul nu instituie sancțiuni. Sunt relevante caracterul organic al reglementării referendumului și organizării teritoriale, potrivit art. 73 alin. (3) lit. d) și o), precum și stabilitatea regulilor, inclusiv reperul temporal din Decizia CCR nr. 334/2013; aplicabilitatea acestui reper la situația concretă trebuie analizată înaintea adoptării.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității reglementărilor care restrâng accesul la profesii reglementate sau exercitarea acestora; proiectul nu intră în acest domeniu. Nu instituie reglementări tehnice privind produse ori servicii ale societății informaționale, astfel că nu se identifică o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu rezultă restricții directe asupra concurenței, accesului pe piață sau serviciilor digitale și AI.",
       "senatForm": {
         "articleRef": "Articolul unic – art. 95 alin. (5)",
-        "proposalContent": "„(5) Prin derogare de la art. 5 alin. (2) și (3) din Legea nr. 3/2000, referendumul prevăzut la alin. (4) este valabil dacă participă cel puțin 20% din persoanele înscrise în listele electorale permanente ale fiecărei unități administrativ-teritoriale consultate. Rezultatul se stabilește cu majoritatea voturilor valabil exprimate în fiecare unitate consultată.”",
-        "argumentation": "Se elimină explicit pragul distinct de 25% al opțiunilor valabil exprimate, pentru ca participarea de 20% să poată produce efectul urmărit. Derogarea păstrează principiile votului din art. 5 alin. (1), iar verificarea separată în fiecare unitate protejează consultarea comunităților afectate.",
-        "otherComments": "Potrivit stadiului furnizat, destinatarul actual este Senatul, prin comisiile competente. Termenul de 20.04.2026 este expirat la data analizei, 29.10.2026. Se recomandă și o dispoziție tranzitorie privind aplicarea noilor praguri. Verificarea online independentă a stadiului și a surselor juridice nu a fost disponibilă."
-      }
+        "proposalContent": "„(5) Prin derogare de la art. 5 alin. (2) din Legea nr. 3/2000, referendumul prevăzut la alin. (4) este valabil dacă participă cel puțin 20% din persoanele înscrise în listele electorale permanente. Art. 5 alin. (3) din aceeași lege nu se aplică acestui referendum.”",
+        "argumentation": "Dacă obiectivul este ca participarea de 20% să permită validarea, trebuie înlăturat expres pragul distinct de 25% pentru opțiunile valabil exprimate. Propunerea clarifică această alegere legislativă și păstrează celelalte reguli aplicabile referendumului, inclusiv regula majorității.",
+        "otherComments": "Eliminarea pragului distinct de 25% este o opțiune de fond care trebuie asumată explicit. Sunt necesare reguli tranzitorii. Verificarea online a legislației și jurisprudenței nu a fost disponibilă; analiza folosește documentele furnizate și cadrul juridic de referință cunoscut."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T10:01:59.548Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "camera",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:08:29.263Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

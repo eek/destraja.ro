@@ -2,14 +2,41 @@
   "billId": "Pl-x 274/2026",
   "slug": "plx-274-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T04:53:39.515Z",
+  "updatedAt": "2026-11-24T15:11:51.894Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 4460,
+    "ordinanceChars": 0,
+    "memoChars": 3682,
+    "memoSupplied": 3682,
+    "marker": "SF-6E715236"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-274-2026.json",
+    "form": "initiator",
+    "textHash": "6e7152364242f435",
+    "fetchedAt": "2026-11-19T10:33:22.877Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 6.3,
+    "riskScore": 6.7,
     "riskLevel": "yellow",
-    "plainTitle": "Taxa pe reclamele online: 3% doar pentru giganții străini precum Google și Meta",
-    "summaryTlDr": "Scopul, ca platformele globale să plătească ceva în România, e legitim. Textul însă taxează doar firmele nerezidente, ceea ce e greu de apărat în fața UE, lasă baza de calcul pe seama ANAF și promite încasări pe care piața românească de publicitate nu le poate produce. Ca în Franța sau Marea Britanie, nota de plată va ajunge în mare parte la IMM-urile românești care își fac reclamă online.",
-    "initiatorClaim": "Inițiatorul spune că platformele globale câștigă mult din reclamele afișate românilor fără să plătească un impozit proporțional în România, ceea ce dezavantajează firmele românești. Propune o contribuție tranzitorie de 3%, după modelul Franței, Italiei și Spaniei, cu încasări estimate la 350–500 milioane lei pe an, fără costuri pentru cetățeni sau pentru companiile românești.",
-    "realityCheck": "Legea pune 3% pe veniturile brute din reclamele livrate utilizatorilor din România, dar numai pentru prestatorii nerezidenți. Aceeași activitate a unei firme rezidente nu e taxată, iar o platformă poate scăpa de taxă facturând prin filiala locală. Regulile de calcul (unde se află utilizatorul, ce parte din venit revine României) lipsesc din lege și sunt lăsate pe seama ANAF și a Guvernului, iar legea nu are un prag minim de venituri în România. În Franța, Italia, Spania și Marea Britanie, platformele au trecut taxa în facturile advertiserilor, deci o vor plăti în bună parte IMM-urile românești care își fac reclamă online. Asta contrazice promisiunea din expunerea de motive că taxa nu încarcă firmele românești.",
+    "plainTitle": "Taxă de 3% pe reclamele online vândute în România de giganții digitali străini",
+    "summaryTlDr": "Ideea unei taxe pe serviciile digitale e legitimă și are precedente în UE, dar varianta propusă taxează doar nerezidenții, ceea ce o expune la contestare pe dreptul UE și pe convențiile fiscale. Baza de calcul e vagă, estimarea bugetară pare umflată, iar costul va ajunge probabil la firmele românești care cumpără reclame.",
+    "initiatorClaim": "Inițiatorul vrea să corecteze dezechilibrul fiscal dintre firmele românești și platformele globale care câștigă din publicitate în România fără să plătească impozit aici. Estimează 350–500 mil. lei anual, fără efect asupra consumatorilor, după modelul Franței, Italiei și Spaniei.",
+    "realityCheck": "Legea pune o taxă de 3% pe cifra de afaceri (nu pe profit), cu declarare trimestrială și amenzi de până la 500.000 lei. Se aplică numai prestatorilor nerezidenți cu peste 750 mil. euro cifră de afaceri globală, fără un prag minim de venituri în România și fără o regulă clară de localizare a utilizatorului. În țările care au introdus astfel de taxe, platformele mari au trecut costul în facturile advertiserilor, deci taxa ar ajunge în bună parte la IMM-urile românești care își fac reclamă online.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "IT & AI",
@@ -17,89 +44,24 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 alin. (2) și art. 2 lit. b)",
-      "proposalContent": "Art. 1 alin. (2): Contribuția este datorată de orice prestator, rezident sau nerezident, al cărui grup are o cifră de afaceri globală consolidată de minimum 750 milioane euro și venituri impozabile în România de minimum 3 milioane euro în anul calendaristic anterior. Art. 2 lit. b) se elimină; în lege, „prestator nerezident” devine „prestator”.",
-      "argumentation": "Forma actuală taxează doar nerezidenții, deși firmele rezidente vând aceeași publicitate: discriminare directă, contrară art. 49 și 56 TFUE, cu risc de infringement și restituiri cu dobânzi. Franța, Italia și Spania taxează și rezidenții; Franța și Spania au și prag național. Pragul de grup previne fragmentarea; cel național scutește firmele mici.",
-      "otherComments": "Art. 2 lit. c) nu spune cum se stabilește localizarea utilizatorului și partea de venit atribuită României; elementele bazei de impozitare trebuie fixate în lege (art. 139 Constituție), nu în metodologia ANAF. Aplicare de la 1 ianuarie (art. 4 Cod fiscal), cu normele adoptate înainte. Estimarea de 350-500 mil. lei cere o bază de ~12-17 mld. lei: lipsește calculul."
+      "articleRef": "Art. 1 alin. (2) și art. 2 lit. b)-c)",
+      "proposalContent": "Art. 1 (2): Contribuția se aplică oricărui prestator, rezident sau nerezident, cu cifră de afaceri globală de minimum 750 mil. euro și venituri din publicitate digitală în România de minimum 25 mil. lei în anul anterior. Utilizatorul se consideră în România după localizarea dispozitivului la momentul afișării, conform normelor art. 12.",
+      "argumentation": "Taxarea exclusivă a nerezidenților discriminează pe criteriul rezidenței (art. 56 TFUE, clauza de nediscriminare din convențiile fiscale) și contravine art. 56 alin. (2) din Constituție. Franța, Italia și Spania aplică taxa indiferent de rezidență și cu prag local. Fără regulă de localizare, baza impozabilă rămâne imprevizibilă.",
+      "otherComments": "Solicităm o fișă financiară reală: estimarea de 350-500 mil. lei cere o bază de ~12-17 mld. lei, peste piața estimată. Termenul de 30 de zile ignoră art. 4 din Codul fiscal (minim 6 luni). Art. 7 (ANAF) și art. 12 (Guvern) se suprapun. Taxa va fi refacturată advertiserilor români, inclusiv IMM-urilor."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 61803,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Taxa de 3% pe reclamele online (Google, Meta, TikTok): risc de scumpire a publicității pentru firmele românești",
-      "verdictShort": "Deși urmărește un obiectiv legitim — taxarea giganților digitali — proiectul este redactat diletant: intră în vigoare în 30 de zile dar normele apar în 6 luni, încalcă dreptul UE prin discriminarea directă a nerezidenților și, în practică, va fi decontat tot de IMM-urile românești pe facturile de publicitate.",
-      "initiatorClaim": "Inițiatorul susține că instituie o taxă de 3% pe veniturile din publicitate digitală ale marilor companii nerezidente (cu cifră de afaceri globală de peste 750 milioane euro), după modelul Franței, Italiei și Spaniei, aducând 350-500 milioane lei la buget fără niciun impact asupra firmelor românești sau consumatorilor.",
-      "realityCheck": "În toate statele unde s-a introdus această taxă (Franța, Italia, Spania, Marea Britanie), platformele precum Google și Meta au adăugat automat un comision suplimentar („Regulatory Operating Cost” de 2-3%) direct pe facturile emise firmelor locale care își fac reclamă. În plus, proiectul conține erori grave de tehnică legislativă: devine obligatoriu în 30 de zile (Art. 14), deși Guvernul are 6 luni să scrie normele de aplicare (Art. 12), și nu definește cum se calculează venitul per click/afișare sau cum se evită dubla taxare prin agențiile intermediare.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "IT & AI",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Desincronizare legislativă absurdă: conform Art. 14, legea intră în vigoare în 30 de zile de la publicare, ordinul ANAF apare în 60 de zile (Art. 4 alin. 3), iar normele metodologice ale Guvernului abia în 6 luni (Art. 12), timp în care obligațiile trimestriale și amenzile de până la 500.000 lei (Art. 9) sunt deja active.",
-        "Discriminare directă interzisă de dreptul UE: spre deosebire de Franța, Italia și Spania (care aplică taxa tuturor grupurilor ce depășesc pragul, indiferent de rezidență), Art. 1 și Art. 2 lit. b) aplică taxa EXCLUSIV „prestatorilor nerezidenți”, inclusiv companiilor stabilite în alte state membre UE (ex. Irlanda), fără niciun prag minim de venituri realizate în România.",
-        "Definiție incompletă a bazei de impozitare și a pragului (Art. 1 alin. 2 și Art. 2 lit. b-c): pragul de 750 milioane euro este raportat la „persoană juridică”, nu la grup consolidat (permițând eludarea prin filiale mai mici), și nu există reguli pentru evitarea taxării în cascadă între rețelele programatice (SSP/DSP) și agențiile de media.",
-        "Efect de bumerang asupra IMM-urilor românești: lipsa oricărei protecții împotriva transferului costului fiscal înseamnă că magazinele online și antreprenorii români vor plăti cu 3% mai mult pe campaniile Google Ads și Facebook/Instagram Ads."
-      ],
-      "blindSpotsCaught": "Proiectul ignoră total că majoritatea giganților tech facturează publicitatea în România prin entități rezidente în UE (precum Google Ireland Ltd sau Meta Platforms Ireland Ltd). Taxarea exclusivă a nerezidenților fără un prag național de minimis (în Franța este 25 mil. EUR, în Italia 5,5 mil. EUR) obligă orice grup european mare (ex. grup de presă sau comerț cu >750 mil. EUR global) care obține chiar și 1.000 lei din bannere afișate utilizatorilor din România să se înregistreze fiscal și să raporteze date tehnice trimestriale sub sancțiunea unor amenzi de 500.000 lei.",
-      "constitutionalityNote": "Proiectul încalcă principiul securității juridice și al previzibilității legii (Art. 1 alin. 5 din Constituție). Conform jurisprudenței constante a CCR, elementele esențiale ale impunerii (modul concret de determinare și alocare teritorială a bazei impozabile din Art. 2 lit. c) trebuie stabilite prin lege organică/ordinară, nu lăsate la latitudinea unor metodologii anuale ale ANAF (Art. 7) sau norme guvernamentale emise la 5 luni după intrarea în vigoare a taxei (Art. 12 vs. Art. 14). De asemenea, intrarea în vigoare în 30 de zile derogă nejustificat de la regula de 6 luni prevăzută de Art. 4 din Codul Fiscal pentru impozite noi.",
-      "euLawNote": "Viciu major de compatibilitate cu Art. 56 TFUE (libera prestare a serviciilor): CJUE a statuat că un stat membru nu poate institui o taxă pe venitul brut aplicabilă exclusiv prestatorilor nerezidenți (din alte state membre UE), în timp ce prestatorii rezidenți sunt scutiți de această contribuție. Statele invocate în Expunerea de Motive (Franța, Italia, Spania) au evitat infringementul tocmai pentru că au aplicat taxa atât rezidenților, cât și nerezidenților. În plus, trimiterea de la Art. 6 la Directiva 2011/16/UE (DAC) este inoperantă practic, deoarece schimbul automat de informații din UE nu colectează metrici tehnice de afișări/click-uri publicitare.",
-      "senatForm": {
-        "articleRef": "Art. 1 alin. (1)-(2), Art. 3 și Art. 14",
-        "proposalContent": "La Art. 1, pragul de 750 mil. EUR se aplică la nivel de grup consolidat, fără discriminare după rezidență, cu un prag național de 10 mil. EUR venituri în România. La Art. 3 se introduce interdicția transferării directe a taxei în facturile clienților IMM din România. Art. 14 se modifică: legea intră în vigoare la 1 ianuarie a anului următor, după adoptarea normelor.",
-        "argumentation": "Aplicarea exclusivă nerezidenților încalcă flagrant art. 56 TFUE (libera prestare a serviciilor); Franța și Italia aplică taxa nediscriminatoriu și au prag național. În plus, intrarea în vigoare în 30 de zile (Art. 14), în timp ce normele apar în 6 luni (Art. 12), încalcă art. 1 alin. (5) din Constituție și art. 4 din Codul Fiscal privind predictibilitatea.",
-        "otherComments": "În Franța, Italia și Spania, giganții tech (Google, Meta) au transferat imediat taxa de 2-3% direct pe facturile IMM-urilor locale ca „taxă de reglementare”. De asemenea, legea nu prevede reguli contra taxării în cascadă (intermediari/agenții de publicitate) și nici algoritmul de alocare a veniturilor pe utilizator român."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 257892,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Taxa pe reclamele online: 3% doar pentru giganții străini precum Google și Meta",
-      "verdictShort": "Scopul, ca platformele globale să plătească ceva în România, e legitim. Textul însă taxează doar firmele nerezidente, ceea ce e greu de apărat în fața UE, lasă baza de calcul pe seama ANAF și promite încasări pe care piața românească de publicitate nu le poate produce. Ca în Franța sau Marea Britanie, nota de plată va ajunge în mare parte la IMM-urile românești care își fac reclamă online.",
-      "initiatorClaim": "Inițiatorul spune că platformele globale câștigă mult din reclamele afișate românilor fără să plătească un impozit proporțional în România, ceea ce dezavantajează firmele românești. Propune o contribuție tranzitorie de 3%, după modelul Franței, Italiei și Spaniei, cu încasări estimate la 350–500 milioane lei pe an, fără costuri pentru cetățeni sau pentru companiile românești.",
-      "realityCheck": "Legea pune 3% pe veniturile brute din reclamele livrate utilizatorilor din România, dar numai pentru prestatorii nerezidenți. Aceeași activitate a unei firme rezidente nu e taxată, iar o platformă poate scăpa de taxă facturând prin filiala locală. Regulile de calcul (unde se află utilizatorul, ce parte din venit revine României) lipsesc din lege și sunt lăsate pe seama ANAF și a Guvernului, iar legea nu are un prag minim de venituri în România. În Franța, Italia, Spania și Marea Britanie, platformele au trecut taxa în facturile advertiserilor, deci o vor plăti în bună parte IMM-urile românești care își fac reclamă online. Asta contrazice promisiunea din expunerea de motive că taxa nu încarcă firmele românești.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "IT & AI",
-        "Contabili & Fiscalitate"
-      ],
-      "keyFindings": [
-        "Art. 1 alin. (1) și art. 2 lit. b): contribuția se aplică exclusiv prestatorilor nerezidenți. O firmă rezidentă care vinde aceeași publicitate nu plătește, chiar dacă face parte dintr-un grup cu peste 750 milioane euro cifră de afaceri. Modelele invocate (Franța, Italia, Spania) taxează la fel rezidenții și nerezidenții. O platformă poate ieși din sfera legii facturând reclamele prin filiala din România.",
-        "Art. 2 lit. c): baza este venitul brut din interacțiunile utilizatorilor „aflați pe teritoriul României”, în timp ce art. 1 vorbește de „utilizatori din România”. Legea nu spune cum se stabilește localizarea (IP, cont, dispozitiv) și nici ce parte dintr-o campanie globală revine României. Totul e lăsat pe seama ordinului ANAF (art. 4 alin. 3), a metodologiei actualizate anual (art. 7) și a normelor Guvernului (art. 12).",
-        "Art. 1 alin. (2): pragul de 750 milioane euro se raportează la „prestator”, nu la grupul consolidat, deci poate fi ocolit prin împărțirea activității între entități. Lipsește un prag minim de venituri în România (Franța: 25 milioane euro, Spania: 3 milioane euro), așa că orice venit, oricât de mic, atrage declarații trimestriale.",
-        "Art. 2 lit. c) și art. 3: venitul brut nu se diminuează cu sumele plătite mai departe editorilor sau altor intermediari. Aceeași afișare poate fi astfel taxată de mai multe ori pe lanțul adtech (platformă de cumpărare, bursă de reclame, platformă de vânzare), dacă fiecare verigă e nerezidentă și peste prag.",
-        "Art. 5 și art. 9 alin. (2): obligația de a furniza ANAF „datele tehnice necesare, inclusiv…” are o listă deschisă, iar refuzul se sancționează cu amendă de 100.000–500.000 lei. Fapta contravențională nu e definită precis, iar legea nu desemnează agenții constatatori și nu trimite la OG 2/2001.",
-        "Art. 4, art. 12 și art. 14: legea intră în vigoare la 30 de zile, procedura ANAF se aprobă în 60 de zile, iar normele Guvernului în 6 luni, deci primele declarații trimestriale pot fi datorate înainte să existe normele. O taxă nouă care pornește în cursul anului ignoră regula de previzibilitate din art. 4 al Codului fiscal, după care taxele noi se aplică de la 1 ianuarie. În plus, taxa e reglementată în afara Codului fiscal.",
-        "Impactul bugetar de 350–500 milioane lei/an nu are niciun calcul. La o cotă de 3% ar fi nevoie de o bază anuală de 11,7–16,7 miliarde lei (aprox. 2,3–3,3 miliarde euro) din publicitate digitală atribuibilă României, cifră greu de reconciliat cu dimensiunea pieței românești de publicitate.",
-        "Art. 13: caracterul „tranzitoriu” nu are o dată de expirare, ci doar o „reevaluare” la implementarea Pilonului Unu OCDE. Pilonul Unu este blocat, iar SUA au declarat în ianuarie 2025 că acordul fiscal global OCDE nu produce efecte pentru ele. În practică, taxa ar fi permanentă."
-      ],
-      "blindSpotsCaught": "Chichița majoră e criteriul rezidenței, care face taxa și vulnerabilă juridic, și ușor de ocolit. Dacă Google sau Meta trec contractele cu advertiserii români pe o filială românească, ies din sfera legii, iar filiala plătește doar impozit pe profit pe marja ei. Dacă nu o fac, Comisia Europeană are temei pentru infringement, iar sumele încasate pot fi cerute înapoi cu dobânzi. Expunerea de motive afirmă că taxele similare au fost „validate la nivelul Uniunii Europene”, ceea ce nu e adevărat. Directiva propusă de Comisie în 2018 privind taxa pe servicii digitale (COM(2018) 148) nu a fost adoptată niciodată, iar taxele din Franța, Italia și Spania sunt măsuri naționale unilaterale. În plus, formula finală invocă art. 76 alin. (1), care privește legile organice, deși o lege fiscală este ordinară (art. 76 alin. (2)).",
-      "constitutionalityNote": "Art. 139 alin. (1) cere ca impozitele să fie stabilite prin lege, cu elementele esențiale (contribuabil, bază, cotă, termen) în textul legii. Aici baza nu poate fi calculată fără metodologia ANAF și normele Guvernului (art. 2 lit. c, art. 4 alin. 3, art. 7, art. 12). Asta ridică probleme de claritate și previzibilitate (art. 1 alin. 5), agravate de neconcordanța „utilizatori din România” / „aflați pe teritoriul României” și de contravenția cu conținut nedefinit de la art. 5 și 9. Legea tratează diferit operatori care vând același serviciu pe aceeași piață, doar pe criteriul rezidenței. Asta poate fi contestat din perspectiva așezării juste a sarcinilor fiscale (art. 56 alin. 2) și a concurenței loiale (art. 135 alin. 2 lit. a), deși CCR lasă de regulă legiuitorului o marjă largă în politica fiscală. Formula de adoptare trebuie corectată la art. 76 alin. (2). Pentru o inițiativă cu efect asupra bugetului de stat, punctul de vedere al Guvernului este obligatoriu (art. 111 alin. 1).",
-      "euLawNote": "Riscul principal vine din art. 49 și 56 TFUE: o taxă care lovește exclusiv prestatorii nerezidenți pentru aceeași activitate este discriminare directă pe criteriul rezidenței. În cauzele Vodafone Magyarország (C-75/18) și Tesco-Global (C-323/18), CJUE a acceptat taxe progresive pe cifra de afaceri tocmai pentru că criteriul era cifra de afaceri, aplicabil tuturor, nu rezidența. Nicio normă UE nu validează asemenea taxe, iar excluderea rezidenților poate ridica și întrebări de ajutor de stat (art. 107 TFUE). Taxa în sine nu este, de regulă, o reglementare tehnică în sensul Directivei (UE) 2015/1535. Obligațiile de raportare de la art. 5 și 7, adresate specific serviciilor de publicitate online, ar putea însă constitui reguli privind serviciile societății informaționale. Notificarea TRIS e prudentă, altfel aceste prevederi riscă să fie inopozabile. Directiva (UE) 2018/958 nu se aplică, fiindcă privește profesiile reglementate. Datele cerute la art. 5 trebuie limitate la agregate, conform principiului minimizării din GDPR. Dincolo de UE, calificarea unilaterală de la art. 10 nu obligă statele partenere, iar SUA au anunțat în 2025 că vor riposta comercial împotriva taxelor pe servicii digitale.",
-      "senatForm": {
-        "articleRef": "Art. 1 alin. (2) și art. 2 lit. b)",
-        "proposalContent": "Art. 1 alin. (2): Contribuția este datorată de orice prestator, rezident sau nerezident, al cărui grup are o cifră de afaceri globală consolidată de minimum 750 milioane euro și venituri impozabile în România de minimum 3 milioane euro în anul calendaristic anterior. Art. 2 lit. b) se elimină; în lege, „prestator nerezident” devine „prestator”.",
-        "argumentation": "Forma actuală taxează doar nerezidenții, deși firmele rezidente vând aceeași publicitate: discriminare directă, contrară art. 49 și 56 TFUE, cu risc de infringement și restituiri cu dobânzi. Franța, Italia și Spania taxează și rezidenții; Franța și Spania au și prag național. Pragul de grup previne fragmentarea; cel național scutește firmele mici.",
-        "otherComments": "Art. 2 lit. c) nu spune cum se stabilește localizarea utilizatorului și partea de venit atribuită României; elementele bazei de impozitare trebuie fixate în lege (art. 139 Constituție), nu în metodologia ANAF. Aplicare de la 1 ianuarie (art. 4 Cod fiscal), cu normele adoptate înainte. Estimarea de 350-500 mil. lei cere o bază de ~12-17 mld. lei: lipsește calculul."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 130382,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 101702,
+      "sourceEndMarker": "SF-6E715236",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Taxă de 3% pe reclamele online ale marilor companii nerezidente",
-      "verdictShort": "Scopul de a colecta venituri din economia digitală este legitim, dar forma propusă prezintă riscuri serioase: diferențiere după rezidența fiscală, calcul insuficient definit și sancțiuni pentru obligații neclare. Promisiunea că firmele românești și consumatorii nu vor suporta costuri suplimentare nu este garantată de articole.",
-      "initiatorClaim": "Inițiatorul urmărește echilibrarea contribuției fiscale dintre companiile românești și platformele globale. Estimează încasări anuale de 350–500 milioane lei, fără efecte negative asupra consumatorilor.",
-      "realityCheck": "Art. 1–3 instituie o taxă asupra veniturilor din publicitate digitală, indiferent de profitabilitate, datorată exclusiv de prestatori nerezidenți cu cifra de afaceri globală de minimum 750 milioane euro. Cetățenii și IMM-urile românești nu primesc obligații directe de declarare sau plată, dar prestatorii pot transfera economic costul către clienții care cumpără reclame. Raportarea și controlul generează costuri pentru prestatori și ANAF, iar estimarea bugetară din expunere nu este însoțită de o metodologie verificabilă.",
+      "plainTitle": "Taxă de 3% pe publicitatea online a giganților străini, scrisă discriminatoriu și fără norme",
+      "verdictShort": "Deși obiectivul impozitării veniturilor digitale ale marilor platforme este legitim și practicat în alte state UE, proiectul este redactat cu vicii majore de drept european și constituțional. Aplicarea taxei exclusiv nerezidenților încalcă libertatea de a presta servicii în UE, iar experiența statelor similare arată că taxa tinde să fie transferată în facturile IMM-urilor românești.",
+      "initiatorClaim": "Inițiatorul (deputatul PSD Lucian-Nicolae Andrușcă) susține în Expunerea de motive că legea aliniază România la modelele din Franța, Italia și Spania printr-o contribuție temporară de 3% aplicată exclusiv giganților nerezidenți cu cifră de afaceri globală de peste 750 milioane euro. Se estimează încasări bugetare de 350–500 milioane lei anual, fără sarcini suplimentare pentru cetățeni sau companiile românești.",
+      "realityCheck": "Spre deosebire de modelele francez, italian și spaniol invocate ca precedent — care taxează nediscriminatoriu atât rezidenții, cât și nerezidenții peste un prag global și unul național — Art. 1 și Art. 2 lit. b) vizează exclusiv „prestatorii nerezidenți” și nu includ nici prag național, nici reguli de consolidare la nivel de grup, permițând eludarea facilă prin subsidiare locale sau mai mici. În plus, Art. 14 pune legea în vigoare în 30 de zile, deși procedura ANAF apare în 60 de zile (Art. 4) și normele Guvernului în 6 luni (Art. 12), iar în statele cu taxe similare platformele (Google, Meta, Amazon) au adăugat taxa direct pe facturile agenților de publicitate locali.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "IT & AI",
@@ -107,24 +69,115 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 și art. 2 lit. b): rezidența fiscală determină aplicarea taxei, astfel încât prestatori rezidenți și nerezidenți care obțin venituri din aceeași activitate sunt tratați diferit. Diferența necesită justificare juridică și economică; simpla invocare a echității nu demonstrează compatibilitatea europeană.",
-        "Art. 1 alin. (2): pragul este minimum 750 milioane euro, incluzând exact această valoare, deși expunerea folosește și formula peste 750 milioane. Nu se precizează dacă cifra de afaceri se determină individual sau consolidat la nivel de grup și nu există un prag minim al veniturilor realizate în România.",
-        "Art. 2 lit. c): lipsesc reguli pentru atribuirea veniturilor campaniilor multinaționale, localizarea utilizatorilor, intermediari, retururi și excluderea TVA. Enumerarea afișărilor, clickurilor și conversiilor nu oferă singură o formulă de calcul și de evitare a suprapunerilor.",
-        "Art. 4, 12 și 14: legea produce efecte după 30 de zile, procedura ANAF poate apărea după încă 60 de zile, iar normele Guvernului după șase luni de la intrarea în vigoare. Art. 4 alin. (1) stabilește termenul declarației, dar nu prevede expres scadența plății; art. 7 nu poate permite modificarea elementelor esențiale ale taxei prin metodologie.",
-        "Art. 5 și 9: raportarea datelor tehnice nu are termen și conținut suficient delimitate, deși refuzul este amendat cu 100.000–500.000 lei. Mărimea amenzii nu dovedește singură disproporționalitatea pentru asemenea contribuabili, dar lipsesc agenții constatatori desemnați și derogarea expresă necesară de la plafonul general al OG nr. 2/2001. Aceste deficiențe sunt semnalate și în [avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L053LG.PDF).",
-        "Art. 10: denumirea contribuției și afirmația că nu este impozit pe profit nu garantează evitarea dublei impuneri. Aplicabilitatea fiecărei convenții depinde de prevederile sale și de natura efectivă a taxei; textul nu instituie credit fiscal sau alt mecanism compensatoriu.",
-        "Art. 13: caracterul tranzitoriu nu este însoțit de termen de încetare sau mecanism obligatoriu de eliminare. Reevaluarea la implementarea Pilonului Unu nu exclude automat suprapunerile; documentele [OCDE privind convenția pentru Suma A](https://www.oecd.org/en/topics/sub-issues/reallocation-of-taxing-rights-to-market-jurisdictions/multilateral-convention-to-implement-amount-a-of-pillar-one.html) prevăd distinct eliminarea taxelor pe servicii digitale.",
-        "Art. 8 introduce util transparența colectării, iar art. 11 permite finanțarea educației digitale și securității cibernetice fără să garanteze alocări. Formula finală invocă art. 76 alin. (1), deși inițiativa este clasificată drept lege ordinară, pentru care corespondentul este alin. (2), conform [avizului Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L053LG.PDF)."
+        "Discriminare directă pe criteriu de rezidență (Art. 1 alin. 1 și Art. 2 lit. b): contribuția se aplică exclusiv companiilor nerezidente, scutind automat companiile rezidente fiscal în România indiferent de cifra lor de afaceri, ceea ce contravine tratatelor UE și diferă fundamental de taxele digitale din Franța, Italia și Spania.",
+        "Lacune structurale de definiție și risc de eludare sau impozitare în cascadă (Art. 1 alin. 2 și Art. 2 lit. c): nu există o regulă de consolidare la nivel de grup (astfel încât o subsidiară cu cifră de afaceri sub 750 mil. euro scapă), nu există un prag minim de venituri în România, nu se stabilește metoda de geolocalizare a utilizatorului și nu se clarifică tratamentul intermediarilor programatici (ad-tech).",
+        "Cronologie imposibilă de aplicare (Art. 4 alin. 3, Art. 12 și Art. 14): legea intră în vigoare în 30 de zile de la publicare, însă ordinul ANAF privind declararea/plata are termen de 60 de zile, iar normele metodologice ale Guvernului au termen de 6 luni, încălcând regula predictibilității fiscale din Art. 4 al Codului fiscal (6 luni înainte și de la 1 ianuarie).",
+        "Regim contravențional incomplet și greu executabil (Art. 9): amenzile ajung la 500.000 lei pentru refuzul furnizării datelor tehnice, dar legea nu indică agentul constatator, nu face trimitere la OG nr. 2/2001 privind contravențiile și nu prevede nicio obligație de înregistrare fiscală sau reprezentant fiscal pentru nerezidenții din afara UE.",
+        "Lipsa unei clauze reale de încetare și risc de transfer al costului către IMM-uri (Art. 10 și Art. 13): Art. 13 promite doar o „reevaluare” la implementarea Pilonului 1 OCDE, fără abrogare automată, iar în lipsa unei analize de impact economic, costul de 3% asupra venitului brut riscă să fie repercutat de marile platforme în tarifele plătite de firmele românești."
       ],
-      "blindSpotsCaught": "TRIS nu devine obligatoriu numai fiindcă o taxă privește servicii digitale. Art. 5 și 7 ale proiectului trebuie însă examinate pentru a stabili dacă instituie norme notificabile privind serviciile societății informaționale; cota fiscală, luată separat, nu justifică automat această calificare. Pentru normele tehnice legate de măsuri fiscale care intră la art. 1 alin. (1) lit. f), al doilea paragraf pct. (iii), art. 7 alin. (4) înlătură perioada de așteptare, nu și notificarea. Din documentele verificate nu rezultă suficient pentru a afirma existența unei încălcări TRIS. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
-      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5): contribuabilul trebuie să poată determina din lege baza taxabilă, scadența și conduita sancționată. Delegarea către ANAF trebuie limitată la aplicare, în acord cu rezerva legii fiscale din art. 139 alin. (1). Art. 56 alin. (2) și art. 135 alin. (2) lit. a) impun examinarea distribuirii sarcinii fiscale și a concurenței. Art. 23 alin. (12) consacră legalitatea pedepselor, dar proiectul instituie contravenții, nu infracțiuni; pentru acestea, critica de previzibilitate trebuie construită în primul rând pe art. 1 alin. (5). Sunt vulnerabilități argumentabile, nu o constatare definitivă de neconstituționalitate. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm).",
-      "euLawNote": "Directiva 2018/958 privește accesul la profesii reglementate și exercitarea lor, deci testul său special nu este aplicabil acestei taxe. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng/pdf). Problema centrală este art. 56 TFUE: taxarea exclusivă a nerezidenților poate dezavantaja prestatorii din alte state membre și necesită analiza comparabilității și justificării tratamentului. Existența unor taxe în alte state nu validează automat mecanismul românesc; cauza Google Ireland nu reprezintă o asemenea autorizare generală și subliniază controlul proporționalității sancțiunilor. [CJUE, C-482/18](https://curia.europa.eu/site/upload/docs/application/pdf/2020-03/cp200021en.pdf). Consiliul Concurenței semnalează un posibil caracter selectiv și solicită analiza prin prisma art. 107 TFUE; aceasta nu echivalează cu stabilirea unui ajutor de stat ilegal. [Avizul Consiliului Concurenței](https://www.senat.ro/legis/PDF/2026/26L053CC.PDF).",
+      "blindSpotsCaught": "Proiectul conține patru capcane procedurale ascunse: (1) intră în vigoare în 30 de zile (Art. 14), cu 5 luni înainte ca Guvernul să emită normele metodologice (Art. 12), fără derogare expresă de la Art. 4 din Codul fiscal; (2) Art. 9 instituie amenzi de până la 500.000 lei fără a desemna organul constatator sau procedura din OG nr. 2/2001; (3) Art. 5 obligă la transmiterea către ANAF a datelor tehnice de interacțiuni, conversii și segmentare geografică fără nicio cerință de anonimizare/agregare conform GDPR; (4) formula finală invocă eronat Art. 76 alin. (1) din Constituție (lege organică) pentru o materie fiscală ce ține de lege ordinară (Art. 76 alin. 2).",
+      "constitutionalityNote": "Proiectul prezintă riscuri serioase de neconstituționalitate raportat la Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), prin lipsa criteriilor legale de localizare a utilizatorilor, lipsa consolidării pe grup, regimul contravențional incomplet din Art. 9 și intrarea în vigoare înaintea normelor și procedurilor de declarare. Aplicarea taxei exclusiv companiilor nerezidente ridică probleme față de Art. 16 (egalitatea în fața legii) și Art. 56 alin. (2) (justa așezare a sarcinilor fiscale), iar delegarea largă către ANAF din Art. 7 de a actualiza anual metodologia contravine Art. 139 alin. (1) (elementele esențiale ale impozitelor se stabilesc exclusiv prin lege). De asemenea, impactul bugetar estimat (350–500 mil. lei) nu este susținut de o metodologie de calcul, iar formula de adoptare invocă greșit Art. 76 alin. (1) (lege organică).",
+      "euLawNote": "Proiectul intră în conflict direct cu Art. 56 TFUE (libertatea de a presta servicii) și Art. 49 TFUE: impozitarea exclusivă a „prestatorilor nerezidenți” constituie discriminare directă pe criteriul rezidenței, spre deosebire de taxele digitale validate de jurisprudența CJUE (cauzele Vodafone Magyarország C-75/18 și Google Ireland C-482/18, unde aplicarea neutră rezidenților/nerezidenților a fost esențială, iar sancțiunile disproporționate aplicate exclusiv nerezidenților au fost declarate contrare dreptului UE). Directiva (UE) 2018/958 privind testul de proporționalitate nu este direct aplicabilă (vizează profesiile reglementate), însă principiul general UE al proporționalității este afectat. Deși măsurile pur fiscale sunt în principiu exceptate de la Directiva (UE) 2015/1535 (TRIS), obligațiile tehnice distincte de raportare și geolocalizare din Art. 5 (sancționate contravențional) necesită verificare privind notificarea TRIS, Directiva comerțului electronic (2000/31/CE) și Regulamentul GDPR (UE) 2016/679, iar Directiva 2011/16/UE (invocată la Art. 6) nu oferă pârghii pentru entitățile stabilite în afara UE.",
       "senatForm": {
-        "articleRef": "Art. 1 alin. (1) și art. 2 lit. b)",
-        "proposalContent": "Art. 1 alin. (1): «Prezenta lege instituie o contribuție de 3% asupra veniturilor din publicitatea digitală livrată utilizatorilor aflați în România, datorată de prestatori indiferent de rezidența fiscală, în condițiile alin. (2).» Art. 2 lit. b) se abrogă.",
-        "argumentation": "Limitarea contribuției la nerezidenți creează un risc serios de discriminare contrară art. 56 TFUE. Amendamentul păstrează pragul de 750 milioane euro și elimină diferențierea expresă după rezidență. Sunt necesare separat definirea bazei și evaluarea proporționalității; cota de 3% nu este, prin ea însăși, nelegală.",
-        "otherComments": "Pentru Comisia pentru buget, finanțe și bănci a Camerei Deputaților, Pl-x 274/2026. Corelați titlul și restul textului; introduceți reguli complete de calcul și termene realiste. Termenul de amendamente din fișă, 09.04.2026, a trecut; memoriul cetățeanului poate fi preluat de un deputat în condițiile procedurii parlamentare."
-      }
+        "articleRef": "Art. 1 alin. (1)-(2) și Art. 14",
+        "proposalContent": "Art. 1: Contribuția de 3% se aplică nediscriminatoriu prestatorilor rezidenți și nerezidenți cu cifră de afaceri consolidată de grup ≥750 mil. EUR și venituri impozabile în România ≥5 mil. EUR. Art. 14: Legea intră în vigoare la 1 ianuarie al anului următor, la min. 6 luni de la publicare și numai după aprobarea normelor metodologice și a procedurii ANAF.",
+        "argumentation": "Aplicarea taxei exclusiv nerezidenților încalcă art. 56 TFUE (discriminare pe rezidență), spre deosebire de modelele FR/IT/ES invocate în Expunerea de motive. Lipsa pragului național și a consolidării pe grup permite eludarea prin subsidiare. Intrarea în vigoare în 30 zile, înaintea normelor (6 luni), încalcă art. 4 Cod fiscal și art. 1 alin. (5) din Constituție.",
+        "otherComments": "Se impune completarea Art. 5 cu obligația raportării exclusiv a datelor agregate/anonimizate (GDPR), completarea Art. 9 cu agentul constatator și trimiterea la OG 2/2001, precum și introducerea în Art. 13 a încetării automate la intrarea în vigoare a Pilonului 1 OCDE. Evaluați impactul transferării taxei de 3% în facturile de publicitate ale IMM-urilor românești."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 49977,
+      "sourceEndMarker": "SF-6E715236",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Taxă de 3% pe reclamele online vândute în România de giganții digitali străini",
+      "verdictShort": "Ideea unei taxe pe serviciile digitale e legitimă și are precedente în UE, dar varianta propusă taxează doar nerezidenții, ceea ce o expune la contestare pe dreptul UE și pe convențiile fiscale. Baza de calcul e vagă, estimarea bugetară pare umflată, iar costul va ajunge probabil la firmele românești care cumpără reclame.",
+      "initiatorClaim": "Inițiatorul vrea să corecteze dezechilibrul fiscal dintre firmele românești și platformele globale care câștigă din publicitate în România fără să plătească impozit aici. Estimează 350–500 mil. lei anual, fără efect asupra consumatorilor, după modelul Franței, Italiei și Spaniei.",
+      "realityCheck": "Legea pune o taxă de 3% pe cifra de afaceri (nu pe profit), cu declarare trimestrială și amenzi de până la 500.000 lei. Se aplică numai prestatorilor nerezidenți cu peste 750 mil. euro cifră de afaceri globală, fără un prag minim de venituri în România și fără o regulă clară de localizare a utilizatorului. În țările care au introdus astfel de taxe, platformele mari au trecut costul în facturile advertiserilor, deci taxa ar ajunge în bună parte la IMM-urile românești care își fac reclamă online.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (2) și art. 2 lit. b): taxa vizează exclusiv persoanele juridice nerezidente. Modelele francez, italian și spaniol, invocate în expunerea de motive, se aplică indiferent de rezidență și au și un prag de venituri local. Aici criteriul de rezidență creează o discriminare directă.",
+        "Art. 2 lit. c): «venitul impozabil» se bazează pe interacțiunile utilizatorilor «aflați pe teritoriul României», dar legea nu spune cum se stabilește localizarea (IP, geolocație, cont) și nici cum se alocă veniturile din contracte globale. Baza de calcul ajunge practic să fie stabilită prin ordin ANAF.",
+        "Art. 7 vs. art. 12: ANAF actualizează anual metodologia, iar Guvernul aprobă normele metodologice în 6 luni. Legea nu clarifică ce act prevalează, deși declararea începe după doar 60 de zile (art. 4 alin. 3).",
+        "Art. 9: amenzile de 50.000–200.000 lei, respectiv 100.000–500.000 lei, nu disting între întârziere și omisiune totală. Legea nu prevede nici mecanism de înregistrare sau reprezentant fiscal pentru nerezidenți, așa că sancțiunile sunt greu de aplicat efectiv.",
+        "Expunerea de motive: estimarea de 350–500 mil. lei presupune o bază impozabilă de circa 11,7–16,7 mld. lei. Cifra pare mult peste estimările publice ale pieței românești de publicitate digitală și nu este susținută de nicio fișă financiară."
+      ],
+      "blindSpotsCaught": "Expunerea de motive afirmă că taxele similare au fost «validate la nivelul UE». În realitate, propunerea de directivă UE privind taxa pe serviciile digitale (2018) nu a fost adoptată, iar taxele naționale nu au fost validate de UE. În plus, intrarea în vigoare la 30 de zile ocolește regula din art. 4 din Codul fiscal, care cere ca noile obligații fiscale să intre în vigoare abia după cel puțin 6 luni, prin plasarea taxei într-o lege separată. Art. 13 promite «reevaluarea» la implementarea Pilonului Unu OCDE, dar nu prevede abrogarea automată, deci caracterul «tranzitoriu» e doar declarativ.",
+      "constitutionalityNote": "Taxa poate fi instituită prin lege (art. 139). Criteriul exclusiv al nerezidenței ridică însă probleme față de art. 56 alin. (2), care cere așezarea justă a sarcinilor fiscale, și față de egalitatea de tratament: o firmă rezidentă cu aceleași venituri din publicitate nu plătește. Lipsa regulilor de localizare și de alocare a veniturilor afectează claritatea și previzibilitatea legii (art. 1 alin. 5). Legea nu menționează solicitarea informării Guvernului cerută de art. 111 alin. (1) pentru inițiativele cu impact bugetar.",
+      "euLawNote": "Diferențierea după rezidență restrânge libera prestare a serviciilor (art. 56 TFUE) și ar trebui justificată și proporțională, ceea ce pare greu de demonstrat. Taxele digitale validate de CJUE pe cifra de afaceri (ex. cauzele Vodafone, Tesco) erau aplicabile tuturor operatorilor. Clauzele de nediscriminare din convențiile de evitare a dublei impuneri (model OCDE, art. 24) pot fi și ele invocate, iar art. 10 nu poate exclude prin simplă declarație aplicarea lor. Directiva 2018/958 (profesii reglementate) nu este relevantă. Măsurile pur fiscale nu intră de regulă sub TRIS 2015/1535, dar obligațiile de raportare tehnică din art. 5, specifice serviciilor societății informaționale, justifică o notificare preventivă. Există și riscul unor represalii comerciale ale SUA, care au reacționat deja la astfel de taxe în alte state.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (2) și art. 2 lit. b)-c)",
+        "proposalContent": "Art. 1 (2): Contribuția se aplică oricărui prestator, rezident sau nerezident, cu cifră de afaceri globală de minimum 750 mil. euro și venituri din publicitate digitală în România de minimum 25 mil. lei în anul anterior. Utilizatorul se consideră în România după localizarea dispozitivului la momentul afișării, conform normelor art. 12.",
+        "argumentation": "Taxarea exclusivă a nerezidenților discriminează pe criteriul rezidenței (art. 56 TFUE, clauza de nediscriminare din convențiile fiscale) și contravine art. 56 alin. (2) din Constituție. Franța, Italia și Spania aplică taxa indiferent de rezidență și cu prag local. Fără regulă de localizare, baza impozabilă rămâne imprevizibilă.",
+        "otherComments": "Solicităm o fișă financiară reală: estimarea de 350-500 mil. lei cere o bază de ~12-17 mld. lei, peste piața estimată. Termenul de 30 de zile ignoră art. 4 din Codul fiscal (minim 6 luni). Art. 7 (ANAF) și art. 12 (Guvern) se suprapun. Taxa va fi refacturată advertiserilor români, inclusiv IMM-urilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 123222,
+      "sourceEndMarker": "SF-6E715236",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Taxă de 3% pe publicitatea online vândută de marile companii străine",
+      "verdictShort": "Proiectul urmărește un obiectiv fiscal legitim, dar condiționează expres taxarea de nerezidență și lasă neclare baza de calcul și scadența plății. Aceste probleme creează riscuri serioase de litigii și aplicare imprevizibilă, iar costurile pot ajunge indirect la firmele care cumpără publicitate.",
+      "initiatorClaim": "Inițiatorul promite o contribuție echitabilă a platformelor globale la buget, venituri anuale de 350–500 milioane lei și protejarea concurenței. Susține că măsura este compatibilă cu dreptul UE și angajamentele OCDE, fără costuri pentru populație sau companiile românești.",
+      "realityCheck": "Art. 1–3 instituie o prelevare pe veniturile brute din publicitate atribuite utilizatorilor din România, exclusiv pentru prestatori nerezidenți cu minimum 750 milioane euro cifră de afaceri globală; profitabilitatea și un prag minim de venituri realizate în România nu condiționează aplicarea. IMM-urile românești nu primesc obligații directe prin acest text, dar prestatorii pot transfera costul în tarifele publicitare. Art. 10 nu garantează evitarea dublei impuneri, iar art. 13 promite numai reevaluarea taxei, fără încetarea ei automată.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. 1 și art. 2 lit. b): nerezidența este o condiție expresă a taxării. Diferența față de prestatorii rezidenți necesită justificarea comparabilității și proporționalității tratamentului fiscal; simpla invocare a echității nu demonstrează compatibilitatea cu piața unică.",
+        "Art. 1 alin. (2): pragul este de minimum 750 milioane euro, deci include exact această valoare, contrar formulării «peste» din expunere. Nu există prag de venituri locale și nu este precizat dacă cifra de afaceri se determină individual sau consolidat la nivel de grup.",
+        "Art. 2 lit. c): enumerarea afișărilor, clickurilor și conversiilor nu oferă o formulă pentru atribuirea veniturilor contractuale României. Lipsesc reguli suficiente pentru localizare, contracte care acoperă mai multe țări și evitarea includerii repetate a aceluiași venit.",
+        "Art. 4 alin. (1) stabilește termenul declarației, dar nu prevede expres termenul plății. Art. 4 alin. (2) reglementează doar moneda și cursul valutar, deși art. 9 alin. (3) atașează dobânzi și penalități neplății; scadența trebuie clarificată și corelată cu regulile generale fiscale.",
+        "Art. 5 și art. 9: obligația de a furniza «datele tehnice necesare» nu are un termen propriu și nici limite suficiente privind conținutul solicitărilor. Amenda maximă de 500.000 lei nu este automat disproporționată pentru contribuabili atât de mari, dar sancționarea refuzului cere o obligație precisă și individualizarea proporțională a sancțiunii.",
+        "Art. 14 permite aplicarea după 30 de zile, în timp ce ordinul ANAF poate apărea după încă 60 de zile, iar normele Guvernului după șase luni de la intrarea în vigoare. Obligațiile pot deveni aplicabile înaintea procedurilor necesare, fără reguli tranzitorii pentru primul trimestru.",
+        "Art. 10 și art. 13 nu instituie nici credit fiscal, nici restituire, nici o dată de încetare. Calificarea unilaterală drept contribuție care nu este impozit pe profit nu poate înlătura aplicarea unei convenții fiscale dacă aceasta acoperă, prin conținutul ei, prelevarea respectivă.",
+        "Art. 11 permite, fără să garanteze, alocări ulterioare pentru educație digitală și securitate cibernetică. Estimarea încasărilor și afirmația că nu există impact asupra consumatorilor nu sunt demonstrate prin calcule în materialele furnizate."
+      ],
+      "blindSpotsCaught": "Dispoziția finală din art. 13 nu este o clauză de expirare: «va fi reevaluată» lasă contribuția în vigoare până la o intervenție normativă ulterioară. Art. 12 creează un decalaj între aplicarea taxei și adoptarea normelor, iar art. 4 omite scadența expresă a plății. Textul nu conține abrogări sau modificări exprese ale altor legi. Menționarea art. 76 alin. (1) din Constituție în formula finală nu transformă, prin ea însăși, reglementarea fiscală într-o lege organică.",
+      "constitutionalityNote": "Principalele vulnerabilități privesc art. 1 alin. (5), coroborat cu art. 56 alin. (2) și art. 139 alin. (1): contribuabilul trebuie să poată determina din lege întinderea sarcinii fiscale, baza și exigibilitatea ei, iar diferențele de tratament trebuie justificate. Elementele esențiale ale impunerii nu pot fi lăsate spre stabilire discreționară prin metodologia anuală ANAF prevăzută la art. 7. Pentru contravenții este relevantă previzibilitatea conduitei sancționate; art. 23 alin. (12), referitor la pedepse, nu trebuie aplicat automat oricărei amenzi administrative. Nu rezultă din text o neconstituționalitate certă, dar problemele identificate justifică remedierea înaintea adoptării.",
+      "euLawNote": "Taxarea exclusivă a nerezidenților ridică o problemă serioasă privind libertatea prestării serviciilor, în special art. 56 TFUE, și, după situație, libertatea de stabilire; analiza trebuie să examineze comparabilitatea fiscală și justificările concrete. Directiva (UE) 2018/958 privește reglementarea accesului la profesii și exercitării acestora, astfel că testul său nu se aplică acestei taxe doar pentru că afectează concurența. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru orice măsură fiscală referitoare la internet: trebuie verificat dacă dispozițiile introduc reguli notificabile privind serviciile societății informaționale și ce excepții procedurale operează. Art. 6 poate utiliza cooperarea prevăzută de Directiva 2011/16/UE în limitele acesteia, fără să garanteze accesul la orice date sau cooperarea statelor terțe. Dacă raportarea implică date personale, sunt necesare respectarea GDPR și minimizarea datelor; textul nu impune explicit transmiterea identității utilizatorilor. Afirmațiile despre o validare generală la nivelul UE și despre eliminarea oricărui conflict prin simpla reevaluare OCDE nu sunt demonstrate de documentele furnizate. Verificarea online a surselor și a situației procedurale nu a fost disponibilă.",
+      "senatForm": {
+        "articleRef": "Art. 4 alin. (1)",
+        "proposalContent": "Prestatorii nerezidenți declară și plătesc trimestrial contribuția până la data de 25 inclusiv a lunii următoare încheierii trimestrului. Pentru primul trimestru de aplicare, contribuția se calculează exclusiv asupra veniturilor aferente perioadei ulterioare intrării în vigoare a legii.",
+        "argumentation": "Textul actual stabilește numai termenul declarării, deși art. 9 prevede accesorii pentru neplată. Stabilirea expresă a scadenței și delimitarea primului trimestru sporesc previzibilitatea obligației fiscale și previn includerea veniturilor anterioare intrării în vigoare.",
+        "otherComments": "Sunt necesare separat clarificarea bazei, justificarea tratamentului nerezidenților și corelarea aplicării cu adoptarea normelor. Termenul indicat pentru amendamente, 09.04.2026, este depășit la data analizei; trebuie verificată posibilitatea valorificării observațiilor printr-un deputat în procedura actuală."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T04:53:39.515Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:11:51.894Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

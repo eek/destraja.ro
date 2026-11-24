@@ -2,14 +2,41 @@
   "billId": "Pl-x 275/2026",
   "slug": "plx-275-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T04:53:52.068Z",
+  "updatedAt": "2026-11-24T15:08:28.609Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 4404,
+    "ordinanceChars": 0,
+    "memoChars": 5162,
+    "memoSupplied": 5162,
+    "marker": "SF-64A39FCE"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-275-2026.json",
+    "form": "initiator",
+    "textHash": "64a39fce1ec0fc7b",
+    "fetchedAt": "2026-11-19T10:33:22.878Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Taxă de 2% pe comisioanele marilor platforme online (tip Uber, Bolt, Glovo, Booking)",
-    "summaryTlDr": "Ideea e legitimă: platformele foarte mari ar trebui să contribuie acolo unde încasează comisioane. Textul e însă scris în grabă. Are o scutire pentru „operatorii rezidenți” care poate fi citită ca discriminare după rezidență și nu are niciun prag local. Iar promisiunea că șoferii, livratorii și vânzătorii nu vor plăti nimic rămâne o frază, fără niciun mecanism care s-o garanteze.",
-    "initiatorClaim": "Inițiatorul spune că platformele digitale foarte mari încasează comisioane din tranzacții făcute în România fără să fie mereu impozitate aici. Susține că o contribuție de 2%, aplicată doar pe comisioane, ar aduce 200–400 milioane lei pe an fără să afecteze populația, IMM-urile sau platformele locale.",
-    "realityCheck": "Legea pune o taxă de 2% pe cifra de afaceri din comisioane, nu pe profit. O plătește orice platformă cu peste 750 milioane euro venituri globale, oricât de puțin ar încasa în România. Art. 4 alin. (2) interzice „recalificarea” contribuției ca taxă pe consumator sau pe furnizori, dar nu poate împiedica platforma să-și mărească comisioanele. În Franța și Marea Britanie, Amazon, Google și Apple au trecut taxa similară în tarifele plătite de vânzători, agenți de publicitate și dezvoltatori. Estimarea de 200–400 milioane lei presupune comisioane de 10–20 miliarde lei pe an în România și nu are nicio metodologie.",
+    "plainTitle": "Taxă de 2% pe comisioanele marilor platforme online (Uber, Bolt, Glovo, Booking, Airbnb etc.)",
+    "summaryTlDr": "Ideea unei taxe pe serviciile digitale e legitimă și folosită și în alte state UE. Textul are însă o scutire pentru „rezidenți” care poate fi discriminatorie, nu are un prag de venituri în România și lasă pe dinafară regulile de localizare, sancțiunile și o dată clară de expirare. Nimic din lege nu împiedică platformele să mute costul taxei pe șoferi, curieri, gazde și clienți.",
+    "initiatorClaim": "Inițiatorul spune că marile platforme de intermediere încasează comisioane din tranzacții făcute în România fără să plătească impozite corespunzătoare aici. Propune o contribuție „moderată” de 2%, estimată la 200–400 milioane lei pe an, care n-ar afecta populația sau IMM-urile.",
+    "realityCheck": "Legea pune o taxă de 2% pe comisioanele brute (nu pe profit) ale platformelor cu venituri globale de peste 750 mil. euro, pentru orice tranzacție în care măcar o parte se află în România (art. 2 lit. b, art. 3–5). Art. 4 alin. (2) spune că taxa „nu poate fi recalificată” ca taxă pe consumator sau pe prestatori, dar e o simplă declarație: nimic nu oprește platforma să mărească comisioanele percepute șoferilor, curierilor, gazdelor și vânzătorilor. Scutirea „operatorilor economici rezidenți în România pentru activitățile desfășurate în nume propriu” (art. 3 alin. 2 lit. b) e ambiguă și poate fi citită ca o scutire a platformelor românești, ceea ce ar însemna tratament diferit după rezidență.",
     "affectedGroups": [
       "IT & AI",
       "IMM & Antreprenori",
@@ -17,120 +44,147 @@
       "Șoferi & Auto"
     ],
     "senatForm": {
-      "articleRef": "Art. 3 alin. (1) și alin. (2) lit. b)",
-      "proposalContent": "Alin. (2) lit. b) devine: «b) vânzărilor de bunuri sau servicii proprii, în nume și pe cont propriu, indiferent de rezidența fiscală a vânzătorului;» La alin. (1) se introduce lit. c): «c) obțin, în anul fiscal precedent, venituri din intermediere digitală realizată pe teritoriul României mai mari de 5 milioane euro.»",
-      "argumentation": "Textul scutește operatorii rezidenți (Expunerea: „nu afectează platformele digitale locale”): diferențiere după rezidență, fragilă față de art. 16 din Constituție, art. 49 și 56 TFUE și regulile privind ajutorul de stat. Fără prag local, orice platformă cu venituri minime în România ar avea declarații trimestriale și reprezentant fiscal pentru sume neglijabile.",
-      "otherComments": "Mai propun: (1) art. 9 – dată fixă de încetare (ex. 31.12.2028); (2) art. 2 lit. b) – criteriu de localizare a utilizatorului; (3) art. 8 – credit pentru taxe similare plătite în alt stat UE pe aceeași tranzacție; (4) art. 7 alin. (3) – reprezentant fiscal doar pentru platformele din afara UE/SEE; (5) art. 10 – intrare în vigoare la 1 ianuarie (art. 4 C. fiscal)."
+      "articleRef": "Art. 3 alin. (1) și (2) lit. b); art. 9",
+      "proposalContent": "La art. 3 alin. (1) se introduce lit. c): «realizează venituri din intermediere digitală pe teritoriul României de peste 25 milioane lei în anul fiscal precedent.» Art. 3 alin. (2) lit. b) se abrogă. Art. 9: «Contribuția se aplică până la 31 decembrie 2029 sau până la intrarea în vigoare a unui acord multilateral privind Pilonul Unu OCDE, dacă aceasta survine mai devreme.»",
+      "argumentation": "Fără un prag pentru veniturile din România, taxa lovește grupuri cu activitate neglijabilă aici. Scutirea rezidenților poate fi văzută ca discriminare contrară art. 49 și 56 TFUE sau ca ajutor de stat selectiv, iar o cotă unică pentru toți elimină acest risc. Termenul ferm face reală promisiunea de caracter tranzitoriu și asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+      "otherComments": "Recomand introducerea contribuției în Codul fiscal, cu intrare în vigoare la 1 ianuarie, conform art. 4 din Cod. Sunt necesare reguli de localizare a tranzacțiilor (de exemplu, IP sau adresa de facturare), criteriile reprezentantului fiscal stabilite în lege, nu prin decizie ANAF, și obligația ANAF de a publica anual un raport privind efectul asupra comisioanelor plătite de șoferi, curieri și"
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 54734,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 113330,
+      "sourceEndMarker": "SF-64A39FCE",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Taxă de 2% pe comisioanele marilor platforme digitale (Uber, Bolt, Booking, Glovo, Amazon)",
-      "verdictShort": "Deși țintește oficial doar giganții tech cu afaceri globale peste 750 milioane euro, proiectul este redactat sumar și nu împiedică real transferarea taxei de 2% direct în comisioanele plătite de firmele românești, șoferi, hotelieri și consumatori. În plus, termenii vagi privind evitarea dublei impuneri riscă să creeze haos fiscal și litigii cu ANAF.",
-      "initiatorClaim": "Inițiatorul susține că legea aduce echitate fiscală prin taxarea cu 2% a comisioanelor brute încasate în România de marile platforme digitale globale (peste 750 milioane euro cifră de afaceri), aducând 200–400 milioane lei anual la buget fără a afecta IMM-urile, prestatorii locali sau consumatorii.",
-      "realityCheck": "În practică, experiența altor state UE arată că marile platforme (Amazon, Google, Apple, Booking) transferă imediat astfel de taxe pe veniturile brute către comercianții și utilizatorii locali, prin creșterea comisioanelor sau introducerea unor „taxe de reglementare”. Declarația de la Art. 4 alin. (2), potrivit căreia contribuția „nu poate fi recalificată ca taxă asupra consumatorului final sau asupra prestatorilor”, este pur decorativă, fără nicio sancțiune sau mecanism care să oprească scumpirea comisioanelor.",
+      "plainTitle": "Taxă de 2% pe comisioanele marilor platforme digitale, scrisă cu lacune juridice și risc de scumpiri",
+      "verdictShort": "Deși taxarea marilor platforme digitale există în mai multe state UE, proiectul este redactat sumar, fără prag local de venituri, fără reguli de alocare teritorială și cu o obligație de reprezentare fiscală care riscă să încalce Dreptul UE. În practică, taxa pe comisioanele brute va fi ușor transferată în tarifele plătite de IMM-urile și consumatorii din România.",
+      "initiatorClaim": "Inițiatorul susține că taxa de 2% asigură echitate fiscală și aduce 200–400 mil. lei anual la buget, vizând exclusiv giganți digitali cu afaceri globale peste 750 mil. euro, fără a afecta populația, prestatorii locali sau IMM-urile.",
+      "realityCheck": "În realitate, art. 3 impune taxa fără niciun prag minim de venituri în România și fără excepții pentru servicii financiare sau de plăți, obligând orice grup global cu o singură tranzacție locală să desemneze un reprezentant fiscal în România (art. 7 alin. 3). Mai mult, interdicția declarativă din art. 4 alin. (2) de a nu recalifica taxa asupra consumatorului sau prestatorilor nu împiedică platformele să își majoreze comisioanele cu 2%, transferând costul asupra comercianților români și clienților finali.",
       "affectedGroups": [
         "IT & AI",
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Șoferi & Auto",
-        "Proprietari & Imobiliare"
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Iluzia protecției prestatorilor și consumatorilor (Art. 4 alin. 2): Legea afirmă pe hârtie că taxa de 2% nu poate fi recalificată ca taxă asupra consumatorului sau prestatorilor intermediați, dar nu conține nicio interdicție sau sancțiune împotriva majorării comisioanelor de către platforme pentru restaurante, comercianți marketplace, șoferi de ride-sharing sau gazde.",
-        "Ambiguitate majoră privind dubla impunere în România (Art. 8 și Art. 3 alin. 2 lit. b): Scutirea veniturilor impozitate efectiv în România „în baza unui regim fiscal echivalent, asupra aceleiași baze de calcul” este neclară. Nu se înțelege dacă platformele care au entități în România și plătesc deja impozit pe profit (16%) sau impozit minim pe cifra de afaceri (IMCA - 1%) sunt scutite sau vor fi suprataxate.",
-        "Risc de dublă taxare transfrontalieră și lipsa criteriilor de localizare (Art. 2 lit. b): Contribuția se aplică integral dacă „cel puțin una dintre părți” se află în România. Dacă un turist român rezervă un hotel în Franța sau Italia (state care au deja taxe digitale similare), întregul comision este taxat în România fără nicio regulă de alocare proporțională și fără a defini tehnic cum se stabilește prezența pe teritoriu (IP, adresă de facturare, GPS).",
-        "Estimarea din oficiu fără metodologie clară (Art. 6 alin. 3) și legiferarea paralelă cu Codul fiscal: ANAF primește puterea de a estima baza de calcul „pe baza datelor disponibile privind tranzacțiile intermediate”, fără ca legea să prevadă procedura sau sursele de date, iar instituirea unei taxe noi printr-o lege separată încalcă principiul unicității și predictibilității din Codul fiscal."
+        "Absența unui prag local de venituri (Art. 3 alin. 1): spre deosebire de taxele digitale din Franța (25 mil. euro), Italia (5,5 mil. euro) sau Spania (3 mil. euro), orice grup global peste 750 mil. euro cu venituri simbolice din România devine plătitor și suportă obligații trimestriale.",
+        "Lipsa regulilor de localizare și alocare teritorială (Art. 2 lit. b și Art. 4 alin. 1): legea nu definește cum se stabilește că o parte se află în România (IP, adresă de facturare, rezidență) și nici cum se împarte baza impozabilă la tranzacțiile transfrontaliere, generând risc de dublă impunere internațională.",
+        "Subiect fiscal impropriu și definiție excesiv de largă (Art. 2 lit. a și Art. 6 alin. 1): obligația fiscală este atribuită «platformei digitale» (definită ca infrastructură digitală, nu persoană juridică), iar definiția nu exclude serviciile financiare reglementate, procesatorii de plăți sau piețele B2B.",
+        "Clauză vagă de evitare a dublei impuneri interne (Art. 8) și estimare fiscală neîngrădită (Art. 6 alin. 3): sintagma «regim fiscal echivalent, asupra aceleiași baze de calcul» nu clarifică suprapunerea cu impozitul pe profit sau cu IMCA (1% pe cifra de afaceri), iar estimarea de către ANAF nu are metodologie stabilită în lege.",
+        "Transferul costului în piață (Art. 4 alin. 2 vs. Expunerea de motive): o taxă de 2% pe veniturile brute din comisioane acționează economic ca o suprataxă pe intermediere, care în alte state UE a fost repercutată rapid în comisioanele percepute IMM-urilor (HoReCa, retail online, turism, transport alternativ) și în prețurile finale."
       ],
-      "blindSpotsCaught": "Proiectul omite procedura de notificare prealabilă a Comisiei Europene conform Directivei (UE) 2015/1535 (TRIS), deși vizează exclusiv serviciile societății informaționale (intermedierea digitală). De asemenea, excluderea de la Art. 3 alin. (2) lit. b) a „operatorilor economici rezidenți în România pentru activitățile desfășurate în nume propriu” este redundantă (vânzarea în nume propriu nu este intermediere între terți), dar formularea confuză din Expunerea de Motive sugerează intenția de a proteja operatorii români față de cei nerezidenți, ceea ce ar ridica suspiciuni de discriminare pe piața unică.",
-      "constitutionalityNote": "Proiectul prezintă vulnerabilități față de Art. 1 alin. (5) din Constituție (principiul legalității, clarității și previzibilității normei fiscale), întrucât sintagma „regim fiscal echivalent, asupra aceleiași baze de calcul” din Art. 8 nu are corespondent definit în Codul fiscal. Totodată, lipsa unor criterii obiective în corpul legii pentru estimarea bazei de impunere de către ANAF (Art. 6 alin. 3) și pentru localizarea utilizatorilor pe teritoriul României poate contraveni jurisprudenței CCR privind certitudinea impunerii și Art. 56 alin. (2) privind justa așezare a sarcinilor fiscale.",
-      "euLawNote": "Sub incidența Dreptului UE, reglementarea vizează direct serviciile de intermediere online și ar necesita notificarea Comisiei Europene prin mecanismul TRIS – Directiva (UE) 2015/1535, a cărei omitere poate duce la inopozabilitatea legii. În plus, raportat la art. 49 și art. 56 TFUE (libertatea de stabilire și de prestare a serviciilor), aplicarea unui prag global consolidat de 750 milioane euro combinată cu excepții neclare pentru rezidenți (Art. 3 alin. 2 lit. b și Art. 8) și lipsa unui mecanism de proporționalitate la tranzacțiile intracomunitare pot fi contestate ca restricții disproporționate pe piața unică.",
+      "blindSpotsCaught": "Două capcane subtile: (1) Art. 7 alin. (3) obligă toate platformele nerezidente să desemneze reprezentant fiscal în România, fără excepție pentru cele din UE/SEE — o barieră sancționată constant de CJUE; (2) formula finală încadrează proiectul ca lege organică (art. 76 alin. 1 Constituție), deși instituirea unei taxe fără sancțiuni penale ține de legea ordinară, iar art. 10 (intrare în vigoare la 9 luni) poate interveni în mijlocul anului fiscal, contrar regulii de previzibilitate de la 1 ianuarie din art. 4 Cod fiscal.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate raportat la art. 1 alin. (5) (calitatea și previzibilitatea legii) și art. 139 alin. (1) (legalitatea impunerii): obligația de plată este pusă în sarcina unei «infrastructuri digitale» în loc de persoană juridică (art. 2 lit. a, art. 6 alin. 1), lipsesc criteriile de localizare și alocare a tranzacțiilor transfrontaliere, sintagma «regim fiscal echivalent» (art. 8) este neclară, iar condițiile reprezentării fiscale sunt delegate integral către ANAF fără criterii legale (art. 7 alin. 3). Taxarea veniturilor brute fără prag local ridică și probleme de proporționalitate sub art. 56 alin. (2) (așezarea justă a sarcinilor fiscale), iar calificarea ca lege organică (art. 76 alin. 1) este eronată.",
+      "euLawNote": "Obligația desemnării unui reprezentant fiscal în România (art. 7 alin. 3) impusă inclusiv platformelor stabilite în alte state membre UE încalcă libertatea de a presta servicii (art. 56 TFUE), întrucât jurisprudența CJUE (ex. C-678/11, C-267/09) consideră această cerință disproporționată în prezența directivelor UE de asistență reciprocă fiscală (2011/16/UE și 2010/24/UE). Deși CJUE a admis în principiu taxe sectoriale cu prag global ridicat (C-75/18 Vodafone), lipsa pragului național și a cheilor de alocare afectează piața unică și creează fricțiuni cu Pilonul Unu OCDE. Directiva (UE) 2018/958 nu este aplicabilă (nu vizează profesii reglementate), iar sub Directiva (UE) 2015/1535 (TRIS) măsurile pur fiscale sunt scutite de standstill (art. 7 alin. 4), însă cerința operațională de reprezentare locală a furnizorilor de servicii digitale justifică evaluarea notificării către Comisia Europeană.",
       "senatForm": {
-        "articleRef": "Art. 4 alin. (2) și Art. 8",
-        "proposalContent": "La Art. 4 alin. (2) se introduce interdicția expresă de transferare directă sau indirectă a contribuției în comisioanele percepute utilizatorilor români. La Art. 8 se clarifică explicit că plătitorii de impozit pe profit sau de impozit minim pe cifra de afaceri (IMCA) în România sunt exceptați de la această contribuție, evitând dubla impunere.",
-        "argumentation": "Fără o interdicție efectivă, marile platforme vor transfera automat taxa de 2% în comisioanele percepute IMM-urilor, șoferilor, restaurantelor și hotelierilor români, așa cum s-a întâmplat în alte state UE. De asemenea, sintagma „regim fiscal echivalent” din Art. 8 este vagă și încalcă certitudinea fiscală (art. 1 alin. 5 din Constituție).",
-        "otherComments": "Definirea tranzacției la Art. 2 lit. b) necesită o regulă de proporționalitate (alocare) atunci când doar una dintre părți este în România, pentru a evita dubla taxare internațională a aceluiași comision în două state membre UE. Totodată, o astfel de taxă ar trebui integrată direct în Codul fiscal, nu adoptată prin lege separată."
-      }
+        "articleRef": "Art. 3 alin. (1)-(2) și Art. 7 alin. (3)",
+        "proposalContent": "La art. 3 alin. (1) lit. b) se adaugă un prag local de 5 mil. euro/an în România, iar la alin. (2) se exclud serviciile financiare și de plăți reglementate. La art. 7 alin. (3), reprezentantul fiscal devine obligatoriu doar pentru entități din afara UE/SEE. La art. 2 și 4 se definesc subiectul juridic al taxei și regula de alocare teritorială.",
+        "argumentation": "Fără prag local (ca în Franța, Italia sau Spania), orice grup >750 mil. euro cu o singură tranzacție în România suportă birocrație disproporționată. Obligația reprezentantului fiscal pentru firme din UE încalcă art. 56 TFUE (jurisprudența CJUE). Lipsa regulii de alocare și impunerea pe «infrastructură» încalcă art. 1 alin. (5) și art. 139 din Constituție.",
+        "otherComments": "Clarificați art. 8 privind interacțiunea cu impozitul pe profit și IMCA (1% pe cifra de afaceri) pentru a preveni dubla impunere internă. Introduceți o clauză expresă de încetare automată (sunset clause) la art. 9 și aliniați intrarea în vigoare la 1 ianuarie (art. 4 Cod fiscal), precum și adoptarea ca lege ordinară (art. 76 alin. 2 Constituție)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 236590,
+      "durationMs": 46892,
+      "sourceEndMarker": "SF-64A39FCE",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Taxă de 2% pe comisioanele marilor platforme online (tip Uber, Bolt, Glovo, Booking)",
-      "verdictShort": "Ideea e legitimă: platformele foarte mari ar trebui să contribuie acolo unde încasează comisioane. Textul e însă scris în grabă. Are o scutire pentru „operatorii rezidenți” care poate fi citită ca discriminare după rezidență și nu are niciun prag local. Iar promisiunea că șoferii, livratorii și vânzătorii nu vor plăti nimic rămâne o frază, fără niciun mecanism care s-o garanteze.",
-      "initiatorClaim": "Inițiatorul spune că platformele digitale foarte mari încasează comisioane din tranzacții făcute în România fără să fie mereu impozitate aici. Susține că o contribuție de 2%, aplicată doar pe comisioane, ar aduce 200–400 milioane lei pe an fără să afecteze populația, IMM-urile sau platformele locale.",
-      "realityCheck": "Legea pune o taxă de 2% pe cifra de afaceri din comisioane, nu pe profit. O plătește orice platformă cu peste 750 milioane euro venituri globale, oricât de puțin ar încasa în România. Art. 4 alin. (2) interzice „recalificarea” contribuției ca taxă pe consumator sau pe furnizori, dar nu poate împiedica platforma să-și mărească comisioanele. În Franța și Marea Britanie, Amazon, Google și Apple au trecut taxa similară în tarifele plătite de vânzători, agenți de publicitate și dezvoltatori. Estimarea de 200–400 milioane lei presupune comisioane de 10–20 miliarde lei pe an în România și nu are nicio metodologie.",
+      "plainTitle": "Taxă de 2% pe comisioanele marilor platforme online (Uber, Bolt, Glovo, Booking, Airbnb etc.)",
+      "verdictShort": "Ideea unei taxe pe serviciile digitale e legitimă și folosită și în alte state UE. Textul are însă o scutire pentru „rezidenți” care poate fi discriminatorie, nu are un prag de venituri în România și lasă pe dinafară regulile de localizare, sancțiunile și o dată clară de expirare. Nimic din lege nu împiedică platformele să mute costul taxei pe șoferi, curieri, gazde și clienți.",
+      "initiatorClaim": "Inițiatorul spune că marile platforme de intermediere încasează comisioane din tranzacții făcute în România fără să plătească impozite corespunzătoare aici. Propune o contribuție „moderată” de 2%, estimată la 200–400 milioane lei pe an, care n-ar afecta populația sau IMM-urile.",
+      "realityCheck": "Legea pune o taxă de 2% pe comisioanele brute (nu pe profit) ale platformelor cu venituri globale de peste 750 mil. euro, pentru orice tranzacție în care măcar o parte se află în România (art. 2 lit. b, art. 3–5). Art. 4 alin. (2) spune că taxa „nu poate fi recalificată” ca taxă pe consumator sau pe prestatori, dar e o simplă declarație: nimic nu oprește platforma să mărească comisioanele percepute șoferilor, curierilor, gazdelor și vânzătorilor. Scutirea „operatorilor economici rezidenți în România pentru activitățile desfășurate în nume propriu” (art. 3 alin. 2 lit. b) e ambiguă și poate fi citită ca o scutire a platformelor românești, ceea ce ar însemna tratament diferit după rezidență.",
       "affectedGroups": [
-        "IMM & Antreprenori",
         "IT & AI",
         "Contabili & Fiscalitate",
-        "Șoferi & Auto",
-        "Proprietari & Imobiliare"
-      ],
-      "keyFindings": [
-        "Art. 3 alin. (2) lit. b) scutește „operatorii economici rezidenți în România pentru activitățile desfășurate în nume propriu”. Expunerea de motive spune că legea „nu afectează platformele digitale locale”. Citite împreună, textele pot însemna o scutire pentru platformele cu sediul în România, adică o diferențiere după rezidență, greu de apărat juridic. Dacă scutirea vizează doar vânzările proprii, e redundantă, fiindcă art. 4 taxează oricum doar comisioanele.",
-        "Art. 3 alin. (1) nu cere un prag minim de venituri în România. Franța cere 25 milioane euro venituri locale, iar propunerea de directivă UE din 2018 cerea 50 milioane euro în UE. Aici, o platformă cu câteva mii de euro comisioane în România ar datora declarații trimestriale și ar trebui să numească un reprezentant fiscal (art. 7).",
-        "Art. 2 lit. b) taxează orice tranzacție în care „cel puțin una dintre părți se află” în România. Legea nu spune cum se stabilește locul (adresă IP, adresă de facturare sau cont) și nu are reguli pentru tranzacțiile transfrontaliere. Art. 8 evită doar dubla impunere în interiorul României, așa că același comision poate fi taxat și de România, și de alt stat cu o taxă similară, de exemplu Franța, Italia sau Spania.",
-        "Art. 2 lit. a) e foarte larg: „orice infrastructură digitală care pune în legătură utilizatori” contra unui comision. Spre deosebire de modelul francez și de propunerea UE din 2018, nu exclude serviciile financiare și de plată reglementate. În plus, „platforma” e definită ca infrastructură, nu ca persoană juridică, deci contribuabilul nu e clar identificat. Nici „veniturile globale consolidate” (ale entității sau ale grupului?) nu sunt definite.",
-        "Expunerea promite că șoferii, livratorii și gazdele nu sunt vizați. Juridic e adevărat, economic nu: platforma le poate mări comisionul perceput. Art. 4 alin. (2) e o declarație de principiu, fără efect asupra prețurilor.",
-        "Art. 9 declară contribuția „tranzitorie”, dar nu îi fixează o dată de încetare. Pilonul Unu OCDE e blocat de când SUA s-au retras din acordul fiscal global, în ianuarie 2025. „Reevaluarea” nu are deci un moment concret în care să aibă loc, iar taxa devine practic permanentă.",
-        "Art. 10 prevede intrarea în vigoare la 9 luni de la publicare. Asta ignoră regula de predictibilitate din art. 4 alin. (2) din Codul fiscal, după care taxele noi se aplică de la 1 ianuarie. Primul trimestru de plată poate fi unul incomplet, iar legea nu spune cum se calculează.",
-        "Art. 7 alin. (3) lasă ANAF să stabilească „condițiile” pentru reprezentantul fiscal. Pentru furnizorii din UE, CJUE a considerat obligația de a numi un reprezentant fiscal o restricție nejustificată a liberei prestări de servicii (C-678/11, Comisia/Spania). ANAF poate oricum recupera creanțe din alte state prin asistența reciprocă prevăzută de Directiva 2010/24."
-      ],
-      "blindSpotsCaught": "Formula finală citează art. 76 alin. (1) din Constituție, care privește legile organice, deși instituirea unei taxe se face prin lege ordinară (art. 76 alin. (2)). Art. 8 cere dovada unei „impozitări efective în România… asupra aceleiași baze de calcul”, condiție aproape imposibilă, pentru că impozitul pe profit are altă bază; clauza anti-dublă impunere e practic goală. Taxa e creată în afara Codului fiscal, deși art. 7 trimite la el, ceea ce contrazice principiul unicității reglementării din Legea 24/2000; nu se spune nici dacă e deductibilă la impozitul pe profit. Datele DAC7, pe care platformele le raportează deja la ANAF, nu sunt folosite pentru estimarea din art. 6 alin. (3). Expunerea nu menționează riscul comercial: din februarie 2025, SUA amenință cu tarife statele care aplică taxe pe servicii digitale, iar Canada și-a retras taxa în iunie 2025.",
-      "constitutionalityNote": "Statul poate institui o asemenea taxă prin lege (art. 56 și art. 139 alin. (1)). Pragul de 750 milioane euro și cota de 2% nu contrazic, în sine, „așezarea justă a sarcinilor fiscale” (art. 56 alin. (2)). Problemele țin de claritate și previzibilitate (art. 1 alin. (5)): legea nu spune cum se stabilește unde se află părțile (art. 2 lit. b), nu identifică precis contribuabilul, iar „caracterul tranzitoriu” nu are termen. Scutirea operatorilor rezidenți (art. 3 alin. (2) lit. b) poate fi contestată pe art. 16, art. 56 alin. (2) și art. 135 alin. (2) lit. a) (concurență loială), dacă nu are o justificare obiectivă. Delegarea către ANAF a condițiilor pentru reprezentantul fiscal e la limita art. 139. Legea nu creează sancțiuni proprii (se aplică Codul de procedură fiscală), deci art. 23 alin. (12) nu e afectat. De corectat: formula de adoptare trebuie să citeze art. 76 alin. (2), nu alin. (1), și trebuie verificat că există punctul de vedere al Guvernului (art. 111 alin. (1)).",
-      "euLawNote": "Taxele pe servicii digitale nu sunt armonizate la nivelul UE (propunerea COM(2018) 148 nu a fost adoptată), deci statele membre le pot institui. O taxă pe comisioane nu are caracterul unei TVA interzise de art. 401 din Directiva 2006/112. CJUE acceptă, în principiu, praguri bazate pe cifra de afaceri (Vodafone Magyarország, C-75/18; Comisia/Ungaria, C-596/19 P). În schimb, o scutire legată de rezidență (art. 3 alin. (2) lit. b) riscă să încalce libertatea de stabilire și libera prestare a serviciilor (art. 49 și 56 TFUE) și să fie ajutor de stat selectiv (art. 107 TFUE). Același risc îl are obligația de reprezentant fiscal pentru platformele din UE (C-678/11). Directiva 2018/958 nu se aplică, pentru că legea nu reglementează profesii. TRIS (2015/1535): taxa în sine e o măsură fiscală, dar art. 6–7 impun obligații specifice furnizorilor de servicii ale societății informaționale. Din prudență, proiectul ar trebui notificat Comisiei înainte de adoptare; altfel, aceste obligații riscă să nu poată fi opuse platformelor (CIA Security, C-194/94). Directiva privind comerțul electronic exclude fiscalitatea din domeniul ei, deci nu împiedică măsura.",
-      "senatForm": {
-        "articleRef": "Art. 3 alin. (1) și alin. (2) lit. b)",
-        "proposalContent": "Alin. (2) lit. b) devine: «b) vânzărilor de bunuri sau servicii proprii, în nume și pe cont propriu, indiferent de rezidența fiscală a vânzătorului;» La alin. (1) se introduce lit. c): «c) obțin, în anul fiscal precedent, venituri din intermediere digitală realizată pe teritoriul României mai mari de 5 milioane euro.»",
-        "argumentation": "Textul scutește operatorii rezidenți (Expunerea: „nu afectează platformele digitale locale”): diferențiere după rezidență, fragilă față de art. 16 din Constituție, art. 49 și 56 TFUE și regulile privind ajutorul de stat. Fără prag local, orice platformă cu venituri minime în România ar avea declarații trimestriale și reprezentant fiscal pentru sume neglijabile.",
-        "otherComments": "Mai propun: (1) art. 9 – dată fixă de încetare (ex. 31.12.2028); (2) art. 2 lit. b) – criteriu de localizare a utilizatorului; (3) art. 8 – credit pentru taxe similare plătite în alt stat UE pe aceeași tranzacție; (4) art. 7 alin. (3) – reprezentant fiscal doar pentru platformele din afara UE/SEE; (5) art. 10 – intrare în vigoare la 1 ianuarie (art. 4 C. fiscal)."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 119548,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Taxă de 2% pe comisioanele marilor platforme digitale",
-      "verdictShort": "Taxarea comisioanelor marilor platforme poate avea o justificare legitimă, dar proiectul lasă neclare elemente esențiale ale obligației fiscale. Promisiunea că populația și firmele românești nu vor suporta costuri suplimentare nu este garantată de articole.",
-      "initiatorClaim": "Inițiatorul urmărește ca platformele cu venituri globale consolidate de peste 750 milioane euro să contribuie la buget pentru intermedierea asociată României. Susține că măsura ar aduce anual 200–400 milioane lei, fără efecte negative asupra populației, IMM-urilor sau investițiilor.",
-      "realityCheck": "Art. 3–5 instituie o obligație fiscală de 2% asupra comisioanelor brute eligibile, inclusiv când platforma nu obține profit, fără un prag minim al veniturilor realizate în România. Art. 4 alin. (2) păstrează obligația juridică la platformă, dar nu instituie un mecanism verificabil care să împiedice recuperarea costului prin comisioane sau prețuri mai mari. Cetățenii și IMM-urile independente sub prag nu primesc obligații declarative proprii prin acest proiect, însă pot suporta efecte economice indirecte.",
-      "affectedGroups": [
         "IMM & Antreprenori",
-        "IT & AI",
-        "Contabili & Fiscalitate",
         "Șoferi & Auto",
         "Proprietari & Imobiliare",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 lit. b) permite taxarea intermedierii unei rezervări pentru cazare în străinătate dacă utilizatorul se află în România. Lipsesc momentul și probele localizării, precum și reguli de repartizare a comisionului între jurisdicții; este un risc concret de suprapunere fiscală.",
-        "Art. 3 alin. (1) folosește veniturile globale consolidate, dar nu definește grupul, perimetrul consolidării sau entitatea care verifică pragul. Art. 6 alin. (1) atribuie obligația unei platforme care controlează sau exploatează serviciul, fără să identifice suficient persoana juridică debitoare și situația în care controlul și exploatarea aparțin unor entități diferite.",
-        "Art. 2 lit. c) include comisioane, tarife și alte remunerații, în timp ce art. 4 alin. (1) menționează numai comisioanele. Diferența poate genera litigii privind abonamentele și serviciile mixte; lipsesc și reguli explicite pentru anulări, rambursări și delimitarea sumelor încasate pentru terți.",
-        "Art. 3 alin. (2) lit. b) nu scutește expres toate platformele românești: excepția privește activitățile în nume propriu. Vânzarea propriilor bunuri este deja diferită de intermedierea între terți; dacă excepția ar acoperi și intermedierea unor rezidenți, ar apărea o diferență de tratament fiscal care necesită justificare.",
-        "Art. 6 permite înlăturarea structurilor artificiale și estimarea bazei, obiective fiscale legitime. Totuși, estimarea trebuie să privească remunerația platformei, nu valoarea integrală a tranzacțiilor, cu motivare și respectarea garanțiilor Codului de procedură fiscală; articolul nu introduce sancțiuni speciale.",
-        "Art. 8 condiționează scutirea de un regim fiscal echivalent asupra aceleiași baze, fără să definească echivalența și documentele justificative. Impozitul pe profit nu are automat aceeași bază ca această contribuție, iar textul nu elimină suprapunerea cu taxe digitale plătite în alte state.",
-        "Estimarea de 200–400 milioane lei presupune aritmetic o bază anuală taxabilă de 10–20 miliarde lei, înaintea scutirilor și a reacțiilor economice. Expunerea furnizată nu prezintă metodologia necesară verificării acestei baze; obligațiile trimestriale și administrarea de către ANAF implică activități suplimentare, chiar dacă nu rezultă automat necesitatea unor alocări bugetare noi.",
-        "Pragul ridicat și excluderea serviciilor fără intermediere limitează aplicarea directă și pot proteja concurenții mici. Totuși, apartenența la un grup eligibil trebuie clarificată, iar diferența de taxare între intermedierea digitală și cea tradițională necesită fundamentare; proiectul nu instituie un monopol sau o autorizare profesională."
+        "Art. 3 alin. (1): singurul prag este cel global (750 mil. euro). Nu există un prag pentru veniturile din România, cum au Franța (25 mil. euro) sau Italia (5,5 mil. euro), așa că un grup mare cu activitate neglijabilă aici devine contribuabil, cu obligații trimestriale și reprezentant fiscal.",
+        "Art. 3 alin. (2) lit. b): nu e clar ce înseamnă scutirea rezidenților „pentru activitățile desfășurate în nume propriu”. Dacă o platformă românească de peste 750 mil. euro e scutită, iar una străină nu, apare o discriminare după rezidență. Dacă scutirea privește doar vânzările proprii, ea e oricum redundantă față de lit. c).",
+        "Art. 2 lit. b): o tranzacție intră în baza de calcul dacă „cel puțin una dintre părți” se află în România. Lipsesc regulile de localizare (adresa IP, adresa de facturare, locul prestării) și regula de alocare pentru tranzacțiile transfrontaliere, deci aceeași tranzacție poate fi taxată și de DST-ul altui stat. Art. 8 evită dubla impunere doar pentru taxele plătite în România.",
+        "Art. 6 alin. (2)–(3): clauza anti-abuz („nu produc efecte juridice”) și stabilirea bazei prin estimare nu au garanții procedurale proprii. Rămân aplicabile doar art. 14 și 106 din Codul de procedură fiscală, prin trimiterea generală din art. 7 alin. (2).",
+        "Art. 7 alin. (3): condițiile desemnării reprezentantului fiscal sunt lăsate integral în seama ANAF, fără criterii stabilite în lege. Legea nu prevede nici sancțiuni sau dobânzi specifice, ci doar trimiterea generală la Codul de procedură fiscală.",
+        "Art. 9: caracterul „tranzitoriu” nu are o dată de expirare și nici un mecanism automat de încetare la intrarea în vigoare a Pilonului Unu OCDE. E doar o promisiune de „reevaluare”."
       ],
-      "blindSpotsCaught": "Caracterul tranzitoriu din art. 9 nu are termen de încetare, termen de evaluare sau autoritate responsabilă: contribuția poate continua pe durată nedeterminată. Formula finală invocă art. 76 alin. (1), deși Consiliul Legislativ califică inițiativa drept lege ordinară și indică alin. (2); același aviz cere integrarea reglementării în Codul fiscal și corelarea intrării în vigoare cu începutul anului. Aceste observații nu echivalează singure cu o constatare de neconstituționalitate. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L067LG.PDF?nocache=true). Senatul a respins propunerea la 25.03.2026, dar procedura continuă la Camera Deputaților; termenul comunicat pentru amendamente, 09.04.2026, este deja depășit. [Fișa legislativă](https://www.senat.ro/Legis/Lista.aspx?cod=27375).",
-      "constitutionalityNote": "Principalele vulnerabilități privesc art. 1 alin. (5), pentru previzibilitatea contribuabilului, teritorialității și scutirii, coroborat cu art. 56 alin. (2), privind așezarea justă a sarcinilor fiscale, și art. 139 alin. (1), privind stabilirea lor prin lege. ANAF poate detalia administrarea, dar nu ar trebui să completeze discreționar elementele esențiale ale impunerii. Cota de 2% și pragul de eligibilitate nu sunt, prin ele însele, neconstituționale; efectele și diferențele de tratament necesită justificare. Art. 23 alin. (12) privește legalitatea pedepselor și nu reprezintă temeiul direct pentru contestarea acestei contribuții, proiectul neinstituind pedepse proprii. Intervalul de nouă luni sprijină adaptarea contribuabililor. [Constituția României](https://www.prefectura.mai.gov.ro/wp-content/uploads/2018/02/21-Constitutia-Romaniei.pdf).",
-      "euLawNote": "Directiva 2018/958 privește accesul la profesii reglementate și exercitarea acestora; nu impune aici un test sectorial obligatoriu doar fiindcă se taxează platforme. [Directiva, art. 1–2](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958). Pentru TRIS 2015/1535, simplul obiect digital nu dovedește obligația notificării: trebuie identificată o reglementare tehnică sau o regulă privind serviciile în sensul directivei. Textul este predominant fiscal; art. 4 alin. (2) și eventualele norme de aplicare trebuie însă examinate dacă introduc cerințe distincte privind prestarea serviciilor. Nu se poate afirma automat nici notificarea obligatorie, nici o exceptare generală a tuturor măsurilor fiscale. [Comisia Europeană, explicații TRIS](https://technical-regulation-information-system.ec.europa.eu/en/faq). Riscul european cel mai concret este art. 7 alin. (3): reprezentantul fiscal obligatoriu pentru orice nerezident poate restrânge disproporționat libera prestare a serviciilor, având în vedere soluția CJUE într-o situație comparabilă. [CJUE, C-83/21](https://curia.europa.eu/site/upload/docs/application/pdf/2022-12/cp220212en.pdf). Pragul de venituri și predominanța contribuabililor străini nu dovedesc singure discriminarea; trebuie evaluate efectele reale și eventualele avantaje selective ale excepțiilor. [CJUE, C-75/18](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62018CJ0075).",
+      "blindSpotsCaught": "Taxa e creată printr-o lege separată, nu prin Codul fiscal. Asta ocolește art. 4 din Codul fiscal: taxele noi se introduc prin modificarea Codului, cu intrare în vigoare la 1 ianuarie și adoptare cu cel puțin 6 luni înainte. Termenul de 9 luni din art. 10 poate cădea în mijlocul unui trimestru, iar legea nu spune cum se calculează prima perioadă. Tot nespus rămâne dacă cei 750 mil. euro înseamnă venituri din intermediere sau toate veniturile grupului, ori cum se convertesc din alte monede. Există și un risc extern: SUA au răspuns la DST-urile europene cu investigații Section 301 și amenințări cu tarife vamale.",
+      "constitutionalityNote": "Parlamentul poate institui impozite prin lege (art. 139 alin. 1) și poate cere ca sarcina fiscală să fie așezată echitabil (art. 56 alin. 2). Probleme apar la claritate și previzibilitate (art. 1 alin. 5): sintagma „în nume propriu”, absența regulilor de localizare și baza estimată fără criterii. Lăsarea condițiilor pentru reprezentantul fiscal exclusiv în seama ANAF (art. 7 alin. 3) poate fi contestată ca delegare de competență de reglementare fiscală. Ca propunere cu impact bugetar, are nevoie de punctul de vedere al Guvernului (art. 111 alin. 1). Un tratament diferit doar în funcție de rezidență ar putea fi atacat și pe art. 16 combinat cu art. 56.",
+      "euLawNote": "Taxele naționale pe serviciile digitale nu sunt interzise în UE: le aplică Franța, Italia, Spania și Austria. CJUE a acceptat impozitele pe cifra de afaceri cu praguri ridicate (C-75/18 Vodafone, C-323/18 Tesco, C-596/19 P Comisia/Ungaria), cu condiția să nu discrimine după rezidență. Scutirea din art. 3 alin. (2) lit. b) riscă să încalce art. 49 și 56 TFUE (libertatea de stabilire și de a presta servicii) și ar putea fi considerată ajutor de stat selectiv (art. 107 TFUE). Directiva 2018/958 nu se aplică, pentru că privește profesiile reglementate. TRIS 2015/1535 exclude în principiu măsurile fiscale, dar obligația de reprezentant fiscal impusă furnizorilor de servicii ai societății informaționale merită o verificare prealabilă de notificare. Legea trebuie corelată și cu Directiva DAC7 (2021/514), care oferă deja date despre veniturile vânzătorilor de pe platforme.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (1) și (2) lit. b); art. 9",
+        "proposalContent": "La art. 3 alin. (1) se introduce lit. c): «realizează venituri din intermediere digitală pe teritoriul României de peste 25 milioane lei în anul fiscal precedent.» Art. 3 alin. (2) lit. b) se abrogă. Art. 9: «Contribuția se aplică până la 31 decembrie 2029 sau până la intrarea în vigoare a unui acord multilateral privind Pilonul Unu OCDE, dacă aceasta survine mai devreme.»",
+        "argumentation": "Fără un prag pentru veniturile din România, taxa lovește grupuri cu activitate neglijabilă aici. Scutirea rezidenților poate fi văzută ca discriminare contrară art. 49 și 56 TFUE sau ca ajutor de stat selectiv, iar o cotă unică pentru toți elimină acest risc. Termenul ferm face reală promisiunea de caracter tranzitoriu și asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Recomand introducerea contribuției în Codul fiscal, cu intrare în vigoare la 1 ianuarie, conform art. 4 din Cod. Sunt necesare reguli de localizare a tranzacțiilor (de exemplu, IP sau adresa de facturare), criteriile reprezentantului fiscal stabilite în lege, nu prin decizie ANAF, și obligația ANAF de a publica anual un raport privind efectul asupra comisioanelor plătite de șoferi, curieri și gazde."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 143943,
+      "sourceEndMarker": "SF-64A39FCE",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Taxă de 2% pe comisioanele marilor platforme digitale",
+      "verdictShort": "Contribuția poate urmări legitim taxarea activității economice locale, iar cota de 2% nu este, prin ea însăși, disproporționată. Proiectul lasă însă neclare identificarea contribuabilului și repartizarea veniturilor între țări, fără să garanteze că utilizatorii vor fi feriți de scumpiri.",
+      "initiatorClaim": "Inițiatorul urmărește ca marile platforme să contribuie la buget pentru comisioanele generate în România. Susține că măsura este temporară și nu afectează populația, IMM-urile sau platformele locale.",
+      "realityCheck": "Proiectul taxează remunerațiile de intermediere ale platformelor care depășesc pragul global de 750 milioane euro, fără un prag minim al veniturilor din România; și o platformă românească poate intra în acest regim. Art. 4 alin. (2) stabilește asupra cui cade juridic contribuția, dar nu împiedică transferarea costului prin comisioane sau prețuri mai mari. Scutirea pentru anumite venituri deja impozitate în România nu rezolvă suprapunerea cu taxele străine, iar caracterul tranzitoriu nu are termen de expirare.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Contabili & Fiscalitate",
+        "Șoferi & Auto",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. 3 stabilește un prag global de peste 750 milioane euro, dar nu definește suficient grupul de consolidare și raportarea pragului la entitatea obligată la plată. Nu există un prag minim pentru veniturile din România.",
+        "Art. 2 lit. b) include tranzacțiile cu cel puțin o parte aflată în România sau cu livrare ori prestare aici. Lipsesc criteriile de localizare și regulile de repartizare a comisionului pentru tranzacțiile transfrontaliere.",
+        "Art. 2 lit. c) include comisioane, tarife și alte remunerații, în timp ce art. 4 alin. (1) menționează numai comisioanele. Nu este precizat nici tratamentul TVA și al sumelor restituite pentru tranzacții anulate.",
+        "Art. 6 alin. (1) atribuie obligația platformei care controlează sau exploatează economic serviciul, indiferent cine încasează. Trebuie identificată clar persoana juridică debitoare, mai ales când mai multe entități din grup îndeplinesc aceste funcții.",
+        "Art. 7 impune declarare trimestrială și reprezentant fiscal tuturor platformelor nerezidente. Apar costuri de conformare și administrare; afirmația din expunere privind absența costurilor semnificative nu este demonstrată printr-un calcul.",
+        "Art. 3 alin. (2) lit. b) exclude activitățile desfășurate în nume propriu de operatorii rezidenți, nu toate platformele românești. IMM-urile și persoanele fizice care folosesc platformele nu devin contribuabili prin acest proiect, dar pot suporta indirect costuri mai mari.",
+        "Art. 8 nu definește regimul fiscal echivalent și dovada impozitării efective. Scutirea privește numai impozitarea în România asupra aceleiași baze, fără un mecanism general pentru taxele similare plătite în alte state.",
+        "Art. 9 prevede numai o reevaluare, fără termen, responsabil sau încetare automată. Art. 10 acordă nouă luni pentru pregătire, ceea ce favorizează predictibilitatea; textul furnizat nu conține abrogări sau modificări ale altor legi."
+      ],
+      "blindSpotsCaught": "Denumirea de contribuție nu schimbă natura unei prelevări fiscale obligatorii. Interdicția de recalificare din art. 4 alin. (2) nu plafonează comisioanele și nu garantează protecția economică promisă utilizatorilor. În plus, Directiva 2018/958 privește profesiile reglementate, iar notificarea TRIS nu rezultă automat din faptul că sunt taxate servicii digitale.",
+      "constitutionalityNote": "Problemele principale privesc art. 1 alin. (5), art. 56 alin. (2) și art. 139 alin. (1): legea trebuie să permită identificarea contribuabilului și calcularea previzibilă a sarcinii fiscale. Pragul global și cota de 2% nu dovedesc singure discriminare sau disproporționalitate, dar necesită justificare economică. Art. 23 alin. (12) privește legalitatea pedepselor; proiectul nu instituie pedepse și nu oferă aici un motiv autonom de neconstituționalitate. Materia fiscală este, în principiu, de lege ordinară: trimiterea finală la art. 76 alin. (1) trebuie verificată și corectată, fără a presupune că folosirea unei majorități mai mari invalidează automat legea.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune acestui proiect testul aplicabil restrângerii accesului la profesii reglementate. Pentru Directiva (UE) 2015/1535 trebuie stabilit dacă dispozițiile constituie reguli privind serviciile sau alte reglementări tehnice notificabile; nici caracterul digital, nici eticheta fiscală nu tranșează singure problema. Obligația generală de reprezentare fiscală pentru nerezidenți ridică probleme de necesitate și proporționalitate în raport cu libertățile pieței unice, mai ales când există asistență reciprocă fiscală. Pragul global nu demonstrează singur discriminare, dar trebuie analizate efectele concurențiale și tratamentul situațiilor comparabile. Raportul cu convențiile fiscale și cu eventualele angajamente internaționale aplicabile necesită verificare separată; menționarea Pilonului Unu nu asigură automat compatibilitatea. Verificarea online a surselor oficiale actualizate nu a fost posibilă; analiza privește textul furnizat.",
       "senatForm": {
         "articleRef": "Art. 7 alin. (3)",
-        "proposalContent": "(3) Platformele digitale nerezidente pot desemna un reprezentant fiscal în România. În lipsa desemnării, acestea își îndeplinesc direct, prin mijloace electronice, obligațiile de înregistrare, declarare și plată a contribuției, potrivit Codului de procedură fiscală.",
-        "argumentation": "Obligația generală de reprezentare impune costuri suplimentare nerezidenților. În cauza C-83/21, CJUE a considerat disproporționată o obligație comparabilă. Declararea electronică și asistența reciprocă fiscală oferă alternative mai puțin restrictive, fără a înlătura obligația de plată.",
-        "otherComments": "Propunere pentru Comisia pentru buget, finanțe și bănci a Camerei Deputaților, preluabilă de un deputat. Termenul comunicat, 09.04.2026, este depășit; petiția nu echivalează cu un amendament depus în termen. Sunt necesare separat clarificarea teritorialității, a contribuabilului, a consolidării veniturilor și a scutirii din art. 8."
-      }
+        "proposalContent": "(3) Platformele digitale nerezidente pot desemna un reprezentant fiscal în România. Desemnarea este obligatorie numai pentru persoanele stabilite în state cu care România nu dispune de instrumente juridice de asistență reciprocă pentru stabilirea și recuperarea creanțelor fiscale. Procedura se aprobă prin ordin al președintelui ANAF.",
+        "argumentation": "Obligația generală impusă nerezidenților poate restrânge disproporționat libertățile pieței unice și generează costuri suplimentare. Reprezentarea obligatorie trebuie limitată la situațiile în care lipsa asistenței reciproce justifică această sarcină pentru asigurarea colectării.",
+        "otherComments": "Sunt necesare și amendamente pentru identificarea debitorului, repartizarea veniturilor transfrontaliere și definirea regimului fiscal echivalent. Art. 9 trebuie completat cu termen de reevaluare și expirare. Estimarea de 200–400 milioane lei trebuie însoțită de metodologie și de evaluarea costurilor administrative."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T04:53:52.068Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:08:28.609Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

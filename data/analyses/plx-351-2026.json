@@ -1,132 +1,186 @@
 {
   "billId": "Pl-x 351/2026",
   "slug": "plx-351-2026",
-  "updatedAt": "2026-10-29T02:20:37.314Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T15:11:03.450Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 3014,
+    "ordinanceChars": 0,
+    "memoChars": 4078,
+    "memoSupplied": 4078,
+    "marker": "SF-6A32C0A6"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-351-2026.json",
+    "form": "initiator",
+    "textHash": "6a32c0a639b8ba13",
+    "fetchedAt": "2026-11-19T10:21:24.848Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 3,
+    "articlesShown": 3,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 9424,
+    "truncated": false,
+    "included": true,
+    "key": "5d40b1a1222eb6f0"
+  },
   "consensus": {
-    "riskScore": 7.7,
+    "riskScore": 8,
     "riskLevel": "red",
-    "plainTitle": "Impozitele locale doar pentru investiții, iar casa în care locuiești nu mai poate fi executată de fisc",
-    "summaryTlDr": "Proiectul amestecă o idee bună cu o regulă imposibil de aplicat. Protecția locuinței de domiciliu ajută familiile datoare la fisc. Interdicția de a folosi impozitele locale pentru altceva decât investiții ar bloca însă funcționarea primăriilor și ar face din execuția bugetară obișnuită o infracțiune.",
-    "initiatorClaim": "Inițiatorul spune că vrea ca banii din impozitele locale să meargă la investiții, nu la salarii, prime și sporuri în primării. Vrea și să protejeze locuința familiei de executarea silită pentru datorii la fisc și să introducă forme alternative de stingere a datoriilor, precum munca în folosul comunității.",
-    "realityCheck": "Art. 2 alin. (7)-(9) ar interzice primăriilor și consiliilor județene să plătească din impozite și taxe locale salarii, utilități, iluminat, salubrizare sau alte cheltuieli de funcționare. Orice astfel de plată ar fi declarată prin lege deturnare de fonduri (art. 307 C.pen., închisoare de la 1 la 5 ani). Veniturile intră într-un buget comun, deci regula nu poate fi urmărită în practică, dar îi expune penal pe toți ordonatorii de credite care execută un buget aprobat legal. Art. 242 alin. (3) protejează real locuința de domiciliu, dar fără plafon de valoare sau de datorie, așa că protejează la fel și vilele datornicilor bogați. Art. 22 adaugă cesiunea și munca în folosul comunității fără nicio procedură de aplicare.",
+    "plainTitle": "Taxele locale doar pentru investiții, casa de domiciliu ferită de executare și datorii fiscale plătite prin muncă",
+    "summaryTlDr": "Proiectul amestecă trei idei populare într-un text tehnic greșit plasat. Interdicția de a folosi taxele locale pentru orice altceva decât investiții ar bloca funcționarea primăriilor și ar transforma orice cheltuială curentă în posibilă infracțiune.",
+    "initiatorClaim": "Inițiatorul spune că vrea ca impozitele locale să meargă la investiții, nu la salarii și sporuri. Mai vrea să ofere moduri alternative de plată a datoriilor fiscale și să protejeze locuința familiei de executarea silită.",
+    "realityCheck": "Noile alin. (7)-(9) de la art. 2 interzic folosirea oricăror impozite și taxe locale pentru salarii, utilități sau alte cheltuieli de funcționare și calificează orice altă utilizare drept deturnare de fonduri (art. 307 C.pen.). Pentru multe UAT-uri, taxele locale sunt principala sursă proprie de venit, așa că măsura le-ar lăsa fără bani de funcționare. La art. 242, noul alin. (3) declară neurmăribilă locuința de domiciliu indiferent de valoare, ceea ce poate proteja și imobile de lux. La art. 22, «muncă în folosul comunității» și «cesiune» sunt introduse fără nicio procedură.",
     "affectedGroups": [
-      "Contabili & Fiscalitate",
+      "Toți cetățenii",
       "Proprietari & Imobiliare",
-      "Justiție & Drepturi Civile",
-      "Toți cetățenii"
+      "Contabili & Fiscalitate",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
       "articleRef": "Art. I – art. 2 alin. (7)-(9) Legea 207/2015",
-      "proposalContent": "Se elimină alin. (7)-(9) propuse la art. 2. Alternativ, în Legea nr. 273/2006 se fixează o cotă minimă din veniturile proprii ale UAT pentru secțiunea de dezvoltare, aplicabilă din anul bugetar următor, fără incriminare automată; abaterile se constată și se corectează prin controlul Curții de Conturi.",
-      "argumentation": "Codul de procedură fiscală privește colectarea, nu cheltuirea. Banii sunt fungibili: nu se poate dovedi din ce venit s-a plătit un salariu, deci incriminarea prin art. 307 C.pen. e imprevizibilă (art. 1 alin. 5, art. 23 alin. 12 Constituție). Regula golește bugetele de funcționare ale primăriilor, contrar autonomiei locale (art. 120 Constituție).",
-      "otherComments": "Art. 242 alin. (3): protecția locuinței de domiciliu e binevenită, dar trebuie plafonată (ex.: valoare impozabilă sub un prag) și exclusă pentru datorii din evaziune constatată definitiv. Art. 22: darea în plată există deja; cesiunea și munca în folosul comunității nu au procedură, deci rămân inaplicabile. Necesită lege organică (art. 73 Constituție)."
+      "proposalContent": "Se elimină alin. (7)-(9) propuse la art. 2. Alternativ, dacă se dorește o regulă privind investițiile, aceasta se introduce în Legea nr. 273/2006, sub forma unui procent minim din veniturile proprii alocat secțiunii de dezvoltare, fără sancțiune penală nouă și aplicabilă de la exercițiul bugetar următor.",
+      "argumentation": "Codul de procedură fiscală reglementează administrarea creanțelor, nu cheltuirea veniturilor. Interdicția totală ar lăsa primăriile fără bani pentru salarii, utilități, iluminat și asistență socială, încalcă autonomia locală (art. 120-121 Constituție) și face din orice cheltuială curentă o infracțiune, prin trimitere vagă la art. 307 C.pen.",
+      "otherComments": "La art. 242, noul alin. (3) intră în conflict cu actualul alin. (3) (spațiul minim locuit) și nu limitează valoarea locuinței protejate. Propun un plafon valoric și menținerea expresă a excepției din alin. (4). La art. 22, «muncă în folosul comunității» și «cesiune» nu au nicio procedură; trebuie reglementate sau eliminate."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 52508,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 84855,
+      "sourceEndMarker": "SF-6A32C0A6",
       "riskScore": 8,
       "riskLevel": "red",
-      "plainTitle": "Blocarea bugetelor locale sub amenințarea închisorii, plata taxelor prin muncă în folosul comunității și imunitatea locuinței la ANAF",
-      "verdictShort": "Un proiect populist și profund neconstituțional care ar paraliza financiar toate primăriile din țară, ar introduce plata taxelor prin „muncă în folosul comunității” fără nicio procedură și ar încălca regulile elementare de intrare în vigoare a legilor.",
-      "initiatorClaim": "Inițiatorul susține că vrea să oblige primăriile și consiliile județene să folosească taxele locale exclusiv pentru investiții, să flexibilizeze plata datoriilor fiscale și să protejeze locuința de domiciliu a cetățenilor de executarea silită.",
-      "realityCheck": "În realitate, legea interzice sub sancțiune penală (deturnare de fonduri) folosirea taxelor locale pentru cheltuieli de funcționare, ceea ce ar lăsa primăriile fără bani de iluminat public, salubritate sau încălzirea școlilor. În plus, introduce stingerea oricăror taxe și contribuții prin „muncă în folosul comunității” fără niciun mecanism de calcul și scutește de executare silită orice locuință de domiciliu, indiferent dacă este o garsonieră modestă sau o vilă de milioane de euro.",
+      "plainTitle": "Taxele locale blocate doar la investiții sub sancțiune penală și locuințe de lux ferite de Fisc",
+      "verdictShort": "Sub pretextul disciplinei bugetare și al protejării familiei, proiectul ar paraliza funcționarea curentă a primăriilor, incriminează penal prin lege ordinară cheltuielile administrative și creează o portiță pentru datornicii cu vile de lux. Textul încalcă frontal mai multe articole ale Constituției, inclusiv regula intrării în vigoare.",
+      "initiatorClaim": "Inițiatorul susține că vrea să direcționeze impozitele și taxele locale exclusiv spre investiții publice, să diversifice modalitățile de stingere a datoriilor fiscale și să protejeze unica locuință a contribuabililor persoane fizice de executarea silită.",
+      "realityCheck": "În realitate, Art. 2 alin. (7)-(9) interzice folosirea taxelor locale pentru orice altă cheltuială în afară de investiții și califică abaterile drept infracțiune de deturnare de fonduri, intrând în conflict cu Legea finanțelor publice locale și blocând plata salariilor și a utilităților locale din chiar ziua publicării. La Art. 22, darea în plată există deja în lege, iar „munca în folosul comunității” și „cesiunea” sunt aruncate în listă fără nicio procedură de aplicare. La Art. 242 alin. (3), în locul protecției automate actuale a „spațiului minim locuit”, proiectul apără întreaga clădire rezidențială aleasă ca domiciliu fără plafon de valoare sau condiția unicei locuințe, dar condiționează protecția de o nouă declarație pe propria răspundere sub sancțiune penală.",
       "affectedGroups": [
-        "Contabili & Fiscalitate",
+        "Toți cetățenii",
         "Proprietari & Imobiliare",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I pct. 1 (art. 2 alin. 7-9): Interzice folosirea impozitelor și taxelor locale pentru cheltuieli administrative sau salariale și încadrează orice altă utilizare în afară de investiții ca infracțiune de deturnare de fonduri (art. 307 Cod penal), blocând secțiunea de funcționare a bugetelor locale reglementată de Legea nr. 273/2006.",
-        "Art. I pct. 2 (art. 22): Introduce „munca în folosul comunității” și „cesiunea” ca modalități de stingere a creanțelor fiscale (inclusiv TVA, impozit pe venit sau CAS/CASS datorate bugetului de stat), fără a defini tariful orar, procedura, beneficiarul muncii sau condițiile de aplicare.",
-        "Art. I pct. 3 (art. 242 alin. 3): Interzice executarea silită fiscală a clădirii rezidențiale declarate ca domiciliu de debitorul persoană fizică, fără niciun plafon valoric sau criteriu social, creând un paravan legal pentru protejarea proprietăților de lux în fața recuperării prejudiciilor fiscale.",
-        "Art. II: Prevede că legea se adoptă ca lege ordinară (art. 76 alin. 2 din Constituție), deși extinde sfera unei infracțiuni (domeniu rezervat legilor organice), și dispune intrarea în vigoare „la data publicării în Monitorul Oficial”, încălcând flagrant termenul constituțional de minimum 3 zile."
+        "Art. 2 alin. (7)-(9) introduc în Codul de procedură fiscală (care reglementează colectarea, nu alocarea bugetară) interdicția de a folosi taxele și impozitele locale/județene pentru altceva decât investiții și încadrează încălcarea la deturnare de fonduri (art. 307 Cod penal), contradicând principiul neafectării veniturilor din Legea nr. 273/2006 și blocând cheltuielile curente ale UAT-urilor.",
+        "Art. 242 alin. (3) înlocuiește protecția legală automată actuală a „spațiului minim locuit” cu insesizabilitatea întregii clădiri rezidențiale declarate ca domiciliu, fără limită de valoare, suprafață sau condiția de a fi unica locuință (creând o portiță pentru datornici cu imobile de lux, pentru creanțe nepenale), dar elimină protecția pentru cetățenii vulnerabili care nu depun declarația și documentele doveditoare în evidențele fiscale.",
+        "Art. 22 prezintă în expunerea de motive „darea în plată” ca noutate, deși aceasta există deja în textul în vigoare al articolului, iar modalitățile noi introduse („cesiune” și „muncă în folosul comunității”) sunt complet lipsite de procedură, criterii de echivalare sau garanții privind caracterul voluntar.",
+        "Art. II dispune adoptarea ca lege ordinară (art. 76 alin. 2 Constituție), deși instituie o normă de incriminare penală, și prevede intrarea în vigoare chiar „la data publicării în Monitorul Oficial”, fără termen de conformare sau norme tranzitorii."
       ],
-      "blindSpotsCaught": "Proiectul conține două erori tehnico-juridice majore: (1) modifică destinația veniturilor bugetelor locale în Codul de procedură fiscală în loc de Legea nr. 273/2006 privind finanțele publice locale, deși fișa oficială a Camerei menționează în Obiectul de reglementare doar partea despre taxele locale, omițând complet modificările privind munca în folosul comunității și imunitatea imobiliară; (2) Art. II încalcă simultan regimul legilor organice și regula intrării în vigoare la 3 zile de la publicare.",
-      "constitutionalityNote": "Proiectul încalcă multiplu Constituția României: Art. 78 (intrarea în vigoare la data publicării, nu la minimum 3 zile), Art. 73 alin. (3) lit. h) și Art. 76 alin. (1) (incriminarea unei fapte ca deturnare de fonduri printr-o lege declarată expres ca ordinară la Art. II), Art. 120-121 (autonomia financiară a autorităților locale) și Art. 1 alin. (5) privind calitatea, claritatea și previzibilitatea legii.",
-      "euLawNote": "Proiectul contravine Art. 9 din Carta Europeană a Autonomiei Locale (dreptul autorităților locale de a dispune de resurse financiare proprii suficiente, pe care să le poată utiliza liber în exercitarea competențelor lor). Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) sau a Directivei (UE) 2018/958 privind reglementarea profesiilor.",
+      "blindSpotsCaught": "Trei capcane majore scapă la o lectură superficială: (1) Art. II prevede adoptarea ca lege ordinară (art. 76 alin. 2 Constituție), dar Art. 2 alin. (9) extinde sfera infracțiunii de deturnare de fonduri (art. 307 Cod penal), materie rezervată legii organice; (2) intrarea în vigoare „la data publicării” încalcă direct art. 78 din Constituție și ar expune instantaneu ordonatorii de credite locali la răspundere penală pentru bugetele aflate în execuție; (3) prin formula „se completează”, proiectul înlocuiește de facto actualul art. 242 alin. (3), astfel încât un debitor care nu depune noua declarație fiscală pierde chiar și protecția actuală a spațiului minim locuit.",
+      "constitutionalityNote": "Proiectul conține vicii grave și multiple de neconstituționalitate: încalcă Art. 78 (o lege nu poate intra în vigoare la data publicării, ci cel mai devreme la 3 zile de la publicare); încalcă Art. 73 alin. (3) lit. h) și Art. 76 alin. (1) (reglementarea infracțiunilor cere lege organică, nu ordinară); încalcă Art. 120 alin. (1) și Art. 121-122 privind autonomia locală prin confiscarea libertății UAT-urilor de a-și finanța cheltuielile curente din venituri proprii; încalcă Art. 1 alin. (5) și Art. 23 alin. (12) prin lipsă de claritate și previzibilitate (termenul „investiții” nu e definit, alin. 7 și 8 se contrazic cu privire la salariile de bază, iar „munca în folosul comunității” la Art. 22 nu are procedură și ridică riscuri față de Art. 42 privind interzicerea muncii forțate).",
+      "euLawNote": "Directiva (UE) 2015/1535 (TRIS) și Directiva (UE) 2018/958 privind testul de proporționalitate al profesiilor reglementate nu sunt incidente, proiectul nevizând servicii digitale sau accesul la profesii. Totuși, blocarea finanțării cheltuielilor curente locale și vulnerabilizarea colectării fiscale pe imobile rezidențiale de lux fără plafon pot afecta stabilitatea bugetară asumată în cadrul guvernanței fiscale a UE, iar restrângerea absolută a utilizării veniturilor proprii locale contravine Art. 9 din Carta Europeană a Autonomiei Locale.",
       "senatForm": {
-        "articleRef": "Art. I (art. 2, 22, 242) și Art. II din proiect",
-        "proposalContent": "Se propune respingerea în integralitate a propunerii legislative sau, în subsidiar, eliminarea Art. I pct. 1 (art. 2 alin. 7-9), eliminarea sintagmei „muncă în folosul comunității” din Art. 22, plafonarea valorică a imobilului exceptat la Art. 242 alin. (3) și corectarea Art. II conform art. 76 alin. (1) și art. 78 din Constituție.",
-        "argumentation": "Interzicerea sub sancțiune penală (art. 307 CP) a folosirii taxelor locale pentru funcționare (iluminat, școli, salubritate) blochează primăriile și încalcă art. 120 din Constituție. Stingerea taxelor prin „muncă în folosul comunității” este inaplicabilă fără procedură, iar intrarea în vigoare la publicare (Art. II) încalcă art. 78 din Constituție.",
-        "otherComments": "Destinația veniturilor locale este reglementată de Legea nr. 273/2006 privind finanțele publice locale, nu de Codul de procedură fiscală. De asemenea, neîngrădirea valorică a imobilului exceptat de la executare silită (art. 242 alin. 3) creează un paravan fiscal pentru bunuri de lux, fără un test de proporționalitate."
-      }
+        "articleRef": "Art. I (art. 2 alin. 7-9, art. 242) și Art. II",
+        "proposalContent": "1. Eliminarea art. 2 alin. (7)-(9) din Art. I. 2. La art. 242 alin. (3), menținerea protecției automate a spațiului minim sau plafonarea protecției la unica locuință până la un prag valoric, fără a condiționa protecția de o declarație penală. 3. Modificarea Art. II: intrarea în vigoare la 30 de zile de la publicare.",
+        "argumentation": "Art. 2 alin. (7)-(9) blochează bugetele locale, încalcă autonomia locală (art. 120 Constituție) și incriminează penal prin lege ordinară (încălcând art. 73 alin. 3 lit. h). Art. II încalcă art. 78 Constituție (minim 3 zile). Art. 242 apără imobile de lux fără plafon și elimină protecția automată a spațiului minim.",
+        "otherComments": "La art. 22 CPF, darea în plată există deja în lege; introducerea „muncii în folosul comunității” și a „cesiunii” fără procedură, criterii și garanții contra muncii forțate încalcă art. 1 alin. (5) și art. 42 din Constituție. Destinația bugetelor locale aparține Legii nr. 273/2006, nu Codului de procedură fiscală."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 210869,
-      "riskScore": 7,
+      "durationMs": 46634,
+      "sourceEndMarker": "SF-6A32C0A6",
+      "riskScore": 8,
       "riskLevel": "red",
-      "plainTitle": "Impozitele locale doar pentru investiții, iar casa în care locuiești nu mai poate fi executată de fisc",
-      "verdictShort": "Proiectul amestecă o idee bună cu o regulă imposibil de aplicat. Protecția locuinței de domiciliu ajută familiile datoare la fisc. Interdicția de a folosi impozitele locale pentru altceva decât investiții ar bloca însă funcționarea primăriilor și ar face din execuția bugetară obișnuită o infracțiune.",
-      "initiatorClaim": "Inițiatorul spune că vrea ca banii din impozitele locale să meargă la investiții, nu la salarii, prime și sporuri în primării. Vrea și să protejeze locuința familiei de executarea silită pentru datorii la fisc și să introducă forme alternative de stingere a datoriilor, precum munca în folosul comunității.",
-      "realityCheck": "Art. 2 alin. (7)-(9) ar interzice primăriilor și consiliilor județene să plătească din impozite și taxe locale salarii, utilități, iluminat, salubrizare sau alte cheltuieli de funcționare. Orice astfel de plată ar fi declarată prin lege deturnare de fonduri (art. 307 C.pen., închisoare de la 1 la 5 ani). Veniturile intră într-un buget comun, deci regula nu poate fi urmărită în practică, dar îi expune penal pe toți ordonatorii de credite care execută un buget aprobat legal. Art. 242 alin. (3) protejează real locuința de domiciliu, dar fără plafon de valoare sau de datorie, așa că protejează la fel și vilele datornicilor bogați. Art. 22 adaugă cesiunea și munca în folosul comunității fără nicio procedură de aplicare.",
+      "plainTitle": "Taxele locale doar pentru investiții, casa de domiciliu ferită de executare și datorii fiscale plătite prin muncă",
+      "verdictShort": "Proiectul amestecă trei idei populare într-un text tehnic greșit plasat. Interdicția de a folosi taxele locale pentru orice altceva decât investiții ar bloca funcționarea primăriilor și ar transforma orice cheltuială curentă în posibilă infracțiune.",
+      "initiatorClaim": "Inițiatorul spune că vrea ca impozitele locale să meargă la investiții, nu la salarii și sporuri. Mai vrea să ofere moduri alternative de plată a datoriilor fiscale și să protejeze locuința familiei de executarea silită.",
+      "realityCheck": "Noile alin. (7)-(9) de la art. 2 interzic folosirea oricăror impozite și taxe locale pentru salarii, utilități sau alte cheltuieli de funcționare și calificează orice altă utilizare drept deturnare de fonduri (art. 307 C.pen.). Pentru multe UAT-uri, taxele locale sunt principala sursă proprie de venit, așa că măsura le-ar lăsa fără bani de funcționare. La art. 242, noul alin. (3) declară neurmăribilă locuința de domiciliu indiferent de valoare, ceea ce poate proteja și imobile de lux. La art. 22, «muncă în folosul comunității» și «cesiune» sunt introduse fără nicio procedură.",
       "affectedGroups": [
+        "Toți cetățenii",
         "Proprietari & Imobiliare",
         "Contabili & Fiscalitate",
         "Angajați & HR",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 2 alin. (7): impozitele și taxele locale se pot folosi «numai pentru investiții», fără ca termenul să fie definit. Nu e clar dacă reparațiile, întreținerea școlilor sau iluminatul public intră în categorie. Formularea exclude implicit orice cheltuială de funcționare, nu doar salariile și primele menționate la alin. (8).",
-        "Art. 2 alin. (9): orice folosire a acestor venituri «în alt mod decât pentru investiții» devine automat deturnare de fonduri (art. 307 C.pen.). Primarul care plătește salariile sau factura la curent dintr-un buget aprobat legal de consiliul local ar putea fi urmărit penal, deși banii fiind fungibili nu se poate dovedi din ce venit s-a plătit fiecare cheltuială.",
-        "Regula e pusă în legea greșită. Codul de procedură fiscală reglementează administrarea și colectarea creanțelor fiscale, nu cheltuirea bugetelor locale. Cheltuirea e reglementată de Legea nr. 273/2006 privind finanțele publice locale, care împarte bugetul în secțiunea de funcționare și secțiunea de dezvoltare. Proiectul nu corelează nimic cu această lege.",
-        "Art. 22: darea în plată există deja în textul în vigoare și are procedură proprie (art. 263-264 CPF). Singurele noutăți reale sunt cesiunea și munca în folosul comunității. Pentru ele nu există reguli despre cine le aprobă, cum se transformă orele de muncă în lei, pentru ce datorii se aplică și dacă sunt la cererea debitorului. Dispozițiile rămân declarative și inaplicabile.",
-        "Art. 242 alin. (3) introduce o protecție utilă a locuinței de domiciliu în fața executării silite fiscale, dar o face absolută. Nu există plafon de valoare a imobilului sau a datoriei și nici excepție pentru datorii rezultate din evaziune fiscală. Textul vorbește doar de «clădire», nu și de terenul aferent, și nu spune ce se întâmplă cu executările deja începute.",
-        "Art. II: legea intră în vigoare la publicare, deci și în mijlocul unui an bugetar, peste bugete locale deja aprobate. Expunerea de motive nu conține nicio estimare a impactului asupra celor peste 3.000 de bugete locale sau asupra încasărilor ANAF."
+        "Art. 2 alin. (7)-(8) propuse: taxele locale pot fi folosite «numai pentru investiții». Asta exclude salariile personalului primăriilor, utilitățile, iluminatul public, deszăpezirea și asistența socială. Regula contrazice principiul neafectării veniturilor din Legea nr. 273/2006 privind finanțele publice locale, pe care proiectul nu o modifică.",
+        "Art. 2 alin. (9): orice utilizare în alt scop decât investițiile «constituie deturnare de fonduri sub sancțiunea aplicabilității art. 307 C.pen.». Este o incriminare prin trimitere, vag formulată, care expune penal toți ordonatorii de credite locali pentru cheltuieli aprobate legal prin bugetul local.",
+        "Măsurile privind cheltuirea banilor sunt plasate greșit, în Codul de procedură fiscală. Codul reglementează administrarea creanțelor fiscale (art. 2 alin. 1), nu execuția bugetară, deci textul încalcă coerența cerută de Legea nr. 24/2000.",
+        "Art. 22: textul este prezentat drept completare, dar rescrie integral alineatul introductiv. Darea în plată există deja în lege. Noutățile reale sunt «cesiune» (a ce și către cine?) și «muncă în folosul comunității», fără procedură, echivalare valorică, organ competent sau condiții de consimțământ.",
+        "Art. 242 alin. (3) propus se suprapune peste alin. (3) în vigoare, care protejează «spațiul minim locuit». Nu se spune dacă îl înlocuiește sau se adaugă, iar protecția nu are plafon valoric. Rămâne neclar dacă excepția din alin. (4), pentru creanțele rezultate din infracțiuni, se aplică noii protecții.",
+        "Declarația de domiciliu (art. 242 alin. 3 lit. a-c) este sancționată prin art. 326 C.pen. (fals în declarații). Cetățenilor li se adaugă o obligație birocratică nouă, cu termen de actualizare de 30 de zile, sub sancțiune penală."
       ],
-      "blindSpotsCaught": "1) Taxele speciale pentru servicii publice locale (art. 484 Cod fiscal, de exemplu taxa de salubrizare) sunt create prin lege tocmai pentru a finanța funcționarea unui serviciu. Proiectul le-ar interzice exact această destinație, ceea ce produce un conflict direct între norme. 2) Alin. (8) vorbește de «impozite și taxe județene», o categorie care nu există ca atare în Titlul IX din Codul fiscal. Bugetele județene trăiesc în principal din cote defalcate și transferuri. 3) Art. II invocă art. 76 alin. (2), adică lege ordinară. Proiectul extinde însă sfera unei incriminări (art. 73 alin. (3) lit. h) și atinge regimul autonomiei locale (lit. o), deci are caracter organic. Votul ca lege ordinară ar fi un viciu extrinsec de neconstituționalitate. 4) Protecția locuinței funcționează doar dacă debitorul a depus în prealabil o declarație cu documente. Nimic nu obligă fiscul să-l informeze înainte de executare, așa că tocmai vârstnicii și cei mai puțin informați pot pierde protecția.",
-      "constitutionalityNote": "Art. 2 alin. (7)-(9) ridică probleme serioase. (a) Previzibilitatea (art. 1 alin. 5 și art. 23 alin. 12, plus art. 7 CEDO): noțiunea de «investiții» nu e definită și incriminarea depinde de o trasabilitate imposibilă a banilor. (b) Autonomia locală (art. 120, art. 121 și art. 139 alin. 2, care lasă consiliilor locale stabilirea impozitelor locale): Carta europeană a autonomiei locale, ratificată prin Legea nr. 199/1997 și aplicabilă prin art. 11, cere resurse proprii de care autoritățile locale să poată dispune liber în limitele competențelor lor. Afectarea integrală a veniturilor proprii unei singure destinații golește de conținut această libertate. (c) Caracterul organic al normelor penale și al regimului autonomiei locale (art. 73 alin. 3 lit. h și o) contrazice temeiul de lege ordinară invocat la art. II. Art. 242 alin. (3) e compatibil în principiu cu art. 26 (viața de familie) și art. 47 (nivel de trai decent) și ține de marja legiuitorului. Lipsa oricărui plafon poate fi contestată însă din perspectiva așezării juste a sarcinilor fiscale (art. 56 alin. 2). Munca în folosul comunității trebuie să fie expres voluntară pentru a nu intra în conflict cu interdicția muncii forțate (art. 42).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii sau exercitarea lor. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu există reglementări tehnice sau servicii ale societății informaționale. Directiva 2011/85/UE privind cadrele bugetare cere coerență și planificare pentru toate subsectoarele administrației, inclusiv cel local. O afectare rigidă a veniturilor locale, introdusă fără studiu de impact și în cursul anului, nu o încalcă direct, dar contravine spiritului ei. Prin Directiva 2010/24/UE privind asistența reciprocă la recuperarea creanțelor, România aplică creanțelor altor state membre aceleași reguli ca pentru creanțele naționale similare. Excepția pentru locuința de domiciliu s-ar extinde deci și la acestea, fără să încalce dreptul UE. Nu apar probleme de concurență, piață unică sau ajutor de stat.",
+      "blindSpotsCaught": "Formula «se completează» ascunde de fapt înlocuiri: art. 22 este rescris, iar alin. (3) de la art. 242 are deja conținut. Rezultatul este incertitudine asupra textului aplicabil. Proiectul nu are fișă financiară, deși reduce încasările din executarea imobiliară. Protecția nelimitată a locuinței poate încuraja mutarea averii în imobilul de domiciliu înaintea executării. Proiectul nu prevede nici dispoziții tranzitorii pentru bugetele locale deja aprobate pe exercițiul în curs: intrarea în vigoare la publicare ar face ilicite, peste noapte, cheltuieli deja angajate.",
+      "constitutionalityNote": "Art. 2 alin. (7)-(9) ridică probleme serioase față de art. 120-121 și art. 138 alin. (2) din Constituție (autonomia locală și dreptul autorităților locale de a-și aproba bugetele). Ele încalcă și art. 1 alin. (5): alin. (9) este o normă de incriminare imprecisă, care nu definește «investiții» și se suprapune cu legea bugetară specială. Lipsa informării Guvernului asupra impactului bugetar este un viciu de procedură invocat frecvent de CCR (art. 111 Constituție, art. 15 din Legea nr. 500/2002). Protecția locuinței poate fi justificată de art. 47 (nivel de trai decent), dar, în lipsa unui plafon, poate afecta proporționalitatea față de interesul public al colectării (art. 56). Munca în folosul comunității este compatibilă cu art. 42 doar dacă e strict voluntară, iar textul nu spune asta.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, pentru că proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, fiind vorba de norme fiscale procedurale, nu de servicii ale societății informaționale. Fără să fie drept UE, Carta europeană a autonomiei locale (Consiliul Europei), ratificată de România prin Legea nr. 199/1997, prevede la art. 9 că autoritățile locale dispun liber de resursele proprii. Interdicția generală de utilizare a taxelor locale pentru funcționare este greu compatibilă cu acest angajament.",
       "senatForm": {
         "articleRef": "Art. I – art. 2 alin. (7)-(9) Legea 207/2015",
-        "proposalContent": "Se elimină alin. (7)-(9) propuse la art. 2. Alternativ, în Legea nr. 273/2006 se fixează o cotă minimă din veniturile proprii ale UAT pentru secțiunea de dezvoltare, aplicabilă din anul bugetar următor, fără incriminare automată; abaterile se constată și se corectează prin controlul Curții de Conturi.",
-        "argumentation": "Codul de procedură fiscală privește colectarea, nu cheltuirea. Banii sunt fungibili: nu se poate dovedi din ce venit s-a plătit un salariu, deci incriminarea prin art. 307 C.pen. e imprevizibilă (art. 1 alin. 5, art. 23 alin. 12 Constituție). Regula golește bugetele de funcționare ale primăriilor, contrar autonomiei locale (art. 120 Constituție).",
-        "otherComments": "Art. 242 alin. (3): protecția locuinței de domiciliu e binevenită, dar trebuie plafonată (ex.: valoare impozabilă sub un prag) și exclusă pentru datorii din evaziune constatată definitiv. Art. 22: darea în plată există deja; cesiunea și munca în folosul comunității nu au procedură, deci rămân inaplicabile. Necesită lege organică (art. 73 Constituție)."
-      }
+        "proposalContent": "Se elimină alin. (7)-(9) propuse la art. 2. Alternativ, dacă se dorește o regulă privind investițiile, aceasta se introduce în Legea nr. 273/2006, sub forma unui procent minim din veniturile proprii alocat secțiunii de dezvoltare, fără sancțiune penală nouă și aplicabilă de la exercițiul bugetar următor.",
+        "argumentation": "Codul de procedură fiscală reglementează administrarea creanțelor, nu cheltuirea veniturilor. Interdicția totală ar lăsa primăriile fără bani pentru salarii, utilități, iluminat și asistență socială, încalcă autonomia locală (art. 120-121 Constituție) și face din orice cheltuială curentă o infracțiune, prin trimitere vagă la art. 307 C.pen.",
+        "otherComments": "La art. 242, noul alin. (3) intră în conflict cu actualul alin. (3) (spațiul minim locuit) și nu limitează valoarea locuinței protejate. Propun un plafon valoric și menținerea expresă a excepției din alin. (4). La art. 22, «muncă în folosul comunității» și «cesiune» nu au nicio procedură; trebuie reglementate sau eliminate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 136406,
+      "durationMs": 84522,
+      "sourceEndMarker": "SF-6A32C0A6",
       "riskScore": 8,
       "riskLevel": "red",
-      "plainTitle": "Taxele locale doar pentru investiții și noi reguli pentru protejarea locuinței",
-      "verdictShort": "În evaluarea mea, forma inițiatorului prezintă riscuri majore: poate destabiliza finanțarea serviciilor locale și leagă o interdicție bugetară insuficient delimitată de răspunderea penală. Protejarea locuinței este un obiectiv legitim, dar mecanismul propus poate dezavantaja tocmai contribuabilii care omit noua declarație.",
-      "initiatorClaim": "Inițiatorul urmărește direcționarea taxelor locale către investiții, limitarea cheltuielilor administrative și protejarea domiciliului debitorilor. Susține și flexibilizarea stingerii obligațiilor fiscale prin cesiune și muncă în folosul comunității.",
-      "realityCheck": "Art. 2 alin. (7)-(9) propuse rezervă integral impozitele și taxele locale investițiilor, eliminând această sursă pentru funcționarea serviciilor publice, fără un mecanism compensatoriu în text. Art. 22 enumeră modalități de stingere fără procedurile necesare, iar art. 242 înlocuiește protecția spațiului minim locuit cu protecția clădirii declarate drept domiciliu, fără plafon de suprafață sau valoare. Proiectul nu introduce taxe noi, dar adaugă formalități pentru cetățeni și poate afecta indirect IMM-urile prin dificultățile financiare ale autorităților locale.",
+      "plainTitle": "Taxele locale, rezervate investițiilor; domiciliul, protejat de executarea fiscală",
+      "verdictShort": "Proiectul urmărește obiective legitime, dar impune o restricție bugetară rigidă, fără tranziție, și introduce mecanisme fiscale insuficient definite. Intrarea în vigoare chiar la publicare contravine art. 78 din Constituție.",
+      "initiatorClaim": "Inițiatorul dorește ca taxele locale să finanțeze investițiile, să existe modalități alternative de stingere a datoriilor fiscale și să fie protejată locuința contribuabilului. Expunerea susține că aceste măsuri sporesc disciplina financiară și echitatea.",
+      "realityCheck": "Proiectul rezervă integral investițiilor impozitele și taxele locale, fără să demonstreze că celelalte venituri pot acoperi funcționarea administrației și a serviciilor publice. Enumeră cesiunea și munca în folosul comunității ca modalități de stingere, fără proceduri, iar darea în plată există deja. Înlocuiește protecția actuală a spațiului minim locuit cu protecția întregii clădiri declarate drept domiciliu, condiționând însă protecția de o formalitate fiscală nouă.",
       "affectedGroups": [
-        "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Angajați & HR",
         "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile",
-        "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 alin. (7)-(8) propuse nu limitează doar premiile sau sporurile: exclusivitatea investițiilor exclude orice cheltuială curentă finanțată din aceste venituri. Alte venituri locale rămân disponibile, însă suficiența lor nu este demonstrată. Regula necesită corelare cu principiul universalității din art. 7 al Legii nr. 273/2006; necorelarea legislativă nu echivalează singură cu neconstituționalitatea. [Legea nr. 273/2006](https://legislatie.just.ro/Public/DetaliiDocument/232466)",
-        "Art. 2 alin. (9) propus califică utilizarea pentru alte scopuri drept deturnare de fonduri, fără delimitarea expresă a investițiilor, cheltuielilor administrative sau a urmăririi sursei banilor. Art. 307 Cod penal prevede, pentru forma de bază, închisoare de la unu la 5 ani; condamnarea presupune întrunirea condițiilor răspunderii penale, nu rezultă automat dintr-o neregulă contabilă. [CCR, Decizia nr. 634/2019](https://legislatie.just.ro/Public/DetaliiDocument/220929)",
-        "Art. 22: darea în plată există deja între modalitățile de stingere. Noutățile sunt cesiunea și munca în folosul comunității, însă lipsesc condițiile, autoritatea competentă și, pentru muncă, consimțământul, evaluarea în bani și limitele; cesiunea unei creanțe nu stinge, prin ea însăși, obligația debitorului. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L168LG.PDF)",
-        "Art. 242 alin. (3): protecția spațiului minim locuit există deja. Proiectul ar proteja clădirea declarată drept domiciliu fără limită valorică, inclusiv pentru un debitor care deține alte imobile, dar ar condiționa protecția de declarație și documente suplimentare. Dacă înlocuiește norma actuală, omiterea declarației poate înlătura și protecția minimă existentă. [ÎCCJ, Decizia nr. 81/2023](https://legislatie.just.ro/Public/DetaliiDocument/278203)",
-        "Art. 242 alin. (4) existent nu este eliminat: excepția pentru creanțele fiscale rezultate din infracțiuni ar continua să opereze. Protecția propusă privește executarea fiscală și nu instituie o imunitate generală față de executarea creditelor bancare. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L168LG.PDF)",
-        "Proiectul nu prezintă în materialele furnizate o cuantificare a deficitului de finanțare curentă, a efectului asupra recuperării creanțelor sau a costului administrării noilor declarații. Nu reglementează expres tranziția pentru bugete aprobate și executări în curs; blocajele serviciilor sau întârzierile la plata furnizorilor sunt riscuri posibile, nu efecte certe.",
-        "Senatul a respins propunerea la 27 aprilie 2026, iar fișa oficială o califică drept lege organică. Respingerea nu încheie procedura la Camera decizională; termenul indicat pentru amendamente, 12 mai 2026, este deja depășit la data evaluării. [Fișa legislativă L168/2026](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L168)"
+        "Art. I, art. 2 alin. (7)-(8): în prezent, articolul reglementează administrarea creanțelor, fără această afectare generală a veniturilor. Proiectul interzice utilizarea impozitelor și taxelor locale pentru orice destinație diferită de investiții, inclusiv funcționarea curentă. Nu rezervă investițiilor toate veniturile bugetelor locale și nu interzice plata salariilor din alte surse legal disponibile, dar nu oferă o evaluare a suficienței acestora.",
+        "Art. I, art. 2 alin. (9): orice utilizare diferită de investiții este calificată drept deturnare de fonduri, prin trimitere la art. 307 Cod penal. Noțiunea de investiții și delimitarea cheltuielilor administrative aferente acestora rămân neprecizate. Trimiterea nu elimină obligația dovedirii elementelor infracțiunii și a vinovăției și nu produce condamnări automate.",
+        "Art. I, art. 22: plata, compensarea, executarea silită, scutirea, anularea, prescripția și darea în plată sunt deja enumerate în lege. Noutățile exprese ale enumerării sunt cesiunea și munca în folosul comunității, însă lipsesc obiectul cesiunii, autoritatea competentă, condițiile acceptării, evaluarea muncii și momentul stingerii datoriei. Simpla enumerare nu oferă un mecanism complet utilizabil.",
+        "Art. I, art. 242 alin. (3): legea actuală protejează deja spațiul minim locuit de debitor și familia sa. Proiectul protejează întreaga clădire aleasă și declarată ca domiciliu, fără plafon de suprafață sau valoare și fără condiția de a fi unica locuință. Pentru debitorul care nu depune declarația, noua redactare nu mai păstrează expres protecția minimă necondiționată de această formalitate.",
+        "Art. 242 alin. (4) nu este modificat: excepția pentru creanțele fiscale rezultate din infracțiuni continuă să se aplice și noii protecții. Modificarea privește executarea fiscală; nu instituie o imunitate generală a domiciliului față de executarea creditelor bancare sau a altor datorii civile.",
+        "Art. I, art. 242 alin. (3) lit. a)-c): apare o declarație fiscală suplimentară, însoțită de documente, care trebuie actualizată în 30 de zile de la modificările relevante. Nu există termen inițial de declarare, reguli pentru executările deja începute sau protecție tranzitorie. Trimiterea la falsul în declarații nu transformă automat orice întârziere într-o infracțiune.",
+        "Art. II stabilește intrarea în vigoare la publicare, deși art. 78 din Constituție permite intrarea în vigoare a legii la trei zile de la publicare sau la o dată ulterioară. Proiectul nu conține dispoziții tranzitorii pentru bugetele aprobate, angajamentele în curs sau executările fiscale și nu abrogă expres celelalte alineate ale articolelor vizate."
       ],
-      "blindSpotsCaught": "Formula «se completează, având următorul conținut» ascunde modificări ale unor dispoziții existente: art. 22 și art. 242 alin. (3) trebuie modificate expres, fără a crea dubluri ori incertitudini privind alineatele păstrate. O altă problemă subtilă este că declarația fiscală devine condiție pentru protejarea domiciliului, deși expunerea prezintă măsura exclusiv ca extindere a protecției. Consiliul Legislativ a semnalat negativ necorelările privind finanțarea locală, stingerea creanțelor și configurația art. 242. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L168LG.PDF)",
-      "constitutionalityNote": "Art. II contravine direct art. 78 din Constituție prin intrarea în vigoare la publicare: legea poate intra în vigoare la trei zile de la publicare sau ulterior. Trimiterea la adoptarea potrivit art. 76 alin. (2) trebuie corectată: conținutul penal atrage domeniul legii organice, art. 73 alin. (3) lit. h), și majoritatea din art. 76 alin. (1). Noțiunile insuficient delimitate și necorelările ridică obiecții serioase prin art. 1 alin. (5), iar componenta penală impune exigențele art. 23 alin. (12). Autonomia locală, art. 120-121, reclamă o justificare proporțională a restrângerii opțiunilor bugetare, fără a exclude competența Parlamentului de a stabili reguli. Protecția familiei și nivelului de trai, art. 47-48, susține scopul locativ; condiționarea protecției minime de formalități și avantajul nelimitat valoric necesită examinare și prin art. 16. Acestea sunt motive de control constituțional, nu o constatare jurisdicțională. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355?isFormaDeBaza=True)",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor; proiectul nu introduce asemenea restricții, deci testul specific directivei nu este obligatoriu pentru aceste dispoziții. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng) Nu apar reguli tehnice pentru produse sau cerințe specifice serviciilor societății informaționale, inclusiv digitale ori AI, care să declanșeze notificarea TRIS potrivit Directivei (UE) 2015/1535. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535) Textul nu instituie monopoluri, autorizări profesionale ori discriminări explicite între operatori; nu rezultă o încălcare directă a concurenței sau pieței unice. Efectele economice indirecte asupra furnizorilor locali trebuie evaluate, iar eventualele mecanisme ulterioare de stingere preferențială a datoriilor întreprinderilor ar necesita verificare distinctă.",
+      "blindSpotsCaught": "Deși folosește repetat formula «se completează», proiectul rescrie art. 22 și un alin. (3) deja existent la art. 242: acestea sunt modificări, nu simple adăugări. Expunerea prezintă protecția locuinței ca răspuns la lipsa unei reglementări exprese, deși protecția spațiului minim există deja. De asemenea, pasajele despre anularea accesoriilor din extrasul furnizat pentru art. 22 sunt note privind o ordonanță distinctă; nu trebuie tratate automat drept alineate eliminate din Cod.",
+      "constitutionalityNote": "Art. II contravine direct art. 78. Art. 1 alin. (5) impune clarificarea operațiunilor de modificare, a investițiilor eligibile și a mecanismelor de stingere; legătura cu răspunderea penală face relevante și exigențele art. 23 alin. (12). Autonomia locală, garantată de art. 120, nu exclude reguli legale privind destinația veniturilor, dar restricția integrală necesită o justificare financiară și o evaluare a efectelor asupra serviciilor publice. Dacă alin. (9) instituie sau modifică efectiv o incriminare, devin incidente art. 73 alin. (3) lit. h) și majoritatea pentru legi organice, nu simpla majoritate indicată în proiect. Munca în folosul comunității necesită consimțământ și garanții compatibile cu art. 42; textul nu permite concluzia că munca forțată este deja instituită. Verificarea online nu a fost disponibilă; analiza se bazează pe documentele furnizate.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor asupra accesului la profesii reglementate și exercitării acestora; proiectul nu introduce asemenea restricții. Nu reglementează servicii digitale sau AI și nu rezultă o obligație TRIS în temeiul Directivei (UE) 2015/1535. Nu instituie monopoluri ori avantaje selective explicite pentru întreprinderi. Efectele asupra concurenței sunt mai ales indirecte, prin finanțarea serviciilor locale și recuperarea creanțelor; o eventuală procedură ulterioară de stingere favorabilă selectiv unor întreprinderi ar necesita o analiză distinctă, inclusiv privind ajutorul de stat.",
       "senatForm": {
         "articleRef": "Art. I – art. 2 alin. (7)-(9)",
-        "proposalContent": "Se elimină dispozițiile art. I referitoare la introducerea alineatelor (7)-(9) la articolul 2 din Legea nr. 207/2015 privind Codul de procedură fiscală.",
-        "argumentation": "Afectarea exclusivă a impozitelor și taxelor locale investițiilor poate lipsi serviciile publice de finanțarea funcționării. Textul nu este corelat cu Legea nr. 273/2006 și folosește noțiuni insuficient delimitate pentru o trimitere penală. Disciplina bugetară trebuie întărită prin transparență și control, cu respectarea autonomiei locale.",
-        "otherComments": "Pentru Comisia pentru buget, finanțe și bănci: corectați art. II conform art. 78 din Constituție și majoritatea de adoptare; păstrați protecția minimă a locuinței fără declarație suplimentară; reglementați distinct noile modalități de stingere. Termenul de amendamente indicat, 12.05.2026, a trecut; observația cetățeanului poate fi preluată de un deputat."
-      }
+        "proposalContent": "La articolul I se elimină dispozițiile prin care articolul 2 din Legea nr. 207/2015 se completează cu alineatele (7)-(9).",
+        "argumentation": "Rezervarea integrală a impozitelor și taxelor locale pentru investiții poate afecta finanțarea serviciilor publice, fără evaluarea surselor alternative sau tranziție bugetară. Trimiterea penală folosește categorii de cheltuieli insuficient delimitate. Obiectivul investițiilor trebuie urmărit prin reguli fundamentate financiar.",
+        "otherComments": "Sunt necesare și corectarea art. II potrivit art. 78 din Constituție, proceduri pentru art. 22 și garanții tranzitorii la art. 242. Termenul indicat, 12.05.2026, este depășit; observațiile cetățeanului nu echivalează cu un amendament parlamentar. Calendarul actual al comisiei trebuie verificat."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 7.7,
+      "riskLevel": "red",
+      "analyzedAt": "2026-10-29T02:20:37.314Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 8
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:11:03.450Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

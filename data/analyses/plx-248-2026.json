@@ -1,121 +1,180 @@
 {
   "billId": "PL-x 248/2026",
   "slug": "plx-248-2026",
-  "updatedAt": "2026-10-28T19:21:46.282Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T15:05:17.695Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2711,
+    "ordinanceChars": 0,
+    "memoChars": 4364,
+    "memoSupplied": 4364,
+    "marker": "SF-C7135484"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-248-2026.json",
+    "form": "senat",
+    "textHash": "c713548409f1eae5",
+    "fetchedAt": "2026-11-19T11:20:12.318Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 8905,
+    "truncated": false,
+    "included": true,
+    "key": "96ffb474d4ce5a01"
+  },
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Copiii cu CES primesc masă caldă la școală, plătită din propria alocație de hrană",
-    "summaryTlDr": "Scopul e bun: o masă caldă garantată pe zi pentru copiii cu cerințe educaționale speciale. Textul are și garanții reale: se reține doar pentru zilele de prezență, iar restul banilor ajunge la părinte. Problema este că textul se contrazice. Alin.(7²) obligă școala să dea masa, iar alin.(7³) permite reținerea banilor doar «în cazuri bine documentate», fără să definească ce înseamnă asta. «Costul real» rămâne în seama unui ordin de ministru.",
-    "initiatorClaim": "Inițiatorii afirmă că alocația zilnică de hrană a copiilor cu CES nu este folosită întotdeauna pentru hrana copilului. Ei vor ca o parte din ea să fie acordată direct, la școală, ca masă caldă sau pachet alimentar, ca fiecare copil să aibă cel puțin o masă sănătoasă pe zi.",
-    "realityCheck": "Legea nu mărește alocația și nu aduce bani noi. Școala asigură o masă pe zi din banii deja cuveniți copilului, iar familia primește doar diferența. Expunerea de motive nu dă nicio cifră despre cât de des sunt deturnați banii, dar alin.(7²) e formulat general, pentru toți beneficiarii. Restul mecanismului e lăsat integral ordinului comun al celor trei miniștri: cum ajung banii de la DGASPC la școală, ce intră în «costul real», ce conține pachetul și ce standarde nutriționale se aplică.",
+    "plainTitle": "Copiii cu CES primesc la școală o masă caldă sau un pachet în locul unei părți din banii de hrană",
+    "summaryTlDr": "Intenția e bună: banii de hrană să ajungă în farfuria copilului. Mecanismul e însă scris neclar. Nu spune cine plătește, cine reține și când. Aplicarea la alin.(6) prinde și copii care nu au ce căuta în schemă, iar asta poate produce blocaje sau dublă finanțare pentru copii vulnerabili.",
+    "initiatorClaim": "Inițiatorii spun că alocația zilnică de hrană pentru copiii cu cerințe educaționale speciale nu e folosită întotdeauna pentru hrana lor. Propun ca ea să fie transformată într-o masă caldă sau un pachet alimentar acordat de școală, pentru incluziune și pentru folosirea eficientă a banilor publici.",
+    "realityCheck": "Legea nu creează bani noi. Din alocația de hrană existentă (alin.(6) și (7), 32 lei/zi) școala oferă o masă caldă, preparată în cantina proprie sau prin catering, ori un pachet. Școala poate reține contravaloarea mesei, proporțional cu zilele de prezență, iar diferența se virează reprezentantului legal. Textul e contradictoriu: la (7²) școala „acordă” obligatoriu suportul, la (7³) doar „poate reține” „în cazuri bine documentate”. Pentru pachetul alimentar nu există nicio regulă de reținere. Fluxul banilor între DGASPC și școală nu e descris, deci totul depinde de normele din art.II.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Justiție & Drepturi Civile",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I – art. 129 alin. (7³) din Legea 272/2004",
-      "proposalContent": "Alin.(7³) devine: «Pentru fiecare zi în care copilul primește efectiv masa caldă sau pachetul alimentar, unitatea de învățământ reține din alocația zilnică de hrană doar costul alimentelor și al preparării, fără cheltuieli administrative. Nu se reține nicio sumă pentru mesele finanțate din alte programe publice. Meniul respectă recomandările medicale ale copilului.»",
-      "argumentation": "Textul actual permite reținerea doar «în cazuri bine documentate», noțiune nedefinită, deși alin.(7²) obligă școala să dea masa: nu se știe cine plătește masa când nu se reține, nici ce include «costul real». Formularea propusă leagă reținerea de masa efectiv primită, exclude dubla plată și ține cont de dietele copiilor cu CES (art. 1 alin. 5, art. 49 Constituție).",
-      "otherComments": "La art. II, normele ar trebui să prevadă: dreptul părintelui de a contesta suma reținută, informarea lunară a familiei despre zilele și costul meselor și soluții pentru școlile cu foarte puțini copii cu CES, unde un contract de catering nu e realist. Ordinul ar trebui pus în consultare cu asociațiile părinților copiilor cu CES."
+      "articleRef": "Art.I, art.129 alin.(7³)-(7⁵) Legea 272/2004",
+      "proposalContent": "(7³) Când unitatea de învățământ asigură masa caldă sau pachetul alimentar, reține din alocația de hrană contravaloarea suportului efectiv furnizat, în limita costului real, cu informarea scrisă a reprezentantului legal. Alin.(7²)-(7⁵) nu se aplică copiilor din servicii rezidențiale, case de tip familial și centre maternale.",
+      "argumentation": "La (7²) școala „acordă” masa, dar la (7³) „poate reține” doar „în cazuri bine documentate”, sintagmă nedefinită. Pachetul alimentar nu are regulă de reținere. Trimiterea la alin.(6) cuprinde și copii din centre rezidențiale, hrăniți deja acolo: risc de dublă finanțare. Textul propus asigură previzibilitatea (art.1 alin.(5) Constituție).",
+      "otherComments": "Normele din art.II să prevadă: meniuri adaptate nevoilor medicale ale copiilor cu CES (diete, alergii, tulburări de deglutiție), criterii obiective pentru trecerea la pachet, termen de virare a diferenței către părinte și corelarea cu programul național de masă caldă din școli, ca să nu se suprapună finanțarea. De corectat „(75)”, „(73)” și „standardelor”."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 57581,
-      "riskScore": 4,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 57158,
+      "sourceEndMarker": "SF-C7135484",
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Reținerea mesei calde la școală din alocația de hrană a copiilor cu cerințe educaționale speciale (CES)",
-      "verdictShort": "Intenția de a asigura o masă caldă la școală copiilor cu CES și de a vira părinților diferența rămasă este binevenită, însă textul votat de Senat este contradictoriu și vag. Fără criterii clare în lege, școlile pot reține bani din alocația CES în „cazuri bine documentate” nedefinite, fără excepții pentru copiii cu diete medicale sau tulburări senzoriale.",
-      "initiatorClaim": "Inițiatorii urmăresc ca alocația zilnică de hrană destinată copiilor cu cerințe educaționale speciale (CES) să fie folosită efectiv pentru hrănirea copilului la școală (masă caldă sau pachet alimentar), evitând situațiile în care banii sunt cheltuiți de familie în alte scopuri.",
-      "realityCheck": "Textul adoptat de Senat creează o contradicție directă între alin. (7²), care obligă toate școlile să ofere masă caldă sau pachet alimentar din alocația de hrană, și alin. (7³), care prevede că școala „poate reține în cazuri bine documentate” doar contravaloarea mesei calde, proporțional cu prezența. Mai mult, legea ignoră situația copiilor cu CES care au restricții alimentare severe (autism cu selectivitate alimentară, alergii, boală celiacă) și nu clarifică ce se întâmplă în școlile unde toți elevii primesc deja gratuit masă prin Programul Național „Masă sănătoasă”.",
+      "plainTitle": "Masă caldă sau pachet alimentar în loc de bani pentru elevii cu CES, dar cu mecanism legal neclar",
+      "verdictShort": "Intenția de a asigura hrană efectivă copiilor cu cerințe educaționale speciale este legitimă, însă textul adoptat de Senat conține contradicții interne majore privind cine și când reține banii. Fără amendamente la Camera Deputaților, legea riscă blocaje administrative în școli și excluderea nevoilor alimentare speciale ale copiilor.",
+      "initiatorClaim": "Inițiatorii susțin că alocația zilnică de hrană pentru copiii cu CES nu este folosită mereu de familii în scopul ei și propun transformarea acesteia în masă caldă sau pachet alimentar oferit la școală, pentru o nutriție adecvată și cheltuirea eficientă a banilor publici.",
+      "realityCheck": "În legea actuală (art. 129 alin. 6-7 din Legea nr. 272/2004), alocația de hrană de 32 lei/zi (majorată cu 50% pentru copiii cu CES și handicap, potrivit alin. 7¹) se acordă copiilor cu CES ca drept bănesc. Proiectul obligă școlile (alin. 7²) să acorde zilnic masă caldă sau pachet alimentar, dar alin. (7³) permite reținerea banilor doar pentru «masă caldă» și doar «în cazuri bine documentate», omițând pachetul alimentar, dietele medicale ale copiilor cu alergii/dizabilități și corelarea cu programul «Masă sănătoasă».",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. I - alin. (7²) vs. alin. (7³): Incoerență normativă între obligația generală a școlilor de a acorda masă caldă sau pachet alimentar tuturor beneficiarilor (alin. 7²) și reținerea facultativă, limitată doar la „masă caldă” și doar „în cazuri bine documentate” (alin. 7³).",
-        "Art. I - alin. (7³): Sintagma „în cazuri bine documentate” nu este definită în lege, lăsând la latitudinea arbitrară a școlii sau a normelor secundare stabilirea situațiilor în care familiei i se rețin banii din alocația de hrană a copilului cu CES.",
-        "Art. I - alin. (7⁴) și Art. II: Birocrație suplimentară și circuit financiar neclar între unitățile de învățământ (care nu sunt plătitorii direcți ai alocației CES în toate județele) și DGASPC, întreaga procedură de reținere și virare fiind delegată unui ordin comun al trei miniștri."
+        "Contradicție între alin. (7²) și alin. (7³): alin. (7²) obligă școlile să ofere masă caldă sau pachet alimentar, dar alin. (7³) autorizează reținerea contravalorii din alocația de hrană doar pentru «masă caldă» și doar «în cazuri bine documentate», fără a defini criterii și lăsând pachetul alimentar fără temei de decontare.",
+        "Sferă de aplicare extinsă neintenționat: deși expunerea de motive vizează exclusiv copiii cu CES (alin. 7), noul alin. (7²) trimite și la alin. (6), care reglementează copiii din servicii rezidențiale, case de tip familial, centre maternale și creșe, creând confuzie instituțională.",
+        "Lipsa excepțiilor medicale și a mecanismului financiar clar: legea nu permite reprezentantului legal să opteze pentru bani în cazul alergiilor sau dietelor medicale speciale, iar alin. (7⁴) presupune raportări lunare școală-DGASPC, fără a rezolva achizițiile de catering în școlile de masă cu puțini elevi cu CES sau suprapunerea cu «Masă sănătoasă»."
       ],
-      "blindSpotsCaught": "Proiectul omite două situații critice din teren: (1) mulți copii cu CES (în special cei cu tulburări din spectrul autist sau afecțiuni metabolice/alergice) nu pot consuma mâncarea standard de cantină sau catering și au nevoie de hrană specială pregătită acasă din alocație; (2) în școlile incluse deja în Programul Național „Masă sănătoasă” (unde masa este gratuită pentru toți elevii din bugetul de stat), aplicarea mecanică a alin. (7³) ar duce la discriminarea elevului cu CES dacă masa i-ar fi imputată din alocația specială de hrană.",
-      "constitutionalityNote": "Potențială vulnerabilitate față de Art. 1 alin. (5) din Constituție (principiul legalității, clarității și previzibilității legii): condiționarea reținerii unui drept bănesc stabilit prin lege de sintagma vagă „în cazuri bine documentate” și delegarea regulilor de reținere a unui drept patrimonial al copilului către un ordin de ministru (Art. II) încalcă jurisprudența CCR privind reglementarea drepturilor fundamentale prin lege organică/ordinară clară. De asemenea, trebuie evitată o discriminare (Art. 16 și Art. 49 Constituție) față de elevii care primesc gratuit masa școlară prin programe naționale.",
-      "euLawNote": "Măsura nu ridică probleme pe piața unică, Directiva (UE) 2018/958 sau Directiva (UE) 2015/1535 (TRIS), însă achiziția serviciilor de catering de către școli (alin. 7² lit. b) va trebui să respecte regulile de achiziții publice și Garanția Europeană pentru Copii (Recomandarea (UE) 2021/1004 a Consiliului), care cere acces gratuit și nediscriminatoriu la cel puțin o masă sănătoasă în fiecare zi de școală pentru copiii vulnerabili.",
+      "blindSpotsCaught": "Alin. (7²) intră în vigoare imediat, dar normele esențiale de calcul, reținere și virare sunt amânate 60 de zile printr-un ordin comun de miniștri (Art. II), fără clauză tranzitorie; în plus, în forma Senatului apar erori de tehnoredactare la numerotare («(75)» și trimiterea la «alin.(73)» în loc de alin. (7⁵) și (7³)), iar obiectul din fișa Camerei încă menționează introducerea unui singur alin. (7¹), deși acesta există deja în lege.",
+      "constitutionalityNote": "Există vulnerabilități serioase față de art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii): sintagma nedefinită «în cazuri bine documentate» din alin. (7³) lasă loc aplicării arbitrare în reținerea unui drept social stabilit prin lege, iar elemente esențiale ale procedurii de reținere a sumelor sunt delegate integral unui ordin comun de miniștri (Art. II). De asemenea, absența unei excepții pentru copiii cu nevoi nutriționale medicale poate afecta protecția specială a copiilor cu dizabilități (art. 49 și art. 50 din Constituție).",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 (TRIS, nu privește produse sau servicii digitale). Indirect, obligația școlilor de a contracta servicii de catering sau pachete alimentare (alin. 7² lit. b-c) implică respectarea legislației achizițiilor publice (Directiva 2014/24/UE) și a normelor UE de igienă alimentară (Regulamentul CE nr. 852/2004), ceea ce poate genera sarcini administrative disproporționate pentru școlile mici.",
       "senatForm": {
-        "articleRef": "Art. I - art. 129 alin. (7²) și (7³)",
-        "proposalContent": "La alin. (7³), sintagma „în cazuri bine documentate” se înlocuiește cu „cu acordul reprezentantului legal sau la recomandarea serviciului de evaluare complexă din cadrul DGASPC”. Se exceptează copiii cu regim alimentar medical/senzorial specific și elevii care primesc deja suport alimentar gratuit prin programe naționale (ex. „Masă sănătoasă”).",
-        "argumentation": "Sintagma „în cazuri bine documentate” din alin. (7³) este vagă (încalcă art. 1 alin. (5) din Constituție) și lasă loc abuzurilor. În plus, mulți copii cu CES (autism, alergii, intoleranțe) au diete stricte pe care cateringul școlar nu le poate asigura, iar elevii din școlile incluse în Programul „Masă sănătoasă” nu trebuie penalizați prin reținerea alocației CES.",
-        "otherComments": "Trebuie corelat alin. (7²) cu alin. (7³): primul impune acordarea mesei calde sau a pachetului alimentar tuturor beneficiarilor, în timp ce al doilea prevede o reținere facultativă doar pentru masa caldă. De asemenea, circuitul financiar dintre școală, consiliul județean și DGASPC trebuie clarificat direct în lege, nu lăsat exclusiv prin ordin de ministru."
-      }
+        "articleRef": "Art. I, art. 129 alin. (7^2)-(7^5)",
+        "proposalContent": "La alin.(7^2) se elimină trimiterea la alin.(6) și se prevede acordarea suportului alimentar la cererea părintelui sau în cazuri constatate de DGASPC, cu excepția dietelor medicale speciale. La alin.(7^3) se include și pachetul alimentar, se elimină sintagma vagă „în cazuri bine documentate” și se corelează cu Programul „Masă sănătoasă”.",
+        "argumentation": "Forma Senatului încalcă claritatea legii (art.1 alin.5 Constituție): obligă școlile la masă/pachet, dar permite reținerea banilor doar pentru masa caldă și doar „în cazuri bine documentate”, fără criterii. Trimiterea la alin.(6) depășește scopul (copiii cu CES), iar lipsa excepției medicale afectează copiii cu alergii sau diete speciale.",
+        "otherComments": "Solicităm și: 1) corectarea erorilor de numerotare la alin.(7^5) și trimiterii la alin.(7^3); 2) amânarea aplicării Art.I până la publicarea normelor din Art.II (60 zile); 3) clarificarea fluxului financiar școală-DGASPC și prevenirea stigmatizării elevilor cu CES din școlile de masă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 161790,
+      "durationMs": 63294,
+      "sourceEndMarker": "SF-C7135484",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Copiii cu CES primesc masă caldă la școală, plătită din propria alocație de hrană",
-      "verdictShort": "Scopul e bun: o masă caldă garantată pe zi pentru copiii cu cerințe educaționale speciale. Textul are și garanții reale: se reține doar pentru zilele de prezență, iar restul banilor ajunge la părinte. Problema este că textul se contrazice. Alin.(7²) obligă școala să dea masa, iar alin.(7³) permite reținerea banilor doar «în cazuri bine documentate», fără să definească ce înseamnă asta. «Costul real» rămâne în seama unui ordin de ministru.",
-      "initiatorClaim": "Inițiatorii afirmă că alocația zilnică de hrană a copiilor cu CES nu este folosită întotdeauna pentru hrana copilului. Ei vor ca o parte din ea să fie acordată direct, la școală, ca masă caldă sau pachet alimentar, ca fiecare copil să aibă cel puțin o masă sănătoasă pe zi.",
-      "realityCheck": "Legea nu mărește alocația și nu aduce bani noi. Școala asigură o masă pe zi din banii deja cuveniți copilului, iar familia primește doar diferența. Expunerea de motive nu dă nicio cifră despre cât de des sunt deturnați banii, dar alin.(7²) e formulat general, pentru toți beneficiarii. Restul mecanismului e lăsat integral ordinului comun al celor trei miniștri: cum ajung banii de la DGASPC la școală, ce intră în «costul real», ce conține pachetul și ce standarde nutriționale se aplică.",
+      "plainTitle": "Copiii cu CES primesc la școală o masă caldă sau un pachet în locul unei părți din banii de hrană",
+      "verdictShort": "Intenția e bună: banii de hrană să ajungă în farfuria copilului. Mecanismul e însă scris neclar. Nu spune cine plătește, cine reține și când. Aplicarea la alin.(6) prinde și copii care nu au ce căuta în schemă, iar asta poate produce blocaje sau dublă finanțare pentru copii vulnerabili.",
+      "initiatorClaim": "Inițiatorii spun că alocația zilnică de hrană pentru copiii cu cerințe educaționale speciale nu e folosită întotdeauna pentru hrana lor. Propun ca ea să fie transformată într-o masă caldă sau un pachet alimentar acordat de școală, pentru incluziune și pentru folosirea eficientă a banilor publici.",
+      "realityCheck": "Legea nu creează bani noi. Din alocația de hrană existentă (alin.(6) și (7), 32 lei/zi) școala oferă o masă caldă, preparată în cantina proprie sau prin catering, ori un pachet. Școala poate reține contravaloarea mesei, proporțional cu zilele de prezență, iar diferența se virează reprezentantului legal. Textul e contradictoriu: la (7²) școala „acordă” obligatoriu suportul, la (7³) doar „poate reține” „în cazuri bine documentate”. Pentru pachetul alimentar nu există nicio regulă de reținere. Fluxul banilor între DGASPC și școală nu e descris, deci totul depinde de normele din art.II.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. I, alin.(7²): școala «acordă» o masă caldă pe zi, preparată la cantina proprie sau prin catering. Dacă niciuna nu se poate asigura, dă un pachet alimentar. Totul se plătește din alocația de hrană de la alin.(6) și (7), fără finanțare suplimentară.",
-        "Alin.(7³) intră în contradicție cu alin.(7²). Reținerea e facultativă («se poate reține») și permisă doar «în cazuri bine documentate». Textul nu spune ce trebuie documentat: abuzul familiei sau costul mesei? Nici cine plătește masa obligatorie dacă școala nu reține nimic.",
-        "Alin.(7⁴)-(7⁵) conțin garanții utile. Reținerea se face proporțional cu zilele de prezență efectivă, diferența se virează reprezentantului legal, iar dreptul copilului la hrană nu poate fi diminuat. Totuși, «costul real» nu este definit și ar putea include transport, ambalare sau adaosul firmei de catering.",
-        "Copiii cu CES au des diete medicale: alergii, diabet, selectivitate alimentară în autism, dificultăți de înghițire. Legea nu le pomenește deloc. Standardele nutriționale sunt delegate în întregime ordinului de la art. II.",
-        "Legea nu se corelează cu programele publice de masă caldă din școli (ex. «Masă sănătoasă»). Într-o școală cu masă deja finanțată public, textul nu împiedică reținerea din alocație pentru aceeași masă.",
-        "Sarcina administrativă cade pe școli și DGASPC: contracte de catering, evidența zilnică a meselor pe copil, raportări lunare, calculul și virarea diferențelor. Art. II dă 60 de zile pentru ordinul comun Educație–Sănătate–Muncă, fără consultarea DGASPC sau a consiliilor județene, deși ele primesc raportările."
+        "Art.I – alin.(7²): trimiterea la alocația de la alin.(6) cuprinde nu doar copiii cu CES, ci și copiii din servicii rezidențiale, case de tip familial, centre maternale și creșe. Aceștia primesc deja hrana în serviciul respectiv, deci apare un risc de dublă acoperire sau de confuzie privind beneficiarii.",
+        "Art.I – alin.(7²) vs. (7³): primul alineat obligă școala să acorde masa sau pachetul, al doilea face reținerea facultativă („se poate reține”) și o condiționează de „cazuri bine documentate”, sintagmă nedefinită. Nu se știe din ce bani se plătește masa când școala nu reține.",
+        "Art.I – alin.(7³)-(7⁵): reținerea și virarea diferenței sunt reglementate doar pentru masa caldă. Pentru pachetul alimentar de la lit. c) nu există mecanism de decontare.",
+        "Art.I – alin.(7²) lit. c): nu există criterii pentru constatarea că „masa caldă nu poate fi asigurată” și nici o procedură prin care părintele să conteste trecerea la pachet sau să fie consultat.",
+        "Art.I – alin.(7⁵): garanția că dreptul la hrană nu poate fi diminuat este pozitivă și limitează abuzurile. Reținerea are ca plafon „costul real” al mesei efectiv furnizate.",
+        "Art.II: normele metodologice se emit prin ordin comun a trei miniștri în 60 de zile. Ele trebuie să acopere practic tot mecanismul (calcul, reținere, virare, standarde nutriționale, monitorizare), deci legea delegă aproape integral esența reglementării.",
+        "Redactare: „(75)” și „(73)” apar fără exponent, iar „standardelor nutriționale minime” este un acord greșit. Fișa Camerei menționează un alin.(7¹), deși acesta există deja; forma Senatului introduce corect alin.(7²)-(7⁵)."
       ],
-      "blindSpotsCaught": "Fișa Camerei descrie încă varianta inițială, cu un singur alineat (7¹). Forma adoptată de Senat introduce însă patru alineate noi, (7²)-(7⁵), după alineatul (7¹) deja existent, deci amendamentele trebuie raportate la textul Senatului. În școlile de masă cu unul sau doi elevi cu CES, cateringul doar pentru ei e greu de organizat: cere achiziție publică și furnizor autorizat sanitar-veterinar. Așa, varianta «pachet alimentar», gândită ca excepție, riscă să devină regula. Nicio prevedere nu dă familiei dreptul de a afla sau de a contesta suma reținută.",
-      "constitutionalityNote": "Scopul este conform art. 49 (regim special de protecție a copiilor) și art. 50 (protecția persoanelor cu dizabilități). Alin.(7⁵) previne diminuarea dreptului, așa că transformarea parțială în prestație în natură, fără acordul părintelui, pare o ingerință proporționată în drepturile familiei (art. 26, art. 48). Problema principală ține de art. 1 alin.(5), calitatea legii: «cazuri bine documentate» și «costul real» sunt noțiuni imprecise, iar raportul dintre alin.(7²) și alin.(7³) e contradictoriu. Delegarea către ordin e admisibilă pentru detalii tehnice, nu pentru elementele esențiale ale reținerii unor sume dintr-un drept social, cum ar fi cât și când se reține. Riscul pe art. 138 alin.(5) e redus, pentru că masa se plătește din sume deja alocate. Costurile administrative noi ale școlilor și DGASPC ar trebui totuși evaluate într-o fișă financiară.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă legea nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu e incidentă: legea nu privește servicii ale societății informaționale. Standardele nutriționale vizează mesele servite în școli, nu specificații tehnice de produs. Dacă ordinul ar impune cerințe tehnice pentru alimente preambalate, notificarea ar trebui verificată. Contractele de catering intră sub Legea 98/2016 (transpune Directiva 2014/24/UE), sunt deschise oricărui operator din UE și nu creează monopoluri. Mesele și pachetele trebuie să respecte Regulamentul (CE) 852/2004 privind igiena alimentelor, iar pachetele preambalate și Regulamentul (UE) 1169/2011 privind informarea consumatorilor.",
+      "blindSpotsCaught": "Copiii cu CES au frecvent nevoi alimentare medicale: diete, alergii, tulburări de deglutiție sau de alimentație din spectrul autist. Textul nu prevede adaptarea mesei la aceste nevoi, iar art.II vorbește doar de „standarde nutriționale minime”. O masă standard impusă unui copil care nu o poate consuma, cu reținerea banilor, ar contrazice chiar scopul legii. Textul nu se corelează nici cu programele naționale de masă caldă din școli, ceea ce ar putea suprapune finanțările. Pentru școlile fără cantină, varianta catering presupune achiziție publică (Legea nr.98/2016) și respectarea normelor de igienă alimentară. Sunt costuri administrative pentru unitățile de învățământ, iar legea nu prevede nicio sursă de finanțare pentru ele.",
+      "constitutionalityNote": "Obiectivul se încadrează în art.49 (protecția copiilor) și art.50 (protecția persoanelor cu dizabilități) din Constituție. Garanția nediminuării dreptului la hrană de la alin.(7⁵) e un punct forte. Calitatea legii (art.1 alin.(5)) este însă afectată de contradicția dintre caracterul obligatoriu din (7²) și cel facultativ din (7³), de sintagma nedefinită „cazuri bine documentate” și de lipsa unei reguli pentru pachetul alimentar. Delegarea către ordin de ministru (art.II) e admisibilă doar pentru detalii tehnice, nu pentru elementele esențiale ale reținerii unui drept bănesc. Dacă implementarea generează cheltuieli noi pentru școli sau autorități locale, se pune și problema sursei de finanțare (art.138 alin.(5)). Pe fond nu e o neconstituționalitate evidentă, ci un risc de previzibilitate.",
+      "euLawNote": "Directiva (UE) 2018/958 nu e relevantă: proiectul nu reglementează accesul la o profesie. Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu sunt servicii ale societății informaționale sau reguli tehnice pentru produse. Pentru catering se aplică regulile de achiziții publice (Directiva 2014/24/UE, transpusă prin Legea nr.98/2016), care asigură concurența între furnizori, inclusiv IMM-uri locale, și Regulamentul (CE) nr.852/2004 privind igiena produselor alimentare. Proiectul nu creează monopoluri și nu limitează piața unică. Este conform cu Convenția ONU privind drepturile persoanelor cu dizabilități (art.7 și art.24), cu condiția adaptării rezonabile a meselor.",
       "senatForm": {
-        "articleRef": "Art. I – art. 129 alin. (7³) din Legea 272/2004",
-        "proposalContent": "Alin.(7³) devine: «Pentru fiecare zi în care copilul primește efectiv masa caldă sau pachetul alimentar, unitatea de învățământ reține din alocația zilnică de hrană doar costul alimentelor și al preparării, fără cheltuieli administrative. Nu se reține nicio sumă pentru mesele finanțate din alte programe publice. Meniul respectă recomandările medicale ale copilului.»",
-        "argumentation": "Textul actual permite reținerea doar «în cazuri bine documentate», noțiune nedefinită, deși alin.(7²) obligă școala să dea masa: nu se știe cine plătește masa când nu se reține, nici ce include «costul real». Formularea propusă leagă reținerea de masa efectiv primită, exclude dubla plată și ține cont de dietele copiilor cu CES (art. 1 alin. 5, art. 49 Constituție).",
-        "otherComments": "La art. II, normele ar trebui să prevadă: dreptul părintelui de a contesta suma reținută, informarea lunară a familiei despre zilele și costul meselor și soluții pentru școlile cu foarte puțini copii cu CES, unde un contract de catering nu e realist. Ordinul ar trebui pus în consultare cu asociațiile părinților copiilor cu CES."
-      }
+        "articleRef": "Art.I, art.129 alin.(7³)-(7⁵) Legea 272/2004",
+        "proposalContent": "(7³) Când unitatea de învățământ asigură masa caldă sau pachetul alimentar, reține din alocația de hrană contravaloarea suportului efectiv furnizat, în limita costului real, cu informarea scrisă a reprezentantului legal. Alin.(7²)-(7⁵) nu se aplică copiilor din servicii rezidențiale, case de tip familial și centre maternale.",
+        "argumentation": "La (7²) școala „acordă” masa, dar la (7³) „poate reține” doar „în cazuri bine documentate”, sintagmă nedefinită. Pachetul alimentar nu are regulă de reținere. Trimiterea la alin.(6) cuprinde și copii din centre rezidențiale, hrăniți deja acolo: risc de dublă finanțare. Textul propus asigură previzibilitatea (art.1 alin.(5) Constituție).",
+        "otherComments": "Normele din art.II să prevadă: meniuri adaptate nevoilor medicale ale copiilor cu CES (diete, alergii, tulburări de deglutiție), criterii obiective pentru trecerea la pachet, termen de virare a diferenței către părinte și corelarea cu programul național de masă caldă din școli, ca să nu se suprapună finanțarea. De corectat „(75)”, „(73)” și „standardelor”."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 104889,
+      "durationMs": 75598,
+      "sourceEndMarker": "SF-C7135484",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Masă la școală din alocația de hrană a copilului",
-      "verdictShort": "Proiectul are un scop social util și nu introduce taxe, sancțiuni sau monopoluri. Riscul moderat provine din regulile neclare privind reținerea banilor și din protecția insuficientă a copiilor pentru care școala nu poate asigura hrană adecvată.",
-      "initiatorClaim": "Inițiatorii urmăresc să asigure copiilor cu cerințe educaționale speciale o masă sănătoasă și să prevină folosirea alocației în alte scopuri. Expunerea invocă observații ale școlilor, dar materialul furnizat nu prezintă date care să măsoare amploarea utilizării necorespunzătoare.",
-      "realityCheck": "Alin. (7²) obligă instituțiile de învățământ să ofere hrană din alocațiile existente, iar alin. (7³)-(7⁵) permit reținerea contravalorii mesei calde și plata diferenței către reprezentantul legal: proiectul nu instituie o masă gratuită suplimentară. Reținerea este permisivă și condiționată de cazuri documentate, dar aceste cazuri nu sunt definite, iar mecanismul nu acoperă expres pachetul alimentar. Garanția păstrării dreptului la hrană este pozitivă, însă lipsesc reguli explicite pentru mesele incompatibile cu regimul medical și pentru evitarea reținerii costurilor deja finanțate prin alte programe.",
+      "plainTitle": "Masă la școală din alocația de hrană: reguli neclare pentru reținerea banilor",
+      "verdictShort": "Proiectul urmărește un obiectiv util: hrană efectiv oferită beneficiarilor în timpul școlii. Totuși, trebuie clarificate beneficiarii, reținerile și finanțarea, pentru ca aplicarea să nu producă diminuări nejustificate sau practici diferite între școli.",
+      "initiatorClaim": "Inițiatorii susțin că alocația bănească nu este întotdeauna folosită pentru hrana copiilor cu CES. Propun furnizarea unei mese calde sau a unui pachet alimentar pentru a asigura folosirea banilor în interesul copilului.",
+      "realityCheck": "Art. I introduce obligația instituțiilor de învățământ de a furniza hrană din alocațiile existente, fără să majoreze cuantumul dreptului; majorarea pentru anumite categorii de copii cu handicap există deja. Furnizarea este obligatorie, dar reținerea contravalorii este formulată facultativ și reglementată expres numai pentru masa caldă, deși este permis și pachetul alimentar. Diferența trebuie virată reprezentantului legal, însă textul nu rezolvă explicit situația beneficiarilor majori și nici raportul cu mesele finanțate din alte surse.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. I, alin. (7²)-(7³): acordarea suportului alimentar este obligatorie, însă reținerea banilor este facultativă și prevăzută numai pentru masa caldă. Nu este clar cum se decontează pachetul alimentar sau cine suportă masa atunci când nu se dispune reținerea.",
-        "Art. I, alin. (7³)-(7⁵): costul real, masa efectiv furnizată, prezența și virarea diferenței sunt garanții utile. Totuși, lipsesc un plafon zilnic explicit raportat la dreptul beneficiarului, definirea costurilor deductibile și obligația comunicării calculului către familie.",
-        "Sfera beneficiarilor trebuie delimitată: art. 129 alin. (6), la care proiectul trimite, privește și beneficiari ai serviciilor sociale, iar alin. (7) privește copiii și tinerii cu CES. Trimiterea cumulată nu trebuie interpretată automat ca o limitare exclusivă la copiii cu CES. [Legea nr. 272/2004](https://legislatie.just.ro/Public/DetaliiDocument/306028).",
-        "Art. I, alin. (7⁴): raportarea către DGASPC nu clarifică cine calculează, reține și plătește efectiv toate sumele. Pentru drepturile CES, HG nr. 564/2017 prevede deja finanțare prin bugete locale sau județene și plăți prin unitățile de învățământ; noul circuit necesită corelare. [HG nr. 564/2017](https://legislatie.just.ro/Public/DetaliiDocument/192317).",
-        "Impactul administrativ previzibil include achiziții, evidența porțiilor, calculul costurilor și raportări lunare. Proiectul folosește alocațiile existente, dar materialele furnizate nu cuantifică aceste costuri suplimentare și nu precizează distinct finanțarea lor; nu introduce obligații declarative noi pentru părinți sau taxe pentru IMM-uri.",
-        "Art. II acordă 60 de zile pentru norme, fără o regulă tranzitorie expresă pentru continuitatea plăților. Lipsa normelor nu ar trebui să devină motiv de suspendare a drepturilor existente."
+        "Art. I, alin. (7²): trimite atât la alin. (6), cât și la alin. (7). Primul privește și copii din servicii de zi, creșe, servicii rezidențiale și mame protejate în centre maternale. Domeniul obligației școlilor nu este delimitat suficient, deși expunerea de motive vorbește despre CES.",
+        "Art. I, alin. (7²)-(7³): școala «acordă» suportul alimentar, dar «poate» reține contravaloarea mesei în «cazuri bine documentate». Nu sunt precizate criteriile care justifică reținerea sau suportarea costului fără reținere.",
+        "Art. I, alin. (7³)-(7⁵): mecanismul de reținere și plată a diferenței privește expres masa caldă. Finanțarea pachetului alimentar din aceeași alocație rămâne insuficient corelată cu acest mecanism.",
+        "Art. I, alin. (7⁴): prezența efectivă limitează reținerea; alineatul nu elimină, prin el însuși, drepturile deja recunoscute pentru alte situații. Reținerea trebuie corelată și cu dovada hranei efectiv furnizate, cerută de alin. (7³).",
+        "Art. I, alin. (7⁵): plata diferenței numai reprezentantului legal nu acoperă explicit tinerii majori cu CES menționați în alin. (7) existent. Formula generală care interzice diminuarea dreptului este utilă, dar nu rezolvă singură această necorelare.",
+        "Art. II: normele sunt prevăzute în 60 de zile, fără amânarea aplicării noilor obligații până la adoptarea lor. Poate exista astfel o perioadă în care școlile au obligații fără procedura de calcul, reținere și virare.",
+        "Impact administrativ: școlile trebuie să organizeze prepararea sau achiziția hranei, să documenteze costurile și să comunice lunar cu DGASPC. Proiectul nu identifică distinct finanțarea costurilor administrative și logistice și nici circuitul complet al banilor.",
+        "Nu sunt introduse taxe, sancțiuni sau exclusivități pentru furnizori. Cateringul poate crea oportunități pentru IMM-uri, dar trebuie contractat potrivit regulilor aplicabile; proiectul nu instituie o derogare de la acestea."
       ],
-      "blindSpotsCaught": "Fișa descriptivă menționează un singur alineat nou, dar forma analizată introduce patru alineate, după alin. (7¹), care există deja. Notațiile «(75)» și «(73)» din extras pot proveni din OCR și trebuie verificate în documentul original, fără a le prezenta automat ca defecte legislative. Procedural, fișa actuală a Camerei consemnează un raport de respingere primit la 30.06.2026, fără ca acesta să însemne respingerea definitivă de către plen; termenul de amendamente din 09.04.2026 este depășit. [Fișa PL-x 248/2026](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?idp=23148).",
-      "constitutionalityNote": "Obiectivul este compatibil cu protecția copiilor și a persoanelor cu handicap, potrivit art. 49 și 50. Vulnerabilitatea principală privește art. 1 alin. (5): criteriile reținerii, beneficiarii și responsabilitățile instituționale trebuie să fie previzibile, iar elementele esențiale ale dreptului trebuie stabilite prin lege. Diferențele de capacitate între școli impun garanții pentru egalitatea de tratament, în sensul art. 16. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct, deoarece proiectul nu instituie pedepse. Pentru eventualele cheltuieli suplimentare trebuie verificată sursa de finanțare, conform art. 138 alin. (5); extrasul nu dovedește singur o încălcare. [Constituția României](https://www.cdep.ro/ords/pls/dic/site.page?id=339).",
-      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate și exercitării lor; proiectul nu introduce asemenea restricții, deci testul specific directivei nu este aplicabil. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Textul nu reglementează servicii digitale sau AI și nu conține specificații tehnice alimentare concrete care să fundamenteze, prin ele însele, o obligație de notificare TRIS; eventualele norme ulterioare trebuie evaluate separat dacă introduc reglementări tehnice pentru produse. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535). Proiectul poate crește cererea de catering, dar nu rezervă contracte unor firme și nu creează un monopol. Achizițiile rămân supuse regulilor aplicabile de transparență, concurență și nediscriminare.",
+      "blindSpotsCaught": "Detaliul principal este diferența dintre obligația de a furniza inclusiv pachet alimentar și posibilitatea de a reține bani numai pentru masa caldă. În plus, nu există o regulă expresă împotriva reținerii din alocație pentru o masă deja finanțată integral din alt program. Numerotările «(75)» și «(73)» par erori ale extragerii și trebuie confruntate cu documentul oficial, fără a fi tratate automat drept vicii ale legii.",
+      "constitutionalityNote": "Principalul risc privește art. 1 alin. (5) din Constituție: beneficiarii, condițiile reținerii și raportul dintre obligația școlii și plata diferenței trebuie să fie previzibile. Art. 49 și 50 susțin obiectivul protejării copiilor și persoanelor cu handicap; aplicarea trebuie să țină seama de nevoile alimentare individuale și de accesul efectiv la hrană. Diferențele nejustificate între beneficiari pot ridica probleme prin raportare la art. 16, fără ca o discriminare neconstituțională să rezulte automat din text. Procedurile tehnice pot fi delegate, dar elementele esențiale ale reținerii trebuie stabilite prin lege. Pentru eventualele cheltuieli suplimentare trebuie verificată respectarea art. 111 alin. (1) și art. 138 alin. (5); documentele furnizate nu permit constatarea unei încălcări. Art. 23 alin. (12) nu este incident: proiectul nu reglementează pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă mecanismului descris: acesta nu introduce restricții privind accesul la o profesie reglementată sau exercitarea ei. Nu sunt reglementate servicii digitale ori AI, astfel că nu rezultă un motiv de notificare TRIS pe această componentă. Eventualele specificații tehnice obligatorii pentru produse alimentare din viitoarele norme trebuie însă evaluate distinct în raport cu Directiva (UE) 2015/1535. Achizițiile de catering rămân supuse regulilor aplicabile privind transparența, concurența și nediscriminarea, iar siguranța alimentelor trebuie respectată. Verificarea online a surselor externe nu a fost disponibilă; evaluarea se bazează pe textele furnizate.",
       "senatForm": {
         "articleRef": "Art. I – art. 129 alin. (7³)",
-        "proposalContent": "(7³) Din alocația de hrană se deduce numai costul documentat al mesei sau pachetului efectiv furnizat, în limita dreptului zilnic al beneficiarului și fără sumele acoperite din alte programe publice. Hrana respectă regimul medical prescris. Dacă nu se asigură hrană adecvată, alocația se plătește în bani.",
-        "argumentation": "Textul actual permite reținerea numai pentru masa caldă, deși impune și pachete alimentare, și nu exclude expres costurile finanțate din alte programe. Amendamentul introduce un plafon zilnic, previne dubla finanțare și protejează copiii care au nevoie de regim alimentar medical.",
-        "otherComments": "Corelați alin. (7⁴)-(7⁵), delimitați beneficiarii și instituția plătitoare și asigurați plata până la aplicarea normelor. Termenul de amendamente, 09.04.2026, a trecut; petiția nu echivalează cu un amendament parlamentar depus în termen."
-      }
+        "proposalContent": "(7³) Se reține exclusiv costul efectiv al mesei calde sau al pachetului alimentar furnizat beneficiarului, în limita alocației aferente zilei respective. Nu se rețin sume pentru suportul alimentar finanțat din alte surse ori pentru hrana neadaptată nevoilor medicale documentate ale beneficiarului.",
+        "argumentation": "Textul acoperă ambele forme de suport alimentar, limitează reținerea la dreptul aferent zilei și previne imputarea unei mese finanțate din alte surse. Protejează beneficiarii care nu pot consuma meniul din motive medicale și reduce riscul aplicării diferite între școli.",
+        "otherComments": "Corelați alin. (7⁴)-(7⁵) cu noul text și prevedeați plata diferenței către beneficiarul major. Delimitați beneficiarii și instituțiile plătitoare. Aplicați mecanismul după intrarea în vigoare a normelor, cu menținerea acordării drepturilor potrivit regulilor existente până atunci."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T19:21:46.282Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:05:17.695Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -2,130 +2,180 @@
   "billId": "PL-x 310/2026",
   "slug": "plx-310-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T03:08:45.631Z",
+  "updatedAt": "2026-11-24T15:07:14.405Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2002,
+    "ordinanceChars": 0,
+    "memoChars": 6837,
+    "memoSupplied": 6837,
+    "marker": "SF-4C3E5D37"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-310-2026.json",
+    "form": "senat",
+    "textHash": "4c3e5d37ca22cef0",
+    "fetchedAt": "2026-11-19T10:24:29.404Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1681,
+    "truncated": false,
+    "included": true,
+    "key": "c9dd6fce17ea33ab"
+  },
   "consensus": {
-    "riskScore": 5.7,
+    "riskScore": 5.3,
     "riskLevel": "yellow",
-    "plainTitle": "Despăgubiri la prețul pieței și case reconstruite de primărie după dezastre",
-    "summaryTlDr": "Intenția e bună, dar textul e scris în grabă. Promite în același timp bani la prețul pieței, reconstrucție gratuită în maximum un an și cazare, fără să estimeze costul și fără o sursă clară de bani. Victimelor le-ar folosi, însă în forma aceasta legea riscă să pice la CCR sau să rămână literă moartă.",
-    "initiatorClaim": "Inițiatorii PSD pornesc de la explozia din Rahova (octombrie 2025) și de la cutremurul din 2023. Spun că cei care își pierd locuința în dezastre primesc despăgubiri mici, calculate pe valori vechi. Vor despăgubiri la valoarea de piață, plătite repede din fondul Guvernului.",
-    "realityCheck": "Textul adoptat tacit de Senat merge mult mai departe decât fișa Camerei. Pe lângă despăgubirea la prețul pieței (alin. 1), obligă primăria să reconstruiască imobilul în cel mult un an și să plătească cazarea până atunci (alin. 3), fără să spună dacă banii și reconstrucția se cumulează. Textul nu scade sumele primite din asigurări, acoperă și pagubele din conflicte armate și folosește noțiuni care nu există în lege („fondul de urgență”, „primăria” ca subiect de obligații, „tragedie”). Banii se recuperează de la cei vinovați pe baza unei „anchete”, nu a unei hotărâri judecătorești.",
+    "plainTitle": "Despăgubiri la preț de piață și reconstrucție pe banii primăriei pentru victimele dezastrelor",
+    "summaryTlDr": "Scopul e legitim și favorabil victimelor, dar textul e prost construit. Pune pe primării obligații nelimitate și cumulate: plată la valoarea de piață, plus reconstrucție în cel mult un an, plus cazare. Nu are sursă de finanțare, nu ține cont de asigurări și trimite la un „fond de urgență” care nu există ca atare în legislația bugetară.",
+    "initiatorClaim": "Inițiatorii pornesc de la explozia din Rahova (octombrie 2025) și de la cutremurul din 2023. Vor ca victimele dezastrelor să fie despăgubite la valoarea reală de piață, rapid, din fondul de urgență al Guvernului, inclusiv pentru reracordarea la utilități.",
+    "realityCheck": "Art. 18 alin. (1) spune azi doar „ajutoare de urgență și despăgubiri, după caz”. Proiectul îl rescrie: despăgubirea trebuie să acopere „valoarea reală, la zi, conform prețului pieții” și se plătește în maximum 90 de zile de la incident (alin. 2). Separat, primăria trebuie să reconstruiască imobilul în cel mult un an, inclusiv racordarea la utilități, și să plătească cazarea până atunci (alin. 3). Dacă primăria nu are bani, Guvernul este „obligat” să-i dea din fondul de urgență (alin. 4). Textul nu spune dacă plata în bani și reconstrucția sunt alternative sau se cumulează, nu scade indemnizațiile de asigurare (PAD, polițe facultative) și acoperă orice pagubă, inclusiv din conflict armat. De aici riscul de dublă despăgubire și un cost bugetar imposibil de estimat.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
-      "Toți cetățenii",
-      "Contabili & Fiscalitate",
-      "Justiție & Drepturi Civile"
+      "Justiție & Drepturi Civile",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – art. 18 alin. (1), (3) și (4)",
-      "proposalContent": "(1) Despăgubirea este valoarea de piață la data evenimentului, stabilită de un evaluator autorizat, minus sumele din asigurări. (3) Păgubitul alege între despăgubire în bani și reconstrucția locuinței, nu ambele. (4) Sumele vin din Fondul de intervenție la dispoziția Guvernului; recuperarea de la vinovați se face doar pe baza unei hotărâri judecătorești definitive.",
-      "argumentation": "Forma actuală permite cumularea despăgubirii la valoarea de piață cu reconstrucția gratuită și cazarea, ignoră asigurarea PAD și cere recuperarea banilor de la „vinovați” stabiliți prin anchetă, nu de instanță. „Fondul de urgență” nu există în Legea 500/2002. Fără aceste corecții, legea riscă neconstituționalitatea și va fi greu de aplicat.",
-      "otherComments": "Termenul de 90 de zile curge de la incident, nu de la cerere, deși dosarul cere constatare și HCL. Obligația primăriei de a reconstrui în 1 an se lovește de autorizări și achiziții publice. Nu se arată costul și sursa (art. 15 L. 500/2002, art. 138 alin. 5 Constituție). Legea nu retroactivează: cazul Rahova, invocat ca motiv, rămâne neacoperit."
+      "articleRef": "Art. unic, art. 18 alin. (2)-(4) Legea 481/2004",
+      "proposalContent": "(2) Despăgubirea se plătește în max. 90 de zile de la cererea completă, scăzându-se indemnizația de asigurare încasată. (3) Cu acordul păgubitului, UAT poate reconstrui imobilul în locul plății, în max. 1 an, suportând cazarea temporară. (4) Lipsa fondurilor se acoperă din Fondul de rezervă bugetară; sumele se recuperează de la cei găsiți vinovați prin hotărâre definitivă.",
+      "argumentation": "Forma actuală obligă primăria și să plătească valoarea de piață, și să reconstruiască, fără a deduce asigurarea: risc de dublă despăgubire. Termenul de 90 de zile de la incident e nerealist când constatarea durează. «Fondul de urgență» nu există în Legea 500/2002, iar răspunderea trebuie stabilită de instanță, nu de o anchetă (art. 21 și 23 Constituție).",
+      "otherComments": "Lipsesc fișa financiară și sursa de finanțare (art. 138 alin. 5 Constituție, art. 15 Legea 500/2002). «Primăria» nu are personalitate juridică; corect e UAT. Textul acoperă și conflictul armat, cu cost imprevizibil. Formula introductivă spune «se completează», deși articolul se înlocuiește integral."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 62955,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 89550,
+      "sourceEndMarker": "SF-4C3E5D37",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Despăgubiri la prețul pieței și reconstrucția locuințelor distruse de dezastre în 1 an",
-      "verdictShort": "Deși are o intenție socială legitimă pentru victimele calamităților, proiectul este redactat haotic și contradictoriu: obligă statul simultan să plătească valoarea de piață în 90 de zile ȘI să reconstruiască imobilul în 1 an. Lipsa corelării cu asigurările de locuințe (PAD/facultative) și folosirea unor termeni nejuridici îl fac inaplicabil în forma actuală.",
-      "initiatorClaim": "Inițiatorii vor ca persoanele care își pierd locuințele în urma unor dezastre sau explozii (precum cazul din cartierul Rahova) să primească despăgubiri rapide la valoarea reală de piață ori reconstrucția imobilului, cu păstrarea dreptului de proprietate și finanțare din fondul de urgență al Guvernului.",
-      "realityCheck": "Textul adoptat tacit de Senat creează o dublă obligație cumulativă: alin. (1)-(2) impun plata în bani la prețul pieței în maximum 90 de zile de la incident, iar alin. (3) obligă primăria să reconstruiască același imobil în maximum 1 an și să deconteze cazarea, fără cuvântul „sau” între cele două mecanisme. În plus, legea ignoră complet sistemul asigurărilor obligatorii (PAD) și facultative, permițând dubla despăgubire și descurajând asigurarea locuințelor.",
-      "affectedGroups": [
-        "Proprietari & Imobiliare",
-        "Toți cetățenii",
-        "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Contradicție între alin. (1)-(2) și alin. (3): proiectul nu prevede o opțiune („ori banii, ori reconstrucția”), ci obligă simultan la plata despăgubirii la valoarea pieței în 90 de zile și la reconstruirea imobilului de către primărie în 1 an.",
-        "Termenul de plată de la art. 18 alin. (2) este de „maxim 90 de zile de la data producerii incidentului” (nu de la data depunerii cererii sau a evaluării), ceea ce face procedura imposibil de respectat dacă expertizele tehnice durează sau dacă păgubitul depune cererea târziu.",
-        "Obligația din art. 18 alin. (3) ca primăria să reconstruiască un bloc sau o casă și să o racordeze la utilități în „maxim un an” este nerealistă raportat la termenele legale pentru expertizare, demolare, proiectare, autorizare (Legea 50/1991) și achiziții publice (Legea 98/2016).",
-        "Lipsa oricărei corelări cu Legea nr. 260/2008 privind asigurarea obligatorie a locuințelor (PAD) și cu polițele facultative: textul nu scade indemnizația de asigurare din despăgubirea plătită de stat și nu reglementează subrogarea asigurătorului.",
-        "Redactare deficitară tehnic în alin. (3) și (4): folosește termeni fără rigoare juridică precum „primăria” (care nu are personalitate juridică, ci UAT-ul), „prețului pieții”, „fondul de urgență” (în loc de Fondul de intervenție la dispoziția Guvernului) și „vinovate pentru tragedie”."
-      ],
-      "blindSpotsCaught": "Textul omite situația imobilelor construite fără autorizație sau amplasate în zone cu risc natural major (alunecări de teren, zone inundabile), unde art. 18 alin. (3) ar obliga primăria să reconstruiască imobilul exact pe amplasamentul interzis de normele de urbanism. Totodată, sintagma „efectelor unui dezastru” din Legea 481/2004 are o definiție tehnică strictă în art. 9 lit. b), care nu acoperă automat orice explozie izolată de gaze dintr-un condominiu dacă nu sunt întrunite pragurile unei situații de urgență.",
-      "constitutionalityNote": "Proiectul încalcă art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), întrucât instituie obligații paralele contradictorii (despăgubire integrală în numerar și reconstrucție în natură), nu stabilește niciun criteriu obiectiv de evaluare a „prețului pieții” (ex. standarde ANEVAR) și utilizează limbaj colocvial („tragedie”, „persoanele/instituțiile/companiile”). De asemenea, impune cheltuieli bugetare nelimitate în sarcina bugetelor locale și a Guvernului fără fișă financiară și prin trimitere la un fond inexistent sub această denumire în Legea nr. 500/2002, contrar art. 138 alin. (5) din Constituție.",
-      "euLawNote": "Proiectul nu transpune legislație europeană și nu intră sub incidența Directivei (UE) 2018/958 sau a procedurii TRIS (Directiva 2015/1535). Totuși, în cazul în care expresia ambiguă „Cetățenii” de la alin. (1) sau reconstrucția de imobile de la alin. (3) ar fi aplicată și spațiilor comerciale ori activelor unor întreprinderi afectate, acordarea de fonduri publice la valoarea de piață fără plafon de minimis ar necesita analiză din perspectiva normelor UE privind ajutoarele de stat pentru repararea pagubelor provocate de calamități naturale (art. 107 alin. (2) lit. b) TFUE).",
-      "senatForm": {
-        "articleRef": "Articol unic - Art. 18 alin. (1)-(4)",
-        "proposalContent": "Art. 18 se reformulează astfel încât păgubiții să beneficieze fie de despăgubiri la valoarea de piață evaluată ANEVAR (în 90 de zile de la cerere), fie de reconstrucția imobilului prin UAT, cu deducerea polițelor de asigurare (PAD/facultative) și finanțare din Fondul de intervenție al Guvernului, urmată de acțiune în regres contra persoanelor responsabile.",
-        "argumentation": "Textul cumulează contradictoriu despăgubirea în bani la valoarea pieței în 90 de zile de la incident (alin. 1-2) cu reconstrucția imobilului în 1 an (alin. 3). Totodată, omite corelarea cu asigurările PAD/facultative și folosește termeni nejuridici („primăria”, „tragedie”, „fond de urgență”), încălcând art. 1 alin. (5) și art. 138 alin. (5) din Constituție.",
-        "otherComments": "Termenul de 90 de zile trebuie să curgă de la depunerea cererii, nu de la data incidentului, iar termenul de 1 an pentru reconstrucție este nerealist față de procedurile de achiziții publice și autorizare. Sintagma „Fondul de intervenție la dispoziția Guvernului” (Legea 500/2002) trebuie să înlocuiască „fondul de urgență”."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 172613,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Despăgubiri la prețul pieței și case reconstruite de primărie după dezastre",
-      "verdictShort": "Intenția e bună, dar textul e scris în grabă. Promite în același timp bani la prețul pieței, reconstrucție gratuită în maximum un an și cazare, fără să estimeze costul și fără o sursă clară de bani. Victimelor le-ar folosi, însă în forma aceasta legea riscă să pice la CCR sau să rămână literă moartă.",
-      "initiatorClaim": "Inițiatorii PSD pornesc de la explozia din Rahova (octombrie 2025) și de la cutremurul din 2023. Spun că cei care își pierd locuința în dezastre primesc despăgubiri mici, calculate pe valori vechi. Vor despăgubiri la valoarea de piață, plătite repede din fondul Guvernului.",
-      "realityCheck": "Textul adoptat tacit de Senat merge mult mai departe decât fișa Camerei. Pe lângă despăgubirea la prețul pieței (alin. 1), obligă primăria să reconstruiască imobilul în cel mult un an și să plătească cazarea până atunci (alin. 3), fără să spună dacă banii și reconstrucția se cumulează. Textul nu scade sumele primite din asigurări, acoperă și pagubele din conflicte armate și folosește noțiuni care nu există în lege („fondul de urgență”, „primăria” ca subiect de obligații, „tragedie”). Banii se recuperează de la cei vinovați pe baza unei „anchete”, nu a unei hotărâri judecătorești.",
-      "affectedGroups": [
-        "Proprietari & Imobiliare",
-        "Toți cetățenii",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. 18 alin. (1) și (3) nu pun în alternativă despăgubirea în bani („valoarea reală, la zi, conform prețului pieții”) și obligația primăriei de a reconstrui imobilul și de a plăti cazarea. Textul permite astfel plata dublă a aceluiași prejudiciu.",
-        "Art. 18 alin. (1) nu spune cine face evaluarea (evaluator autorizat, comisie sau primărie). Nici „la zi” nu e lămurit: data dezastrului sau data plății. Nu e clar nici dacă „pierderea suferită” include bunurile mobile sau veniturile pierdute.",
-        "Art. 18 alin. (2): termenul de maximum 90 de zile curge de la „incident”, nu de la depunerea cererii. Procedura cere însă act de constatare și hotărâre a consiliului local, așa că o cerere depusă târziu nu mai poate fi rezolvată în termen.",
-        "Art. 18 alin. (3) cere reconstrucția în cel mult un an, la „starea inițială”. Ignoră autorizarea construcțiilor, procedurile de achiziții publice și normele actuale de siguranță seismică. În plus, „primăria” nu are personalitate juridică, așa că obligația ar trebui pusă în sarcina unității administrativ-teritoriale.",
-        "Art. 18 alin. (4) trimite la „fondul de urgență”, care nu există. Legea 500/2002 prevede Fondul de intervenție la dispoziția Guvernului. Banii se recuperează de la cei care „se dovedesc vinovați pentru tragedie” „în urma anchetei autorităților”, fără o hotărâre judecătorească definitivă.",
-        "Legea acoperă și pagubele din conflicte armate și din intervențiile serviciilor de urgență. Asta înseamnă un angajament bugetar nelimitat, iar expunerea de motive nu conține nicio estimare de cost.",
-        "Nu se scad indemnizațiile din asigurarea obligatorie PAD (Legea 260/2008) și nici sumele plătite de cei vinovați. Statul ar plăti integral chiar și pentru cine e asigurat, ceea ce descurajează asigurarea."
-      ],
-      "blindSpotsCaught": "Senatul nu a dezbătut textul: l-a adoptat tacit, în forma inițială (art. 75 alin. 2 teza a III-a), așa că singurul filtru real rămâne Camera. Fișa Camerei și expunerea de motive vorbesc de „cost de reconstrucție echivalent” și „termen rezonabil”. Articolul impune însă bani la preț de piață, plus reconstrucție în un an, plus cazare, plus termen de 90 de zile. Formula introductivă spune „se completează”, deși articolul este înlocuit integral, contrar Legii 24/2000. Legea nu retroactivează (art. 15 alin. 2 din Constituție), deci locatarii din Rahova, invocați ca motiv, nu ar beneficia de ea. Nici nu e sigur că o explozie de gaze într-un singur bloc atinge pragurile de gravitate ale unui „dezastru” din legislația protecției civile.",
-      "constitutionalityNote": "Art. 1 alin. (5): formulări precum „valoarea reală, la zi”, „starea inițială”, „în cel mai scurt timp posibil”, „acolo unde este posibil”, „fondul de urgență” și „tragedie” nu sunt suficient de clare și previzibile. Art. 138 alin. (5): legea creează cheltuieli bugetare fără limită și fără sursă de finanțare stabilită. Art. 111 alin. (1): dacă la inițiere nu s-a cerut informarea Guvernului, deși sunt afectate fonduri de la bugetul de stat, CCR a sancționat constant astfel de legi. Art. 120 și art. 9 din Carta europeană a autonomiei locale: primăriilor li se impun obligații majore fără resurse pe măsură. Stabilirea vinovaților printr-o „anchetă” administrativă ridică probleme de acces la justiție (art. 21) și, cât timp vinovăția penală nu e stabilită, de prezumție de nevinovăție (art. 23 alin. 11). Scopul declarat, protecția proprietății (art. 44) și a locuinței, rămâne legitim.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: legea nu reglementează accesul la vreo profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reguli tehnice și nici servicii ale societății informaționale. Plățile către persoane fizice nu sunt ajutor de stat (art. 107 TFUE). Oricum, compensarea pagubelor din dezastre naturale sau evenimente excepționale este compatibilă cu piața internă (art. 107 alin. 2 lit. b). Riscul real ține de reconstrucție: contractele primăriilor intră sub Directiva 2014/24/UE (Legea 98/2016). Termenul rigid de un an împinge spre negocieri fără publicare pe motiv de urgență, permise doar în limita strictului necesar. Pentru dezastrele majore, mecanismul ar trebui corelat cu Fondul de Solidaritate al UE.",
-      "senatForm": {
-        "articleRef": "Art. unic – art. 18 alin. (1), (3) și (4)",
-        "proposalContent": "(1) Despăgubirea este valoarea de piață la data evenimentului, stabilită de un evaluator autorizat, minus sumele din asigurări. (3) Păgubitul alege între despăgubire în bani și reconstrucția locuinței, nu ambele. (4) Sumele vin din Fondul de intervenție la dispoziția Guvernului; recuperarea de la vinovați se face doar pe baza unei hotărâri judecătorești definitive.",
-        "argumentation": "Forma actuală permite cumularea despăgubirii la valoarea de piață cu reconstrucția gratuită și cazarea, ignoră asigurarea PAD și cere recuperarea banilor de la „vinovați” stabiliți prin anchetă, nu de instanță. „Fondul de urgență” nu există în Legea 500/2002. Fără aceste corecții, legea riscă neconstituționalitatea și va fi greu de aplicat.",
-        "otherComments": "Termenul de 90 de zile curge de la incident, nu de la cerere, deși dosarul cere constatare și HCL. Obligația primăriei de a reconstrui în 1 an se lovește de autorizări și achiziții publice. Nu se arată costul și sursa (art. 15 L. 500/2002, art. 138 alin. 5 Constituție). Legea nu retroactivează: cazul Rahova, invocat ca motiv, rămâne neacoperit."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 105023,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Despăgubiri și locuințe reconstruite după dezastre, cu reguli neclare de plată",
-      "verdictShort": "Proiectul urmărește un scop social util: repararea pierderilor și păstrarea locuinței. Forma analizată necesită însă corecturi importante, deoarece suprapune despăgubirea cu reconstrucția și impune obligații financiare ample fără un mecanism suficient de clar.",
-      "initiatorClaim": "Inițiatorii invocă explozia din Rahova și dificultățile persoanelor rămase fără locuințe. Ei propun compensarea pierderilor la valoarea reală, finanțare rapidă și păstrarea statutului de proprietar sau chiriaș.",
-      "realityCheck": "Art. 18 propus instituie despăgubiri raportate la piață, acordate în maximum 90 de zile de la eveniment, precum și reconstrucția imobilului într-un an, racordarea la utilități și suportarea cazării temporare. Textul nu stabilește dacă despăgubirea și reconstrucția sunt alternative și nici cum se coordonează cu asigurările, creând un risc de compensare repetată pentru aceeași pagubă. Obligațiile privesc și conflictele armate ori pagubele produse prin intervenția serviciilor de urgență, fără să introducă taxe, monopoluri sau sancțiuni noi.",
+      "plainTitle": "Despăgubiri la prețul pieței și reconstrucție în 1 an după dezastre, scrise fără finanțare și cu vicii juridice grave",
+      "verdictShort": "Deși pornește de la un obiectiv legitim de protecție a victimelor dezastrelor, proiectul adoptat tacit de Senat este redactat populist și juridic inaplicabil: creează risc de dublă despăgubire, impune termene imposibile, încalcă prezumția de nevinovăție la recuperarea banilor și nu indică o sursă reală de finanțare.",
+      "initiatorClaim": "Invocând explozia din octombrie 2025 din cartierul Rahova și cutremurul din Gorj/Aninoasa, inițiatorii (63 de parlamentari) vor să garanteze despăgubiri la valoarea reală de piață, reconstrucția locuințelor cu păstrarea dreptului de proprietate (nu transformarea în chiriași la stat), racordarea la utilități și plata rapidă din fondul de urgență al Guvernului.",
+      "realityCheck": "Legea în vigoare prevede deja dreptul la ajutoare și despăgubiri prin primar și consiliu local; proiectul adaugă însă obligații cumulative și necorelate: plata valorii de piață în 90 de zile de la incident (alin. 1-2) PLUS obligația «Primăriei» de a reconstrui imobilul în maxim un an și de a plăti cazarea (alin. 3), inclusiv pentru conflicte armate și fără a distinge imobilele neasigurate sau ilegale. Fără metodologie de evaluare, fără fișă financiară și cu recuperarea sumelor de la vinovați doar «în urma anchetei autorităților» (fără instanță), legea riscă neconstituționalitatea și blocarea în practică.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile",
-        "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 18 alin. (1): dreptul la ajutoare și despăgubiri există deja; noutatea este obligația de acoperire a valorii reale de piață și eliminarea expresiei «după caz». Legea actuală nu impune aici evaluarea contabilă sau funciară criticată în expunerea de motive. [Legea nr. 481/2004, art. 18](https://legislatie.just.ro/Public/DetaliiDocument/265539?isFormaDeBaza=True).",
-        "Art. 18 alin. (1): «valoarea reală, la zi» nu precizează data evaluării, evaluatorul sau metoda de calcul. Valoarea de piață și costul reconstrucției nu sunt obligatoriu identice, iar textul normativ nu formulează alternativa descrisă în expunerea de motive.",
-        "Art. 18 alin. (2): cele 90 de zile curg de la eveniment, deși plata presupune cerere, constatare și hotărâre a consiliului local. Nu sunt reglementate cererile depuse ulterior acestui interval sau consecințele întârzierii; lipsa acestor precizări nu înseamnă că dreptul se stinge automat.",
-        "Art. 18 alin. (3): reconstrucția se adaugă textual despăgubirii, fără alegere sau compensare între prestații. Păstrarea statutului de proprietar ori chiriaș este o protecție utilă, dar lipsesc regulile pentru terenuri devenite neconstruibile, drepturile asupra noii construcții și raporturile locative.",
-        "Art. 18 alin. (3): termenul de un an nu are un moment inițial explicit, iar obligația de a suporta toate cheltuielile de cazare în condiții cel puțin similare nu are criterii verificabile. Sunt necesare evaluări și operațiuni administrative suplimentare, dar cererea scrisă și hotărârea consiliului local sunt cerințe preexistente.",
-        "Art. 18 alin. (4): «fondul de urgență» nu este identificat juridic. Art. 30 din Legea nr. 500/2002 reglementează Fondul de rezervă bugetară și Fondul de intervenție; acesta din urmă are o destinație legată de calamități naturale, mai restrânsă decât toate evenimentele acoperite de proiect. [Legea nr. 500/2002](https://legislatie.just.ro/Public/DetaliiDocument/262780).",
-        "Art. 18 alin. (4): recuperarea banilor de la persoane sau companii este prevăzută generic, prin raportare la ancheta autorităților. Nu se precizează titularul creanței, procedura și întinderea recuperării; ancheta nu este, prin ea însăși, un titlu executoriu împotriva unei firme.",
-        "Textul nu conține o dispoziție tranzitorie pentru victimele exploziei din Rahova. Expunerea de motive nu poate crea singură drepturi pentru evenimente anterioare intrării în vigoare."
+        "Dublă compensare și hazard moral (Art. 18 alin. 1-3): textul obligă atât la despăgubirea la «prețul pieții» în 90 de zile, cât și la reconstrucția gratuită a imobilului cu păstrarea proprietății, fără a le face alternative și fără corelare cu asigurarea obligatorie PAD (Legea 260/2008), descurajând asigurarea locuințelor.",
+        "Termene și obligații imposibile în practică (Art. 18 alin. 2-3): cele 90 de zile curg de la «producerea incidentului» (nu de la cerere/evaluare), iar termenul de «maxim un an» pentru ca «Primăria» să demoleze, liciteze, autorizeze, reconstruiască un bloc și să îl racordeze la utilități este nerealist și acoperă inclusiv pagubele din «conflict armat».",
+        "Recuperarea banilor fără hotărâre judecătorească (Art. 18 alin. 4): Guvernul ar urma să recupereze sumele de la persoanele/companiile care «în urma anchetei autorităților, se dovedesc vinovate», ocolind instanțele de judecată și încălcând prezumția de nevinovăție.",
+        "Fără sursă reală de finanțare și erori juridice de bază (Art. 18 alin. 3-4): impune cheltuieli bugetare nelimitate fără fișă financiară, trimite la un «fond de urgență» inexistent sub această denumire în Legea 500/2002 (există Fondul de intervenție/rezervă) și atribuie obligații «Primăriei», care nu are personalitate juridică (ci UAT-ul)."
       ],
-      "blindSpotsCaught": "Adoptarea tacită de către Senat nu certifică viabilitatea mecanismului. De asemenea, indicativul PL-x 482/2025 din cererea de coinițiere nu dovedește confundarea proiectelor: fișa Senatului consemnează transmiterea inițiativei sub acest număr, urmată de înregistrarea PLX310/2026. Senatul consemnează și aprobarea urgenței în propria etapă, distinctă de informația furnizată despre Camera Deputaților. [Fișa L117/2026](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L117).",
-      "constitutionalityNote": "Există vulnerabilități de claritate și previzibilitate prin raportare la art. 1 alin. (5): evaluarea pagubei, cumulul prestațiilor, autoritatea obligată și mecanismul finanțării sunt insuficient determinate. Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident, deoarece proiectul nu instituie pedepse. Pentru art. 138 alin. (5), trebuie verificată identificarea juridică și operabilitatea sursei de finanțare; pentru art. 111 alin. (1), trebuie verificată solicitarea informării Guvernului, obligatorie când inițiativa modifică prevederile bugetului de stat. Extrasele nu permit constatarea unei încălcări procedurale certe. Protecția proprietății, prevăzută de art. 44, susține scopul social, fără a impune automat statului compensarea integrală a oricărui dezastru. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. [Directiva, art. 1–2](https://eur-lex.europa.eu/eli/dir/2018/958/oj?locale=ro). Nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535: textul nu introduce reglementări tehnice pentru produse sau norme privind serviciile societății informaționale și nu reglementează IT ori AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=celex%3A32015L1535). Nu sunt create exclusivități comerciale; reconstrucția finanțată public trebuie organizată cu respectarea regulilor de achiziții aplicabile. Despăgubirea persoanelor pentru locuințe private nu reprezintă automat ajutor de stat; analiza devine necesară dacă finanțarea avantajează activități economice.",
+      "blindSpotsCaught": "Proiectul a trecut tacit de Senat (Art. 75 alin. 2 teza III) fără dezbatere, lăsând intactă o capcană majoră: nu exclude construcțiile fără autorizație și nu se corelează cu art. 22 din Legea nr. 260/2008 (care restricționează ajutoarele de la buget pentru proprietarii fără asigurare obligatorie PAD). În plus, obligația de reconstrucție vizează «imobilul» la modul general, fără a clarifica temeiul legal prin care o autoritate publică intervine pe o proprietate privată aflată în condominiu.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate pe patru paliere: (1) Art. 138 alin. (5) – aprobarea unor cheltuieli bugetare masive și nelimitate fără stabilirea sursei reale de finanțare și fără fișa financiară; (2) Art. 1 alin. (5) – lipsă gravă de claritate și previzibilitate (nu există criterii pentru «prețul pieții», «în cel mai scurt timp posibil», «condiții cel puțin similare», erori de tehnică legislativă și desemnarea «Primăriei» fără personalitate juridică); (3) Art. 23 alin. (11) și Art. 126 – stabilirea vinovăției pentru recuperarea prejudiciului «în urma anchetei autorităților», nu prin hotărâre judecătorească definitivă; (4) Art. 44 și 120 – regim neclar al reconstrucției pe proprietate privată și sarcini nefinanțate impuse autonomiei locale.",
+      "euLawNote": "Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt aplicabile. Totuși, din perspectiva dreptului UE există trei fricțiuni: (1) Art. 107 TFUE (ajutor de stat) – dacă «imobilul» afectat include spații utilizate economic și nu este exclusă supracompensarea (bani + reconstrucție) sau intervenția în accidente non-naturale, măsura poate contraveni regulilor UE; (2) Directiva 2014/24/UE privind achizițiile publice – termenul rigid de 1 an pentru reconstrucție se ciocnește cu procedurile obligatorii de licitație; (3) disciplina fiscală UE (Procedura de Deficit Excesiv) – angajamente bugetare necuantificate și nefinanțate.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 18 alin. (3¹), nou",
-        "proposalContent": "(3¹) Despăgubirea bănească și reconstrucția finanțată public se acordă alternativ pentru aceeași pagubă, la alegerea persoanei prejudiciate. Din despăgubire se deduc numai sumele încasate pentru aceeași pagubă din asigurări sau de la persoana răspunzătoare. Cazarea temporară rămâne datorată potrivit alin. (3).",
-        "argumentation": "Alin. (1)-(3) permit interpretarea că aceeași pierdere este acoperită atât prin bani, cât și prin reconstrucție. Amendamentul păstrează protecția victimei și alegerea formei de reparare, evită dubla compensare și coordonează plata publică cu asigurările și răspunderea civilă.",
-        "otherComments": "Sunt necesare amendamente distincte pentru metoda și data evaluării, identificarea sursei bugetare, termenul transferurilor guvernamentale și procedura recuperării sumelor. Termenele trebuie corelate cu depunerea cererii și cu autorizarea lucrărilor, iar obligațiile atribuite precis autorităților competente."
-      }
+        "articleRef": "Art. 18 alin. (1)-(4) din Legea nr. 481/2004",
+        "proposalContent": "Reformularea art. 18: despăgubiri stabilite prin evaluator ANEVAR, alternativ (nu cumulativ) cu reconstrucția, corelat cu asigurarea PAD; înlocuirea «Primăriei» cu UAT și termene realiste de la constatare; finanțare din Fondul de intervenție cu fișă financiară; regres față de vinovați doar în baza unei hotărâri judecătorești definitive.",
+        "argumentation": "Forma adoptată tacit de Senat riscă neconstituționalitatea (art. 1(5), 23(11), 138(5)): lipsește sursa reală de finanțare, nu exclude dubla compensare (bani + reconstrucție), impune termene nerealiste (90 zile / 1 an) și permite regresul doar «în urma anchetei», fără hotărâre judecătorească. Fără rescriere, legea va genera blocaje pentru victime.",
+        "otherComments": "Este necesară fișa financiară a Guvernului (Legea 500/2002), corelarea cu asigurarea obligatorie PAD (Legea 260/2008) și excluderea construcțiilor fără autorizație. Trebuie corectate și erorile de tehnică legislativă: în lege există «Fondul de intervenție», nu «fondul de urgență», iar «Primăria» nu are personalitate juridică."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 57812,
+      "sourceEndMarker": "SF-4C3E5D37",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Despăgubiri la preț de piață și reconstrucție pe banii primăriei pentru victimele dezastrelor",
+      "verdictShort": "Scopul e legitim și favorabil victimelor, dar textul e prost construit. Pune pe primării obligații nelimitate și cumulate: plată la valoarea de piață, plus reconstrucție în cel mult un an, plus cazare. Nu are sursă de finanțare, nu ține cont de asigurări și trimite la un „fond de urgență” care nu există ca atare în legislația bugetară.",
+      "initiatorClaim": "Inițiatorii pornesc de la explozia din Rahova (octombrie 2025) și de la cutremurul din 2023. Vor ca victimele dezastrelor să fie despăgubite la valoarea reală de piață, rapid, din fondul de urgență al Guvernului, inclusiv pentru reracordarea la utilități.",
+      "realityCheck": "Art. 18 alin. (1) spune azi doar „ajutoare de urgență și despăgubiri, după caz”. Proiectul îl rescrie: despăgubirea trebuie să acopere „valoarea reală, la zi, conform prețului pieții” și se plătește în maximum 90 de zile de la incident (alin. 2). Separat, primăria trebuie să reconstruiască imobilul în cel mult un an, inclusiv racordarea la utilități, și să plătească cazarea până atunci (alin. 3). Dacă primăria nu are bani, Guvernul este „obligat” să-i dea din fondul de urgență (alin. 4). Textul nu spune dacă plata în bani și reconstrucția sunt alternative sau se cumulează, nu scade indemnizațiile de asigurare (PAD, polițe facultative) și acoperă orice pagubă, inclusiv din conflict armat. De aici riscul de dublă despăgubire și un cost bugetar imposibil de estimat.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 18 alin. (1) și (3): primăria datorează atât despăgubirea la valoarea de piață, cât și reconstrucția imobilului la starea inițială în cel mult un an, plus cazarea. Textul nu spune că ar fi variante alternative, deci păgubitul poate cere ambele.",
+        "Art. 18 alin. (2): termenul de 90 de zile curge de la data incidentului, nu de la depunerea cererii. Procedura cere însă cererea scrisă, actul de constatare și hotărârea consiliului local, deci termenul poate expira înainte ca dosarul să fie complet.",
+        "Textul nu scade indemnizațiile de asigurare (Legea 260/2008 privind asigurarea obligatorie a locuințelor sau polițele facultative), așa că păgubitul asigurat poate fi despăgubit de două ori din bani publici și privați.",
+        "Art. 18 alin. (4): „fondul de urgență” nu este o noțiune definită în Legea 500/2002. Aceasta prevede Fondul de rezervă bugetară și Fondul de intervenție la dispoziția Guvernului. Formula „în cel mai scurt timp posibil” nu se poate aplica concret.",
+        "Art. 18 alin. (4): sumele se recuperează de la cei care „în urma anchetei autorităților” se dovedesc vinovați. Răspunderea este legată de o anchetă, nu de o hotărâre judecătorească definitivă.",
+        "Domeniul de aplicare este foarte larg: orice pagubă din orice dezastru, din conflict armat sau din intervenția serviciilor de urgență. Nu există plafon, criterii de evaluare sau norme de aplicare.",
+        "„Primăria” nu are personalitate juridică. Obligațiile ar trebui puse în sarcina unității administrativ-teritoriale."
+      ],
+      "blindSpotsCaught": "Formula introductivă spune că legea „se completează”, dar articolul este înlocuit integral, ceea ce contrazice titlul („completarea și modificarea”). Proiectul a fost adoptat tacit de Senat (art. 75 alin. 2 teza a III-a din Constituție), deci fără dezbatere de fond. Scrisoarea de co-inițiere menționează PL-x 482/2025, nu 310/2026. Fișa Camerei vorbește de „costul de reconstrucție echivalent”, formulă care nu apare în text. Alin. (3) obligă primăria să intervină pe proprietăți private, inclusiv în condominii, fără să reglementeze acordul proprietarilor. Nu e clar nici statutul chiriașilor unor proprietari privați, care „își păstrează statutul”.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate extrinsecă și intrinsecă. (1) Art. 138 alin. (5): nicio cheltuială bugetară nu se aprobă fără sursă de finanțare, iar proiectul nu are fișă financiară. (2) Art. 111 alin. (1): pentru inițiativele cu impact bugetar, Curtea Constituțională cere informarea Guvernului. Lipsa ei a dus în mod repetat la declararea unor legi ca neconstituționale. (3) Art. 1 alin. (5): textul nu este clar și previzibil, din cauza noțiunilor „valoarea reală, la zi”, „fondul de urgență”, „primăria” și „în cel mai scurt timp”, precum și a raportului neclar dintre despăgubire și reconstrucție. (4) Art. 120–121 și principiul autonomiei locale: autorităților locale li se impun obligații fără resurse corespunzătoare (art. 138 alin. 5 coroborat cu Legea 273/2006). (5) Recuperarea pe baza unei „anchete” poate încălca accesul la justiție (art. 21) și prezumția de nevinovăție (art. 23 alin. 11). Intenția de a proteja proprietatea și locuința (art. 44, art. 47) este, în schimb, conformă Constituției.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu sunt vizate servicii digitale sau reglementări tehnice. Pe ajutor de stat: despăgubirile acordate persoanelor fizice care nu desfășoară activitate economică nu constituie ajutor de stat. Dacă ar fi plătite și unor întreprinderi, compensarea pagubelor din calamități naturale este compatibilă potrivit art. 107 alin. (2) lit. b) TFUE, cu condiția să nu existe supracompensare. Cumulul cu asigurările ar putea ridica tocmai această problemă. Nu există impact asupra pieței unice.",
+      "senatForm": {
+        "articleRef": "Art. unic, art. 18 alin. (2)-(4) Legea 481/2004",
+        "proposalContent": "(2) Despăgubirea se plătește în max. 90 de zile de la cererea completă, scăzându-se indemnizația de asigurare încasată. (3) Cu acordul păgubitului, UAT poate reconstrui imobilul în locul plății, în max. 1 an, suportând cazarea temporară. (4) Lipsa fondurilor se acoperă din Fondul de rezervă bugetară; sumele se recuperează de la cei găsiți vinovați prin hotărâre definitivă.",
+        "argumentation": "Forma actuală obligă primăria și să plătească valoarea de piață, și să reconstruiască, fără a deduce asigurarea: risc de dublă despăgubire. Termenul de 90 de zile de la incident e nerealist când constatarea durează. «Fondul de urgență» nu există în Legea 500/2002, iar răspunderea trebuie stabilită de instanță, nu de o anchetă (art. 21 și 23 Constituție).",
+        "otherComments": "Lipsesc fișa financiară și sursa de finanțare (art. 138 alin. 5 Constituție, art. 15 Legea 500/2002). «Primăria» nu are personalitate juridică; corect e UAT. Textul acoperă și conflictul armat, cu cost imprevizibil. Formula introductivă spune «se completează», deși articolul se înlocuiește integral."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 82047,
+      "sourceEndMarker": "SF-4C3E5D37",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Despăgubiri și reconstrucție după dezastre, cu finanțare neclară",
+      "verdictShort": "Proiectul întărește protecția persoanelor afectate, dar promite simultan despăgubiri integrale, reconstrucție și cazare fără să coordoneze aceste drepturi și finanțarea lor. Riscul principal este aplicarea inegală sau blocarea unor obligații publice foarte costisitoare.",
+      "initiatorClaim": "Inițiatorii urmăresc despăgubirea la valoarea reală a bunurilor pierdute, plata rapidă și păstrarea proprietății după reconstruirea locuințelor. Expunerea de motive invocă explozia din Rahova și dificultățile persoanelor afectate de cutremure.",
+      "realityCheck": "Dreptul la ajutoare și despăgubiri, cererea adresată primarului și aprobarea consiliului local există deja; proiectul adaugă acoperirea valorii reale, termenul de 90 de zile, reconstrucția, cazarea și finanțarea obligatorie de către Guvern când fondurile locale lipsesc. Despăgubirea bănească și reconstrucția sunt formulate cumulativ, fără reguli explicite împotriva dublei acoperiri a aceleiași pagube. Textul normativ nu precizează data evaluării, deși expunerea de motive vorbește despre valoarea de la producerea evenimentului, și nu instituie o schemă specială pentru explozia din 2025.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 18 alin. (1): dreptul la despăgubiri există deja. Noutatea este acoperirea valorii reale, la zi, conform pieței, și eliminarea expresiei «după caz», ceea ce întărește formularea dreptului. Lipsesc însă data de referință, metoda evaluării și delimitarea prejudiciilor acoperite.",
+        "Art. 18 alin. (2): termenul nou de maximum 90 de zile curge de la incident, deși plata presupune cerere, constatare și hotărâre a consiliului local. Pentru cererile sau constatările ulterioare, termenul poate fi deja expirat; textul nu stabilește expres pierderea dreptului dacă solicitarea este depusă după acest interval.",
+        "Art. 18 alin. (3): reconstrucția, racordarea la utilități și suportarea tuturor cheltuielilor de cazare în condiții cel puțin similare sunt obligații noi. Nu este precizat momentul de la care curge anul pentru reconstrucție, iar cazarea poate continua dacă lucrările depășesc termenul.",
+        "Art. 18 alin. (1)-(3): nu se precizează dacă proprietarul alege între bani și reconstrucție și cum se regularizează despăgubirile din asigurări sau de la persoana răspunzătoare. Această necorelare poate produce litigii și cereri de dublă compensare; regulile generale aplicabile nu sunt însă abrogate.",
+        "Art. 18 alin. (4): Guvernul trebuie să acopere toate sumele necesare când fondurile locale sunt insuficiente. «Fondul de urgență» nu este identificat precis, iar «în cel mai scurt timp posibil» nu stabilește un termen verificabil și nu se corelează cu plata în 90 de zile.",
+        "Art. 18 alin. (3)-(4): obligațiile sunt atribuite «primăriei», fără delimitarea atribuțiilor autorităților locale și a obligațiilor unității administrativ-teritoriale. Păstrarea statutului de proprietar sau chiriaș este utilă, dar nu rezolvă singură consimțământul proprietarilor, situația terenului ori derularea contractelor de închiriere.",
+        "Proiectul nu introduce taxe, sancțiuni sau monopoluri. Produce însă cheltuieli publice potențial mari și sarcini administrative pentru evaluare, cazare, reconstrucție și recuperarea sumelor; cererea scrisă și hotărârea consiliului local sunt cerințe deja existente."
+      ],
+      "blindSpotsCaught": "Expunerea de motive menționează costul de reconstrucție echivalent și evaluarea la momentul evenimentului, dar articolul propus nu stabilește aceste reguli de calcul. Nu există dispoziții tranzitorii care să acorde expres noile drepturi pentru incidente anterioare intrării în vigoare, deci aplicarea lor la cazul Rahova nu poate fi presupusă. Recuperarea banilor după «ancheta autorităților» nu creează, prin ea însăși, un titlu executoriu și nu înlătură dreptul la apărare sau controlul instanței.",
+      "constitutionalityNote": "Scopul este compatibil cu protecția proprietății și protecția socială, dar art. 44 nu impune automat statului repararea integrală a oricărei pierderi private. Problemele principale țin de art. 1 alin. (5): evaluarea, cumulul prestațiilor, competențele și termenele sunt insuficient corelate. Pentru art. 138 alin. (5), textul indică surse generale, însă trebuie verificată identificarea concretă a finanțării; simpla amploare sau insuficiență a fondurilor nu dovedește singură neconstituționalitatea. Trebuie verificată și respectarea art. 111 alin. (1) privind solicitarea informării Guvernului pentru modificări cu impact bugetar, fără a presupune că solicitarea lipsește. Obligațiile locale reclamă corelare cu autonomia locală, iar aplicarea temporală trebuie să respecte art. 15 alin. (2). Art. 23 alin. (12) nu este incident: proiectul nu instituie pedepse. Verificarea online independentă nu a fost disponibilă; evaluarea se bazează pe documentele furnizate.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor care restrâng accesul la profesii reglementate sau exercitarea lor; proiectul nu introduce asemenea restricții. Nu reglementează servicii digitale, AI ori cerințe tehnice care să indice obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Despăgubirea persoanelor pentru locuințe private nu constituie automat ajutor de stat; dacă aplicarea ar avantaja selectiv întreprinderi, inclusiv pentru bunuri folosite economic, trebuie verificat art. 107 TFUE. Reconstrucția realizată prin contracte publice rămâne supusă regulilor de achiziții aplicabile, neexistând o derogare expresă.",
+      "senatForm": {
+        "articleRef": "Articol unic – art. 18, alineat nou (5)",
+        "proposalContent": "(5) Pentru aceeași pagubă, despăgubirea și reconstrucția nu se cumulează peste valoarea prejudiciului. Sumele deja încasate din asigurări sau de la persoana răspunzătoare se deduc numai pentru prejudiciul astfel acoperit. Cheltuielile de cazare temporară și de racordare la utilități se compensează distinct, fără dublă decontare.",
+        "argumentation": "Alin. (1)-(3) prevăd despăgubirea integrală și reconstrucția fără să coordoneze prestațiile. Amendamentul previne dubla compensare a aceleiași pagube, păstrând acoperirea cheltuielilor distincte și protecția persoanelor afectate.",
+        "otherComments": "Sunt necesare și precizarea datei evaluării, corelarea termenului de plată cu depunerea cererii, identificarea fondului bugetar și delimitarea competențelor locale. Propunerea poate fi transmisă comisiilor Camerei Deputaților pentru a fi preluată de un deputat; termenul indicat, 23.04.2026, este depășit."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T03:08:45.631Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:07:14.405Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

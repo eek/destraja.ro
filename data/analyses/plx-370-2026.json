@@ -2,115 +2,171 @@
   "billId": "PL-x 370/2026",
   "slug": "plx-370-2026",
   "version": "senat",
-  "updatedAt": "2026-11-10T14:03:32.001Z",
+  "updatedAt": "2026-11-24T15:12:05.966Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1615,
+    "ordinanceChars": 0,
+    "memoChars": 5703,
+    "memoSupplied": 5703,
+    "marker": "SF-503B03F4"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-370-2026.json",
+    "form": "senat",
+    "textHash": "503b03f427f5d123",
+    "fetchedAt": "2026-11-19T10:20:22.361Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 1.7,
     "riskLevel": "green",
-    "plainTitle": "2027 devine oficial „Anul Independenței României” (150 de ani de la 1877)",
-    "summaryTlDr": "Lege simbolică și benignă, fără taxe, sancțiuni, monopoluri sau obligații pentru cetățeni ori firme. Singurele slăbiciuni sunt tehnice: conținut normativ în mare parte facultativ și un termen de 60 de zile care poate expira după începutul anului aniversar.",
-    "initiatorClaim": "Inițiatorii vor un cadru național unitar pentru marcarea a 150 de ani de la proclamarea Independenței (9 mai 1877), cu accent pe educație civică, memorie istorică și coordonarea manifestărilor centrale și locale, fără costuri bugetare noi.",
-    "realityCheck": "Legea declară 2027 an aniversar (Art. 1) și permite, fără să oblige, autorităților publice să organizeze sau să finanțeze evenimente din bugetele existente (Art. 2 alin. 1-2). Singura obligație concretă îi revine Ministerului Culturii: un calendar orientativ și o identitate vizuală publicate online în 60 de zile (Art. 2 alin. 3). Legea nu introduce zile libere, taxe, sancțiuni sau sarcini pentru mediul privat. Efectul juridic real este în principal declarativ, deoarece autoritățile pot organiza deja asemenea manifestări în temeiul competențelor lor.",
+    "plainTitle": "2027 devine Anul Independenței: 150 de ani de la 1877, fără zile libere în plus și fără taxe noi",
+    "summaryTlDr": "Lege simbolică și benignă. Permite instituțiilor să organizeze evenimente din bugetele existente, iar singura obligație concretă îi revine Ministerului Culturii: să publice un calendar și o identitate vizuală. Riscul real e de calendar: termenul de 60 de zile ar putea curge deja în 2027.",
+    "initiatorClaim": "Inițiatorii vor un cadru național unitar pentru marcarea a 150 de ani de la proclamarea Independenței de stat (1877). Scopul declarat este educația civică și memoria istorică, prin manifestări culturale, educaționale și comemorative coordonate informativ de Ministerul Culturii.",
+    "realityCheck": "Art. 1 instituie anul simbolic, iar Art. 2 alin. (1)-(2) doar permite autorităților să organizeze sau să sprijine manifestări din fondurile aprobate, din sponsorizări și din donații. Aceste posibilități existau oricum, deci nu se creează un buget dedicat. Singura obligație efectivă este cea din alin. (3): Ministerul Culturii publică online un calendar orientativ și o identitate vizuală în 60 de zile. Legea nu prevede sancțiuni, raportare sau transparență asupra sumelor cheltuite și nu stabilește un regim de utilizare a identității vizuale de către terți.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art. 2 alin. (3)",
-      "proposalContent": "(3) Ministerul Culturii asigură, prin structurile existente, informarea publică privind Anul Independenței României, prin publicarea pe pagina proprie, în termen de 30 de zile de la intrarea în vigoare a prezentei legi, a unui calendar al manifestărilor, actualizat lunar, în format deschis, și a unei identități vizuale utilizabile gratuit de autorități și ONG-uri.",
-      "argumentation": "Termenul de 60 de zile poate expira după începutul lui 2027 dacă legea intră târziu în vigoare, iar calendarul și-ar pierde utilitatea. Actualizarea lunară și formatul deschis permit autorităților locale, școlilor și ONG-urilor să coreleze evenimentele, fără costuri noi. Identitatea vizuală gratuită evită achiziții separate de logo-uri.",
-      "otherComments": "Termenul oficial de amendamente (14.05.2026) a expirat, deci propunerea poate fi preluată doar dacă un deputat o susține în comisie. Opțional: mențiune explicită a Ministerului Educației și a MAE, acum acoperite doar generic la alin. (1). Legea este benignă și nu creează obligații pentru cetățeni sau firme."
+      "proposalContent": "(3) Ministerul Culturii asigură coordonarea informării publice privind Anul Independenței României, prin publicarea pe pagina proprie de internet a unui calendar al manifestărilor, actualizat lunar, a identității vizuale, care poate fi folosită gratuit de orice organizator, și, până la 31 martie 2028, a unui raport privind manifestările și sursele de finanțare.",
+      "argumentation": "Calendarul actualizat și raportul final aduc transparență asupra banilor publici cheltuiți în baza alin. (2), fără costuri noi. Folosirea gratuită a identității vizuale permite școlilor, ONG-urilor și primăriilor mici să participe unitar, fără licențe sau aprobări. Data-limită clarifică ce se întâmplă după încheierea anului.",
+      "otherComments": "Termenul de 60 de zile de la intrarea în vigoare poate depăși 1 ianuarie 2027 dacă legea e promulgată după noiembrie 2026. Ar fi util un termen fix, de exemplu 15 ianuarie 2027. Legea nu creează obligații pentru cetățeni sau firme și nu ridică probleme de drept UE."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 32658,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 42977,
+      "sourceEndMarker": "SF-503B03F4",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Declararea anului 2027 drept „Anul Independenței României” (150 de ani de la 1877), fără zile libere sau structuri noi",
-      "verdictShort": "O lege aniversară benignă și neobișnuit de disciplinată bugetar: marchează 150 de ani de la Independență fără să înființeze agenții noi, fără bugete paralele și fără zile libere suplimentare pe cheltuiala angajatorilor.",
-      "initiatorClaim": "Inițiatorii propun instituirea unui cadru național coordonat de Ministerul Culturii pentru marcarea a 150 de ani de la proclamarea Independenței de stat a României în 2027, prin evenimente culturale, educaționale și comemorative.",
-      "realityCheck": "Spre deosebire de alte legi festive, textul adoptat de Senat blochează expres crearea de posturi noi, impune încadrarea în bugetele deja aprobate și exclude instituirea de zile nelucrătoare. Singura vulnerabilitate practică rămâne posibilitatea autorităților locale și centrale de a deconta cheltuieli festive neesențiale sub umbrela anului tematic, în lipsa unui raport centralizat post-eveniment.",
+      "plainTitle": "Anul 2027 devine «Anul Independenței României» (150 de ani)",
+      "verdictShort": "Lege simbolică și benignă, fără taxe, obligații noi pentru cetățeni sau zile libere suplimentare. Singura atenție necesară privește transparența cheltuielilor și a sponsorizărilor atrase de instituțiile publice pentru evenimente.",
+      "initiatorClaim": "Inițiatorii vor să marcheze 150 de ani de la proclamarea Independenței de stat a României printr-un cadru național unitar pentru manifestări culturale, educaționale și comemorative în 2027, fără a crea structuri noi sau obligații bugetare suplimentare.",
+      "realityCheck": "Legea declară 2027 «Anul Independenței României» și permite — fără a obliga — autorităților centrale și locale să organizeze sau să sprijine evenimente în limita bugetelor deja aprobate, inclusiv prin sponsorizări și donații. Ministerul Culturii primește sarcina punctuală de a publica online, în 60 de zile, un calendar orientativ și o identitate vizuală, iar legea exclude explicit zilele nelucrătoare suplimentare.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 alin. (1) și (2) au caracter permisiv („pot organiza”, „pot aloca fonduri”), obligând instituțiile publice să se încadreze strict în limita alocărilor bugetare deja aprobate sau să atragă sponsorizări și fonduri nerambursabile.",
-        "Art. 2 alin. (3) plasează coordonarea informării publice, calendarul orientativ și identitatea vizuală în sarcina Ministerului Culturii exclusiv „prin structurile existente”, în termen de 60 de zile de la intrarea în vigoare, prevenind înființarea de comisii sau departamente speciale.",
-        "Art. 2 alin. (4) prevede expres că legea nu instituie zile nelucrătoare suplimentare, protejând mediul privat și economia de costurile unei noi sărbători legale."
+        "Caracter pur facultativ și fără costuri forțate (Art. 2 alin. 1-2): instituțiile publice «pot» organiza manifestări și aloca fonduri doar «în limita alocărilor bugetare aprobate», fără a impune cheltuieli obligatorii sau taxe noi.",
+        "Fără zile libere suplimentare și fără birocrație nouă (Art. 2 alin. 3-4): legea nu creează agenții sau posturi noi (coordonarea informativă revine Ministerului Culturii prin structurile existente) și protejează mediul economic precizând că nu adaugă zile nelucrătoare.",
+        "Mici lipsuri de transparență la cheltuieli și sponsorizări (Art. 2 alin. 1-2): textul nu include trimiterea «în condițiile legii» pentru sprijinul logistic și material și nu prevede publicarea sponsorizărilor sau donațiilor atrase de autorități."
       ],
-      "blindSpotsCaught": "Deși Art. 2 alin. (3) obligă Ministerul Culturii să publice o identitate vizuală de comunicare, textul nu specifică punerea acesteia la dispoziție gratuit, în format deschis (open-source), pentru toate primăriile și școlile, nici publicarea unui bilanț financiar la finalul anului 2027 privind sumele cheltuite.",
-      "constitutionalityNote": "Proiectul respectă exigențele de claritate și previzibilitate (Art. 1 alin. 5 din Constituție), precum și prevederile Art. 138 alin. (5) privind cheltuielile bugetare, întrucât nu instituie cheltuieli obligatorii noi și plafonează finanțarea la bugetele anuale aprobate.",
-      "euLawNote": "Nu are incidență asupra dreptului Uniunii Europene: nu restrânge accesul la profesii reglementate (Directiva 2018/958), nu impune bariere în piața unică și nu reglementează servicii ale societății informaționale (Directiva TRIS 2015/1535).",
+      "blindSpotsCaught": "Art. 2 alin. (1) permite autorităților să «sprijine logistic și material» manifestări fără a menționa explicit «în condițiile legii» (spre deosebire de alin. 2, care face această trimitere pentru finanțări și sponsorizări). În plus, Art. 2 alin. (3) cere Ministerului Culturii o «identitate vizuală de comunicare» în 60 de zile, dar nu stabilește explicit că aceasta poate fi utilizată gratuit și liber de școli, primării și ONG-uri.",
+      "constitutionalityNote": "Proiectul respectă în esență Constituția României: caracterul facultativ («pot») protejează autonomia locală (Art. 120), iar raportarea la «limita alocărilor bugetare aprobate» răspunde exigenței de indicare a sursei de finanțare (Art. 138 alin. 5), conform practicii constante pentru legi comemorative. Claritatea normei (Art. 1 alin. 5) ar fi ușor îmbunătățită prin precizarea expresă a regimului legal al sprijinului material de la Art. 2 alin. (1); Art. 23 alin. (12) nu este incident, neexistând sancțiuni.",
+      "euLawNote": "Nu ridică probleme de drept al Uniunii Europene: nu reglementează profesii (Directiva (UE) 2018/958 nu este aplicabilă) și nu impune reglementări tehnice sau servicii ale societății informaționale (Directiva (UE) 2015/1535 – TRIS nu se aplică). În implementare, eventualul «sprijin logistic și material» acordat de autorități unor entități private va trebui să respecte normele generale UE privind achizițiile publice și ajutorul de stat (Art. 107 TFUE).",
       "senatForm": {
-        "articleRef": "Art. 2 alin. (3)",
-        "proposalContent": "La art. 2, alin. (3) se completează în final cu teza: „Identitatea vizuală va fi pusă gratuit la dispoziția publicului în format deschis, iar până la 31 martie 2028 Ministerul Culturii va publica pe pagina proprie de internet un raport centralizat privind fondurile publice utilizate de instituții pentru manifestările dedicate Anului Independenței României.”",
-        "argumentation": "Deși legea prevede prudent încadrarea în bugetele aprobate și utilizarea structurilor existente, practica anilor tematici arată că cheltuielile cu festivități locale rămân netransparente. Publicarea kitului vizual în format deschis previne achiziții redundante de grafică în teritoriu, iar raportul final asigură transparența banilor publici cheltuiți.",
-        "otherComments": "Proiectul este redactat echilibrat, fără a institui zile libere suplimentare (evitând costuri pentru mediul privat) și fără a crea agenții sau posturi noi. Măsura de transparență propusă consolidează scopul civic al aniversării a 150 de ani de la Independență."
-      }
+        "articleRef": "Art. 2 alin. (1)-(3)",
+        "proposalContent": "La art. 2 alin. (1) se adaugă «în condițiile legii». La alin. (2) se completează: «Lista cheltuielilor, sponsorizărilor și donațiilor atrase se publică pe pagina de internet a instituției.» La alin. (3) se precizează că identitatea vizuală se pune gratuit la dispoziția publicului și a instituțiilor.",
+        "argumentation": "Sprijinul material și atragerea de sponsorizări de către autorități publice necesită transparență pentru a preveni cheltuieli discreționare sau conflicte de interese. Punerea gratuită la dispoziție a identității vizuale permite școlilor, primăriilor și ONG-urilor să o folosească unitar, fără blocaje de drepturi de autor.",
+        "otherComments": "Proiectul nu instituie zile libere suplimentare și nu creează structuri noi, ceea ce este pozitiv. Amendamentul propus nu blochează adoptarea legii, ci consolidează transparența fondurilor publice și eficiența coordonării la Ministerul Culturii, fără costuri bugetare adiționale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 49845,
+      "durationMs": 34107,
+      "sourceEndMarker": "SF-503B03F4",
       "riskScore": 1,
       "riskLevel": "green",
-      "plainTitle": "2027 devine oficial „Anul Independenței României” (150 de ani de la 1877)",
-      "verdictShort": "Lege simbolică și benignă, fără taxe, sancțiuni, monopoluri sau obligații pentru cetățeni ori firme. Singurele slăbiciuni sunt tehnice: conținut normativ în mare parte facultativ și un termen de 60 de zile care poate expira după începutul anului aniversar.",
-      "initiatorClaim": "Inițiatorii vor un cadru național unitar pentru marcarea a 150 de ani de la proclamarea Independenței (9 mai 1877), cu accent pe educație civică, memorie istorică și coordonarea manifestărilor centrale și locale, fără costuri bugetare noi.",
-      "realityCheck": "Legea declară 2027 an aniversar (Art. 1) și permite, fără să oblige, autorităților publice să organizeze sau să finanțeze evenimente din bugetele existente (Art. 2 alin. 1-2). Singura obligație concretă îi revine Ministerului Culturii: un calendar orientativ și o identitate vizuală publicate online în 60 de zile (Art. 2 alin. 3). Legea nu introduce zile libere, taxe, sancțiuni sau sarcini pentru mediul privat. Efectul juridic real este în principal declarativ, deoarece autoritățile pot organiza deja asemenea manifestări în temeiul competențelor lor.",
+      "plainTitle": "2027 devine Anul Independenței: 150 de ani de la 1877, fără zile libere în plus și fără taxe noi",
+      "verdictShort": "Lege simbolică și benignă. Permite instituțiilor să organizeze evenimente din bugetele existente, iar singura obligație concretă îi revine Ministerului Culturii: să publice un calendar și o identitate vizuală. Riscul real e de calendar: termenul de 60 de zile ar putea curge deja în 2027.",
+      "initiatorClaim": "Inițiatorii vor un cadru național unitar pentru marcarea a 150 de ani de la proclamarea Independenței de stat (1877). Scopul declarat este educația civică și memoria istorică, prin manifestări culturale, educaționale și comemorative coordonate informativ de Ministerul Culturii.",
+      "realityCheck": "Art. 1 instituie anul simbolic, iar Art. 2 alin. (1)-(2) doar permite autorităților să organizeze sau să sprijine manifestări din fondurile aprobate, din sponsorizări și din donații. Aceste posibilități existau oricum, deci nu se creează un buget dedicat. Singura obligație efectivă este cea din alin. (3): Ministerul Culturii publică online un calendar orientativ și o identitate vizuală în 60 de zile. Legea nu prevede sancțiuni, raportare sau transparență asupra sumelor cheltuite și nu stabilește un regim de utilizare a identității vizuale de către terți.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 alin. (1)-(2) folosesc exclusiv verbul „pot”. Nicio autoritate nu este obligată să organizeze sau să finanțeze ceva, iar fondurile se alocă doar „în limita alocărilor bugetare aprobate”, deci nu apar cheltuieli noi obligatorii.",
-        "Art. 2 alin. (3) este singura normă imperativă: Ministerul Culturii, prin structurile existente, publică un calendar orientativ și o identitate vizuală în 60 de zile de la intrarea în vigoare. Norma nu prevede actualizare, format deschis sau regim de utilizare a identității vizuale.",
-        "Art. 2 alin. (4) exclude expres zilele nelucrătoare suplimentare, deci angajatorii și economia nu suportă niciun cost.",
-        "Legea nu atinge piața, profesiile reglementate sau serviciile digitale, așa că nu ridică probleme de concurență ori de birocrație pentru IMM-uri. Sponsorizările și donațiile se fac „potrivit legii”, adică după regimul general (Legea 32/1994, Codul fiscal)."
+        "Art. 2 alin. (1)-(2) are caracter permisiv („pot organiza”, „pot aloca”). Nu creează obligații bugetare noi pentru autoritățile locale și nu le impune niciun cost cetățenilor sau firmelor.",
+        "Art. 2 alin. (3) conține singura obligație de rezultat: calendar orientativ și identitate vizuală, publicate de Ministerul Culturii în 60 de zile, prin structurile existente. Proiectul era încă la comisii pe 24.11.2026, deci acest termen va expira cel mai probabil după 1 ianuarie 2027, adică după ce anul aniversar a început.",
+        "Art. 2 alin. (4) exclude expres zilele nelucrătoare suplimentare, așa că angajatorii și economia nu suportă niciun impact.",
+        "Lipsește orice mecanism de transparență: alin. (2) permite cheltuieli și sponsorizări fără obligația de a raporta la final sumele și sursele de finanțare.",
+        "Textul nu precizează dacă identitatea vizuală poate fi folosită liber de școli, ONG-uri sau organizatori privați, ceea ce lasă loc unor bariere informale sau unor cereri de avizare."
       ],
-      "blindSpotsCaught": "Proiectul a fost adoptat de Senat la 29.04.2026, iar acum (noiembrie 2026) este încă la comisiile Camerei. Dacă legea intră în vigoare spre finalul lui 2026 sau în 2027, termenul de 60 de zile din Art. 2 alin. (3) poate expira după începerea anului aniversar, iar calendarul „orientativ” ar apărea cu întârziere. Textul nu menționează data de 9/10 mai ca reper și nici modul de utilizare a identității vizuale. Dacă aceasta ar fi realizată prin contract extern, s-ar aplica Legea 98/2016, chiar dacă formula „prin structurile existente” sugerează realizarea internă. Termenul pentru amendamente (14.05.2026) a expirat, deci orice propunere trebuie preluată de un deputat.",
-      "constitutionalityNote": "Nu am identificat probleme de constituționalitate. Textul este clar și previzibil (art. 1 alin. 5), nu restrânge drepturi și nu instituie sancțiuni, deci art. 23 alin. 12 nu este incident. Cerința art. 138 alin. (5) privind sursa de finanțare este respectată prin formula „în limita alocărilor bugetare aprobate”. Calificarea ca lege ordinară și adoptarea conform art. 76 alin. (2) sunt corecte. Singurul aspect de tehnică legislativă (Legea 24/2000) este caracterul declarativ și parțial redundant al alin. (1), fără efecte de neconstituționalitate.",
-      "euLawNote": "Nu există impact asupra dreptului UE. Legea nu reglementează accesul la profesii sau exercitarea lor, deci Directiva (UE) 2018/958 privind testul de proporționalitate nu se aplică. Nu conține reguli tehnice privind produse sau servicii ale societății informaționale, deci notificarea TRIS (Directiva 2015/1535) nu este necesară. Nu afectează libera circulație și nu creează ajutoare de stat: finanțările sunt evenimente culturale publice, compatibile în principiu și cu art. 107 alin. (3) lit. d) TFUE.",
+      "blindSpotsCaught": "Termenul din alin. (3) curge de la intrarea în vigoare, nu de la o dată fixă. Dacă legea e adoptată de Camera decizională și promulgată în decembrie 2026 sau mai târziu, calendarul „de coordonare” apare abia în 2027, ceea ce îi reduce utilitatea pentru planificare. Mai notăm că tabelul de susținători include semnături de senatori, deși fișa îi listează pe toți ca inițiatori. Acesta e un aspect formal, fără efect asupra fondului.",
+      "constitutionalityNote": "Nu am identificat probleme constituționale. Textul e clar și previzibil (art. 1 alin. 5), nu restrânge drepturi și nu instituie sarcini fiscale (art. 56, art. 139). Respectă autonomia locală (art. 120), pentru că autoritățile locale „pot”, nu „trebuie”, să participe. Cerința de fișă financiară (art. 111 alin. 1, art. 138 alin. 5) este atenuată de formularea „în limita alocărilor bugetare aprobate”. Adoptarea de către Senat ca primă cameră, conform art. 76 alin. (2), e consemnată corect.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă, pentru că legea nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice și nicio regulă pentru servicii ale societății informaționale. Legea nu afectează concurența și nici piața unică. Ajutoarele de stat ar putea deveni relevante doar teoretic, dacă se acordă finanțări selective unor operatori economici, însă activitățile culturale non-economice și sumele mici sunt în general exceptate.",
       "senatForm": {
         "articleRef": "Art. 2 alin. (3)",
-        "proposalContent": "(3) Ministerul Culturii asigură, prin structurile existente, informarea publică privind Anul Independenței României, prin publicarea pe pagina proprie, în termen de 30 de zile de la intrarea în vigoare a prezentei legi, a unui calendar al manifestărilor, actualizat lunar, în format deschis, și a unei identități vizuale utilizabile gratuit de autorități și ONG-uri.",
-        "argumentation": "Termenul de 60 de zile poate expira după începutul lui 2027 dacă legea intră târziu în vigoare, iar calendarul și-ar pierde utilitatea. Actualizarea lunară și formatul deschis permit autorităților locale, școlilor și ONG-urilor să coreleze evenimentele, fără costuri noi. Identitatea vizuală gratuită evită achiziții separate de logo-uri.",
-        "otherComments": "Termenul oficial de amendamente (14.05.2026) a expirat, deci propunerea poate fi preluată doar dacă un deputat o susține în comisie. Opțional: mențiune explicită a Ministerului Educației și a MAE, acum acoperite doar generic la alin. (1). Legea este benignă și nu creează obligații pentru cetățeni sau firme."
+        "proposalContent": "(3) Ministerul Culturii asigură coordonarea informării publice privind Anul Independenței României, prin publicarea pe pagina proprie de internet a unui calendar al manifestărilor, actualizat lunar, a identității vizuale, care poate fi folosită gratuit de orice organizator, și, până la 31 martie 2028, a unui raport privind manifestările și sursele de finanțare.",
+        "argumentation": "Calendarul actualizat și raportul final aduc transparență asupra banilor publici cheltuiți în baza alin. (2), fără costuri noi. Folosirea gratuită a identității vizuale permite școlilor, ONG-urilor și primăriilor mici să participe unitar, fără licențe sau aprobări. Data-limită clarifică ce se întâmplă după încheierea anului.",
+        "otherComments": "Termenul de 60 de zile de la intrarea în vigoare poate depăși 1 ianuarie 2027 dacă legea e promulgată după noiembrie 2026. Ar fi util un termen fix, de exemplu 15 ianuarie 2027. Legea nu creează obligații pentru cetățeni sau firme și nu ridică probleme de drept UE."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 75070,
+      "durationMs": 53652,
+      "sourceEndMarker": "SF-503B03F4",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "2027: un an dedicat celor 150 de ani de independență",
-      "verdictShort": "Proiect cu risc redus și utilitate culturală și educațională plauzibilă. Nu introduce taxe, sancțiuni sau obligații pentru cetățeni și firme, dar afirmația că nu generează obligații bugetare noi trebuie nuanțată.",
-      "initiatorClaim": "Inițiatorii urmăresc aniversarea independenței prin manifestări culturale, educaționale și comemorative, susținând educația civică și memoria istorică. Promit coordonarea informării printr-un calendar național și o identitate vizuală, folosind structurile și bugetele existente.",
-      "realityCheck": "Art. 1 instituie denumirea aniversară, iar art. 2 alin. (1)-(2) permite instituțiilor să organizeze ori să sprijine manifestări și să le finanțeze în limitele bugetelor aprobate. Art. 2 alin. (3) impune însă Ministerului Culturii o sarcină nouă de informare în 60 de zile, care presupune resurse administrative chiar dacă nu creează posturi sau finanțări suplimentare. Proiectul nu garantează realizarea programelor enumerate în expunerea de motive și nu acordă zile libere suplimentare.",
+      "plainTitle": "2027, an dedicat celor 150 de ani de independență",
+      "verdictShort": "Proiect benign, cu utilitate culturală și educațională: permite manifestări aniversare, fără taxe, sancțiuni sau zile libere suplimentare. Principala rezervă privește organizarea informării publice și transparența eventualelor cheltuieli.",
+      "initiatorClaim": "Inițiatorii urmăresc aniversarea independenței, promovarea memoriei istorice și educației civice. Susțin că manifestările pot fi coordonate prin structurile existente, fără posturi suplimentare sau obligații bugetare noi.",
+      "realityCheck": "Art. 1 instituie anul aniversar, iar art. 2 permite instituțiilor să organizeze și să sprijine manifestări folosind bugetele aprobate și finanțări atrase potrivit legii. Participarea instituțiilor este facultativă, dar publicarea calendarului și a identității vizuale de către Ministerul Culturii este obligatorie în 60 de zile. Această sarcină poate presupune costuri administrative, chiar dacă legea nu impune suplimentarea bugetelor.",
       "affectedGroups": [
-        "Toți cetățenii",
-        "Sănătate & Educație"
+        "Sănătate & Educație",
+        "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 2 alin. (1)-(2): organizarea manifestărilor și alocarea fondurilor sunt facultative; nu se stabilesc contribuții obligatorii, raportări sau autorizații noi pentru cetățeni și IMM-uri.",
-        "Art. 2 alin. (2): limita bugetelor aprobate restrânge cheltuielile, dar nu înseamnă cost zero; fondurile utilizate consumă resurse disponibile pentru alte activități. Textul nu permite cuantificarea impactului.",
-        "Art. 2 alin. (3): publicarea calendarului și a identității vizuale este obligatorie, prin structurile existente, în 60 de zile de la intrarea în vigoare, nu de la începutul anului 2027.",
-        "Art. 2 alin. (3) nu precizează mecanismul de colectare și actualizare a calendarului. Este o lacună practică minoră; ministerul coordonează informarea, fără a primi competența de a autoriza manifestările.",
-        "Art. 2 alin. (4) exclude expres zilele nelucrătoare suplimentare; angajatorilor nu li se impun zile libere sau costuri salariale speciale."
+        "Art. 2 alin. (1)-(2) folosește formularea «pot»: autoritățile nu sunt obligate să organizeze manifestări sau să aloce bani pentru acestea.",
+        "Art. 2 alin. (2) limitează finanțarea la alocările bugetare aprobate. Nu instituie taxe pentru cetățeni sau IMM-uri și nu derogă de la regulile obișnuite privind cheltuirea banilor publici.",
+        "Art. 2 alin. (3) introduce o obligație administrativă concretă pentru Ministerul Culturii, dar nu precizează mecanismul de colectare și actualizare a informațiilor pentru calendar.",
+        "Art. 2 alin. (4) exclude expres zilele nelucrătoare suplimentare; proiectul nu schimbă programul legal de muncă.",
+        "Textul furnizat se încheie după art. 2 și formula de adoptare: nu conține abrogări, modificări ale altor legi, derogări sau sancțiuni."
       ],
-      "blindSpotsCaught": "Distincția decisivă este între manifestările facultative și obligația efectivă a Ministerului Culturii: utilizarea structurilor existente nu elimină timpul de lucru și eventualele costuri de comunicare. Calendarul este orientativ, iar identitatea vizuală nu este însoțită de o obligație generală de utilizare sau de sancțiuni. Enumerarea proiectelor școlare, muzeale și diplomatice din motivare nu le transformă în programe obligatorii ori finanțate automat.",
-      "constitutionalityNote": "Pe textul analizat nu rezultă o încălcare evidentă a Constituției. Obiectul, destinatarii și termenul sunt suficient de clare pentru art. 1 alin. (5); actualizarea calendarului poate fi precizată pentru o aplicare mai previzibilă. Art. 23 alin. (12) privește legalitatea pedepselor și nu ridică o problemă aici, deoarece proiectul nu instituie pedepse. Scopul cultural este compatibil cu art. 33, iar participarea facultativă a autorităților locale respectă autonomia locală. Pentru componenta financiară trebuie verificate documentele procedurale prin raportare la art. 111 alin. (1), dacă sunt modificate prevederi bugetare, și la art. 138 alin. (5), privind sursa finanțării; simpla existență a sarcinii administrative nu dovedește neconstituționalitatea. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm).",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: potrivit art. 2, privește restricțiile privind accesul la profesii reglementate sau exercitarea lor, inexistente aici. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958). Nu identific o obligație de notificare TRIS: proiectul nu introduce reglementări tehnice pentru produse ori norme privind serviciile societății informaționale; publicarea unui calendar pe internet nu este suficientă pentru aplicarea directivei și nu reglementează AI. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535). Textul nu creează monopoluri, exclusivități sau bariere de acces pe piață. Achizițiile și eventualele finanțări acordate unor operatori economici trebuie să respecte regulile aplicabile; proiectul nu prevede derogări.",
+      "blindSpotsCaught": "Expunerea de motive afirmă că nu apar obligații bugetare noi, însă art. 2 alin. (3) creează o sarcină administrativă obligatorie, cu posibile costuri absorbite din resursele existente. Calendarul este orientativ, iar identitatea vizuală nu este declarată obligatorie pentru organizatori. Simpla publicare pe internet nu transformă proiectul într-o reglementare a serviciilor digitale supusă TRIS.",
+      "constitutionalityNote": "Nu rezultă o incompatibilitate constituțională evidentă. Din perspectiva art. 1 alin. (5), atribuția Ministerului Culturii și termenul sunt inteligibile, deși actualizarea calendarului ar putea fi precizată. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident, deoarece proiectul nu instituie pedepse. Finanțarea trebuie să respecte art. 138 alin. (5); utilizarea bugetelor aprobate nu înseamnă automat absența costurilor. Respectarea cerințelor procedurale bugetare, inclusiv ale art. 111 alin. (1), dacă sunt incidente, nu poate fi verificată numai din documentele furnizate. Caracterul facultativ al manifestărilor respectă autonomia decizională locală.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nu rezultă o obligație de notificare potrivit Directivei (UE) 2015/1535: nu sunt introduse reglementări tehnice pentru produse ori norme privind accesul la sau exercitarea serviciilor societății informaționale. Nu apar monopoluri, exclusivități sau bariere pentru IMM-uri. Eventualele achiziții și finanțări acordate operatorilor economici rămân supuse regulilor aplicabile privind achizițiile publice, concurența și, după caz, ajutoarele de stat.",
       "senatForm": {
         "articleRef": "Art. 2 alin. (3)",
-        "proposalContent": "Ministerul Culturii publică pe pagina proprie de internet, prin structurile existente, în termen de 60 de zile de la intrarea în vigoare a prezentei legi, calendarul orientativ al manifestărilor dedicate Anului Independenței României și identitatea vizuală de comunicare. Calendarul se actualizează pe baza informațiilor comunicate voluntar de organizatori.",
-        "argumentation": "Calendarul publicat o singură dată poate deveni incomplet înaintea sau în cursul anului 2027. Actualizarea pe baza comunicărilor voluntare menține utilitatea informării, fără raportări obligatorii pentru organizatori și fără subordonarea autorităților locale Ministerului Culturii.",
-        "otherComments": "Propunere pentru comisiile raportoare ale Camerei Deputaților, care poate fi preluată de un deputat. Termenul indicat pentru amendamente, 14 mai 2026, este expirat la data analizei; o petiție ulterioară nu redeschide automat termenul parlamentar."
-      }
+        "proposalContent": "Ministerul Culturii, prin structurile existente, publică în termen de 60 de zile de la intrarea în vigoare a prezentei legi, pe pagina proprie de internet, un calendar orientativ al manifestărilor și o identitate vizuală pentru Anul Independenței României. Calendarul se actualizează pe baza informațiilor transmise voluntar de organizatori.",
+        "argumentation": "Precizarea actualizării calendarului face informarea utilă pe parcursul anului aniversar. Transmiterea voluntară a informațiilor clarifică mecanismul de lucru fără a introduce obligații de raportare pentru autoritățile locale, școli sau organizatorii privați.",
+        "otherComments": "Analiza privește forma furnizată, fără confirmarea actualității fișei parlamentare. Termenul indicat pentru amendamente, 14 mai 2026, este depășit la data analizei; preluarea propunerii de un deputat depinde de stadiul efectiv și regulile procedurale aplicabile."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-10T14:03:32.001Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 1,
+        "codex": 2
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:12:05.966Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

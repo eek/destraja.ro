@@ -2,67 +2,66 @@
   "billId": "PL-x 368/2026",
   "slug": "plx-368-2026",
   "version": "senat",
-  "updatedAt": "2026-11-10T14:02:41.195Z",
+  "updatedAt": "2026-11-24T15:04:29.049Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 7015,
+    "ordinanceChars": 0,
+    "memoChars": 21513,
+    "memoSupplied": 21513,
+    "marker": "SF-5F15935A"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-368-2026.json",
+    "form": "senat",
+    "textHash": "5f15935a34a53471",
+    "fetchedAt": "2026-11-19T10:20:22.361Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
-    "riskScore": 3.3,
-    "riskLevel": "green",
-    "plainTitle": "Registru național pentru pacientele cu endometrioză, plus posibilitatea ca ministrul să creeze prin ordin registre pentru orice altă boală",
-    "summaryTlDr": "Scopul e legitim și util: statul nu are în prezent date despre o boală care afectează circa 10% dintre femeile de vârstă fertilă. Textul are însă trei probleme: Art. 2 dă ministrului un cec în alb pentru registre noi de date medicale, arhitectura de acces la date (Art. 8) e contradictorie, iar termenele și finanțarea sunt nerealiste.",
-    "initiatorClaim": "Inițiatorii vor să elimine vidul informațional despre endometrioză (incidență, prevalență, stadializare, recurență), pentru a fundamenta programe de sănătate și decontări pe date reale. Mai vor să scurteze diagnosticul întârziat cu 7-10 ani și să reducă costurile cu reintervenții și FIV.",
-    "realityCheck": "Legea obligă toți furnizorii medicali, publici și privați, să raporteze electronic, în 30 de zile, cazurile noi și existente într-o aplicație administrată de INSP. Datele sunt pseudonimizate, deci rămân date cu caracter personal în sensul GDPR, nu sunt anonime. Separat de endometrioză, Art. 2 permite ministrului sănătății să înființeze prin simplu ordin registre pentru orice afecțiune cu prevalență ridicată, inclusiv să stabilească setul de date și procedurile de raportare. Acesta este un mecanism de extindere a colectării de date medicale fără trecere prin Parlament.",
+    "riskScore": 4.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Registru național pentru pacientele cu endometrioză și, prin ordin de ministru, pentru orice altă boală",
+    "summaryTlDr": "Registrul de endometrioză e util și are garanții de protecție a datelor peste medie. Problema principală e Art. 2, care permite ministrului să înființeze prin simplu ordin registre de sănătate pentru oricâte alte boli, fără control parlamentar. La aceasta se adaugă contradicții tehnice între cine administrează datele și cine le poate vedea.",
+    "initiatorClaim": "Inițiatorii spun că România nu are nicio evidență a endometriozei, deși boala afectează circa 10% dintre femeile de vârstă fertilă, se diagnostichează după 7–10 ani și cauzează infertilitate. Registrul ar permite politici bazate pe date și ar reduce cheltuielile cu investigații repetate, concedii medicale și FIV.",
+    "realityCheck": "Legea obligă furnizorii medicali publici și privați să raporteze electronic, în 30 de zile, orice caz nou sau existent, într-un registru administrat de INSP, cu date pseudonimizate și fără CNP sau nume. Mecanismul are însă goluri. INSP este operator, dar are acces doar la date agregate (Art. 1 alin. 2 vs. Art. 8 alin. 2). Nu se spune cine generează identificatorul pseudonimizat și cine deține cheia de corelare. Art. 2 deschide calea unor registre nelimitate prin ordin. Economiile din expunerea de motive (concedii, FIV) sunt ipoteze nedemonstrate, iar finanțarea din PNRR e practic indisponibilă.",
     "affectedGroups": [
       "Sănătate & Educație",
-      "IT & AI",
       "Justiție & Drepturi Civile",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "IT & AI"
     ],
     "senatForm": {
-      "articleRef": "Art. 2 (registre noi prin ordin de ministru)",
-      "proposalContent": "Art. 2 se elimină. Alternativ: «(1) Registre naționale pentru alte afecțiuni se înființează prin lege. (2) INSP poate propune Ministerului Sănătății proiectul de act normativ, însoțit de evaluarea impactului asupra protecției datelor și de avizul ANSPDCP.»",
-      "argumentation": "Datele de sănătate sunt categorie specială (art. 9 GDPR). Restrângerea dreptului la viață intimă (art. 26) se poate face doar prin lege (art. 53 Constituție). Un ordin de ministru care creează registre noi și obligații de raportare pentru furnizori depășește rolul de executare a legii și încalcă cerința de previzibilitate (art. 1 alin. 5).",
-      "otherComments": "Art. 8: INSP, ca operator, prelucrează inevitabil date individuale. Cine deține cheia de pseudonimizare? Art. 16: precizați punctul de pornire, forma normelor (HG/ordin) și un termen realist. Art. 11: indicați limitele exacte față de art. 17 și 21 GDPR. Adăugați termen de stocare. Corectați: incidenței, agregate, teritoriale, ireversibil, elaborează."
+      "articleRef": "Art. 2 – registre noi prin ordin al ministrului",
+      "proposalContent": "Art. 2 se reformulează: „(1) Registre naționale pentru alte afecțiuni se înființează numai prin lege, la propunerea fundamentată a INSP. (2) Legea de înființare stabilește setul minim de date, operatorul, durata de stocare, categoriile de acces și garanțiile, cu avizul prealabil al ANSPDCP.”",
+      "argumentation": "Datele de sănătate sunt categorie specială (art. 9 GDPR), iar restrângerea vieții private (art. 26, 53 Constituție) se face doar prin lege. Art. 2 permite ministrului să creeze prin ordin registre nelimitate, cu raportare obligatorie, pe un criteriu vag („prevalență ridicată”). Jurisprudența CCR privind datele personale cere ca regulile esențiale să fie în lege.",
+      "otherComments": "Corelați art. 1 alin. (2) cu art. 8 alin. (2): INSP e operator, dar vede doar date agregate. Precizați cine generează identificatorul pseudonimizat și cine deține cheia. Art. 16: termen de 30 de zile nerealist, fără tip de act și moment de referință. Termenul PNRR a expirat (aug. 2026). Aliniați la Reg. (UE) 2025/327 (EHDS)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 53013,
-      "riskScore": 2,
-      "riskLevel": "green",
-      "plainTitle": "Înființarea Registrului Național de Endometrioză pentru monitorizarea anonimizată a cazurilor medicale",
-      "verdictShort": "O lege utilă și echilibrată de sănătate publică, care protejează confidențialitatea pacientelor și îi scutește pe medici de amenzi individuale, dar care conține mici desincronizări tehnice între intrarea în vigoare a obligației de raportare și lansarea aplicației IT.",
-      "initiatorClaim": "Inițiatorii urmăresc crearea primei evidențe epidemiologice naționale pentru endometrioză, astfel încât diagnosticarea să nu mai întârzie 7-10 ani, iar programele de sănătate și decontările CNAS să fie fundamentate pe date reale, cu protejarea datelor personale.",
-      "realityCheck": "Legea este redactată îngrijit: nu introduce taxe sau amenzi abuzive, plasează sarcina raportării pe clinică (exonerând explicit medicul ca persoană fizică de sancțiuni distincte la art. 5 alin. 3) și interzice colectarea CNP-ului sau a numelui în registru. Totuși, obligă clinicile să raporteze în 30 de zile (art. 6), deși platforma informatică are termen de 12 luni pentru a deveni funcțională (art. 13), și strecoară la art. 2 posibilitatea înființării prin simplu ordin de ministru a altor registre pentru orice alte boli.",
-      "affectedGroups": [
-        "Sănătate & Educație",
-        "IT & AI"
-      ],
-      "keyFindings": [
-        "Protecție proporțională pentru corpul medical (Art. 5 alin. 3): obligația administrativă revine furnizorilor de servicii medicale (spitale și clinici publice sau private), iar medicii nu dobândesc calitatea de subiect sancționabil distinct.",
-        "Desincronizare între obligația de raportare și existența softului (Art. 6 alin. 2 raportat la Art. 13 alin. 1 și Art. 17): legea intră în vigoare în 30 de zile și impune raportarea exclusiv electronică în 30 de zile de la diagnostic, însă RNE are termen de operaționalizare de 12 luni de la intrarea în vigoare a normelor.",
-        "Extinderea obiectului legii prin delegare largă (Art. 2 alin. 1): într-o lege dedicată exclusiv endometriozei se introduce posibilitatea înființării prin ordin al ministrului sănătății a unor registre similare pentru orice alte afecțiuni, creând paralelism legislativ cu Legea nr. 95/2006.",
-        "Normă de trimitere incompletă la legislația secundară (Art. 16): prevede că Ministerul Sănătății „elaborează normele metodologice în termen de 30 de zile”, fără a preciza actul normativ de aprobare (ordin de ministru sau hotărâre de Guvern) și momentul de la care curge termenul."
-      ],
-      "blindSpotsCaught": "Contradicție tehnică de arhitectură a datelor între Art. 7 alin. (1)-(2) și Art. 8 alin. (1) și (3): legea interzice colectarea oricăror date de identificare directă și prevede doar grupe de vârstă și arii teritoriale, dar cere simultan ca orice furnizor medical să poată accesa datele individuale pseudonimizate pentru continuitatea actului medical, iar pacienta să își vadă datele prin Dosarul Electronic de Sănătate (DES). Fără un mecanism de pseudonimizare deterministă (hashing criptografic bazat pe CID-ul din PIAS/DES reglementat clar în norme), corelarea aceleiași paciente între două clinici diferite ar fi tehnic imposibilă.",
-      "constitutionalityNote": "Proiectul respectă în ansamblu art. 34 (dreptul la ocrotirea sănătății) și art. 26 (viața intimă, familială și privată) din Constituție. Totuși, din perspectiva art. 1 alin. (5) privind calitatea și previzibilitatea legii (raportat la art. 14 și art. 41 din Legea nr. 24/2000), art. 2 alin. (1) excedează titlului legii prin reglementarea generică a registrelor pentru alte afecțiuni, iar art. 16 necesită precizarea instrumentului juridic de aprobare a normelor metodologice.",
-      "euLawNote": "Proiectul este aliniat cu Regulamentul (UE) 2016/679 (GDPR), în special cu art. 9 alin. (2) lit. (i) și (j) și art. 25 (privacy by design/default), precum și cu principiile Spațiului European al Datelor privind Sănătatea (EHDS). Nu instituie restricții privind accesul la profesie sub incidența Directivei (UE) 2018/958 și nu impune reglementări tehnice comerciale care să necesite notificare TRIS conform Directivei (UE) 2015/1535.",
-      "senatForm": {
-        "articleRef": "Art. 6 alin. (2), Art. 13 și Art. 16",
-        "proposalContent": "La art. 6 alin. (2), obligația de raportare curge de la data operaționalizării efective a aplicației RNE potrivit art. 13 alin. (1). La art. 16, textul se modifică astfel: „Ministerul Sănătății elaborează normele metodologice, aprobate prin ordin al ministrului sănătății, în termen de 30 de zile de la intrarea în vigoare a prezentei legi.”",
-        "argumentation": "Art. 17 prevede intrarea în vigoare a legii la 30 de zile de la publicare, dar art. 13 alin. (1) acordă 12 luni pentru operaționalizarea platformei IT. Fără corelare expresă, furnizorii medicali ar avea obligația de raportare în 30 de zile înainte ca aplicația să existe. De asemenea, art. 16 nu precizează actul prin care se aprobă normele metodologice.",
-        "otherComments": "Se recomandă și reanalizarea art. 2 alin. (1), care permite înființarea prin ordin de ministru a unor registre pentru orice alte afecțiuni, întrucât excedează titlului și obiectului unic de reglementare al legii (art. 14 și 41 din Legea nr. 24/2000) și creează paralelism cu cadrul general din Legea nr. 95/2006."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "durationMs": 58350,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 117371,
+      "sourceEndMarker": "SF-5F15935A",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Registru național pentru pacientele cu endometrioză, plus posibilitatea ca ministrul să creeze prin ordin registre pentru orice altă boală",
-      "verdictShort": "Scopul e legitim și util: statul nu are în prezent date despre o boală care afectează circa 10% dintre femeile de vârstă fertilă. Textul are însă trei probleme: Art. 2 dă ministrului un cec în alb pentru registre noi de date medicale, arhitectura de acces la date (Art. 8) e contradictorie, iar termenele și finanțarea sunt nerealiste.",
-      "initiatorClaim": "Inițiatorii vor să elimine vidul informațional despre endometrioză (incidență, prevalență, stadializare, recurență), pentru a fundamenta programe de sănătate și decontări pe date reale. Mai vor să scurteze diagnosticul întârziat cu 7-10 ani și să reducă costurile cu reintervenții și FIV.",
-      "realityCheck": "Legea obligă toți furnizorii medicali, publici și privați, să raporteze electronic, în 30 de zile, cazurile noi și existente într-o aplicație administrată de INSP. Datele sunt pseudonimizate, deci rămân date cu caracter personal în sensul GDPR, nu sunt anonime. Separat de endometrioză, Art. 2 permite ministrului sănătății să înființeze prin simplu ordin registre pentru orice afecțiune cu prevalență ridicată, inclusiv să stabilească setul de date și procedurile de raportare. Acesta este un mecanism de extindere a colectării de date medicale fără trecere prin Parlament.",
+      "plainTitle": "Registrul Național de Endometrioză — scop util, dar cu delegare în alb și lacune GDPR",
+      "verdictShort": "Un proiect cu un obiectiv de sănătate publică legitim și necesar, dar redactat neîngrijit, cu vulnerabilități constituționale și de protecție a datelor. Principalele probleme sunt delegarea către ministrul sănătății a puterii de a crea prin simplu ordin registre similare pentru orice alte boli și absența garanțiilor tehnico-juridice concrete pentru datele medicale sensibile.",
+      "initiatorClaim": "Inițiatorii arată că România nu are o evidență centralizată a endometriozei, ceea ce duce la întârzieri de 7–10 ani în diagnostic, investigații repetate și costuri ridicate pentru sistemul public. Proiectul urmărește crearea unui registru electronic pseudonimizat pentru monitorizare epidemiologică, evaluarea calității actului medical și fundamentarea politicilor publice.",
+      "realityCheck": "În practică, legea impune furnizorilor medicali publici și privați raportarea electronică în 30 de zile (inclusiv retroactiv pentru cazurile existente, Art. 6 alin. 3), dar intră în vigoare cu un an înainte ca aplicația IT să fie funcțională și prevede sancțiuni pur declarative (Art. 15). În plus, Art. 2 permite ministrului sănătății să extindă mecanismul prin simplu ordin la orice alte afecțiuni cu impact semnificativ, iar arhitectura de pseudonimizare și acces la date lasă neclarități majore.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
@@ -70,59 +69,119 @@
         "IT & AI"
       ],
       "keyFindings": [
-        "Art. 2 alin. (1) și (3): ministrul poate crea prin ordin registre naționale pentru alte boli și poate stabili setul de date și procedurile de raportare. Practic, obligațiile de raportare pentru furnizori și prelucrarea de date sensibile se pot extinde prin act administrativ. Afirmația din Expunerea de Motive că ordinul «nu poate crea obligații suplimentare» nu se regăsește în textul articolului.",
-        "Art. 8 alin. (2) vs. Art. 1 alin. (2): INSP este operatorul de date și administrează registrul, dar are acces «doar la date agregate și anonimizate». Un operator care nu poate vedea datele individuale pe care le gestionează este o contradicție tehnică și juridică.",
-        "Art. 8 alin. (1) și (3) vs. Art. 7 alin. (2): nu se colectează CNP sau nume, totuși furnizorii accesează datele individuale «pentru continuitatea actului medical», iar pacienta își vede datele în DES. Ambele presupun o cheie de re-identificare, iar legea nu spune cine o generează, cine o deține și cum e protejată.",
-        "Art. 11: drepturile GDPR se exercită «fără a afecta integritatea datelor statistice». Formula e vagă și poate fi folosită pentru a refuza ștergerea sau opoziția. Art. 23 GDPR cere ca orice restrângere a drepturilor să fie precisă și prevăzută expres.",
-        "Art. 4 lit. b) și Art. 6 alin. (3): obligația vizează și cazurile «existente», adică raportarea retroactivă a istoricului. Asta înseamnă o sarcină administrativă reală pentru cabinetele și clinicile private mici, iar etapizarea e lăsată integral pe seama normelor.",
-        "Art. 16 și Art. 13: normele metodologice trebuie emise în 30 de zile, fără să se precizeze de la ce dată curge termenul și sub ce formă (HG sau ordin). Operaționalizarea vine abia la 12 luni după norme. Termenul de 30 de zile e nerealist pentru un sistem cu interoperabilitate PIAS/DES.",
-        "Art. 15: răspunderea este enumerată generic (disciplinară, contractuală, administrativă, civilă), fără contravenții specifice. Pentru IMM-uri nu există amenzi disproporționate, dar nici instrument efectiv de constrângere. Răspunderea «contractuală» nu are obiect pentru furnizorii privați fără contract CNAS."
+        "Art. 2 permite înființarea prin ordin al ministrului sănătății a unor registre naționale similare pentru „alte afecțiuni cu prevalență ridicată sau impact semnificativ”, delegând printr-un act administrativ subsecvent prelucrarea obligatorie de date medicale sensibile fără criterii clare în lege.",
+        "Art. 7 alin. (2), Art. 4 lit. d) și Art. 8 alin. (1) și (3) lasă lacune GDPR și tehnice: interzic colectarea CNP-ului, dar cer un cod unic pseudonimizat interoperabil cu DES și permit accesul „furnizorilor de servicii medicale” fără a-l restrânge la medicul curant și fără a reglementa custodia cheii de pseudonimizare ori durata de stocare.",
+        "Art. 12 alin. (1) prevede finanțarea prioritară din PNRR, deși PNRR se încheie în 2026 (înainte ca sistemul IT să poată fi dezvoltat în 12 luni de la norme, conform Art. 13), iar pentru costurile recurente ale Ministerului Sănătății nu este indicată sursa bugetară concretă.",
+        "Art. 5–6 și Art. 15–17 conțin defecțiuni de aplicare: obligația de raportare intră în vigoare la 30 de zile de la publicare (fără suspendare până la lansarea aplicației RNE), Art. 16 omite data de la care curg cele 30 de zile pentru norme, iar Art. 15 invocă răspunderea administrativă fără a defini contravenții.",
+        "Art. 14 declară baza de date și aplicația informatică „proprietate publică a statului român” într-o lege adoptată de Senat ca lege ordinară (Art. 76 alin. 2 Constituție), ignorând regimul legii organice și specificul drepturilor de proprietate intelectuală."
       ],
-      "blindSpotsCaught": "1) Finanțarea «cu prioritate» din PNRR (Art. 12) este practic iluzorie: termenul limită pentru jaloanele PNRR a fost august 2026, iar registrul se operaționalizează la cel puțin 13 luni după intrarea în vigoare. Rămâne realist doar Programul Sănătate (denumit incomplet în lege) și bugetul MS. 2) Nu apare nicio referire la Regulamentul (UE) 2025/327 privind Spațiul European al Datelor privind Sănătatea (EHDS), care reglementează exact registrele și utilizarea secundară a datelor pentru cercetare. Scopul de cercetare din Art. 3 lit. d) nu are niciun mecanism de acces definit. 3) Nu se prevede o evaluare de impact asupra protecției datelor (art. 35 GDPR) înainte de punerea în funcțiune. Trebuie verificat dacă ANSPDCP a fost consultată (art. 36 alin. 4 GDPR). 4) Nu există termen de stocare și nici reguli de ștergere a datelor. 5) Greșeli materiale în text: «incidenteți», «aggregate», «territoriale», «irreversibil», «elaborază»; în fișa Camerei apare «Rezidență» în loc de «Reziliență».",
-      "constitutionalityNote": "Nucleul legii (RNE pentru endometrioză) are temei în art. 34 (dreptul la ocrotirea sănătății) și pare proporțional: date minimizate, fără identificatori direcți, scop limitat (Art. 9 alin. 2). Problema principală este Art. 2. Prelucrarea datelor de sănătate restrânge dreptul la viață intimă (art. 26), iar orice restrângere trebuie făcută prin lege (art. 53). Curtea Constituțională a cerut constant ca reglementările privind prelucrarea datelor personale să fie clare, precise și cuprinse în acte cu forță de lege. A delega unui ordin de ministru crearea unor noi baze de date medicale și a obligațiilor de raportare ridică probleme de previzibilitate (art. 1 alin. 5) și de respectare a ierarhiei actelor normative. Contradicțiile din Art. 8 și formula vagă din Art. 11 afectează și ele calitatea legii. Art. 12 trebuie verificat sub aspectul art. 138 alin. (5) și art. 111 din Constituție: sursa de finanțare trebuie să fie reală, iar fișa financiară și punctul de vedere al Guvernului trebuie să existe. Calificarea ca lege ordinară (art. 76 alin. 2) pare corectă.",
-      "euLawNote": "Directiva 2018/958 nu se aplică: legea nu reglementează accesul la profesii sau exercitarea lor, ci impune o obligație de raportare către stat. TRIS 2015/1535 nu pare aplicabilă: nu se impun reguli tehnice privind serviciile societății informaționale sau produsele, ci doar se creează un sistem informatic public. Nu există efecte anticoncurențiale: obligația se aplică uniform furnizorilor publici și privați. Riscurile reale țin de GDPR și EHDS. Datele pseudonimizate rămân date personale (considerentul 26 GDPR), deci INSP și furnizorii au obligații depline de operator. Temeiul juridic trebuie să fie art. 9 alin. (2) lit. h)/i)/j) GDPR, cu «măsuri adecvate și specifice» prevăzute în dreptul intern. Lipsesc durata de stocare, DPIA, regimul cheii de pseudonimizare și o definire precisă a restrângerilor la Art. 11 (art. 23 GDPR). Regulamentul EHDS (UE) 2025/327 va impune reguli pentru registrele de boli și pentru accesul secundar la date prin organisme de acces. Legea ar trebui aliniată din start, nu doar prin trimiterea generică la «standarde europene» din Art. 13 alin. (2).",
+      "blindSpotsCaught": "Mai multe chichițe trecute cu vederea: (1) Senatul a adoptat legea ca lege ordinară, deși Art. 14 instituie proprietate publică a statului asupra aplicației și bazei de date; (2) finanțarea invocată din PNRR (Art. 12) este iluzorie raportat la termenul din 2026; (3) Art. 16 nu precizează de când curge termenul de 30 de zile pentru normele metodologice și nici forma acestora; (4) obligația de raportare (Art. 6) intră în vigoare cu circa 12 luni înainte de existența platformei (Art. 13); (5) Art. 5 alin. (3) exonerează medicii ca subiecți sancționabili distincți, dar la cabinetele medicale individuale (CMI) medicul se confundă cu furnizorul.",
+      "constitutionalityNote": "Există patru vulnerabilități constituționale relevante: (1) Art. 1 alin. (5) privind calitatea și previzibilitatea legii — Art. 2 folosește criterii vagi („prevalență ridicată”), Art. 15 face o trimitere în alb la răspundere administrativă fără fapte și sancțiuni definite, iar Art. 16 omite momentul de început al termenului pentru norme; (2) Art. 26 și Art. 53 — instituirea de registre medicale obligatorii cu date sensibile nu poate fi delegată prin ordin de ministru (Art. 2); (3) Art. 138 alin. (5) — lipsa stabilirii sursei reale de finanțare pentru cheltuielile recurente și de dezvoltare din Art. 12; (4) Art. 136 alin. (3) și Art. 73 alin. (3) lit. m) — declararea unor bunuri ca proprietate publică prin lege ordinară (Art. 14).",
+      "euLawNote": "Pe Regulamentul (UE) 2016/679 (GDPR), datele pseudonimizate rămân date cu caracter personal (Art. 4 pct. 5): legea omite garanțiile specifice cerute de Art. 9 alin. (2) lit. (i)–(j) și Art. 89 alin. (2) (durata de stocare, custodia cheii de pseudonimizare, limitarea accesului din Art. 8 alin. 1 la furnizorul curant și condițiile exacte ale restrângerii drepturilor din Art. 11). Art. 13 alin. (2) menționează generic standarde europene, fără corelare cu Regulamentul (UE) 2025/327 (Spațiul european al datelor privind sănătatea – EHDS) privind utilizarea secundară pentru cercetare. Directiva (UE) 2018/958 nu este încălcată (nu impune bariere de acces în profesie, deși raportarea retroactivă din Art. 6 alin. 3 trebuie proporționată pentru cabinetele mici). Directiva (UE) 2015/1535 (TRIS) nu este, în principiu, incidentă unui registru public necomercial de sănătate, cu condiția ca normele să nu impună specificații tehnice restrictive software-ului comercial al clinicilor private.",
       "senatForm": {
-        "articleRef": "Art. 2 (registre noi prin ordin de ministru)",
-        "proposalContent": "Art. 2 se elimină. Alternativ: «(1) Registre naționale pentru alte afecțiuni se înființează prin lege. (2) INSP poate propune Ministerului Sănătății proiectul de act normativ, însoțit de evaluarea impactului asupra protecției datelor și de avizul ANSPDCP.»",
-        "argumentation": "Datele de sănătate sunt categorie specială (art. 9 GDPR). Restrângerea dreptului la viață intimă (art. 26) se poate face doar prin lege (art. 53 Constituție). Un ordin de ministru care creează registre noi și obligații de raportare pentru furnizori depășește rolul de executare a legii și încalcă cerința de previzibilitate (art. 1 alin. 5).",
-        "otherComments": "Art. 8: INSP, ca operator, prelucrează inevitabil date individuale. Cine deține cheia de pseudonimizare? Art. 16: precizați punctul de pornire, forma normelor (HG/ordin) și un termen realist. Art. 11: indicați limitele exacte față de art. 17 și 21 GDPR. Adăugați termen de stocare. Corectați: incidenței, agregate, teritoriale, ireversibil, elaborează."
+        "articleRef": "Art. 2 și Art. 8 alin. (1)",
+        "proposalContent": "Se elimină Art. 2, pentru ca alte registre naționale să fie instituite doar prin lege. Art. 8 alin. (1) se modifică: „Accesul la datele individuale pseudonimizate este permis exclusiv furnizorului curant aflat în relație de îngrijire cu pacientul, cu stabilirea în lege a custodiei cheii de pseudonimizare și a duratei de stocare.”",
+        "argumentation": "Colectarea obligatorie de date medicale vizează viața privată (Art. 26 Constituție) și nu poate fi delegată prin ordin de ministru pentru boli nedefinite (Art. 1 alin. 5, Art. 53). Accesul larg al oricărui furnizor la date pseudonimizate și lipsa duratei de stocare contravin principiului minimizării și Art. 9 alin. (2) lit. (i) GDPR.",
+        "otherComments": "Corelați intrarea în vigoare a obligației de raportare (Art. 5-6, Art. 17) cu operaționalizarea RNE (Art. 13), precizați momentul de la care curg cele 30 de zile pentru norme (Art. 16), revizuiți referirea la PNRR din Art. 12 și clarificați regimul juridic din Art. 14 (proprietate publică vs. lege ordinară) și răspunderea vagă din Art. 15."
       },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 62570,
+      "sourceEndMarker": "SF-5F15935A",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Registru național pentru pacientele cu endometrioză și, prin ordin de ministru, pentru orice altă boală",
+      "verdictShort": "Registrul de endometrioză e util și are garanții de protecție a datelor peste medie. Problema principală e Art. 2, care permite ministrului să înființeze prin simplu ordin registre de sănătate pentru oricâte alte boli, fără control parlamentar. La aceasta se adaugă contradicții tehnice între cine administrează datele și cine le poate vedea.",
+      "initiatorClaim": "Inițiatorii spun că România nu are nicio evidență a endometriozei, deși boala afectează circa 10% dintre femeile de vârstă fertilă, se diagnostichează după 7–10 ani și cauzează infertilitate. Registrul ar permite politici bazate pe date și ar reduce cheltuielile cu investigații repetate, concedii medicale și FIV.",
+      "realityCheck": "Legea obligă furnizorii medicali publici și privați să raporteze electronic, în 30 de zile, orice caz nou sau existent, într-un registru administrat de INSP, cu date pseudonimizate și fără CNP sau nume. Mecanismul are însă goluri. INSP este operator, dar are acces doar la date agregate (Art. 1 alin. 2 vs. Art. 8 alin. 2). Nu se spune cine generează identificatorul pseudonimizat și cine deține cheia de corelare. Art. 2 deschide calea unor registre nelimitate prin ordin. Economiile din expunerea de motive (concedii, FIV) sunt ipoteze nedemonstrate, iar finanțarea din PNRR e practic indisponibilă.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "IT & AI",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 2: ministrul sănătății poate înființa prin ordin registre naționale pentru orice afecțiune cu „prevalență ridicată sau impact semnificativ”. Ordinul stabilește setul de date și procedurile de raportare. E o delegare largă, pe criterii vagi, într-un domeniu care atinge viața privată (art. 26 Constituție) și date de categorie specială (art. 9 GDPR). Expunerea de motive spune că ordinul nu poate crea obligații noi, dar textul legii nu conține această limitare.",
+        "Art. 1 alin. (2) vs. Art. 8 alin. (2): INSP este desemnat operator al registrului, dar are acces doar la date agregate și anonimizate. Un operator care nu poate accesa datele pe care le administrează nu poate asigura calitatea datelor, deduplicarea sau exercitarea drepturilor persoanelor vizate.",
+        "Art. 4 lit. d), Art. 7 alin. (2), Art. 8 alin. (1) și (3): legea promite corelarea datelor, continuitatea actului medical și accesul pacientei prin Dosarul Electronic de Sănătate, fără date de identificare directă. Pentru asta e nevoie de o cheie de reidentificare, dar legea nu spune cine o generează, cine o deține și cum e protejată. Datele pseudonimizate rămân date personale (considerentul 26 GDPR).",
+        "Art. 5 alin. (1) și Art. 6 alin. (3): obligația de raportare acoperă și cazurile existente înainte de intrarea în vigoare, adică raportare retroactivă. Pentru cabinetele și clinicile private mici e un efort administrativ necompensat, chiar dacă etapizat.",
+        "Art. 16: normele metodologice trebuie elaborate în 30 de zile, fără să se precizeze tipul actului (ordin sau HG) și momentul de la care curge termenul. Termenul e nerealist. Art. 13 leagă operaționalizarea de normele metodologice, deci orice întârziere amână registrul fără limită.",
+        "Art. 12: finanțarea „cu prioritate” din PNRR este depășită, deoarece termenul de implementare a PNRR (31 august 2026) a expirat. Nu există fișă financiară care să cuantifice costurile recurente suportate de Ministerul Sănătății (art. 15 din Legea nr. 500/2002, art. 111 alin. 1 și art. 138 alin. 5 din Constituție).",
+        "Art. 15: răspunderea este enumerată generic („disciplinară, contractuală, administrativă sau civilă”), fără faptă tipică și fără sancțiune proprie. Pentru furnizori, norma e previzibil blândă. Obligația de raportare devine însă greu de aplicat efectiv."
+      ],
+      "blindSpotsCaught": "Expunerea de motive invocă procedura de urgență și o structură „pe capitole”, dar proiectul nu se dezbate în urgență și nu are capitole. Asta sugerează un text de motivare scris pentru altă versiune. Art. 11 („fără a afecta integritatea datelor statistice”) poate fi citit ca o restrângere a dreptului la ștergere. GDPR permite astfel de excepții (art. 17 alin. 3 lit. c–d, art. 89), dar numai cu garanții prevăzute expres, care aici lipsesc. Nu se menționează consultarea ANSPDCP asupra proiectului (art. 36 alin. 4 GDPR) și nici evaluarea de impact obligatorie pentru prelucrarea pe scară largă a datelor de sănătate (art. 35 GDPR). Nu e stabilită durata de stocare a datelor. Art. 9 alin. (2) interzice „alte scopuri”, ceea ce poate intra în tensiune cu regimul utilizării secundare din Spațiul European al Datelor privind Sănătatea.",
+      "constitutionalityNote": "Nucleul legii (RNE) are temei în art. 34 (ocrotirea sănătății). Garanțiile privind minimizarea datelor și limitarea scopului susțin proporționalitatea restrângerii art. 26 (viața privată). Riscul real este Art. 2. Restrângerea exercițiului unor drepturi se face numai prin lege (art. 53). CCR a cerut în jurisprudența privind prelucrarea datelor personale (de ex. Dec. nr. 1258/2009, 440/2014) ca regulile privind categoriile de date, accesul și garanțiile să fie stabilite clar prin lege. O delegare către ordin de ministru pentru registre noi, cu criterii vagi, poate fi contestată pe art. 1 alin. (5) (claritate și previzibilitate) și art. 53. Contradicția operator/acces dintre Art. 1 și Art. 8, precum și neprecizarea actului și a termenului din Art. 16, slăbesc și ele calitatea legii. Lipsa fișei financiare poate ridica probleme pe art. 138 alin. (5).",
+      "euLawNote": "GDPR (Reg. 2016/679): temeiul juridic invocat este art. 9 alin. (2) lit. h)–i) și art. 89. Acestea cer măsuri adecvate și specifice prevăzute în dreptul intern, iar legea nu stabilește durata de stocare, deținătorul cheii de pseudonimizare și regimul accesului pentru cercetare. EHDS (Reg. UE 2025/327) include registrele de boli printre categoriile de date pentru utilizare secundară, prin organisme de acces la datele de sănătate. Legea ar trebui aliniată acum la acest regim, ale cărui aplicări încep din 2027. Directiva 2018/958 nu se aplică: legea nu reglementează accesul la o profesie sau exercitarea ei. Directiva TRIS 2015/1535 nu se aplică: nu sunt reglementate servicii ale societății informaționale sau specificații tehnice pentru produse, ci un sistem informatic public. Nu există efecte anticoncurențiale. Achiziția soluției informatice va intra sub incidența Directivei 2014/24/UE privind achizițiile publice.",
+      "senatForm": {
+        "articleRef": "Art. 2 – registre noi prin ordin al ministrului",
+        "proposalContent": "Art. 2 se reformulează: „(1) Registre naționale pentru alte afecțiuni se înființează numai prin lege, la propunerea fundamentată a INSP. (2) Legea de înființare stabilește setul minim de date, operatorul, durata de stocare, categoriile de acces și garanțiile, cu avizul prealabil al ANSPDCP.”",
+        "argumentation": "Datele de sănătate sunt categorie specială (art. 9 GDPR), iar restrângerea vieții private (art. 26, 53 Constituție) se face doar prin lege. Art. 2 permite ministrului să creeze prin ordin registre nelimitate, cu raportare obligatorie, pe un criteriu vag („prevalență ridicată”). Jurisprudența CCR privind datele personale cere ca regulile esențiale să fie în lege.",
+        "otherComments": "Corelați art. 1 alin. (2) cu art. 8 alin. (2): INSP e operator, dar vede doar date agregate. Precizați cine generează identificatorul pseudonimizat și cine deține cheia. Art. 16: termen de 30 de zile nerealist, fără tip de act și moment de referință. Termenul PNRR a expirat (aug. 2026). Aliniați la Reg. (UE) 2025/327 (EHDS)."
+      },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 190862,
-      "riskScore": 4,
+      "durationMs": 102319,
+      "sourceEndMarker": "SF-5F15935A",
+      "riskScore": 5,
       "riskLevel": "yellow",
       "plainTitle": "Registru pentru endometrioză, cu reguli incomplete pentru datele pacientelor",
-      "verdictShort": "Registrul poate sprijini politici de sănătate mai bine fundamentate. Forma analizată necesită însă corectarea accesului la date, a calendarului raportării și a condițiilor pentru înființarea altor registre.",
-      "initiatorClaim": "Inițiatorii urmăresc o evidență națională a endometriozei, pentru monitorizarea bolii, evaluarea tratamentelor și fundamentarea finanțării. Susțin că pseudonimizarea și raportarea electronică protejează pacientele și reduc fragmentarea informațiilor.",
-      "realityCheck": "Legea obligă furnizorii medicali publici și privați să raporteze electronic cazurile diagnosticate și actualizările relevante, într-un registru administrat de INSP. Ea nu finanțează direct tratamente și nu elimină expres raportările paralele, iar cazurile nediagnosticate rămân în afara evidenței. Garanțiile declarate sunt utile, dar lipsesc delimitări importante privind accesul, păstrarea datelor și începerea efectivă a obligațiilor.",
+      "verdictShort": "Registrul poate îmbunătăți monitorizarea bolii și fundamentarea finanțării tratamentelor. Riscurile principale sunt extinderea insuficient delimitată la alte boli, garanțiile incomplete privind accesul la date medicale și obligațiile care pot începe înaintea funcționării platformei.",
+      "initiatorClaim": "Inițiatorii urmăresc evidența națională a endometriozei, continuitatea îngrijirii și politici sanitare bazate pe date. Expunerea promite economii, diagnostic mai rapid și rezultate medicale mai bune, fără să demonstreze cuantumul economiilor sau legătura directă dintre registru și aceste rezultate.",
+      "realityCheck": "Proiectul obligă furnizorii publici și privați să raporteze electronic cazurile, instituie prelucrarea datelor medicale pseudonimizate și permite crearea altor registre prin ordin ministerial. Nu introduce taxe, exclusivități comerciale sau amenzi proprii, dar produce costuri de raportare, integrare informatică și administrare. Registrul nu garantează prin el însuși acces mai rapid la diagnostic, tratamente suplimentare ori eliminarea raportărilor paralele.",
       "affectedGroups": [
-        "Sănătate & Educație",
-        "Justiție & Drepturi Civile",
         "IMM & Antreprenori",
-        "IT & AI"
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 7 interzice colectarea numelui, CNP-ului și datelor de contact, iar art. 10 impune pseudonimizarea: garanții utile. Totuși, datele corelabile cu o persoană prin informații suplimentare rămân date personale; absența CNP-ului nu echivalează cu anonimizarea. [RGPD, considerentul 26](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679).",
-        "Art. 8 alin. (1) permite accesul furnizorilor pentru continuitatea îngrijirii, fără să limiteze explicit accesul la pacienții efectiv îngrijiți. Art. 1 alin. (2) desemnează INSP operator, dar art. 8 alin. (2) îi permite numai acces agregat și anonimizat: trebuie clarificată diferența dintre administrarea tehnică, exercitarea drepturilor pacientului și utilizarea datelor pentru analize.",
-        "Art. 4 și 7 nu precizează mecanismul identificatorului comun între furnizori, custodele informațiilor de corespondență și prevenirea înregistrărilor duplicate. Aceste elemente sunt necesare atât pentru urmărirea evoluției aceleiași persoane, cât și pentru accesul prin DES prevăzut la art. 8 alin. (3). Nu este necesară introducerea CNP-ului în registru pentru a clarifica arhitectura.",
-        "Art. 6 și 17 nu amână explicit obligația de raportare până la funcționarea aplicației, deși art. 13 acordă până la 12 luni după intrarea în vigoare a normelor pentru operaționalizare. Art. 16 cere numai elaborarea normelor în 30 de zile, fără să precizeze expres începutul termenului, actul de aprobare și termenul publicării; noțiunea de actualizare relevantă rămâne, de asemenea, nedelimitată.",
-        "Art. 2 permite înființarea altor registre prin ordin ministerial, pe criterii epidemiologice largi. Nu stabilește suficient operatorul, destinatarii raportării și garanțiile specifice fiecărui registru; obligația din art. 5 privește expres RNE. Ordinul nu poate fi considerat automat autorizat să extindă această obligație la alte boli. [Legea nr. 24/2000, art. 4 și 77](https://legislatie.just.ro/public/detaliidocument/21698).",
-        "Art. 5–6 generează costuri de personal, instruire, conectare și raportare pentru furnizori, inclusiv cabinete și clinici mici, fără cuantificare în materialele furnizate. Art. 15 nu introduce amenzi, infracțiuni sau cuantumuri noi de sancțiuni; răspunderea depinde de condițiile legislației existente. Excluderea medicului ca subiect sancționabil distinct pentru raportare trebuie corelată cu situația medicului care este el însuși furnizor.",
-        "Art. 12 indică surse de finanțare, dar nu demonstrează existența fondurilor eligibile și suficiente. La 29.10.2026, termenul PNRR pentru îndeplinirea jaloanelor și țintelor, 31.08.2026, este deja depășit; trimiterea la PNRR nu poate susține singură o implementare viitoare. Programul Sănătate rămâne condiționat de eligibilitate și alocări. [Comisia Europeană, regulile de închidere a mecanismului](https://eur-lex.europa.eu/eli/C/2026/2614/oj/eng)."
+        "Art. 2 permite înființarea unor registre pentru alte boli prin ordin ministerial, folosind criterii largi. Totuși, obligația de raportare din art. 5 privește numai endometrioza: ordinul nu poate extinde singur această obligație la alți furnizori și pacienți fără o bază legală suficientă.",
+        "Art. 8 alin. (1) permite accesul furnizorilor la date individuale pentru continuitatea îngrijirii, fără să precizeze expres verificarea relației de îngrijire, limitele accesului și trasabilitatea consultărilor. Pseudonimizarea nu transformă datele medicale în date anonime.",
+        "Art. 1 alin. (2) desemnează INSP operator și administrator operațional, iar art. 8 alin. (2) îi permite numai date agregate și anonimizate. Această combinație poate fi implementată tehnic, dar legea trebuie să clarifice responsabilitățile, operațiunile permise și gestionarea incidentelor.",
+        "Art. 4, 7 și 10 nu stabilesc regulile esențiale pentru corelarea identificatorilor între furnizori, separarea informațiilor suplimentare de identificare și durata păstrării datelor. Interdicția colectării CNP în registru este utilă, dar nu rezolvă singură aceste probleme.",
+        "Art. 6 impune raportarea în 30 de zile, deși art. 13 permite operaționalizarea platformei la 12 luni după intrarea în vigoare a normelor. Lipsește suspendarea expresă a obligației până la disponibilitatea aplicației; art. 16 prevede doar elaborarea normelor în 30 de zile, fără reper temporal și procedură de aprobare explicite.",
+        "Art. 15 nu instituie contravenții, cuantumuri de amenzi sau sancțiuni automate. Răspunderea enumerată poate interveni numai dacă sunt îndeplinite condițiile legislației aplicabile; art. 5 alin. (3) necesită clarificare pentru furnizorii organizați ca forme individuale de exercitare a profesiei.",
+        "Art. 12 identifică surse generale de finanțare, fără estimări sau alocări garantate. Eligibilitatea pentru PNRR și Programul Sănătate trebuie demonstrată; furnizorii pot suporta costuri administrative neestimate, iar expunerea nu dovedește că economiile vor acoperi cheltuielile.",
+        "Art. 14 declară proprietatea publică asupra bazei și aplicației, fără să transforme datele pacientelor în informații accesibile publicului. Art. 17 stabilește intrarea în vigoare; textul furnizat nu conține derogări exprese, abrogări sau modificări ale altor legi."
       ],
-      "blindSpotsCaught": "Expunerea de motive promite date anonimizate pentru cercetare, însă art. 3 lit. d) nu este însoțit de o procedură efectivă de acces pentru cercetători, iar art. 9 alin. (2) nu menționează expres cercetarea între scopuri: aceste prevederi trebuie corelate. Art. 11 nu poate transforma integritatea statistică într-o derogare generală de la drepturile pacientului; derogările necesită condiții și garanții precise. [RGPD, art. 89](https://www.wipo.int/wipolex/en/text/480507). Procedural, termenul pentru amendamente din 14.05.2026 este depășit: o petiție adresată comisiei nu devine automat amendament parlamentar. [Fișa Camerei Deputaților](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23248).",
-      "constitutionalityNote": "Scopul este legitim prin art. 34 din Constituție. Vulnerabilitățile privesc art. 1 alin. (5), prin necorelarea termenelor și competențelor, și art. 26, prin delimitarea insuficientă a accesului la informații medicale. Art. 23 alin. (12) nu justifică aici o critică penală: proiectul nu instituie pedepse penale. Art. 12 identifică surse, astfel că încălcarea art. 138 alin. (5) nu rezultă automat; trebuie verificată fundamentarea financiară și respectarea procedurii de informare a Guvernului din art. 111 alin. (1). Pentru art. 14 trebuie verificată și corelarea calificării bunurilor ca proprietate publică cu art. 136 și cu regimul juridic aplicabil, fără a confunda infrastructura statului cu un drept de dispoziție asupra datelor pacientelor. Acestea sunt vulnerabilități de analizat și remediat, nu o constatare definitivă de neconstituționalitate. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm).",
-      "euLawNote": "RGPD permite prelucrări medicale și de sănătate publică fără consimțământ atunci când există temei și garanții adecvate; simpla sa invocare nu suplinește regulile concrete. Trebuie precizate păstrarea datelor, accesul și confidențialitatea și realizată evaluarea de impact potrivit art. 35 pentru prelucrarea la scară largă a datelor medicale, sub rezerva condițiilor regulamentului. [RGPD, art. 6, 9 și 35](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679). Directiva 2018/958 și Legea nr. 245/2020 nu se aplică automat oricărei raportări sanitare: trebuie stabilit dacă obligația restricționează exercitarea profesiei, caz în care este necesară evaluarea prealabilă a proporționalității. Textul nu creează calificări, activități rezervate ori exclusivități comerciale noi. [Directiva 2018/958, art. 2 și 4](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32018L0958), [Legea nr. 245/2020](https://legislatie.just.ro/Public/DetaliiDocument/298613). Raportarea electronică nu declanșează singură TRIS: proiectul nu reglementează țintit servicii ale societății informaționale și nu reglementează AI; eventualele norme tehnice ulterioare trebuie examinate separat. [Directiva 2015/1535, art. 1](https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32015L1535). Costurile fixe de conformare pot afecta proporțional mai mult furnizorii mici.",
+      "blindSpotsCaught": "Problema discretă este relația dintre art. 2 și art. 5: posibilitatea înființării altor registre nu echivalează cu autorizarea raportării obligatorii pentru orice boală. În plus, cercetarea este obiectiv la art. 3 lit. d), dar accesul cercetătorilor la date individuale nu este organizat prin art. 8. Expunerea de motive nu poate completa aceste lipsuri și nici transforma solicitarea sa de urgență într-o procedură aprobată.",
+      "constitutionalityNote": "Scopul servește art. 34 din Constituție. Vulnerabilitățile țin de art. 1 alin. (5), privind previzibilitatea obligațiilor și limitele ordinelor ministeriale, și de art. 26, privind protecția vieții private; eventualele restrângeri trebuie evaluate și prin art. 53. Art. 11 nu poate justifica o limitare generală a drepturilor pacientelor prin simpla invocare a integrității statisticilor. Art. 23 alin. (12) privește pedepsele și nu este direct incident, deoarece proiectul nu introduce sancțiuni penale. Pentru art. 138 alin. (5), există surse nominalizate, dar lipsesc date pentru evaluarea suficienței lor; respectarea procedurii de solicitare a informațiilor Guvernului potrivit art. 111 nu poate fi stabilită din documentele furnizate. Nu rezultă automat neconstituționalitatea întregului proiect.",
+      "euLawNote": "RGPD rămâne aplicabil datelor pseudonimizate. Raportarea obligatorie necesită temeiurile corespunzătoare din art. 6 și o excepție aplicabilă din art. 9 alin. (2), însoțite de garanții concrete; consimțământul nu este obligatoriu dacă există alt temei valid. Trebuie reglementate păstrarea, accesul, securitatea și exercitarea drepturilor, iar prelucrarea pe scară largă a datelor medicale impune evaluarea de impact prevăzută de art. 35. Directiva 2018/958 devine relevantă dacă obligațiile restrâng accesul la o profesie reglementată sau exercitarea acesteia; o nouă raportare nu dovedește singură o asemenea restricție. Nu apar monopoluri sau discriminări explicite, dar costurile fixe pot afecta disproporționat cabinetele mici. Simpla utilizare a unei platforme nu declanșează automat notificarea TRIS potrivit Directivei 2015/1535; textul nu reglementează explicit servicii comerciale digitale sau AI. Verificarea online a surselor nu a fost disponibilă; evaluarea se bazează pe textul furnizat și cadrul juridic cunoscut.",
       "senatForm": {
-        "articleRef": "Art. 8",
-        "proposalContent": "(1) Furnizorii accesează numai datele pacienților îngrijiți, în scop medical. (2) Personalul autorizat al INSP accesează date individuale numai dacă este necesar administrării RNE sau îndeplinirii obligațiilor RGPD. (3) MS și CNAS primesc doar date anonimizate; INSP le utilizează pentru analize. (4) Pacientul își accesează datele prin DES sau direct la INSP.",
-        "argumentation": "Art. 8 nu limitează explicit accesul furnizorilor la pacienții aflați în îngrijire și nu corelează atribuțiile INSP cu interdicția accesului la date individuale. Propunerea delimitează accesul necesar, păstrează anonimizarea analizelor și asigură exercitarea dreptului de acces inclusiv pentru persoanele care nu pot utiliza DES.",
-        "otherComments": "Propunere pentru Comisia pentru sănătate și familie a Camerei Deputaților, preluabilă de un deputat. Termenul pentru amendamente indicat în fișă, 14.05.2026, este depășit; trimiterea unei petiții nu garantează introducerea amendamentului. Sunt necesare separat corelarea art. 6 cu operaționalizarea și precizarea garanțiilor de păstrare a datelor."
-      }
+        "articleRef": "Art. 2",
+        "proposalContent": "Articolul 2 se elimină.",
+        "argumentation": "Obligația din art. 5 privește numai endometrioza. Pentru alte registre cu date medicale, legea trebuie să stabilească persoanele și furnizorii vizați, scopurile, obligațiile și garanțiile esențiale. Ordinul ministerial poate detalia proceduri tehnice, dar nu poate suplini aceste elemente.",
+        "otherComments": "Sunt necesare amendamente distincte privind accesul la date și începerea raportării numai după funcționarea platformei. Termenul comunicat, 14.05.2026, este depășit. Propunerea poate fi transmisă comisiei ca petiție; preluarea și admisibilitatea unui amendament depind de procedura parlamentară aplicabilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-10T14:02:41.195Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:04:29.049Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

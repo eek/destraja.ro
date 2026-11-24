@@ -2,14 +2,41 @@
   "billId": "Pl-x 452/2026",
   "slug": "plx-452-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T00:59:29.853Z",
+  "updatedAt": "2026-11-24T15:08:11.221Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2203,
+    "ordinanceChars": 0,
+    "memoChars": 31100,
+    "memoSupplied": 31100,
+    "marker": "SF-574201BD"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-452-2026.json",
+    "form": "initiator",
+    "textHash": "574201bd1b7def6b",
+    "fetchedAt": "2026-11-19T11:20:06.113Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 7702,
+    "truncated": false,
+    "included": true,
+    "key": "bc285a5cabba7fbb"
+  },
   "consensus": {
     "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Terenul rămas în plus după cadastru, dat în proprietate celor care îl folosesc",
-    "summaryTlDr": "Problema e reală: mulți oameni lucrează de zeci de ani terenuri fără acte și plătesc impozit pe ele. Articolul unic e însă mai larg și mai slab păzit decât promite expunerea de motive (nu se limitează la terenuri agricole, nu cere lipsa unui litigiu, nu are plafon și trimite greșit), deci merită adoptat doar cu amendamente.",
-    "initiatorClaim": "Inițiatorii spun că art. 27 alin. (2³) permite titluri doar pentru curtea și grădina din jurul casei, în intravilan. Din acest motiv, comisiile resping cererile celor care lucrează de zeci de ani terenuri agricole din fostele CAP, inclusiv în extravilan, și plătesc impozit pe ele. Ei vor să extindă mecanismul la aceste terenuri, acolo unde cadastrul sistematic a scos la iveală excedente.",
-    "realityCheck": "Articolul unic permite oricui figurează cu un teren în registrul agricol și în evidențele fiscale să ceară primăriei atribuirea lui în proprietate, prin ordin al prefectului, pentru «alte terenuri» decât cele de lângă casă. Textul nu se limitează la terenuri agricole sau la fostele CAP, nu are plafon de suprafață, nu cere o durată minimă de folosință și nu spune dacă atribuirea e gratuită. Există doar două filtre: în UAT trebuie să existe un excedent constatat după cadastrul sistematic, iar terenul să nu fie cerut de alte persoane. Condiția lipsei unui litigiu, anunțată în fișa Camerei, nu apare în text.",
+    "plainTitle": "Terenuri agricole de stat sau ale primăriei date în proprietate celor care le folosesc și le au trecute în registrul agricol",
+    "summaryTlDr": "Problema reală, adică posesori de zeci de ani fără titlu, primește o soluție redactată neglijent. Textul nu cere ca terenul să fie al statului sau al UAT, nu cere lipsa litigiului și nu stabilește nicio dată-limită de înscriere în registrul agricol. Astfel, un mecanism gândit pentru reparație poate deveni o cale de împroprietărire gratuită, greu de controlat.",
+    "initiatorClaim": "Inițiatorii spun că alin. (2³) permite titluri doar pentru curtea și grădina din jurul casei. Vor ca și deținătorii de terenuri agricole din intravilan și extravilan, din fostele zone cooperativizate, să obțină titlu dacă figurează în registrele agricole și fiscale, terenul nu e în litigiu și nu e revendicat de altcineva.",
+    "realityCheck": "Noul alin. (2⁴) permite oricărui „deținător” înscris în registrul agricol și în evidența fiscală să ceară atribuirea în proprietate a terenului. Primăria propune, iar prefectul emite ordin. Condițiile din text sunt doar două: (a) o frază incoerentă despre UAT-urile în care s-a constatat un excedent de teren după cadastrul sistematic, care nu leagă explicit terenul cerut de acel excedent; (b) lipsa altor cereri de reconstituire pentru acel teren. Garanțiile invocate în expunerea de motive (lipsa litigiului, proprietatea statului sau a UAT, terenuri din fostele CAP) nu apar în textul normativ. Nu există limită de suprafață, dată de referință a posesiei sau preț. Textul nu spune nici ce se întâmplă cu terenurile arendate sau concesionate de la UAT ori de la ADS.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Agricultură & Mediu",
@@ -17,109 +44,144 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, art. 27 alin. (2⁴) din Legea 18/1991",
-      "proposalContent": "Teza I devine: «Pentru terenurile agricole din fostele CAP, altele decât cele de la alin. (2³), aflate în excedentul prevăzut la lit. a), deținătorii înscriși cu ele în registrul agricol și în evidențele fiscale de cel puțin 10 ani pot cere primăriei atribuirea, în limita a 10 ha pe familie.» Se adaugă lit. c): «terenul nu face obiectul unui litigiu.»",
-      "argumentation": "Textul inițiatorilor nu reflectă expunerea de motive: nu se limitează la terenuri agricole din fostele CAP, nu cere absența unui litigiu (deși fișa Camerei o promite), nu leagă explicit terenul atribuit de excedentul constatat și nu are plafon. Registrul agricol se bazează pe declarații, deci o durată minimă de înscriere previne înscrierile de ultim moment.",
-      "otherComments": "Trimiterea la «art. 2³» trebuie corectată în «alin. (2³)». Propun și: afișarea listei cererilor la primărie și pe site cu 30 de zile înainte de propunerea către prefect, pentru eventuale opoziții; precizarea dacă atribuirea e gratuită; excluderea expresă a fondului forestier, pășunilor comunale și domeniului public; un termen-limită pentru depunerea cererilor."
+      "articleRef": "Art. unic – art. 27 alin. (2⁴) L. 18/1991",
+      "proposalContent": "(2⁴) Pentru terenurile din proprietatea privată a statului sau UAT, altele decât cele de la alin. (2³), incluse în excedentul validat conform art. 6 din Legea 165/2013, deținătorii înscriși în registrul agricol și fiscal înainte de 1.01.2010 pot cere atribuirea dacă terenul: a) nu e cerut ori necesar pentru restituiri; b) nu e în litigiu; c) nu are carte funciară deschisă.",
+      "argumentation": "Textul inițial trimite greșit la «art. 2³», nu leagă terenul de excedent, nu cere ca terenul să fie al statului/UAT, nici lipsa litigiului (deși expunerea de motive o pretinde). Registrul agricol e declarativ: fără dată-limită, oricine se înscrie acum poate primi gratuit teren al statului. Restituirile nefinalizate trebuie protejate (art. 44 Constituție).",
+      "otherComments": "Se impune avizul ANCPI, ADS și MADR, evaluarea ca ajutor de stat (art. 107 TFUE) a atribuirii gratuite către fermieri, o limită de suprafață și corelarea termenilor: textul spune «ordin privind atribuirea titlului», deși la alin. (2³) ordinul prefectului atribuie dreptul de proprietate."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 68872,
-      "riskScore": 8,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 91840,
+      "sourceEndMarker": "SF-574201BD",
+      "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Împroprietărirea gratuită cu terenuri din excedentul UAT-urilor doar pe baza înscrierii în registrul agricol, fără plafon de suprafață sau vechime",
-      "verdictShort": "Sub pretextul clarificării situației terenurilor agricole lucrate de zeci de ani în fostele zone cooperativizate, proiectul deschide o breșă majoră pentru atribuirea gratuită a oricăror terenuri (fără limită de suprafață și fără vechime minimă a posesiei) doar pe baza figurării în registrul agricol și la taxe. Textul suferă de erori grave de tehnică legislativă și riscă să fie declarat neconstituțional pentru afectarea proprietății statului/UAT și lipsă de previzibilitate.",
-      "initiatorClaim": "Inițiatorii susțin că vor să elimine discriminarea dintre deținătorii de curți/grădini și cei care lucrează de zeci de ani terenuri agricole în intravilanul sau extravilanul fostelor zone cooperativizate, permițându-le să primească titluri de proprietate din excedentul de teren rezultat în urma cadastrului sistematic.",
-      "realityCheck": "În realitate, textul normativ propus la art. 27 alin. (2⁴) nu limitează atribuirea nici la terenuri agricole, nici la fostele zone cooperativizate, nu impune vreo suprafață maximă și nu cere o durată minimă a posesiei. Practic, orice persoană care a declarat recent un teren în registrul agricol și l-a înregistrat fiscal poate cere atribuirea gratuită în proprietate din excedentul UAT-ului, ocolind procedura uzucapiunii din Codul civil și regulile notării posesiei din Legea cadastrului nr. 7/1996.",
+      "plainTitle": "Împroprietărire gratuită pe orice teren din „excedent”, fără limite și garanții",
+      "verdictShort": "Sub pretextul ajutorării țăranilor fără acte pe pământurile lucrate de zeci de ani, proiectul deschide o portiță largă pentru atribuirea gratuită a oricăror terenuri, fără plafon de suprafață, fără vechime a posesiei și fără garanțiile elementare din Legea 18/1991. Textul este redactat grav defectuos și creează riscuri majore de abuzuri funciare și suprapuneri de proprietăți.",
+      "initiatorClaim": "Inițiatorii susțin că vor să rezolve un blocaj pentru cetățenii care lucrează de zeci de ani terenuri agricole din fostele zone cooperativizate, plătind impozite pe ele, dar care nu pot primi titlu de proprietate fiindcă actualul art. 27 alin. (2³) acoperă doar curțile și grădinile aferente caselor.",
+      "realityCheck": "În prezent, art. 27 alin. (2¹) și (2³) din Legea 18/1991 impun condiții stricte (teren în proprietatea statului/UAT, fără carte funciară deschisă, fără titlu anterior, sau existența unei case construite înainte de 1990). Noul alin. (2⁴) elimină toate aceste filtre: permite oricărui „deținător” înscris în registrul agricol și la taxe (inclusiv recent, inclusiv firme sau arendași) să ceară atribuirea gratuită a „altor terenuri” – fără limită la terenuri agricole, fără plafon de suprafață, fără verificarea lipsei unui titlu anterior, a cărții funciare sau a litigiilor – direct prin propunerea primăriei și ordinul prefectului, ocolind comisiile de fond funciar.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Agricultură & Mediu",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Articol unic - Art. 27 alin. (2⁴): Rupere totală între Expunerea de Motive și textul legii — deși motivarea vorbește despre terenuri agricole din fostele CAP-uri deținute de zeci de ani, textul legal spune doar „În cazul altor terenuri decât cele de la art. 2³”, fără a impune categoria agricolă, plafonul de suprafață (ex. 5-10 ha) sau o vechime minimă a posesiei.",
-        "Articol unic - Art. 27 alin. (2⁴) teza I: Înscrierea în registrul agricol și în evidențele fiscale (făcută adesea prin simplă declarație pe proprie răspundere) este transformată într-un temei de împroprietărire administrativă gratuită, fără verificarea bunei-credințe sau a apartenenței terenului la domeniul privat (și nu public) al statului ori al UAT-ului.",
-        "Articol unic - Art. 27 alin. (2⁴) lit. a): Erori flagrante de redactare și competență — textul trimite la un inexistent „art. 2³” în loc de „alin. (2³)”, atribuie verificarea „primăriilor” în locul comisiilor locale de fond funciar și prevede un hibrid procedural inexistent („ordin al prefectului privind atribuirea titlului de proprietate”, în loc de titlu emis de comisia județeană)."
+        "Art. unic – alin. (2⁴) trimite la un „art. 2³” inexistent în Legea 18/1991 (în loc de art. 27 alin. 2³) și nu limitează aplicarea la terenuri agricole din zone cooperativizate, deși Expunerea de Motive pretinde contrariul, deschizând calea pentru orice categorie de teren.",
+        "Spre deosebire de alin. (2¹) și (2³) în vigoare, alin. (2⁴) nu cere ca terenul să fie în proprietatea privată a statului/UAT, să nu aibă titlu anterior sau carte funciară deschisă și nici să nu facă obiectul unui litigiu (deși Expunerea de Motive afirmă fals că această dovadă ar fi cerută).",
+        "Termenul „deținătorii” nu exclude persoanele juridice, arendașii, concesionarii sau ocupanții recenți înscriși în registrul agricol și fiscal, nu impune nicio vechime a posesiei și niciun plafon de suprafață.",
+        "Lit. a) are o formulare defectuoasă care nu leagă expres terenul solicitat de excedentul constatat după cadastrul sistematic și nu clarifică prioritatea față de rezerva destinată restituirilor pe Legea 165/2013 din alte UAT-uri.",
+        "Procedura ocolește complet comisiile locale și județene de fond funciar (deși Expunerea de Motive spune că ele emit titlurile), transferând decizia exclusiv către primărie (propunere) și prefect (ordin privind „atribuirea titlului de proprietate”)."
       ],
-      "blindSpotsCaught": "Proiectul ignoră complet că Legea cadastrului și a publicității imobiliare nr. 7/1996 (art. 13) reglementează deja exact ipoteza posesorilor fără acte la cadastrul sistematic (prin notarea posesiei în cartea funciară și dobândirea proprietății după 3 ani). În plus, condiționarea de „finalizarea lucrărilor de cadastru sistematic la nivelul UAT-ului” (integral) face legea inaplicabilă în peste 90% din comunele României, unde cadastrul sistematic se finalizează etapizat pe sectoare cadastrale, nu pe întreg UAT-ul deodată.",
-      "constitutionalityNote": "Proiectul încalcă flagrant art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii) prin trimiterea greșită la „art. 2³”, incoerența gramaticală a literei a), confuzia între primărie și comisia locală de fond funciar și contradicția cu Legea nr. 7/1996. De asemenea, contravine art. 136 alin. (2)-(4) și art. 44 din Constituție (jurisprudența constantă a CCR privind protecția proprietății publice și private a statului/UAT), întrucât nu exclude terenurile din domeniul public și permite transferul gratuit și neplafonat al bunurilor din rezerva UAT către particulari fără un titlu istoric de îndreptățire la reconstituire.",
-      "euLawNote": "Măsura nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) sau a Directivei (UE) 2018/958 privind reglementarea profesiilor. Totuși, din perspectiva normelor UE privind ajutoarele de stat (art. 107 TFUE) și a pieței funciare agricole, atribuirea gratuită și fără plafon de suprafață a unor terenuri agricole din patrimoniul public/privat al UAT-urilor către operatori economici sau exploatații agricole care doar le-au declarat în registrul agricol poate constitui un avantaj economic selectiv nejustificat, distorsionând concurența locală.",
+      "blindSpotsCaught": "În lit. a), condiția verificată de primărie este ca la nivelul UAT-ului să fi fost finalizat cadastrul sistematic și să existe „un excedent de teren”, fără a impune expres ca parcela solicitată să provină din acel excedent și fără a limita atribuirile la întinderea excedentului. În plus, fiindcă textul nu restrânge beneficiarii la persoane fizice și nu pune plafon de hectare, o exploatație agricolă (firmă) înscrisă în registrul agricol ca utilizator/deținător ar putea solicita atribuirea gratuită a unor suprafețe mari din rezerva publică, generând risc de ajutor de stat ilegal (art. 107 TFUE).",
+      "constitutionalityNote": "Vulnerabilități grave de neconstituționalitate: (1) Art. 1 alin. (5) – lipsă severă de claritate și previzibilitate (trimitere la „art. 2³” inexistent, sintaxă trunchiată la lit. a), lipsa definiției „deținătorului” și a procedurii de punere în posesie/contestare); (2) Art. 136 alin. (4) – neexcluzând domeniul public, permite scoaterea din proprietatea publică a statului/UAT a unor terenuri inalienabile; (3) Art. 44 – absența verificării titlurilor anterioare, cărții funciare și litigiilor pune în pericol dreptul de proprietate al terților și al persoanelor îndreptățite la restituire pe Legea 165/2013; (4) Art. 16 alin. (1) – creează discriminare între cetățeni după un criteriu extern lor (finalizarea cadastrului sistematic la nivelul întregului UAT).",
+      "euLawNote": "Nu intră sub incidența Directivei (UE) 2018/958 (profesii reglementate) și nici a Directivei (UE) 2015/1535 (TRIS, servicii digitale/standardizare). Totuși, regimul proprietății funciare trebuie să respecte normele UE privind ajutoarele de stat (art. 107–108 TFUE): transferul gratuit, fără licitație și fără plafon, al unor terenuri din rezerva statului/UAT către „deținători” care pot include întreprinderi agricole riscă să constituie ajutor de stat selectiv nenotificat. Sub aspectul CEDO (art. 1 Protocolul nr. 1), emiterea de titluri fără verificarea titlurilor anterioare, cărții funciare și litigiilor afectează securitatea raporturilor juridice.",
       "senatForm": {
-        "articleRef": "Articol unic - Art. 27 alin. (2^4) Legea 18/1991",
-        "proposalContent": "La art. 27 alin. (2^4), textul se modifică: atribuirea vizează exclusiv terenuri agricole din foste zone cooperativizate, aflate în domeniul privat al statului/UAT, în limita a 5 ha, deținute continuu de minimum 15 ani conform registrului agricol, la propunerea comisiei locale de fond funciar și cu titlu emis de comisia județeană, nu de primărie/prefect.",
-        "argumentation": "Forma propusă permite împroprietărirea gratuită pe orice tip de teren și fără plafon de suprafață sau vechime minimă a posesiei, doar pe baza înscrierii în registrul agricol. De asemenea, trimite eronat la „art. 2^3” în loc de „alin. (2^3)”, confundă primăria cu comisia locală de fond funciar și nu exclude terenurile din domeniul public al statului/UAT.",
-        "otherComments": "Legea nr. 7/1996 (art. 13) reglementează deja notarea posesiei și dobândirea proprietății la cadastrul sistematic pentru posesorii fără acte. Totodată, condiționarea de finalizarea cadastrului pe întreg UAT-ul blochează aplicarea în comunele cadastrate doar pe sectoare cadastrale și încalcă art. 1 alin. (5) și art. 136 din Constituție."
-      }
+        "articleRef": "Articol unic – art. 27 alin. (2⁴) Legea 18/1991",
+        "proposalContent": "Corectarea trimiterii la alin. (2³) și limitarea aplicării la persoane fizice, pentru terenuri agricole din excedentul privat al UAT/statului, cu vechime minimă a posesiei și plafon de suprafață, verificându-se absența unui titlu anterior, a cărții funciare și a litigiilor, cu avizul comisiei locale și județene de fond funciar.",
+        "argumentation": "Textul trimite la un «art. 2³» inexistent și omite garanțiile din art. 27 alin. (2¹) și (2³): nu exclude domeniul public, firmele, arendașii ori terenurile cu titlu, CF sau litigii și nu cere vechime a posesiei. Încalcă art. 1 alin. (5), art. 44 și art. 136 alin. (4) din Constituție și permite împroprietăriri abuzive din rezerva funciară.",
+        "otherComments": "Solicităm avizul ANCPI, MADR și al Consiliului Legislativ, precum și corelarea cu Fondul Național al Terenurilor din Legea 165/2013, astfel încât excedentul local să nu fie înstrăinat gratuit în dauna persoanelor cu cereri de restituire nesoluționate din UAT-uri deficitare. Fără aceste garanții, propunerea trebuie respinsă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 190808,
-      "riskScore": 5,
+      "durationMs": 64494,
+      "sourceEndMarker": "SF-574201BD",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Terenul rămas în plus după cadastru, dat în proprietate celor care îl folosesc",
-      "verdictShort": "Problema e reală: mulți oameni lucrează de zeci de ani terenuri fără acte și plătesc impozit pe ele. Articolul unic e însă mai larg și mai slab păzit decât promite expunerea de motive (nu se limitează la terenuri agricole, nu cere lipsa unui litigiu, nu are plafon și trimite greșit), deci merită adoptat doar cu amendamente.",
-      "initiatorClaim": "Inițiatorii spun că art. 27 alin. (2³) permite titluri doar pentru curtea și grădina din jurul casei, în intravilan. Din acest motiv, comisiile resping cererile celor care lucrează de zeci de ani terenuri agricole din fostele CAP, inclusiv în extravilan, și plătesc impozit pe ele. Ei vor să extindă mecanismul la aceste terenuri, acolo unde cadastrul sistematic a scos la iveală excedente.",
-      "realityCheck": "Articolul unic permite oricui figurează cu un teren în registrul agricol și în evidențele fiscale să ceară primăriei atribuirea lui în proprietate, prin ordin al prefectului, pentru «alte terenuri» decât cele de lângă casă. Textul nu se limitează la terenuri agricole sau la fostele CAP, nu are plafon de suprafață, nu cere o durată minimă de folosință și nu spune dacă atribuirea e gratuită. Există doar două filtre: în UAT trebuie să existe un excedent constatat după cadastrul sistematic, iar terenul să nu fie cerut de alte persoane. Condiția lipsei unui litigiu, anunțată în fișa Camerei, nu apare în text.",
+      "plainTitle": "Terenuri agricole de stat sau ale primăriei date în proprietate celor care le folosesc și le au trecute în registrul agricol",
+      "verdictShort": "Problema reală, adică posesori de zeci de ani fără titlu, primește o soluție redactată neglijent. Textul nu cere ca terenul să fie al statului sau al UAT, nu cere lipsa litigiului și nu stabilește nicio dată-limită de înscriere în registrul agricol. Astfel, un mecanism gândit pentru reparație poate deveni o cale de împroprietărire gratuită, greu de controlat.",
+      "initiatorClaim": "Inițiatorii spun că alin. (2³) permite titluri doar pentru curtea și grădina din jurul casei. Vor ca și deținătorii de terenuri agricole din intravilan și extravilan, din fostele zone cooperativizate, să obțină titlu dacă figurează în registrele agricole și fiscale, terenul nu e în litigiu și nu e revendicat de altcineva.",
+      "realityCheck": "Noul alin. (2⁴) permite oricărui „deținător” înscris în registrul agricol și în evidența fiscală să ceară atribuirea în proprietate a terenului. Primăria propune, iar prefectul emite ordin. Condițiile din text sunt doar două: (a) o frază incoerentă despre UAT-urile în care s-a constatat un excedent de teren după cadastrul sistematic, care nu leagă explicit terenul cerut de acel excedent; (b) lipsa altor cereri de reconstituire pentru acel teren. Garanțiile invocate în expunerea de motive (lipsa litigiului, proprietatea statului sau a UAT, terenuri din fostele CAP) nu apar în textul normativ. Nu există limită de suprafață, dată de referință a posesiei sau preț. Textul nu spune nici ce se întâmplă cu terenurile arendate sau concesionate de la UAT ori de la ADS.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. unic, alin. (2⁴) teza I: sfera este «alte terenuri decât cele de la art. 2³». Trimiterea e greșită, pentru că e vorba de alin. (2³) al art. 27. În plus, textul nu spune «agricole» și nici «din fostele zone cooperativizate», cum promit expunerea și fișa Camerei. Pe litera legii pot intra și pășuni, terenuri forestiere sau neproductive.",
-        "Fișa Camerei și expunerea de motive spun că trebuie dovedit că terenul «nu face obiectul unui litigiu». Textul nu conține această condiție. Lit. b) cere doar să nu existe cereri de reconstituire sau constituire din partea altor persoane, așa că nimic nu împiedică atribuirea unui teren aflat în proces.",
-        "Legea nu definește cine sunt «deținătorii». Registrul agricol se completează pe baza declarațiilor, iar Codul fiscal îi trece în evidențe și pe concesionarii sau chiriașii terenurilor statului și ale UAT, ca plătitori ai taxei pe teren. Fără o durată minimă sau o dată-limită de înscriere, textul încurajează declarații noi. Mai mult, un concesionar ar putea cere în proprietate chiar terenul primit doar în folosință.",
-        "Legea nu stabilește un plafon de suprafață și nu precizează dacă atribuirea e gratuită sau cu plată. În extravilan, unde expunerea însăși vorbește de activități agricole «de întindere medie și mare», beneficiul poate ajunge mai ales la exploatatorii care figurează cu suprafețe întinse.",
-        "Lit. a) descrie unitatea administrativ-teritorială (să existe un excedent constatat după cadastrul sistematic), nu terenul. Nu spune expres că parcela atribuită trebuie să facă parte din excedent și nici cum se împarte excedentul când îl cer mai mulți.",
-        "Procedura e doar schițată. Verificarea o face primăria, nu comisia locală de fond funciar care are terenurile la dispoziție, iar comisia județeană nu apare deloc. Nu există termen de depunere sau de soluționare, afișare publică ori cale de contestare. Formula «ordin privind atribuirea titlului de proprietate» amestecă două acte diferite.",
-        "Pentru beneficiari, costurile sunt mici, fiindcă lit. a) presupune cadastrul sistematic deja finalizat. Expunerea afirmă că impactul bugetar e zero, dar terenurile ies din proprietatea statului sau a UAT. Asta înseamnă pierderea eventualelor redevențe sau chirii, iar suprafața totală vizată nu a fost evaluată."
+        "Trimitere greșită: textul spune „altele decât cele de la art. 2³”. Art. 2³ nu există; e vorba de alin. (2³) al art. 27. Eroarea afectează previzibilitatea normei.",
+        "Lit. a) nu formulează o condiție verificabilă. Pare să ceară doar ca UAT-ul să aibă un excedent constatat după cadastrul sistematic (art. 6 alin. (2) lit. a) din Legea 165/2013), fără să ceară ca terenul solicitat să facă parte din acel excedent.",
+        "Spre deosebire de alin. (2³) lit. b), textul nu cere ca terenul să fie în proprietatea statului sau a UAT. Spre deosebire de alin. (2¹) lit. b)-c), nu cere ca terenul să nu aibă carte funciară deschisă sau titlu emis anterior. Există deci riscul unor ordine emise peste drepturi deja înscrise.",
+        "Condiția „nu e în litigiu” apare doar în expunerea de motive și în fișa Camerei, nu și în textul articolului.",
+        "Registrul agricol se completează în mare parte pe baza declarației deținătorului. În lipsa unei date-limită (de exemplu, înscriere anterioară unui anumit an), oricine se declară acum deținător poate cere ulterior teren gratuit.",
+        "Lit. b) protejează doar cererile de reconstituire care vizează exact acel teren. Nu protejează persoanele îndreptățite care așteaptă compensare în teren din rezerva comisiei, inclusiv pe amplasamente din alte UAT-uri.",
+        "Textul nu spune dacă atribuirea e gratuită sau oneroasă și nu impune o limită de suprafață. Pe suprafețele mari din extravilan, efectul poate fi un transfer patrimonial semnificativ din averea publică, nebugetat.",
+        "Nepotrivire de competență: expunerea de motive spune că emit titlu comisiile locale de fond funciar, iar textul dă rolul primăriei și prefectului, cu formularea improprie „ordin privind atribuirea titlului de proprietate”."
       ],
-      "blindSpotsCaught": "Fișa și textul nu spun același lucru. Fișa Camerei spune că titlurile le emit comisiile locale și că se cere dovada lipsei unui litigiu. Textul dă verificarea primăriei și decizia prefectului și omite litigiul. Cea mai subtilă capcană e cuvântul «deținători», combinat cu evidențele fiscale: plătitorii taxei pe teren pentru terenurile statului sau ale UAT sunt tocmai concesionarii și chiriașii, care ar putea cere în proprietate un teren pe care îl au doar în folosință. În plus, lit. b) verifică doar cererile asupra acelor terenuri. Nu verifică dacă excedentul ar fi putut servi cererilor de reconstituire încă nesoluționate din alte localități ale județului.",
-      "constitutionalityNote": "Materia ține de regimul juridic general al proprietății (art. 73 alin. (3) lit. m)), deci e lege organică, adoptată cu majoritatea de la art. 76 alin. (1), cum menționează și formula finală. Ordinea Senat, apoi Camera decizională, respectă art. 75. Scopul, adică securitatea juridică a proprietății rurale, e legitim și compatibil cu art. 44. Legea nu instituie sancțiuni, deci art. 23 alin. (12) nu e în discuție. Problemele țin de art. 1 alin. (5). Trimiterea greșită la «art. 2³», sfera nedefinită a «altor terenuri», lit. a) redactată ca descriere a UAT-ului și lipsa unei proceduri clare afectează previzibilitatea și trebuie corectate conform Legii nr. 24/2000. Textul nu exclude terenurile din domeniul public, iar aplicarea lui asupra acestora ar încălca inalienabilitatea de la art. 136 alin. (4). Atribuirea fără plafon și fără precizarea prețului poate ridica și o problemă de egalitate (art. 16) față de foștii proprietari care încă așteaptă reconstituirea.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că legea nu conține reglementări tehnice sau reguli pentru servicii ale societății informaționale. Punctul sensibil sunt ajutoarele de stat (art. 107 TFUE). Fermierii sunt întreprinderi în sensul dreptului UE, iar atribuirea gratuită sau sub prețul pieței a terenurilor statului ori ale UAT către ei poate constitui un avantaj selectiv. Beneficiarii nu sunt foști proprietari, deci nu e vorba de restituire. Fără plafon de suprafață, încadrarea în ajutorul de minimis pentru agricultură (Regulamentul (UE) nr. 1408/2013) nu e garantată și ar trebui verificată cu Consiliul Concurenței. Libera circulație a capitalurilor nu e afectată, pentru că criteriul e înscrierea în evidențe, nu cetățenia. Atribuirea nu e o vânzare, deci dreptul de preempțiune din Legea nr. 17/2014 nu intervine.",
+      "blindSpotsCaught": "Excedentul identificat potrivit Legii 165/2013 nu e „liber”. El servește în primul rând la finalizarea restituirilor în natură pentru cererile încă nesoluționate, inclusiv prin compensare cu terenuri din alte UAT-uri. Proiectul îl dă celor care îl folosesc în fapt înainte de încheierea restituirilor. În plus, termenul „deținător”, nedefinit, poate include arendași, concesionari sau utilizatori fără titlu ai terenurilor ADS ori ale UAT. Textul permite, în fapt, transformarea unui contract de folosință în proprietate gratuită.",
+      "constitutionalityNote": "Art. 1 alin. (5): trimiterea greșită la „art. 2³”, lit. a) fără sens normativ și noțiunea nedefinită de „deținător” contravin cerințelor de claritate și previzibilitate consacrate în jurisprudența CCR. Art. 44: există riscul de a afecta drepturile persoanelor îndreptățite la reconstituire care nu au primit încă teren, deoarece rezerva de teren se micșorează fără garanții. Art. 136 alin. (3)-(4): textul nu exclude expres terenurile din domeniul public, care sunt inalienabile. Art. 16: atribuirea gratuită în funcție de simpla înscriere în registru, fără dată de referință, poate crea un tratament diferit nejustificat față de cei care au cumpărat terenuri similare. Art. 111 alin. (1) și art. 138 alin. (5): susținerea că efectul financiar e nul e discutabilă, pentru că statul și UAT-urile renunță la bunuri din domeniul privat. Ar fi necesare informarea și punctul de vedere al Guvernului.",
+      "euLawNote": "Directiva 2018/958 nu este aplicabilă, pentru că proiectul nu reglementează profesii. Nici Directiva TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii ale societății informaționale sau reglementări tehnice. Problema relevantă e regimul ajutoarelor de stat (art. 107 TFUE): transferul gratuit de terenuri agricole publice către producători agricoli activi poate constitui un avantaj selectiv. Dacă nu se încadrează în de minimis agricol sau în reformele funciare de restituire, ar putea necesita notificare. Nu se ridică probleme de liberă circulație a capitalurilor (art. 63 TFUE), deoarece criteriul de acces nu ține de cetățenie.",
       "senatForm": {
-        "articleRef": "Art. unic, art. 27 alin. (2⁴) din Legea 18/1991",
-        "proposalContent": "Teza I devine: «Pentru terenurile agricole din fostele CAP, altele decât cele de la alin. (2³), aflate în excedentul prevăzut la lit. a), deținătorii înscriși cu ele în registrul agricol și în evidențele fiscale de cel puțin 10 ani pot cere primăriei atribuirea, în limita a 10 ha pe familie.» Se adaugă lit. c): «terenul nu face obiectul unui litigiu.»",
-        "argumentation": "Textul inițiatorilor nu reflectă expunerea de motive: nu se limitează la terenuri agricole din fostele CAP, nu cere absența unui litigiu (deși fișa Camerei o promite), nu leagă explicit terenul atribuit de excedentul constatat și nu are plafon. Registrul agricol se bazează pe declarații, deci o durată minimă de înscriere previne înscrierile de ultim moment.",
-        "otherComments": "Trimiterea la «art. 2³» trebuie corectată în «alin. (2³)». Propun și: afișarea listei cererilor la primărie și pe site cu 30 de zile înainte de propunerea către prefect, pentru eventuale opoziții; precizarea dacă atribuirea e gratuită; excluderea expresă a fondului forestier, pășunilor comunale și domeniului public; un termen-limită pentru depunerea cererilor."
-      }
+        "articleRef": "Art. unic – art. 27 alin. (2⁴) L. 18/1991",
+        "proposalContent": "(2⁴) Pentru terenurile din proprietatea privată a statului sau UAT, altele decât cele de la alin. (2³), incluse în excedentul validat conform art. 6 din Legea 165/2013, deținătorii înscriși în registrul agricol și fiscal înainte de 1.01.2010 pot cere atribuirea dacă terenul: a) nu e cerut ori necesar pentru restituiri; b) nu e în litigiu; c) nu are carte funciară deschisă.",
+        "argumentation": "Textul inițial trimite greșit la «art. 2³», nu leagă terenul de excedent, nu cere ca terenul să fie al statului/UAT, nici lipsa litigiului (deși expunerea de motive o pretinde). Registrul agricol e declarativ: fără dată-limită, oricine se înscrie acum poate primi gratuit teren al statului. Restituirile nefinalizate trebuie protejate (art. 44 Constituție).",
+        "otherComments": "Se impune avizul ANCPI, ADS și MADR, evaluarea ca ajutor de stat (art. 107 TFUE) a atribuirii gratuite către fermieri, o limită de suprafață și corelarea termenilor: textul spune «ordin privind atribuirea titlului», deși la alin. (2³) ordinul prefectului atribuie dreptul de proprietate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 125701,
+      "durationMs": 82351,
+      "sourceEndMarker": "SF-574201BD",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Terenuri în proprietatea deținătorilor, cu garanții insuficiente",
-      "verdictShort": "Obținerea titlurilor poate rezolva probleme reale ale deținătorilor de terenuri. Totuși, proiectul permite atribuirea proprietății prin condiții insuficient delimitate, cu riscuri pentru proprietarii existenți, patrimoniul public și persoanele care așteaptă restituirea.",
-      "initiatorClaim": "Inițiatorii urmăresc să permită obținerea titlurilor pentru terenurile agricole din fostele zone cooperativizate, inclusiv din extravilan, care nu sunt aferente locuințelor. Ei invocă posesia îndelungată, înscrierea în evidențele agricole și fiscale și existența unor excedente de teren.",
-      "realityCheck": "Noul alin. (2⁴) instituie o cale de atribuire a proprietății către deținători sau moștenitori înscriși în registrele agricole și fiscale, condiționată de inventariere, excedent cadastral și absența cererilor concurente de reconstituire ori constituire. Nu cere expres dovada unei proprietăți anterioare, o durată minimă a posesiei, inexistența litigiilor sau apartenența parcelei la domeniul privat al statului/UAT și nu limitează explicit beneficiul la terenurile agricole din fostele zone cooperativizate. Mecanismul atribuie prefectului emiterea unui ordin pe baza propunerii primăriilor, deși motivarea vorbește despre emiterea titlurilor de către comisiile locale. [Forma inițiatorului](https://www.senat.ro/legis/PDF/2026/26L229FG.PDF)",
+      "plainTitle": "Terenuri atribuite deținătorilor înscriși în registre și la fisc",
+      "verdictShort": "Proiectul poate clarifica situația unor terenuri deținute fără titlu, dar mecanismul depășește simpla reparare a unei omisiuni. Condițiile propuse nu delimitează suficient terenurile disponibile și beneficiarii, ceea ce creează riscuri pentru patrimoniul public și drepturile altor persoane.",
+      "initiatorClaim": "Inițiatorii urmăresc să permită obținerea proprietății asupra terenurilor agricole din fostele zone cooperativizate, inclusiv din extravilan, de către deținătorii care figurează în evidențele oficiale. Ei susțin că astfel se încheie situații de incertitudine și se facilitează investițiile agricole.",
+      "realityCheck": "În prezent, art. 27 alin. (2³) reglementează atribuirea terenurilor aferente anumitor locuințe, iar alin. (2¹) păstrează o procedură distinctă pentru anumite terenuri necooperativizate; proiectul adaugă o cale pentru alte terenuri, condiționată de existența unui excedent constatat după cadastrarea sistematică a UAT. Textul nu limitează expres această cale la terenuri agricole din fostele zone cooperativizate și nu stabilește durata posesiei, buna-credință sau suprafața maximă atribuibilă. Primăriile verifică și propun, iar prefectul emite ordinul, fără ca textul să prevadă emiterea directă a titlurilor de către comisiile locale, așa cum afirmă expunerea.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
-        "Justiție & Drepturi Civile",
         "Agricultură & Mediu",
+        "Justiție & Drepturi Civile",
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. 27 alin. (2⁴), partea introductivă: evidențele agricole și fiscale devin condiții de acces la atribuirea proprietății, fără cerințe exprese privind vechimea sau temeiul deținerii. Plata impozitului nu dovedește singură proprietatea; mecanismul poate constitui un drept nou, nu doar recunoaște un drept anterior.",
-        "Lit. a): existența excedentului este formulată la nivelul UAT, fără o legătură suficient de explicită între parcela solicitată și excedentul efectiv disponibil. Art. 6 alin. (2) lit. a) din Legea nr. 165/2013 privește inventarierea rezervei comisiei locale; inventarierea nu dovedește singură disponibilitatea juridică pentru atribuire. [Legea nr. 165/2013](https://legislatie.just.ro/Public/DetaliiDocument/202942)",
-        "Lit. b): sunt excluse cererile altor persoane pentru reconstituire sau constituire, dar nu sunt menționate expres litigiile privind proprietatea, titlurile deja emise ori proprietatea terților. Aceste omisiuni nu desființează protecțiile generale existente, însă sporesc riscul interpretărilor divergente și al suprapunerilor.",
-        "Proiectul nu introduce taxe, amenzi sau monopoluri. Titlurile pot facilita tranzacțiile și finanțarea fermierilor și IMM-urilor agricole, dar verificările, documentațiile cadastrale și eventualele litigii implică timp și costuri; valoarea terenurilor atribuite reprezintă și un impact patrimonial care merită evaluat.",
-        "Consiliul Fiscal nu a identificat indicii de majorare a cheltuielilor sau diminuare a veniturilor bugetare care să necesite opinia sa. Această constatare nu echivalează cu demonstrarea absenței oricăror costuri administrative ori efecte asupra patrimoniului statului/UAT. [Opinia Consiliului Fiscal](https://www.senat.ro/legis/PDF/2026/26L229CF.PDF)"
+        "Art. 27 alin. (2⁴) propus creează o atribuire în proprietate, fără să ceară dovada unui drept anterior al solicitantului. Înscrierea în registrul agricol și în evidențele fiscale nu dovedește, prin ea însăși, proprietatea; prezentarea întregului mecanism drept reconstituire este imprecisă.",
+        "Spre deosebire de actualul alin. (2³) lit. b), noul alineat nu cere expres ca terenul să aparțină statului sau UAT. Condițiile alineatului vecin nu se transferă automat asupra celui nou, însă nici protecția generală a proprietății terților și inalienabilitatea domeniului public nu sunt abrogate.",
+        "Lit. a) cere existența unui excedent la nivelul UAT, dar nu precizează suficient că fiecare parcelă solicitată trebuie identificată în acel excedent și disponibilă după acoperirea obligațiilor legale de restituire. Existența unui surplus numeric nu dovedește singură disponibilitatea juridică a parcelei.",
+        "Lit. b) exclude terenurile care fac obiectul cererilor altor persoane pentru reconstituire sau constituire. Această verificare nu echivalează cu verificarea tuturor litigiilor, titlurilor existente și drepturilor tabulare; condiția lipsei litigiilor, invocată în expunere, nu apare în textul normativ.",
+        "Nu există o dată de referință pentru înscrierea în registre, o durată minimă a posesiei ori o limită de suprafață. Prin urmare, textul nu rezervă beneficiul deținătorilor care exploatează terenurile de zeci de ani, deși aceasta este justificarea centrală a inițiatorilor.",
+        "Finalizarea cadastrului sistematic la nivelul UAT este o condiție efectivă din lit. a). Afirmația expunerii că mecanismul ar funcționa și în UAT fără cadastru sistematic finalizat, prin cadastru sporadic, nu este susținută de formularea propusă.",
+        "Trimiterea introductivă la «art. 2³» nu identifică neechivoc art. 27 alin. (2³), aparent avut în vedere. Trebuie confruntată cu documentul original și corectată înaintea adoptării; nu poate fi reparată doar prin explicațiile inițiatorilor.",
+        "Proiectul nu instituie taxe sau sancțiuni noi. Verificările, documentațiile și eventualele litigii generează totuși sarcini administrative necuantificate, iar creșterea veniturilor fiscale nu este demonstrată: beneficiarii trebuie deja să figureze cu terenurile în evidențele fiscale.",
+        "Dispoziția finală folosește formula «în termen de 30 de zile», care trebuie înlocuită cu o dată determinabilă, precum «la 30 de zile de la publicare». Nu există dispoziții tranzitorii, un termen special de soluționare sau obligația normativă de elaborare a ghidului și normelor promise în expunere."
       ],
-      "blindSpotsCaught": "Trimiterea la «art. 2³» este eronată; Consiliul Legislativ indică drept posibilă referință art. 27 alin. (2³). Condițiile alineatului existent nu se transferă automat noului alineat, iar formula «în termen de 30 de zile» trebuie înlocuită cu o dată determinabilă: «la 30 de zile de la data publicării». Consiliul Legislativ a semnalat aceste probleme în avizul favorabil cu observații. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L229LG.PDF)",
-      "constitutionalityNote": "Există vulnerabilități serioase sub art. 1 alin. (5): categoria terenurilor, trimiterea greșită și raportul dintre primării, comisii și prefect necesită clarificare. Art. 44 impune protejarea proprietarilor existenți, iar art. 136 alin. (4) interzice înstrăinarea bunurilor cât timp aparțin domeniului public; inventarierea sau constatarea excedentului nu înlătură această interdicție. Atribuirea terenurilor UAT trebuie corelată și cu autonomia locală, potrivit art. 120. Condiționarea accesului de finalizarea cadastrului sistematic necesită justificare obiectivă în raport cu art. 16, fără a constitui automat discriminare. Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident deoarece proiectul nu instituie pedepse. Sunt riscuri de neconstituționalitate care justifică amendarea, nu o constatare jurisdicțională definitivă. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă: proiectul nu restricționează accesul la profesii reglementate sau exercitarea lor. [Directiva, art. 1–2](https://eur-lex.europa.eu/eli/dir/2018/958/oj?locale=ro) Nu rezultă obligația notificării TRIS potrivit Directivei (UE) 2015/1535: textul nu introduce reglementări tehnice pentru produse ori norme specifice serviciilor digitale/AI. [Directiva 2015/1535](https://eur-lex.europa.eu/eli/dir/2015/1535/oj/ron/pdf) Nu apar monopoluri sau bariere profesionale, însă atribuirea fără contraprestație a terenurilor statului/UAT unor beneficiari care desfășoară activități economice poate necesita verificarea unui avantaj selectiv și a celorlalte condiții cumulative ale ajutorului de stat; existența unui ajutor incompatibil nu poate fi dedusă automat. [Comisia Europeană: condițiile art. 107 TFUE](https://romania.representation.ec.europa.eu/stiri-evenimente-si-resurse-pentru-presa/stiri/comisia-aproba-ajutorul-de-stat-pentru-banca-de-investitii-si-dezvoltare-romaniei-2026-06-26_ro)",
+      "blindSpotsCaught": "Condiția decisivă este disponibilitatea juridică a parcelei, nu simpla existență a unui excedent în UAT. În plus, proiectul nu înlătură expres procedurile și garanțiile generale aplicabile: lipsa repetării lor nu înseamnă dispariția controlului judecătoresc. Totuși, procedura de atribuire prin ordin al prefectului trebuie corelată clar cu documentația funciară și înscrierea în cartea funciară.",
+      "constitutionalityNote": "Principalul risc privește art. 1 alin. (5): sfera terenurilor, identificarea excedentului disponibil și procedura trebuie să fie clare și previzibile. Art. 44 impune respectarea proprietății terților, iar art. 136 alin. (4) împiedică atribuirea bunurilor care aparțin domeniului public fără schimbarea legală prealabilă a regimului lor; omisiunea unei delimitări nu constituie o derogare de la aceste garanții. Criteriile beneficiarilor și diferența dintre UAT cu și fără cadastru finalizat necesită justificare obiectivă în raport cu art. 16, fără ca această diferență să fie automat neconstituțională. Art. 23 alin. (12) nu este incident, deoarece nu sunt introduse pedepse. Caracterul organic indicat este justificat de materia proprietății; nu rezultă din text o încălcare procedurală certă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu rezultă ca necesară, deoarece nu sunt introduse reglementări tehnice privind produse ori servicii ale societății informaționale. Nu apare un monopol sau o restricție explicită la circulația capitalurilor. Dacă atribuirea avantajează selectiv întreprinderi, inclusiv exploatații agricole, transferul terenurilor din patrimoniul public trebuie evaluat și prin regulile ajutorului de stat; existența ajutorului incompatibil nu poate fi prezumată. Competența națională asupra proprietății nu exclude aplicarea dreptului UE.",
       "senatForm": {
-        "articleRef": "Articol unic – art. 27 alin. (2⁴) lit. b)",
-        "proposalContent": "b) terenurile aparțin domeniului privat al statului sau al unității administrativ-teritoriale, sunt incluse în excedentul identificat cadastral, nu sunt necesare soluționării cererilor de restituire, nu aparțin terților, nu există alte titluri valabile pentru acestea și nu fac obiectul unor cereri de reconstituire ori constituire sau al unor litigii privind proprietatea.",
-        "argumentation": "Înscrierea fiscală și registrul agricol nu dovedesc singure proprietatea. Condițiile propuse protejează domeniul public, proprietarii și persoanele îndreptățite la restituire și leagă fiecare atribuire de excedentul verificat cadastral. Se reduc riscurile de suprapunere a titlurilor și de aplicare arbitrară.",
-        "otherComments": "Corectați trimiterea «art. 2³» și delimitați terenurile eligibile, durata și temeiul posesiei. Precizați rolurile comisiilor și prefectului, publicitatea cererilor și termenul de soluționare. Formulați distinct intrarea în vigoare: «la 30 de zile de la data publicării». Termenul parlamentar de amendamente, 17.06.2026, este depășit."
-      }
+        "articleRef": "Art. unic: art. 27 alin. (2⁴), lit. c) nouă",
+        "proposalContent": "Se adaugă lit. c): „c) terenul solicitat este identificat cadastral, aparține domeniului privat al statului ori al UAT și constituie excedent disponibil după acoperirea obligațiilor legale de restituire; nu este litigios și nu este grevat de drepturi de proprietate ale terților.”",
+        "argumentation": "Excedentul constatat la nivelul UAT nu dovedește disponibilitatea fiecărei parcele. Condiția propusă protejează domeniul public, proprietarii și persoanele îndreptățite la restituire, delimitând terenurile atribuibile în acord cu art. 1 alin. (5), art. 44 și art. 136 din Constituție.",
+        "otherComments": "Evaluare pe textele furnizate; verificarea online nu a fost disponibilă. Corectați trimiterea «art. 2³» și formula intrării în vigoare: «la 30 de zile de la publicare». Clarificați durata posesiei, limitele atribuirii și procedura de publicitate și contestare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T00:59:29.853Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 8,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:08:11.221Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

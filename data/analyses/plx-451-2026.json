@@ -1,120 +1,179 @@
 {
   "billId": "Pl-x 451/2026",
   "slug": "plx-451-2026",
-  "updatedAt": "2026-10-29T00:54:00.196Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T15:10:10.322Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 971,
+    "ordinanceChars": 0,
+    "memoChars": 10345,
+    "memoSupplied": 10345,
+    "marker": "SF-202D8412"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-451-2026.json",
+    "form": "initiator",
+    "textHash": "202d841294299a28",
+    "fetchedAt": "2026-11-19T11:05:41.831Z",
+    "acts": 1,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1159,
+    "truncated": false,
+    "included": true,
+    "key": "fb5735855f83b84b"
+  },
   "consensus": {
-    "riskScore": 3.3,
+    "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "Banii pentru terenurile date ilegal și revândute: cine îi primește",
-    "summaryTlDr": "Este o corecție tehnică utilă: permite primăriilor sau statului să recupereze banii pentru terenurile atribuite ilegal și apoi revândute. Defectul ei este termenul vag „persoană păgubită”, care poate naște dispute despre cine încasează suma.",
-    "initiatorClaim": "Inițiatorii vor ca prețul actualizat să fie plătit nu doar fostului proprietar, ci oricărei persoane păgubite. Aici intră și UAT-ul reprezentat de primar, pentru terenurile rămase la dispoziția comisiei de fond funciar, atribuite ilegal și apoi revândute.",
-    "realityCheck": "Articolul unic schimbă doar beneficiarul plății: prețul actualizat nu mai merge numai la „fostul proprietar rămas fără teren”, ci la „persoana păgubită”. Astfel, UAT-ul sau statul pot cere banii pentru terenurile care nu au avut un fost proprietar (cele de la dispoziția comisiei), ceea ce e util. Chichița: termenul nu e definit și legea nu stabilește o ordine de prioritate. Fostul proprietar, UAT-ul, statul sau ultimul cumpărător pot cere aceeași sumă, iar instanțele vor decide de la caz la caz.",
+    "plainTitle": "Cine primește banii când un teren vândut pe baza unui titlu de proprietate anulat nu mai poate fi recuperat",
+    "summaryTlDr": "Modificare scurtă, cu scop legitim: și primăria sau comisia de fond funciar pot recupera prețul unui teren atribuit ilegal și revândut. Formula «persoana păgubită» este însă atât de vagă încât poate produce pretenții concurente, plăți duble și procese lungi.",
+    "initiatorClaim": "Inițiatorii vor ca prețul actualizat al unui teren vândut pe baza unui titlu constatat nul să poată fi cerut nu doar de «fostul proprietar rămas fără teren», ci de orice «persoană păgubită». Ei au în vedere mai ales primarul, ca președinte al comisiei locale de fond funciar și reprezentant al UAT, pentru terenurile care trebuiau să rămână la dispoziția comisiei (art. 18 din Legea nr. 18/1991).",
+    "realityCheck": "Articolul unic înlocuiește doar beneficiarul obligației de restituire a prețului din art. III alin. (2⁴): în locul «fostului proprietar rămas fără teren» (formularea actuală, citată de expunerea de motive; portalul legislatie.just.ro nu a afișat textul consolidat) apare «persoana păgubită». Nu definește cine este păgubitul, nu stabilește ordinea între mai mulți păgubiți posibili (fostul proprietar, persoana îndreptățită, UAT, ultimul cumpărător evins) și nu spune cum se actualizează prețul. Lipsește și o dispoziție tranzitorie. Vânzătorul riscă astfel să fie urmărit de mai mulți reclamanți pentru același preț, iar instanțele vor trebui să umple golurile prin practică neunitară.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
-      "Agricultură & Mediu",
       "Justiție & Drepturi Civile",
-      "IMM & Antreprenori"
+      "Agricultură & Mediu"
     ],
     "senatForm": {
       "articleRef": "Articol unic – art. III alin. (2⁴) L. 169/1997",
-      "proposalContent": "„(2⁴) În cazul unor înstrăinări succesive ale terenurilor, cel care a vândut terenul pe baza titlului constatat nul este obligat să remită prețul actualizat cu indicele prețurilor de consum fostului proprietar rămas fără teren sau, pentru terenurile prevăzute la art. 18 din Legea nr. 18/1991, unității administrativ-teritoriale ori statului, după caz.”",
-      "argumentation": "„Persoana păgubită” nu e definită: aceeași sumă ar putea fi cerută de fostul proprietar, UAT, stat sau ultimul cumpărător, cu risc de plăți duble și procese. Propunerea păstrează dreptul fostului proprietar și acoperă explicit terenurile de la dispoziția comisiei (art. 18), cazul invocat în expunere. Indexarea cu IPC clarifică „prețul actualizat”.",
-      "otherComments": "Corectați „successive” în „succesive”. Recomandăm o normă tranzitorie (aplicare doar cererilor formulate după intrarea în vigoare) și precizarea că ultimul cumpărător rămâne protejat prin garanția contra evicțiunii din Codul civil. Utilă ar fi și o estimare a numărului de titluri anulate pe terenuri de la dispoziția comisiilor."
+      "proposalContent": "(2⁴) În cazul unor înstrăinări succesive, cel care a vândut terenul pe baza titlului constatat nul remite prețul, actualizat cu indicele prețurilor de consum, persoanei păgubite: fostul proprietar rămas fără teren, persoana îndreptățită ori UAT prin comisia locală, dacă terenul nu mai poate fi restituit. Sumele plătite dobânditorului evins pentru același teren se scad.",
+      "argumentation": "„Persoana păgubită” nu e definită: poate fi fostul proprietar, UAT, comisia sau ultimul cumpărător, cu riscul unor pretenții concurente și al plății de două ori a aceluiași preț. Lipsește și modul de actualizare. Precizarea beneficiarilor, a indicelui și a deducerii sumelor deja plătite asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+      "otherComments": "Propun un articol tranzitoriu: noua formă se aplică doar hotărârilor de constatare a nulității rămase definitive după intrarea în vigoare a legii, pentru a evita aplicarea retroactivă (art. 15 alin. 2 Constituție). Corectați și „successive” → „succesive”. Comisia juridică să verifice corelarea cu garanția contra evicțiunii din Codul civil."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 68036,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Despăgubiri pentru terenurile obținute ilegal și revândute: banii pot merge la primării sau alte persoane păgubite, nu doar la foștii proprietari",
-      "verdictShort": "O modificare tehnică justificată în principiu, care acoperă vidul legislativ atunci când terenul atribuit ilegal și revândut aparținea comunei sau rezervei comisiei, nu unui fost proprietar. Textul suferă însă de o formulare prea vagă și chiar de o greșeală de ortografie („successive”) în articolul unic.",
-      "initiatorClaim": "Inițiatorii vor ca persoanele care au obținut ilegal titluri de proprietate (constatate nule) și au vândut deja terenul mai departe să fie obligate să returneze prețul actualizat oricărei „persoane păgubite” (inclusiv primăriei/UAT-ului pentru terenurile din rezerva comisiei), nu doar „fostului proprietar rămas fără teren”.",
-      "realityCheck": "Modificarea rezolvă o problemă reală de practică judiciară: când un titlu nul viza izlazul comunal, domeniul UAT sau terenuri nerevendicate, autoritățile locale nu se încadrau în noțiunea de „fost proprietar” pentru a recupera prețul de la vânzător. Totuși, eliminarea completă a referirii la „fostul proprietar rămas fără teren” și confuzia din expunerea de motive (care spune că „primarul” ar fi persoana păgubită, deși patrimoniul aparține UAT-ului) pot crea dispute de prioritate între cetățenii care încă așteaptă reconstituirea și primării.",
-      "affectedGroups": [
-        "Proprietari & Imobiliare",
-        "Agricultură & Mediu",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Articol unic (Art. III alin. 2⁴ din Legea nr. 169/1997): Înlocuiește sintagma „fostului proprietar rămas fără teren” cu „persoanei păgubite”, permițând unităților administrativ-teritoriale (UAT) sau altor persoane îndreptățite la constituire să recupereze prețul terenurilor înstrăinate succesiv în baza unui titlu nul.",
-        "Confuzie juridică în Expunerea de Motive: Inițiatorii afirmă că „calitatea de persoană păgubită o poate avea și primarul, în calitate de președinte al comisiei locale”, ignorând faptul că nici primarul, nici comisia locală nu au patrimoniu propriu, titularul dreptului de proprietate prejudiciat fiind exclusiv unitatea administrativ-teritorială sau statul.",
-        "Eroare materială în textul normativ și lipsa unei ordini de prioritate: Singura frază a proiectului de lege introduce greșeala de ortografie „înstrăinări successive” (cu doi „c”) în legea în vigoare și nu precizează că UAT-ul poate încasa prețul doar în lipsa unui fost proprietar îndreptățit la restituire."
-      ],
-      "blindSpotsCaught": "Pe lângă eroarea de redactare „successive” din textul oficial al legii, proiectul ignoră o chichiță clasică din litigiile funciare: păstrarea sintagmei „prețul actualizat” permite celui care a obținut fraudulos titlul să declare în primul contract de vânzare un preț derizoriu/simulat și să restituie doar acea sumă indexată cu inflația, nu valoarea reală de circulație a terenului.",
-      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), înlocuirea unei categorii determinate („fostul proprietar rămas fără teren”) cu noțiunea generică de „persoană păgubită”, fără stabilirea unei ierarhii între persoanele fizice îndreptățite la reconstituire și UAT, poate genera practică neunitară. Sub aspectul art. 44 (dreptul de proprietate) și art. 136, măsura este însă benefică pentru protejarea patrimoniului unităților administrativ-teritoriale împotriva îmbogățirii fără justă cauză.",
-      "euLawNote": "Proiectul vizează exclusiv regimul intern al restituirii proprietăților funciare și efectele nulității titlurilor de proprietate în dreptul civil național, fără impact asupra concurenței (Directiva UE 2018/958) sau serviciilor digitale (Directiva TRIS 2015/1535), fiind în acord cu jurisprudența CEDO privind protecția subdobânditorilor de bună-credință și acordarea de despăgubiri compensatorii.",
-      "senatForm": {
-        "articleRef": "Articol unic - Art. III alin. (2^4)",
-        "proposalContent": "„(2^4) În cazul unor înstrăinări succesive ale terenurilor, cel care a vândut terenul pe baza titlului constatat nul este obligat să remită prețul actualizat, dar nu mai puțin decât valoarea de circulație a terenului, fostului proprietar rămas fără teren sau, în lipsa acestuia, unității administrativ-teritoriale ori altei persoane păgubite.”",
-        "argumentation": "Înlocuirea completă a „fostului proprietar” cu „persoana păgubită” poate genera conflicte între cetățenii îndreptățiți la restituire și UAT. Amendamentul păstrează prioritatea fostului proprietar, clarifică faptul că UAT (nu primarul personal) are patrimoniu, previne eludarea prin prețuri subevaluate în contract și corectează greșeala de tipar („successive”).",
-        "otherComments": "Expunerea de motive confundă calitatea procesuală a primarului/comisiei locale cu titularul patrimoniului păgubit (care nu poate fi decât UAT-ul sau statul, comisia neavând personalitate juridică de drept comun cu patrimoniu propriu). De asemenea, textul oficial conține anglicismul/eroarea materială „successive” în loc de „succesive”."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 143657,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Banii pentru terenurile date ilegal și revândute: cine îi primește",
-      "verdictShort": "Este o corecție tehnică utilă: permite primăriilor sau statului să recupereze banii pentru terenurile atribuite ilegal și apoi revândute. Defectul ei este termenul vag „persoană păgubită”, care poate naște dispute despre cine încasează suma.",
-      "initiatorClaim": "Inițiatorii vor ca prețul actualizat să fie plătit nu doar fostului proprietar, ci oricărei persoane păgubite. Aici intră și UAT-ul reprezentat de primar, pentru terenurile rămase la dispoziția comisiei de fond funciar, atribuite ilegal și apoi revândute.",
-      "realityCheck": "Articolul unic schimbă doar beneficiarul plății: prețul actualizat nu mai merge numai la „fostul proprietar rămas fără teren”, ci la „persoana păgubită”. Astfel, UAT-ul sau statul pot cere banii pentru terenurile care nu au avut un fost proprietar (cele de la dispoziția comisiei), ceea ce e util. Chichița: termenul nu e definit și legea nu stabilește o ordine de prioritate. Fostul proprietar, UAT-ul, statul sau ultimul cumpărător pot cere aceeași sumă, iar instanțele vor decide de la caz la caz.",
-      "affectedGroups": [
-        "Proprietari & Imobiliare",
-        "Agricultură & Mediu",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Articol unic, art. III alin. (2⁴) din Legea nr. 169/1997: se schimbă doar beneficiarul plății („fostului proprietar rămas fără teren” devine „persoanei păgubite”). Cine plătește (vânzătorul cu titlu nul) și ce plătește (prețul actualizat) rămân la fel.",
-        "„Persoana păgubită” nu este definită nici în Legea nr. 169/1997, nici în Legea nr. 18/1991. Termenul poate acoperi fostul proprietar, UAT-ul, statul, persoanele îndreptățite încă neîmproprietărite și chiar ultimul cumpărător. Legea nu spune cine are prioritate și nici că plata către unul îl eliberează pe vânzător față de ceilalți.",
-        "Câștigul real privește terenurile de la art. 18 din Legea nr. 18/1991, rămase la dispoziția comisiei și fără fost proprietar. Pentru ele, norma specială din alin. (2⁴) nu avea până acum un beneficiar. Modificarea dă UAT-ului sau statului un temei explicit de recuperare, în locul acțiunilor de drept comun (îmbogățire fără justă cauză, restituirea prestațiilor).",
-        "Lipsesc dispozițiile tranzitorii: nu se precizează dacă noul beneficiar se aplică și în litigiile în curs sau pentru titlurile deja anulate. Nici „prețul actualizat” nu primește un indice de actualizare (IPC, curs valutar), aceeași lacună ca în textul actual.",
-        "Impactul bugetar și birocratic este redus: legea nu introduce taxe, sancțiuni sau obligații noi pentru cetățeni ori IMM-uri. Pot apărea venituri pentru bugetele locale și ceva mai multe procese intentate de primari. Nu are efecte asupra concurenței."
-      ],
-      "blindSpotsCaught": "Expunerea de motive afirmă că primarul „poate avea calitatea de persoană păgubită”. Juridic, păgubit este patrimoniul UAT-ului sau al statului (de pildă, la terenurile statului folosite de fostele CAP), nu primarul. Nici comisia de fond funciar nu poate fi păgubită, pentru că nu are patrimoniu propriu; primarul doar reprezintă UAT-ul în instanță. Textul nu lămurește nici cine plătește într-un lanț de vânzări: doar primul vânzător cu titlu nul sau și intermediarii. Ultimul cumpărător are deja, prin Codul civil, garanția contra evicțiunii, deci acțiunile se pot suprapune. Forma inițiatorului păstrează și greșeala de redactare „successive”.",
-      "constitutionalityNote": "Măsura e compatibilă în principiu cu art. 44 (dreptul de proprietate): nu expropriază pe nimeni, ci stabilește cui se plătește prețul unei vânzări făcute pe baza unui titlu nul. Problema principală ține de art. 1 alin. (5). Sintagma nedefinită „persoană păgubită” scade previzibilitatea normei, iar CCR cere constant ca legea să fie clară, precisă și previzibilă. Lipsa normelor tranzitorii poate duce la practică neunitară în dosarele aflate pe rol (art. 15 alin. (2), neretroactivitatea). Art. 23 alin. (12) nu se aplică, fiindcă legea nu instituie pedepse. Procedura e corectă: regimul juridic al proprietății (art. 73 alin. (3) lit. m)) cere lege organică, cu Senatul primă Cameră și Camera Deputaților decizională, conform art. 75.",
-      "euLawNote": "Legea nu intră sub incidența Directivei (UE) 2018/958, pentru că nu reglementează o profesie. Nici Directiva (UE) 2015/1535 nu se aplică: textul nu conține reglementări tehnice sau reguli privind serviciile societății informaționale. Nu restrânge libera circulație a capitalurilor (art. 63 TFUE) și nici cumpărarea de terenuri agricole de către cetățenii UE. Carta drepturilor fundamentale nu se aplică, deoarece legea nu pune în aplicare dreptul Uniunii. Standardul european relevant este art. 1 din Protocolul nr. 1 la CEDO. CtEDO a sancționat repetat România pentru disfuncțiile restituirii proprietăților (hotărârea-pilot Maria Atanasiu și alții c. României, 2010). O regulă clară despre cine primește despăgubirea ajută, iar una vagă riscă noi litigii.",
-      "senatForm": {
-        "articleRef": "Articol unic – art. III alin. (2⁴) L. 169/1997",
-        "proposalContent": "„(2⁴) În cazul unor înstrăinări succesive ale terenurilor, cel care a vândut terenul pe baza titlului constatat nul este obligat să remită prețul actualizat cu indicele prețurilor de consum fostului proprietar rămas fără teren sau, pentru terenurile prevăzute la art. 18 din Legea nr. 18/1991, unității administrativ-teritoriale ori statului, după caz.”",
-        "argumentation": "„Persoana păgubită” nu e definită: aceeași sumă ar putea fi cerută de fostul proprietar, UAT, stat sau ultimul cumpărător, cu risc de plăți duble și procese. Propunerea păstrează dreptul fostului proprietar și acoperă explicit terenurile de la dispoziția comisiei (art. 18), cazul invocat în expunere. Indexarea cu IPC clarifică „prețul actualizat”.",
-        "otherComments": "Corectați „successive” în „succesive”. Recomandăm o normă tranzitorie (aplicare doar cererilor formulate după intrarea în vigoare) și precizarea că ultimul cumpărător rămâne protejat prin garanția contra evicțiunii din Codul civil. Utilă ar fi și o estimare a numărului de titluri anulate pe terenuri de la dispoziția comisiilor."
-      }
-    },
-    "codex": {
-      "model": "codex",
-      "status": "ok",
-      "durationMs": 93741,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 65673,
+      "sourceEndMarker": "SF-202D8412",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Cine primește banii pentru terenurile vândute cu titluri nevalabile",
-      "verdictShort": "Proiectul urmărește un scop legitim: recuperarea banilor inclusiv pentru terenuri ale statului sau comunelor. Riscul moderat vine din definirea insuficientă a beneficiarului, care poate genera litigii privind dreptul la despăgubire.",
-      "initiatorClaim": "Inițiatorii vor să permită recuperarea prețului actualizat și când terenul înstrăinat ilegal nu aparținea unui fost proprietar particular. Expunerea justifică extinderea prin protejarea terenurilor aflate la dispoziția comisiilor funciare și a patrimoniului unităților administrativ-teritoriale.",
-      "realityCheck": "Articolul unic înlocuiește beneficiarul precis, „fostului proprietar rămas fără teren”, cu „persoanei păgubite”, extinzând potențial categoria creditorilor fără să o delimiteze expres. Obligația vânzătorului și formula „prețul actualizat” există deja; proiectul nu introduce o amendă și nu stabilește expres o despăgubire la valoarea de piață. Textul nu transferă automat terenurile comisiei către comună și nici nu conferă automat primarului dreptul de a încasa banii. [Textul în vigoare](https://legislatie.just.ro/public/DetaliiDocument/11908).",
+      "plainTitle": "Recuperarea banilor pentru terenuri vândute cu titlu nul: extinsă la orice „persoană păgubită”",
+      "verdictShort": "Proiectul urmărește un scop legitim — recuperarea prețului actualizat și când terenul vândut ilegal aparținea statului, UAT-ului sau altor îndreptățiți, nu doar unui fost proprietar — dar introduce formula nedefinită „persoanei păgubite” fără norme tranzitorii, riscând practică judiciară neunitară.",
+      "initiatorClaim": "Potrivit expunerii de motive a inițiatorilor (parlamentari PNL), modificarea este necesară pentru ca și alte părți afectate de vânzarea unor terenuri atribuite ilegal — inclusiv UAT-ul pentru terenurile nerevendicate rămase la dispoziția comisiei locale — să poată recupera prețul actualizat de la vânzătorul cu titlu nul, nu doar „fostul proprietar rămas fără teren”.",
+      "realityCheck": "În realitate, articolul unic înlocuiește o categorie juridică precisă („fostului proprietar rămas fără teren”) cu expresia generică și nedefinită „persoanei păgubite”, păstrând neschimbat restul mecanismului de la art. III din Legea nr. 169/1997. Lipsa definirii beneficiarilor și a unei ordini de prioritate poate genera dispute privind calitatea procesuală activă (între foști proprietari, UAT, stat sau subdobânditori), iar absența dispozițiilor tranzitorii lasă neclară aplicarea în litigiile în curs ori la vânzările anterioare.",
       "affectedGroups": [
         "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile",
-        "Agricultură & Mediu",
-        "IMM & Antreprenori"
+        "Agricultură & Mediu"
       ],
       "keyFindings": [
-        "Art. III alin. (2) permite anumitor autorități să invoce nulitatea, dar această legitimare procesuală nu dovedește existența unei creanțe proprii. Pentru despăgubire trebuie identificat titularul dreptului încălcat, distinct de autoritatea care introduce acțiunea.",
-        "Expunerea confundă pe alocuri primarul, comisia funciară și unitatea administrativ-teritorială. UAT are patrimoniu propriu, iar primarul o reprezintă; simpla aflare a terenului la dispoziția comisiei nu demonstrează proprietatea UAT. [Codul administrativ, art. 96 și 154 alin. (6)](https://legislatie.just.ro/Public/DetaliiDocument/267747).",
-        "Proiectul nu introduce taxe, autorizații, raportări ori privilegii comerciale. Poate crește costurile litigiilor pentru vânzători, inclusiv firme, și poate permite încasări pentru titulari publici; textul și motivarea furnizate nu cuantifică aceste efecte."
+        "Articolul unic modifică art. III alin. (2⁴) din Legea nr. 169/1997 prin înlocuirea sintagmei „fostului proprietar rămas fără teren” (conform formei citate în expunerea de motive, textul consolidat nefiind disponibil pe legislatie.just.ro) cu „persoanei păgubite”, fără a defini legal această noțiune.",
+        "Expunerea de motive introduce o confuzie între reprezentant și titularul patrimoniului, susținând că primarul, ca președinte al comisiei locale, poate avea calitatea de „persoană păgubită”, deși titularul patrimoniului privat al localității este unitatea administrativ-teritorială (UAT), nu primarul.",
+        "Proiectul nu conține norme tranzitorii privind aplicarea în timp față de vânzările anterioare sau litigiile aflate pe rol și include o greșeală de redactare chiar în textul normativ („înstrăinări successive”, cu doi de „c”)."
       ],
-      "blindSpotsCaught": "Expunerea reproduce la final alin. (2⁴) chiar în redactarea propusă, cu „persoanei păgubite”, deși textul în vigoare indică fostul proprietar rămas fără teren. În plus, eliminarea acestei ultime condiții lasă neprecizată relația dintre restituirea terenului și remiterea prețului, aspect care merită clarificat pentru evitarea dublei reparări. Procedural, Senatul a respins propunerea la 02.06.2026, însă Camera Deputaților poate decide adoptarea; termenul indicat pentru amendamente, 17.06.2026, este expirat. [Fișa oficială](https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23323).",
-      "constitutionalityNote": "Există un risc de previzibilitate în raport cu art. 1 alin. (5): trebuie delimitate beneficiarul creanței și condițiile despăgubirii. Sintagma „persoană păgubită” nu este însă, prin ea însăși, neconstituțională, putând fi interpretată împreună cu dreptul civil. Art. 44 impune protejarea echilibrată a drepturilor patrimoniale. Aplicarea noii sfere de beneficiari unor situații anterioare trebuie analizată prin art. 15 alin. (2); lipsa normelor tranzitorii nu înseamnă automat retroactivitate. Art. 23 alin. (12) nu este incident direct: obligația este civilă, fără caracter de pedeapsă. [Constituția României](https://www.cdep.ro/ords/pls/dic/site.page?id=339&prn=1).",
-      "euLawNote": "Directiva (UE) 2018/958 nu impune aici testul special de proporționalitate: proiectul nu restrânge accesul la profesii reglementate sau exercitarea lor, domeniul definit de art. 2. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/ron/pdf). Nu rezultă o obligație de notificare TRIS potrivit Directivei 2015/1535: textul nu stabilește reglementări tehnice pentru produse ori norme privind servicii ale societății informaționale, inclusiv AI. [Directiva 2015/1535](https://eur-lex.europa.eu/eli/dir/2015/1535/oj/ron/pdf). Nu se identifică monopoluri, bariere profesionale, discriminări după naționalitate sau avantaje selective pentru întreprinderi în textul analizat.",
+      "blindSpotsCaught": "Lipsa unor reguli de prioritate când mai multe părți se consideră „păgubite” (de exemplu, un fost proprietar neîndestulat, UAT-ul pentru rezerva comisiei locale și un cumpărător ulterior evins) și necorelarea cu art. III alin. (2¹) privind litigiile în curs pot genera blocaje procesuale și excepții de neconstituționalitate; de asemenea, norma continuă să oblige doar la remiterea „prețului actualizat”, fără a soluționa cazurile de vânzări inițiale la preț derizoriu.",
+      "constitutionalityNote": "Obiectivul de recuperare a prejudiciului de către titularii îndreptățiți sau de către UAT/stat este compatibil cu art. 44 și art. 136 din Constituție, iar formula de adoptare respectă regimul legii organice (art. 73 alin. 3 lit. m, art. 75 și art. 76 alin. 1). Totuși, caracterul vag al sintagmei „persoanei păgubite” creează vulnerabilități față de cerințele de claritate și previzibilitate a legii (art. 1 alin. 5), iar lipsa normelor tranzitorii poate genera dispute privind neretroactivitatea legii civile (art. 15 alin. 2).",
+      "euLawNote": "Proiectul vizează exclusiv regimul proprietății funciare și efectele nulității titlurilor de fond funciar, domeniu aflat în competența națională potrivit art. 345 TFUE. Nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate), nici a Directivei (UE) 2015/1535 (procedura TRIS pentru servicii digitale/reglementări tehnice) și nu ridică probleme de concurență sau de piață unică.",
+      "senatForm": {
+        "articleRef": "Articol unic (art. III alin. (2⁴) L. 169/1997)",
+        "proposalContent": "„(2⁴) În cazul unor înstrăinări succesive ale terenurilor, cel care a vândut terenul pe baza titlului constatat nul este obligat să remită prețul actualizat fostului proprietar, persoanei îndreptățite ori, după caz, unității administrativ-teritoriale sau statului, în măsura prejudiciului suferit.”",
+        "argumentation": "Sintagma „persoanei păgubite” este vagă și încalcă cerința de previzibilitate (art. 1 alin. 5 Constituție), putând genera litigii privind calitatea procesuală activă (inclusiv confuzia din expunerea de motive între primar și UAT). Enumerarea expresă a beneficiarilor și corectarea erorii „successive” asigură claritate și aplicare unitară în instanțe.",
+        "otherComments": "Se recomandă introducerea unei norme tranzitorii care să clarifice aplicarea în timp față de litigiile în curs și vânzările anterioare, respectând neretroactivitatea (art. 15 alin. 2 Constituție), precum și stabilirea regulii de prioritate când există mai mulți reclamanți."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 53556,
+      "sourceEndMarker": "SF-202D8412",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Cine primește banii când un teren vândut pe baza unui titlu de proprietate anulat nu mai poate fi recuperat",
+      "verdictShort": "Modificare scurtă, cu scop legitim: și primăria sau comisia de fond funciar pot recupera prețul unui teren atribuit ilegal și revândut. Formula «persoana păgubită» este însă atât de vagă încât poate produce pretenții concurente, plăți duble și procese lungi.",
+      "initiatorClaim": "Inițiatorii vor ca prețul actualizat al unui teren vândut pe baza unui titlu constatat nul să poată fi cerut nu doar de «fostul proprietar rămas fără teren», ci de orice «persoană păgubită». Ei au în vedere mai ales primarul, ca președinte al comisiei locale de fond funciar și reprezentant al UAT, pentru terenurile care trebuiau să rămână la dispoziția comisiei (art. 18 din Legea nr. 18/1991).",
+      "realityCheck": "Articolul unic înlocuiește doar beneficiarul obligației de restituire a prețului din art. III alin. (2⁴): în locul «fostului proprietar rămas fără teren» (formularea actuală, citată de expunerea de motive; portalul legislatie.just.ro nu a afișat textul consolidat) apare «persoana păgubită». Nu definește cine este păgubitul, nu stabilește ordinea între mai mulți păgubiți posibili (fostul proprietar, persoana îndreptățită, UAT, ultimul cumpărător evins) și nu spune cum se actualizează prețul. Lipsește și o dispoziție tranzitorie. Vânzătorul riscă astfel să fie urmărit de mai mulți reclamanți pentru același preț, iar instanțele vor trebui să umple golurile prin practică neunitară.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Agricultură & Mediu",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Articol unic – art. III alin. (2⁴) din Legea nr. 169/1997: beneficiarul restituirii prețului devine «persoana păgubită», noțiune nedefinită în text sau în restul art. III.",
+        "Expunerea de motive vizează UAT/comisia locală de fond funciar ca păgubit. Textul normativ nu le numește însă, așa că intenția declarată nu se regăsește clar în efectul juridic.",
+        "Risc de pretenții concurente și plată dublă: ultimul dobânditor evins are deja acțiune în garanție contra evicțiunii împotriva vânzătorului (Codul civil), iar acum ar putea pretinde același preț și fostul proprietar sau UAT. Proiectul nu prevede deducerea sumelor deja plătite.",
+        "«Prețul actualizat» nu are reper (indicele prețurilor de consum, valoarea de piață, curs valutar). Ambiguitatea exista și înainte, dar devine mai gravă când beneficiarii se înmulțesc.",
+        "Nu există dispoziții tranzitorii, deși art. III alin. (2¹) permite invocarea nulității și în litigiile în curs. Rămâne neclar dacă noua formă se aplică vânzărilor sau hotărârilor anterioare.",
+        "Impact bugetar direct nul. Pentru UAT, efectul poate fi o recuperare de sume. Povara birocratică pentru cetățeni sau IMM-uri este neglijabilă, dar crește potențialul litigios.",
+        "Textul păstrează greșeala de ortografie «successive»."
+      ],
+      "blindSpotsCaught": "Norma presupune implicit că terenul nu mai poate fi readus în patrimoniul păgubitului (de pildă, pentru că dobânditorul final este protejat ca terț de bună-credință), dar nu o spune. Dacă terenul revine fizic comisiei sau fostului proprietar și acesta încasează și prețul actualizat, se ajunge la îmbogățire fără justă cauză. În plus, expunerea de motive amestecă două calități distincte ale primarului: reclamant care invocă nulitatea (art. III alin. 2) și titular al dreptului la preț. Proiectul nu clarifică dacă primarul încasează pentru UAT sau pentru comisie, deși acestea au regimuri juridice diferite.",
+      "constitutionalityNote": "Scopul (repararea prejudiciului cauzat de atribuiri ilegale) este legitim și compatibil cu art. 44 (protecția proprietății). Riscul principal privește art. 1 alin. (5): o normă care instituie o obligație de plată în favoarea unei «persoane păgubite» nedeterminate, fără criterii de actualizare și fără ordine de prioritate, poate fi considerată insuficient de clară și previzibilă în sensul jurisprudenței CCR. În lipsa unei dispoziții tranzitorii, aplicarea la vânzări sau hotărâri definitive anterioare ar ridica probleme față de art. 15 alin. (2) (neretroactivitatea). Nu se pune problema art. 111 alin. (1), deoarece proiectul nu generează cheltuieli bugetare. Caracterul de lege ordinară (art. 76 alin. 1) este corect.",
+      "euLawNote": "Proiectul nu reglementează profesii, deci Directiva (UE) 2018/958 nu este incidentă. Nu vizează servicii ale societății informaționale sau reglementări tehnice, deci notificarea TRIS (Directiva 2015/1535) nu este necesară. Nu afectează libera circulație a capitalurilor: nu restrânge cine poate cumpăra teren agricol și nu atinge Legea nr. 17/2014. Nu implică ajutor de stat. Dreptul UE este practic neutru față de această modificare de drept civil intern.",
+      "senatForm": {
+        "articleRef": "Articol unic – art. III alin. (2⁴) L. 169/1997",
+        "proposalContent": "(2⁴) În cazul unor înstrăinări succesive, cel care a vândut terenul pe baza titlului constatat nul remite prețul, actualizat cu indicele prețurilor de consum, persoanei păgubite: fostul proprietar rămas fără teren, persoana îndreptățită ori UAT prin comisia locală, dacă terenul nu mai poate fi restituit. Sumele plătite dobânditorului evins pentru același teren se scad.",
+        "argumentation": "„Persoana păgubită” nu e definită: poate fi fostul proprietar, UAT, comisia sau ultimul cumpărător, cu riscul unor pretenții concurente și al plății de două ori a aceluiași preț. Lipsește și modul de actualizare. Precizarea beneficiarilor, a indicelui și a deducerii sumelor deja plătite asigură previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Propun un articol tranzitoriu: noua formă se aplică doar hotărârilor de constatare a nulității rămase definitive după intrarea în vigoare a legii, pentru a evita aplicarea retroactivă (art. 15 alin. 2 Constituție). Corectați și „successive” → „succesive”. Comisia juridică să verifice corelarea cu garanția contra evicțiunii din Codul civil."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 64461,
+      "sourceEndMarker": "SF-202D8412",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Cine primește banii pentru terenurile vândute pe baza unui titlu nul",
+      "verdictShort": "Proiectul poate proteja și alte persoane prejudiciate decât fostul proprietar, fără să introducă taxe sau sancțiuni. Principala problemă este confundarea, în motivare, a dreptului primarului de a cere anularea titlului cu dreptul de a încasa despăgubirea.",
+      "initiatorClaim": "Inițiatorii urmăresc ca prețul actualizat al terenului să poată reveni oricărei persoane păgubite, inclusiv unei unități administrativ-teritoriale. Motivarea invocă terenurile rămase la dispoziția comisiilor de fond funciar și rolul primarului în recuperarea lor.",
+      "realityCheck": "Potrivit formei anterioare reproduse în expunere, beneficiarul este «fostul proprietar rămas fără teren»; proiectul îl înlocuiește cu «persoana păgubită», lărgind potențial categoria creditorilor. Obligația vânzătorului de a remite prețul actualizat și condiția înstrăinărilor succesive sunt păstrate. Textul nu acordă automat bani primarului, comisiei locale sau UAT și nu stabilește prioritatea între eventuali solicitanți concurenți.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile",
+        "Agricultură & Mediu"
+      ],
+      "keyFindings": [
+        "Articolul unic modifică exclusiv beneficiarul remiterii prețului din art. III alin. (2⁴). Nulitatea titlurilor și persoanele care o pot invoca sunt reglementate în continuare de dispozițiile nemodificate.",
+        "Calitatea procesuală pentru invocarea nulității nu dovedește existența unei creanțe proprii. Primarul poate reprezenta UAT, dar aceasta nu transformă prejudiciul UAT într-un prejudiciu personal al primarului.",
+        "Faptul că un teren se află la dispoziția comisiei locale pentru atribuiri nu demonstrează, singur, proprietatea UAT sau existența unui prejudiciu în patrimoniul acesteia.",
+        "Noțiunea «persoana păgubită» necesită corelare cu dreptul afectat și cu prejudiciul dovedit. Nu orice persoană care justifică interesul de a cere nulitatea devine beneficiara prețului.",
+        "Proiectul nu introduce taxe, autorizații ori formalități administrative noi. Poate genera litigii suplimentare privind beneficiarul creanței și eventuale încasări pentru UAT îndreptățite; amploarea efectelor nu este cuantificată.",
+        "Textul propus se încheie după articolul unic și formula de adoptare: nu conține derogări, abrogări sau dispoziții tranzitorii. Reproducerea altor articole în expunerea de motive nu le modifică."
+      ],
+      "blindSpotsCaught": "Expunerea reproduce, spre final, alin. (2⁴) chiar cu formula propusă, deși anterior identifică formula veche: acest pasaj nu constituie o confirmare independentă a dreptului în vigoare. De asemenea, susținerea că primarul ar fi persoana păgubită nu apare în articolul normativ și nu produce singură efecte juridice.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) impune ca beneficiarul creanței să poată fi identificat previzibil; formula generală poate fi interpretată prin regulile civile, dar delimitarea ei expresă ar reduce litigiile. Aplicarea trebuie să respecte proprietatea și accesul la justiție, potrivit art. 44 și 21. Lipsa dispozițiilor tranzitorii nu autorizează aplicarea retroactivă a extinderii beneficiarilor, contrar art. 15 alin. (2), sau redeschiderea hotărârilor definitive. Art. 23 alin. (12), privind pedepsele, nu este incident acestei obligații civile.",
+      "euLawNote": "Proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora, astfel că Directiva (UE) 2018/958 nu impune aici testul de proporționalitate. Nu introduce reglementări tehnice pentru produse ori servicii ale societății informaționale, deci nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu instituie monopoluri, avantaje concurențiale rezervate sau discriminări explicite după cetățenie; textul furnizat nu indică un obstacol distinct pentru piața unică.",
       "senatForm": {
         "articleRef": "Articol unic – art. III alin. (2⁴)",
-        "proposalContent": "(2⁴) În cazul unor înstrăinări succesive ale terenurilor, cel care a vândut terenul pe baza titlului constatat nul remite prețul actualizat titularului dreptului de proprietate încălcat, dacă terenul nu poate fi restituit. Beneficiar poate fi și statul sau unitatea administrativ-teritorială, cu condiția dovedirii dreptului său.",
-        "argumentation": "Extinderea beneficiarilor poate proteja patrimoniul public, dar trebuie legată de un drept de proprietate dovedit. Calitatea de reclamant în acțiunea în nulitate nu conferă automat dreptul la bani. Precizarea beneficiarului și condiționarea de imposibilitatea restituirii previn cererile concurente și dubla reparare.",
-        "otherComments": "Propunere cetățenească pentru comisiile de raport ale Camerei Deputaților; poate fi preluată de un deputat. Termenul indicat, 17.06.2026, a expirat; examinarea depinde de etapa procedurală. Se recomandă clarificarea actualizării prețului și a aplicării în timp, cu respectarea art. 15 alin. (2) din Constituție."
-      }
+        "proposalContent": "„(2⁴) În cazul unor înstrăinări succesive ale terenurilor, cel care a vândut terenul pe baza titlului constatat nul este obligat să remită prețul actualizat persoanei fizice sau juridice care dovedește prejudiciul patrimonial cauzat prin înstrăinare. Dreptul de a invoca nulitatea nu conferă, prin el însuși, dreptul la această sumă.”",
+        "argumentation": "Textul păstrează extinderea protecției, dar separă dreptul de a cere constatarea nulității de dreptul la suma datorată. Primarul poate reprezenta UAT prejudiciată; funcția sa și atribuțiile comisiei locale nu dovedesc un prejudiciu personal și nici proprietatea UAT asupra terenului.",
+        "otherComments": "Comparația cu norma anterioară se bazează pe expunerea de motive; verificarea online independentă nu a fost disponibilă. Amendamentul trebuie corelat cu forma oficială în vigoare. Termenul de amendamente comunicat, 17.06.2026, este depășit; preluarea ulterioară depinde de procedura parlamentară aplicabilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T00:54:00.196Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:10:10.322Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

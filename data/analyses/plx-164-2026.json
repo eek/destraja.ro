@@ -2,69 +2,101 @@
   "billId": "Pl-x 164/2026",
   "slug": "plx-164-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T06:38:51.274Z",
+  "updatedAt": "2026-11-24T15:12:14.752Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 4664,
+    "ordinanceChars": 0,
+    "memoChars": 1608,
+    "memoSupplied": 1608,
+    "marker": "SF-B78A13D5"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-164-2026.json",
+    "form": "initiator",
+    "textHash": "b78a13d56d439308",
+    "fetchedAt": "2026-11-19T10:37:31.199Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
+  },
   "consensus": {
     "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Analize de laborator obligatorii pentru fructele și legumele din import considerate riscante",
-    "summaryTlDr": "Scopul este legitim (reziduuri de pesticide în importuri), dar construcția juridică e șubredă. Proiectul face o listă națională de risc suprapusă peste regimul UE deja armonizat, dă amenzi de până la 150.000 lei fără reguli clare de aplicare și are o clauză de „adaptare automată” fără sens juridic. Merită reparat, nu aruncat.",
-    "initiatorClaim": "Inițiatorul spune că importurile din țări terțe vin frecvent cu reziduuri de pesticide și contaminanți semnalate în RASFF. Vrea ca România să aplice controale suplimentare bazate pe risc, fără costuri bugetare și fără bariere comerciale.",
-    "realityCheck": "ANSVSA ar întocmi trimestrial o listă de țări și produse „cu risc ridicat”. Pentru loturile de pe listă, importatorul plătește analize la un laborator acreditat și încarcă datele într-o platformă digitală nouă; fără buletin, marfa e reținută, iar amenda e de 30.000–70.000 lei. Legea nu spune dacă vizează și marfa deja pusă în liberă circulație în alt stat UE, cine constată contravențiile sau ce înseamnă „lot neconform”, iar costul analizelor ajunge în prețul de la raft. Expunerea promite zero costuri bugetare, deși platforma și publicarea săptămânală presupun cheltuieli ale ANSVSA.",
+    "plainTitle": "Analize de laborator obligatorii și amenzi mari pentru importatorii de fructe și legume din afara UE",
+    "summaryTlDr": "Scopul, mai puține pesticide în farfurie, e legitim. Textul e însă un schelet: lasă aproape totul pe seama ANSVSA, conține o clauză de „adaptare automată” fără sens juridic și sancțiuni de până la 150.000 lei fără reguli de constatare.",
+    "initiatorClaim": "Inițiatorul spune că vrea să oprească intrarea pe piață a fructelor și legumelor din țări terțe cu reziduuri de pesticide și contaminanți, printr-un control bazat pe risc. Afirmă că legea nu creează bariere comerciale și nu costă bugetul de stat.",
+    "realityCheck": "Legea obligă importatorii din țări aflate pe o listă trimestrială stabilită prin ordin ANSVSA să prezinte buletine de analiză pe banii lor și să încarce datele într-o platformă digitală care nu există încă. Pentru încălcări sunt prevăzute amenzi de 20.000–150.000 lei și suspendarea „dreptului de import”. Practic, conținutul real al obligațiilor (lista, procedura, platforma, cine constată) se mută în acte ale ANSVSA. Peste regimul armonizat UE de controale la import se suprapune un filtru național suplimentar, cu risc de conflict cu politica comercială comună.",
     "affectedGroups": [
-      "Agricultură & Mediu",
       "IMM & Antreprenori",
-      "Toți cetățenii",
-      "Sănătate & Educație"
+      "Agricultură & Mediu",
+      "Sănătate & Educație",
+      "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 7 alin. (1) și (3)",
-      "proposalContent": "Art. 7 (1) Importatorii care introduc direct în UE, printr-un post de control de frontieră din România, loturi aflate pe lista de risc prezintă buletin de analiză emis de un laborator acreditat ISO/IEC 17025. (3) În lipsa buletinului, ANSVSA prelevează probe oficiale, pe cheltuiala importatorului; lotul rămâne reținut până la rezultat.",
-      "argumentation": "Forma actuală nu precizează dacă obligația vizează și loturile deja puse în liberă circulație în alt stat membru (ex. intrate prin Bulgaria). Pentru acestea, o condiție națională suplimentară riscă să încalce art. 34 TFUE. Proba oficială, în locul simplei rețineri, evită blocarea pe termen nedefinit a mărfii perisabile.",
-      "otherComments": "Art. 14 („se adaptează automat”) trebuie eliminat: o lege nu se modifică singură. Art. 12 să precizeze agentul constatator, să definească „lot neconform” și să gradeze amenda după valoarea lotului. Proiectul trebuie notificat Comisiei (TRIS 2015/1535) înainte de adoptare. Platforma digitală (art. 9) are cost bugetar nedeclarat."
+      "articleRef": "Art. 14 și Art. 12",
+      "proposalContent": "Art. 14 se reformulează: „În cazul modificării actelor UE prevăzute la art. 1, ANSVSA actualizează normele metodologice în 90 de zile și, dacă e necesar, inițiază modificarea prezentei legi.” La art. 12 se introduce alin. (4): „Constatarea și aplicarea sancțiunilor se fac de inspectori ANSVSA, potrivit OG nr. 2/2001.”",
+      "argumentation": "O lege nu se poate «adapta automat»: formula încalcă previzibilitatea normei (art. 1 alin. 5 din Constituție) și ar duce la neaplicare sau contestații. Amenzile de până la 150.000 lei sunt prevăzute fără agent constatator și fără trimitere la regimul general al contravențiilor, ceea ce le face greu de aplicat și ușor de anulat în instanță.",
+      "otherComments": "Propun: eliminarea «suspendării dreptului de import» (competență vamală UE); corelarea listei din art. 6 cu Reg. 2019/1793 și o perioadă de 30 de zile între publicare și aplicare; notificarea TRIS; fișă financiară pentru platformă; corectarea trimiterii la art. 113 din Reg. 2017/625; un articol de intrare în vigoare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 68374,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 82256,
+      "sourceEndMarker": "SF-B78A13D5",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Controale suplimentare, platformă digitală obligatorie și amenzi de până la 150.000 lei pentru importatorii de fructe și legume din afara UE",
-      "verdictShort": "Deși urmărește un scop legitim (siguranța alimentară la importurile din țări non-UE), proiectul este redactat schițat, dublează sistemele europene existente (TRACES-NT) și introduce amenzi de până la 150.000 lei și suspendarea dreptului de import pe 12 luni fără procedură de aplicare și fără termen de tranziție.",
-      "initiatorClaim": "Inițiatorul susține că legea întărește controlul sanitar asupra fructelor și legumelor importate din țări terțe (non-UE), pe baza evaluării riscului de către ANSVSA, fără a crea bariere comerciale sau costuri pentru bugetul de stat.",
-      "realityCheck": "În realitate, textul este redactat telegrafic și creează o listă națională paralelă cu cea a Comisiei Europene, obligând importatorii să plătească patru tipuri de analize de laborator pentru fiecare lot și să încarce datele într-o platformă informatică ANSVSA inexistentă. Lipsa unui termen de intrare în vigoare face ca amenzile de până la 70.000 lei să devină aplicabile la 3 zile de la publicare, înainte chiar de elaborarea normelor metodologice (prevăzute la 60 de zile) și de crearea platformei digitale.",
+      "plainTitle": "Controale suplimentare și amenzi drastice la importul de fructe și legume din afara UE",
+      "verdictShort": "Sub pretextul legitim al siguranței alimentare, proiectul creează un regim național paralel de bariere la import care încalcă competența exclusivă a UE și este plin de vicii grave de neconstituționalitate. Amenzile de până la 150.000 lei și suspendarea dreptului de import pe 12 luni sunt stabilite fără procedură, fără agent constatator și fără măcar să existe platforma digitală pe care legea o impune.",
+      "initiatorClaim": "Inițiatorul susține că legea protejează consumatorii de pesticide și contaminanți din țările terțe fără niciun cost pentru bugetul de stat, introducând controale bazate pe risc, trasabilitate digitală și sprijinind producătorii români în competiția cu importurile.",
+      "realityCheck": "În realitate, proiectul obligă importatorii de produse aflate pe o listă stabilită trimestrial prin ordin ANSVSA să prezinte buletine de analiză plătite din buzunarul propriu pentru fiecare lot și blochează mărfurile perisabile la frontieră în lipsa lor, ceea ce va scumpi fructele și legumelor la raft. Mai grav, pentru că regulile vizează doar importurile directe în România, mărfurile pot fi vămuite legal în alte state UE (ex. Grecia sau Bulgaria) și aduse liber pe piața unică, lovind exclusiv în importatorii locali și riscând o procedură de infringement din partea Comisiei Europene.",
       "affectedGroups": [
-        "Agricultură & Mediu",
         "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 7 obligă importatorii loturilor incluse pe lista trimestrială a ANSVSA să prezinte pe cheltuială proprie buletine de analiză de laborator pentru fiecare lot (pesticide, metale grele, contaminanți, nitrați), sub sancțiunea reținerii oficiale a mărfii perisabile și a unei amenzi între 30.000 și 70.000 lei (Art. 12 alin. 1), fără a preciza procedura de prelevare sau laboratoarele recunoscute.",
-        "Art. 9 și Art. 12 alin. (3) impun încărcarea datelor și a buletinelor de analiză într-o platformă digitală proprie a ANSVSA sub sancțiunea unei amenzi de 20.000–50.000 lei, fără a prevedea un termen de operaționalizare a platformei; astfel, obligația și amenda intră în vigoare la 3 zile de la publicarea în Monitorul Oficial, deși normele metodologice au termen 60 de zile (Art. 13).",
-        "Art. 12 alin. (2) sancționează comercializarea unui lot neconform cu amendă de la 70.000 la 150.000 lei plus „suspendarea dreptului de import până la 12 luni”, fără a desemna agenții constatatori, fără a face trimitere la OG nr. 2/2001 și fără a stabili criterii de individualizare a suspendării.",
-        "Art. 14 introduce o clauză incompatibilă cu normele de tehnică legislativă și cu principiul legalității: „În cazul modificării normelor UE, prevederile se adaptează automat”, lăsând neclar ce text de lege mai este în vigoare la un moment dat."
+        "Regim contravențional neconstituțional și inaplicabil (Art. 12): prevede amenzi de 20.000–150.000 lei și suspendarea dreptului de import până la 12 luni fără a stabili cine constată contravențiile, cine aplică sancțiunile, criteriile de suspendare sau trimiterea la O.G. nr. 2/2001.",
+        "Listă națională paralelă de risc și obligații vagi (Art. 6–7): ANSVSA decide trimestrial prin ordin ce produse și țări necesită analize obligatorii pentru parametri definiți vag („contaminanți”, „nitrați, unde este cazul”), fără a clarifica cine prelevează probele sau ce laboratoare sunt acceptate.",
+        "Clauză aberantă de „adaptare automată” a legii (Art. 14): textul prevede că, la modificarea normelor UE, legea națională „se adaptează automat”, ceea ce încalcă monopolul legislativ al Parlamentului și previzibilitatea normelor sancționatorii.",
+        "Platformă digitală impusă fără finanțare și fără termen tranzitoriu (Art. 9 și Art. 13): deși Expunerea de motive susține „zero costuri bugetare”, legea obligă la crearea unei platforme ANSVSA fără sursă de finanțare și fără a amâna intrarea în vigoare a amenzilor (20.000–50.000 lei) până la operaționalizarea ei.",
+        "Publicare săptămânală fără garanții procedurale (Art. 11): ANSVSA trebuie să publice săptămânal loturile „Neconforme”, fără a reglementa confidențialitatea datelor comerciale sau dreptul operatorului la contraexpertiză înainte de afectarea ireversibilă a reputației."
       ],
-      "blindSpotsCaught": "Proiectul invocă eronat Art. 113 din Regulamentul (UE) 2017/625 pentru notificarea trimestrială a listei naționale de risc către Comisia Europeană (Art. 6 alin. 3), deși Art. 113 reglementează doar rapoartele anuale privind planurile naționale multianuale de control, nu liste unilaterale de restricționare a importurilor din țări terțe. Totodată, expunerea de motive recunoaște în final scopul protecționist al măsurii („va sprijini producătorii români în competiția cu importurile”), în contradicție cu Art. 4 din proiect.",
-      "constitutionalityNote": "Proiectul ridică vicii serioase de neconstituționalitate raportat la Art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), întrucât este redactat sub formă de schiță, fără dispoziții procedurale privind regimul contravențiilor (Art. 12) și cu o clauză de „adaptare automată” a legii (Art. 14) care încalcă monopolul legislativ al Parlamentului (Art. 61 alin. 1) și Legea nr. 24/2000. De asemenea, suspendarea dreptului de import până la 12 luni fără criterii de gradualitate și fără garanții procedurale afectează disproporționat libertatea economică (Art. 45 și Art. 53 din Constituție).",
-      "euLawNote": "Proiectul intră în coliziune cu aplicabilitatea directă a Regulamentului (UE) 2017/625 și a Regulamentului de punere în aplicare (UE) 2019/1793 (Art. 288 TFUE), precum și cu politica comercială comună (competență exclusivă a UE conform Art. 207 TFUE). Listele cu produse și țări terțe supuse controalelor oficiale consolidate la frontieră se stabilesc uniform la nivelul Comisiei Europene (Anexele I și II la Reg. 2019/1793), iar trasabilitatea documentelor de intrare se realizează prin sistemul european integrat TRACES-NT (IMSOC), nu prin platforme naționale paralele. În plus, instituirea unei platforme digitale obligatorii și a unor cerințe tehnice naționale suplimentare necesită notificare prealabilă către Comisia Europeană conform Directivei (UE) 2015/1535 (TRIS).",
+      "blindSpotsCaught": "Proiectul conține o trimitere juridică greșită la Art. 113 din Regulamentul (UE) 2017/625 (Art. 6 alin. 3), care vizează rapoartele anuale ale planului național de control, nu notificarea unei liste trimestriale de restricții la import. De asemenea, formula finală califică proiectul drept lege organică (Art. 76 alin. 1 Constituție), deși reglementează contravenții și controale (lege ordinară), iar absența unei dispoziții tranzitorii face ca operatorii să devină amendabili la 3 zile de la publicare pentru neutilizarea unei platforme digitale care nu există încă.",
+      "constitutionalityNote": "Proiectul prezintă multiple și severe vicii de neconstituționalitate: încalcă Art. 1 alin. (5) privind calitatea și previzibilitatea legii (parametri vagi la Art. 7, contravenții fără agent constatator și fără O.G. nr. 2/2001 la Art. 12), Art. 61 alin. (1) privind rolul Parlamentului ca unică autoritate legiuitoare (prin „adaptarea automată” din Art. 14), Art. 45 privind libertatea economică (suspendarea dreptului de import până la 12 luni fără criterii și control judiciar prealabil), Art. 138 alin. (5) (lipsa sursei de finanțare pentru platforma digitală ANSVSA și capacitatea de control) și Art. 76 alin. (1) (încadrare eronată ca lege organică).",
+      "euLawNote": "Proiectul intră în coliziune directă cu dreptul UE: politica comercială comună și controalele la importurile din țări terțe țin de competența exclusivă a UE (Art. 3 și Art. 207 TFUE) și sunt deja armonizate prin Regulamentul (UE) 2017/625 și Regulamentul de punere în aplicare (UE) 2019/1793, care stabilesc o listă unică europeană de risc. Instituirea unei liste naționale paralele obligatorii, dublată de scopul protecționist recunoscut explicit în Expunerea de motive („va sprijini producătorii români în competiția cu importurile”), riscă o procedură de infringement și încălcarea Acordului OMC SPS. În plus, obligațiile tehnice și de trasabilitate digitală (Art. 7 și 9) nu respectă notificarea obligatorie către Comisia Europeană conform Directivei (UE) 2015/1535 (TRIS), iar sancțiunea suspendării dreptului de import nu poate fi corelată cu Codul Vamal al Uniunii și poate fi ocolită ușor prin vămuirea mărfii în alt stat membru.",
       "senatForm": {
-        "articleRef": "Art. 9, Art. 12, Art. 13 și Art. 14",
-        "proposalContent": "La Art. 12 se introduc regulile de constatare a contravențiilor conform OG 2/2001 și criterii de gradualitate pentru suspendarea importului. La Art. 13 se introduce un termen de intrare în vigoare a obligațiilor de la Art. 7 și 9 la 90 de zile de la operaționalizarea platformei digitale ANSVSA. Art. 14 teza a II-a privind adaptarea automată a legii se elimină.",
-        "argumentation": "Art. 12 prevede amenzi de până la 150.000 lei și suspendarea dreptului de import pe 12 luni în stil telegrafic, fără a desemna agenții constatatori sau procedura conform OG 2/2001. De asemenea, fără termen tranzitoriu, amenzile pentru neîncărcarea datelor în platforma ANSVSA s-ar aplica la 3 zile de la publicare, deși normele se emit în 60 de zile (Art. 13).",
-        "otherComments": "Se impune corelarea Art. 6 și Art. 9 cu Regulamentul (UE) 2019/1793 și cu sistemul european TRACES-NT (IMSOC), pentru a evita dublarea birocratică a controalelor la frontieră și încălcarea competenței exclusive a Comisiei Europene în stabilirea listelor de control consolidat la importul din țări terțe."
-      }
+        "articleRef": "Art. 6, Art. 7, Art. 12 și Art. 14",
+        "proposalContent": "Eliminarea listei naționale paralele (Art. 6-7) și alinierea la Reg. (UE) 2019/1793. La Art. 12, eliminarea suspendării dreptului de import, indicarea agenților constatatori și trimiterea la O.G. 2/2001. Eliminarea tezei privind adaptarea automată de la Art. 14 și introducerea unui termen tranzitoriu de 180 de zile pentru platforma digitală.",
+        "argumentation": "Controalele la import din țări terțe sunt armonizate prin Reg. (UE) 2017/625 și 2019/1793; lista națională paralelă încalcă competența exclusivă a UE. Art. 12 omite agenții constatatori și O.G. 2/2001, încălcând Art. 1 alin. (5) și Art. 45 din Constituție. Adaptarea automată de la Art. 14 contravine Art. 61 din Constituție.",
+        "otherComments": "Sunt necesare notificarea CE (Directiva TRIS 2015/1535), avizul Consiliului Concurenței și sursa de finanțare (Art. 138 alin. 5 Constituție) pentru platforma ANSVSA. Formula de adoptare trebuie corectată la Art. 76 alin. (2) (lege ordinară) și trebuie reglementată procedura de prelevare și dreptul la contraexpertiză înainte de publicarea rezultatelor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 102795,
+      "durationMs": 42699,
+      "sourceEndMarker": "SF-B78A13D5",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Analize de laborator obligatorii pentru fructele și legumele din import considerate riscante",
-      "verdictShort": "Scopul este legitim (reziduuri de pesticide în importuri), dar construcția juridică e șubredă. Proiectul face o listă națională de risc suprapusă peste regimul UE deja armonizat, dă amenzi de până la 150.000 lei fără reguli clare de aplicare și are o clauză de „adaptare automată” fără sens juridic. Merită reparat, nu aruncat.",
-      "initiatorClaim": "Inițiatorul spune că importurile din țări terțe vin frecvent cu reziduuri de pesticide și contaminanți semnalate în RASFF. Vrea ca România să aplice controale suplimentare bazate pe risc, fără costuri bugetare și fără bariere comerciale.",
-      "realityCheck": "ANSVSA ar întocmi trimestrial o listă de țări și produse „cu risc ridicat”. Pentru loturile de pe listă, importatorul plătește analize la un laborator acreditat și încarcă datele într-o platformă digitală nouă; fără buletin, marfa e reținută, iar amenda e de 30.000–70.000 lei. Legea nu spune dacă vizează și marfa deja pusă în liberă circulație în alt stat UE, cine constată contravențiile sau ce înseamnă „lot neconform”, iar costul analizelor ajunge în prețul de la raft. Expunerea promite zero costuri bugetare, deși platforma și publicarea săptămânală presupun cheltuieli ale ANSVSA.",
+      "plainTitle": "Analize de laborator obligatorii și amenzi mari pentru importatorii de fructe și legume din afara UE",
+      "verdictShort": "Scopul, mai puține pesticide în farfurie, e legitim. Textul e însă un schelet: lasă aproape totul pe seama ANSVSA, conține o clauză de „adaptare automată” fără sens juridic și sancțiuni de până la 150.000 lei fără reguli de constatare.",
+      "initiatorClaim": "Inițiatorul spune că vrea să oprească intrarea pe piață a fructelor și legumelor din țări terțe cu reziduuri de pesticide și contaminanți, printr-un control bazat pe risc. Afirmă că legea nu creează bariere comerciale și nu costă bugetul de stat.",
+      "realityCheck": "Legea obligă importatorii din țări aflate pe o listă trimestrială stabilită prin ordin ANSVSA să prezinte buletine de analiză pe banii lor și să încarce datele într-o platformă digitală care nu există încă. Pentru încălcări sunt prevăzute amenzi de 20.000–150.000 lei și suspendarea „dreptului de import”. Practic, conținutul real al obligațiilor (lista, procedura, platforma, cine constată) se mută în acte ale ANSVSA. Peste regimul armonizat UE de controale la import se suprapune un filtru național suplimentar, cu risc de conflict cu politica comercială comună.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Agricultură & Mediu",
@@ -72,57 +104,87 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 6–7: lista de risc se aprobă prin ordin al președintelui ANSVSA și se poate schimba trimestrial. Pentru loturile de pe listă, buletinul de analiză (pesticide, metale grele, contaminanți, nitrați) e obligatoriu, altfel lotul e reținut. Nu există perioadă de tranziție pentru loturile aflate deja în tranzit când lista se modifică.",
-        "Art. 12: amenzile sunt de 30.000–150.000 lei, plus suspendarea „dreptului de import” până la 12 luni. Lipsesc agentul constatator (cerut de OG 2/2001), definiția „lotului neconform” (depășirea LMR? orice parametru?) și criteriile pentru suspendare. „Dreptul de import” nu este definit ca autorizație care să poată fi suspendată.",
-        "Art. 9 și 11: impun o platformă digitală nouă și publicarea săptămânală a rezultatelor „Conform/Neconform”. Expunerea afirmă că nu există impact bugetar, deși ANSVSA trebuie să construiască și să opereze sistemul. Nu se precizează dacă publicarea include numele operatorilor.",
-        "Art. 14: textul „prevederile se adaptează automat” la modificarea normelor UE nu are conținut normativ. O lege nu se modifică singură, iar regulamentele UE se aplică oricum direct.",
-        "Art. 6 alin. (3) trimite la art. 113 din Regulamentul (UE) 2017/625. Acel articol privește rapoartele anuale ale statelor membre, nu un mecanism de notificare a unor liste naționale de risc."
+        "Art. 14: „În cazul modificării normelor UE, prevederile se adaptează automat.” Este o formulă fără conținut normativ. O lege nu se poate modifica singură, iar destinatarul nu poate ști ce regulă i se aplică la un moment dat. Încalcă cerința de previzibilitate (art. 1 alin. 5 din Constituție).",
+        "Art. 12 stabilește amenzi de 30.000–70.000 lei, 70.000–150.000 lei și 20.000–50.000 lei. Nu menționează agentul constatator, nu face trimitere la OG nr. 2/2001 și nu prevede posibilitatea plății a jumătate din minim. Alin. (2) sancționează «comercializarea unui lot neconform» fără vreo legătură cu vinovăția, cu buletinul favorabil prezentat sau cu momentul la care neconformitatea a devenit cunoscută.",
+        "Art. 12 alin. (2) prevede «suspendarea dreptului de import până la 12 luni». Legislația națională nu definește un astfel de drept, iar regimul vamal ține de competența exclusivă a UE (Codul Vamal al Uniunii). Sancțiunea complementară are un obiect juridic incert.",
+        "Art. 6: lista țărilor și produselor cu risc, refăcută trimestrial prin ordin al președintelui ANSVSA, determină cine suportă obligații și amenzi. Legea nu fixează un prag obiectiv de includere sau excludere, nu impune consultare publică și nu prevede o perioadă de grație între publicare și aplicare.",
+        "Art. 9 și expunerea de motive: se impune o platformă digitală ANSVSA obligatorie, deși expunerea afirmă că proiectul «nu generează costuri pentru bugetul de stat». Construirea și operarea platformei, precum și controalele suplimentare, presupun cheltuieli. Lipsa fișei financiare contravine art. 138 alin. (5) din Constituție și art. 15 din Legea nr. 500/2002.",
+        "Art. 6 alin. (3) trimite la art. 113 din Regulamentul (UE) 2017/625, care privește rapoartele anuale ale statelor membre, nu notificarea unor măsuri naționale. Trimiterea pare greșită.",
+        "Art. 11 prevede publicarea săptămânală «Conform/Neconform», fără să precizeze dacă se publică numele operatorilor, cât timp rămân datele publice sau ce se întâmplă dacă o contraanaliză infirmă rezultatul (art. 35 din Regulamentul 2017/625)."
       ],
-      "blindSpotsCaught": "Multe fructe și legume din Turcia intră în România după ce au fost vămuite în Bulgaria, deci sunt deja în liberă circulație în UE. Dacă art. 7 se aplică și lor, condiția națională devine o măsură cu efect echivalent (art. 34 TFUE). În plus, expunerea spune deschis că legea „va sprijini producătorii români în competiția cu importurile”. Asta contrazice art. 4 și art. 6 alin. (4), care pretind scop exclusiv sanitar, și poate fi folosit ca dovadă de restricție disimulată (art. 36 TFUE). Regulamentul 2019/1793 cere deja, pentru combinațiile țară–produs din Anexa II, certificat oficial și rezultate de laborator din țara de origine, deci lista națională dublează parțial regimul UE. Formula „laborator acreditat conform standardelor ISO” nu indică standardul (ISO/IEC 17025) și nici țara laboratorului. Un buletin privat nu înlocuiește controlul oficial făcut de laboratoarele desemnate (art. 37 din Reg. 2017/625).",
-      "constitutionalityNote": "Art. 1 alin. (5) (claritate și previzibilitate): art. 12 este incomplet, fără agent constatator și fără definiția lotului neconform, iar art. 14 este o normă fără conținut, contrară Legii 24/2000. Art. 45 coroborat cu art. 53: suspendarea dreptului de import până la 12 luni restrânge libertatea economică fără criterii de individualizare, deci proporționalitatea este discutabilă. Art. 138 alin. (5): platforma digitală și publicarea săptămânală generează cheltuieli fără sursă de finanțare identificată, iar lipsa fișei financiare (art. 15 din Legea 500/2002) poate atrage critici. Art. 148 alin. (2): prioritatea dreptului UE face art. 14 inutil. Proiectul nu este neconstituțional în ansamblu, dar are vicii de redactare care îl pot face greu aplicabil.",
-      "euLawNote": "Directiva 2018/958 nu este relevantă, pentru că proiectul nu reglementează profesii. TRIS 2015/1535 nu privește aici servicii digitale. Totuși, obligația unui buletin de analiză ca condiție de comercializare a unui produs poate fi „regulă tehnică” care trebuie notificată Comisiei înainte de adoptare; fără notificare, norma devine inopozabilă particularilor (C-194/94, CIA Security). Importurile din țări terțe sunt armonizate prin Reg. 2017/625 și 2019/1793 și țin de politica comercială comună (art. 207 TFUE). Statele membre pot intensifica controalele oficiale bazate pe risc (art. 9), dar condițiile documentare noi impuse importatorilor sunt mai greu de justificat. Pentru mărfurile deja în liberă circulație se aplică art. 34–36 TFUE și testul de proporționalitate. Sub aspectul concurenței, costul analizelor per lot apasă mai greu pe importatorii mici decât pe marile lanțuri.",
+      "blindSpotsCaught": "Regulamentul de punere în aplicare (UE) 2019/1793 stabilește deja, la nivelul Uniunii, lista produselor și țărilor terțe cu controale sporite, frecvențele de control și obligația certificatului cu rezultatele analizelor. O listă națională paralelă, cu obligații suplimentare pentru importurile intrate direct în România, poate devia traficul prin porturi din alte state membre, de unde marfa circulă liber. Efectul sanitar ar fi atunci nul, iar costul ar rămâne doar pe operatorii români. În plus, legea nu are articol privind intrarea în vigoare sau perioada de tranziție. Nici normele metodologice (art. 13) nu au un act de aprobare precizat.",
+      "constitutionalityNote": "Art. 14 teza a doua și formulările vagi de la art. 2 lit. c) și art. 5 alin. (1) («legea se aplică exclusiv pe baza evaluării riscului») afectează claritatea și previzibilitatea normei (art. 1 alin. 5; jurisprudența CCR privind calitatea legii). Elementele esențiale ale obligațiilor sancționabile sunt delegate unui ordin al președintelui ANSVSA, fără criterii legale suficiente. Expunerea afirmă lipsa impactului bugetar, deși legea creează o platformă și sarcini noi de control, ceea ce ridică o problemă față de art. 138 alin. (5). Cuantumul amenzilor, fără graduare după cifra de afaceri, poate fi disproporționat (art. 53) pentru micii importatori.",
+      "euLawNote": "Directiva 2018/958 nu este relevantă, deoarece nu se reglementează profesii. Politica comercială comună (art. 207 TFUE) și Regulamentul 2019/1793 limitează măsurile naționale unilaterale privind importurile din țări terțe. Regulamentul 2017/625 permite controale bazate pe risc, dar nu un regim paralel de certificare obligatorie. Obligația de buletin de analiză pentru produse poate constitui o «altă cerință» sau un regulament tehnic în sensul Directivei (UE) 2015/1535, deci proiectul ar trebui notificat prin TRIS înainte de adoptare, sub sancțiunea inopozabilității (jurisprudența CIP Security/Unilever). Suspendarea «dreptului de import» intră în conflict cu Codul Vamal al Uniunii.",
       "senatForm": {
-        "articleRef": "Art. 7 alin. (1) și (3)",
-        "proposalContent": "Art. 7 (1) Importatorii care introduc direct în UE, printr-un post de control de frontieră din România, loturi aflate pe lista de risc prezintă buletin de analiză emis de un laborator acreditat ISO/IEC 17025. (3) În lipsa buletinului, ANSVSA prelevează probe oficiale, pe cheltuiala importatorului; lotul rămâne reținut până la rezultat.",
-        "argumentation": "Forma actuală nu precizează dacă obligația vizează și loturile deja puse în liberă circulație în alt stat membru (ex. intrate prin Bulgaria). Pentru acestea, o condiție națională suplimentară riscă să încalce art. 34 TFUE. Proba oficială, în locul simplei rețineri, evită blocarea pe termen nedefinit a mărfii perisabile.",
-        "otherComments": "Art. 14 („se adaptează automat”) trebuie eliminat: o lege nu se modifică singură. Art. 12 să precizeze agentul constatator, să definească „lot neconform” și să gradeze amenda după valoarea lotului. Proiectul trebuie notificat Comisiei (TRIS 2015/1535) înainte de adoptare. Platforma digitală (art. 9) are cost bugetar nedeclarat."
-      }
+        "articleRef": "Art. 14 și Art. 12",
+        "proposalContent": "Art. 14 se reformulează: „În cazul modificării actelor UE prevăzute la art. 1, ANSVSA actualizează normele metodologice în 90 de zile și, dacă e necesar, inițiază modificarea prezentei legi.” La art. 12 se introduce alin. (4): „Constatarea și aplicarea sancțiunilor se fac de inspectori ANSVSA, potrivit OG nr. 2/2001.”",
+        "argumentation": "O lege nu se poate «adapta automat»: formula încalcă previzibilitatea normei (art. 1 alin. 5 din Constituție) și ar duce la neaplicare sau contestații. Amenzile de până la 150.000 lei sunt prevăzute fără agent constatator și fără trimitere la regimul general al contravențiilor, ceea ce le face greu de aplicat și ușor de anulat în instanță.",
+        "otherComments": "Propun: eliminarea «suspendării dreptului de import» (competență vamală UE); corelarea listei din art. 6 cu Reg. 2019/1793 și o perioadă de 30 de zile între publicare și aplicare; notificarea TRIS; fișă financiară pentru platformă; corectarea trimiterii la art. 113 din Reg. 2017/625; un articol de intrare în vigoare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 178164,
+      "durationMs": 125912,
+      "sourceEndMarker": "SF-B78A13D5",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Analize și amenzi noi pentru fructele și legumele din afara UE",
-      "verdictShort": "Protecția consumatorilor justifică verificări suplimentare bazate pe risc. Forma propusă lasă însă reguli importante neclare și poate bloca mărfuri perisabile sau împovăra importatorii mici fără un beneficiu sanitar demonstrat pentru fiecare obligație.",
-      "initiatorClaim": "Inițiatorul urmărește reducerea riscurilor generate de pesticide și contaminanți prin analize, trasabilitate digitală și transparență. Expunerea de motive promite absența costurilor bugetare și sprijinirea producătorilor români în competiția cu importurile.",
-      "realityCheck": "Art. 6–7 instituie o listă națională de risc, buletine obligatorii pentru loturile incluse și reținerea lor dacă documentele lipsesc, iar art. 9 și 12 adaugă raportare digitală și sancțiuni. Mecanismul poate îmbunătăți depistarea neconformităților, dar nu stabilește suficient selecția analizelor, recunoașterea documentelor existente și procedura de deblocare a loturilor. Costurile analizelor, depozitării și întârzierilor pot apăsa mai mult asupra IMM-urilor și se pot transmite în prețuri; avantajul pentru producătorii locali este un efect economic posibil, nu dovada necesității sanitare.",
+      "plainTitle": "Analize obligatorii și sancțiuni pentru fructele și legumele importate",
+      "verdictShort": "Protecția consumatorilor justifică verificări suplimentare bazate pe risc. Proiectul necesită însă corecții importante: permite blocarea loturilor pentru lipsa unui document, introduce o suspendare insuficient definită a importurilor și impune obligații digitale fără perioadă de tranziție.",
+      "initiatorClaim": "Inițiatorul urmărește reducerea riscurilor provocate de pesticide și contaminanți din fructele și legumele provenite din țări terțe. Expunerea susține că măsurile sunt proporționale, nu creează bariere comerciale și nu generează cheltuieli bugetare.",
+      "realityCheck": "Art. 6–7 introduc o listă națională trimestrială și obligă importatorii loturilor vizate să prezinte analize, lipsa documentului determinând reținerea oficială chiar fără constatarea contaminării. Art. 9 impune încărcarea datelor într-o platformă, iar art. 12 prevede amenzi de până la 150.000 lei și suspendarea unui «drept de import» insuficient definit. Art. 13–14 nu asigură tranziția necesară și pretind adaptarea automată a prevederilor naționale la modificările dreptului UE, fără un mecanism legislativ clar.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Justiție & Drepturi Civile",
-        "Sănătate & Educație",
         "Agricultură & Mediu",
+        "Sănătate & Educație",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 5–6 folosesc surse pertinente, precum RASFF și istoricul neconformităților, dar nu stabilesc praguri pentru includerea sau eliminarea combinațiilor produs–țară. Actualizarea trimestrială nu este însoțită de o procedură expresă pentru riscuri urgente ori pentru retragerea rapidă a unei încadrări devenite nejustificate.",
-        "Art. 2 lit. e) și art. 7 cer acreditare generică «conform standardelor ISO», fără identificarea standardului și a încercărilor acoperite. Lipsesc reguli despre prelevare, valabilitatea buletinelor și recunoașterea analizelor deja efectuate. Regimul european pentru produsele din anexa II la Regulamentul 2019/1793 prevede deja analize și certificate oficiale; un buletin privat generic nu le înlocuiește. [Comisia Europeană](https://food.ec.europa.eu/horizontal-topics/official-controls-and-enforcement/imported-products/contact-details-bcps-and-cps-food-and-feed-non-animal-origin_en)",
-        "Art. 12 prevede 30.000–70.000 lei pentru lipsa buletinului, 20.000–50.000 lei pentru trasabilitatea digitală și 70.000–150.000 lei plus suspendarea importului pentru comercializarea unui lot neconform. Lipsesc delimitarea neconformităților și criteriile specifice pentru suspendare. Plafonul de 150.000 lei trebuie corelat cu plafonul general de 100.000 lei din OG 2/2001; o derogare prin lege este posibilă. Avertismentul și plângerea contravențională rămân disponibile potrivit dreptului comun. [OG 2/2001](https://legislatie.just.ro/Public/DetaliiDocument/307794)",
-        "Art. 9 nu delimitează explicit operatorii și loturile supuse raportării, în corelare cu art. 5 și 7, și nu prevede termene de încărcare sau soluții pentru indisponibilitatea platformei. Art. 13 acordă 60 de zile pentru elaborarea normelor, fără să condiționeze obligația digitală de funcționarea sistemului. Dreptul comun prevede, în principiu, 30 de zile pentru intrarea în vigoare a dispozițiilor contravenționale. [OG 2/2001, art. 4](https://legislatie.just.ro/Public/DetaliiDocument/307794)",
-        "Afirmația din expunerea de motive privind lipsa costurilor bugetare nu este demonstrată: platforma, securitatea informatică, evaluările trimestriale și publicarea săptămânală presupun resurse. Textul nu instituie o taxă nouă și nu rezervă analizele unui laborator unic, dar cheltuielile și capacitatea limitată de testare pot dezavantaja importatorii mici.",
-        "Art. 11 poate ajuta consumatorii, însă trebuie precizat dacă publicarea este agregată sau identifică operatorii. Pentru informațiile individualizate sunt necesare corectarea erorilor, respectarea confidențialității și posibilitatea operatorului de a formula observații, potrivit garanțiilor europene; simpla trimitere la GDPR din art. 10 nu acoperă toate aceste aspecte. [Regulamentul 2017/625, art. 8 și 11](https://eur-lex.europa.eu/eli/reg/2017/625/oj)",
-        "Art. 14 afirmă că prevederile naționale «se adaptează automat» la modificările europene, fără a preciza ce texte și obligații se schimbă. Prioritatea dreptului UE nu echivalează cu rescrierea automată a legii române, mai ales când obligațiile sunt însoțite de amenzi."
+        "Art. 5 folosește indicatori relevanți, precum notificările RASFF și istoricul neconformităților. Acesta este un element util, dar lipsesc criteriile suficiente pentru includerea, menținerea și eliminarea combinațiilor produs–țară de pe lista de risc.",
+        "Art. 6 alin. (3) invocă greșit art. 113 din Regulamentul (UE) 2017/625: acesta privește rapoartele anuale ale statelor membre, nu o procedură de notificare sau aprobare a listelor naționale trimestriale.",
+        "Art. 7 alin. (3) impune reținerea pentru absența buletinului, fără să precizeze termenul, condițiile de eliberare și raportul cu documentele deja cerute de legislația UE. Pentru produse perisabile, întârzierile pot produce pierderi importante; absența documentului nu dovedește, singură, contaminarea.",
+        "Art. 2 lit. d) trimite exclusiv la art. 138 din Regulamentul (UE) 2017/625, privind măsurile în cazul neconformității constatate. Temeiul și procedura reținerii trebuie corelate și cu dispozițiile europene aplicabile suspiciunilor și controalelor la intrare.",
+        "Art. 2 lit. e) și art. 7 cer acreditare «conform standardelor ISO», fără identificarea standardului relevant și a domeniului acreditării. Pentru laboratoarele oficiale, reperul european este EN ISO/IEC 17025; un buletin furnizat de operator nu înlocuiește automat controlul oficial.",
+        "Art. 9 folosește termenul larg «operatorii», fără să delimiteze suficient persoanele și loturile supuse raportării digitale. Art. 13 acordă 60 de zile numai pentru elaborarea normelor, fără amânarea obligațiilor până la existența unei platforme funcționale.",
+        "Art. 12 alin. (2) nu explică întinderea «dreptului de import» suspendat și criteriile duratei suspendării. Nu se poate afirma doar din cuantumul amenzii că sancțiunea este neconstituțională, dar combinația dintre noțiuni vagi, amenzi mari și suspendare creează un risc serios pentru operatori.",
+        "Art. 11 impune publicarea săptămânală a rezultatelor, fără să precizeze identificatorii publicați, caracterul definitiv al rezultatului sau corectarea informațiilor eronate. Transparența este utilă, dar trebuie corelată cu confidențialitatea comercială și protecția datelor.",
+        "Afirmația din expunere că nu există costuri bugetare nu este demonstrată: platforma, administrarea datelor și controalele necesită resurse, chiar dacă o parte poate proveni din infrastructura existentă. Operatorii suportă sarcini documentare și posibile costuri de analiză, depozitare și întârziere, cu efect proporțional mai mare asupra IMM-urilor.",
+        "Art. 14 nu poate modifica singur textul legii la fiecare schimbare a normelor UE. Prioritatea unui regulament european aplicabil nu echivalează cu rescrierea automată a obligațiilor și contravențiilor naționale.",
+        "Formula finală invocă art. 76 alin. (1) din Constituție, referitor la legile organice, deși obiectul descris indică în principiu o lege ordinară. Încadrarea trebuie justificată; simpla mențiune a majorității organice nu dovedește singură neconstituționalitatea."
       ],
-      "blindSpotsCaught": "Art. 6 alin. (3) invocă greșit art. 113 din Regulamentul 2017/625: acesta privește raportarea anuală, nu autorizarea unei liste naționale trimestriale de import. Art. 2 lit. d) trimite la art. 138, deși reținerea oficială este definită la art. 3 pct. 47 și are temeiuri specifice, inclusiv art. 65 și 137. [Regulamentul 2017/625](https://eur-lex.europa.eu/eli/reg/2017/625/oj) Procedural, Senatul a respins proiectul la 4 martie 2026; Camera Deputaților poate continua examinarea. Fișa Senatului îl califică drept lege ordinară, ceea ce reclamă corectarea trimiterii finale la art. 76 alin. (1). [Fișa legislativă](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L55)",
-      "constitutionalityNote": "Scopul corespunde protecției sănătății prevăzute la art. 34. Există însă vulnerabilități de claritate și previzibilitate prin raportare la art. 1 alin. (5): întinderea obligației digitale, conținutul analizelor, suspendarea importului și adaptarea automată a legii. Art. 23 alin. (12) privește legalitatea pedepsei; aici sunt prevăzute contravenții, astfel încât critica trebuie construită în principal pe art. 1 alin. (5), fără confundarea lor cu infracțiunile. Reținerea și suspendarea necesită justificare proporțională în raport cu proprietatea, libertatea economică și concurența, potrivit art. 44, 45 și 135. Dacă implementarea impune cheltuieli bugetare suplimentare, trebuie identificată finanțarea conform art. 138 alin. (5). Art. 148 impune respectarea dreptului UE. Acestea sunt riscuri juridice, nu o constatare definitivă de neconstituționalitate. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm)",
-      "euLawNote": "Controalele bazate pe risc sunt deja prevăzute de Regulamentul 2017/625, iar Regulamentul 2019/1793 organizează controale sporite pentru anumite produse și origini. Lista națională trebuie justificată în limitele competențelor permise de regimul armonizat; declarația de conformitate din art. 4 și 14 nu este suficientă. [Regulamentul 2017/625](https://eur-lex.europa.eu/eli/reg/2017/625/oj) [Comisia Europeană](https://food.ec.europa.eu/horizontal-topics/official-controls-and-enforcement/imported-products/contact-details-bcps-and-cps-food-and-feed-non-animal-origin_en) Directiva 2018/958 privește accesul la profesii reglementate, astfel că nu rezultă aplicabilitatea sa acestui proiect; proporționalitatea restricțiilor economice rămâne necesară. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng) Proiectul nu reglementează AI, iar utilizarea unei platforme administrative nu declanșează singură TRIS. Totuși, Directiva 2015/1535 acoperă și produsele agricole și procedurile obligatorii de evaluare a conformității: art. 7 necesită examinarea obligației de notificare înainte de adoptare și a perioadei de așteptare, cu verificarea excepțiilor din art. 7 al directivei. Nu există aici dovada unei notificări sau a omisiunii sale. [Comisia Europeană – domeniul TRIS](https://technical-regulation-information-system.ec.europa.eu/en/about-the-20151535/what-is-a-technical-regulation) [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32015L1535)",
+      "blindSpotsCaught": "Clauzele generale de proporționalitate și conformitate europeană din art. 4 și 14 nu repară mecanic obligațiile insuficient definite. Proiectul nu conține abrogări sau modificări exprese ale altor legi și nici dispoziții tranzitorii: în lipsa unei date speciale, intrarea în vigoare urmează regula constituțională de trei zile de la publicare, deși normele au termen de elaborare de 60 de zile. Platforma administrativă nu atrage automat regimul serviciilor digitale, însă obligațiile privind testarea produselor pot ridica distinct problema notificării TRIS.",
+      "constitutionalityNote": "Vulnerabilitatea principală privește art. 1 alin. (5): destinatarii obligațiilor digitale, sensul lotului neconform, întinderea suspendării și pretinsa adaptare automată trebuie să fie previzibile. Elementele esențiale ale contravențiilor nu pot fi lăsate normelor metodologice. Art. 23 alin. (12) privește direct legalitatea pedepsei penale; pentru aceste contravenții, reperul constituțional direct al preciziei este art. 1 alin. (5). Art. 45 și art. 135 impun examinarea restricțiilor asupra activității economice și concurenței, iar protejarea sănătății, susținută de art. 34, reprezintă un scop legitim. Art. 148 cere respectarea dreptului UE. Dacă implementarea determină cheltuieli bugetare suplimentare, trebuie respectate și cerințele constituționale privind informarea Guvernului și sursa finanțării; expunerea de motive nu înlocuiește fundamentarea.",
+      "euLawNote": "Regulamentul (UE) 2017/625 permite controale bazate pe risc, dar obligațiile naționale trebuie încadrate în procedurile sale și corelate cu regimul armonizat din Regulamentul (UE) 2019/1793. Lista națională nu poate modifica prin ea însăși condițiile europene de import. Trebuie clarificat și tratamentul produselor originare din țări terțe deja puse în liberă circulație într-un alt stat membru: restricțiile asupra lor pot intra sub incidența art. 34–36 TFUE. Directiva (UE) 2018/958 privește proporționalitatea reglementării profesiilor, deci nu este aplicabilă doar fiindcă importatorilor li se impun obligații; proporționalitatea rămâne însă obligatorie potrivit dreptului UE relevant. Directiva (UE) 2015/1535 nu devine aplicabilă serviciilor societății informaționale prin simpla existență a platformei ANSVSA. Separat, cerințele obligatorii de testare a produselor pot constitui reglementări tehnice notificabile: trebuie verificată obligația TRIS și eventuala excepție pentru executarea unor acte UE obligatorii. Simpla invocare a regulamentelor nu demonstrează această excepție. Verificarea online a versiunilor consolidate nu a fost disponibilă; analiza folosește textul furnizat și cadrul juridic identificat.",
       "senatForm": {
-        "articleRef": "Art. 7 – înlocuire integrală",
-        "proposalContent": "Art. 7 – Analizele suplimentare se solicită numai în condițiile permise de dreptul UE, pentru riscuri identificate și motivate. Se acceptă rapoarte echivalente emise de laboratoare acreditate pentru încercările relevante. Reținerea lotului se dispune prin decizie motivată, cu informarea asupra căilor de atac și cu reevaluare fără întârziere.",
-        "argumentation": "Controalele bazate pe risc protejează consumatorii, dar un buletin generic obligatoriu pentru fiecare lot poate dubla verificările UE și bloca produse perisabile. Amendamentul leagă analizele de riscul concret, previne repetarea inutilă a testelor și face reținerea verificabilă, fără a înlătura controalele obligatorii europene.",
-        "otherComments": "Pentru Comisia pentru agricultură a Camerei Deputaților, Pl-x 164/2026. Solicit corelarea art. 6, 9, 12 și 14 și verificarea TRIS. Termenul inițial de amendamente, 19.03.2026, a trecut; acest text este o propunere cetățenească pe care un deputat o poate prelua potrivit procedurii parlamentare."
-      }
+        "articleRef": "Art. 12 alin. (2)",
+        "proposalContent": "(2) Comercializarea unui lot cu depășiri ale limitelor legale de reziduuri de pesticide ori contaminanți constituie contravenție, dacă fapta nu constituie infracțiune, și se sancționează cu amendă de la 30.000 la 100.000 lei. Constatarea și sancționarea revin personalului împuternicit al ANSVSA. Se aplică OG nr. 2/2001.",
+        "argumentation": "Textul delimitează neconformitatea sancționată, identifică agenții constatatori și elimină suspendarea unui «drept de import» nedefinit. Individualizarea amenzii urmează regimul contravențional general. Măsurile sanitare prevăzute de Regulamentul (UE) 2017/625 rămân aplicabile.",
+        "otherComments": "Sunt necesare separat corectarea art. 6 alin. (3), o tranziție pentru platformă și reformularea art. 14. Destinatar: Comisia pentru agricultură a Camerei Deputaților. Termenul indicat, 19.03.2026, este depășit la data analizei; petiția cetățeanului nu devine automat amendament parlamentar."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-29T06:38:51.274Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 7,
+        "claude": 5,
+        "codex": 6
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:12:14.752Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

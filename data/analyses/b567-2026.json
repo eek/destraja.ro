@@ -1,7 +1,7 @@
 {
   "billId": "B567/2026",
   "slug": "b567-2026",
-  "updatedAt": "2026-11-24T12:07:17.262Z",
+  "updatedAt": "2026-11-24T14:29:01.920Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -32,10 +32,10 @@
   "consensus": {
     "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Pensionare la 60 de ani pentru oricine a avut un diagnostic de cancer, fără calcul bugetar",
-    "summaryTlDr": "Intenție socială legitimă pentru pacienții oncologici, dar redactată atât de larg și fără sursă de finanțare încât creează riscuri serioase de neconstituționalitate și o presiune necuantificată asupra bugetului de pensii.",
-    "initiatorClaim": "Inițiatorii vor să ofere protecție socială supraviețuitorilor și pacienților diagnosticați cu cancer, permițându-le pensionarea la limită de vârstă la 60 de ani, cu minimum 15 ani de cotizare, recunoscând efectele pe termen lung ale bolii și tratamentelor.",
-    "realityCheck": "Art. 53¹ acordă pensie integrală pentru limită de vârstă la 60 de ani oricui a primit vreodată (inclusiv anterior legii, conform Art. II) un diagnostic de „neoplasm malign”, indiferent de stadiu, remisie sau capacitatea de muncă, fără a exclude forme superficiale complet vindecate (ex. carcinom bazocelular) și fără a cuantifica impactul financiar. Față de forma actuală a art. 57 din Legea 360/2023, care interzice cumulul reducerii de la art. 56 cu alte reduceri, proiectul extinde interdicția și asupra art. 53¹, dar lasă integral la mâna Guvernului (prin HG 181/2024) stabilirea modului de verificare a documentelor medicale.",
+    "plainTitle": "Pensie la 60 de ani pentru persoanele diagnosticate cu cancer, doar cu stagiul minim de cotizare",
+    "summaryTlDr": "Măsura socială e legitimă și bine intenționată. Textul are însă un criteriu medical foarte larg și nedefinit, cost bugetar necuantificat și fără sursă de finanțare, plus un avantaj greu de justificat față de pensia anticipată.",
+    "initiatorClaim": "Inițiatorii vor să protejeze persoanele care au trecut printr-un cancer, au continuat să muncească și se confruntă cu efecte pe termen lung ale bolii și tratamentului. Le dau dreptul la pensie pentru limită de vârstă la 60 de ani, chiar dacă boala este în remisie.",
+    "realityCheck": "Orice persoană cu un diagnostic de neoplasm malign, stabilit oricând, inclusiv cu o zi înainte de cerere, poate ieși la pensie pentru limită de vârstă la 60 de ani, cu doar stagiul minim de cotizare. Textul nu cere o anumită gravitate, un tratament urmat, o vechime a diagnosticului sau o pierdere a capacității de muncă. Cine certifică diagnosticul și ce documente sunt acceptate se stabilește prin HG. Intră astfel și formele cu prognostic excelent, de exemplu unele cancere cutanate non-melanom sau formele in situ, dacă sunt considerate maligne. Costul pentru bugetul asigurărilor sociale nu este estimat.",
     "affectedGroups": [
       "Angajați & HR",
       "Sănătate & Educație",
@@ -43,10 +43,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 (art. 53^1) și Art. III",
-      "proposalContent": "Definirea strictă în lege a categoriilor eligibile de neoplasm malign (coduri CIM-10/ICD-10, confirmare histopatologică, excluderea leziunilor cutanate non-melanom vindecate fără sechele) și stabilirea condiției unui stagiu complet sau proporțional de cotizare, corelat cu evaluarea impactului bugetar înainte de adoptare.",
-      "argumentation": "Proiectul nu indică sursa de finanțare (art. 138 alin. 5 Constituție) și delegă criteriile medicale esențiale unei HG (art. 1 alin. 5). Termenul generic „neoplasm malign”, indiferent de stadiu sau capacitatea de muncă, generează inechități față de alte boli cronice grave (art. 16) și un risc major, necuantificat, pentru sustenabilitatea pensiilor.",
-      "otherComments": "Este necesară solicitarea fișei financiare de la Guvern (art. 111 alin. 1 Constituție), consultarea comisiilor de oncologie ale Ministerului Sănătății și corelarea cu art. 58-59 din Legea nr. 360/2023 (pensionarea persoanelor cu handicap) și cu jaloanele PNRR privind sustenabilitatea sistemului public de pensii."
+      "articleRef": "Art. I pct. 1 (art. 53^1) și pct. 2 (art. 57)",
+      "proposalContent": "Art. 53^1 alin.(1): diagnosticul să fie confirmat histopatologic, în documente emise de medicul specialist oncolog și înregistrat în Registrul național de cancer; legea să precizeze dacă intră formele in situ și cancerele cutanate non-melanom. Să se anexeze fișa financiară și sursa de finanțare (art. 138 alin. 5 Constituție).",
+      "argumentation": "„Diagnosticul de neoplasm malign”, fără autoritate certificatoare, vechime sau gravitate, acoperă și forme cu prognostic excelent și lasă criteriile în seama HG. Cu doar stagiul minim, pensia întreagă la 60 de ani e mai avantajoasă decât pensia anticipată (stagiu complet depășit, penalizări). Lipsa fișei financiare încalcă art. 138(5).",
+      "otherComments": "Art. 57: art. 53^1 fixează o vârstă, nu o reducere; formularea trebuie corelată. De clarificat: cuantumul (cu sau fără diminuare), relația cu pensia de invaliditate și cu reducerile existente pentru persoanele cu handicap. Criteriile esențiale să fie în lege, nu delegate integral normelor din art. III."
     }
   },
   "council": {
@@ -86,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 49248,
+      "sourceEndMarker": "SF-F5F69F9E",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensie la 60 de ani pentru persoanele diagnosticate cu cancer, doar cu stagiul minim de cotizare",
+      "verdictShort": "Măsura socială e legitimă și bine intenționată. Textul are însă un criteriu medical foarte larg și nedefinit, cost bugetar necuantificat și fără sursă de finanțare, plus un avantaj greu de justificat față de pensia anticipată.",
+      "initiatorClaim": "Inițiatorii vor să protejeze persoanele care au trecut printr-un cancer, au continuat să muncească și se confruntă cu efecte pe termen lung ale bolii și tratamentului. Le dau dreptul la pensie pentru limită de vârstă la 60 de ani, chiar dacă boala este în remisie.",
+      "realityCheck": "Orice persoană cu un diagnostic de neoplasm malign, stabilit oricând, inclusiv cu o zi înainte de cerere, poate ieși la pensie pentru limită de vârstă la 60 de ani, cu doar stagiul minim de cotizare. Textul nu cere o anumită gravitate, un tratament urmat, o vechime a diagnosticului sau o pierdere a capacității de muncă. Cine certifică diagnosticul și ce documente sunt acceptate se stabilește prin HG. Intră astfel și formele cu prognostic excelent, de exemplu unele cancere cutanate non-melanom sau formele in situ, dacă sunt considerate maligne. Costul pentru bugetul asigurărilor sociale nu este estimat.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 (art. 53^1 alin. 1): dreptul depinde doar de existența unui diagnostic de neoplasm malign, fără autoritate certificatoare, fără confirmare histopatologică prevăzută în lege, fără vechime minimă a diagnosticului și fără criteriu de gravitate. Criteriile reale sunt lăsate integral normelor (HG 181/2024, prin art. III).",
+        "Art. 53^1 alin. (2): dreptul se acordă «indiferent de capacitatea de muncă» și de stadiul bolii, inclusiv în remisie. Măsura nu compensează o incapacitate, ci recunoaște un istoric medical. Ea se suprapune parțial cu pensia de invaliditate și cu reducerile de vârstă deja existente pentru persoanele cu handicap.",
+        "Pensia pentru limită de vârstă la 60 de ani cu stagiul minim pare să fie acordată fără diminuare. Pensia anticipată din aceeași lege cere stagiu complet depășit și aplică penalizări. Diferența de tratament e greu de justificat actuarial și creează o portiță.",
+        "Art. I pct. 2 (art. 57): actualizarea regulii de necumulare e utilă. Totuși, art. 53^1 nu formulează o «reducere», ci o vârstă fixă, iar corelarea terminologică e imperfectă.",
+        "Art. II nu este retroactiv în sens constituțional: se aplică diagnosticelor anterioare, dar numai pentru drepturi viitoare. Este o soluție corectă.",
+        "Expunerea de motive recunoaște impactul bugetar, dar amână fișa financiară. Proiectul nu are cuantificare și nici sursă de finanțare."
+      ],
+      "blindSpotsCaught": "Termenul «neoplasm malign» acoperă clinic un spectru foarte larg: de la cancere cu prognostic rezervat până la leziuni cutanate tratate ambulatoriu, cu supraviețuire de aproape 100%. Fără o delimitare în lege, numărul beneficiarilor poate fi mult mai mare decât sugerează expunerea de motive, iar riscul de documente medicale de complezență crește. Câștigul este mai mare pentru bărbați și pentru femeile din generațiile cu vârstă standard mai ridicată, adică diferența până la 65 de ani. Normele trebuie emise în 60 de zile de la publicare, înainte de intrarea în vigoare la 90 de zile. Este o corelare bună, dar fără criterii în lege, HG ar stabili în fapt sfera beneficiarilor.",
+      "constitutionalityNote": "Art. 138 alin. (5): o măsură cu impact bugetar cert, fără fișă financiară și fără sursă de finanțare, este vulnerabilă. CCR a admis repetat obiecții pe acest temei când lipsea punctul de vedere al Guvernului sau evaluarea impactului (art. 111 alin. 1 și art. 15 din Legea 500/2002). Art. 1 alin. (5): lipsa unei definiții a diagnosticului și a autorității care îl certifică afectează previzibilitatea, iar delegarea criteriilor esențiale către HG este discutabilă. Art. 16: tratamentul preferențial acordat unei singure categorii de boli, față de alte afecțiuni cronice grave cu efecte comparabile, poate fi contestat. Totuși, legiuitorul are o marjă largă în politica socială, iar criteriul medical este obiectiv. Art. 47 alin. (2) (dreptul la pensie) susține măsura. Art. 15 alin. (2) nu este încălcat.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) nu se aplică. Directiva TRIS 2015/1535 nu se aplică, pentru că proiectul nu reglementează servicii digitale sau reguli tehnice. Directiva 79/7/CEE privind egalitatea de tratament între femei și bărbați în securitatea socială este respectată, deoarece vârsta de 60 de ani este aceeași pentru ambele sexe. Regulamentul 883/2004 privind coordonarea sistemelor de securitate socială se aplică normal, inclusiv la totalizarea perioadelor. Relevant indirect: cadrul de guvernanță economică al UE și procedura de deficit excesiv în care se află România cer cuantificarea măsurilor de cheltuieli permanente.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 (art. 53^1) și pct. 2 (art. 57)",
+        "proposalContent": "Art. 53^1 alin.(1): diagnosticul să fie confirmat histopatologic, în documente emise de medicul specialist oncolog și înregistrat în Registrul național de cancer; legea să precizeze dacă intră formele in situ și cancerele cutanate non-melanom. Să se anexeze fișa financiară și sursa de finanțare (art. 138 alin. 5 Constituție).",
+        "argumentation": "„Diagnosticul de neoplasm malign”, fără autoritate certificatoare, vechime sau gravitate, acoperă și forme cu prognostic excelent și lasă criteriile în seama HG. Cu doar stagiul minim, pensia întreagă la 60 de ani e mai avantajoasă decât pensia anticipată (stagiu complet depășit, penalizări). Lipsa fișei financiare încalcă art. 138(5).",
+        "otherComments": "Art. 57: art. 53^1 fixează o vârstă, nu o reducere; formularea trebuie corelată. De clarificat: cuantumul (cu sau fără diminuare), relația cu pensia de invaliditate și cu reducerile existente pentru persoanele cu handicap. Criteriile esențiale să fie în lege, nu delegate integral normelor din art. III."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +172,7 @@
         "codex": 2.4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:07:17.262Z",
+      "replacedAt": "2026-11-24T14:29:01.920Z",
       "reasons": [
         "model"
       ]

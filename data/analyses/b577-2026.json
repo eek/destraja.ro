@@ -1,7 +1,7 @@
 {
   "billId": "B577/2026",
   "slug": "b577-2026",
-  "updatedAt": "2026-11-24T12:10:15.544Z",
+  "updatedAt": "2026-11-24T14:29:41.655Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -30,12 +30,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 6.5,
+    "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Primăriile ar putea interveni forțat pe fațadele monumentelor private, pe bani publici, printr-o lege cu exemple fictive în text",
-    "summaryTlDr": "Deși scopul protejării monumentelor istorice este legitim, proiectul este neconstituțional și neaplicabil: permite intervenții pe proprietatea privată fără acord și fără control judecătoresc suspensiv, impune finanțare 100% din bani publici fără reguli privind ajutorul de stat și conține explicații didactice și exemple fictive chiar în corpul legii.",
-    "initiatorClaim": "Inițiatorii susțin că legislația actuală nu oferă primăriilor un cadru clar pentru a opri degradarea fațadelor monumentelor istorice aflate în proprietate privată și că legea creează un mecanism echilibrat pentru intervenții rapide și siguranță publică.",
-    "realityCheck": "În realitate, proiectul dublează defectuos legi deja existente (Legea 422/2001, Legea 50/1991 și Legea 153/2011) și permite primăriilor să execute lucrări inclusiv de «modernizare» pe fațade, balcoane și tâmplărie fără acordul proprietarului, cu o contestație de doar 7 zile care nu suspendă lucrările. Costurile sunt puse integral în sarcina bugetului local fără sursă de finanțare, iar textul normativ încorporează paragrafe de tip «Explicație:», «Exemplu: ABC Restaurări SRL» și un «Flux practic», încălcând flagrant regulile de tehnică legislativă.",
+    "plainTitle": "Primăria poate repara fațada monumentului tău istoric fără acordul tău, pe banii ei",
+    "summaryTlDr": "Intenția e bună, iar proprietarul nu plătește nimic, dar textul e redactat amatoricesc. Permite intervenții pe proprietate privată fără criteriu de necesitate, prin organisme nedefinite și fără corelare cu legislația existentă a monumentelor.",
+    "initiatorClaim": "Inițiatorii spun că primăriile nu au un cadru clar pentru a salva fațadele degradate ale monumentelor care nu le aparțin. Legea ar permite intervenții rapide, plătite de primărie, cu notificarea proprietarului.",
+    "realityCheck": "Art. 4 dă primăriei dreptul de a interveni pe fațada oricărui monument, inclusiv pentru «modernizare», fără să ceară ca fațada să fie degradată sau periculoasă. Condiția de pericol apare doar într-un exemplu fără forță normativă. Proprietarul are 7 zile să conteste la un «organism abilitat» nedefinit, care nu are termen de soluționare. Textul ignoră avizul Ministerului Culturii, autorizația de construire, condominiile și mecanismele deja existente în Legea 422/2001 și Legea 153/2011.",
     "affectedGroups": [
       "Proprietari & Imobiliare",
       "Justiție & Drepturi Civile",
@@ -43,10 +43,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. 1-13 (întregul proiect; Art. 4-8, 11)",
-      "proposalContent": "Respingerea proiectului sau refacerea integrală cu armonizarea față de Legea 422/2001, Legea 50/1991 și Legea 153/2011. Eliminarea exemplelor și explicațiilor din textul normativ, introducerea controlului judecătoresc suspensiv pentru proprietari, clarificarea avizelor Ministerului Culturii și a regulilor privind finanțarea și ajutorul de stat.",
-      "argumentation": "Încalcă Art. 1(5) (text neclar, cu exemple fictive și termeni nedefiniți), Art. 44 și Art. 21 din Constituție (intervenție fără acord și fără cale judiciară suspensivă) și Art. 138(5) (cheltuieli fără sursă de finanțare). Suportarea integrală a costurilor de la buget pentru clădiri private comerciale riscă ajutor de stat ilegal (Art. 107 TFUE).",
-      "otherComments": "Proiectul ignoră Legea 153/2011 (care reglementează deja reabilitarea fațadelor), confundă primăria cu UAT-ul (OUG 57/2019), permite „modernizarea” monumentelor fără avizul Ministerului Culturii și lasă Art. 11 lipsit de sancțiuni concrete. Recomandăm aviz negativ și amendarea cadrului legal existent, în locul unei legi paralele inaplicabile."
+      "articleRef": "Art. 4, Art. 6, Art. 7, Art. 11",
+      "proposalContent": "Art. 4: lucrările se pot iniția doar pentru fațade degradate sau periculoase, constatate prin raport tehnic, cu avizul Ministerului Culturii/DJC și autorizație de construire. Art. 6: se definește organismul abilitat (DJC), termen de soluționare de 15 zile și dreptul la acțiune în contencios administrativ. Se elimină exemplele și «modernizarea».",
+      "argumentation": "Textul permite intervenția pe proprietatea privată fără criteriu de necesitate, cu organisme nedefinite și fără termene, încălcând previzibilitatea (art. 1 alin. 5) și proporționalitatea restrângerii dreptului de proprietate (art. 44, 53). Nu se corelează cu Legea 422/2001, Legea 153/2011 și Legea 50/1991. Exemplele nu au loc în textul normativ (Legea 24/2000).",
+      "otherComments": "Lipsesc: reglementarea situației condominiilor și a chiriașilor, răspunderea pentru daune aduse proprietarului (nu doar monumentului), sursa de finanțare și fișa financiară (Legea 500/2002), corelarea cu Legea 98/2016. Recomandăm integrarea în Legea 422/2001 în loc de lege separată."
     }
   },
   "council": {
@@ -87,8 +87,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 43944,
+      "sourceEndMarker": "SF-85483911",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăria poate repara fațada monumentului tău istoric fără acordul tău, pe banii ei",
+      "verdictShort": "Intenția e bună, iar proprietarul nu plătește nimic, dar textul e redactat amatoricesc. Permite intervenții pe proprietate privată fără criteriu de necesitate, prin organisme nedefinite și fără corelare cu legislația existentă a monumentelor.",
+      "initiatorClaim": "Inițiatorii spun că primăriile nu au un cadru clar pentru a salva fațadele degradate ale monumentelor care nu le aparțin. Legea ar permite intervenții rapide, plătite de primărie, cu notificarea proprietarului.",
+      "realityCheck": "Art. 4 dă primăriei dreptul de a interveni pe fațada oricărui monument, inclusiv pentru «modernizare», fără să ceară ca fațada să fie degradată sau periculoasă. Condiția de pericol apare doar într-un exemplu fără forță normativă. Proprietarul are 7 zile să conteste la un «organism abilitat» nedefinit, care nu are termen de soluționare. Textul ignoră avizul Ministerului Culturii, autorizația de construire, condominiile și mecanismele deja existente în Legea 422/2001 și Legea 153/2011.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 4 nu condiționează intervenția de starea de degradare sau de pericol public. Orice lucrare de «modernizare, întreținere și conservare» e permisă, deși «modernizarea» unui monument contrazice principiile restaurării.",
+        "Art. 6 și Art. 10: «organismul abilitat» și «Direcția pentru Patrimoniu» nu sunt definite. Nu se spune cine soluționează contestațiile, în ce termen și cu ce cale de atac. Nu se menționează Direcțiile Județene pentru Cultură sau Ministerul Culturii.",
+        "Art. 7 vs. Art. 5–6: notificarea se face cu 20 de zile înainte și contestația în 7 zile, dar analiza contestației nu are termen. Exemplul de la Art. 7 spune că primăria poate continua lucrările chiar și când există contestații.",
+        "Art. 11, deși intitulat «Sancțiuni», nu prevede nicio sancțiune concretă. Despăgubirile vizează daunele aduse «monumentului», nu prejudiciile suferite de proprietar (folosință, chiriași, afacere la parter).",
+        "Art. 8: costurile cad integral pe bugetul local, fără sursă de finanțare și fără fișă financiară. Pentru că textul folosește «poate», impactul depinde de voința fiecărei primării.",
+        "Textul conține «Exemple», o «Explicație» și un «Flux practic» în corpul normativ, ceea ce încalcă normele de tehnică legislativă (Legea 24/2000)."
+      ],
+      "blindSpotsCaught": "Legea nu precizează dacă înlocuiește sau completează avizul Ministerului Culturii și autorizația de construire (Legea 50/1991). Nu se corelează nici cu Legea 422/2001 și Legea 153/2011, care prevăd deja obligații ale proprietarilor și intervenția autorităților cu recuperarea costurilor. Proiectul ignoră clădirile în condominiu (Legea 196/2018), unde nu e clar pe cine notifici, și selecția firmei prin achiziție publică (Legea 98/2016). Exemplul cu «pericol public» din Art. 4 sugerează o condiție care lipsește din textul normativ propriu-zis.",
+      "constitutionalityNote": "Intervenția fără acordul proprietarului restrânge dreptul de proprietate (art. 44). Restrângerea e justificabilă prin protecția patrimoniului (art. 44 alin. 7, art. 33 alin. 3), dar trebuie să fie necesară și proporțională (art. 53). Lipsa criteriului de necesitate, a organismului decizional și a termenelor afectează claritatea și previzibilitatea legii (art. 1 alin. 5). Accesul la justiție (art. 21, 52) rămâne posibil prin Legea 554/2004, dar textul nu îl prevede expres și nici nu reglementează suspendarea lucrărilor până la soluționarea contestației.",
+      "euLawNote": "Riscul pe dreptul UE este redus. Directiva 2018/958 nu e afectată: proiectul nu creează profesii reglementate noi, ci trimite la firme și specialiști deja atestați. TRIS 2015/1535 nu se aplică, fiindcă nu există servicii digitale sau reguli tehnice pentru produse. Contractarea firmelor trebuie să respecte Directiva 2014/24/UE privind achizițiile publice, transpusă prin Legea 98/2016, aspect pe care textul nu îl menționează.",
+      "senatForm": {
+        "articleRef": "Art. 4, Art. 6, Art. 7, Art. 11",
+        "proposalContent": "Art. 4: lucrările se pot iniția doar pentru fațade degradate sau periculoase, constatate prin raport tehnic, cu avizul Ministerului Culturii/DJC și autorizație de construire. Art. 6: se definește organismul abilitat (DJC), termen de soluționare de 15 zile și dreptul la acțiune în contencios administrativ. Se elimină exemplele și «modernizarea».",
+        "argumentation": "Textul permite intervenția pe proprietatea privată fără criteriu de necesitate, cu organisme nedefinite și fără termene, încălcând previzibilitatea (art. 1 alin. 5) și proporționalitatea restrângerii dreptului de proprietate (art. 44, 53). Nu se corelează cu Legea 422/2001, Legea 153/2011 și Legea 50/1991. Exemplele nu au loc în textul normativ (Legea 24/2000).",
+        "otherComments": "Lipsesc: reglementarea situației condominiilor și a chiriașilor, răspunderea pentru daune aduse proprietarului (nu doar monumentului), sursa de finanțare și fișa financiară (Legea 500/2002), corelarea cu Legea 98/2016. Recomandăm integrarea în Legea 422/2001 în loc de lege separată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -144,7 +174,7 @@
         "codex": 6.3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:10:15.544Z",
+      "replacedAt": "2026-11-24T14:29:41.655Z",
       "reasons": [
         "model"
       ]

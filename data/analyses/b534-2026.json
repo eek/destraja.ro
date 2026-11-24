@@ -1,7 +1,7 @@
 {
   "billId": "B534/2026",
   "slug": "b534-2026",
-  "updatedAt": "2026-11-24T12:06:47.285Z",
+  "updatedAt": "2026-11-24T14:28:26.555Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -32,21 +32,21 @@
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Statul să verifice singur datoriile fiscale și plățile, fără să mai ceară certificat fiscal sau chitanțe",
-    "summaryTlDr": "Inițiativă pozitivă și pro-contribuabil, care transpune în Codul de procedură fiscală regula verificării directe de către instituții. Riscul real nu este de abuz, ci de ineficiență: fără sancțiuni, finanțare clară pentru primării și armonizarea legilor speciale, obligația riscă să rămână pe hârtie.",
-    "initiatorClaim": "Inițiatorii vor să elimine birocrația prin care cetățenii și firmele sunt puși pe drumuri pentru certificate de atestare fiscală sau dovezi de plată pe care statul le poate verifica deja în propriile sisteme. De asemenea, cer ca acceptarea electronică a dovezii plății să devină obligatorie, nu opțională.",
-    "realityCheck": "În prezent, art. 163 alin. (11²) doar permite („pot accepta”) instituțiilor să primească electronic dovada plății; proiectul transformă această opțiune în obligație („acceptă”) și adaugă regula generală a verificării directe a situației fiscale (art. 160¹) și a plăților (art. 163¹), cu aplicare după 180 de zile. Totuși, art. 160¹ alin. (3) lasă o portiță largă — certificatul poate fi cerut în continuare „când legea stabilește în mod expres aceasta” — ceea ce menține automat obligația din zeci de legi speciale nemodificate, iar proiectul nu prevede sancțiuni pentru instituțiile care nu respectă termenele de 90/180 de zile.",
+    "plainTitle": "Statul nu-ți mai cere certificat fiscal sau chitanță dacă le poate verifica singur",
+    "summaryTlDr": "Proiect benign și util, de simplificare administrativă după principiul „o singură dată”. Riscurile sunt de eficiență, nu de abuz: excepțiile largi și lipsa sancțiunilor pot face ca regula să rămână în mare parte declarativă.",
+    "initiatorClaim": "Inițiatorii vor ca autoritățile să verifice direct, în sistemele statului, situația fiscală și plățile, ca cetățenii și firmele să nu mai fie trimiși după certificate de atestare fiscală, chitanțe sau ordine de plată.",
+    "realityCheck": "Proiectul introduce art. 160^1 și 163^1, care obligă autoritățile să verifice direct situația fiscală și plățile și le interzice să ceară documentele „în măsura în care” informația poate fi obținută electronic. Excepțiile (motive tehnice, date neconcordante, canal neverificabil, cerință expresă a legii) și lipsa oricărei sancțiuni lasă instituțiilor o marjă mare de a cere în continuare hârtii, cu singura obligație de a motiva în scris. Art. 163 alin. (11^2) transformă acceptarea dovezii electronice a plății din facultativă („pot accepta”) în obligatorie („acceptă”).",
     "affectedGroups": [
       "Toți cetățenii",
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
-      "Justiție & Drepturi Civile"
+      "Proprietari & Imobiliare"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 (art. 160¹ alin. 3) și Art. III",
-      "proposalContent": "La art. 160¹ alin. (3), reformulați teza finală a excepției în acord cu art. 163¹ alin. (5): „ori atunci când legea prevede în mod expres prezentarea documentului pentru producerea unui efect juridic distinct”. La Art. III, prevedeți emiterea unui ordin comun MF-MAI-ADR în 60 de zile pentru standardele tehnice de interoperabilitate și raportare.",
-      "argumentation": "Formula actuală „când legea stabilește în mod expres aceasta” golește de conținut art. 160¹, deoarece numeroase legi speciale cer încă formal certificatul fiscal. Fără un act subsecvent unitar de interoperabilitate și fără sancțiuni sau o fișă financiară (art. 138 alin. 5 Constituție), termenul de 180 de zile riscă să rămână pur declarativ la nivel local.",
-      "otherComments": "Proiectul este oportun și aliniat principiului european „doar o singură dată” (Reg. UE 2018/1724). Recomandăm corelarea art. 163 alin. (11²) cu trimiterea la alin. (11¹) pentru claritate și clarificarea sursei de finanțare pentru integrarea informatică a primăriilor mici, evitând invocarea abuzivă a excepției „motivelor tehnice”."
+      "articleRef": "Art. I pct. 1 (art. 160^1 alin. 3)",
+      "proposalContent": "Alin. (3) se completează: documentele pot fi solicitate și când datele sunt incomplete sau neconcordante; excepția «legea stabilește expres» se limitează la cazurile în care documentul produce un efect juridic distinct de simpla verificare a situației fiscale, ca la art. 163^1 alin. (5). Motivul se comunică solicitantului.",
+      "argumentation": "Textul diferă de expunerea de motive și de art. 163^1 alin. (5). Formularea largă «când legea stabilește expres» poate păstra majoritatea cerințelor din legile speciale care cer certificatul, golind regula de efect. Lipsa cazului datelor neconcordante lasă autoritatea fie să refuze, fie să ceară certificatul fără temei.",
+      "otherComments": "Se recomandă: fișă financiară conform art. 15 din Legea 500/2002 pentru costurile IT ale organelor fiscale locale; format unitar, nu stabilit de fiecare instituție, la art. 163 alin. (11^2); o cale de sesizare sau sancțiune pentru cererea nejustificată de documente; corelare cu principiul «doar o dată» din Reg. (UE) 2018/1724."
     }
   },
   "council": {
@@ -85,8 +85,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 38905,
+      "sourceEndMarker": "SF-C2252FCD",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Statul nu-ți mai cere certificat fiscal sau chitanță dacă le poate verifica singur",
+      "verdictShort": "Proiect benign și util, de simplificare administrativă după principiul „o singură dată”. Riscurile sunt de eficiență, nu de abuz: excepțiile largi și lipsa sancțiunilor pot face ca regula să rămână în mare parte declarativă.",
+      "initiatorClaim": "Inițiatorii vor ca autoritățile să verifice direct, în sistemele statului, situația fiscală și plățile, ca cetățenii și firmele să nu mai fie trimiși după certificate de atestare fiscală, chitanțe sau ordine de plată.",
+      "realityCheck": "Proiectul introduce art. 160^1 și 163^1, care obligă autoritățile să verifice direct situația fiscală și plățile și le interzice să ceară documentele „în măsura în care” informația poate fi obținută electronic. Excepțiile (motive tehnice, date neconcordante, canal neverificabil, cerință expresă a legii) și lipsa oricărei sancțiuni lasă instituțiilor o marjă mare de a cere în continuare hârtii, cu singura obligație de a motiva în scris. Art. 163 alin. (11^2) transformă acceptarea dovezii electronice a plății din facultativă („pot accepta”) în obligatorie („acceptă”).",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. 160^1 alin. (2): autoritățile nu mai cer certificatul de atestare fiscală dacă pot verifica electronic situația fiscală. Astăzi Codul nu conține o astfel de interdicție generală.",
+        "Art. 163 alin. (11^2): textul în vigoare spune că instituțiile „pot accepta” dovada plății transmisă electronic. Proiectul o face obligatorie („acceptă”), dar păstrează formatul „stabilit de acestea”, ceea ce riscă formate diferite de la o instituție la alta.",
+        "Art. 160^1 alin. (3) este mai îngust decât spune expunerea de motive: nu prevede cazul datelor incomplete sau neconcordante, pe care expunerea îl invocă și care apare doar la plăți (art. 163^1 alin. 5).",
+        "Excepția „când legea stabilește în mod expres” (art. 160^1 alin. 3) poate păstra numeroasele cerințe din legi speciale care cer explicit certificatul fiscal, ceea ce reduce efectul practic al regulii.",
+        "Art. 163^2 introduce un raport anual al Ministerului Finanțelor (până la 31 mai), alimentat de datele transmise de autorități până la 31 martie. Este un mecanism util de monitorizare publică.",
+        "Calendarul este coerent: Art. II–III (proceduri în 90 de zile, operaționalizare în 180) intră în vigoare la 3 zile de la publicare, iar Art. I la 180 de zile, deci obligațiile de fond pornesc după termenul de implementare."
+      ],
+      "blindSpotsCaught": "Expunerea de motive descrie excepții identice pentru certificatul fiscal și pentru plăți, dar textul art. 160^1 alin. (3) omite datele neconcordante și nu limitează excepția „cerută expres de lege” la un „efect juridic distinct”, cum face art. 163^1 alin. (5). Formularea „în măsura în care pot fi obținute” lasă tot autorității aprecierea fezabilității tehnice, iar încălcarea nu are nicio sancțiune sau cale de contestare specifică. Nu există o fișă financiară pentru costurile de interoperabilitate ale organelor fiscale locale.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale de fond. Previzibilitatea (art. 1 alin. 5) este în general asigurată, cu observația că sintagmele „în măsura în care” și „din motive tehnice” sunt vagi, deși acceptabile pentru norme de organizare administrativă. Obligațiile de dezvoltare IT pot genera cheltuieli, iar lipsa sursei de finanțare și a fișei financiare (art. 138 alin. 5 Constituție, art. 15 din Legea 500/2002) ar trebui remediată. Protecția datelor și secretul fiscal sunt menționate expres (art. 26 Constituție).",
+      "euLawNote": "Proiectul este aliniat principiului „doar o dată” din Regulamentul (UE) 2018/1724 (Single Digital Gateway) și cerințelor GDPR de minimizare și limitare a scopului (art. 5, temei art. 6 alin. 1 lit. e). Directiva 2018/958 nu se aplică, fiindcă nu sunt reglementate profesii. Nici notificarea TRIS (2015/1535) nu este necesară, fiindcă proiectul obligă autoritățile publice și nu impune reguli serviciilor societății informaționale. Concurența nu este afectată.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 (art. 160^1 alin. 3)",
+        "proposalContent": "Alin. (3) se completează: documentele pot fi solicitate și când datele sunt incomplete sau neconcordante; excepția «legea stabilește expres» se limitează la cazurile în care documentul produce un efect juridic distinct de simpla verificare a situației fiscale, ca la art. 163^1 alin. (5). Motivul se comunică solicitantului.",
+        "argumentation": "Textul diferă de expunerea de motive și de art. 163^1 alin. (5). Formularea largă «când legea stabilește expres» poate păstra majoritatea cerințelor din legile speciale care cer certificatul, golind regula de efect. Lipsa cazului datelor neconcordante lasă autoritatea fie să refuze, fie să ceară certificatul fără temei.",
+        "otherComments": "Se recomandă: fișă financiară conform art. 15 din Legea 500/2002 pentru costurile IT ale organelor fiscale locale; format unitar, nu stabilit de fiecare instituție, la art. 163 alin. (11^2); o cale de sesizare sau sancțiune pentru cererea nejustificată de documente; corelare cu principiul «doar o dată» din Reg. (UE) 2018/1724."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +174,7 @@
         "codex": 1.3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:06:47.285Z",
+      "replacedAt": "2026-11-24T14:28:26.555Z",
       "reasons": [
         "model"
       ]

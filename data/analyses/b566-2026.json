@@ -1,7 +1,7 @@
 {
   "billId": "B566/2026",
   "slug": "b566-2026",
-  "updatedAt": "2026-11-24T12:07:26.961Z",
+  "updatedAt": "2026-11-24T14:29:10.132Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -32,10 +32,10 @@
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Fără adeverințe de venit la ghișeu și amenzi pentru instituțiile care le mai cer",
-    "summaryTlDr": "Inițiativă benefică de debirocratizare și protecție a vieții private (verificare doar pe plafon de venit), dar afectată de vicii reparabile de tehnică legislativă: dublează un articol existent în OUG 41/2016, nu indică cine plătește amenda și folosește impropriu consimțământul GDPR în proceduri administrative.",
-    "initiatorClaim": "Inițiatorii susțin că elimină drumurile inutile ale cetățenilor pentru adeverințe de venit, obligând instituțiile să verifice direct datele fiscale prin PatrimVen sau Platforma națională de interoperabilitate și sancționând solicitările abuzive.",
-    "realityCheck": "Obligația instituțiilor de a cere adeverința de venit direct de la ANAF și de a se înrola în PatrimVen există deja în art. 69 alin. (1¹) și (4) din Codul de procedură fiscală. Noutatea reală a proiectului este introducerea amenzilor (2.000–5.000 lei, aplicate de ADR) și a verificării minimale de tip „da/nu” pentru încadrarea într-un plafon de venit. Totuși, aplicarea riscă blocaje din cauza termenului nerealist de 3 luni, a neclarității privind cine suportă amenda și a condiționării verificării de consimțământul prealabil al cetățeanului chiar și la încetarea unui drept.",
+    "plainTitle": "Instituțiile verifică singure venitul la ANAF, fără să-ți mai ceară adeverințe",
+    "summaryTlDr": "Este o lege utilă, de simplificare, care aplică principiul „o singură dată” și minimizarea datelor. Problemele sunt de redactare și de coerență: o trimitere circulară, un număr de articol deja ocupat și o condiție de consimțământ care poate lăsa instituțiilor o portiță să ceară în continuare adeverințe.",
+    "initiatorClaim": "Inițiatorii vor ca cetățeanul să nu mai fie trimis după adeverințe de venit atunci când statul are deja datele în evidențele fiscale. Verificarea ar urma să o facă direct instituția, prin PatrimVen sau prin Platforma națională de interoperabilitate.",
+    "realityCheck": "Art. 69 alin. (4) din Codul de procedură fiscală obligă deja instituțiile să ceară adeverința de venit direct de la organul fiscal și scutește persoana de depunerea ei. Proiectul aduce trei lucruri noi: o interdicție expresă de a cere documente, o regulă de minimizare (la plafoane se verifică doar dacă plafonul e respectat) și o amendă de 2.000–5.000 lei constatată de ADR. În schimb, condiționează verificarea de consimțământul beneficiarului, cerință pe care art. 69 alin. (4) nu o are. Dacă persoana refuză sau datele lipsesc din sistem (venituri recente, din străinătate sau nedeclarate fiscal), instituția poate cere în continuare documente.",
     "affectedGroups": [
       "Toți cetățenii",
       "Contabili & Fiscalitate",
@@ -43,10 +43,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 (art. 2³) și pct. 2 (art. 15)",
-      "proposalContent": "1. Renumerotați noul art. 15 din OUG 41/2016 (art. 15 există deja). 2. Indicați expres subiectul contravenției (instituția ori funcționarul). 3. La art. 2³ alin. (1), clarificați verificarea în procedurile de încetare a unui drept fără consimțământ și bazați accesul pe atribuția legală (art. 6 alin. 1 lit. e GDPR), cu informare prealabilă.",
-      "argumentation": "Art. 15 din OUG 41/2016 există deja, deci dublarea lui încalcă Legea 24/2000 și art. 1 alin. (5) din Constituție. Neindicarea subiectului contravenției face sancțiunea imprevizibilă. Conform considerentului 43 GDPR, consimțământul în fața autorităților nu este liber și poate bloca verificările la încetarea unui drept.",
-      "otherComments": "Inițiativa este utilă pentru cetățeni și promovează minimizarea datelor (confirmare de plafon). Termenul de 3 luni de la Art. III-IV ar trebui extins la 6 luni pentru dezvoltarea interogării de plafon în PatrimVen și PNI, iar ordinul de la art. 70¹ alin. (4¹) CPF ar trebui emis de ANAF cu avizul ADR și ANSPDCP."
+      "articleRef": "Art. I pct. 1, art. 2³ alin. (1)-(2)",
+      "proposalContent": "La alin. (1) se elimină „în baza consimțământului prealabil al beneficiarului”; temeiul accesului este legea, cu informarea persoanei. La alin. (2) teza a II-a, „potrivit alin. (2)” devine „potrivit alin. (1) și (2)”, iar interdicția se aplică numai dacă datele sunt efectiv disponibile în sistem la data cererii.",
+      "argumentation": "În sectorul public consimțământul nu e liber (GDPR, cons. 43), iar art. 69 alin. (4) CPF obligă deja instituțiile să ceară datele de la ANAF fără acordul persoanei. Consimțământul creează o portiță: la refuz, instituția poate cere iar adeverințe. Trimiterea circulară la alin. (2) încalcă cerința de claritate (art. 1 alin. 5 Constituție).",
+      "otherComments": "Art. I pct. 2: OUG 41/2016 are deja un art. 15 în vigoare, deci noul articol trebuie renumerotat. Amenda plătită de instituție din bani publici e circulară; e preferabilă precizarea subiectului activ și răspunderea disciplinară a funcționarului. Capacitatea ADR de a controla mii de instituții e incertă; trebuie precizate procedura de control și sesizarea."
     }
   },
   "council": {
@@ -86,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 62466,
+      "sourceEndMarker": "SF-847757E2",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Instituțiile verifică singure venitul la ANAF, fără să-ți mai ceară adeverințe",
+      "verdictShort": "Este o lege utilă, de simplificare, care aplică principiul „o singură dată” și minimizarea datelor. Problemele sunt de redactare și de coerență: o trimitere circulară, un număr de articol deja ocupat și o condiție de consimțământ care poate lăsa instituțiilor o portiță să ceară în continuare adeverințe.",
+      "initiatorClaim": "Inițiatorii vor ca cetățeanul să nu mai fie trimis după adeverințe de venit atunci când statul are deja datele în evidențele fiscale. Verificarea ar urma să o facă direct instituția, prin PatrimVen sau prin Platforma națională de interoperabilitate.",
+      "realityCheck": "Art. 69 alin. (4) din Codul de procedură fiscală obligă deja instituțiile să ceară adeverința de venit direct de la organul fiscal și scutește persoana de depunerea ei. Proiectul aduce trei lucruri noi: o interdicție expresă de a cere documente, o regulă de minimizare (la plafoane se verifică doar dacă plafonul e respectat) și o amendă de 2.000–5.000 lei constatată de ADR. În schimb, condiționează verificarea de consimțământul beneficiarului, cerință pe care art. 69 alin. (4) nu o are. Dacă persoana refuză sau datele lipsesc din sistem (venituri recente, din străinătate sau nedeclarate fiscal), instituția poate cere în continuare documente.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1, art. 2³ alin. (2) teza a II-a: interdicția se aplică dacă datele „pot fi obținute potrivit alin. (2)”, adică alineatul trimite la el însuși. Trimiterea corectă ar fi la alin. (1) și (2).",
+        "Art. 2³ alin. (1) și (3) condiționează verificarea din oficiu de consimțământul prealabil al beneficiarului. Art. 69 alin. (4) CPF nu cere consimțământ, iar noul art. 69 alin. (5²) îl cere doar „în cazurile în care legea impune aceasta”. Cele două texte sunt necorelate, iar refuzul consimțământului readuce practica adeverințelor.",
+        "Art. I pct. 2 introduce un capitol II¹ „cuprinzând articolul 15”, dar OUG 41/2016 are deja un art. 15 în vigoare (actualizarea normelor privind taxele extrajudiciare de timbru). Suprapunerea de numerotare încalcă Legea nr. 24/2000.",
+        "Art. 15 nou (amenda de 2.000–5.000 lei) nu spune cine este contravenientul: instituția sau funcționarul. Dacă plătește instituția, banii circulă dintr-un buget public în altul și efectul de descurajare e slab. Capacitatea ADR de a controla mii de primării și instituții nu este reglementată.",
+        "Art. 2³ alin. (3) introduce o regulă reală de minimizare a datelor: când condiția este doar un plafon de venit, instituția primește răspuns da/nu, nu cuantumul. Este o îmbunătățire concretă față de practica actuală.",
+        "Art. III și IV: există termen de 3 luni pentru operaționalizare și intrare în vigoare amânată, dar niciun termen expres pentru ordinul ANAF cerut de noul art. 70¹ alin. (4¹)."
+      ],
+      "blindSpotsCaught": "Consimțământul nu este un temei potrivit pentru prelucrări făcute de autorități publice: GDPR (considerentul 43) prezumă că el nu e liber acordat când există dezechilibru de putere. Temeiul corect este art. 6 alin. (1) lit. c)/e) GDPR, prin lege. Paradoxal, cerința de consimțământ slăbește atât regula de simplificare, cât și regimul contravențional: instituția poate invoca lipsa acordului ca să ceară adeverința. Rămâne neclar și ce înseamnă „pot fi obținute”: disponibilitate juridică sau tehnică. O pană de sistem sau datele încă neprocesate de ANAF pot expune funcționarii la amendă pentru cereri legitime.",
+      "constitutionalityNote": "Fondul este compatibil cu Constituția și protejează art. 26 (viața privată) prin minimizarea datelor și trasabilitatea accesărilor. Problemele țin de art. 1 alin. (5), sub aspectul clarității și previzibilității: trimiterea circulară din art. 2³ alin. (2), suprapunerea cu art. 15 existent și nedeterminarea subiectului activ al contravenției, ultima relevantă și pentru art. 23 alin. (12) și principiul legalității sancțiunii. Expunerea de motive nu cuprinde o fișă financiară pentru costurile IT (art. 138 alin. 5 și Legea 500/2002), dar acestea par modeste, pentru că infrastructura PatrimVen există. Este necesar punctul de vedere al Guvernului (art. 111).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: interoperabilitatea internă între autorități nu este regulă tehnică pentru servicii ale societății informaționale. Proiectul este în spiritul principiului „o singură dată” din Regulamentul (UE) 2018/1724 și al Regulamentului (UE) 2024/903 (Interoperable Europe Act). Regula din art. 2³ alin. (3) respectă minimizarea datelor din art. 5 alin. (1) lit. c) GDPR. Folosirea consimțământului ca temei este însă discutabilă față de art. 6–7 și considerentul 43 GDPR. Nu există efecte asupra pieței unice sau concurenței.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1, art. 2³ alin. (1)-(2)",
+        "proposalContent": "La alin. (1) se elimină „în baza consimțământului prealabil al beneficiarului”; temeiul accesului este legea, cu informarea persoanei. La alin. (2) teza a II-a, „potrivit alin. (2)” devine „potrivit alin. (1) și (2)”, iar interdicția se aplică numai dacă datele sunt efectiv disponibile în sistem la data cererii.",
+        "argumentation": "În sectorul public consimțământul nu e liber (GDPR, cons. 43), iar art. 69 alin. (4) CPF obligă deja instituțiile să ceară datele de la ANAF fără acordul persoanei. Consimțământul creează o portiță: la refuz, instituția poate cere iar adeverințe. Trimiterea circulară la alin. (2) încalcă cerința de claritate (art. 1 alin. 5 Constituție).",
+        "otherComments": "Art. I pct. 2: OUG 41/2016 are deja un art. 15 în vigoare, deci noul articol trebuie renumerotat. Amenda plătită de instituție din bani publici e circulară; e preferabilă precizarea subiectului activ și răspunderea disciplinară a funcționarului. Capacitatea ADR de a controla mii de instituții e incertă; trebuie precizate procedura de control și sesizarea."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +173,7 @@
         "codex": 1.4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:07:26.961Z",
+      "replacedAt": "2026-11-24T14:29:10.132Z",
       "reasons": [
         "model"
       ]

@@ -1,7 +1,7 @@
 {
   "billId": "B574/2026",
   "slug": "b574-2026",
-  "updatedAt": "2026-11-24T12:10:41.323Z",
+  "updatedAt": "2026-11-24T14:30:12.424Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -30,12 +30,12 @@
     "key": "c2674dca311c4153"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5.3,
     "riskLevel": "yellow",
-    "plainTitle": "Tăierea despăgubirilor și a dobânzilor pentru angajații și funcționarii suspendați, dar dovediți nevinovați",
-    "summaryTlDr": "Deși pornește de la o problemă reală de calcul al despăgubirilor după suspendări penale, proiectul taie abuziv dobânda legală penalizatoare și creează o discriminare flagrantă între salariați și funcționarii publici care lucrează în privat. În forma actuală, textul este imprevizibil și penalizează tocmai persoana nevinovată care a muncit pentru a se întreține.",
-    "initiatorClaim": "Inițiatorii susțin că vor să coreleze Codul muncii cu Codul administrativ și să introducă o regulă clară de calcul și actualizare a sumelor datorate persoanelor suspendate și ulterior declarate nevinovate, pentru a evita practicile judiciare neunitare și dubla finanțare din bani publici.",
-    "realityCheck": "În realitate, cuvântul „exclusiv” din ambele articole elimină dreptul la dobânda legală penalizatoare pentru întârzierea la plată, lăsând angajatorului sau instituției publice libertatea de a tergiversa plata doar contra inflației. Mai mult, în timp ce salariaților din Codul muncii li se scade orice salariu obținut pe durata suspendării (inclusiv dintr-un job part-time preexistent), funcționarilor publici li se scad doar salariile câștigate la stat, nu și cele din mediul privat.",
+    "plainTitle": "Cine e găsit nevinovat după suspendare primește banii înapoi minus ce a câștigat între timp din alt salariu, actualizați doar cu inflația",
+    "summaryTlDr": "Ideea de a nu plăti de două ori aceeași perioadă e legitimă. Redactarea are însă trei probleme: cuvântul „exclusiv” poate tăia dobânda legală celor achitați, funcționarii sunt tratați diferit de salariați, iar lipsa normelor tranzitorii riscă aplicarea în procesele aflate deja pe rol.",
+    "initiatorClaim": "Inițiatorii vor să clarifice cum se calculează sumele cuvenite după încetarea suspendării, când persoana a lucrat în altă parte în acel interval. Mai vor să coreleze regimul salariaților cu cel al funcționarilor publici și să fixeze o regulă unică de actualizare monetară.",
+    "realityCheck": "Despăgubirea din art.52 alin.(2) Codul muncii și drepturile din art.513 alin.(4) Codul administrativ scad cu salariile încasate pentru aceeași perioadă și se actualizează „exclusiv” cu indicele prețurilor de consum. Textul nu precizează intervalul pentru care se aplică indicele, nici dacă se scade venitul brut sau cel net, iar „exclusiv” poate fi invocat pentru a refuza dobânda legală de întârziere. La funcționari se deduc doar veniturile din sectorul public, la salariați orice venit salarial.",
     "affectedGroups": [
       "Angajați & HR",
       "Justiție & Drepturi Civile",
@@ -43,10 +43,10 @@
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 52 CM) și Art. II (art. 513 CA)",
-      "proposalContent": "Eliminarea cuvântului „exclusiv” din art. 52 alin. (2²) CM și art. 513 alin. (6) CA, păstrând dreptul la dobânda legală. Corelarea art. 52 alin. (2¹) cu art. 513 alin. (5), exceptarea contractelor preexistente suspendării, clarificarea calculului brut/net și a contribuțiilor sociale și adăugarea de norme tranzitorii.",
-      "argumentation": "Formula „exclusiv cu IPC” elimină dobânda legală, afectând repararea integrală (art. 44 Constituție) și încurajând amânarea plății. Art. 513 alin. (5) deduce doar salariile de la stat, iar art. 52 alin. (2¹) orice salariu, creând discriminare (art. 16). Lipsa normelor tranzitorii și de calcul brut/net încalcă art. 1 alin. (5).",
-      "otherComments": "Textul nu prevede cum verifică angajatorul privat salariile încasate la terți fără a încălca GDPR și art. 163 CM (confidențialitatea salariului). Deducerea penalizează persoana nevinovată care a muncit pe durata suspendării față de cea care nu a lucrat. Lipsesc normele tranzitorii și datele de impact bugetar."
+      "articleRef": "Art. I-II: art.52(2²) CM, art.513(6) CA",
+      "proposalContent": "Eliminarea cuvântului „exclusiv” și reformularea: „...se actualizează cu indicele prețurilor de consum, de la data scadenței fiecărei sume până la data plății efective, fără a aduce atingere dreptului la dobânda legală pentru întârziere, potrivit dreptului comun.” Aceeași reformulare la art.513 alin.(6) din Codul administrativ.",
+      "argumentation": "„Exclusiv” poate fi citit ca înlăturând dobânda legală (art.1535 C.civ.), riscul fiind recunoscut chiar în expunerea de motive. Ar reduce reparația cuvenită unei persoane găsite nevinovate (art.44 Constituție, art.1 Prot.1 CEDO). „La data plății” nu fixează perioada de referință a indicelui, deci calculul e imprevizibil.",
+      "otherComments": "Art.513 alin.(5) deduce doar veniturile din sectorul public, spre deosebire de Codul muncii (orice încadrare): tratament diferit nejustificat. Lipsesc norme tranzitorii: trebuie precizat că noile reguli se aplică doar perioadelor de suspendare începute după intrarea în vigoare (art.15 alin.2). De clarificat: venit brut sau net."
     }
   },
   "council": {
@@ -85,8 +85,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 49714,
+      "sourceEndMarker": "SF-9F6207BE",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Cine e găsit nevinovat după suspendare primește banii înapoi minus ce a câștigat între timp din alt salariu, actualizați doar cu inflația",
+      "verdictShort": "Ideea de a nu plăti de două ori aceeași perioadă e legitimă. Redactarea are însă trei probleme: cuvântul „exclusiv” poate tăia dobânda legală celor achitați, funcționarii sunt tratați diferit de salariați, iar lipsa normelor tranzitorii riscă aplicarea în procesele aflate deja pe rol.",
+      "initiatorClaim": "Inițiatorii vor să clarifice cum se calculează sumele cuvenite după încetarea suspendării, când persoana a lucrat în altă parte în acel interval. Mai vor să coreleze regimul salariaților cu cel al funcționarilor publici și să fixeze o regulă unică de actualizare monetară.",
+      "realityCheck": "Despăgubirea din art.52 alin.(2) Codul muncii și drepturile din art.513 alin.(4) Codul administrativ scad cu salariile încasate pentru aceeași perioadă și se actualizează „exclusiv” cu indicele prețurilor de consum. Textul nu precizează intervalul pentru care se aplică indicele, nici dacă se scade venitul brut sau cel net, iar „exclusiv” poate fi invocat pentru a refuza dobânda legală de întârziere. La funcționari se deduc doar veniturile din sectorul public, la salariați orice venit salarial.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I, alin.(2¹) are o sferă îngustă. Art.52 alin.(2) se aplică doar cazurilor de la alin.(1) lit.a) și b). Lit.a) și-a încetat efectele (Decizia CCR nr.261/2016), iar teza întâi a lit.b) a fost declarată neconstituțională (Decizia CCR nr.279/2015). Practic rămâne doar ipoteza trimiterii în judecată penală.",
+        "Art. I, alin.(2²) și Art. II, alin.(6): formula „exclusiv cu indicele prețurilor de consum” poate fi interpretată ca excluzând dobânda legală pentru întârzierea plății (art.1535 Cod civil). Asta ar reduce reparația pentru o persoană găsită nevinovată. Chiar expunerea de motive (cap. V) recunoaște problema și o lasă nerezolvată.",
+        "Sintagma „indicele... comunicat la data plății” nu stabilește perioada de referință (de la scadența fiecărei sume până la plată?). Rezultatul sunt calcule divergente și litigii, adică exact problema pe care legea pretinde că o rezolvă.",
+        "Art. II, alin.(5) deduce numai veniturile obținute „la aceeași sau la o altă autoritate ori instituție publică”. Funcționarul care a lucrat în privat păstrează suma întreagă, salariatul din Codul muncii nu. Diferența de tratament nu are o justificare obiectivă (art.16 Constituție).",
+        "Nu se deduc veniturile din activități independente (PFA, drepturi de autor), ci doar cele de „natură salarială”. Persoane aflate în situații similare primesc astfel tratament diferit.",
+        "Nu există dispoziții tranzitorii. Inițiatorii recunosc că aplicarea în timp „urmează a fi examinată”. Fără precizări, angajatorii vor invoca noile reguli și pentru perioadele de suspendare anterioare sau pentru procesele aflate deja pe rol."
+      ],
+      "blindSpotsCaught": "Art.513 alin.(5) prevede încadrarea funcționarului suspendat „la aceeași” autoritate. Ipoteza e greu de conciliat cu regimul de suspendare și cu incompatibilitățile, dar a fost păstrată din proiectul inițial. Al doilea detaliu: deducerea se raportează la sume „încasate”, nu „datorate”. Un salariu câștigat dar neîncasat nu se scade, iar unul încasat ulterior ridică întrebarea dacă se recalculează despăgubirea.",
+      "constitutionalityNote": "Obiectivul (evitarea dublei remunerări pentru aceeași perioadă) este legitim și compatibil cu ideea de prejudiciu efectiv. Riscuri: (1) art.1 alin.(5), prin imprecizia formulelor „exclusiv” și „la data plății”; (2) art.44 și art.53, dacă „exclusiv” înlătură dobânda legală și reduce disproporționat o creanță de reparație; (3) art.16, din cauza deducerii doar a veniturilor publice la funcționari, față de toate veniturile salariale la salariați; (4) art.15 alin.(2), în lipsa normelor tranzitorii, dacă legea e aplicată unor drepturi născute anterior. Caracterul organic (art.73 alin.(3) lit.j) și p)) este reflectat corect în formula de adoptare.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează accesul la profesii. Directiva TRIS 2015/1535 nu se aplică, fiindcă nu sunt vizate servicii ale societății informaționale. Nu se transpune nicio directivă, așa că aplicarea Cartei drepturilor fundamentale a UE e improbabilă, ea fiind limitată la domeniul dreptului Uniunii. Reperul relevant este art.1 din Protocolul nr.1 la CEDO: creanța de despăgubire recunoscută de lege este un „bun”, iar limitarea ei prin excluderea dobânzii trebuie să fie proporțională.",
+      "senatForm": {
+        "articleRef": "Art. I-II: art.52(2²) CM, art.513(6) CA",
+        "proposalContent": "Eliminarea cuvântului „exclusiv” și reformularea: „...se actualizează cu indicele prețurilor de consum, de la data scadenței fiecărei sume până la data plății efective, fără a aduce atingere dreptului la dobânda legală pentru întârziere, potrivit dreptului comun.” Aceeași reformulare la art.513 alin.(6) din Codul administrativ.",
+        "argumentation": "„Exclusiv” poate fi citit ca înlăturând dobânda legală (art.1535 C.civ.), riscul fiind recunoscut chiar în expunerea de motive. Ar reduce reparația cuvenită unei persoane găsite nevinovate (art.44 Constituție, art.1 Prot.1 CEDO). „La data plății” nu fixează perioada de referință a indicelui, deci calculul e imprevizibil.",
+        "otherComments": "Art.513 alin.(5) deduce doar veniturile din sectorul public, spre deosebire de Codul muncii (orice încadrare): tratament diferit nejustificat. Lipsesc norme tranzitorii: trebuie precizat că noile reguli se aplică doar perioadelor de suspendare începute după intrarea în vigoare (art.15 alin.2). De clarificat: venit brut sau net."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +171,7 @@
         "codex": 6.3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:10:41.323Z",
+      "replacedAt": "2026-11-24T14:30:12.424Z",
       "reasons": [
         "model"
       ]

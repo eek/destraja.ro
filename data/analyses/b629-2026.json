@@ -1,7 +1,7 @@
 {
   "billId": "B629/2026",
   "slug": "b629-2026",
-  "updatedAt": "2026-11-24T12:04:36.363Z",
+  "updatedAt": "2026-11-24T14:27:13.792Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -30,12 +30,12 @@
     "key": "c1edd786a7db08c9"
   },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Taxele judiciare de timbru trec de la primării la bugetul de stat, exclusiv pentru investiții în justiție și penitenciare",
-    "summaryTlDr": "O propunere constructivă și tehnic coerentă, care nu mărește taxele și simplifică plata lor într-un cont unic, dar necesită corecții punctuale privind excluderea involuntară a ÎCCJ și impactul exact asupra bugetelor marilor municipii.",
-    "initiatorClaim": "Inițiatorii vor să elimine anomalia prin care taxele plătite pentru serviciile justiției ajung la primării, redirecționându-le exclusiv către modernizarea sediilor, digitalizarea instanțelor și parchetelor și îmbunătățirea condițiilor din penitenciare.",
-    "realityCheck": "Legea mută veniturile din taxele judiciare de timbru din bugetele locale într-un cont unic al bugetului de stat și le alocă cu destinație specială (prin derogare de la regulile bugetare generale) pentru cheltuieli de capital ale Ministerului Justiției și Ministerului Public, transferând executarea silită și restituirile de la primării la ANAF. Nu crește taxele, păstrează scutirile și include o plasă de siguranță utilă pentru plățile făcute din greșeală în vechile conturi locale, dar lasă în afara finanțării Înalta Curte (care are buget propriu) și nu prezintă o estimare națională a pierderii pentru bugetele locale.",
+    "plainTitle": "Taxele de timbru plătite la instanță merg la justiție, nu la primării",
+    "summaryTlDr": "Este o reformă tehnico-bugetară coerentă. Taxele judiciare de timbru nu cresc, ci își schimbă destinația: de la bugetele locale la investițiile instanțelor, parchetelor și penitenciarelor. Riscurile sunt mici și țin mai ales de redactare și de felul în care va fi aplicată, nu de efecte asupra cetățenilor.",
+    "initiatorClaim": "Inițiatorii spun că taxele plătite pentru serviciul de justiție ajung acum, fără vreo justificare, în bugetele primăriilor de la domiciliul plătitorului. Vor ca ele să finanțeze stabil și previzibil infrastructura justiției, care este cronic subfinanțată și a adus României condamnări la CEDO, inclusiv hotărârea-pilot Rezmiveș.",
+    "realityCheck": "Art. I mută plata într-un cont unic al bugetului de stat. Art. 40¹ alocă sumele, după scăderea restituirilor, exclusiv cheltuielilor de capital ale MJ și ale Ministerului Public, cu derogare expresă de la principiul neafectării veniturilor (Legea 500/2002, Legea 69/2010). Executarea silită și restituirea trec de la primării la ANAF. Primăriile pierd un venit mic ca pondere (sub 1–1,2% în exemplele date), dar sensibil ca sumă în marile municipii. Textul nu garantează că sumele se adaugă la alocările existente: legea bugetară anuală poate reduce corespunzător celelalte surse de capital ale celor două instituții.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii",
@@ -43,10 +43,10 @@
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 3 (art. 40¹ alin. 1) și pct. 4-5",
-      "proposalContent": "La art. 40¹ alin. (1)-(2) să fie inclusă și ÎCCJ ca beneficiar/ordonator de credite, eliminând restricția «finanțate din aceste bugete» pentru instanțe. La art. 41 și 45 să se clarifice expres care organ fiscal central este competent pentru nerezidenții fără domiciliu sau sediu în România.",
-      "argumentation": "ÎCCJ are buget propriu, distinct de MJ, deci formula actuală o exclude de la finanțare; în plus, odată cu transferul bugetelor instanțelor la ÎCCJ (art. 142 din Legea nr. 304/2022), acestea ar pierde accesul la fonduri. Clarificarea competenței ANAF pentru nerezidenți previne blocajele la restituire și executare.",
-      "otherComments": "Proiectul este util și simplifică plata taxelor într-un cont unic, fără a majora taxele. Solicităm însă publicarea fișei financiare a Guvernului (art. 15 din Legea nr. 500/2002) cu impactul total pe bugetele locale, în special pentru marile municipii, și verificarea caracterului organic/ordinar al legii față de noua atribuție de avizare a CSM."
+      "articleRef": "Art. I pct. 1 – art. 40 alin. (1) OUG 80/2013",
+      "proposalContent": "Contul distinct de venituri al bugetului de stat să fie denumit «Taxe judiciare de timbru», nu «Taxe judiciare de timbru și alte taxe de timbru», pentru a nu se confunda cu contul local omonim în care rămân, potrivit art. 494 alin. (10) lit. b) C. fiscal modificat, celelalte taxe de timbru. Se corelează art. III alin. (2).",
+      "argumentation": "Art. II lasă celelalte taxe de timbru la bugetele locale, cu conturi de aceeași denumire. Două conturi omonime, unul de stat și unul local, cresc riscul de plăți greșite și de dispute privind timbrarea, tocmai problema pe care inițiativa vrea s-o elimine. O denumire distinctă asigură claritatea cerută de art. 1 alin. (5) din Constituție.",
+      "otherComments": "Art. 40¹ alin. (1): textul nu garantează că sumele se adaugă la alocările de capital existente; legea bugetară poate reduce corespunzător alte surse. Utilă o clauză de neînlocuire. Art. 40¹ alin. (2): de avut în vedere o cotă minimă pentru Ministerul Public. De verificat și situația ICCJ, ordonator distinct, ale cărei sedii rămân în afara mecanismului."
     }
   },
   "council": {
@@ -87,8 +87,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 71203,
+      "sourceEndMarker": "SF-7A8CFDA3",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Taxele de timbru plătite la instanță merg la justiție, nu la primării",
+      "verdictShort": "Este o reformă tehnico-bugetară coerentă. Taxele judiciare de timbru nu cresc, ci își schimbă destinația: de la bugetele locale la investițiile instanțelor, parchetelor și penitenciarelor. Riscurile sunt mici și țin mai ales de redactare și de felul în care va fi aplicată, nu de efecte asupra cetățenilor.",
+      "initiatorClaim": "Inițiatorii spun că taxele plătite pentru serviciul de justiție ajung acum, fără vreo justificare, în bugetele primăriilor de la domiciliul plătitorului. Vor ca ele să finanțeze stabil și previzibil infrastructura justiției, care este cronic subfinanțată și a adus României condamnări la CEDO, inclusiv hotărârea-pilot Rezmiveș.",
+      "realityCheck": "Art. I mută plata într-un cont unic al bugetului de stat. Art. 40¹ alocă sumele, după scăderea restituirilor, exclusiv cheltuielilor de capital ale MJ și ale Ministerului Public, cu derogare expresă de la principiul neafectării veniturilor (Legea 500/2002, Legea 69/2010). Executarea silită și restituirea trec de la primării la ANAF. Primăriile pierd un venit mic ca pondere (sub 1–1,2% în exemplele date), dar sensibil ca sumă în marile municipii. Textul nu garantează că sumele se adaugă la alocările existente: legea bugetară anuală poate reduce corespunzător celelalte surse de capital ale celor două instituții.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1–2: dispare regula contului de la domiciliu sau sediu (actualul art. 40 alin. (1), (1¹) și (2)). Toți justițiabilii, inclusiv nerezidenții, plătesc într-un singur cont al bugetului de stat. Asta elimină litigiile privind plata în contul altei unități administrativ-teritoriale. Cuantumul taxelor și scutirile rămân neschimbate.",
+        "Art. 40¹: sumele se pot folosi exclusiv pentru capital (sedii, dotări, videoconferință, IT, licențe). Neutilizate, se reportează în anul următor. Prioritizarea se face prin norme cu aviz CSM pentru instanțe și parchete, iar situația se publică anual până la 31 martie. Împărțirea între MJ și Ministerul Public o decide anual legea bugetului, fără vreo cotă minimă.",
+        "Art. I pct. 4–5 și Art. IV: executarea creanțelor și restituirea trec la organul fiscal central. Procedura de restituire se aprobă doar prin ordin al ministrului finanțelor, nu mai e nevoie de ordin comun cu ministrul dezvoltării.",
+        "Art. III: taxele plătite înainte de data aplicării, precum și executările cu titlu deja comunicat primăriilor, rămân venituri locale. Plățile făcute din eroare după acea dată în vechile conturi locale sunt virate zilnic și considerate valabile, o soluție care protejează justițiabilul.",
+        "Art. V: aplicarea începe la 1 ianuarie a anului următor împlinirii a 6 luni de la publicare. Astfel se respectă art. 4 din Codul fiscal și nu se ating bugetele locale deja aprobate, dar decalajul poate ajunge la circa 18 luni de la publicare."
+      ],
+      "blindSpotsCaught": "Contul de stat se va numi «Taxe judiciare de timbru și alte taxe de timbru», exact ca vechile conturi locale. Totuși, art. II lasă celelalte taxe de timbru la bugetele locale, care păstrează conturi cu aceeași denumire. Rezultă două conturi omonime, unul de stat și unul local, ceea ce reintroduce riscul de plată greșită pe care inițiativa vrea să-l elimine. Apoi, mecanismul acoperă doar instanțele finanțate prin bugetul MJ: ICCJ, ordonator distinct, rămâne în afară. Dacă gestionarea bugetelor instanțelor ar trece vreodată de la MJ, art. 40¹ ar trebui corelat. În fine, art. 45 alin. (5) vorbește de «organul fiscal central competent» fără criteriu de competență teritorială pentru restituire, deci acesta va trebui stabilit prin ordinul MF.",
+      "constitutionalityNote": "Riscul constituțional este redus. Art. 56 și 139 alin. (1): nivelul taxelor nu se schimbă și rămâne stabilit prin lege. Art. 138 alin. (5): sursa de finanțare a cheltuielilor e chiar venitul afectat, iar fișa financiară și punctul de vedere al Guvernului (art. 111) rămân obligatorii procedural. Art. 120–121 și Carta autonomiei locale: taxele judiciare nu sunt taxe locale în sensul art. 139 alin. (2) și nu corespund vreunei competențe locale. CCR a considerat că repartizarea veniturilor între bugete ține de opțiunea legiuitorului (Decizia 931/2012). Măsura are precedente (cota de 30% din Legea 146/1997, cota de 30–45% din forma inițială a OUG 80/2013). Derogarea de la Legea 500/2002 și Legea 69/2010 se face prin lege de același rang și e expresă. Claritatea (art. 1 alin. 5) e în general bună, cu observația privind denumirea contului.",
+      "euLawNote": "Nu intră sub incidența dreptului UE. Nu reglementează profesii, deci Directiva 2018/958 nu se aplică. Nu instituie reguli tehnice pentru servicii ale societății informaționale, deci notificarea TRIS 2015/1535 nu e necesară. Nu presupune ajutor de stat și nu afectează piața unică. Contul unic poate chiar ușura accesul la justiție al justițiabililor din alte state membre, care azi plătesc în contul localității unde se află instanța. Măsura e compatibilă cu art. 47 din Carta drepturilor fundamentale a UE și cu art. 6 CEDO.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 – art. 40 alin. (1) OUG 80/2013",
+        "proposalContent": "Contul distinct de venituri al bugetului de stat să fie denumit «Taxe judiciare de timbru», nu «Taxe judiciare de timbru și alte taxe de timbru», pentru a nu se confunda cu contul local omonim în care rămân, potrivit art. 494 alin. (10) lit. b) C. fiscal modificat, celelalte taxe de timbru. Se corelează art. III alin. (2).",
+        "argumentation": "Art. II lasă celelalte taxe de timbru la bugetele locale, cu conturi de aceeași denumire. Două conturi omonime, unul de stat și unul local, cresc riscul de plăți greșite și de dispute privind timbrarea, tocmai problema pe care inițiativa vrea s-o elimine. O denumire distinctă asigură claritatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Art. 40¹ alin. (1): textul nu garantează că sumele se adaugă la alocările de capital existente; legea bugetară poate reduce corespunzător alte surse. Utilă o clauză de neînlocuire. Art. 40¹ alin. (2): de avut în vedere o cotă minimă pentru Ministerul Public. De verificat și situația ICCJ, ordonator distinct, ale cărei sedii rămân în afara mecanismului."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -143,7 +172,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:04:36.363Z",
+      "replacedAt": "2026-11-24T14:27:13.792Z",
       "reasons": [
         "model"
       ]

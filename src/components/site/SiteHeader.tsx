@@ -14,7 +14,7 @@ const NAV = [
   { href: '/camera', label: 'Camera', match: (p: string) => p.startsWith('/camera') },
   { href: '/agenda', label: 'Agenda', match: (p: string) => p.startsWith('/agenda') },
   { href: '/parlamentari', label: 'Parlamentari', match: (p: string) => p.startsWith('/parlamentari') },
-  { href: '/presa', label: 'Presă și date', match: (p: string) => p.startsWith('/presa') },
+  { href: '/presa', label: 'Presă și date', match: (p: string) => p.startsWith('/presa') || p.startsWith('/monitorul-oficial') },
   { href: '/metodologie', label: 'Metodologie', match: (p: string) => p.startsWith('/metodologie') },
   ...(ALERTS_LIVE ? [{ href: '/abonare', label: 'Alerte', match: (p: string) => p.startsWith('/abonare') }] : []),
 ];

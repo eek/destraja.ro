@@ -16,7 +16,9 @@
 //    de deputați mai vechi de 3 săptămâni, în pauza comună a cdep.ro
 // 6. rapoartele cititorilor din D1 (straja-reports)
 // 7. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
-// 8. verificări, migrațiile D1, build și publicare pe Cloudflare
+// 8. Monitorul Oficial: publicarea legilor proiectelor noastre și cifrele de pe /monitorul-oficial, din setul de date
+//    ~/work/monitorul-oficial (straja-mo, fără rețea; fără setul de date pasul lipsește), apoi verificări, migrațiile D1,
+//    build și publicare pe Cloudflare
 // 9. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită și doar dacă lista Senatului a fost citită
 //    azi (straja-digest --send); o ediție rămasă neterminată dintr-o zi trecută pleacă întâi, iar cea de azi așteaptă
 //    până pleacă aceea toată
@@ -70,6 +72,8 @@ const LOCK = path.join(ROOT, 'ops', 'daily.lock');
 const PUBLISH_PAUSE = path.join(ROOT, '.cache', 'publish-paused');
 const ANUNT_FILE = path.join(ROOT, '.cache', 'digest-anunt');
 const AGENDA_VM = path.join(ROOT, '.cache', 'agenda-vm');
+// Setul de date despre Monitorul Oficial (indexul Portalului Legislativ), citit de scripts/straja-mo.mjs.
+const MO_SAMPLES = path.join(process.env.MO_DIR || path.join(process.env.HOME ?? '', 'work', 'monitorul-oficial'), 'samples');
 // Jobul de la 10 minute care verifică rapoartele cititorilor (scripts/straja-reports-job.mjs); așteptăm să termine.
 const REPORTS_LOCK = path.join(ROOT, 'ops', 'reports.lock');
 // Ediția de e-mail oprită pe drum (straja-digest.mjs): ziua ei și ce cuprindea.
@@ -578,6 +582,12 @@ async function main() {
       if (!vmNow.ok) fail('fișele Camerei de pe VM au rămas acolo');
       const vmSheets = await step('Camera: fișele de pe VM, anii trecuți', 'node', ['scripts/straja-cdep-vechi.mjs', '--doar-vm'], { timeoutMs: 600_000 });
       if (!vmSheets.ok && vmNow.ok) fail('fișele Camerei de pe VM au rămas acolo');
+    }
+
+    // După fișele Camerei, ca legile noi să-și găsească numărul de Monitor în aceeași zi.
+    if (fs.existsSync(MO_SAMPLES)) {
+      const mo = await step('Monitorul Oficial', 'node', ['scripts/straja-mo.mjs'], { timeoutMs: 600_000 });
+      if (!mo.ok) fail('cifrele din Monitorul Oficial au rămas de ieri');
     }
 
     const counts = checkData();

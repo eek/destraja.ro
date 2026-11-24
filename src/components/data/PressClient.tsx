@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import Link from 'next/link';
 import { Check, Copy, Download } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { CONTENT_LICENSE, SITE_URL } from '@/lib/site';
@@ -107,6 +108,13 @@ export default function PressClient({ bills: initial, coverage, builtOn }: { bil
                 <a href="#citare" className={linkCls}>
                   preia liber, cu sursa
                 </a>
+                .
+              </p>
+              <p className="mt-3 text-[15px] leading-7 text-body">
+                Și actele din Monitorul Oficial, din 1990 încoace, din indexul Portalului Legislativ:{' '}
+                <Link href="/monitorul-oficial" className={linkCls}>
+                  Monitorul Oficial, în cifre
+                </Link>
                 .
               </p>
             </div>

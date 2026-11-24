@@ -2,7 +2,7 @@
   "billId": "PL-x 203/2026",
   "slug": "plx-203-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T14:21:51.661Z",
+  "updatedAt": "2026-11-24T15:12:05.243Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,21 +31,21 @@
     "key": "58945c00233467c4"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Rezervare online pentru numele ONG-urilor, dar obligatoriu cu semnătură electronică calificată",
-    "summaryTlDr": "Intenția de digitalizare a procedurii de la Ministerul Justiției este utilă, dar legea impune exclusiv semnătura electronică calificată — un cost și o barieră pentru cetățenii obișnuiți — și riscă să blocheze înființarea ONG-urilor dacă platforma nu e gata în 6 luni.",
-    "initiatorClaim": "Inițiatorii susțin că elimină birocrația pe hârtie și inechitatea față de firme (ONRC), creând o platformă online gratuită care să ajute tinerii, mediul rural și diaspora să rezerve rapid denumiri pentru asociații, fundații și federații.",
-    "realityCheck": "În prezent, art. 7 din OG nr. 26/2000 prevede eliberarea dovezii disponibilității denumirii de către Ministerul Justiției fără a impune o platformă unică sau o formă exclusiv electronică. Proiectul introduce o platformă gratuită, dar elimină complet alternativa pe hârtie sau autentificarea simplă: art. 7 alin. (6) obligă orice solicitant să depună cererea și actele exclusiv online și cu semnătură electronică calificată (serviciu contra cost). În plus, Art. II fixează intrarea în vigoare la 6 luni fără normă tranzitorie, ceea ce poate paraliza procedura dacă platforma și interconectarea cu OSIM întârzie.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Rezervarea numelui pentru asociații și fundații se mută online, pe site-ul Ministerului Justiției",
+    "summaryTlDr": "Digitalizarea este utilă și nu aduce taxe, monopoluri sau sancțiuni noi. Problema principală: cererea se poate depune «exclusiv» cu semnătură electronică calificată, deci cine nu are una pierde calea actuală, pe hârtie.",
+    "initiatorClaim": "Inițiatorii vor ca verificarea și rezervarea denumirii unui ONG să fie la fel de simple ca la firme, prin ONRC: online, gratuit, rapid și accesibil și din diaspora, cu verificări automate față de alte denumiri și mărci.",
+    "realityCheck": "Proiectul introduce în art. 7 din OG 26/2000 alin. (5)-(8): o platformă națională a Ministerului Justiției, cereri depuse exclusiv electronic cu semnătură calificată, o verificare informativă a riscului de confuzie cu persoane juridice și mărci, o dovadă electronică semnată calificat și o rezervare valabilă 90 de zile. Motivele legale de refuz rămân cele din alin. (3)-(4), deci verificarea față de mărci nu permite refuzul. Ministerul are 6 luni să facă platforma și să o conecteze la Registrul național ONG și la OSIM.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 7 alin. 6 și 8) și Art. II",
-      "proposalContent": "La alin. (6), eliminați «exclusiv» și permiteți autentificarea prin ROeID, carte electronică de identitate sau depunere fizică alternativă. La alin. (8), înlocuiți «semnătura» cu «sigiliul electronic calificat» al MJ și corectați «ziile» în «zile». La Art. II, păstrați procedura actuală ca alternativă până la operaționalizarea efectivă a platformei.",
-      "argumentation": "Cerința exclusivă a semnăturii electronice calificate impune un cost privat și exclude cetățenii fără certificat, afectând art. 40 din Constituție. Conform Regulamentului eIDAS, instituțiile aplică sigiliu electronic, nu semnătură. Fără o regulă tranzitorie, dacă platforma întârzie peste 6 luni, se blochează complet înființarea ONG-urilor.",
-      "otherComments": "Clarificați termenul de soluționare de către MJ, posibilitatea prelungirii rezervării de 90 de zile (esențială când este necesar acordul SGG sau avizul Cultelor), regimul taxei de timbru și sursa de finanțare a platformei (art. 138 alin. 5 Constituție). Corelați art. 7 alin. (7) cu Art. II privind verificarea față de alte persoane juridice."
+      "articleRef": "Art. I – art. 7 alin. (6) din OG nr. 26/2000",
+      "proposalContent": "(6) Solicitarea se depune prin formular electronic, cu autentificare prin ROeID ori cu semnătură electronică calificată sau avansată. Cererea poate fi depusă și la registratura Ministerului Justiției, pentru cei fără mijloace electronice. Refuzul motivat se comunică electronic și poate fi contestat potrivit Legii nr. 554/2004.",
+      "argumentation": "Semnătura calificată impusă exclusiv costă anual și exclude vârstnicii, mediul rural și diaspora fără certificat, contrar scopului declarat. ROeID este gratuit. O cale alternativă la ghișeu evită discriminarea (art. 16 din Constituție), iar menționarea căii de atac asigură previzibilitatea.",
+      "otherComments": "Corectați «ziile» în «zile» la alin. (8). Precizați la alin. (7) că riscul de confuzie cu mărci nu este motiv de refuz, întrucât alin. (4) rămâne neschimbat. Precizați că și emiterea dovezii este gratuită. Termenul de 6 luni pentru interconectarea cu OSIM pare scurt; prevedeți un ordin al ministrului pentru procedură."
     }
   },
   "council": {
@@ -83,8 +83,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 38475,
+      "sourceEndMarker": "SF-7482847D",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Rezervarea numelui pentru asociații și fundații se mută online, pe site-ul Ministerului Justiției",
+      "verdictShort": "Digitalizarea este utilă și nu aduce taxe, monopoluri sau sancțiuni noi. Problema principală: cererea se poate depune «exclusiv» cu semnătură electronică calificată, deci cine nu are una pierde calea actuală, pe hârtie.",
+      "initiatorClaim": "Inițiatorii vor ca verificarea și rezervarea denumirii unui ONG să fie la fel de simple ca la firme, prin ONRC: online, gratuit, rapid și accesibil și din diaspora, cu verificări automate față de alte denumiri și mărci.",
+      "realityCheck": "Proiectul introduce în art. 7 din OG 26/2000 alin. (5)-(8): o platformă națională a Ministerului Justiției, cereri depuse exclusiv electronic cu semnătură calificată, o verificare informativă a riscului de confuzie cu persoane juridice și mărci, o dovadă electronică semnată calificat și o rezervare valabilă 90 de zile. Motivele legale de refuz rămân cele din alin. (3)-(4), deci verificarea față de mărci nu permite refuzul. Ministerul are 6 luni să facă platforma și să o conecteze la Registrul național ONG și la OSIM.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I, alin. (6): cererea se depune «exclusiv» prin autentificare și formular cu semnătură electronică calificată, iar actele doar electronic. Calea pe hârtie dispare. Certificatul calificat costă de regulă anual, iar textul nu prevede alternativa ROeID sau semnătura avansată.",
+        "Art. I, alin. (7): platforma semnalează riscul de confuzie cu «persoane juridice înregistrate» (deci și firme) și cu «mărci în vigoare». Rezultatul e doar informativ pentru marcă, iar alin. (4) nu se schimbă. Așadar nu apare un motiv nou de refuz, dar nici nu se spune ce urmări are semnalarea pentru solicitant.",
+        "Art. I, alin. (8): dovada se emite doar electronic, semnată calificat de Ministerul Justiției, iar rezervarea e valabilă 90 de zile. Textul conține o greșeală de redactare: «ziile».",
+        "Art. I, alin. (5): «gratuit» se referă la accesul la platformă. Nu se spune clar dacă și emiterea dovezii este gratuită.",
+        "Art. II: legea intră în vigoare la 6 luni de la publicare. Dacă platforma nu e gata atunci, alin. (6) elimină depunerea pe hârtie fără nicio soluție tranzitorie, iar înființarea de ONG-uri se poate bloca, pentru că art. 7 alin. (2) lit. e) cere dovada disponibilității denumirii.",
+        "Proiectul nu prevede o normă de aplicare (ordin al ministrului), un termen de soluționare a cererii sau calea de contestare a refuzului motivat pe platformă."
+      ],
+      "blindSpotsCaught": "Cuvântul «exclusiv» din alin. (6) transformă o facilitate într-o obligație. Chiar categoriile invocate în expunerea de motive (vârstnici, mediul rural, tineri fondatori) sunt cele care au cel mai rar semnătură calificată. Pe lângă asta, legea intră în vigoare la aceeași dată la care platforma trebuie să fie gata, fără o perioadă în care procedura veche să funcționeze în paralel. Riscul de blocaj administrativ nu este acoperit.",
+      "constitutionalityNote": "Nu ridică probleme constituționale majore. Pentru previzibilitate (art. 1 alin. 5), ar trebui precizate termenul de soluționare, gratuitatea dovezii, efectul semnalării riscului de confuzie cu mărci și calea de atac. Obligația exclusiv electronică, cu semnătură calificată plătită, poate ridica întrebări privind egalitatea în accesul la libertatea de asociere (art. 16 și art. 40). Testul de proporționalitate este probabil trecut doar dacă există o alternativă accesibilă.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă nu e vorba de o profesie reglementată. Directiva TRIS 2015/1535 nu se aplică: e un serviciu public al statului, nu o regulă tehnică pentru servicii ale societății informaționale. Regulamentul eIDAS 910/2014 permite și niveluri de asigurare mai mici decât semnătura calificată, deci impunerea ei exclusivă este o alegere națională, nu o cerință UE. Accesul solicitanților din alte state membre trebuie asigurat prin recunoașterea mijloacelor de identificare electronică notificate. Proiectul este coerent cu obiectivele PNRR și cu Regulamentul (UE) 2018/1724 (Single Digital Gateway).",
+      "senatForm": {
+        "articleRef": "Art. I – art. 7 alin. (6) din OG nr. 26/2000",
+        "proposalContent": "(6) Solicitarea se depune prin formular electronic, cu autentificare prin ROeID ori cu semnătură electronică calificată sau avansată. Cererea poate fi depusă și la registratura Ministerului Justiției, pentru cei fără mijloace electronice. Refuzul motivat se comunică electronic și poate fi contestat potrivit Legii nr. 554/2004.",
+        "argumentation": "Semnătura calificată impusă exclusiv costă anual și exclude vârstnicii, mediul rural și diaspora fără certificat, contrar scopului declarat. ROeID este gratuit. O cale alternativă la ghișeu evită discriminarea (art. 16 din Constituție), iar menționarea căii de atac asigură previzibilitatea.",
+        "otherComments": "Corectați «ziile» în «zile» la alin. (8). Precizați la alin. (7) că riscul de confuzie cu mărci nu este motiv de refuz, întrucât alin. (4) rămâne neschimbat. Precizați că și emiterea dovezii este gratuită. Termenul de 6 luni pentru interconectarea cu OSIM pare scurt; prevedeți un ordin al ministrului pentru procedură."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -135,7 +164,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T14:21:51.661Z",
+      "replacedAt": "2026-11-24T15:12:05.243Z",
       "reasons": [
         "model"
       ]

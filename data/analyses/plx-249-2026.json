@@ -2,7 +2,7 @@
   "billId": "PL-x 249/2026",
   "slug": "plx-249-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T14:20:29.907Z",
+  "updatedAt": "2026-11-24T15:11:40.991Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,21 +31,21 @@
     "key": "9bc13953734b816f"
   },
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Gărzile medicale și vechimea în muncă: o lege golită de conținut la Senat",
-    "summaryTlDr": "Forma adoptată de Senat a eliminat complet mecanismul promis în Expunerea de motive (calcularea gărzii de 24 de ore ca două zile de vechime) și l-a înlocuit cu un articol declarativ, circular și juridic confuz. Proiectul nu aduce costuri sau abuzuri directe, dar creează un paralelism legislativ inutil și risc de interpretări neunitare în spitalele publice.",
-    "initiatorClaim": "Inițiatorii susțin că vor să repare o inechitate față de personalul medical care efectuează gărzi de cel puțin 24 de ore pe parcursul a două zile calendaristice, propunând o normă derogatorie care să recunoască fiecare zi calendaristică acoperită de gardă ca zi distinctă de vechime în muncă și să oblige unitățile sanitare la evidențierea separată în REVISAL.",
-    "realityCheck": "În realitate, art. 386 din Legea nr. 95/2006 reglementează titlurile și exercitarea profesiei de medic, iar noul art. 386¹ adoptat de Senat nu mai modifică Codul muncii și nu instituie nicio regulă nouă de calcul al vechimii pentru gărzile de 24 de ore. Dimpotrivă, alin. (1)-(4) trimit circular la „reglementările legale speciale” și „regulile generale” deja în vigoare, iar alin. (5) interzice expres orice derogare de la regimul timpului de muncă. Mai grav, alin. (3) amestecă juridic gărzile prestate pe contract individual de muncă distinct cu „legislația muncii aplicabile muncii suplimentare”, care nu conține reguli de adăugare de vechime.",
+    "plainTitle": "Gărzile medicilor sunt timp de muncă, dar vechimea se socotește tot ca până acum",
+    "summaryTlDr": "În forma Senatului, legea e în mare parte declarativă și inofensivă. Repetă reguli care există deja și nu dă vechime dublă pentru gărzile de 24 de ore, așa cum promitea expunerea de motive.",
+    "initiatorClaim": "Inițiatorii spun că o gardă de 24 de ore, care se întinde pe două zile calendaristice, e socotită acum ca o singură zi de vechime. Ei voiau o normă derogatorie prin care fiecare zi calendaristică acoperită de gardă să conteze ca zi distinctă de vechime.",
+    "realityCheck": "Senatul a rescris complet propunerea. Noul art. 386¹ spune că garda este timp de muncă și că orele de gardă se valorifică la vechime „potrivit regulilor generale” și „legislației muncii”. Alin. (5) exclude expres orice derogare de la regimul general, deci mecanismul promis (o zi de gardă = două zile de vechime) a dispărut. Efectul practic e minim: textul confirmă juridic statutul gărzii, dar trimite înapoi la reglementările existente, iar alin. (3) amestecă noțiuni (muncă suplimentară vs. contract distinct) și poate crea confuzie.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Angajați & HR"
     ],
     "senatForm": {
-      "articleRef": "Art. I - art. 386¹ din Legea nr. 95/2006",
-      "proposalContent": "Se propune reformularea art. 386¹ alin. (3) pentru a distinge clar gărzile pe contract individual de muncă distinct de munca suplimentară și a preciza regula concretă de calcul al vechimii, corectarea erorilor („efectuarea”, „contract”) sau respingerea textului ca paralelism legislativ fără efect normativ.",
-      "argumentation": "Forma Senatului golește de conținut scopul din Expunerea de motive, trimițând circular la legile în vigoare. Alin. (3) confundă CIM-ul distinct de gardă cu munca suplimentară, încălcând cerințele de claritate ale art. 1 alin. (5) din Constituție și interdicția paralelismelor (art. 16 din Legea nr. 24/2000).",
-      "otherComments": "Art. 386¹ este plasat în Titlul XII al Legii nr. 95/2006 (dedicat exclusiv medicilor), deși vizează „personalul medical” în ansamblu și exclude unitățile sanitare private. Dacă se urmărește recunoașterea distinctă a gărzilor de 24h la vechime, trebuie corelat expres cu Codul muncii și legislația pensiilor."
+      "articleRef": "Art. I, art. 386¹ alin. (3) Legea 95/2006",
+      "proposalContent": "Alin. (3) se modifică: «(3) Orele de gardă efectuate în afara normei de bază, în baza unui contract individual de muncă cu timp parțial distinct sau a unui act adițional, se valorifică la stabilirea vechimii în muncă și în specialitate potrivit Legii nr. 53/2003 – Codul muncii.» La alin. (1), «efectuare gărzilor» devine «efectuarea gărzilor».",
+      "argumentation": "Forma Senatului amestecă munca suplimentară (art. 120 Codul muncii) cu gărzile prestate prin contract distinct, care sunt o relație de muncă separată. Trimiterea la regimul muncii suplimentare pentru un contract distinct e confuză și poate duce la practici diferite între spitale la calculul vechimii. Textul propus clarifică regula aplicabilă.",
+      "otherComments": "Expunerea de motive anunță o normă derogatorie (fiecare zi calendaristică de gardă = zi distinctă de vechime), dar alin. (5) din forma Senatului exclude orice derogare. Comisia ar trebui să precizeze public că proiectul nu dublează vechimea, ca să nu creeze așteptări false. Se corectează și «contact» în «contract» la alin. (3)."
     }
   },
   "council": {
@@ -84,8 +84,37 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 39176,
+      "sourceEndMarker": "SF-B923F266",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Gărzile medicilor sunt timp de muncă, dar vechimea se socotește tot ca până acum",
+      "verdictShort": "În forma Senatului, legea e în mare parte declarativă și inofensivă. Repetă reguli care există deja și nu dă vechime dublă pentru gărzile de 24 de ore, așa cum promitea expunerea de motive.",
+      "initiatorClaim": "Inițiatorii spun că o gardă de 24 de ore, care se întinde pe două zile calendaristice, e socotită acum ca o singură zi de vechime. Ei voiau o normă derogatorie prin care fiecare zi calendaristică acoperită de gardă să conteze ca zi distinctă de vechime.",
+      "realityCheck": "Senatul a rescris complet propunerea. Noul art. 386¹ spune că garda este timp de muncă și că orele de gardă se valorifică la vechime „potrivit regulilor generale” și „legislației muncii”. Alin. (5) exclude expres orice derogare de la regimul general, deci mecanismul promis (o zi de gardă = două zile de vechime) a dispărut. Efectul practic e minim: textul confirmă juridic statutul gărzii, dar trimite înapoi la reglementările existente, iar alin. (3) amestecă noțiuni (muncă suplimentară vs. contract distinct) și poate crea confuzie.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. 386¹ alin. (1): garda din unitățile sanitare publice este calificată expres drept timp de muncă. Asta e conform cu Directiva 2003/88/CE și cu jurisprudența CJUE despre gărzile la locul de muncă, dar nu schimbă substanțial practica actuală.",
+        "Art. 386¹ alin. (5) contrazice direct expunerea de motive: precizează că articolul NU instituie derogări de la regimul timpului de muncă. Norma specială de vechime dublă anunțată de inițiatori nu mai există în text.",
+        "Art. 386¹ alin. (3) trimite gărzile prestate „în baza unui contract individual de muncă distinct” la regimul muncii suplimentare. Munca prestată prin contract distinct nu e muncă suplimentară în sensul Codului muncii, ci o relație de muncă separată, deci trimiterea e imprecisă.",
+        "Art. 386¹ alin. (4) e circular: trimite regulile de evidență și de valorificare la „reglementările legale speciale în vigoare”, fără să creeze vreo obligație nouă, inclusiv evidența distinctă în registrul salariaților pe care o promitea expunerea de motive.",
+        "Erori de redactare: „efectuare gărzilor” (alin. 1) și „contact individual de muncă” (alin. 3) în loc de „contract”.",
+        "Nu are impact bugetar și nu adaugă birocrație pentru IMM-uri sau cetățeni, pentru că se aplică doar unităților sanitare publice și nu impune evidențe noi."
+      ],
+      "blindSpotsCaught": "Titlul și expunerea de motive au rămas cele ale propunerii inițiale, care viza și Codul muncii și vechimea dublă. Forma adoptată de Senat e însă o simplă completare declarativă a Legii 95/2006. Personalul medical poate înțelege greșit că primește vechime suplimentară. În plus, articolul e plasat după art. 386, care privește exercitarea profesiei de medic, dar folosește noțiunea mai largă de „personal medical”, fără să precizeze dacă include și asistenții medicali.",
+      "constitutionalityNote": "Nu ridică probleme de constituționalitate de fond. Nu restrânge drepturi și e compatibil cu art. 41 (dreptul la muncă și protecția socială a muncii). Sub aspectul clarității și previzibilității (art. 1 alin. 5), textul e în mare parte redundant, iar alin. (3) și (4) folosesc trimiteri vagi („în măsura și în condițiile prevăzute de legislația muncii”, „reglementările legale speciale”). Asta nu atinge pragul de neconstituționalitate, dar reduce utilitatea normei. Paralelismul legislativ cu Codul muncii contravine spiritului art. 16 din Legea nr. 24/2000.",
+      "euLawNote": "Textul e compatibil cu Directiva 2003/88/CE: calificarea gărzii ca timp de muncă e în linie cu art. 2 și cu jurisprudența CJUE. Directiva (UE) 2018/958 nu se aplică, pentru că nu se introduc cerințe noi de acces sau de exercitare a unei profesii reglementate. Directiva TRIS (UE) 2015/1535 nu se aplică, pentru că nu se reglementează servicii ale societății informaționale sau reglementări tehnice. Nu există efecte asupra pieței unice sau a concurenței.",
+      "senatForm": {
+        "articleRef": "Art. I, art. 386¹ alin. (3) Legea 95/2006",
+        "proposalContent": "Alin. (3) se modifică: «(3) Orele de gardă efectuate în afara normei de bază, în baza unui contract individual de muncă cu timp parțial distinct sau a unui act adițional, se valorifică la stabilirea vechimii în muncă și în specialitate potrivit Legii nr. 53/2003 – Codul muncii.» La alin. (1), «efectuare gărzilor» devine «efectuarea gărzilor».",
+        "argumentation": "Forma Senatului amestecă munca suplimentară (art. 120 Codul muncii) cu gărzile prestate prin contract distinct, care sunt o relație de muncă separată. Trimiterea la regimul muncii suplimentare pentru un contract distinct e confuză și poate duce la practici diferite între spitale la calculul vechimii. Textul propus clarifică regula aplicabilă.",
+        "otherComments": "Expunerea de motive anunță o normă derogatorie (fiecare zi calendaristică de gardă = zi distinctă de vechime), dar alin. (5) din forma Senatului exclude orice derogare. Comisia ar trebui să precizeze public că proiectul nu dublează vechimea, ca să nu creeze așteptări false. Se corectează și «contact» în «contract» la alin. (3)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -138,7 +167,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T14:20:29.907Z",
+      "replacedAt": "2026-11-24T15:11:40.991Z",
       "reasons": [
         "model"
       ]

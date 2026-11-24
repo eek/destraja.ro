@@ -2,7 +2,7 @@
   "billId": "Pl-x 25/2026",
   "slug": "plx-25-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T14:22:22.862Z",
+  "updatedAt": "2026-11-24T15:12:19.679Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "dba55db223dded70"
   },
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
-    "plainTitle": "Interdicția jocurilor de noroc pentru demnitari și șefi din stat, cu trimiterea întregului registru la ANI",
-    "summaryTlDr": "Scopul de integritate publică este legitim, dar proiectul este redactat grav deficitar: extinde vag obligația la „funcții de autoritate” fără reguli de durată sau tranziție și obligă ONJN să trimită la ANI întreaga listă a cetățenilor autoexcluşi, nu doar a demnitarilor.",
-    "initiatorClaim": "Inițiatorii susțin că vor să elimine vulnerabilitatea financiară și riscul de șantaj sau corupție al demnitarilor prin instituirea unei măsuri administrative simple de autoexcludere din jocurile de noroc, fără costuri bugetare.",
-    "realityCheck": "În realitate, proiectul adaugă pe lângă demnitari și categoria nedefinită a celor cu „funcții de conducere sau de autoritate” și le impune o „abatere disciplinară gravă” fără să spună cât durează autoexcluderea, cum încetează după mandat sau ce termen au cei aflați deja în funcție. Mai grav, art. 27¹ alin. (2) obligă ONJN să transmită semestrial către ANI situația tuturor persoanelor înscrise în Registru, expunând datele sensibile ale cetățenilor obișnuiți autoexcluşi voluntar din cauza dependenței.",
+    "plainTitle": "Demnitarii și șefii din instituțiile publice, obligați să se autoexcludă de la jocurile de noroc",
+    "summaryTlDr": "Scopul de integritate e legitim, dar textul e scris în grabă. Nu definește cine e obligat, transformă o măsură voluntară de protecție într-o obligație sancționată disciplinar și, literal, cere trimiterea către ANI a datelor tuturor persoanelor autoexcluse, inclusiv ale cetățenilor obișnuiți.",
+    "initiatorClaim": "Inițiatorii spun că vor să elimine riscul ca demnitarii să devină vulnerabili financiar sau șantajabili din cauza jocurilor de noroc. Soluția propusă este autoexcluderea obligatorie, verificată de ANI, ca standard etic al funcției publice.",
+    "realityCheck": "Proiectul adaugă la art. 15 din OUG 77/2009 un alin. (7¹). Acesta obligă demnitarii și pe oricine exercită „funcții de conducere sau de autoritate” în instituții publice să ceară, în 15 zile de la validare sau numire, înscrierea în Registrul Național al Persoanelor Autoexcluse și să depună dovada. Neîndeplinirea obligației devine „abatere disciplinară gravă”, sancționată după regimul fiecărei categorii, deși mulți demnitari (parlamentari, miniștri, aleși locali) nu au un astfel de regim aplicabil. ONJN trebuie să transmită semestrial ANI „situația actualizată a persoanelor înscrise în Registru”, adică, literal, întregul registru. Proiectul nu spune ce se întâmplă cu persoanele deja aflate în funcție, cât durează autoexcluderea și când încetează obligația.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Angajați & HR",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1-2 (art. 15 alin. 7¹, art. 27¹)",
-      "proposalContent": "Mutarea obligației din art. 15 într-un articol dedicat, aplicabil strict demnitarilor din Codul administrativ pe durata mandatului, cu termen tranzitoriu pentru cei deja în funcție. La art. 27¹ alin. (2), ONJN să transmită ANI doar datele persoanelor obligate de lege, prin interogare punctuală, nu întregul Registru al persoanelor autoexcluse.",
-      "argumentation": "Sintagma «funcții de autoritate» e neclară (art. 1 alin. 5 Constituție), lipsesc durata excluderii și normele tranzitorii, iar art. 15 privește licențierea operatorilor. Transmiterea integrală a Registrului către ANI expune datele cetățenilor autoexcluşi voluntar, încălcând minimizarea datelor (GDPR) și art. 26 din Constituție.",
-      "otherComments": "Verificați caracterul de lege organică (art. 73 alin. 3 Constituție), fiind vizate abateri disciplinare grave și noi atribuții pentru ANI (Legea 176/2010). Includeți în lege, nu prin HG (Art. II), procedura de radiere după mandat și corectați formula finală contradictorie (art. 76 alin. 1 vs. alin. 2)."
+      "articleRef": "Art. I pct. 2 – art. 27¹ alin. (2) OUG 77/2009",
+      "proposalContent": "(2) ONJN transmite semestrial ANI, exclusiv pentru persoanele care i-au comunicat calitatea prevăzută la art. 15 alin. (7¹), confirmarea existenței înscrierii în Registru și perioada acesteia, fără alte date. Datele se prelucrează numai în acest scop și se șterg la 6 luni după încetarea funcției.",
+      "argumentation": "Textul actual obligă ONJN să trimită ANI situația tuturor persoanelor din Registru, inclusiv a cetățenilor obișnuiți care s-au autoexclus din motive de dependență. E o prelucrare excesivă, contrară minimizării datelor (art. 5 GDPR) și art. 26 din Constituție. ANI are nevoie doar de confirmarea privind persoanele vizate.",
+      "otherComments": "Sintagma „funcții de conducere sau de autoritate” e vagă: definiți-o prin trimitere la Codul administrativ sau Legea 176/2010. Precizați regimul celor deja în funcție, durata autoexcluderii (cel puțin pe durata mandatului) și sancțiunea pentru parlamentari. Corectați „Autoexclude” în „Autoexcluse”."
     }
   },
   "council": {
@@ -87,8 +87,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 47900,
+      "sourceEndMarker": "SF-A4FF3CEB",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Demnitarii și șefii din instituțiile publice, obligați să se autoexcludă de la jocurile de noroc",
+      "verdictShort": "Scopul de integritate e legitim, dar textul e scris în grabă. Nu definește cine e obligat, transformă o măsură voluntară de protecție într-o obligație sancționată disciplinar și, literal, cere trimiterea către ANI a datelor tuturor persoanelor autoexcluse, inclusiv ale cetățenilor obișnuiți.",
+      "initiatorClaim": "Inițiatorii spun că vor să elimine riscul ca demnitarii să devină vulnerabili financiar sau șantajabili din cauza jocurilor de noroc. Soluția propusă este autoexcluderea obligatorie, verificată de ANI, ca standard etic al funcției publice.",
+      "realityCheck": "Proiectul adaugă la art. 15 din OUG 77/2009 un alin. (7¹). Acesta obligă demnitarii și pe oricine exercită „funcții de conducere sau de autoritate” în instituții publice să ceară, în 15 zile de la validare sau numire, înscrierea în Registrul Național al Persoanelor Autoexcluse și să depună dovada. Neîndeplinirea obligației devine „abatere disciplinară gravă”, sancționată după regimul fiecărei categorii, deși mulți demnitari (parlamentari, miniștri, aleși locali) nu au un astfel de regim aplicabil. ONJN trebuie să transmită semestrial ANI „situația actualizată a persoanelor înscrise în Registru”, adică, literal, întregul registru. Proiectul nu spune ce se întâmplă cu persoanele deja aflate în funcție, cât durează autoexcluderea și când încetează obligația.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 (art. 15 alin. 7¹): sintagma „funcții de conducere sau de autoritate în cadrul instituțiilor și autorităților publice” nu e definită și nu trimite la nicio listă. Poate cuprinde de la miniștri la directori de școli, șefi de serviciu din primării sau medici-șefi, așa că sfera destinatarilor este imprevizibilă.",
+        "Art. I pct. 2 (art. 27¹ alin. 2): ONJN transmite ANI situația tuturor persoanelor înscrise în Registru, nu doar a celor vizate de noua obligație. Rezultă o comunicare masivă de date despre cetățeni care s-au autoexclus, adesea din cauza dependenței, către o autoritate fără competență asupra lor.",
+        "Art. 27¹ alin. 1: sancțiunea de „abatere disciplinară gravă” trimite la reglementări care, pentru parlamentari, membri ai Guvernului sau aleși locali, nu prevăd abateri disciplinare de acest tip. Norma riscă să fie inaplicabilă tocmai pentru demnitari.",
+        "Art. 27¹ alin. 3: ANI primește o atribuție nouă prin OUG 77/2009, fără modificarea Legii nr. 176/2010, care îi stabilește competențele. Nu se precizează nici procedura, nici consecința constatărilor ANI (raport de evaluare, incompatibilitate etc.).",
+        "Lipsesc dispozițiile tranzitorii pentru persoanele aflate deja în funcție la intrarea în vigoare. Termenul de 15 zile curge doar „de la validarea mandatului sau de la numirea în funcție”, deci titularii actuali ar putea scăpa de obligație până la următorul mandat.",
+        "Durata autoexcluderii nu este legată de durata mandatului. Regimul din normele ONJN prevede perioade fixe alese de solicitant, așa că o persoană se poate conforma formal cu perioada minimă disponibilă.",
+        "Art. II: Guvernul are 30 de zile pentru modificarea normelor metodologice, iar legea intră în vigoare tot la 30 de zile. Practic, obligația se poate naște fără procedura de aplicare.",
+        "Plasarea în art. 15, care reglementează condițiile de licențiere a operatorilor, este nesistematică (Legea nr. 24/2000). Textul conține și o greșeală de redactare: „Persoanelor Autoexclude” în loc de „Autoexcluse”."
+      ],
+      "blindSpotsCaught": "Cea mai serioasă problemă e ascunsă în art. 27¹ alin. (2). Formularea cere ONJN să trimită ANI situația tuturor persoanelor înscrise în Registru, nu numai a demnitarilor, ceea ce înseamnă transferul semestrial al unei baze de date sensibile despre cetățeni obișnuiți, contrar principiului minimizării (art. 5 GDPR). Apoi, autoexcluderea este prin natura ei un instrument voluntar de protecție a jucătorului vulnerabil, iar transformarea ei în obligație de serviciu îi schimbă scopul. În fine, exemplele comparative din expunerea de motive (Norvegia, Suedia, Ontario, Marea Britanie) sunt nesusținute de trimiteri precise și par inexacte: Spelpaus, de exemplu, este un registru voluntar. Nu pot fi luate ca bază a proporționalității.",
+      "constitutionalityNote": "Art. 1 alin. (5): lipsa definiției pentru „funcții de conducere sau de autoritate” și trimiterea la regimuri disciplinare inexistente pentru demnitari afectează claritatea și previzibilitatea normei. CCR a sancționat constant astfel de imprecizii, mai ales când atrag sancțiuni. Art. 26 (viața intimă) și art. 53 (proporționalitatea): o interdicție generală, legată de o activitate legală din viața privată și aplicată unui cerc foarte larg de persoane, fără legătură cu atribuțiile concrete, poate fi considerată disproporționată. Măsura e mai ușor de justificat pentru un cerc restrâns de demnitari și pentru autoritățile cu atribuții în domeniul jocurilor de noroc (ONJN, MF, ANAF). Transmiterea către ANI a datelor tuturor persoanelor autoexcluse încalcă art. 26 și cerințele de necesitate. Pentru parlamentari se pune și problema compatibilității cu art. 69 (mandatul reprezentativ) și cu statutul deputaților și senatorilor, care nu poate fi completat implicit printr-o OUG sectorială. Aspectele sunt corectabile prin amendamente, nu viciază inevitabil întreaga inițiativă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă, pentru că nu se reglementează accesul la o profesie reglementată. Directiva (UE) 2015/1535 (TRIS) nu pare aplicabilă: obligația cade pe persoane fizice, nu instituie reguli tehnice noi pentru serviciile societății informaționale, iar operatorii au deja obligația de a respecta registrul. Notificarea ar deveni necesară doar dacă normele metodologice ar impune operatorilor online cerințe tehnice noi. Principalul punct de dreptul UE este GDPR: datele din registrul de autoexcludere pot dezvălui dependență, deci pot fi date privind sănătatea (art. 9). Comunicarea integrală către ANI încalcă limitarea scopului și minimizarea datelor (art. 5 alin. 1 lit. b-c). Se impune limitarea transferului la persoanele vizate și o evaluare de impact. Nu se constată efecte asupra concurenței sau a pieței unice.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 – art. 27¹ alin. (2) OUG 77/2009",
+        "proposalContent": "(2) ONJN transmite semestrial ANI, exclusiv pentru persoanele care i-au comunicat calitatea prevăzută la art. 15 alin. (7¹), confirmarea existenței înscrierii în Registru și perioada acesteia, fără alte date. Datele se prelucrează numai în acest scop și se șterg la 6 luni după încetarea funcției.",
+        "argumentation": "Textul actual obligă ONJN să trimită ANI situația tuturor persoanelor din Registru, inclusiv a cetățenilor obișnuiți care s-au autoexclus din motive de dependență. E o prelucrare excesivă, contrară minimizării datelor (art. 5 GDPR) și art. 26 din Constituție. ANI are nevoie doar de confirmarea privind persoanele vizate.",
+        "otherComments": "Sintagma „funcții de conducere sau de autoritate” e vagă: definiți-o prin trimitere la Codul administrativ sau Legea 176/2010. Precizați regimul celor deja în funcție, durata autoexcluderii (cel puțin pe durata mandatului) și sancțiunea pentru parlamentari. Corectați „Autoexclude” în „Autoexcluse”."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -144,7 +175,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T14:22:22.862Z",
+      "replacedAt": "2026-11-24T15:12:19.679Z",
       "reasons": [
         "model"
       ]

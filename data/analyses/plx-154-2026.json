@@ -2,7 +2,7 @@
   "billId": "Pl-x 154/2026",
   "slug": "plx-154-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:41:47.246Z",
+  "updatedAt": "2026-11-24T15:09:11.026Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -33,10 +33,10 @@
   "consensus": {
     "riskScore": 6,
     "riskLevel": "yellow",
-    "plainTitle": "Reguli noi pentru urgențele medicale și dosarul pacienților decedați, cu breșe grave în protecția vieții",
-    "summaryTlDr": "Un proiect cu intenții legitime (clarificarea refuzului anticipat și accesul moștenitorilor la dosarul medical), dar redactat neglijent, cu capcane juridice serioase. Cea mai gravă permite oricărei rude apropiate să oprească verbal o intervenție salvatoare de viață, iar accesul instituțiilor statului la date medicale este lăsat la discreția unui ordin de ministru.",
-    "initiatorClaim": "Inițiatorul susține că modernizează Legea nr. 46/2003 pentru a respecta refuzul anticipat al pacientului („testamentul vital”), a permite rudelor accesul proporțional la dosarul medical post-mortem (inclusiv pentru dovedirea malpraxisului) și a digitaliza exprimarea consimțământului.",
-    "realityCheck": "În realitate, art. 14 alin. (2) lit. b) blochează intervenția de urgență pe baza simplei declarații verbale a unui „membru al familiei apropiate” (termen nedefinit), fără dovadă scrisă. Art. 21 alin. (2) omite malpraxisul dintre motivele pentru care moștenitorii pot cere direct dosarul (îl restrânge la instituții în procese deja deschise) și deleagă definirea „interesului public major” la un ordin de ministru. În plus, art. 22 alin. (3) slăbește confidențialitatea pacienților în viață, transformând interdicția actuală într-o simplă facultate a spitalului („este îndreptățită”).",
+    "plainTitle": "Familia poate bloca tratamentul de urgență, iar regula generală a secretului medical se slăbește",
+    "summaryTlDr": "Scopul e legitim: respectarea refuzului anticipat al pacientului și accesul moștenitorilor la dosarul celui decedat. Redactarea însă lasă orice rudă să blocheze, printr-o simplă afirmație, o intervenție care salvează viața. Totodată, înlocuiește regula generală a confidențialității pentru cei în viață cu o formulă permisivă.",
+    "initiatorClaim": "Inițiatorul vrea să modernizeze consimțământul medical: respectarea refuzului anticipat chiar în urgență, consimțământ digital. Vrea și un acces proporțional, cu garanții procedurale, al moștenitorilor și instituțiilor la datele medicale după deces.",
+    "realityCheck": "Art. 14 nou nu cere nicio formă pentru refuzul anticipat. Un «membru al familiei apropiate», noțiune nedefinită, poate declara verbal că pacientul s-ar fi opus, iar intervenția de urgență nu mai poate fi făcută, inclusiv la minori. Art. 22 nou elimină regula actuală, potrivit căreia datele confidențiale se dau numai cu consimțământ explicit sau dacă legea o cere expres, și o înlocuiește cu una despre rude, în care unitatea doar «este îndreptățită» să păstreze secretul. Art. 21 dă acces moștenitorilor numai pentru scopuri restrânse. Pentru malpraxis, accesul îl au doar instituțiile și doar după ce procesul a început, deci familia nu își poate evalua cazul înainte de a da în judecată.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Justiție & Drepturi Civile",
@@ -44,10 +44,10 @@
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I, Art. 14 alin. (2) lit. b)",
-      "proposalContent": "Eliminarea sintagmei „ori un membru al familiei apropiate” din art. 14 alin. (2) lit. b) și condiționarea refuzului de existența unui înscris autentic ori înregistrat oficial: „b) reprezentantul legal sau mandatarul de ocrotire prezintă un înscris valid prin care pacientul și-a exprimat anterior refuzul informat al intervenției.”",
-      "argumentation": "Textul permite oricărei rude apropiate (nedefinite legal) să blocheze verbal o intervenție vitală pentru un pacient inconștient, fără dovada voinței sale reale. Aceasta periclitează dreptul constituțional la viață (art. 22), creează riscuri de abuz ori conflict între rude și blochează medicii în urgențe.",
-      "otherComments": "Solicit și corectarea art. 21 alin. (2) lit. b) (interesul public major trebuie definit prin lege, nu prin ordin ministerial, cf. art. 53 Constituție), includerea suspiciunii de malpraxis la accesul moștenitorilor și înlocuirea la art. 22 alin. (3) a lui „este îndreptățită” cu „este obligată” să păstreze confidențialitatea."
+      "articleRef": "Art. I – art. 14 alin. (2) lit. b) din Legea 46/20",
+      "proposalContent": "Art.14 alin.(2) lit.b) devine: „reprezentantul legal sau mandatarul din mandatul de ocrotire prezintă un înscris datat și semnat de pacient prin care acesta a refuzat intervenția respectivă.” Se introduce alin.(2^1): „Pentru minori și persoanele fără discernământ, refuzul reprezentantului nu împiedică intervenția de urgență necesară salvării vieții.”",
+      "argumentation": "Forma actuală permite oricărui „membru al familiei apropiate”, noțiune nedefinită, să blocheze o intervenție salvatoare printr-o afirmație verbală neverificabilă, chiar în conflict de interese (succesiune). Refuzul anticipat trebuie dovedit prin înscris. Viața minorului (art. 22 și 49 din Constituție) nu poate depinde de declarația părintelui.",
+      "otherComments": "Art.22 alin.(3): înlocuiți „este îndreptățită să păstreze” cu „are obligația să păstreze” și păstrați regula actuală: date confidențiale doar cu consimțământ explicit sau dacă legea o cere expres. Art.21 alin.(2): permiteți accesul moștenitorilor și înaintea unui proces de malpraxis; criteriile „interesului public major” trebuie fixate prin lege, nu prin ordin."
     }
   },
   "council": {
@@ -87,8 +87,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 69382,
+      "sourceEndMarker": "SF-12E5CA85",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Familia poate bloca tratamentul de urgență, iar regula generală a secretului medical se slăbește",
+      "verdictShort": "Scopul e legitim: respectarea refuzului anticipat al pacientului și accesul moștenitorilor la dosarul celui decedat. Redactarea însă lasă orice rudă să blocheze, printr-o simplă afirmație, o intervenție care salvează viața. Totodată, înlocuiește regula generală a confidențialității pentru cei în viață cu o formulă permisivă.",
+      "initiatorClaim": "Inițiatorul vrea să modernizeze consimțământul medical: respectarea refuzului anticipat chiar în urgență, consimțământ digital. Vrea și un acces proporțional, cu garanții procedurale, al moștenitorilor și instituțiilor la datele medicale după deces.",
+      "realityCheck": "Art. 14 nou nu cere nicio formă pentru refuzul anticipat. Un «membru al familiei apropiate», noțiune nedefinită, poate declara verbal că pacientul s-ar fi opus, iar intervenția de urgență nu mai poate fi făcută, inclusiv la minori. Art. 22 nou elimină regula actuală, potrivit căreia datele confidențiale se dau numai cu consimțământ explicit sau dacă legea o cere expres, și o înlocuiește cu una despre rude, în care unitatea doar «este îndreptățită» să păstreze secretul. Art. 21 dă acces moștenitorilor numai pentru scopuri restrânse. Pentru malpraxis, accesul îl au doar instituțiile și doar după ce procesul a început, deci familia nu își poate evalua cazul înainte de a da în judecată.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 14 alin. (2) lit. b): declarația expresă a oricărui «membru al familiei apropiate» înlătură consimțământul prezumat. Nu se cere înscris, dovadă sau verificare, nu se exclude conflictul de interese (de exemplu, succesiunea) și nu există excepție pentru minori. Consecința poate fi letală și nu poate fi reparată.",
+        "Art. 14 alin. (2) lit. a) și alin. (4) invocă «testamentul vital» și «declarația anticipată», dar nu le reglementează: lipsesc forma, data, valabilitatea, revocarea și registrul. Medicul trebuie să aplice în urgență un document fără regim juridic. Legea în vigoare permite deja deducerea acordului dintr-o voință exprimată anterior, iar textul nou trece la o prezumție generală cu excepții vagi.",
+        "Art. 22 nou abrogă implicit regula generală din forma în vigoare: informațiile confidențiale se furnizează «numai» cu consimțământ explicit sau dacă legea o cere expres. Alin. (3) spune doar că unitatea «este îndreptățită» să păstreze confidențialitatea, ceea ce sugerează o facultate, nu o obligație. Trimiterea la art. 21 alin. (2), care privește decedații, nu are sens pentru pacienții în viață.",
+        "Art. 21 alin. (2) lit. a): nu e clar dacă cele două liniuțe sunt condiții cumulative. Formula «scopuri expres prevăzute de lege, precum:» este contradictorie, pentru că amestecă o listă limitativă cu una exemplificativă. Moștenitorii testamentari și rudele care nu sunt moștenitori, de exemplu părinții când există descendenți, sunt excluși.",
+        "Art. 21 alin. (2) lit. b): criteriile «interesului public major» sunt lăsate normelor metodologice aprobate prin ordin de ministru, deși restrângerea dreptului la viață privată se face numai prin lege (art. 53 din Constituție). Nici procurorii în cauze penale nu sunt menționați. Codul de procedură penală rămâne aplicabil, dar enumerarea poate fi citită ca limitativă.",
+        "Art. 21 alin. (1) elimină sintagma «chiar și după decesul acestuia» și trimite la legislația protecției datelor. GDPR nu se aplică persoanelor decedate (considerentul 27), deci temeiul confidențialității post-mortem se slăbește formal.",
+        "Art. 22 alin. (4) și Art. II impun Ministerului Sănătății un sistem digital de consimțământ în 6 luni, fără fișă financiară și fără sursă de finanțare."
+      ],
+      "blindSpotsCaught": "Anexa citează greșit legea în vigoare. Art. 14 în vigoare nu spune că «consimțământul poate fi presupus», ci permite deducerea acordului dintr-o exprimare anterioară a voinței. Art. 22 nu are alin. (2) și (3) în forma consolidată. Expunerea de motive pornește deci parțial de la o premisă falsă. Art. 21 alin. (4) dă decizia de acces responsabilului cu protecția datelor (DPO). Potrivit art. 38 alin. (6) și art. 39 GDPR, rolul DPO este consultativ și de monitorizare, iar sarcinile decizionale pot crea conflict de interese. Art. 21 alin. (5) trimite la Legea nr. 554/2004 și pentru unitățile sanitare private, care nu sunt autorități publice. ANSPDCP nu are competență pentru datele decedaților, așa că calea de atac rămâne neclară. Art. 15 din lege rămâne nemodificat («în urgență, consimțământul reprezentantului legal nu mai este necesar») și intră în tensiune cu noul art. 14 alin. (2) lit. b).",
+      "constitutionalityNote": "Art. 14 alin. (2) lit. b) ridică probleme față de art. 22 (dreptul la viață) și art. 49 (protecția copiilor). Statul are obligația pozitivă de a proteja viața, iar o declarație neverificabilă a unui terț nu poate echivala cu voința pacientului. Noțiunea nedefinită de «familie apropiată» și lipsa regimului declarației anticipate încalcă exigențele de claritate și previzibilitate (art. 1 alin. (5)). Delegarea către ordin de ministru a criteriilor de restrângere a vieții private (art. 21 alin. (2) lit. b)) contravine art. 53 și art. 26. Slăbirea regulii generale a confidențialității prin art. 22 nou poate fi văzută ca o diminuare a protecției art. 26. Lipsa fișei financiare pentru obligațiile din art. 22 alin. (4) poate fi criticată pe art. 138 alin. (5) și art. 15 din Legea nr. 500/2002. Art. 23 alin. (12) nu este incident, pentru că proiectul nu conține sancțiuni penale.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: proiectul nu reglementează accesul la profesii sau exercitarea lor. Directiva (UE) 2015/1535 (TRIS) nu pare incidentă: mecanismul digital de consimțământ al Ministerului Sănătății este un instrument administrativ, nu o regulă privind serviciile societății informaționale. Rămâne de verificat dacă normele metodologice vor impune cerințe tehnice furnizorilor privați de software. GDPR: prelucrarea datelor de sănătate ale persoanelor în viață are nevoie de temei conform art. 9 alin. (2). Consimțământul verbal din art. 22 alin. (2) poate fi «explicit» numai dacă este documentat. Atribuirea deciziei către DPO trebuie corelată cu art. 38 și 39 GDPR. Pentru decedați, statul are marjă proprie de reglementare (considerentul 27). Spațiul European al Datelor privind Sănătatea (Regulamentul (UE) 2025/327) cere interoperabilitate a dosarului electronic de sănătate, iar sistemul din art. 22 alin. (4) ar trebui proiectat compatibil.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 14 alin. (2) lit. b) din Legea 46/2003",
+        "proposalContent": "Art.14 alin.(2) lit.b) devine: „reprezentantul legal sau mandatarul din mandatul de ocrotire prezintă un înscris datat și semnat de pacient prin care acesta a refuzat intervenția respectivă.” Se introduce alin.(2^1): „Pentru minori și persoanele fără discernământ, refuzul reprezentantului nu împiedică intervenția de urgență necesară salvării vieții.”",
+        "argumentation": "Forma actuală permite oricărui „membru al familiei apropiate”, noțiune nedefinită, să blocheze o intervenție salvatoare printr-o afirmație verbală neverificabilă, chiar în conflict de interese (succesiune). Refuzul anticipat trebuie dovedit prin înscris. Viața minorului (art. 22 și 49 din Constituție) nu poate depinde de declarația părintelui.",
+        "otherComments": "Art.22 alin.(3): înlocuiți „este îndreptățită să păstreze” cu „are obligația să păstreze” și păstrați regula actuală: date confidențiale doar cu consimțământ explicit sau dacă legea o cere expres. Art.21 alin.(2): permiteți accesul moștenitorilor și înaintea unui proces de malpraxis; criteriile „interesului public major” trebuie fixate prin lege, nu prin ordin."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -145,7 +176,7 @@
         "codex": 6
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:41:47.246Z",
+      "replacedAt": "2026-11-24T15:09:11.026Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "Pl-x 364/2026",
   "slug": "plx-364-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:44:38.966Z",
+  "updatedAt": "2026-11-24T15:10:21.932Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 7,
-    "riskLevel": "red",
-    "plainTitle": "Restricții pe social media sub 16 ani, cu amenzi în alb și risc de blocare a platformelor",
-    "summaryTlDr": "Deși scopul de a proteja copiii online este legitim, proiectul este redactat neconstituțional (lasă cuantumul amenzilor să fie stabilit ulterior prin norme metodologice) și intră în coliziune frontală cu legislația UE. În forma actuală, legea ar fi inaplicabilă marilor platforme străine, dar ar permite blocarea lor administrativă și ar lovi startup-urile românești.",
-    "initiatorClaim": "Inițiatoarea susține că legea protejează minorii sub 16 ani de dependența digitală, hărțuire și algoritmi nocivi, mutând responsabilitatea de la părinți la platformele de social media prin verificări de vârstă fără colectare de date sensibile.",
-    "realityCheck": "În realitate, Art. 11 lasă procentul amenzii din cifra de afaceri complet neprecizat în lege (delegându-l unor norme metodologice fără a spune măcar cine le emite) și permite limitarea funcționalităților platformelor în România pentru toți utilizatorii, fără hotărâre judecătorească. Totodată, Art. 6(1)(a) permite platformelor să se conformeze printr-o simplă declarație pe proprie răspundere a utilizatorului, iar lipsa unui prag de dimensiune impune obligații grele oricărui mic forum sau startup IT din România.",
+    "riskScore": 6.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Fără postări, comentarii publice și mesaje de la străini pe rețelele sociale pentru copiii sub 16 ani",
+    "summaryTlDr": "Scopul e legitim și textul are garanții solide de protecție a datelor, dar legea e greu de aplicat. Amenda e lăsată pe seama unor norme fără emitent, obligațiile se pot îndeplini printr-o simplă bifă, iar impunerea directă a unor obligații platformelor din alte state UE intră în conflict cu DSA și cu jurisprudența CJUE.",
+    "initiatorClaim": "Inițiatoarea spune că vrea să protejeze copiii sub 16 ani de conținut dăunător, hărțuire, dependență și algoritmi nocivi. Pentru asta mută răspunderea de pe părinți pe platforme, prin verificarea vârstei fără colectare excesivă de date și cu sancțiuni doar pentru furnizori.",
+    "realityCheck": "Platformele trebuie să blocheze pentru sub-16 ani postarea publică, comentariile, mesajele de la necunoscuți și algoritmii de maximizare a timpului petrecut (art. 8-9). Obligația e însă moale: măsurile se iau «în limitele competențelor tehnice» ale platformei (art. 4 alin. 1), iar simpla declarație a utilizatorului poate fi singurul mecanism de verificare (art. 6 alin. 1 lit. a). Sancțiunea maximă, până la 1% din cifra de afaceri, depinde de norme metodologice pe care legea nu spune cine le emite. Pentru giganții stabiliți în Irlanda, aplicarea directă e practic blocată de dreptul UE.",
     "affectedGroups": [
       "IT & AI",
       "IMM & Antreprenori",
@@ -44,10 +44,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. 10 alin. (3) și Art. 11 alin. (2)",
-      "proposalContent": "La Art. 10(3), normele se emit de Guvern, la propunerea ANCOM, înainte de intrarea în vigoare. La Art. 11(2), eliminarea lit. b) (limitare fără instanță) și fixarea expresă în lege, la lit. c), a pragurilor amenzii, cu aplicarea O.G. 2/2001 și introducerea unui prag de utilizatori care să scutească platformele mici.",
-      "argumentation": "Stabilirea amenzii prin norme metodologice încalcă art. 1(5) și art. 23(12) din Constituție (legalitatea sancțiunilor). Blocarea funcționalităților platformelor fără hotărâre judecătorească afectează art. 30 și 53 pentru toți utilizatorii. Fără un prag de utilizatori, obligațiile împovărează disproporționat IMM-urile IT locale.",
-      "otherComments": "Înainte de adoptare, proiectul trebuie notificat obligatoriu Comisiei Europene prin procedura TRIS (Directiva 2015/1535) și corelat cu competențele exclusive și principiul țării de origine din DSA (Reg. UE 2022/2065). Altfel, legea va fi inopozabilă giganților străini și va sancționa doar platformele românești."
+      "articleRef": "Art. 11 alin. (2) lit. c) și alin. (4) nou",
+      "proposalContent": "Lit. c): „amendă de la 0,1% la 1% din cifra de afaceri realizată în România în anul anterior; pentru furnizorii stabiliți în alt stat UE, ANCOM sesizează coordonatorul serviciilor digitale competent sau Comisia Europeană.” Alin. (4) nou: „Constatarea contravențiilor și aplicarea sancțiunilor se fac de personalul împuternicit al ANCOM.”",
+      "argumentation": "Limitele amenzii nu pot fi lăsate normelor metodologice (art. 1 alin. 5 Constituție, OG 2/2001), iar legea nu desemnează agentul constatator. Art. 3 din Directiva 2000/31 și hotărârea CJUE C-376/22 interzic obligații generale impuse furnizorilor din alt stat membru, deci aplicarea trebuie canalizată prin mecanismele DSA.",
+      "otherComments": "Art. 10 alin. (3) nu indică emitentul normelor (propun: ordin al președintelui ANCOM). Art. 9 („limitat proporțional”) contrazice art. 8 alin. (2), care e o interdicție totală. Art. 6 lit. a) permite autodeclararea ca unic mecanism de verificare. Proiectul trebuie notificat prin TRIS (Directiva 2015/1535) înainte de adoptare."
     }
   },
   "council": {
@@ -90,8 +90,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 45241,
+      "sourceEndMarker": "SF-AA75D551",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără postări, comentarii publice și mesaje de la străini pe rețelele sociale pentru copiii sub 16 ani",
+      "verdictShort": "Scopul e legitim și textul are garanții solide de protecție a datelor, dar legea e greu de aplicat. Amenda e lăsată pe seama unor norme fără emitent, obligațiile se pot îndeplini printr-o simplă bifă, iar impunerea directă a unor obligații platformelor din alte state UE intră în conflict cu DSA și cu jurisprudența CJUE.",
+      "initiatorClaim": "Inițiatoarea spune că vrea să protejeze copiii sub 16 ani de conținut dăunător, hărțuire, dependență și algoritmi nocivi. Pentru asta mută răspunderea de pe părinți pe platforme, prin verificarea vârstei fără colectare excesivă de date și cu sancțiuni doar pentru furnizori.",
+      "realityCheck": "Platformele trebuie să blocheze pentru sub-16 ani postarea publică, comentariile, mesajele de la necunoscuți și algoritmii de maximizare a timpului petrecut (art. 8-9). Obligația e însă moale: măsurile se iau «în limitele competențelor tehnice» ale platformei (art. 4 alin. 1), iar simpla declarație a utilizatorului poate fi singurul mecanism de verificare (art. 6 alin. 1 lit. a). Sancțiunea maximă, până la 1% din cifra de afaceri, depinde de norme metodologice pe care legea nu spune cine le emite. Pentru giganții stabiliți în Irlanda, aplicarea directă e practic blocată de dreptul UE.",
+      "affectedGroups": [
+        "IT & AI",
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 11 alin. (2) lit. c): amenda este «de până la un procent din cifra de afaceri», dar procentul concret se stabilește «prin normele metodologice». Cuantumul sancțiunii e delegat unui act infralegal, contrar principiului legalității sancțiunilor (OG 2/2001, art. 1 alin. 5 din Constituție). Legea nu desemnează nici agentul constatator și nici nu descrie concret fapta contravențională: orice «nerespectare a obligațiilor» este contravenție.",
+        "Art. 10 alin. (3): «se emit norme metodologice în termen de 90 de zile», fără a preciza cine le emite (Guvern, ANCOM?). Este un viciu de previzibilitate care poate bloca aplicarea legii.",
+        "Art. 6 alin. (1) lit. a) coroborat cu art. 4 alin. (1): mecanismele pot fi folosite «individual», deci autodeclararea vârstei ar putea satisface legea. În plus, obligația e limitată la «competențele tehnice și operaționale» ale platformei, adică exact situația de azi.",
+        "Contradicție internă: art. 8 alin. (2) interzice categoric funcționalitățile sociale publice pentru sub-16 ani, iar art. 9 spune că accesul la ele este «limitat în mod proporțional». Nu e clar dacă e vorba de o interdicție sau de o restrângere.",
+        "Art. 3 lit. b) definește platforma prin condiții cumulative, inclusiv amplificarea algoritmică a conținutului. O platformă cu flux strict cronologic ar putea ieși din sfera legii.",
+        "Art. 11 alin. (2) lit. b): sancțiunea de «limitare temporară a anumitor funcționalități» lovește toți utilizatorii din România, inclusiv adulții, ceea ce ridică probleme de proporționalitate față de libertatea de exprimare și de informare.",
+        "Garanțiile de date sunt puncte forte reale: stocarea doar a unei valori binare (art. 7 alin. 1), interdicția de folosire în publicitate sau pentru algoritmi (art. 7 alin. 3), dreptul la intervenție umană și interdicția excluderii definitive fără evaluare umană (art. 6 alin. 5-6), lipsa sancțiunilor pentru minori și părinți (art. 11 alin. 3)."
+      ],
+      "blindSpotsCaught": "Art. 2 alin. (1) aplică legea furnizorilor «indiferent de statul în care furnizorul este stabilit». În hotărârea C-376/22 (Google Ireland, 9.11.2023), CJUE a statuat că un stat membru nu poate impune obligații generale și abstracte unor furnizori de servicii ale societății informaționale stabiliți în alt stat membru (art. 3 din Directiva 2000/31). Pentru Meta, TikTok sau Google, legea ar fi aplicabilă practic doar prin mecanismele DSA (coordonatorul din Irlanda sau Comisia). Alte scăpări: art. 2 alin. (2) lit. d) trimite la art. 3 lit. d), care definește funcționalitățile, nu platformele video. Art. 6 alin. (1) lit. c) pct. (ii) implică operatorii de telecomunicații în confirmarea vârstei fără temei clar de transfer de date. Interdicția datelor «sensibile» (art. 7 alin. 2) exclude, probabil, verificarea biometrică facială (art. 9 GDPR), dar nu și scanarea actului de identitate.",
+      "constitutionalityNote": "Scopul este legitim (art. 49 privind protecția copiilor și tinerilor), iar restrângerea libertății de exprimare și a accesului la informație (art. 30-31) e prezentată ca proporțională, în sensul art. 53. Problemele țin de calitatea legii: (1) cuantumul amenzii delegat unor norme fără emitent desemnat încalcă art. 1 alin. (5) și standardele CCR privind claritatea și previzibilitatea normelor sancționatorii; (2) contradicția dintre art. 8 alin. (2) și art. 9 face ca destinatarul să nu-și poată prevedea conduita; (3) noțiuni precum «indicii rezonabile» sau «indicatori tehnici generali» (art. 6 alin. 1 lit. b) sunt nedeterminate. Lipsa sancțiunilor pentru părinți respectă art. 48 (dreptul părinților la educarea copiilor). Riscul de neconstituționalitate pe fond e moderat; pe tehnică legislativă, ridicat.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă, pentru că nu reglementează o profesie. TRIS (Directiva 2015/1535): proiectul cuprinde reguli specifice serviciilor societății informaționale și trebuie notificat Comisiei înainte de adoptare, cu perioadă de stand-still de minimum 3 luni. Nenotificarea face norma inopozabilă particularilor (CJUE C-194/94 CIA Security). DSA (Regulamentul 2022/2065) este de armonizare maximă, iar art. 28 și Ghidurile Comisiei din 2025 privind protecția minorilor acoperă deja obligațiile de siguranță pentru minori. Principiul țării de origine (Directiva 2000/31) limitează aplicarea legii la furnizorii stabiliți în România. GDPR: garanțiile proiectului sunt conforme (minimizare, limitarea scopului, art. 22). Pragul de 16 ani corespunde opțiunii implicite din art. 8 GDPR. Pe piața unică, obligațiile divergente la nivel național fragmentează piața; efectul asupra IMM-urilor e redus, fiindcă vizate sunt în principal marile platforme.",
+      "senatForm": {
+        "articleRef": "Art. 11 alin. (2) lit. c) și alin. (4) nou",
+        "proposalContent": "Lit. c): „amendă de la 0,1% la 1% din cifra de afaceri realizată în România în anul anterior; pentru furnizorii stabiliți în alt stat UE, ANCOM sesizează coordonatorul serviciilor digitale competent sau Comisia Europeană.” Alin. (4) nou: „Constatarea contravențiilor și aplicarea sancțiunilor se fac de personalul împuternicit al ANCOM.”",
+        "argumentation": "Limitele amenzii nu pot fi lăsate normelor metodologice (art. 1 alin. 5 Constituție, OG 2/2001), iar legea nu desemnează agentul constatator. Art. 3 din Directiva 2000/31 și hotărârea CJUE C-376/22 interzic obligații generale impuse furnizorilor din alt stat membru, deci aplicarea trebuie canalizată prin mecanismele DSA.",
+        "otherComments": "Art. 10 alin. (3) nu indică emitentul normelor (propun: ordin al președintelui ANCOM). Art. 9 („limitat proporțional”) contrazice art. 8 alin. (2), care e o interdicție totală. Art. 6 lit. a) permite autodeclararea ca unic mecanism de verificare. Proiectul trebuie notificat prin TRIS (Directiva 2015/1535) înainte de adoptare."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -150,7 +182,7 @@
         "codex": 7
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:44:38.966Z",
+      "replacedAt": "2026-11-24T15:10:21.932Z",
       "reasons": [
         "model"
       ]

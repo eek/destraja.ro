@@ -2,7 +2,7 @@
   "billId": "PL-x 413/2026",
   "slug": "plx-413-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T13:42:55.615Z",
+  "updatedAt": "2026-11-24T15:09:58.947Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,22 +31,22 @@
     "key": "f0bc264bfa51cac2"
   },
   "consensus": {
-    "riskScore": 4.5,
+    "riskScore": 4,
     "riskLevel": "yellow",
-    "plainTitle": "Pensii ocupaționale scăzute din impozitul pe profit, la comun cu sponsorizările ONG",
-    "summaryTlDr": "Intenția de a stimula pensiile ocupaționale este utilă, dar proiectul a trecut tacit de Senat cu erori grave de redactare, cu un impact bugetar ascuns și cu riscul de a tăia până la jumătate sponsorizările pentru ONG-uri. În plus, exclude complet microîntreprinderile și angajații lor din facilitatea fiscală.",
-    "initiatorClaim": "Inițiatorii susțin că vor să combată declinul demografic și să fidelizeze angajații, permițând firmelor să vireze până la 500 lei/lună/angajat la pensii ocupaționale (Pilonul IV) fără taxe salariale, prin extinderea fără costuri bugetare a mecanismului de credit fiscal deja existent pentru sponsorizări.",
-    "realityCheck": "Contrar expunerii de motive, măsura va reduce încasările din impozitul pe profit, deoarece firmele care nu făceau sponsorizări au acum interes direct să redirecționeze până la 10% din impozit către propriii salariați, iar cele care sponsorizau ONG-uri pot muta până la 50% din bugetul de caritate spre pensii ocupaționale. În plus, prin legarea scutirilor salariale (art. 76 și art. 142) strict de art. 25 alin. (4) lit. i) (impozit pe profit), angajații microîntreprinderilor, ai PFA-urilor sau ai instituțiilor publice sunt excluși, iar viramentele lunare intră în conflict cu plafonul calculat pe profitul anual.",
+    "plainTitle": "Firmele pot plăti până la 500 lei pe lună la pensia ocupațională a angajaților și scad suma din impozitul pe profit",
+    "summaryTlDr": "Este un stimulent fiscal voluntar și plafonat, util pentru economisirea pentru pensie, care nu impune nicio obligație nimănui. Are însă greșeli de redactare, exclude de fapt angajații microîntreprinderilor și pornește de la afirmația, neargumentată, că nu costă nimic bugetul.",
+    "initiatorClaim": "Inițiatorii vor să întărească pensiile private pe fondul declinului demografic. Propun ca angajatorii să poată contribui cu până la 500 lei/angajat/lună la fonduri de pensii ocupaționale, cu același mecanism de scădere din impozitul pe profit folosit acum pentru sponsorizări, fără impozit și contribuții pentru salariat.",
+    "realityCheck": "Contribuțiile intră în plafonul comun existent pentru sponsorizare (minimul dintre 0,75% din cifra de afaceri și 20% din impozitul pe profit) și pot ocupa cel mult 50% din el. Pentru firmele care nu își folosesc deja plafonul de sponsorizare, măsura înseamnă venituri pierdute din impozitul pe profit. La acestea se adaugă scutirea de impozit pe venit, CAS și CASS pentru salariat, deci bani mai puțini și la bugetul de pensii publice. Beneficiul ajunge doar la angajații firmelor plătitoare de impozit pe profit și depinde de existența unor scheme ocupaționale, care în România sunt încă foarte puține.",
     "affectedGroups": [
       "Contabili & Fiscalitate",
       "Angajați & HR",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1-3 și Art. II (PL-x 413/2026)",
-      "proposalContent": "Separați plafonul pensiilor ocupaționale de cel al sponsorizărilor ONG (art. 25 alin. 4 lit. i). Corectați eroarea de numerotare la art. 76 alin. (4) (nu „lit. x) după lit. y)”). Decuplați scutirea angajaților (art. 76 și 142) de trimiterea la art. 25 alin. (4) lit. i), pentru a include și angajații microîntreprinderilor.",
-      "argumentation": "Plafonul comun riscă să taie până la 50% din sponsorizările pentru ONG-uri. Introducerea „lit. x) după lit. y)” încalcă claritatea legii (art. 1 alin. 5 Constituție). Legarea scutirilor de art. 25(4)(i) discriminează angajații microîntreprinderilor și creează risc de recalculare fiscală dacă firma intră pe pierdere.",
-      "otherComments": "Solicitați fișa de impact bugetar (Legea 69/2010): contrar expunerii de motive, firmele care nu sponsorizau vor plăti mai puțin impozit pe profit. Stabiliți prin lege, nu prin ordin MF/ASF (ce poate apărea după 1 ianuarie), efectul depășirii plafonului anual și clarificați regimul CASS și CAM."
+      "articleRef": "Art.I pct.2 (art.76 alin.(4) Cod fiscal)",
+      "proposalContent": "La art.76 alin.(4), după ultima literă existentă se introduce o literă nouă: „contribuțiile la fonduri de pensii ocupaționale, potrivit Legii nr.1/2020, suportate de angajator pentru angajații proprii, în limita a 500 lei/angajat/lună, indiferent de regimul de impozitare al angajatorului;”",
+      "argumentation": "Textul introduce „lit.x) după lit.y)”, ordine imposibilă, și poate suprascrie o literă existentă. Trimiterea la art.25 alin.(4) lit.i) leagă scutirea salariatului de plafonul de credit al firmei și exclude angajații microîntreprinderilor și ai instituțiilor. Plafonul de 500 lei trebuie scris direct în normă.",
+      "otherComments": "Aceeași corectură la art.142 lit.s): pct.6 este abrogat și nu poate fi reutilizat. Solicităm fișa financiară (art.15 L.500/2002, art.111 și art.138 alin.(5) din Constituție), cu impactul asupra CAS, CASS și impozitului pe venit. Expunerea afirmă, fără niciun calcul, că măsura nu are cost bugetar."
     }
   },
   "council": {
@@ -86,8 +86,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 67261,
+      "sourceEndMarker": "SF-3A803306",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Firmele pot plăti până la 500 lei pe lună la pensia ocupațională a angajaților și scad suma din impozitul pe profit",
+      "verdictShort": "Este un stimulent fiscal voluntar și plafonat, util pentru economisirea pentru pensie, care nu impune nicio obligație nimănui. Are însă greșeli de redactare, exclude de fapt angajații microîntreprinderilor și pornește de la afirmația, neargumentată, că nu costă nimic bugetul.",
+      "initiatorClaim": "Inițiatorii vor să întărească pensiile private pe fondul declinului demografic. Propun ca angajatorii să poată contribui cu până la 500 lei/angajat/lună la fonduri de pensii ocupaționale, cu același mecanism de scădere din impozitul pe profit folosit acum pentru sponsorizări, fără impozit și contribuții pentru salariat.",
+      "realityCheck": "Contribuțiile intră în plafonul comun existent pentru sponsorizare (minimul dintre 0,75% din cifra de afaceri și 20% din impozitul pe profit) și pot ocupa cel mult 50% din el. Pentru firmele care nu își folosesc deja plafonul de sponsorizare, măsura înseamnă venituri pierdute din impozitul pe profit. La acestea se adaugă scutirea de impozit pe venit, CAS și CASS pentru salariat, deci bani mai puțini și la bugetul de pensii publice. Beneficiul ajunge doar la angajații firmelor plătitoare de impozit pe profit și depinde de existența unor scheme ocupaționale, care în România sunt încă foarte puține.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art.I pct.1 (art.25 alin.(4) lit.i) Cod fiscal): contribuțiile la pensii ocupaționale de până la 500 lei/angajat/lună se scad din impozitul pe profit, în plafonul comun cu sponsorizarea/mecenatul. Noul pct.3 limitează partea de pensii la 50% din plafonul rezultat, deci sponsorizarea își păstrează jumătate.",
+        "Lipsește impactul bugetar. Expunerea de motive spune că nu se reduc veniturile, pentru că facilitatea există deja. Afirmația e falsă pentru orice firmă care nu își epuizează acum plafonul de sponsorizare. Scutirea de CAS (art.I pct.3) reduce în plus veniturile bugetului asigurărilor sociale, iar fișa financiară și calculele lipsesc.",
+        "Mecanismul există doar în art.25, adică pentru plătitorii de impozit pe profit. Microîntreprinderile, majoritatea IMM-urilor, au un regim separat de sponsorizare, pe care proiectul nu îl modifică. La fel instituțiile publice și angajatorii persoane fizice. Angajații lor nu pot primi contribuția în condiții avantajoase.",
+        "Art.I pct.2 cere introducerea unei „lit.x)” după „lit.y)”. Ordinea alfabetică e imposibilă și există riscul suprapunerii peste o literă deja existentă în art.76 alin.(4). Art.I pct.3 introduce pct.6 la art.142 lit.s), dar pct.6 există deja, cu mențiunea „Abrogat”. Ambele contravin normelor de tehnică legislativă.",
+        "Scutirea pentru salariat (art.76 și art.142) trimite la „contribuțiile prevăzute la art.25 alin.(4) lit.i)”. Nu reiese clar dacă se aplică întregii contribuții de până la 500 lei sau doar părții care încape în plafonul de credit fiscal al firmei.",
+        "Art.II alin.(2) vorbește despre „procedura prin care contribuabilii distribuie sumele” și despre un „mecanism de repartizare din impozitul pe profit”. Formularea sugerează o redirecționare, de tipul formularului de sponsorizare, nu un simplu credit fiscal. Natura juridică a mecanismului ajunge să fie stabilită prin ordin MF.",
+        "Senatul a adoptat proiectul tacit (art.75 alin.(2) teza a III-a din Constituție), fără dezbatere și fără amendamente. Camera Deputaților este prima și singura cameră care dezbate efectiv textul."
+      ],
+      "blindSpotsCaught": "Plafonul de credit se calculează la nivel de firmă, nu pe angajat. O firmă cu marjă mică de profit poate plăti 500 lei pe lună pentru fiecare angajat, dar să recupereze din impozit doar o mică parte. Rămâne neclar dacă excedentul mai e neimpozabil pentru salariat. Punctul 2 din lit.i) înglobează acum fraza despre Registrul entităților/unităților de cult, care în textul în vigoare era o frază separată, aplicabilă întregii litere. Mutarea poate crea dispute interpretative. Trebuie verificată și interacțiunea cu regimul existent al contribuțiilor la pensii facultative/ocupaționale din art.25 alin.(3) și art.76, plafonat în euro pe an (textele furnizate sunt trunchiate): există riscul unor dubluri sau al unor regimuri paralele pentru același tip de plată. Plafonul de 500 lei nu este indexat.",
+      "constitutionalityNote": "Fondul nu ridică probleme: facilitatea este voluntară și nu restrânge drepturi. Principalul risc ține de art.138 alin.(5) din Constituție și de art.15 din Legea nr.500/2002, care cer sursă de finanțare și fișă financiară pentru măsurile care reduc veniturile bugetare. CCR a sancționat în mod repetat legi adoptate fără aceste elemente sau fără punctul de vedere al Guvernului (art.111). Erorile de numerotare și trimiterea ambiguă la plafon afectează claritatea și previzibilitatea normei (art.1 alin.(5)). Diferența de tratament dintre angajații firmelor cu impozit pe profit și cei ai microîntreprinderilor poate fi contestată prin prisma art.16, deși legiuitorul are o marjă largă de apreciere în politica fiscală.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. TRIS 2015/1535 nu se aplică, pentru că nu sunt vizate servicii digitale sau reguli tehnice. Directiva IORP 2016/2341, invocată de inițiatori, privește supravegherea și protecția membrilor, nu stimulentele fiscale, așa că invocarea ei e mai degrabă decorativă. Riscul real: facilitatea vizează doar fondurile „potrivit Legii nr.1/2020”. Dacă exclude instituțiile de pensii ocupaționale din alte state membre care activează transfrontalier în România, poate încălca libera prestare a serviciilor și libera circulație a capitalurilor (art.56 și art.63 TFUE; CJUE, C-150/04 Comisia/Danemarca, C-522/04 Comisia/Belgia). Ca măsură fiscală generală, deschisă tuturor plătitorilor de impozit pe profit, riscul de ajutor de stat este redus.",
+      "senatForm": {
+        "articleRef": "Art.I pct.2 (art.76 alin.(4) Cod fiscal)",
+        "proposalContent": "La art.76 alin.(4), după ultima literă existentă se introduce o literă nouă: „contribuțiile la fonduri de pensii ocupaționale, potrivit Legii nr.1/2020, suportate de angajator pentru angajații proprii, în limita a 500 lei/angajat/lună, indiferent de regimul de impozitare al angajatorului;”",
+        "argumentation": "Textul introduce „lit.x) după lit.y)”, ordine imposibilă, și poate suprascrie o literă existentă. Trimiterea la art.25 alin.(4) lit.i) leagă scutirea salariatului de plafonul de credit al firmei și exclude angajații microîntreprinderilor și ai instituțiilor. Plafonul de 500 lei trebuie scris direct în normă.",
+        "otherComments": "Aceeași corectură la art.142 lit.s): pct.6 este abrogat și nu poate fi reutilizat. Solicităm fișa financiară (art.15 L.500/2002, art.111 și art.138 alin.(5) din Constituție), cu impactul asupra CAS, CASS și impozitului pe venit. Expunerea afirmă, fără niciun calcul, că măsura nu are cost bugetar."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -142,7 +173,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:42:55.615Z",
+      "replacedAt": "2026-11-24T15:09:58.947Z",
       "reasons": [
         "model"
       ]

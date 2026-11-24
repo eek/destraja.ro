@@ -2,7 +2,7 @@
   "billId": "Pl-x 303/2026",
   "slug": "plx-303-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:40:38.812Z",
+  "updatedAt": "2026-11-24T15:08:50.918Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "7189c7d1e2b8fdbc"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.3,
     "riskLevel": "yellow",
-    "plainTitle": "Case de marcat virtuale pe telefon: idee utilă, dar text scris cu contradicții care o pot bloca",
-    "summaryTlDr": "Intenția este pozitivă și opțională (reducerea costurilor cu hardware-ul fiscal pentru firme), însă redactarea neglijentă încadrează aplicațiile virtuale exact în categoria vechilor case cu rolă de hârtie interzise din 2018 și lasă regulile esențiale la discreția ANAF.",
-    "initiatorClaim": "Inițiatorii susțin că proiectul modernizează fiscalizarea și reduce costurile firmelor prin introducerea opțională a casei de marcat virtuale (AMEF-V) pe telefon, tabletă sau POS, aliniind România la practicile europene și la jaloanele PNRR.",
-    "realityCheck": "În prezent, OUG 28/1999 obligă operatorii să folosească aparate fizice cu jurnal electronic (art. 3 alin. 2), livrate doar prin distribuitori autorizați; proiectul adaugă opțiunea AMEF-V cu bon exclusiv electronic și cod generat în timp real de ANAF, protejând drepturile de proprietate intelectuală ale dezvoltatorilor (art. 1 alin. 1³). În practică însă, textul introduce AMEF-V în art. 3 alin. (1) — definiția aparatelor fizice vechi, cu modul fiscal, imprimantă și rolă-jurnal — fără a armoniza obligațiile de distribuție, sigilare, avarie offline sau sancțiunile din restul ordonanței, și transferă spre OPANAF elemente care generează contravenții.",
+    "plainTitle": "Casa de marcat poate fi și o aplicație pe telefon, tabletă sau POS",
+    "summaryTlDr": "Este o măsură utilă și opțională de digitalizare, care nu impune nicio obligație nouă comercianților. Redactarea este însă grăbită: aplicația virtuală e inclusă într-o definiție care cere hardware, iar tot restul regimului (distribuitori, sigilii, memorie fiscală, defecțiuni) rămâne neadaptat.",
+    "initiatorClaim": "Inițiatorii vor ca firmele să poată folosi o casă de marcat exclusiv software (AMEF-V), certificată de ANAF, cu bon electronic și transmitere în timp real. Scopul declarat este reducerea costurilor cu aparatele fizice și a evaziunii, după modelele din Austria, Germania, Franța și Italia.",
+    "realityCheck": "Legea adaugă o variantă facultativă: obligația de a folosi aparat de marcat se consideră îndeplinită și prin AMEF-V (art. 1 alin. (1^1)–(1^3)). Aplicația emite bon numai electronic, cu cod de validare generat de ANAF, și apare într-un registru național ținut de ANAF. Aproape tot conținutul practic e lăsat pe seama ordinelor președintelui ANAF: criterii de certificare, conectare, conținutul bonului, funcționarea offline. Modificarea art. 3 alin. (1) introduce caseta virtuală într-o definiție care cere în continuare înglobarea constructivă a modulului fiscal, a imprimantei și a afișajului, ceea ce un software nu poate îndeplini.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "IT & AI",
@@ -44,10 +44,10 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 3 (art. 3 alin. 1 din OUG 28/1999)",
-      "proposalContent": "Eliminarea includerii AMEF-V din art. 3 alin. (1) și introducerea unui alineat distinct, art. 3 alin. (2^4), care să definească AMEF-V fără cerința modulului fiscal hardware, a memoriei fiscale fizice, a sigiliului, a imprimantei și a rolei-jurnal, cu exceptarea expresă de la art. 10 lit. s), aa) și cc) și reglementarea unui regim de avarie offline.",
-      "argumentation": "Art. 3 alin. (1) vizează vechile case cu rolă-jurnal, interzise la vânzare din 2018 (art. 10 lit. aa), și impune modul fiscal și imprimantă fizică. Includerea AMEF-V aici creează o contradicție ce blochează legea și expune firmele la amenzi (art. 10 lit. cc). Fără procedură offline, orice avarie ANAF sau lipsă de internet oprește emiterea bonurilor.",
-      "otherComments": "Stabiliți direct în lege criteriile de certificare AMEF-V și elementele bonului electronic (art. 4 alin. 2^2), pentru a nu defini contravenții din art. 10 lit. f) prin OPANAF. Permiteți opțional tipărirea bonului la cererea clienților care plătesc numerar și respectați notificarea UE (Directiva TRIS 2015/1535), adaptând termenul de 60 de zile din Art. II."
+      "articleRef": "Art. I pct. 3 (art. 3 alin. (1^1) nou)",
+      "proposalContent": "Se introduce art. 3 alin. (1^1): „Prin excepție de la alin. (1)-(6) și art. 1 alin. (3)-(8^1), AMEF-V nu înglobează modul fiscal, memorie fiscală, imprimantă sau sigiliu; funcțiile esențiale, lucrul offline și emiterea bonului când sistemul ANAF e indisponibil se stabilesc prin ordin ANAF.” Se elimină din alin. (1) referirea la casele virtuale.",
+      "argumentation": "Forma propusă include AMEF-V în definiția care cere înglobarea constructivă a modulului fiscal, imprimantei și afișajului, condiții imposibile pentru un software. Fără o excepție expresă, utilizatorii riscă sancțiuni (art. 10 lit. e) și cerințe inaplicabile (distribuitor autorizat, sigiliu), iar lipsa unui regim offline poate bloca vânzările.",
+      "otherComments": "Bonul exclusiv electronic exclude clienții fără telefon sau e-mail: propun bon tipărit sau afișat la cerere. Colectarea e-mailului să fie opțională (GDPR). Specificațiile tehnice AMEF-V să fie notificate prin TRIS (2015/1535). Termenul de 60 de zile e nerealist; e nevoie de o dată clară de aplicare și de procedură de certificare în lege."
     }
   },
   "council": {
@@ -89,8 +89,41 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 59273,
+      "sourceEndMarker": "SF-3612B68A",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Casa de marcat poate fi și o aplicație pe telefon, tabletă sau POS",
+      "verdictShort": "Este o măsură utilă și opțională de digitalizare, care nu impune nicio obligație nouă comercianților. Redactarea este însă grăbită: aplicația virtuală e inclusă într-o definiție care cere hardware, iar tot restul regimului (distribuitori, sigilii, memorie fiscală, defecțiuni) rămâne neadaptat.",
+      "initiatorClaim": "Inițiatorii vor ca firmele să poată folosi o casă de marcat exclusiv software (AMEF-V), certificată de ANAF, cu bon electronic și transmitere în timp real. Scopul declarat este reducerea costurilor cu aparatele fizice și a evaziunii, după modelele din Austria, Germania, Franța și Italia.",
+      "realityCheck": "Legea adaugă o variantă facultativă: obligația de a folosi aparat de marcat se consideră îndeplinită și prin AMEF-V (art. 1 alin. (1^1)–(1^3)). Aplicația emite bon numai electronic, cu cod de validare generat de ANAF, și apare într-un registru național ținut de ANAF. Aproape tot conținutul practic e lăsat pe seama ordinelor președintelui ANAF: criterii de certificare, conectare, conținutul bonului, funcționarea offline. Modificarea art. 3 alin. (1) introduce caseta virtuală într-o definiție care cere în continuare înglobarea constructivă a modulului fiscal, a imprimantei și a afișajului, ceea ce un software nu poate îndeplini.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 (art. 1 alin. (1^1)): AMEF-V este o opțiune, nu o obligație. Cine păstrează casa de marcat fizică nu este afectat, deci măsura nu creează sarcini noi pentru IMM-uri.",
+        "Art. I pct. 3 (art. 3 alin. (1)): definiția nouă enumeră casele virtuale printre aparatele care trebuie să «înglobeze constructiv un modul fiscal», memoria fiscală, dispozitivul de imprimare și afișajul client. Rezultă o contradicție directă cu art. 1 alin. (1^2), unde AMEF-V e o aplicație pe un dispozitiv oarecare. Fraza mai adaugă confuz și «sistemele automatizate de vânzare».",
+        "Proiectul nu adaptează restul OUG 28/1999 pentru AMEF-V: livrarea prin distribuitori autorizați și service (art. 1 alin. (3)–(8^1)), funcțiile esențiale din art. 3 alin. (3), memoria fiscală ca dispozitiv unic inscriptibil (art. 3 alin. (4)), sigilarea (art. 3 alin. (6)) și arhivarea memoriei fiscale (art. 4 alin. (9)). Rămâne neclar dacă utilizatorul AMEF-V poate fi sancționat, de exemplu pe art. 10 lit. e (dotare doar de la distribuitori autorizați).",
+        "Art. 1 alin. (1^2) lit. c): bonul are nevoie de un cod unic generat de sistemul ANAF în timp real. Legea nu spune ce se întâmplă când internetul sau serverele ANAF sunt căzute. Registrul special din art. 1 alin. (8) acoperă doar «defectarea aparatelor».",
+        "Art. I pct. 2 (art. 1 alin. (2)): bonul AMEF-V se transmite «prin cod QR, aplicație mobilă, e-mail». Textul păstrează însă obligația de a-l «înmâna» și nu spune nimic despre clienții fără telefon sau e-mail. Nu e clar nici cum se aplică dreptul clientului de a nu plăti dacă nu primește bonul (art. 1 alin. (10^1)).",
+        "Art. 4 alin. (1), la care trimite noul alin. (2^2), cere pe bon «adresa de la locul de instalare» și «seria fiscală a aparatului». Pentru o aplicație de pe un telefon mobil nu se precizează ce înseamnă aceste elemente.",
+        "Art. I pct. 6 extinde contravenția de la art. 10 lit. f) la bonurile AMEF-V incomplete. Este o extindere firească, iar amenzile din art. 11 rămân nemodificate.",
+        "Art. II: ANAF are 60 de zile pentru ordine. Legea însă nu stabilește o dată de la care opțiunea devine efectiv utilizabilă și nici o procedură sau taxă de certificare pentru dezvoltatori."
+      ],
+      "blindSpotsCaught": "Competența e împărțită fără coordonare: mijloacele digitale de transmitere a bonului le «autorizează Ministerul Finanțelor» (art. 1 alin. (2)), dar conținutul și procedura bonului le stabilește ANAF prin ordin (art. 4 alin. (2^2)). Certificarea pe care se sprijină tot mecanismul nu are un temei procedural explicit. Ordinul din art. 3^2 alin. (2) reglementează doar registrul și conectarea, nu și criteriile de certificare, retragerea ei sau căile de contestare. Clauza despre proprietatea intelectuală (alin. (1^3)) are efect mai mult declarativ. În plus, art. 3^2 este introdus fără să i se dea denumire marginală, în timp ce registrul existent al distribuitorilor (art. 3 alin. (7)) ține de Ministerul Finanțelor.",
+      "constitutionalityNote": "Nu atinge drepturi fundamentale și nu creează obligații noi, deci nu ridică probleme constituționale de fond. Riscul ține de art. 1 alin. (5), adică de claritatea și previzibilitatea normei. Contradicția dintre art. 1 alin. (1^2) și noul art. 3 alin. (1), plus regimul hardware lăsat neadaptat, fac norma greu de aplicat și pot duce la sancțiuni imprevizibile. Delegarea largă către ordine ANAF este admisibilă pentru detalii tehnice (art. 108 se referă la Guvern, dar ordinele de executare a legii sunt acceptate). Condiția este ca elementele esențiale (certificarea și regimul offline) să fie fixate în lege. Expunerea de motive indică costuri de 2–4 mil. lei pentru ANAF, deci se aplică art. 111 alin. (1) (informarea Guvernului) și art. 138 alin. (5) privind sursa de finanțare. Afirmația că sumele se acoperă din bugetul ANAF trebuie confirmată de Guvern.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate) nu se aplică, fiindcă proiectul nu reglementează o profesie. Directiva TRIS 2015/1535 este relevantă: cerințele tehnice și de certificare pentru software-ul de fiscalizare sunt reglementări tehnice, iar alte state, ca Germania și Polonia, și-au notificat sistemele similare. Specificațiile care vor fi stabilite prin ordin ANAF ar trebui notificate Comisiei înainte de adoptare, altfel riscă să fie inopozabile. Pentru piața unică, este de dorit ca dezvoltatorii din alte state membre să aibă acces nediscriminatoriu la certificare. Sub GDPR, colectarea e-mailului sau a numărului de telefon pentru bonul electronic trebuie să fie opțională și limitată la scop. Pe fiscalitate, măsura se încadrează în art. 273 din Directiva TVA 2006/112/CE.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 (art. 3 alin. (1^1) nou)",
+        "proposalContent": "Se introduce art. 3 alin. (1^1): „Prin excepție de la alin. (1)-(6) și art. 1 alin. (3)-(8^1), AMEF-V nu înglobează modul fiscal, memorie fiscală, imprimantă sau sigiliu; funcțiile esențiale, lucrul offline și emiterea bonului când sistemul ANAF e indisponibil se stabilesc prin ordin ANAF.” Se elimină din alin. (1) referirea la casele virtuale.",
+        "argumentation": "Forma propusă include AMEF-V în definiția care cere înglobarea constructivă a modulului fiscal, imprimantei și afișajului, condiții imposibile pentru un software. Fără o excepție expresă, utilizatorii riscă sancțiuni (art. 10 lit. e) și cerințe inaplicabile (distribuitor autorizat, sigiliu), iar lipsa unui regim offline poate bloca vânzările.",
+        "otherComments": "Bonul exclusiv electronic exclude clienții fără telefon sau e-mail: propun bon tipărit sau afișat la cerere. Colectarea e-mailului să fie opțională (GDPR). Specificațiile tehnice AMEF-V să fie notificate prin TRIS (2015/1535). Termenul de 60 de zile e nerealist; e nevoie de o dată clară de aplicare și de procedură de certificare în lege."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -148,7 +181,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:40:38.812Z",
+      "replacedAt": "2026-11-24T15:08:50.918Z",
       "reasons": [
         "model"
       ]

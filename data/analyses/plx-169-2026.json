@@ -2,7 +2,7 @@
   "billId": "Pl-x 169/2026",
   "slug": "plx-169-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T13:44:23.472Z",
+  "updatedAt": "2026-11-24T15:10:48.735Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,21 +31,21 @@
     "key": "936e3cd953d75017"
   },
   "consensus": {
-    "riskScore": 5.5,
+    "riskScore": 5,
     "riskLevel": "yellow",
-    "plainTitle": "Limitarea primarilor la cel mult două mandate pe viață, fără reguli de aplicare",
-    "summaryTlDr": "Deși scopul de a preveni perpetuarea la putere în administrația locală este legitim, proiectul este redactat extrem de sumar și defectuos. Lipsa normelor tranzitorii, necorelarea cu legea electorală și interdicția absolută pe viață creează riscuri majore de neconstituționalitate și blocaje la validarea candidaturilor.",
-    "initiatorClaim": "Inițiatorii susțin că limitarea mandatelor primarilor va opri monopolizarea puterii locale, va preveni corupția și abuzul în serviciu și va aduce administrații mai performante, invocând modelul mandatului Președintelui României și practici din Italia, Portugalia și Polonia.",
-    "realityCheck": "În prezent, art. 151 din OUG nr. 57/2019 stabilește doar durata de 4 ani a mandatului, recunoașterea ca vechime și prelungirea până la depunerea jurământului, fără vreo limită de mandate. Proiectul adaugă un singur alineat cu o greșeală gramaticală („nu poate aveam mai mult de 2 mandate (consecutive sau nu)”), fără să spună dacă se numără mandatele deja exercitate, cum se tratează mandatele parțiale sau dacă interdicția se aplică doar în aceeași localitate ori la nivel național.",
+    "plainTitle": "Primarii ar putea avea cel mult două mandate",
+    "summaryTlDr": "Ideea limitării mandatelor e legitimă și nu costă bani, dar textul are o singură frază, cu o greșeală de scriere, și lasă fără răspuns întrebările esențiale. Nu spune dacă se numără mandatele deja făcute, cele parțiale sau cele din alte localități, așa că disputele ar ajunge la birourile electorale, în instanțe și la CCR.",
+    "initiatorClaim": "Inițiatorii vor să oprească perpetuarea acelorași primari timp de 20-28 de ani, pe care o asociază cu corupția, abuzul în serviciu și stagnarea localităților. Invocă modelul mandatului prezidențial și legislația din Italia, Portugalia și Polonia.",
+    "realityCheck": "Proiectul adaugă un singur alineat la art. 151 din Codul administrativ: „Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu)”. Nu are dispoziții tranzitorii și nu se corelează cu Legea nr. 115/2015 privind alegerile locale, unde sunt stabilite condițiile de candidatură. Nu e clar dacă primarii aflați acum în al doilea sau al cincilea mandat mai pot candida, dacă un mandat câștigat la alegeri parțiale contează ca mandat întreg și dacă limita privește aceeași localitate sau orice localitate.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic - art. 151 alin. (4) din OUG 57/2019",
-      "proposalContent": "Propun modificarea alin. (4): „(4) O persoană nu poate exercita mai mult de două mandate consecutive de primar al aceleiași unități administrativ-teritoriale.” și introducerea unui art. II tranzitoriu care să prevadă expres aplicarea doar mandatelor obținute după intrarea în vigoare a legii, definind și regimul mandatelor parțiale.",
-      "argumentation": "Forma actuală are o eroare gramaticală („aveam”), omite norme tranzitorii (risc de retroactivitate, art. 15 alin. 2 Constituție) și nu clarifică mandatele parțiale sau candidatura în alt UAT (art. 1 alin. 5). Interdicția pe viață („consecutive sau nu”) poate fi disproporționată față de art. 37 și 53 din Constituție, depășind practica UE invocată.",
-      "otherComments": "Pentru a fi aplicabilă la alegeri, măsura necesită modificarea corelativă a Legii nr. 115/2015 (verificarea eligibilității de către birourile electorale și dovada mandatelor anterioare), precum și evaluarea extinderii unitare la președinții de consilii județene, pentru respectarea principiului egalității (art. 16 Constituție)."
+      "articleRef": "Art. unic – art. 151 alin. (4) Cod administrativ",
+      "proposalContent": "(4) O persoană poate deține cel mult două mandate de primar, consecutive sau nu, în aceeași unitate administrativ-teritorială. La calcul se iau în considerare numai mandatele obținute la alegeri organizate după intrarea în vigoare a legii; mandatul obținut la alegeri parțiale se ia în calcul dacă a fost exercitat peste 2 ani.",
+      "argumentation": "Textul actual are o greșeală („aveam”) și nu spune dacă se numără mandatele dinainte de lege, cele parțiale sau cele din alte localități. Fără aceste precizări, birourile electorale și instanțele vor decide diferit, iar aplicarea pe trecut poate fi atacată la CCR pentru încălcarea art. 15 alin. (2) și a previzibilității legii (art. 1 alin. 5).",
+      "otherComments": "Condiția trebuie introdusă și în Legea nr. 115/2015, la persoanele care nu pot candida, altfel birourile electorale nu au temei clar să respingă candidaturi. Se recomandă ca legea să intre în vigoare cu cel puțin un an înainte de alegerile locale, pentru stabilitatea regulilor electorale."
     }
   },
   "council": {
@@ -84,8 +84,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 47015,
+      "sourceEndMarker": "SF-CF7A869B",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Primarii ar putea avea cel mult două mandate",
+      "verdictShort": "Ideea limitării mandatelor e legitimă și nu costă bani, dar textul are o singură frază, cu o greșeală de scriere, și lasă fără răspuns întrebările esențiale. Nu spune dacă se numără mandatele deja făcute, cele parțiale sau cele din alte localități, așa că disputele ar ajunge la birourile electorale, în instanțe și la CCR.",
+      "initiatorClaim": "Inițiatorii vor să oprească perpetuarea acelorași primari timp de 20-28 de ani, pe care o asociază cu corupția, abuzul în serviciu și stagnarea localităților. Invocă modelul mandatului prezidențial și legislația din Italia, Portugalia și Polonia.",
+      "realityCheck": "Proiectul adaugă un singur alineat la art. 151 din Codul administrativ: „Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu)”. Nu are dispoziții tranzitorii și nu se corelează cu Legea nr. 115/2015 privind alegerile locale, unde sunt stabilite condițiile de candidatură. Nu e clar dacă primarii aflați acum în al doilea sau al cincilea mandat mai pot candida, dacă un mandat câștigat la alegeri parțiale contează ca mandat întreg și dacă limita privește aceeași localitate sau orice localitate.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. unic introduce art. 151 alin. (4) în OUG 57/2019. Azi legea prevede doar durata mandatului (4 ani), vechimea și prelungirea în caz de război sau catastrofă. Nu există nicio limită a numărului de mandate.",
+        "Textul nu are dispoziții tranzitorii. Nu se știe dacă mandatele exercitate înainte de intrarea în vigoare se iau în calcul. Dacă se iau, aproape toți primarii cu vechime ar deveni imediat neeligibili, iar CCR ar putea fi sesizată pe art. 15 alin. (2), neretroactivitatea.",
+        "Noțiunea de „mandat” e nedefinită. Nu e clar ce se întâmplă cu mandatul obținut la alegeri parțiale, cu cel încetat înainte de termen sau cu cel prelungit conform art. 151 alin. (3). De asemenea, nu e clar dacă limita se aplică pe persoană sau pe unitatea administrativ-teritorială.",
+        "Condiția de eligibilitate apare doar în Codul administrativ, nu și în Legea nr. 115/2015. Birourile electorale, care verifică candidaturile după legea electorală, ar avea un temei incert ca să respingă un candidat.",
+        "Redactarea e neglijentă („aveam” în loc de „avea”, cifra „2” în locul cuvântului „două”, paranteza explicativă), ceea ce contravine Legii nr. 24/2000 privind tehnica legislativă. Limita nu se extinde nici la președinții consiliilor județene, deși argumentele din expunerea de motive li s-ar aplica la fel."
+      ],
+      "blindSpotsCaught": "Principala problemă e lipsa regulii de calcul. Fără o prevedere că se numără doar mandatele obținute după intrarea în vigoare, aplicarea depinde de interpretarea fiecărui birou electoral, iar candidați aflați în aceeași situație pot fi tratați diferit în județe diferite. Proiectul ignoră și recomandarea Comisiei de la Veneția (Codul bunelor practici în materie electorală) ca elementele fundamentale ale regulilor electorale să nu fie modificate cu mai puțin de un an înainte de alegeri. Expunerea de motive invocă greșit art. 73 alin. (3) lit. o) din Constituție ca temei al dreptului de inițiativă al Camerei. Acel text privește doar caracterul organic al legii.",
+      "constitutionalityNote": "Limitarea numărului de mandate nu e interzisă de Constituție. Art. 16 alin. (3) și art. 37 permit legiuitorului să stabilească condiții pentru accesul la funcții elective, cu condiția ca acestea să fie proporționale și nediscriminatorii. Faptul că art. 81 alin. (4) limitează expres doar mandatele Președintelui nu exclude o limită stabilită prin lege pentru primari, dar o restrângere a dreptului de a fi ales trebuie să respecte art. 53. Legea e organică, conform art. 73 alin. (3) lit. a) și o). Riscurile reale țin de calitatea legii: textul nu e suficient de clar și previzibil (art. 1 alin. (5)), iar lipsa unei reguli tranzitorii poate duce la o aplicare percepută ca retroactivă (art. 15 alin. (2)). Retroactivitatea e discutabilă, pentru că eligibilitatea privește alegeri viitoare, dar ambiguitatea mărește șansa unei sesizări admise sau a unor interpretări contradictorii.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece proiectul nu reglementează profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică, deoarece nu e vorba de servicii digitale sau reglementări tehnice. Proiectul nu afectează piața unică sau concurența. Singura legătură cu dreptul UE e Directiva 94/80/CE privind dreptul cetățenilor UE de a candida la alegerile locale: limita se aplică la fel cetățenilor români și celor din alte state membre, deci nu apare o discriminare. Măsura nu are impact bugetar și nu creează sarcini pentru cetățeni sau IMM-uri.",
+      "senatForm": {
+        "articleRef": "Art. unic – art. 151 alin. (4) Cod administrativ",
+        "proposalContent": "(4) O persoană poate deține cel mult două mandate de primar, consecutive sau nu, în aceeași unitate administrativ-teritorială. La calcul se iau în considerare numai mandatele obținute la alegeri organizate după intrarea în vigoare a legii; mandatul obținut la alegeri parțiale se ia în calcul dacă a fost exercitat peste 2 ani.",
+        "argumentation": "Textul actual are o greșeală („aveam”) și nu spune dacă se numără mandatele dinainte de lege, cele parțiale sau cele din alte localități. Fără aceste precizări, birourile electorale și instanțele vor decide diferit, iar aplicarea pe trecut poate fi atacată la CCR pentru încălcarea art. 15 alin. (2) și a previzibilității legii (art. 1 alin. 5).",
+        "otherComments": "Condiția trebuie introdusă și în Legea nr. 115/2015, la persoanele care nu pot candida, altfel birourile electorale nu au temei clar să respingă candidaturi. Se recomandă ca legea să intre în vigoare cu cel puțin un an înainte de alegerile locale, pentru stabilitatea regulilor electorale."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -137,7 +165,7 @@
         "codex": 7
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T13:44:23.472Z",
+      "replacedAt": "2026-11-24T15:10:48.735Z",
       "reasons": [
         "model"
       ]

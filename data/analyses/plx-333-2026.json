@@ -2,7 +2,7 @@
   "billId": "Pl-x 333/2026",
   "slug": "plx-333-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T14:21:53.014Z",
+  "updatedAt": "2026-11-24T15:11:52.295Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,21 +31,21 @@
     "key": "01b53a7ffded1f24"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Card reutilizabil sau bani direct în cont pentru donatorii de sânge",
-    "summaryTlDr": "Ideea de a reutiliza același card valoric pentru a opri risipa de plastic și bani publici este foarte bună, dar opțiunea de a vira suma direct în contul bancar al donatorului riscă să încalce regulile europene privind donarea neremunerată și lasă în aer aspecte fiscale, IT și de aplicare.",
-    "initiatorClaim": "Inițiatorii vor să elimine risipa de bani publici și de plastic generată de emiterea unui card valoric nou după fiecare donare de sânge, oferind donatorilor alegerea între un card reutilizabil și virarea banilor direct în contul bancar.",
-    "realityCheck": "Articolul nou (Art. 7¹) instituie cele două opțiuni într-o formulare foarte sumară, fără a modifica regimul fiscal sau definirea alocației de hrană. Transferul direct de bani în cont poate transforma un tichet de hrană într-o plată monetară liberă, iar lipsa normelor tranzitorii și decalajul de 60 de zile până la ordinul ministerial vor bloca aplicarea imediată în centrele de transfuzie.",
+    "plainTitle": "Donatorii de sânge primesc tichetele pe același card sau direct în cont, nu pe un card nou la fiecare donare",
+    "summaryTlDr": "Este o lege administrativă mică și utilă, care reduce risipa de carduri și dă donatorului o opțiune în plus. Singura problemă reală este redactarea: alin. (3) lasă neclar cine alege modalitatea de plată, donatorul sau administrația.",
+    "initiatorClaim": "Inițiatorii spun că emiterea unui card valoric nou la fiecare donare, inclusiv pentru donatorii recurenți, produce costuri administrative și deșeuri inutile. Ei propun reîncărcarea aceluiași card sau virarea sumei în contul bancar al donatorului.",
+    "realityCheck": "Proiectul introduce un singur articol nou (art. 7¹). Acesta stabilește două modalități de acordare a beneficiului material deja existent: un card reutilizabil emis o singură dată sau virarea în cont, la cererea donatorului. Cuantumul nu se schimbă. Totuși, alin. (3) spune că modalitatea „se stabilește” după criterii de eficiență economică, ceea ce ar putea fi folosit de administrație ca să impună o variantă, deși lit. b) leagă virarea de solicitarea donatorului. Detaliile practice (termene, carduri pierdute, colectarea IBAN) sunt lăsate integral normelor Ministerului Sănătății.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Articolul unic, pct. 1 (Art. 7^1)",
-      "proposalContent": "Art. 7^1: (1) Alocația de hrană acordată donatorilor de sânge se încarcă pe un card valoric reutilizabil, emis o singură dată per donator, destinat produselor alimentare. (2) Un nou card se emite doar dacă donatorul nu are card activ sau cere motivat înlocuirea. Se elimină alin. (1) lit. b) privind virarea directă în contul bancar.",
-      "argumentation": "Cardul reutilizabil rezolvă eficient risipa de plastic și costurile de emitere. Însă virarea sumei în contul bancar riscă să încalce principiul european al donării voluntare și neremunerate (Regulamentul UE 2024/1938, Directiva 2002/98/CE), transformând alocația de hrană în plată monetară. Lipsesc corelarea fiscală și garanțiile GDPR.",
-      "otherComments": "Corelați data intrării în vigoare cu termenul normelor metodologice (acum legea intră în vigoare la 30 de zile, dar ordinul de aplicare are termen încă 60 de zile după aceea) și introduceți o normă tranzitorie pentru contractele în curs ale centrelor de transfuzie cu emitenții de carduri."
+      "articleRef": "Art. 7¹ alin. (3) din Legea nr. 282/2005",
+      "proposalContent": "(3) Modalitatea de acordare a beneficiului material se alege de donator, prin opțiune scrisă, revocabilă oricând. În lipsa opțiunii, beneficiul se acordă potrivit alin. (1) lit. a). Virarea în cont nu poate fi condiționată decât de comunicarea IBAN-ului, iar datele bancare se prelucrează exclusiv în acest scop.",
+      "argumentation": "Alin. (3) lasă neclar cine alege modalitatea: donatorul (lit. b „la solicitarea acestuia”) sau administrația, pe criterii de „eficiență economică”. Ambiguitatea contravine art. 1 alin. (5) din Constituție și ar permite refuzul virării în cont. Clarificarea garantează opțiunea promisă în expunerea de motive.",
+      "otherComments": "Normele de la alin. (4) ar trebui să fixeze termenul de încărcare sau virare după donare, regimul cardurilor pierdute și corelarea cu Legea nr. 165/2018 privind biletele de valoare. Suma trebuie să rămână o compensație, nu o remunerație, conform principiului UE al donării neremunerate."
     }
   },
   "council": {
@@ -84,8 +84,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 40500,
+      "sourceEndMarker": "SF-6D7B5D5B",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Donatorii de sânge primesc tichetele pe același card sau direct în cont, nu pe un card nou la fiecare donare",
+      "verdictShort": "Este o lege administrativă mică și utilă, care reduce risipa de carduri și dă donatorului o opțiune în plus. Singura problemă reală este redactarea: alin. (3) lasă neclar cine alege modalitatea de plată, donatorul sau administrația.",
+      "initiatorClaim": "Inițiatorii spun că emiterea unui card valoric nou la fiecare donare, inclusiv pentru donatorii recurenți, produce costuri administrative și deșeuri inutile. Ei propun reîncărcarea aceluiași card sau virarea sumei în contul bancar al donatorului.",
+      "realityCheck": "Proiectul introduce un singur articol nou (art. 7¹). Acesta stabilește două modalități de acordare a beneficiului material deja existent: un card reutilizabil emis o singură dată sau virarea în cont, la cererea donatorului. Cuantumul nu se schimbă. Totuși, alin. (3) spune că modalitatea „se stabilește” după criterii de eficiență economică, ceea ce ar putea fi folosit de administrație ca să impună o variantă, deși lit. b) leagă virarea de solicitarea donatorului. Detaliile practice (termene, carduri pierdute, colectarea IBAN) sunt lăsate integral normelor Ministerului Sănătății.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 7¹ alin. (1): beneficiul material se acordă fie prin încărcarea unui card valoric reutilizabil, emis o singură dată per donator (lit. a), fie prin virare în contul bancar personal, la solicitarea donatorului (lit. b). Cuantumul beneficiului nu este modificat.",
+        "Art. 7¹ alin. (2): un card nou se emite doar dacă donatorul nu are unul activ sau cere expres înlocuirea. Această regulă elimină emiterea repetată criticată în expunerea de motive.",
+        "Art. 7¹ alin. (3) creează ambiguitate. Modalitatea „se stabilește” după principii de eficiență economică, fără să se spună cine decide. Riscul este ca autoritatea să poată refuza virarea în cont invocând costuri, deși lit. b) sugerează un drept de opțiune al donatorului.",
+        "Art. 7¹ alin. (4): normele metodologice se aprobă prin ordin al ministrului sănătății în 60 de zile, iar legea intră în vigoare la 30 de zile de la publicare. Există deci o fereastră în care legea e în vigoare, dar nu poate fi aplicată concret.",
+        "Impactul bugetar este neutru sau pozitiv, fiindcă scad costurile de emitere a cardurilor. Pentru cetățeni și IMM-uri nu apar obligații, taxe sau sancțiuni noi."
+      ],
+      "blindSpotsCaught": "Varianta de virare directă a banilor în cont transformă un beneficiu în natură (bani destinați alimentelor) într-o sumă de bani liberă. Asta apropie beneficiul de o remunerație, iar dreptul UE cere ca donarea să fie voluntară și neremunerată: Directiva 2002/98/CE, art. 20, și Regulamentul (UE) 2024/1938 privind substanțele de origine umană (SoHO), care admite doar o compensație neutră financiar. Cât timp suma rămâne o compensație modestă, riscul este mic, dar normele ar trebui să o încadreze explicit ca atare. Proiectul nu spune nici dacă suma virată are același regim fiscal ca tichetul și nu corelează cardul reutilizabil cu Legea nr. 165/2018 privind acordarea biletelor de valoare (emitenți autorizați, suport electronic). În plus, colectarea IBAN-ului înseamnă o nouă prelucrare de date personale (GDPR), fără o limitare a scopului în lege.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale de fond. Susține indirect dreptul la ocrotirea sănătății (art. 34) și nu creează cheltuieli bugetare noi, deci art. 138 alin. (5) nu este încălcat; măsura chiar reduce costuri. Singurul punct vulnerabil este claritatea normei (art. 1 alin. (5)): între alin. (1) lit. b), unde virarea se face „la solicitarea” donatorului, și alin. (3), unde modalitatea „se stabilește” după eficiență economică, nu reiese cine decide. Defectul se poate corecta ușor prin amendament. Delegarea normelor către ordinul ministrului este admisibilă, pentru că elementele esențiale sunt fixate în lege.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu este relevantă, fiindcă nu se introduc reguli privind serviciile societății informaționale sau produse tehnice. Nu există efecte asupra concurenței sau a pieței unice; emitenții de carduri valorice rămân cei autorizați conform legislației naționale. Punctul de atenție este principiul donării voluntare și neremunerate (Directiva 2002/98/CE, Regulamentul (UE) 2024/1938). Plata în bani trebuie să rămână o compensație limitată și neutră financiar, nu un stimulent financiar. Expunerea de motive afirmă compatibilitatea, dar textul nu o garantează explicit.",
+      "senatForm": {
+        "articleRef": "Art. 7¹ alin. (3) din Legea nr. 282/2005",
+        "proposalContent": "(3) Modalitatea de acordare a beneficiului material se alege de donator, prin opțiune scrisă, revocabilă oricând. În lipsa opțiunii, beneficiul se acordă potrivit alin. (1) lit. a). Virarea în cont nu poate fi condiționată decât de comunicarea IBAN-ului, iar datele bancare se prelucrează exclusiv în acest scop.",
+        "argumentation": "Alin. (3) lasă neclar cine alege modalitatea: donatorul (lit. b „la solicitarea acestuia”) sau administrația, pe criterii de „eficiență economică”. Ambiguitatea contravine art. 1 alin. (5) din Constituție și ar permite refuzul virării în cont. Clarificarea garantează opțiunea promisă în expunerea de motive.",
+        "otherComments": "Normele de la alin. (4) ar trebui să fixeze termenul de încărcare sau virare după donare, regimul cardurilor pierdute și corelarea cu Legea nr. 165/2018 privind biletele de valoare. Suma trebuie să rămână o compensație, nu o remunerație, conform principiului UE al donării neremunerate."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -136,7 +164,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T14:21:53.014Z",
+      "replacedAt": "2026-11-24T15:11:52.295Z",
       "reasons": [
         "model"
       ]

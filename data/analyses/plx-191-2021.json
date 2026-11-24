@@ -2,140 +2,180 @@
   "billId": "PL-x 191/2021",
   "slug": "plx-191-2021",
   "version": "senat",
-  "updatedAt": "2026-11-19T11:53:33.060Z",
+  "updatedAt": "2026-11-24T15:16:28.179Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 695,
     "ordinanceChars": 15965,
     "memoChars": 25610,
     "memoSupplied": 25610,
-    "marker": "SF-AE0735DE",
-    "form": "senat"
+    "marker": "SF-AE0735DE"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-191-2021.json",
+    "form": "senat",
+    "textHash": "ae0735de10037a11",
+    "fetchedAt": "2026-11-19T10:50:56.984Z",
+    "acts": 3,
+    "actsFound": 3,
+    "actsRepealed": 0,
+    "articlesFound": 6,
+    "articlesShown": 6,
+    "articleCap": 8000,
+    "articlesCut": 2,
+    "chars": 24977,
+    "truncated": false,
+    "included": true,
+    "key": "751b9d7623fc84ef"
   },
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 6.3,
     "riskLevel": "yellow",
-    "plainTitle": "Firmele din țări fără acord comercial cu UE (ex. China) nu mai pot participa la licitațiile publice din România",
-    "summaryTlDr": "Scopul este legitim și urmează orientarea Comisiei Europene din 2019: țările terțe fără acord de achiziții nu au drept garantat de acces. Problema este executarea: excludere automată, inclusiv a subcontractanților, o dispoziție tranzitorie care schimbă regulile în licitații deja lansate și o competență pe care CJUE a declarat-o ulterior exclusivă a UE.",
-    "initiatorClaim": "Guvernul spune că vrea să protejeze marile proiecte de infrastructură (circa 20 mld. euro în transporturi, PNRR, fonduri UE). Motivul invocat sunt ofertanții extracomunitari care oferă garanții reduse privind calitatea, mediul, condițiile de muncă și concurența loială.",
-    "realityCheck": "Legea redefinește «operatorul economic» în Legile 98, 99 și 100/2016. Pot participa doar firme stabilite în UE/SEE, în state GPA (numai pentru contractele acoperite), în țări în curs de aderare sau în state cu acorduri UE de acces. Restul sunt excluse automat, fără analiza motivelor de excludere, inclusiv ca subcontractant sau terț susținător. Criteriul este însă locul de stabilire al entității, nu controlul acesteia: o filială înregistrată în UE a unui grup din afara acordurilor trece testul, deci efectul anti-dumping real e limitat. Între timp, achizitorii pierd o parte din concurență, fără niciun calcul al impactului asupra prețurilor (Secțiunea 4 din expunere este goală).",
+    "plainTitle": "Firmele din afara UE, fără acord comercial cu Uniunea, scoase automat din licitațiile publice",
+    "summaryTlDr": "Legea aprobă o ordonanță în vigoare din aprilie 2021, care exclude automat de la licitații firmele din țări terțe fără acord de achiziții cu UE. Scopul declarat (calitate, concurență loială) este legitim, dar CJUE a stabilit ulterior (C-652/22 Kolin, 2024) că astfel de reguli generale țin de competența exclusivă a UE, iar firmele cu filială în UE pot ocoli ușor criteriul folosit.",
+    "initiatorClaim": "Guvernul spune că vrea să protejeze marile proiecte de infrastructură (circa 20 mld. euro în transporturi, din fonduri UE și PNRR) de ofertanți din afara UE care ar oferi garanții reduse privind calitatea, mediul, condițiile de muncă și concurența loială. Invocă transpunerea art. 25 din Directiva 2014/24/UE și art. 43 din Directiva 2014/25/UE.",
+    "realityCheck": "Ordonanța redefinește «operatorul economic» în Legile 98, 99 și 100/2016: pot participa doar firmele stabilite în UE/SEE, în state GPA (numai pentru contractele acoperite de anexe), în țări în proces de aderare sau în state cu acorduri UE de acces la achiziții. Toate celelalte sunt excluse automat, inclusiv ca subcontractant sau terț susținător, fără analiza motivelor de excludere. Criteriul este locul stabilirii, nu controlul, așa că o filială înființată în UE de o firmă din China rămâne eligibilă. Pe de altă parte, firme din state GPA (SUA, Japonia, Coreea) pot fi excluse de la contractele sub pragurile GPA, iar mai puțini ofertanți înseamnă, cel mai probabil, prețuri mai mari pentru bugetul public.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. V OUG 25/2021 – dispoziția tranzitorie",
-      "proposalContent": "Art. V. – Procedurile de atribuire inițiate înainte de data intrării în vigoare a prezentei ordonanțe de urgență, precum și contractele încheiate în urma acestora, se supun legislației în vigoare la data inițierii procedurii, indiferent dacă ofertele au fost sau nu depuse la acea dată.",
-      "argumentation": "Forma actuală schimbă regulile de participare în proceduri deja lansate, dar fără oferte depuse. Ofertanții care și-au pregătit oferta pe baza documentației publicate sunt excluși peste noapte. Textul contrazice chiar teza a doua a art. V și securitatea juridică (art. 1 alin. 5 din Constituție), generând contestații și blocaje, exact ce OUG voia să evite.",
-      "otherComments": "Recomandăm și: (1) adăugarea la pct. v) a mențiunii «în limita domeniului de aplicare al acordului», ca la pct. iii); (2) precizarea caracterului declarativ al listei din art. IV; (3) reanalizarea textului după Hotărârea CJUE C-652/22 Kolin (2024), privind competența exclusivă a UE în această materie."
+      "articleRef": "Art. I pct. 4 (art. 53 alin. 1^1 L. 98/2016)",
+      "proposalContent": "Art. 53 alin. (1^1) se modifică: «Participarea operatorilor economici din țări terțe neacoperite de art. 3 alin. (1) lit. jj) pct. iii)-v) se stabilește de autoritatea contractantă prin documentația de atribuire, cu respectarea Regulamentelor (UE) 2022/1031 și 2022/2560.» Similar la art. 66 alin. (2) L. 99/2016 și art. 39 alin. (2) L. 100/2016.",
+      "argumentation": "CJUE, C-652/22 Kolin (2024): accesul operatorilor din țări terțe fără acord ține de competența exclusivă a UE (art. 207 TFUE). Statele nu pot adopta excluderi generale. Instrumentele potrivite sunt IPI (Reg. 2022/1031) și FSR (Reg. 2022/2560). Excluderea automată riscă infringement și anularea procedurilor în instanță.",
+      "otherComments": "Art. IV: lista să fie publicată în M.Of. și să definească «țări în proces de aderare» (candidate și/sau potențial candidate). Criteriul «stabilit în» se ocolește ușor prin filiale în UE, deci măsura reduce concurența fără a atinge scopul. Art. V să vizeze toate procedurile inițiate, nu doar cele cu oferte depuse."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 36807,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 125798,
       "sourceEndMarker": "SF-AE0735DE",
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Excluderea firmelor din afara UE și a statelor fără acorduri de la licitațiile publice",
-      "verdictShort": "Deși urmărește protejarea marilor investiții de ofertanți cu standarde îndoielnice, ordonanța introduce o interdicție rigidă și unilaterală care riscă să încalce competența exclusivă a UE în politica comercială, schimbă regulile pentru licitațiile deja pornite și blochează inclusiv subcontractanții din țări terțe la orice achiziție, mare sau mică.",
-      "initiatorClaim": "Guvernul susține că firmele din state non-UE câștigă agresiv licitații de infrastructură fără garanții privind standardele de calitate, mediu și muncă, punând în pericol absorbția a ~20 miliarde euro din fonduri europene și PNRR.",
-      "realityCheck": "În realitate, OUG 25/2021 nu se limitează la marile proiecte de transport, ci interzice automat participarea firmelor din țări terțe fără acorduri UE/OMC chiar și ca subcontractanți sau terți susținători în orice procedură de achiziție publică, sectorială sau concesiune din România. În plus, lasă stabilirea listei țărilor eligibile la mâna unui ordin comun ulterior și aplică regulile noi și licitațiilor deja publicate dacă nu s-au depus încă oferte.",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Interdicție națională pentru firmele din afara UE la licitații, cu risc major de nelegalitate europeană",
+      "verdictShort": "Aprobarea fără modificări a OUG 25/2021 consfințește o interdicție generală prin lege națională care încalcă competența exclusivă a Uniunii Europene în politica comercială comună și generează riscuri majore de litigii și blocaje în licitații. Deși scopul declarat de a proteja proiectele de infrastructură de concurența neloială este legitim, mecanismul rigid și lipsit de excepții ales de Guvern este incompatibil cu dreptul UE și afectează securitatea juridică.",
+      "initiatorClaim": "Guvernul susține că transpune directivele europene privind achizițiile publice pentru a proteja investiții strategice de circa 20 de miliarde de euro (inclusiv din PNRR și fonduri europene) de ofertanți din state terțe care nu respectă standardele UE de calitate, mediu, muncă și concurență.",
+      "realityCheck": "OUG nr. 25/2021 (deja în vigoare din 5 aprilie 2021) nu se limitează la transpunerea directivelor europene, ci redefinește noțiunea de «operator economic» în Legile nr. 98/2016, 99/2016 și 100/2016 și impune excluderea automată, fără nicio excepție, a firmelor din state fără acorduri UE privind achizițiile, inclusiv când participă doar ca asociați, subcontractanți sau terți susținători. O astfel de interdicție generală prin legislație națională încalcă competența exclusivă a UE în politica comercială comună, lovește prin art. V chiar licitațiile deja lansate înainte de intrarea în vigoare și restrânge opțiunile IMM-urilor românești de a colabora cu subcontractanți specializați din afara UE.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 4, Art. II pct. 3 și Art. III pct. 2 obligă autoritățile să excludă automat ofertanții, asociații, terții susținători și subcontractanții din țări terțe neacoperite de acorduri (indiferent de valoarea contractului), fără flexibilitate pentru tehnologii sau echipamente specializate.",
-        "Art. V prevede că doar procedurile în care s-au depus deja oferte rămân pe legea veche, ceea ce schimbă regulile de eligibilitate în timpul procedurilor deja inițiate (publicate), generând riscuri de contestare și anulare.",
-        "Art. IV deleagă unui ordin comun (ministru + președinte ANAP), emis în 30 de zile, aprobarea listei țărilor eligibile, fără criterii legale precise pentru sintagma ambiguă „țări terțe care se află în proces de aderare la Uniunea Europeană”."
+        "Excludere automată și absolută din toate rolurile procedurale (Art. I pct. 1 și 4 – art. 53 alin. 1^1 L. 98/2016; Art. II pct. 1 și 3 – art. 66 alin. 2 L. 99/2016; Art. III pct. 1 și 2 – art. 39 alin. 2 L. 100/2016): autoritățile sunt obligate să excludă automat firmele din țări terțe neacoperite de acorduri UE, chiar și ca subcontractanți sau terți susținători, fără niciun mecanism de excepție (inclusiv acolo unde nu există furnizori europeni).",
+        "Modificarea regulilor în timpul jocului pentru licitațiile deja inițiate (Art. V): norma tranzitorie protejează doar procedurile în care se depuseseră deja oferte la data intrării în vigoare, ceea ce înseamnă că procedurile deja publicate, aflate înainte de termenul de depunere, au fost afectate retroactiv, generând contestații și întârzieri.",
+        "Delegarea listei țărilor eligibile către un ordin administrativ (Art. IV): lista țărilor terțe eligibile se aprobă prin ordin comun al ministrului economiei și al președintelui ANAP în termen de 30 de zile de la intrarea în vigoare, lăsând neclară aplicarea legii în perioada de tranziție și caracterul declarativ sau constitutiv al listei la actualizări.",
+        "Lipsa totală a evaluării impactului bugetar și asupra mediului de afaceri (Expunerea de motive, Secțiunile 3–4): deși reducerea concurenței poate crește prețurile contractelor publice și împiedică firmele românești să folosească subcontractanți non-UE, tabelele de impact bugetar sunt complet goale, iar la impactul asupra IMM-urilor și sarcinilor administrative apare mențiunea că proiectul «nu se referă la acest subiect»."
       ],
-      "blindSpotsCaught": "Ordonanța modifică și Legea nr. 100/2016 privind concesiunile (Art. III), deși în clauza de transpunere menționează doar Directivele 2014/24/UE și 2014/25/UE (nu și Directiva 2014/23/UE privind concesiunile). Totodată, în textul adoptat apare o eroare de numerotare (două articole notate «Art. I.» în loc de Art. I și Art. II) și se omit soluții pentru cele 30 de zile de tranziție până la publicarea ordinului comun.",
-      "constitutionalityNote": "Există vulnerabilități față de art. 1 alin. (5) și art. 15 alin. (2) din Constituție: norma tranzitorie de la Art. V afectează procedurile deja inițiate la care nu s-au depus oferte, iar expresia „țări terțe care se află în proces de aderare la UE” este neclară (Expunerea de motive include și „state potențial candidate”, neprevăzute în text). Delegarea listei țărilor către un ordin administrativ (Art. IV) ridică probleme de previzibilitate. Motivarea urgenței pe art. 115 alin. (4) invocă generic durata procedurii parlamentare alături de termenele PNRR.",
-      "euLawNote": "Risc major de incompatibilitate cu dreptul primar al UE: conform art. 3 alin. (1) lit. e) și art. 207 TFUE, politica comercială comună este de competență exclusivă a UE, astfel că statele membre nu pot legifera unilateral excluderi generale ale operatorilor din țări terțe în absența unei abilitări europene. Directivele 2014/24/UE (art. 25) și 2014/25/UE (art. 43) impun doar tratament egal pentru semnatarii AAP/acordurilor UE, nu interdicții naționale automate. Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS - servicii digitale) nu sunt incidente, însă principiul proporționalității din dreptul UE este tensionat prin extinderea interdicției la subcontractanți și la contracte sub pragurile UE.",
+      "blindSpotsCaught": "Trei chichițe subtile ascunse în text: (1) Redefinirea globală a termenului «operator economic» în articolele de definiții (art. 3 L. 98/2016, art. 3 L. 99/2016, art. 5 L. 100/2016), în loc de o regulă limitată la procedurile de atribuire, produce efecte în lanț asupra întregii legislații (inclusiv achiziții directe, consultări de piață sau calitatea procesuală de a contesta excluderea); (2) Interdicția este extinsă și la concesiuni (Art. III – Legea nr. 100/2016), deși Directiva 2014/23/UE privind concesiunile nu conține un articol echivalent art. 25 din Directiva 2014/24/UE și nici nu este menționată în clauza de transpunere a OUG; (3) Există o discrepanță între textul legii («țări terțe care se află în proces de aderare la UE») și Expunerea de motive (care include și «țările potențial candidate»), amplificată de aplicarea restricției pe anexe AAP chiar și firmelor din state semnatare ale AAP (SUA, Japonia, Canada, Marea Britanie) atunci când un contract concret nu intră în anexe.",
+      "constitutionalityNote": "Proiectul ridică probleme serioase pe mai multe articole din Constituție: (1) Art. 115 alin. (4) – justificarea urgenței pentru emiterea OUG se bazează pe o evoluție constatată «în ultimii ani» și pe proiecte viitoare (PNRR/2021–2027), nu pe o situație extraordinară neprevăzută care nu putea fi reglementată prin lege parlamentară; (2) Art. 1 alin. (5) privind claritatea, previzibilitatea și securitatea juridică – afectat de norma tranzitorie din Art. V (care schimbă condițiile de participare pentru proceduri deja inițiate), de formula neclară «în proces de aderare» și de regimul juridic incert al listei aprobate prin ordin la Art. IV; (3) Art. 148 alin. (2) și (4) – aprobarea prin lege a unei reglementări naționale care încalcă competența exclusivă a UE contravine obligației constituționale de a asigura prioritatea tratatelor constitutive ale UE; (4) Art. 135 alin. (2) lit. a) – interdicția rigidă, fără excepții, poate distorsiona concurența pe piețe cu puțini ofertanți europeni.",
+      "euLawNote": "Aceasta este vulnerabilitatea centrală a proiectului: reglementarea prin lege națională de aplicabilitate generală a accesului operatorilor economici din țări terțe pe piața achizițiilor publice încalcă competența exclusivă a Uniunii Europene în domeniul politicii comerciale comune (Art. 3 alin. 1 lit. e și Art. 207 TFUE). Art. 25 din Directiva 2014/24/UE și Art. 43 din Directiva 2014/25/UE impun doar egalitatea de tratament pentru semnatarii AAP și ai altor acorduri UE, fără a autoriza statele membre să adopte interdicții legislative generale — aspect confirmat expres de CJUE chiar în cauza C-266/22 (CRRC Qingdao Sifang), declanșată de OUG nr. 25/2021 (în lipsa unui act al UE, precum Regulamentul IPI, doar autoritatea contractantă poate decide de la caz la caz admiterea sau tratamentul ofertanților neacoperiți de acorduri). În plus, lipsa oricărei clauze de flexibilitate contravine principiului proporționalității. Directiva (UE) 2018/958 (profesii reglementate) și Directiva (UE) 2015/1535 (TRIS, reglementări tehnice/servicii ale societății informaționale) nu sunt direct incidente.",
       "senatForm": {
-        "articleRef": "Art. V din OUG nr. 25/2021",
-        "proposalContent": "Art. V se modifică și va avea următorul cuprins: „Art. V. - Procedurile de atribuire inițiate anterior datei intrării în vigoare a prezentei ordonanțe de urgență se supun legislației în vigoare la data inițierii acestora.”",
-        "argumentation": "Forma actuală aplică noile excluderi procedurilor deja inițiate la care nu s-au depus încă oferte, afectând securitatea juridică și previzibilitatea (art. 1 alin. 5 și art. 15 alin. 2 din Constituție). Autoritățile și ofertanții trebuie să respecte regulile existente la data publicării anunțului de participare.",
-        "otherComments": "Recomandăm și verificarea compatibilității cu competența exclusivă a UE în politica comercială comună (art. 207 TFUE), definirea clară a statelor „în proces de aderare la UE” și limitarea excluderii automate a subcontractanților/terților susținători la contractele de peste pragurile europene."
+        "articleRef": "Articol unic (Art. I-V din OUG nr. 25/2021)",
+        "proposalContent": "Eliminarea redefinirii «operatorului economic» și a excluderii automate din Art. I (pct. 1, 3, 4), Art. II (pct. 1, 3), Art. III și Art. IV-V din OUG 25/2021; menținerea doar a transpunerii art. 25 Dir. 2014/24/UE și art. 43 Dir. 2014/25/UE (art. 49 alin. 2 L. 98/2016, art. 62 alin. 2 L. 99/2016) sau respingerea OUG.",
+        "argumentation": "Interdicția generală prin lege națională încalcă competența exclusivă a UE în politica comercială comună (art. 3 și 207 TFUE), fapt confirmat de CJUE în cauza C-266/22 chiar pe OUG 25/2021. Art. V lovește retroactiv procedurile deja inițiate, iar excluderea automată fără excepții afectează concurența și IMM-urile.",
+        "otherComments": "Aprobarea OUG fără modificări menține norme contrare dreptului UE, generând risc de infringement, anulări de licitații și corecții pe fonduri europene/PNRR. Contra ofertanților neloiali din state terțe, autoritățile trebuie să folosească instrumentele UE (Regulamentul IPI) și analiza de la caz la caz, nu interdicții naționale generale."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 59127,
+      "durationMs": 56858,
       "sourceEndMarker": "SF-AE0735DE",
       "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Firmele din țări fără acord comercial cu UE (ex. China) nu mai pot participa la licitațiile publice din România",
-      "verdictShort": "Scopul este legitim și urmează orientarea Comisiei Europene din 2019: țările terțe fără acord de achiziții nu au drept garantat de acces. Problema este executarea: excludere automată, inclusiv a subcontractanților, o dispoziție tranzitorie care schimbă regulile în licitații deja lansate și o competență pe care CJUE a declarat-o ulterior exclusivă a UE.",
-      "initiatorClaim": "Guvernul spune că vrea să protejeze marile proiecte de infrastructură (circa 20 mld. euro în transporturi, PNRR, fonduri UE). Motivul invocat sunt ofertanții extracomunitari care oferă garanții reduse privind calitatea, mediul, condițiile de muncă și concurența loială.",
-      "realityCheck": "Legea redefinește «operatorul economic» în Legile 98, 99 și 100/2016. Pot participa doar firme stabilite în UE/SEE, în state GPA (numai pentru contractele acoperite), în țări în curs de aderare sau în state cu acorduri UE de acces. Restul sunt excluse automat, fără analiza motivelor de excludere, inclusiv ca subcontractant sau terț susținător. Criteriul este însă locul de stabilire al entității, nu controlul acesteia: o filială înregistrată în UE a unui grup din afara acordurilor trece testul, deci efectul anti-dumping real e limitat. Între timp, achizitorii pierd o parte din concurență, fără niciun calcul al impactului asupra prețurilor (Secțiunea 4 din expunere este goală).",
+      "plainTitle": "Firmele din afara UE, fără acord comercial cu Uniunea, scoase automat din licitațiile publice",
+      "verdictShort": "Legea aprobă o ordonanță în vigoare din aprilie 2021, care exclude automat de la licitații firmele din țări terțe fără acord de achiziții cu UE. Scopul declarat (calitate, concurență loială) este legitim, dar CJUE a stabilit ulterior (C-652/22 Kolin, 2024) că astfel de reguli generale țin de competența exclusivă a UE, iar firmele cu filială în UE pot ocoli ușor criteriul folosit.",
+      "initiatorClaim": "Guvernul spune că vrea să protejeze marile proiecte de infrastructură (circa 20 mld. euro în transporturi, din fonduri UE și PNRR) de ofertanți din afara UE care ar oferi garanții reduse privind calitatea, mediul, condițiile de muncă și concurența loială. Invocă transpunerea art. 25 din Directiva 2014/24/UE și art. 43 din Directiva 2014/25/UE.",
+      "realityCheck": "Ordonanța redefinește «operatorul economic» în Legile 98, 99 și 100/2016: pot participa doar firmele stabilite în UE/SEE, în state GPA (numai pentru contractele acoperite de anexe), în țări în proces de aderare sau în state cu acorduri UE de acces la achiziții. Toate celelalte sunt excluse automat, inclusiv ca subcontractant sau terț susținător, fără analiza motivelor de excludere. Criteriul este locul stabilirii, nu controlul, așa că o filială înființată în UE de o firmă din China rămâne eligibilă. Pe de altă parte, firme din state GPA (SUA, Japonia, Coreea) pot fi excluse de la contractele sub pragurile GPA, iar mai puțini ofertanți înseamnă, cel mai probabil, prețuri mai mari pentru bugetul public.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 1 (art. 3 alin. 1 lit. jj Legea 98/2016) și echivalentele din Legile 99 și 100/2016: accesul depinde de țara în care e «stabilit» operatorul, nu de cine îl controlează. Excluderea poate fi ocolită printr-o filială în UE, deci măsura lovește formal, nu substanțial.",
-        "Art. I pct. 4 (art. 53 alin. 1^1), art. 66 alin. 2 din Legea 99 și art. 39 alin. 2 din Legea 100: excluderea este obligatorie și se aplică și subcontractanților și terților susținători. Firmele românești, inclusiv IMM-uri, care se bazează pe furnizori sau experți din țări neacoperite pot fi eliminate odată cu ei. Pentru asocierile mixte nu e clar dacă un singur membru neeligibil compromite toată oferta.",
-        "Pct. v) din definiție nu are limitarea «în cadrul domeniului de aplicare» a acordului, deși expunerea de motive o menționează. Pct. iv) («țări în proces de aderare») nu spune dacă include și țările potențial candidate, pe care expunerea le invocă explicit.",
-        "Art. IV: lista țărilor se aprobă prin ordin comun al ministrului economiei și al președintelui ANAP, în 30 de zile. Legea nu spune dacă lista are efect declarativ sau constitutiv, nici ce se aplică până la publicarea ei sau dacă o țară omisă din listă, dar eligibilă, poate fi exclusă.",
-        "Art. V: noile reguli se aplică și procedurilor deja inițiate în care nu se depuseseră încă oferte. Teza a doua («se supun legislației în vigoare la data inițierii») contrazice prima, ceea ce creează risc de contestații și de anulări."
+        "Art. I pct. 1 (art. 3 alin. (1) lit. jj) L. 98/2016) și echivalentele din L. 99 și L. 100/2016: eligibilitatea depinde de statul în care operatorul este «stabilit». Măsura lovește în principal firmele din state precum China, care nu sunt nici în GPA, nici candidate. Turcia rămâne eligibilă ca țară candidată (pct. iv).",
+        "Pct. iii) limitează accesul firmelor din state GPA «în măsura în care contractul intră sub incidența anexelor». Contractele sub pragurile GPA sau din domenii neacoperite devin astfel inaccesibile chiar și operatorilor din SUA, Japonia sau Canada, dacă nu îi acoperă un alt acord (pct. v).",
+        "Art. I pct. 4 (art. 53 alin. (1^1) L. 98), art. II pct. 3 (art. 66 alin. (2) L. 99), art. III pct. 2 (art. 39 alin. (2) L. 100): excludere obligatorie, fără marjă de apreciere pentru autoritatea contractantă, extinsă la subcontractanți și terți susținători. Lanțurile de furnizare ale ofertanților europeni pot fi afectate.",
+        "Art. IV: lista țărilor eligibile se aprobă prin ordin comun al ministrului economiei și al președintelui ANAP, în 30 de zile, și se actualizează anual «sau ori de câte ori este necesar». Ordonanța nu precizează caracterul listei (constitutiv sau doar informativ) și nici ce se întâmplă cu procedurile în curs la o actualizare.",
+        "Art. V: noua regulă se aplică și procedurilor deja inițiate în care încă nu s-au depus oferte. Candidații calificați într-o licitație restrânsă pot fi excluși la mijlocul procedurii.",
+        "Art. I pct. 2 (art. 49 alin. (2) L. 98) și art. II pct. 2 (art. 62 alin. (2) L. 99): textul spune «tratament egal», în timp ce directiva cere un tratament «nu mai puțin favorabil». Diferența practică este minoră. Expunerea de motive recunoaște că directiva nu reglementează tratamentul celorlalte state terțe.",
+        "Impact bugetar nedeclarat: Secțiunea a 4-a din expunerea de motive (impactul financiar) este lăsată goală, deși reducerea concurenței la contracte de peste 500 mil. euro are efecte asupra prețurilor."
       ],
-      "blindSpotsCaught": "Hotărârea CJUE din 22 octombrie 2024, C-652/22 Kolin, a stabilit că operatorii din țări fără acord cu UE nu au drept la tratament egal. Aceeași hotărâre arată însă că adoptarea unui act cu aplicabilitate generală privind accesul lor ține de politica comercială comună, competență exclusivă a UE (art. 3 alin. 1 lit. e TFUE). În lipsa unui astfel de act, decizia aparține autorității contractante, de la caz la caz. OUG 25/2021 face exact opusul: o excludere generală și obligatorie la nivel național. În paralel, UE a adoptat Regulamentul (UE) 2022/1031 (Instrumentul pentru achiziții internaționale) și Regulamentul (UE) 2022/2560 (subvenții străine), instrumentele potrivite pentru problema invocată. Separat, versiunea scanată numerotează greșit articolul privind Legea 99/2016 tot ca «Art. I» (ar trebui «Art. II»), o eroare de redactare care trebuie corectată.",
-      "constitutionalityNote": "Art. 115 alin. 4: justificarea urgenței este detaliată, dar se bazează în mare parte pe licitații viitoare și pe estimări generale. Curtea Constituțională a acceptat în practică astfel de motivări, deci riscul de neconstituționalitate pe acest temei este moderat. Art. 1 alin. 5 (claritate și previzibilitate): sunt vulnerabile noțiunea vagă de «proces de aderare», lipsa limitării de la pct. v), statutul juridic incert al listei din art. IV și contradicția internă din art. V. Aplicarea art. V la procedurile în curs afectează securitatea juridică și așteptările legitime ale ofertanților, chiar dacă nu este retroactivitate în sens strict (art. 15 alin. 2). Art. 148 alin. 2 și 4: dacă norma națională contravine dreptului UE (vezi Kolin), are prioritate dreptul UE, iar instanțele trebuie să lase norma națională neaplicată.",
-      "euLawNote": "Transpunerea art. 25 din Directiva 2014/24/UE și a art. 43 din Directiva 2014/25/UE este în esență corectă, deși directivele cer un tratament «nu mai puțin favorabil», iar textul spune «egal». Problema majoră: după hotărârea Kolin (C-652/22), o regulă națională generală de excludere a operatorilor din țări terțe intră în competența exclusivă a UE în materie de politică comercială și riscă să fie considerată incompatibilă. Statul s-ar expune unei proceduri de constatare a neîndeplinirii obligațiilor sau neaplicării normei de către instanțe. Directiva (UE) 2018/958 privind testul de proporționalitate se referă la profesiile reglementate și nu se aplică direct. Totuși, lipsa oricărei analize de proporționalitate și a impactului asupra concurenței și prețurilor este o slăbiciune. Directiva (UE) 2015/1535 (TRIS) nu este relevantă: nu se reglementează servicii ale societății informaționale sau reglementări tehnice.",
+      "blindSpotsCaught": "Expunerea de motive se sprijină pe Comunicarea Comisiei C(2019) 5494, dar CJUE a clarificat ulterior, în cauza C-652/22 Kolin (22.10.2024), că statele membre nu pot adopta acte generale privind accesul operatorilor din țări terțe fără acord. Această competență aparține exclusiv UE, prin politica comercială comună. Instrumentele dedicate sunt acum la nivel UE: Regulamentul (UE) 2022/1031 (IPI) și Regulamentul (UE) 2022/2560 privind subvențiile străine. Aprobarea în 2026, fără modificări, consolidează un text care poate fi neaplicat pentru contrarietate cu dreptul UE. Separat, varianta OCR a textului numerotează de două ori «Art. I» (al doilea ar trebui să fie Art. II), iar L. 100/2016 trimite generic la «anexele la Apendicele I», fără numerele lor.",
+      "constitutionalityNote": "Ordonanța motivează pe larg situația extraordinară (art. 115 alin. (4)), cu cifre și termenul PNRR 2026. Totuși, aceeași justificare ar acoperi orice reformă a achizițiilor, iar urgența este discutabilă față de o simplă dezbatere parlamentară. Excluderea automată atinge libertatea economică (art. 45) și obligația statului de a asigura concurența loială (art. 135 alin. (2) lit. a)), aplicabile și străinilor conform art. 18. Riscul cel mai serios este contrarietatea cu dreptul UE, care are prioritate potrivit art. 148 alin. (2). Previzibilitatea (art. 1 alin. (5)) este slăbită de conceptul «țări în proces de aderare» (nu e clar dacă include potențialele candidate) și de lista aprobată prin ordin ministerial actualizat oricând.",
+      "euLawNote": "Art. 25 din Directiva 2014/24/UE și art. 43 din Directiva 2014/25/UE impun doar tratament egal pentru semnatarii GPA și ai acordurilor UE. Ele nu autorizează un regim național general de excludere a celorlalți. Potrivit Kolin (C-652/22), stabilirea condițiilor de acces ține de competența exclusivă a UE (art. 3 alin. (1) lit. e) și art. 207 TFUE). Autoritatea contractantă poate decide de la caz la caz dacă admite astfel de operatori, însă o lege națională care îi exclude automat riscă procedură de infringement și neaplicare în instanță. Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) nu este aplicabilă, iar TRIS 2015/1535 nu este incidentă, deoarece nu sunt reglementate servicii digitale sau reguli tehnice.",
       "senatForm": {
-        "articleRef": "Art. V OUG 25/2021 – dispoziția tranzitorie",
-        "proposalContent": "Art. V. – Procedurile de atribuire inițiate înainte de data intrării în vigoare a prezentei ordonanțe de urgență, precum și contractele încheiate în urma acestora, se supun legislației în vigoare la data inițierii procedurii, indiferent dacă ofertele au fost sau nu depuse la acea dată.",
-        "argumentation": "Forma actuală schimbă regulile de participare în proceduri deja lansate, dar fără oferte depuse. Ofertanții care și-au pregătit oferta pe baza documentației publicate sunt excluși peste noapte. Textul contrazice chiar teza a doua a art. V și securitatea juridică (art. 1 alin. 5 din Constituție), generând contestații și blocaje, exact ce OUG voia să evite.",
-        "otherComments": "Recomandăm și: (1) adăugarea la pct. v) a mențiunii «în limita domeniului de aplicare al acordului», ca la pct. iii); (2) precizarea caracterului declarativ al listei din art. IV; (3) reanalizarea textului după Hotărârea CJUE C-652/22 Kolin (2024), privind competența exclusivă a UE în această materie."
+        "articleRef": "Art. I pct. 4 (art. 53 alin. 1^1 L. 98/2016)",
+        "proposalContent": "Art. 53 alin. (1^1) se modifică: «Participarea operatorilor economici din țări terțe neacoperite de art. 3 alin. (1) lit. jj) pct. iii)-v) se stabilește de autoritatea contractantă prin documentația de atribuire, cu respectarea Regulamentelor (UE) 2022/1031 și 2022/2560.» Similar la art. 66 alin. (2) L. 99/2016 și art. 39 alin. (2) L. 100/2016.",
+        "argumentation": "CJUE, C-652/22 Kolin (2024): accesul operatorilor din țări terțe fără acord ține de competența exclusivă a UE (art. 207 TFUE). Statele nu pot adopta excluderi generale. Instrumentele potrivite sunt IPI (Reg. 2022/1031) și FSR (Reg. 2022/2560). Excluderea automată riscă infringement și anularea procedurilor în instanță.",
+        "otherComments": "Art. IV: lista să fie publicată în M.Of. și să definească «țări în proces de aderare» (candidate și/sau potențial candidate). Criteriul «stabilit în» se ocolește ușor prin filiale în UE, deci măsura reduce concurența fără a atinge scopul. Art. V să vizeze toate procedurile inițiate, nu doar cele cu oferte depuse."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 103714,
+      "durationMs": 96918,
       "sourceEndMarker": "SF-AE0735DE",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Excluderea unor firme din afara UE de la contractele publice",
-      "verdictShort": "Protejarea investițiilor publice este legitimă, dar textul introduce o excludere generală după statul de stabilire, inclusiv pentru subcontractanți. Riscul major este incompatibilitatea acestei interdicții naționale cu competența exclusivă a UE în politica comercială comună, clarificată ulterior de CJUE.",
-      "initiatorClaim": "Guvernul susține că participarea unor firme din țări terțe poate compromite standardele de calitate, mediu și muncă și poate întârzia investițiile. Restricțiile sunt prezentate ca necesare pentru protejarea finanțărilor europene și asigurarea concurenței echitabile.",
-      "realityCheck": "Articolele I–III condiționează participarea de statul în care este stabilit operatorul și impun excluderea celor neeligibili, fără constatarea unei încălcări individuale a standardelor invocate. Filtrul privește și asociații, terții susținători și subcontractanții, iar criteriul stabilirii nu echivalează cu verificarea originii capitalului unei firme stabilite în UE. Articolul V protejează numai procedurile în care fuseseră deja depuse oferte, lăsând alte proceduri începute expuse schimbării regulilor.",
+      "plainTitle": "Excluderea unor firme din țări terțe de la licitațiile publice",
+      "verdictShort": "Protejarea investițiilor și respectarea acordurilor comerciale sunt obiective legitime, dar interdicția națională generală ridică o problemă majoră de competență în dreptul UE. Aprobarea fără modificări ar confirma un mecanism deja aplicabil din 2021, a cărui premisă juridică este contrazisă de jurisprudența ulterioară a CJUE.",
+      "initiatorClaim": "Guvernul susține că participarea unor ofertanți din afara UE amenință respectarea standardelor și finalizarea investițiilor, inclusiv absorbția fondurilor europene. Prezintă intervenția ca transpunere a obligațiilor europene privind accesul la achiziții și tratamentul operatorilor protejați prin acorduri internaționale.",
+      "realityCheck": "Articolele I–III instituie un filtru obligatoriu după statul de stabilire, aplicabil inclusiv asociaților, terților susținători și subcontractanților, fără evaluarea individuală a standardelor invocate în motivare. Articolul IV introduce lista administrativă a țărilor eligibile, iar articolul V protejează numai procedurile în care fuseseră deja depuse oferte la intrarea în vigoare a ordonanței. Restricțiile sunt deja în vigoare prin OUG nr. 25/2021: articolul unic al proiectului le aprobă fără amendamente, nu le introduce pentru prima dată.",
       "affectedGroups": [
         "IMM & Antreprenori",
-        "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. I pct. 3–4, art. II pct. 3 și art. III pct. 2 introduc excluderea obligatorie după eligibilitatea geografică. Nu instituie taxe sau sancțiuni penale și nu atribuie contractele unui beneficiar nominalizat.",
-        "Filtrul se extinde asupra subcontractanților și terților susținători. Poate restrânge opțiunile unor IMM-uri românești și poate crește costurile de pregătire a ofertelor; amploarea efectului nu este cuantificată în documentele furnizate.",
-        "Art. IV prevede o listă de țări aprobată prin ordin comun. Lista nu poate înlocui verificarea acoperirii fiecărui contract prin acordurile internaționale: contează inclusiv autoritatea, obiectul, pragurile și rezervele aplicabile.",
-        "Art. V folosește depunerea ofertelor drept criteriu tranzitoriu, deși procedura poate fi deja inițiată. În procedurile cu etape succesive, solicitările de participare nu sunt menționate expres.",
-        "Categoria «țări terțe care se află în proces de aderare» nu precizează dacă include state candidate, potențial candidate sau numai state cu negocieri deschise. Explicațiile mai largi din expunerea de motive nu completează norma.",
-        "Art. IV acordă 30 de zile pentru aprobarea listei, fără să amâne expres aplicarea restricțiilor până la publicarea ei. Textul nu stabilește nici o regulă explicită pentru schimbarea eligibilității unei țări în timpul unei proceduri.",
-        "Preambulul invocă investiții de aproximativ 20 de miliarde de euro, însă această valoare nu reprezintă un impact bugetar calculat al restricțiilor. Documentele nu cuantifică economiile, eventualele scumpiri sau sarcinile suplimentare de verificare."
+        "Articolul unic aprobă integral ordonanța. Comparativ cu legislația consolidată furnizată, tratamentul egal și excluderea obligatorie figurează deja în lege; aprobarea parlamentară nu constituie o nouă dată de intrare în vigoare și nu repornește termenele ordonanței.",
+        "Art. I pct. 1, 3 și 4, art. II pct. 1 și 3 și art. III condiționează participarea de stabilirea într-o categorie de state eligibile. O firmă poate fi exclusă chiar dacă îndeplinește toate cerințele tehnice, sociale și de mediu; invers, stabilirea într-un stat eligibil nu dovedește îndeplinirea acestor cerințe.",
+        "Excluderea înaintea verificărilor prevăzute de art. 164, 165 și 167 din Legea nr. 98/2016 și de articolele echivalente nu elimină verificările pentru participanții eligibili. Textul nu abrogă regimul general al contestațiilor și nici garanțiile privind identificarea beneficiarilor reali din art. 53 alin. (2) și (3).",
+        "Eligibilitatea folosește statul de stabilire, nu naționalitatea acționarilor sau originea tuturor produselor. O societate constituită și stabilită efectiv în UE nu devine automat neeligibilă fiindcă are capital dintr-o țară exclusă; textul nu instituie o interdicție generală asupra tuturor mărfurilor din asemenea țări.",
+        "Art. IV permite aprobarea și actualizarea listei prin ordin comun. Lista nu poate înlocui verificarea acoperirii concrete a contractului prin acordul internațional: contează entitatea contractantă, sectorul, obiectul, pragurile și rezervele aplicabile.",
+        "Art. V nu conservă legea inițială pentru toate procedurile deja începute. Procedurile fără oferte depuse la momentul intrării în vigoare pot fi afectate de schimbarea eligibilității în cursul desfășurării; distincția dintre solicitarea de participare și ofertă creează dificultăți suplimentare în procedurile cu mai multe etape.",
+        "Restrângerea numărului de participanți poate reduce concurența și poate impune înlocuirea unor subcontractanți sau terți susținători. Sunt efecte economice posibile, nu pierderi cuantificate: expunerea nu fundamentează comparativ costurile, beneficiile sau impactul asupra IMM-urilor.",
+        "Proiectul nu introduce taxe, amenzi sau infracțiuni. Verificarea suplimentară a eligibilității geografice produce sarcini administrative, dar principalele riscuri provin din incompatibilitatea juridică și din efectele asupra concurenței, nu din sancțiuni."
       ],
-      "blindSpotsCaught": "Art. V, aflat la final, nu păstrează regulile inițiale pentru toate procedurile deja începute, ci numai pentru cele cu oferte depuse. Separat, obligația europeană de a proteja accesul ofertanților acoperiți de acorduri nu constituie, prin ea însăși, o abilitare a României să interzică prin lege participarea tuturor celorlalți; justificarea din expunerea de motive omite această diferență.",
-      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru definirea procesului de aderare, rolul listei administrative și previzibilitatea tranziției. Aplicarea regulilor noi unei proceduri în curs nu înseamnă automat retroactivitate interzisă de art. 15 alin. (2), dar poate afecta securitatea juridică și încrederea legitimă. Justificarea OUG ridică o problemă distinctă sub art. 115 alin. (4): tendințele din ultimii ani și durata procedurii parlamentare nu demonstrează singure o situație extraordinară care nu suportă amânare; aprobarea parlamentară nu vindecă un eventual viciu originar. Art. 148 alin. (2) și (4) impune respectarea dreptului UE, iar art. 45 și art. 135 alin. (2) lit. a) susțin examinarea efectelor asupra activității economice și concurenței, fără a garanta acces necondiționat oricărei firme străine. Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident: textul nu introduce pedepse.",
-      "euLawNote": "Art. 25 din Directiva 2014/24/UE și art. 43 din Directiva 2014/25/UE garantează tratamentul ofertanților acoperiți de acordurile relevante; nu impun excluderea generală a celorlalți. Pentru evaluarea actuală a formei din 2021 sunt decisive interpretările ulterioare din CJUE C-652/22, Kolin, 22.10.2024, și C-266/22, CRRC Qingdao Sifang, 13.03.2025: accesul operatorilor din țări terțe fără acord relevant intră în competența exclusivă a UE, iar statele membre nu pot institui autonom un regim general obligatoriu de acces sau excludere. Acești operatori nu dobândesc însă automat dreptul la tratament egal în temeiul directivelor. Surse oficiale de consultat: [Kolin](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:62022CJ0652) și [CRRC Qingdao Sifang](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:62022CJ0266). Directiva 2018/958 privește restricțiile asupra profesiilor reglementate și nu impune aici testul său special; proporționalitatea rămâne relevantă potrivit normelor aplicabile achizițiilor. Notificarea TRIS potrivit Directivei 2015/1535 nu rezultă necesară din acest text: nu introduce reguli tehnice pentru produse ori reguli specifice serviciilor societății informaționale. Verificarea online nu a fost disponibilă în această sesiune.",
+      "blindSpotsCaught": "Detaliul decisiv este că lipsa unui drept de acces garantat prin acordurile UE nu conferă automat României competența de a institui o interdicție generală. Distincția a fost clarificată ulterior de CJUE, inclusiv în cauza C-266/22 privind chiar cadrul românesc. În plus, protecția tranzitorie depinde de depunerea ofertelor, nu doar de inițierea procedurii. Numerotarea repetată «Art. I» și caracterele deformate trebuie confruntate cu originalul, fiind posibile erori OCR, fără relevanță autonomă pentru scor.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea sintagmelor «stabilit» și «în proces de aderare», precum și a raportului dintre lista administrativă și condițiile legale de eligibilitate. Art. V ridică probleme de previzibilitate și securitate juridică pentru procedurile începute, dar aplicarea regulilor noi etapelor viitoare nu reprezintă automat retroactivitate interzisă de art. 15 alin. (2). Motivarea urgenței prin tendințe observate de mai mulți ani, obiective generale de absorbție și valoarea investițiilor lasă discutabilă demonstrarea situației extraordinare cerute de art. 115 alin. (4); aprobarea parlamentară nu înlătură un eventual viciu originar. Art. 45 și art. 135 alin. (2) lit. a) cer evaluarea efectelor asupra activității economice și concurenței, fără a garanta acces nelimitat oricărui operator străin. Art. 148 impune respectarea dreptului UE, însă o incompatibilitate europeană nu echivalează automat, în orice condiții, cu neconstituționalitatea. Art. 23 alin. (12) nu este incident: nu sunt instituite pedepse penale.",
+      "euLawNote": "Art. 25 din Directiva 2014/24/UE și art. 43 din Directiva 2014/25/UE garantează tratamentul operatorilor acoperiți de angajamentele internaționale ale UE; nu autorizează singure statele membre să legifereze o excludere generală a celorlalți. CJUE, C-652/22, Kolin, 22.10.2024, și C-266/22, CRRC Qingdao Sifang, 13.03.2025, disting lipsa accesului garantat de competența exclusivă a UE asupra accesului acestor operatori, în temeiul art. 3 alin. (1) lit. e) și art. 207 TFUE. În absența unui act relevant al Uniunii, decizia autorității contractante asupra participării nu trebuie confundată cu o interdicție legislativă națională. Această jurisprudență ulterioară este esențială pentru evaluarea actuală a formei din 2021. Directiva 2018/958 privește reglementarea profesiilor și nu impune aici un test formal de proporționalitate; efectele concurențiale necesită totuși fundamentare. Nu rezultă o obligație TRIS în temeiul Directivei 2015/1535: textul nu stabilește reguli tehnice pentru produse sau reguli specifice serviciilor societății informaționale. Surse oficiale de referință: https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:62022CJ0652 și https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:62022CJ0266. Consultarea online nu a fost posibilă în această sesiune.",
       "senatForm": {
-        "articleRef": "Art. V din OUG nr. 25/2021",
-        "proposalContent": "Art. V. – Procedurile de atribuire inițiate înainte de intrarea în vigoare a prezentei ordonanțe de urgență se finalizează potrivit legislației în vigoare la data inițierii lor, indiferent de data depunerii ofertelor sau a solicitărilor de participare.",
-        "argumentation": "Regula actuală schimbă condițiile de acces pentru proceduri deja inițiate, dacă nu au fost depuse oferte. Menținerea legislației de la inițiere protejează previzibilitatea, încrederea legitimă și tratamentul coerent al participanților, inclusiv în procedurile cu etape succesive.",
-        "otherComments": "Amendamentul corectează tranziția. Separat, excluderile generale din art. I–III și mecanismul listei din art. IV trebuie reexaminate în raport cu CJUE C-652/22 și C-266/22. Propunerea cetățeanului poate fi preluată de un deputat al Camerei Deputaților."
+        "articleRef": "Articolul unic",
+        "proposalContent": "Se respinge Ordonanța de urgență a Guvernului nr. 25/2021. Se restabilește redactarea anterioară a dispozițiilor modificate sau completate prin ordonanță, cu respectarea dreptului Uniunii Europene. Contractele deja încheiate nu încetează de drept; legalitatea acestora rămâne supusă controlului potrivit legii.",
+        "argumentation": "CJUE, în cauzele C-652/22 și C-266/22, a clarificat competența exclusivă a UE privind accesul operatorilor din țări terțe neacoperite de acorduri. Interdicția legislativă națională generală nu poate fi justificată doar prin lipsa accesului garantat. Respingerea trebuie să reglementeze și efectele juridice, conform art. 115 alin. (8) din Constituție.",
+        "otherComments": "Restabilirea definițiilor generale nu garantează tuturor operatorilor din țări terțe acces sau tratament egal. Se aplică dreptul UE, acordurile internaționale și competențele autorității contractante. Comisiile trebuie să coreleze expres soluția cu procedurile în curs și cu actele europene aplicabile la data adoptării."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-19T11:53:33.060Z",
+      "method": "whole-text-v1",
+      "textChars": 16660,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:16:28.179Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 5.5,
       "riskLevel": "yellow",

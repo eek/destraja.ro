@@ -2,141 +2,181 @@
   "billId": "PL-x 430/2026",
   "slug": "plx-430-2026",
   "version": "senat",
-  "updatedAt": "2026-11-19T11:39:51.324Z",
+  "updatedAt": "2026-11-24T15:15:06.865Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 995,
     "ordinanceChars": 14616,
     "memoChars": 20923,
     "memoSupplied": 20923,
-    "marker": "SF-6A09A177",
-    "form": "senat"
+    "marker": "SF-6A09A177"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-430-2026.json",
+    "form": "senat",
+    "textHash": "6a09a177d59b6ddf",
+    "fetchedAt": "2026-11-19T10:17:27.828Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 3.7,
-    "riskLevel": "green",
-    "plainTitle": "Împrumuturi de 2 miliarde lei de la stat pentru primăriile care nu-și pot termina proiectele cu bani europeni",
-    "summaryTlDr": "Măsura e utilă și are dobândă avantajoasă, dar textul are probleme reale. Comunele și orașele nu au niciun plafon individual, iar excluderea municipiilor reședință de județ, anunțată în fișa Camerei, nu apare în articole. Plafoanele de îndatorare sunt suspendate fără o estimare a impactului bugetar, iar art. 3 este trunchiat.",
-    "initiatorClaim": "Guvernul vrea să deblocheze proiectele europene 2014-2020 rămase nefinalizate sau nefuncționale și să asigure cofinanțarea proiectelor UE. Beneficiarii vizați sunt în special comunele și orașele care nu primesc credite bancare în condiții bune. Scopul declarat este evitarea restituirii fondurilor UE și a penalităților datorate constructorilor.",
-    "realityCheck": "OUG creează un fond de împrumut de până la 2 mld. lei din veniturile din privatizare aflate în Trezorerie. Dobânda este fixă, ROBOR 3M plus 1-1,5 pp, iar rambursarea se face în 1-5 ani. Împrumuturile sunt scoase de sub limita de îndatorare de 20% (art. 63 alin. (4) din Legea 273/2006) și de sub plafoanele din Legea 42/2026. Criteriile de alocare și documentele cerute sunt lăsate în întregime pe seama unui ordin al ministrului finanțelor. Dacă o primărie nu plătește ratele, i se sistează cotele defalcate și sumele de echilibrare, cu unele excepții sociale.",
+    "riskScore": 4.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Primăriile pot lua împrumuturi ieftine de la stat, până la 2 miliarde de lei, ca să termine proiectele europene blocate",
+    "summaryTlDr": "Scopul e util și urgent: salvează proiecte 2014-2020 care altfel ar obliga primăriile să returneze banii UE. Problema e că legea scoate comunele și orașele de sub orice plafon de îndatorare, fără limită pe UAT și fără criteriu de alocare, ceea ce slăbește disciplina fiscală într-un an de deficit excesiv.",
+    "initiatorClaim": "Guvernul spune că multe UAT mici nu pot plăti cheltuielile neeligibile și cofinanțarea pentru proiectele europene nefinalizate sau nefuncționale, iar băncile nu le creditează. Fără bani, proiectele se reziliază, banii UE trebuie restituiți și crește riscul de dezangajare.",
+    "realityCheck": "OUG creează o linie de credit din veniturile din privatizare ale Trezoreriei (ROBOR 3M + 1–1,5 pp, dobândă fixă, 1–5 ani). Ocolește limita legală de îndatorare a UAT (art. 63 alin. 4 și 4^1 din Legea 273/2006), plafoanele din Legea 42/2026 și „alte prevederi” nenominalizate. Pentru comune și orașe nu există sumă maximă. Lit. b) nu se limitează la proiectele 2014-2020: acoperă cofinanțarea oricărui proiect UE sau al donatorilor europeni, deci depășește justificarea de urgență. Sancțiunea pentru neplată este sistarea cotelor defalcate și a sumelor de echilibrare (alin. 10), cu excepția salariilor și a plăților pentru persoane cu handicap și protecția copilului. Efectul poate lovi indirect serviciile publice locale.",
     "affectedGroups": [
+      "Toți cetățenii",
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate",
-      "Toți cetățenii"
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. 1 alin. (2) lit. e) pct. i)-ii) OUG 35/2026",
-      "proposalContent": "i) 10.000 mii lei pentru comune; ii) 15.000 mii lei pentru orașe. Se introduce alin. (2^1): «Dacă solicitările depășesc 2.000.000 mii lei, se autorizează cu prioritate împrumuturile pentru proiectele 2014-2020 cu termen de operaționalizare 31.12.2026, apoi în ordinea depunerii documentației complete.»",
-      "argumentation": "Lipsa oricărui plafon pentru comune și orașe permite ca puține UAT-uri să consume mare parte din fondul de 2 mld. lei, în timp ce municipiile au plafoane de 20-35 mil. lei. Fără criterii de departajare, alocarea rămâne la discreția ordinului MF. Prioritatea pentru proiectele 2014-2020 previne încetarea contractelor și restituirea fondurilor UE.",
-      "otherComments": "De corectat: art. 1 alin. (1) nu exclude municipiile reședință de județ, deși fișa și Expunerea de motive o afirmă, iar alin. (2) lit. e) pct. iv) le dă plafon. Art. 3 este trunchiat («în condițiile prevăzute. La art. 61–63»), iar lit. b) este incompletă. Secțiunea 4 (impact financiar) este necompletată."
+      "articleRef": "Art. 1 alin. (2) lit. e) din OUG nr. 35/2026",
+      "proposalContent": "Pct. i) și ii) se modifică: «i) 15.000 mii lei pentru comune; ii) 20.000 mii lei pentru orașe.» Se introduce lit. f): «f) Comisia de autorizare a împrumuturilor locale avizează solicitările în ordinea depunerii documentației complete, până la epuizarea sumei de la alin. (1), și publică lunar lista împrumuturilor autorizate.»",
+      "argumentation": "Lipsa oricărei limite pentru comune și orașe, plus derogarea de la limita de îndatorare (lit. c), permite ca puține UAT să epuizeze cele 2 mld. lei sau să se îndatoreze peste capacitate, cu risc de sistare a cotelor defalcate (alin. 10). Un criteriu transparent de alocare asigură egalitate și previzibilitate.",
+      "otherComments": "Art. 3 pare trunchiat («în condițiile prevăzute. La art. 61–63...»). Propun forma: «în condițiile prevăzute la art. 61–63 din Legea nr. 273/2006». Fișa și expunerea de motive exclud municipiile reședință de județ, dar alin. (2) lit. e) pct. iv) le dă plafon de 30.000 mii lei. Trebuie clarificat."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 45597,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 89665,
       "sourceEndMarker": "SF-6A09A177",
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Împrumuturi de la Trezorerie pentru primării ca să termine proiectele europene blocate",
-      "verdictShort": "Măsură utilă și tehnică prin care statul împrumută primăriile cu până la 2 miliarde de lei pentru a evita pierderea fondurilor europene și a plăti constructorii. Riscul principal nu este abuzul contra cetățenilor, ci disciplina bugetară slabă: derogarea de la pragul de îndatorare fără plafon pentru comune și orașe și o contradicție între textul legii și expunerea de motive.",
-      "initiatorClaim": "Guvernul susține că primăriile, în special comunele și orașele fără acces avantajos la bănci comerciale, au nevoie urgentă de împrumuturi din veniturile din privatizare pentru a acoperi cheltuielile neeligibile ale proiectelor 2014–2020 nefinalizate și cofinanțarea proiectelor europene, evitând dezangajarea fondurilor UE și penalitățile către constructori.",
-      "realityCheck": "În practică, OUG nr. 35/2026 deschide o linie de credit de 2 miliarde lei din Trezorerie (dobândă fixată la ROBOR 3M + 1% sau 1,5%, rambursare în 1–5 ani), exceptată de la plafoanele de îndatorare ale Legii 273/2006 și ale Legii 42/2026. Deși fișa oficială și expunerea de motive afirmă că municipiile reședință de județ sunt excluse, art. 1 alin. (2) lit. e) le acordă explicit un plafon de 30 mil. lei, iar comunele și orașele pot împrumuta fără limită maximă, sub sancțiunea sistării cotelor defalcate dacă întârzie ratele.",
-      "affectedGroups": [
-        "IMM & Antreprenori",
-        "Contabili & Fiscalitate",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Contradicție între expunerea de motive și textul aplicabil (Art. 1 alin. 2 lit. e pct. iv): Expunerea de motive și fișa Camerei spun că împrumuturile se acordă «cu excepția municipiilor reședință de județ», însă textul OUG le acordă un plafon de 30.000 mii lei (iar județelor și Municipiului București până la 35.000 mii lei).",
-        "Îndatorare fără plafon individual pentru comune și orașe (Art. 1 alin. 1 și alin. 2 lit. c, e): Actul derogă de la limita de îndatorare din Legea nr. 273/2006 și de la plafoanele Legii nr. 42/2026, fără limită maximă pentru comune și orașe; în caz de neplată, Trezoreria sistează alimentarea cu cote defalcate (Art. 1 alin. 10).",
-        "Scăpări de redactare și fișă financiară goală: Art. 1 alin. (1) lit. b), art. 1 alin. (4) și art. 3 au fraze trunchiate, art. 1 alin. (17) cere vag prospectarea prealabilă a pieței financiare, iar tabelul de impact financiar din Secțiunea a 4-a a Expunerii de motive nu este completat."
-      ],
-      "blindSpotsCaught": "Chichița principală este discrepanța dintre scopul declarat (sprijinirea UAT-urilor mici, cu excluderea reședințelor de județ) și mecanismul din art. 1 alin. (2) lit. e), unde reședințele de județ și Bucureștiul primesc acces la plafonul comun de 2 mld. lei, în timp ce comunele și orașele nu au niciun plafon maxim per unitate, putând consuma disproporționat fondul sau să se supraîndatoreze.",
-      "constitutionalityNote": "Din perspectiva art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), textul OUG are erori de redactare (fraze neterminate la art. 1 alin. 1 lit. b, alin. 4 și art. 3) și o necorelare între expunerea de motive și dispozitiv privind eligibilitatea municipiilor reședință de județ. Urgența (art. 115 alin. 4) este motivată plauzibil de termenul-limită 31 decembrie 2026 pentru operaționalizarea proiectelor 2014–2020, însă lipsa datelor din fișa financiară slăbește rigoarea fiscal-bugetară raportat la art. 138.",
-      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2015/1535 (TRIS), nevizând servicii digitale sau reglementări tehnice, și nici a Directivei (UE) 2018/958, nefiind o reglementare a profesiilor. Împrumuturile sunt acordate exclusiv autorităților publice (UAT, instituții locale, ADI) la dobândă de referință (ROBOR 3M + marjă), având un efect neutru-pozitiv asupra pieței interne prin deblocarea plăților către contractori și evitarea dezangajării fondurilor UE.",
-      "senatForm": {
-        "articleRef": "Art. 1 alin. (2) lit. e) din OUG nr. 35/2026",
-        "proposalContent": "La art. 1 alin. (2) lit. e), pct. i) și ii) se modifică: «i) cel mult 10.000 mii lei pentru comune; ii) cel mult 15.000 mii lei pentru orașe;», iar la pct. iv) se clarifică expres dacă municipiile reședință de județ sunt eligibile sau excluse, conform Expunerii de motive.",
-        "argumentation": "Derogarea de la limita de îndatorare fără plafon maxim pentru comune și orașe riscă supraîndatorarea și blocarea bugetelor prin sistarea cotelor defalcate (art. 1 alin. 10). În plus, Expunerea de motive exclude municipiile reședință de județ, dar art. 1 alin. (2) lit. e) pct. iv) le alocă până la 30 mil. lei.",
-        "otherComments": "Solicităm și corectarea erorilor de redactare din textul OUG nr. 35/2026 (art. 1 alin. (1) lit. b) fără final de frază înaintea alin. (2), art. 1 alin. (4) trunchiat și art. 3 întrerupt înainte de «cu modificările și completările ulterioare»), precum și completarea fișei financiare din Secțiunea a 4-a a Expunerii de motive."
-      },
-      "reachedEnd": true,
-      "status": "ok"
-    },
-    "claude": {
-      "model": "claude",
-      "durationMs": 56616,
-      "sourceEndMarker": "SF-6A09A177",
-      "riskScore": 4,
+      "riskScore": 5,
       "riskLevel": "yellow",
-      "plainTitle": "Împrumuturi de 2 miliarde lei de la stat pentru primăriile care nu-și pot termina proiectele cu bani europeni",
-      "verdictShort": "Măsura e utilă și are dobândă avantajoasă, dar textul are probleme reale. Comunele și orașele nu au niciun plafon individual, iar excluderea municipiilor reședință de județ, anunțată în fișa Camerei, nu apare în articole. Plafoanele de îndatorare sunt suspendate fără o estimare a impactului bugetar, iar art. 3 este trunchiat.",
-      "initiatorClaim": "Guvernul vrea să deblocheze proiectele europene 2014-2020 rămase nefinalizate sau nefuncționale și să asigure cofinanțarea proiectelor UE. Beneficiarii vizați sunt în special comunele și orașele care nu primesc credite bancare în condiții bune. Scopul declarat este evitarea restituirii fondurilor UE și a penalităților datorate constructorilor.",
-      "realityCheck": "OUG creează un fond de împrumut de până la 2 mld. lei din veniturile din privatizare aflate în Trezorerie. Dobânda este fixă, ROBOR 3M plus 1-1,5 pp, iar rambursarea se face în 1-5 ani. Împrumuturile sunt scoase de sub limita de îndatorare de 20% (art. 63 alin. (4) din Legea 273/2006) și de sub plafoanele din Legea 42/2026. Criteriile de alocare și documentele cerute sunt lăsate în întregime pe seama unui ordin al ministrului finanțelor. Dacă o primărie nu plătește ratele, i se sistează cotele defalcate și sumele de echilibrare, cu unele excepții sociale.",
+      "plainTitle": "Împrumuturi de 2 miliarde lei din Trezorerie pentru primării, fără limită de îndatorare",
+      "verdictShort": "Un colac de salvare real pentru finalizarea proiectelor europene locale, dar scris neglijent și fără frâne financiare: ridică limita de îndatorare a primăriilor și ocolește plafoanele bugetare pe 2026 fără nicio fișă financiară.",
+      "initiatorClaim": "Guvernul susține că sprijină primăriile mici, fără acces la credite bancare, să finalizeze proiectele europene 2014–2020 blocate și să cofinanțeze investiții noi, evitând pierderea fondurilor UE și penalitățile către constructori.",
+      "realityCheck": "În realitate, OUG deschide un plafon de 2 miliarde lei din venituri din privatizare cu derogare totală de la limita de îndatorare de 30% și de la plafoanele fiscal-bugetare pe 2026 (Legea 42/2026), cu secțiunea de impact financiar complet goală. Contrar Expunerii de Motive care pretinde excluderea municipiilor reședință de județ, textul legii le include expres (până la 30 mil. lei), ca și sectoarele Capitalei și județele (35 mil. lei), iar comunele și orașele nu au niciun plafon individual, riscând blocarea bugetului local la prima rată restantă.",
       "affectedGroups": [
         "Toți cetățenii",
         "IMM & Antreprenori",
         "Contabili & Fiscalitate"
       ],
       "keyFindings": [
-        "Discrepanță normativă: fișa Camerei și Expunerea de motive afirmă că municipiile reședință de județ sunt excluse. Art. 1 alin. (1) nu conține această excepție, iar art. 1 alin. (2) lit. e) pct. iv) le acordă chiar un plafon de 30 mil. lei. Textul normativ prevalează, deci ele pot solicita împrumut.",
-        "Art. 1 alin. (2) lit. e) pct. i)-ii): comunele și orașele nu au nicio limită maximă individuală. Municipiile au plafoane de 20-35 mil. lei. Nu există nicio regulă de departajare când cererile depășesc 2 mld. lei, așa că alocarea depinde exclusiv de ordinul MF prevăzut la alin. (16).",
-        "Art. 1 alin. (2) lit. c)-d) derogă de la limita de îndatorare și de la plafoanele de finanțare din Legea 42/2026. Secțiunea 4 din Expunerea de motive (impact financiar) este complet goală, fără fișă financiară conform art. 15 din Legea 500/2002, deși cheltuielile UAT finanțate astfel cresc deficitul ESA.",
-        "Art. 1 alin. (10): la neplata ratelor se sistează cotele defalcate din impozitul pe venit și sumele de echilibrare. Sunt exceptate salariile, drepturile persoanelor cu handicap și protecția copilului, dar sunt afectate celelalte servicii locale. Mecanismul este dur, însă are precedent în OUG-uri similare.",
-        "Art. 3 este trunchiat: «se pot refinanța ... în condițiile prevăzute. La art. 61 – 63 din Legea nr. 273/2006, cu modificările și completările». Art. 1 alin. (1) lit. b) este și el incomplet, iar destinația lui (cofinanțarea oricăror proiecte UE sau ale donatorilor europeni) este mult mai largă decât criza proiectelor 2014-2020.",
-        "Problemă de calendar: proiectele nefuncționale trebuie operaționalizate până la 31.12.2026, sub sancțiunea încetării contractelor de finanțare (OUG 36/2023). Termenul de depunere a cererilor de împrumut este tot 31.12.2026, deci banii pot ajunge prea târziu pentru exact proiectele pe care OUG declară că le salvează."
+        "Contradicție flagrantă cu Expunerea de Motive: nota de fundamentare și fișa Camerei spun că municipiile reședință de județ sunt excluse, dar Art. 1 alin. (2) lit. e) pct. iv)-v) le acordă împrumuturi de până la 30 mil. lei, alături de sectoarele Bucureștiului (30 mil. lei) și județe/Municipiul București (35 mil. lei).",
+        "Fără limită de îndatorare și fără plafon pentru comune/orașe: Art. 1 alin. (1) și alin. (2) lit. c)-e) derogă de la pragul de îndatorare din Legea 273/2006 și de la plafoanele Legii 42/2026, fără plafon maxim individual pentru comune și orașe; la neplată, Art. 1 alin. (10) sistează cotele defalcate de la bugetul de stat, paralizând serviciile publice (rămân doar salariile și asistența socială).",
+        "Impact bugetar de 2 miliarde lei neevaluat și cheltuieli neeligibile fără filtru: Secțiunea a 4-a din Expunerea de Motive este complet goală, iar Art. 1 alin. (1) lit. b) permite împrumuturi pentru cheltuieli neeligibile fără a exclude corecțiile financiare din nereguli sau achiziții viciate.",
+        "Capcană de audit și redactare defectuoasă: Art. 1 alin. (17) obligă primăriile să facă «demersuri» nedefinite pe piața financiară înainte de a solicita împrumutul (risc de imputare la Curtea de Conturi), iar Art. 1 alin. (1) lit. b) și Art. 3 conțin fraze trunchiate."
       ],
-      "blindSpotsCaught": "Pretextul din Expunerea de motive este sprijinirea comunelor și orașelor mici, dar efectul mecanic este diferit. Lipsa plafonului individual pentru acestea, combinată cu lipsa oricărui criteriu de prioritizare, permite ca o parte substanțială din cei 2 mld. lei să fie absorbită de câteva UAT-uri. Excepția pentru municipiile reședință de județ există doar pe hârtia explicativă. Art. 1 alin. (17) mută integral asupra primăriilor răspunderea pentru oportunitatea împrumutului, deși derogarea de la limita de îndatorare le permite să se îndatoreze peste capacitatea lor normală de plată.",
-      "constitutionalityNote": "Urgența (art. 115 alin. (4)) este motivată concret prin termenul de 31.12.2026 și prin riscul restituirii fondurilor UE, deci pare suficientă. OUG nu afectează domeniile interzise de art. 115 alin. (6), iar împrumutul este facultativ, așa că autonomia locală (art. 120-121) nu este lezată. Probleme de calitate a legii (art. 1 alin. (5)): art. 3 trunchiat, lit. b) incompletă și contradicția dintre textul normativ și obiectul declarat privind municipiile reședință de județ. Delegarea criteriilor esențiale de alocare către un ordin de ministru, fără repere în lege, poate fi criticată din perspectiva previzibilității. Lipsa fișei financiare ridică o problemă față de art. 138 alin. (5) și de art. 15 din Legea 500/2002, deși aici e vorba de operațiuni de trezorerie, nu de cheltuieli directe. Diferențierea plafoanelor între categorii de UAT este justificabilă obiectiv (art. 16).",
-      "euLawNote": "Directiva 2018/958 nu este incidentă, deoarece nu se reglementează profesii. TRIS 2015/1535 nu este incidentă, deoarece nu se reglementează servicii digitale sau reguli tehnice. Ajutorul de stat este puțin probabil, pentru că beneficiarii sunt UAT-uri care finanțează infrastructură publică non-economică. Rămâne de verificat cazul proiectelor cu componentă economică exploatată comercial. Riscul UE relevant este fiscal: România se află în procedura de deficit excesiv (Reg. (UE) 2024/1263), iar derogarea de la plafoanele de îndatorare locală poate majora deficitul în termeni ESA 2010 fără o estimare cuantificată. Pozitiv: măsura reduce riscul de corecții financiare și de restituire a fondurilor din Regulamentul (UE) 1303/2013 aferente perioadei 2014-2020.",
+      "blindSpotsCaught": "Două vicii ascunse majore: (1) Secțiunea 7.1 din Expunerea de Motive declară publicarea proiectului pe 29.04.2026 cu 10 zile pentru consultare (indicând eronat o adresă de e-mail ca pagină web), însă OUG a fost adoptată peste doar 5 zile, pe 4 mai 2026; (2) Art. 1 alin. (11) interzice împrumutul doar UAT-urilor cu restanțe la credite anterioare din privatizare, nu și celor cu arierate grave la furnizori sau bănci, lăsând ușa deschisă supraîndatorării.",
+      "constitutionalityNote": "Vulnerabilități pe Art. 1 alin. (5) (calitatea și previzibilitatea legii: fraze rupte la Art. 1 alin. 1 lit. b și Art. 3, obligația vagă de a testa piața bancară la Art. 1 alin. 17, delegarea documentelor și condițiilor esențiale către un ordin de ministru la Art. 1 alin. 12 și 16), Art. 115 alin. (4) (urgența invocată în mai 2026 pentru un termen de eligibilitate expirat din 31 decembrie 2023) și Art. 138 alin. (5) coroborat cu Legea 500/2002 (absența completă a fișei financiare pentru 2 miliarde lei).",
+      "euLawNote": "Directivele (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și 2015/1535 (TRIS / servicii digitale) nu sunt incidente. Măsura ajută la evitarea dezangajării fondurilor UE 2014–2020 (Regulamentul UE nr. 1303/2013), dar ridică două riscuri europene: (1) impact necuantificat asupra deficitului bugetar ESA 2010 în contextul procedurii de deficit excesiv, prin derogarea de la plafoanele fiscal-bugetare; (2) posibile riscuri de ajutor de stat (Art. 107 TFUE) dacă sumele transferate către ADI-uri (Art. 1 alin. 5) finanțează activități economice în condiții sub cele ale pieței.",
       "senatForm": {
-        "articleRef": "Art. 1 alin. (2) lit. e) pct. i)-ii) OUG 35/2026",
-        "proposalContent": "i) 10.000 mii lei pentru comune; ii) 15.000 mii lei pentru orașe. Se introduce alin. (2^1): «Dacă solicitările depășesc 2.000.000 mii lei, se autorizează cu prioritate împrumuturile pentru proiectele 2014-2020 cu termen de operaționalizare 31.12.2026, apoi în ordinea depunerii documentației complete.»",
-        "argumentation": "Lipsa oricărui plafon pentru comune și orașe permite ca puține UAT-uri să consume mare parte din fondul de 2 mld. lei, în timp ce municipiile au plafoane de 20-35 mil. lei. Fără criterii de departajare, alocarea rămâne la discreția ordinului MF. Prioritatea pentru proiectele 2014-2020 previne încetarea contractelor și restituirea fondurilor UE.",
-        "otherComments": "De corectat: art. 1 alin. (1) nu exclude municipiile reședință de județ, deși fișa și Expunerea de motive o afirmă, iar alin. (2) lit. e) pct. iv) le dă plafon. Art. 3 este trunchiat («în condițiile prevăzute. La art. 61–63»), iar lit. b) este incompletă. Secțiunea 4 (impact financiar) este necompletată."
+        "articleRef": "Art. 1 alin. (2) lit. c) și e) OUG 35/2026",
+        "proposalContent": "La art. 1 alin. (2) lit. c) și e) pct. i)-ii), se introduce un plafon maxim de îndatorare de 35% și limite de 10.000 mii lei pentru comune, respectiv 15.000 mii lei pentru orașe. La art. 1 alin. (1) lit. b), se completează fraza trunchiată și se exclud explicit cheltuielile neeligibile rezultate din corecții financiare pentru nereguli.",
+        "argumentation": "Eliminarea limitei de îndatorare (Legea 273/2006) și lipsa plafonului pentru comune și orașe riscă supraîndatorarea UAT-urilor mici. La neplată, art. 1 alin. (10) sistează cotele defalcate, blocând serviciile locale. Excluderea corecțiilor financiare pentru nereguli previne acoperirea din Trezorerie a erorilor de achiziții.",
+        "otherComments": "Solicităm Comisiei să ceară Ministerului Finanțelor fișa financiară lipsă (Secțiunea 4 din Expunerea de Motive e complet goală pentru 2 mld. lei) și să explice contradicția majoră: Expunerea de Motive exclude municipiile reședință de județ, dar art. 1 alin. (2) lit. e) le acordă până la 30 mil. lei. Corectați și eroarea de redactare de la art. 3."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 57266,
+      "sourceEndMarker": "SF-6A09A177",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăriile pot lua împrumuturi ieftine de la stat, până la 2 miliarde de lei, ca să termine proiectele europene blocate",
+      "verdictShort": "Scopul e util și urgent: salvează proiecte 2014-2020 care altfel ar obliga primăriile să returneze banii UE. Problema e că legea scoate comunele și orașele de sub orice plafon de îndatorare, fără limită pe UAT și fără criteriu de alocare, ceea ce slăbește disciplina fiscală într-un an de deficit excesiv.",
+      "initiatorClaim": "Guvernul spune că multe UAT mici nu pot plăti cheltuielile neeligibile și cofinanțarea pentru proiectele europene nefinalizate sau nefuncționale, iar băncile nu le creditează. Fără bani, proiectele se reziliază, banii UE trebuie restituiți și crește riscul de dezangajare.",
+      "realityCheck": "OUG creează o linie de credit din veniturile din privatizare ale Trezoreriei (ROBOR 3M + 1–1,5 pp, dobândă fixă, 1–5 ani). Ocolește limita legală de îndatorare a UAT (art. 63 alin. 4 și 4^1 din Legea 273/2006), plafoanele din Legea 42/2026 și „alte prevederi” nenominalizate. Pentru comune și orașe nu există sumă maximă. Lit. b) nu se limitează la proiectele 2014-2020: acoperă cofinanțarea oricărui proiect UE sau al donatorilor europeni, deci depășește justificarea de urgență. Sancțiunea pentru neplată este sistarea cotelor defalcate și a sumelor de echilibrare (alin. 10), cu excepția salariilor și a plăților pentru persoane cu handicap și protecția copilului. Efectul poate lovi indirect serviciile publice locale.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (2) lit. e) pct. i)–ii): comunele și orașele nu au nicio limită maximă de împrumut. Cumulat cu lit. c) (derogare de la limita de îndatorare) și lit. d) (plafoane «exceptat»), câteva UAT pot epuiza singure cele 2 mld. lei sau se pot îndatora peste capacitatea de rambursare.",
+        "Art. 1 alin. (1) derogă și de la «alte prevederi referitoare la plafoanele privind finanțările rambursabile», fără să le numească. Este o derogare nedeterminată, problematică pentru claritatea normei.",
+        "Neconcordanță: fișa Camerei și expunerea de motive spun că municipiile reședință de județ sunt excluse. Textul OUG le include însă, cu un plafon de 30.000 mii lei (alin. 2 lit. e pct. iv), alături de sectoarele Capitalei.",
+        "Nu există un criteriu de alocare între solicitanți (ordinea depunerii, prioritate pentru proiectele cu termen la 31.12.2026 etc.). Totul e lăsat ordinului ministrului finanțelor (alin. 16).",
+        "Secțiunea 4 din expunerea de motive (impactul financiar) este complet goală, deși OUG mobilizează 2 mld. lei. Cheltuielile UAT finanțate din aceste împrumuturi cresc deficitul bugetului general consolidat (metodologia SEC 2010).",
+        "Alin. (10) sancționează neplata prin sistarea cotelor defalcate și a sumelor de echilibrare. Mecanismul e cunoscut din OUG anterioare și are excepții sociale, dar poate bloca alte servicii locale."
+      ],
+      "blindSpotsCaught": "Art. 3 apare trunchiat în forma extrasă («în condițiile prevăzute. La art. 61 – 63 din Legea nr. 273/2006...»), iar lit. b) a alin. (1) nu are final. Dacă eroarea nu ține doar de extragere, refinanțarea la bănci nu are un regim clar. Alin. (17) mută integral răspunderea pentru oportunitate pe UAT și le cere să caute întâi oferte din piață, dar nu spune cum se dovedește acest demers. Termenul de depunere, 31.12.2026, e la câteva săptămâni distanță (azi: 24.11.2026), deci orice amendament de fond care ar modifica condițiile de acces riscă să nu mai aibă efect practic.",
+      "constitutionalityNote": "Urgența (art. 115 alin. 4) e plauzibil justificată de termenul din 31.12.2026 pentru operaționalizarea proiectelor nefuncționale (OUG 36/2023). Pentru lit. b), care privește cofinanțarea generală, urgența e mai slab motivată. Derogarea de la «alte prevederi» nenominalizate și forma trunchiată a art. 3 ridică probleme de claritate și previzibilitate (art. 1 alin. 5; Legea 24/2000). Sistarea cotelor defalcate afectează autonomia financiară locală (art. 120, art. 121), însă CCR a acceptat mecanisme similare atunci când ele sunt asumate contractual și au excepții sociale. Lipsa fișei financiare (art. 15 din Legea 500/2002) e un viciu de fundamentare, dar nu un motiv clar de neconstituționalitate pentru o inițiativă a Guvernului. Aprobarea prin lege ordinară este corectă.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate pentru profesii) nu se aplică, iar TRIS 2015/1535 nu e relevantă: nu sunt reglementate servicii digitale sau reguli tehnice. Mecanismul sprijină absorbția fondurilor de coeziune și respectă Regulamentul 1303/2013. Riscul UE ține de guvernanța fiscală: derogarea de la plafoanele de îndatorare locală și de la Legea 42/2026 vine în timp ce România e în procedura de deficit excesiv (Regulamentul 1467/97, Directiva 2011/85 privind cadrele bugetare). Ajutorul de stat e marginal: dobânda e de piață, iar beneficiarii sunt autorități publice. Ar deveni relevant doar dacă banii ar finanța activități economice ale ADI sau operatorilor locali.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (2) lit. e) din OUG nr. 35/2026",
+        "proposalContent": "Pct. i) și ii) se modifică: «i) 15.000 mii lei pentru comune; ii) 20.000 mii lei pentru orașe.» Se introduce lit. f): «f) Comisia de autorizare a împrumuturilor locale avizează solicitările în ordinea depunerii documentației complete, până la epuizarea sumei de la alin. (1), și publică lunar lista împrumuturilor autorizate.»",
+        "argumentation": "Lipsa oricărei limite pentru comune și orașe, plus derogarea de la limita de îndatorare (lit. c), permite ca puține UAT să epuizeze cele 2 mld. lei sau să se îndatoreze peste capacitate, cu risc de sistare a cotelor defalcate (alin. 10). Un criteriu transparent de alocare asigură egalitate și previzibilitate.",
+        "otherComments": "Art. 3 pare trunchiat («în condițiile prevăzute. La art. 61–63...»). Propun forma: «în condițiile prevăzute la art. 61–63 din Legea nr. 273/2006». Fișa și expunerea de motive exclud municipiile reședință de județ, dar alin. (2) lit. e) pct. iv) le dă plafon de 30.000 mii lei. Trebuie clarificat."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 75005,
+      "durationMs": 76381,
       "sourceEndMarker": "SF-6A09A177",
       "riskScore": 4,
       "riskLevel": "yellow",
-      "plainTitle": "Împrumuturi pentru terminarea proiectelor europene ale comunităților locale",
-      "verdictShort": "Mecanismul poate salva investiții și evita restituirea finanțărilor europene. Riscul principal este acumularea unor datorii locale greu de rambursat, prin derogări de la limitele obișnuite și fără criterii explicite de repartizare a plafonului disponibil.",
-      "initiatorClaim": "Inițiatorii urmăresc deblocarea proiectelor europene pentru care comunitățile locale nu au bani de cofinanțare sau de cheltuieli neeligibile. Invocă riscul pierderii finanțărilor și al degradării serviciilor publice.",
-      "realityCheck": "Art. 1 permite împrumuturi rambursabile din veniturile din privatizare, într-un plafon total de 2 miliarde lei, cu solicitări până la 31 decembrie 2026 și contractare în 2026–2027. Textul normativ include municipiile reședință de județ, contrar descrierii din expunerea de motive și fișa furnizată, și nu stabilește plafoane individuale pentru comune și orașe. Dobânda este fixată la acordare, rambursarea începe din trimestrul următor, iar neplata poate conduce la sistarea unor transferuri către bugetul local.",
+      "plainTitle": "Împrumuturi pentru finalizarea proiectelor europene ale comunităților locale",
+      "verdictShort": "Mecanismul poate salva investiții locale și finanțări europene, dar transferă presiunea financiară asupra bugetelor locale viitoare. Riscul principal rezultă din derogările de la limitele îndatorării, combinate cu lipsa unui plafon individual pentru comune și orașe.",
+      "initiatorClaim": "Inițiatorii urmăresc deblocarea proiectelor europene prin finanțarea cofinanțării și a cheltuielilor neeligibile. Susțin că astfel pot fi evitate pierderea finanțării, recuperarea sumelor deja acordate și penalitățile generate de întârzieri.",
+      "realityCheck": "Textul permite împrumuturi din veniturile din privatizare, într-un plafon total de 2 miliarde lei, contractate în 2026–2027 pentru solicitări depuse până la 31 decembrie 2026; sunt datorii rambursabile, cu dobândă, nu subvenții. Spre deosebire de expunerea de motive și de fișa descriptivă, dispozițiile includ municipiile reședință de județ, cu plafon individual de 30 milioane lei. Derogările facilitează accesul la finanțare, însă rambursarea începe din trimestrul următor acordării, iar restanțele pot declanșa sistarea unor transferuri către bugetele locale.",
       "affectedGroups": [
-        "IMM & Antreprenori",
         "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 alin. (1) și (2) derogă expres de la reguli privind îndatorarea și plafoanele de contractare/tragere. Comunele și orașele nu au plafon individual, dar rămân în plafonul total de 2 miliarde lei; pentru municipiile reședință de județ și sectoarele Bucureștiului plafonul este de 30 milioane lei.",
-        "Art. 1 alin. (2) lit. a) și b) prevede dobândă fixă, calculată folosind ROBOR la 3 luni plus 1 sau 1,5 puncte procentuale, și rambursare în 1–5 ani. Art. 1 alin. (6) nu acordă perioadă de grație pentru principal.",
-        "Art. 1 alin. (10) permite sistarea cotelor și sumelor defalcate prevăzute acolo pentru neplată. Sunt protejate anumite salarii și prestații sociale, în condițiile textului, dar alte servicii și investiții locale pot suporta presiunea recuperării datoriei.",
-        "Art. 1 alin. (11) păstrează avizul Comisiei de autorizare a împrumuturilor locale și exclude solicitanții cu restanțe la împrumuturile anterioare din privatizare. Extrasul nu stabilește criterii de prioritate pentru situația în care cererile eligibile depășesc plafonul total.",
-        "Art. 1 alin. (13), (15) și (17) plasează responsabilitatea documentelor, oportunității și bugetării rambursărilor la nivel local. Împrumuturile pentru asociațiile de dezvoltare intercomunitară sunt contractate de UAT, care rămâne debitor.",
-        "Art. 2 reglementează restituirea sumelor virate în plus, iar art. 3 permite refinanțarea bancară cu trimitere la Legea nr. 273/2006, însă finalul acestuia este trunchiat în extras. Nu sunt reproduse abrogări sau dispoziții care să prelungească termenele de finalizare a proiectelor europene."
+        "Art. 1 alin. (1) și alin. (2) lit. c)–e): împrumuturile beneficiază de derogări privind îndatorarea și plafoanele de contractare/tragere. Comunele și orașele nu au plafon individual, dar rămân supuse plafonului total de 2 miliarde lei și avizului Comisiei de autorizare a împrumuturilor locale.",
+        "Art. 1 alin. (2) lit. a)–b) și alin. (6): dobânda este ROBOR la 3 luni, fixat la momentul de referință prevăzut de text, plus 1 sau 1,5 puncte procentuale, și rămâne fixă. Rambursarea durează 1–5 ani, fără perioadă de grație prevăzută expres; durata scurtă poate apăsa asupra comunităților cu venituri reduse.",
+        "Art. 1 alin. (10): neplata ratelor și dobânzilor conduce la sistarea alimentării cu cote din impozitul pe venit și sume de echilibrare. Există excepții pentru salarii și anumite prestații și servicii sociale, în condițiile textului, însă alte servicii locale pot pierde lichiditate; nu este prevăzută expres procedura reluării transferurilor.",
+        "Art. 1 alin. (11), (15) și (17) păstrează garanții utile: aviz obligatoriu, lipsa restanțelor la împrumuturile anterioare din privatizare, bugetarea serviciului datoriei și examinarea ofertelor pieței. Totuși, lipsa restanțelor nu dovedește singură capacitatea viitoare de rambursare, iar textul nu stabilește criterii explicite de prioritizare când cererile depășesc plafonul total.",
+        "Art. 1 alin. (1) lit. a) menține condițiile din OUG nr. 36/2023 și cere confirmarea MIPE. Posibilitatea contractării în 2027 nu prelungește prin ea însăși termenele de finalizare a proiectelor; termenul de 31 decembrie 2026 invocat în expunere trebuie corelat distinct cu calendarul finanțării.",
+        "Art. 1 alin. (5) permite transferarea banilor către asociațiile de dezvoltare intercomunitară, dar împrumutul este contractat de UAT. Datoria rămâne astfel în sarcina bugetului local chiar dacă plățile proiectului sunt efectuate de asociație.",
+        "Art. 2 reglementează restituirea sumelor virate în plus și trebuie corelat cu păstrarea excedentelor până la scadența următoare, prevăzută la art. 1 alin. (9). Art. 3 permite refinanțarea bancară și, prin formularea generală, pare să privească toate împrumuturile UAT din venituri din privatizare; extragerea sa este însă incompletă și necesită confruntarea cu originalul.",
+        "Nu sunt introduse taxe, obligații declarative sau sancțiuni directe pentru cetățeni și IMM-uri. Constructorii și furnizorii pot beneficia de deblocarea plăților, iar cetățenii de investiții finalizate; costul indirect este serviciul datoriei suportat din bugetele locale viitoare."
       ],
-      "blindSpotsCaught": "Contractarea permisă în 2027 nu prelungește termenul de finalizare din 2026 invocat în expunerea de motive pentru anumite proiecte: eligibilitatea trebuie verificată separat pentru fiecare proiect. În plus, art. 2 trebuie corelat cu art. 1 alin. (9), care prevede păstrarea unor supraplăți până la scadența următoare. Erorile și trunchierea extrasului, mai ales la art. 3, trebuie confruntate cu originalul înainte de a fi atribuite legiuitorului.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din extras. Art. 1 alin. (5) din Constituție reclamă însă delimitarea precisă a derogării formulate generic prin «alte prevederi referitoare la plafoane» și corelarea regulilor privind supraplățile. Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident: textul nu instituie pedepse penale. Pentru art. 115 alin. (4), preambulul indică blocaje și riscuri concrete, dar caracterul extraordinar și imposibilitatea amânării trebuie susținute prin date, nu doar prin nevoia generală de investiții. Sursa împrumuturilor este identificată, astfel că lipsa cifrelor din evaluarea financiară nu dovedește singură încălcarea art. 138 alin. (5); rămâne insuficient explicată sustenabilitatea rambursărilor și efectul asupra autonomiei financiare locale.",
-      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă mecanismului descris: acesta nu introduce restricții de acces la profesii reglementate sau de exercitare a acestora. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată de textul furnizat, care nu stabilește reguli tehnice pentru produse ori servicii ale societății informaționale și nu reglementează AI. Nu apar monopoluri sau restricții directe asupra IMM-urilor; plata lucrărilor poate sprijini furnizorii. Totuși, dacă finanțarea avantajează activități economice, inclusiv prin beneficiarii indirecți, trebuie verificată punctual incidența regulilor privind ajutorul de stat. Împrumutul național nu transformă cheltuielile neeligibile în cheltuieli eligibile pentru rambursare europeană.",
+      "blindSpotsCaught": "Forma Senatului aprobă ordonanța fără modificări: excluderea municipiilor reședință de județ din expunere nu produce efect juridic și este contrazisă de includerea lor expresă în art. 1 alin. (2) lit. e). În plus, derogarea de la «alte prevederi» privind plafoanele nu identifică precis toate normele înlăturate, iar expunerea lasă necompletată evaluarea financiară, deși schema mobilizează până la 2 miliarde lei.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate certă. Art. 1 alin. (5) din Constituție impune însă delimitarea precisă a derogărilor și reguli previzibile de acordare și recuperare; eventualele erori OCR trebuie separate de defectele textului autentic. Pentru art. 115 alin. (4), blocajele și riscul pierderii finanțărilor pot susține urgența, dar motivarea ar trebui să documenteze concret situația extraordinară din mai 2026, deoarece termenul general de eligibilitate din 2023 era cunoscut. Sursa împrumuturilor este indicată, astfel că lipsa calculelor de impact nu dovedește automat încălcarea art. 138 alin. (5). Sistarea transferurilor merită examinată proporțional cu autonomia locală și continuitatea serviciilor publice. Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident: textul nu instituie pedepse penale.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind profesiile reglementate și nu este incidentă acestui mecanism de creditare. Nici procedura TRIS din Directiva (UE) 2015/1535 nu este declanșată de dispozițiile prezentate, care nu stabilesc reglementări tehnice pentru produse sau reguli pentru servicii ale societății informaționale. Nu apar monopoluri ori restricții directe de acces pe piață. Finanțarea autorităților pentru atribuții publice nu constituie automat ajutor de stat; dacă avantajul finanțează activități economice, inclusiv prin asociații, trebuie verificată punctual aplicabilitatea art. 107 alin. (1) TFUE. Împrumuturile naționale nu transformă cheltuielile neeligibile în cheltuieli eligibile pentru rambursare europeană.",
       "senatForm": {
-        "articleRef": "Art. 1 alin. (11) din OUG",
-        "proposalContent": "La final se adaugă: «Avizarea presupune evaluarea capacității de rambursare pe durata împrumutului. Dacă cererile eligibile depășesc plafonul, au prioritate proiectele cu termenul de finalizare cel mai apropiat; la egalitate, ordinea depunerii documentației complete. Ministerul Finanțelor publică lunar beneficiarii și sumele autorizate.»",
-        "argumentation": "Derogările de la limitele obișnuite și lipsa plafoanelor individuale pentru comune și orașe justifică o evaluare explicită a rambursării. Prioritatea legală și publicarea alocărilor reduc riscul distribuirii discreționare a plafonului de 2 miliarde lei.",
-        "otherComments": "Propunere pentru comisiile Camerei Deputaților, preluabilă de un deputat. Analiza privește extrasul furnizat; verificarea externă nu a fost disponibilă. Art. 3 trebuie confruntat cu originalul, iar descrierea beneficiarilor din documentele explicative trebuie corelată cu textul normativ."
+        "articleRef": "Art. 1, după alin. (11)",
+        "proposalContent": "Se introduce alin. (11^1): «Avizul se emite pe baza unei analize documentate a capacității de rambursare pe întreaga durată a împrumutului, ținând seama de veniturile estimate și obligațiile existente. Dacă solicitările depășesc plafonul total, au prioritate proiectele cu risc documentat de recuperare a finanțării europene.»",
+        "argumentation": "Derogarea de la limita îndatorării și lipsa plafoanelor individuale pentru comune și orașe cer o evaluare prospectivă. Absența restanțelor nu garantează rambursarea viitoare. Prioritizarea explicită protejează fondurile europene și limitează discreția în distribuirea plafonului disponibil.",
+        "otherComments": "Analiza privește forma furnizată; verificarea online a trimiterilor nu a fost disponibilă. Art. 3 trebuie confruntat cu originalul, fiind extras incomplet. Sunt necesare și corelarea calendarului cu termenele proiectelor, respectiv precizarea reluării transferurilor după stingerea restanțelor."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T11:39:51.324Z",
+      "method": "whole-text-v1",
+      "textChars": 15611,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:15:06.865Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 3.7,
       "riskLevel": "green",

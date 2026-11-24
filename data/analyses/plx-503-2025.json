@@ -2,23 +2,41 @@
   "billId": "PL-x 503/2025",
   "slug": "plx-503-2025",
   "version": "senat",
-  "updatedAt": "2026-11-19T11:36:23.811Z",
+  "updatedAt": "2026-11-24T15:15:02.337Z",
   "coverage": {
     "method": "whole-text-v1",
+    "form": "senat",
     "billChars": 743,
     "ordinanceChars": 13658,
     "memoChars": 20257,
     "memoSupplied": 20257,
-    "marker": "SF-1AD29ECD",
-    "form": "senat"
+    "marker": "SF-1AD29ECD"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-503-2025.json",
+    "form": "senat",
+    "textHash": "1ad29ecdf3a6b8b0",
+    "fetchedAt": "2026-11-19T10:46:51.574Z",
+    "acts": 0,
+    "actsFound": 0,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 0,
+    "truncated": false,
+    "included": false,
+    "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 2.3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Regulile de logistică și plata personalului pentru alegerile locale parțiale din 7 decembrie 2025",
-    "summaryTlDr": "Este o ordonanță tehnică, de unică folosință, care stabilește cine tipărește buletinele, cât sunt plătiți membrii secțiilor și cum se finanțează scrutinul. Alegerile au avut loc deja, așa că legea de aprobare este acum în mare parte o formalitate. Nu conține capcane pentru cetățeni sau firme, iar lipsurile reale țin de transparența bugetară.",
-    "initiatorClaim": "Guvernul spune că timpul scurt până la perioada electorală (2 noiembrie 2025) nu permitea procedurile obișnuite pentru materialele electorale. Ordonanța ar fi trebuit să asigure buletine, ștampile, timbre, indemnizații și sprijin informatic, plus un proiect pilot de vot independent pentru nevăzători.",
-    "realityCheck": "Ordonanța atribuie direct tipărirea buletinelor, a timbrelor și a ștampilelor către Monitorul Oficial, Imprimeria Națională și Monetăria Statului, cu hârtie de la ANRSPS la preț contabil. Fixează indemnizații între 128 și 248 lei pe zi, scutite de contribuții sociale, și scoate cheltuielile electorale de sub restricțiile bugetare din OUG 34/2023, 156/2024 și 52/2025. Toate efectele s-au consumat la scrutinul din 7.12.2025, deci aprobarea parlamentară vine după ce măsurile au fost deja aplicate.",
+    "plainTitle": "Parlamentul validează regulile tehnice folosite la alegerile locale parțiale din 7 decembrie 2025",
+    "summaryTlDr": "Lege tehnică și benignă, cu efecte deja consumate: aprobă organizarea logistică și plata personalului electoral pentru un scrutin care a avut loc deja. Singurele probleme sunt de bună guvernare: legislație repetată prin OUG la fiecare scrutin, impact bugetar necuantificat și un proiect pilot fără obligație de evaluare.",
+    "initiatorClaim": "Guvernul spune că timpul scurt până la perioada electorală (2 noiembrie 2025) nu permitea procurarea materialelor electorale prin procedurile obișnuite. Mai spune că OUG era necesară pentru a fixa indemnizațiile personalului electoral și suportul informatic și pentru a permite votul independent al nevăzătorilor.",
+    "realityCheck": "OUG desemnează direct instituțiile de stat care tipăresc buletinele, timbrele și ștampilele. Fixează indemnizațiile la același nivel ca în mai 2025 și scutește cheltuielile electorale de plafoanele de austeritate din OUG 34/2023, 156/2024 și 52/2025. Indemnizațiile sunt impozitate doar cu impozit pe venit, fără contribuții sociale. Proiectul pilot pentru nevăzători este facultativ („poate”) și lăsat integral la instrucțiunea AEP. Scrutinul a trecut, deci aprobarea are acum mai ales valoare de validare formală.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Angajați & HR",
@@ -26,56 +44,57 @@
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Art. 4^1 nou (după art. 4 din OUG 57/2025)",
-      "proposalContent": "Se introduce art. 4^1: „În termen de 60 de zile de la intrarea în vigoare a legii de aprobare, AEP publică pe site-ul propriu un raport de evaluare a proiectului pilot prevăzut la art. 4, cuprinzând numărul secțiilor și al alegătorilor care l-au utilizat, costurile, problemele constatate și recomandări pentru extinderea la alegerile viitoare.”",
-      "argumentation": "Alegerile din 7.12.2025 au avut loc, deci restul OUG și-a epuizat efectele. Singura valoare durabilă e lecția proiectului pilot pentru nevăzători (art. 4), organizat facultativ, prin instrucțiune. Un raport public permite generalizarea votului independent, conform art. 29 din Convenția ONU privind drepturile persoanelor cu dizabilități.",
-      "otherComments": "Expunerea de motive declară că actul „nu se referă” la impactul financiar (Secț. 4), deși art. 1 și 3 generează cheltuieli clare și scutiri de CAS/CASS. Pentru viitoare OUG electorale cerem fișă financiară reală și o lege-cadru permanentă privind indemnizațiile, ca să nu se mai adopte câte o OUG la fiecare scrutin."
+      "articleRef": "Art. 4 OUG 57/2025 – proiect pilot",
+      "proposalContent": "Art. 4 se completează cu alin. (3): «(3) În termen de 60 de zile de la intrarea în vigoare a legii de aprobare, Autoritatea Electorală Permanentă publică pe site-ul propriu un raport de evaluare a proiectului pilot, cuprinzând secțiile participante, numărul de alegători, costurile și recomandările pentru extinderea la nivel național.»",
+      "argumentation": "Art. 4 permite un proiect pilot finanțat public, stabilit doar prin instrucțiunea AEP, fără obligație de evaluare. Alegerile din 7.12.2025 au trecut, deci singura valoare utilă a aprobării acum este transparența rezultatelor, pentru ca votul independent al nevăzătorilor să devină regulă în Legea 115/2015, nu doar experiment.",
+      "otherComments": "Măsurile se repetă prin OUG la fiecare scrutin parțial (mai 2025, dec. 2025). Recomand codificarea permanentă în Legea 115/2015 a regulilor pentru materiale, indemnizații și votul nevăzătorilor. Secțiunea 4 a expunerii omite impactul financiar, deși actul generează cheltuieli. Art. 3 alin. (4) scutește indemnizațiile de CAS/CASS fără motivare."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 38310,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 70130,
       "sourceEndMarker": "SF-1AD29ECD",
-      "riskScore": 2,
+      "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Aprobarea organizării și bugetului pentru alegerile locale parțiale din 7 decembrie 2025",
-      "verdictShort": "Lege tehnică și temporară, necesară pentru logistica și finanțarea unui scrutin punctual (inclusiv Primăria Capitalei și CJ Buzău), fără taxe noi sau restrângeri de drepturi. Singurele puncte sensibile țin de justificarea sumară a impactului bugetar de 50,3 milioane lei și de calendarul tardiv al dezbaterii parlamentare.",
-      "initiatorClaim": "Guvernul susține că timpul foarte scurt până la începerea perioadei electorale (2 noiembrie 2025) impunea măsuri de urgență pentru tipărirea materialelor electorale, stabilirea indemnizațiilor personalului și lansarea unui proiect pilot pentru alegătorii cu dizabilități de vedere.",
-      "realityCheck": "Actul aprobă OUG nr. 57/2025, care încredințează tipărirea și confecționarea materialelor către regii și companii de stat, stabilește indemnizații zilnice între 128 și 248 lei (plus 35 lei protocol și 188 lei pentru personalul MAI) supuse doar impozitului pe venit și exceptează aceste cheltuieli de la restricțiile fiscal-bugetare din 2023–2025. Efectele sunt limitate exclusiv la scrutinul din 7 decembrie 2025, fără impact normativ permanent asupra cetățenilor sau mediului de afaceri.",
+      "plainTitle": "Reguli tehnice, indemnizații și proiect pilot pentru alegerile parțiale din 7 decembrie 2025",
+      "verdictShort": "O ordonanță tehnică și punctuală necesară desfășurării alegerilor locale parțiale din 7 decembrie 2025, fără efecte permanente nocive și cu un pas pozitiv pentru alegătorii nevăzători. Principalele reproșuri sunt de bună guvernanță: lipsa impactului bugetar calculat, derogări repetate prin OUG înainte de scrutin și control parlamentar pur formal, după data votului.",
+      "initiatorClaim": "Guvernul susține că timpul scurt până la startul perioadei electorale (2 noiembrie 2025) impune măsuri urgente pentru tipărirea materialelor electorale, plata personalului și a structurilor MAI, suportul IT și pilotarea votului independent pentru persoanele cu dizabilități de vedere.",
+      "realityCheck": "În practică, actul replică mecanismul standard folosit la scrutinele recente: atribuie direct producția materialelor electorale către trei entități de stat, fixează indemnizații zilnice (128–248 lei + 35 lei protocol, respectiv 188 lei pentru personalul MAI) scutite de contribuții sociale prin derogare de la Codul fiscal și ridică trei plafoane bugetare de austeritate pentru aceste cheltuieli. Măsurile au aplicabilitate limitată exclusiv la scrutinul din 7 decembrie 2025, iar proiectul pilot pentru nevăzători din art. 4 rămâne facultativ și delegat integral unei instrucțiuni a AEP.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Angajați & HR",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 și Art. 3 stabilesc logistica tipăririi (Monitorul Oficial, Imprimeria Națională, Monetăria Statului, hârtie din rezervele de stat) și indemnizații zilnice (128–248 lei + 35 lei protocol) impozitate doar cu impozit pe venit, prin derogare de la Codul fiscal (Art. 3 alin. 4).",
-        "Art. 4 introduce un proiect pilot al AEP în cel puțin 6 secții din București pentru votul independent al persoanelor cu dizabilități de vedere, dar îl lasă facultativ („poate organiza”) și integral la discreția unei instrucțiuni AEP.",
-        "Art. 6 exceptează cheltuielile electorale de la plafoanele și interdicțiile din OUG 34/2023, OUG 156/2024 și OUG 52/2025, iar Secțiunea 4 a Expunerii de motive indică un impact de 50.300 mii lei pe 2025, declarând însă la pct. 4.7 că cerința fișei financiare „nu se referă la acest subiect”."
+        "Art. 1 încredințează direct tipărirea buletinelor de vot, timbrelor și ștampilelor către RA Monitorul Oficial, CN Imprimeria Națională și RA Monetăria Statului, folosind hârtie de la ANRSPS și derogând la alin. (2) de la art. 60 alin. (3) din Legea nr. 115/2015 privind termenul de verificare a primului tiraj.",
+        "Art. 3 stabilește indemnizații zilnice între 128 și 248 lei (plus 35 lei/zi protocol și 188 lei/zi pentru personalul MAI), derogă la alin. (4) de la Codul fiscal (se reține doar impozitul pe venit, fără CAS/CASS) și acordă la alin. (8) o zi liberă plătită de angajator în ziua de după vot pentru membrii BESV și operatorii de calculator.",
+        "Art. 4 introduce posibilitatea ca AEP să deruleze, printr-o simplă instrucțiune, un proiect pilot în cel puțin 6 secții din București pentru votul independent al alegătorilor cu dizabilități de vedere, fără a impune însă în lege garanții exprese privind secretul votului sau extinderea în celelalte circumscripții (ex. Buzău).",
+        "Art. 6 exceptează cheltuielile electorale de la restricțiile fiscal-bugetare din OUG nr. 34/2023, OUG nr. 156/2024 și OUG nr. 52/2025, deși în Secțiunea a 4-a a Expunerii de motive tabelele de impact bugetar și fișa financiară lipsesc aproape complet (pct. 4.7 menționează eronat că proiectul nu se referă la acest subiect)."
       ],
-      "blindSpotsCaught": "Termenul pentru amendamente la Camera Deputaților (09.12.2025) este posterior datei alegerilor (07.12.2025), ceea ce transformă votul Parlamentului într-o ratificare post-factum a cheltuielilor deja executate. În plus, Expunerea de motive invocă o urgență generată chiar de întârzierea HG nr. 890/2025 și omite fișa financiară deși raportează un cost de 50,3 milioane lei.",
-      "constitutionalityNote": "Compatibilă în substanță cu Constituția, întrucât nu modifică sistemul electoral, ci doar aspecte administrativ-bugetare ale unui scrutin deja convocat (art. 115 alin. 4 și 6). Rămâne totuși discutabilă respectarea art. 138 alin. (5) privind indicarea sursei de finanțare în Expunerea de motive (Secțiunea 4.4–4.7 necompletată pentru cele 50,3 mil. lei) și gradul redus de previzibilitate al Art. 4 privind garanțiile secretului votului (art. 62 și art. 1 alin. 5).",
-      "euLawNote": "Fără incompatibilități cu dreptul UE. Directiva (UE) 2018/958 (testul de proporționalitate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente, actul vizând exclusiv organizarea administrativă a unui scrutin local național, domeniu în care încredințarea tipăririi buletinelor și ștampilelor către entități publice dedicate securității electorale este justificată de interesul public.",
+      "blindSpotsCaught": "Termenul pentru depunerea amendamentelor la Camera Deputaților este 9 decembrie 2025 — la două zile după desfășurarea alegerilor (7 decembrie 2025) — ceea ce transformă dezbaterea parlamentară într-o validare post-factum. În plus, Expunerea de motive omite complet fișa financiară și estimarea costurilor (Secțiunea 4.7 declară că nu e aplicabilă), deși art. 3 și art. 6 generează cheltuieli directe de la bugetul de stat, acordă scutiri de contribuții sociale și suspendă trei acte de disciplină bugetară.",
+      "constitutionalityNote": "Sub aspectul art. 115 alin. (6) din Constituție, jurisprudența CCR (invocată și de inițiator) permite OUG-uri cu măsuri strict tehnico-organizatorice dacă nu restrâng sau afectează negativ drepturile electorale; totuși, delegarea completă prin art. 4 către o instrucțiune a AEP a modalității de vot a nevăzătorilor fără criterii legale privind secretul votului prezintă o ușoară vulnerabilitate față de art. 1 alin. (5) (calitatea legii). Lipsa fundamentării cheltuielilor și a fișei financiare în Expunerea de motive contravine exigențelor de rigoare ale art. 138 alin. (5) din Constituție și Legii nr. 500/2002, deși sursa generică (bugetul de stat prin AEP, MAI, SGG și HG-ul de cheltuieli) este indicată în text.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 (TRIS), întrucât SIMPV este un sistem public electoral intern, nu un serviciu al societății informaționale. Atribuirea directă prevăzută la art. 1 către regii și companii de stat (Monitorul Oficial, Imprimeria Națională, Monetăria Statului) atinge cadrul achizițiilor publice (Directiva 2014/24/UE), fiind uzual încadrată pe excepții de drepturi exclusive și securitate electorală, deși Secțiunea 5.2 a Expunerii de motive omite nejustificat analiza acestui impact. Proiectul pilot de la art. 4 este aliniat valorilor UE și Convenției ONU privind drepturile persoanelor cu dizabilități.",
       "senatForm": {
         "articleRef": "Art. 4 alin. (1) din OUG nr. 57/2025",
-        "proposalContent": "La art. 4, după alin. (1) se introduce alin. (1^1): «AEP publică pe site-ul propriu, în 30 de zile de la alegeri, raportul de evaluare a proiectului pilot privind votul independent al alegătorilor cu dizabilități de vedere, inclusiv garanțiile de secret al votului aplicate.»",
-        "argumentation": "Art. 4 alin. (1) lasă proiectul pilot la nivel facultativ și la discreția unei instrucțiuni AEP, fără criterii de evaluare sau garanții privind secretul votului. Publicarea raportului asigură transparență și fundamentează extinderea soluției la nivel național.",
-        "otherComments": "Deși termenul de amendamente (09.12.2025) este ulterior scrutinului din 07.12.2025, un raport post-electoral produce efecte utile și transformă pilotul într-un precedent documentat pentru Legea nr. 115/2015."
+        "proposalContent": "La art. 4 alin. (1), se introduce o teză nouă: „Instrucțiunea AEP stabilește garanții exprese privind secretul votului și integritatea procedurii, iar raportul de evaluare al proiectului pilot se publică pe site-ul AEP în termen de 60 de zile de la alegeri, în vederea extinderii naționale.”",
+        "argumentation": "Cum termenul de amendamente (9 decembrie) vine după scrutinul din 7 decembrie, amendamentul valorifică proiectul pilot pentru viitoarele alegeri. Delegarea totală către o instrucțiune AEP fără evaluare publică și fără garanții legale privind secretul votului lasă accesibilizarea fără standarde clare și fără bază pentru extindere națională.",
+        "otherComments": "Se recomandă solicitarea fișei financiare complete și a devizului efectiv al cheltuielilor exceptate prin art. 6 de la OUG 34/2023, OUG 156/2024 și OUG 52/2025, pentru transparență bugetară. Totodată, cadrul general al alegerilor parțiale ar trebui actualizat prin lege în Parlament, nu prin OUG repetate înaintea fiecărui scrutin."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 51650,
+      "durationMs": 44926,
       "sourceEndMarker": "SF-1AD29ECD",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Regulile de logistică și plata personalului pentru alegerile locale parțiale din 7 decembrie 2025",
-      "verdictShort": "Este o ordonanță tehnică, de unică folosință, care stabilește cine tipărește buletinele, cât sunt plătiți membrii secțiilor și cum se finanțează scrutinul. Alegerile au avut loc deja, așa că legea de aprobare este acum în mare parte o formalitate. Nu conține capcane pentru cetățeni sau firme, iar lipsurile reale țin de transparența bugetară.",
-      "initiatorClaim": "Guvernul spune că timpul scurt până la perioada electorală (2 noiembrie 2025) nu permitea procedurile obișnuite pentru materialele electorale. Ordonanța ar fi trebuit să asigure buletine, ștampile, timbre, indemnizații și sprijin informatic, plus un proiect pilot de vot independent pentru nevăzători.",
-      "realityCheck": "Ordonanța atribuie direct tipărirea buletinelor, a timbrelor și a ștampilelor către Monitorul Oficial, Imprimeria Națională și Monetăria Statului, cu hârtie de la ANRSPS la preț contabil. Fixează indemnizații între 128 și 248 lei pe zi, scutite de contribuții sociale, și scoate cheltuielile electorale de sub restricțiile bugetare din OUG 34/2023, 156/2024 și 52/2025. Toate efectele s-au consumat la scrutinul din 7.12.2025, deci aprobarea parlamentară vine după ce măsurile au fost deja aplicate.",
+      "plainTitle": "Parlamentul validează regulile tehnice folosite la alegerile locale parțiale din 7 decembrie 2025",
+      "verdictShort": "Lege tehnică și benignă, cu efecte deja consumate: aprobă organizarea logistică și plata personalului electoral pentru un scrutin care a avut loc deja. Singurele probleme sunt de bună guvernare: legislație repetată prin OUG la fiecare scrutin, impact bugetar necuantificat și un proiect pilot fără obligație de evaluare.",
+      "initiatorClaim": "Guvernul spune că timpul scurt până la perioada electorală (2 noiembrie 2025) nu permitea procurarea materialelor electorale prin procedurile obișnuite. Mai spune că OUG era necesară pentru a fixa indemnizațiile personalului electoral și suportul informatic și pentru a permite votul independent al nevăzătorilor.",
+      "realityCheck": "OUG desemnează direct instituțiile de stat care tipăresc buletinele, timbrele și ștampilele. Fixează indemnizațiile la același nivel ca în mai 2025 și scutește cheltuielile electorale de plafoanele de austeritate din OUG 34/2023, 156/2024 și 52/2025. Indemnizațiile sunt impozitate doar cu impozit pe venit, fără contribuții sociale. Proiectul pilot pentru nevăzători este facultativ („poate”) și lăsat integral la instrucțiunea AEP. Scrutinul a trecut, deci aprobarea are acum mai ales valoare de validare formală.",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "Angajați & HR",
@@ -83,65 +102,84 @@
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 alin. (1)-(7): materialele electorale sunt atribuite direct unor regii și companii de stat, fără procedură competitivă. Hârtia vine de la ANRSPS la preț de înregistrare în contabilitate, iar hârtia neutilizată se restituie în 10 zile de la data alegerilor.",
-        "Art. 1 alin. (2) derogă de la art. 60 alin. (3) din Legea 115/2015. Primul tiraj al buletinelor se prezintă birourilor electorale cu cel puțin 10 zile înainte de vot, iar acestea pot cere retipărirea dacă numele, semnele sau denumirile sunt greșit imprimate. Este o garanție utilă pentru candidați.",
-        "Art. 3 alin. (4): prin derogare de la Codul fiscal, pentru indemnizații se datorează numai impozitul pe venit, fără CAS și CASS. Pierderea de venituri la bugetele de asigurări sociale nu este cuantificată nicăieri.",
-        "Art. 3 alin. (5): obligația de a menține plata salariului pe durata activității în birouri revine doar autorităților și instituțiilor publice. Situația angajaților din mediul privat rămâne nereglementată de această ordonanță.",
-        "Art. 3 alin. (8): membrii secțiilor de votare primesc, la cerere, o zi liberă plătită a doua zi după vot. Costul cade pe angajator, inclusiv pe IMM-uri, fără compensare, deși impactul este mic și punctual.",
-        "Art. 4: proiectul pilot pentru alegătorii nevăzători este facultativ („poate organiza”) și se reglementează prin instrucțiune AEP. Este o măsură pozitivă, dar fără criterii de evaluare și fără obligație de raportare.",
-        "Art. 6 scoate cheltuielile electorale de sub plafoanele și interdicțiile de austeritate. Măsura este justificabilă pentru un scrutin, dar creează o excepție bugetară nelimitată valoric."
+        "Art. 1 atribuie direct, fără licitație, tipărirea buletinelor către RA „Monitorul Oficial”, timbrele către CN „Imprimeria Națională” și ștampilele către RA „Monetăria Statului”. Hârtia vine de la ANRSPS la preț de înregistrare contabilă. Sunt furnizori publici tradiționali, deci concurența privată este afectată marginal și punctual.",
+        "Art. 1 alin. (2) derogă de la art. 60 alin. (3) din Legea 115/2015: primul tiraj al buletinelor se prezintă birourilor electorale cu cel puțin 10 zile înainte de vot, iar tipărirea finală se face cu cel puțin 5 zile înainte. Dreptul de a cere retipărirea pentru erori este păstrat.",
+        "Art. 3 fixează indemnizații de 128–248 lei/zi plus 35 lei/zi protocol, inclusiv 188 lei/zi pentru personalul MAI. Alin. (4) derogă de la Codul fiscal: se datorează doar impozitul pe venit, fără CAS/CASS, iar această scutire nu este motivată în expunere.",
+        "Art. 3 alin. (7) limitează sporul din art. 13 OUG 27/2006 la judecătorii a căror prezență în birourile electorale este obligatorie. Este o măsură de economie, repetată de la scrutinele din 2024 și 2025.",
+        "Art. 4: proiectul pilot de vot independent pentru nevăzători în cel puțin 6 secții din București este facultativ. Condițiile sunt stabilite exclusiv prin instrucțiune AEP, fără obligație de raportare a rezultatelor.",
+        "Art. 6 scoate cheltuielile electorale de sub restricțiile bugetare din trei OUG-uri fiscale. Este justificat pentru un scrutin, dar este încă o excepție ad-hoc la regimul de austeritate."
       ],
-      "blindSpotsCaught": "Secțiunea 4 a expunerii de motive (impactul financiar) este practic goală, iar la pct. 4.7 se afirmă că fișa financiară cerută de art. 15 din Legea 500/2002 „nu se referă la acest subiect”, deși art. 1 și 3 generează cheltuieli evidente și o pierdere de contribuții sociale. Calendarul arată că la 19.11.2026 proiectul e încă pe ordinea de zi, deci controlul parlamentar vine la aproape un an după ce OUG și-a produs integral efectele. Sunt și erori materiale de redactare, de exemplu „partțiale” în titlul legii.",
-      "constitutionalityNote": "Art. 115 alin. (6) interzice ordonanțelor de urgență să afecteze drepturile electorale. Jurisprudența CCR (de pildă Deciziile 1189/2008 și 47/2018) admite însă măsuri organizatorice și financiare care nu modifică condițiile exercitării votului, iar OUG 57/2025 se încadrează aici. Urgența este motivată plauzibil prin calendarul stabilit de HG 890/2025. Sursa de finanțare există (bugetul AEP și al MAI), deci art. 138 alin. (5) este respectat formal, chiar dacă fundamentarea este slabă. Adoptarea la Senat cu majoritatea de la art. 76 alin. (1) este corectă, materia fiind lege organică conform art. 73 alin. (3) lit. a). Textele sunt suficient de clare și previzibile (art. 1 alin. (5)). Excepția: art. 4 deleagă integral la o instrucțiune AEP condițiile proiectului pilot.",
-      "euLawNote": "Directiva 2018/958 nu este relevantă, pentru că actul nu reglementează accesul la profesii. Nici Directiva TRIS 2015/1535 nu se aplică: actul nu introduce reglementări tehnice pentru produse sau servicii ale societății informaționale, iar sistemul informatic electoral este un instrument intern al statului. Atribuirea directă către regii de stat poate fi justificată prin excepțiile de securitate sau in-house din Directiva 2014/24/UE, având în vedere natura sensibilă a buletinelor de vot. Nu se constată ajutor de stat problematic. Proiectul pilot pentru nevăzători este în spiritul art. 29 din Convenția ONU privind drepturile persoanelor cu dizabilități, ratificată de UE și de România.",
+      "blindSpotsCaught": "Secțiunea 4 a expunerii de motive („impact financiar”) este practic goală și afirmă că actul „nu se referă la acest subiect”, deși creează cheltuieli clare: indemnizații, tipărire, pilot. Lipsește fișa financiară cerută de art. 15 din Legea 500/2002, iar finanțarea este trimisă la o HG separată. Art. 2 trimite la Legea 208/2015 (alegeri parlamentare) pentru informaticieni, prin aplicarea corespunzătoare din art. 120. Funcționează, dar complică lizibilitatea. Documentul expunerii are 13 pagini și a fost citit până la pagina 12; textul OUG și al legii de aprobare a fost citit integral.",
+      "constitutionalityNote": "Art. 115 alin. (6) din Constituție interzice OUG-urilor să afecteze drepturile electorale. Măsurile de aici sunt logistice și financiare și nu modifică condițiile de exercitare a votului sau a candidaturii, deci sunt compatibile cu jurisprudența CCR (de ex. Deciziile 1189/2008, 47/2018). Urgența este plauzibilă, dată fiind fixarea scrutinului cu ~35 de zile înainte. Previzibilitatea (art. 1 alin. 5) este acceptabilă: textul este clar și cu aplicare limitată în timp. Pentru art. 4, delegarea integrală către o instrucțiune AEP este largă, dar vizează un drept lărgit, nu restrâns. Art. 138 alin. (5) (sursa de finanțare) este satisfăcut formal prin trimiterea la bugetul de stat, deși necuantificat.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă: nu se reglementează accesul la profesii. Directiva TRIS 2015/1535 nu este incidentă: nu se instituie reguli tehnice pentru produse sau servicii ale societății informaționale; sistemul informatic electoral este intern statului. Atribuirea directă către regii și companii de stat pentru materiale electorale poate intra sub excepțiile de securitate și confidențialitate din Directiva 2014/24/UE (art. 15), iar riscul de ajutor de stat este neglijabil. Proiectul pilot pentru nevăzători este în spiritul Convenției ONU privind drepturile persoanelor cu dizabilități (art. 29), ratificată și de UE.",
       "senatForm": {
-        "articleRef": "Art. 4^1 nou (după art. 4 din OUG 57/2025)",
-        "proposalContent": "Se introduce art. 4^1: „În termen de 60 de zile de la intrarea în vigoare a legii de aprobare, AEP publică pe site-ul propriu un raport de evaluare a proiectului pilot prevăzut la art. 4, cuprinzând numărul secțiilor și al alegătorilor care l-au utilizat, costurile, problemele constatate și recomandări pentru extinderea la alegerile viitoare.”",
-        "argumentation": "Alegerile din 7.12.2025 au avut loc, deci restul OUG și-a epuizat efectele. Singura valoare durabilă e lecția proiectului pilot pentru nevăzători (art. 4), organizat facultativ, prin instrucțiune. Un raport public permite generalizarea votului independent, conform art. 29 din Convenția ONU privind drepturile persoanelor cu dizabilități.",
-        "otherComments": "Expunerea de motive declară că actul „nu se referă” la impactul financiar (Secț. 4), deși art. 1 și 3 generează cheltuieli clare și scutiri de CAS/CASS. Pentru viitoare OUG electorale cerem fișă financiară reală și o lege-cadru permanentă privind indemnizațiile, ca să nu se mai adopte câte o OUG la fiecare scrutin."
+        "articleRef": "Art. 4 OUG 57/2025 – proiect pilot",
+        "proposalContent": "Art. 4 se completează cu alin. (3): «(3) În termen de 60 de zile de la intrarea în vigoare a legii de aprobare, Autoritatea Electorală Permanentă publică pe site-ul propriu un raport de evaluare a proiectului pilot, cuprinzând secțiile participante, numărul de alegători, costurile și recomandările pentru extinderea la nivel național.»",
+        "argumentation": "Art. 4 permite un proiect pilot finanțat public, stabilit doar prin instrucțiunea AEP, fără obligație de evaluare. Alegerile din 7.12.2025 au trecut, deci singura valoare utilă a aprobării acum este transparența rezultatelor, pentru ca votul independent al nevăzătorilor să devină regulă în Legea 115/2015, nu doar experiment.",
+        "otherComments": "Măsurile se repetă prin OUG la fiecare scrutin parțial (mai 2025, dec. 2025). Recomand codificarea permanentă în Legea 115/2015 a regulilor pentru materiale, indemnizații și votul nevăzătorilor. Secțiunea 4 a expunerii omite impactul financiar, deși actul generează cheltuieli. Art. 3 alin. (4) scutește indemnizațiile de CAS/CASS fără motivare."
       },
       "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 99817,
+      "durationMs": 93090,
       "sourceEndMarker": "SF-1AD29ECD",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Materiale, indemnizații și acces la vot pentru alegerile parțiale din decembrie 2025",
-      "verdictShort": "Proiectul aprobă măsuri predominant tehnice, utile organizării alegerilor, fără taxe sau sancțiuni noi pentru cetățeni. Principala zonă care merită control parlamentar este exceptarea cheltuielilor electorale de la mai multe restricții fiscal-bugetare, prevăzută la art. 6.",
-      "initiatorClaim": "Guvernul invocă timpul scurt pentru pregătirea scrutinului și necesitatea asigurării materialelor, personalului și finanțării. Urmărește și testarea unor mijloace prin care alegătorii cu dizabilități de vedere să voteze independent.",
-      "realityCheck": "Articolul unic aprobă integral OUG nr. 57/2025, inclusiv derogările fiscale și bugetare; forma Senatului nu introduce amendamente. Ordonanța repartizează producerea materialelor electorale unor operatori nominalizați, stabilește indemnizații cumulabile cu alte drepturi și permite un proiect pilot de accesibilitate. Art. 6 înlătură aplicarea dispozițiilor fiscal-bugetare indicate pentru cheltuielile scrutinului, fără să instituie prin aceasta o derogare generală de la regulile achizițiilor sau controlului financiar.",
+      "plainTitle": "Banii, materialele și sprijinul tehnic pentru alegerile locale parțiale",
+      "verdictShort": "Proiect predominant tehnic și util, cu risc redus pentru cetățeni și firme. Principalele puncte de control sunt derogările fiscal-bugetare din ultimul articol și justificarea recurgerii la ordonanță de urgență.",
+      "initiatorClaim": "Guvernul invocă timpul scurt pentru pregătirea scrutinului din 7 decembrie 2025 și necesitatea asigurării materialelor, personalului și finanțării. Propune și testarea unor soluții care permit persoanelor cu dizabilități de vedere să voteze independent.",
+      "realityCheck": "Articolul unic aprobă fără modificări OUG nr. 57/2025, care desemnează producătorii materialelor electorale, stabilește indemnizații și surse de finanțare și permite un proiect pilot de accesibilitate. Art. 6 exclude cheltuielile electorale de la aplicarea unor dispoziții fiscal-bugetare expres enumerate, iar art. 3 permite cumularea indemnizațiilor cu alte drepturi și prevede un tratament fiscal favorabil. Nu apar taxe, sancțiuni sau obligații administrative noi pentru populație ori IMM-uri; costurile sunt în principal publice.",
       "affectedGroups": [
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile",
         "Angajați & HR",
         "Contabili & Fiscalitate",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "IT & AI"
       ],
       "keyFindings": [
-        "Art. 1 nominalizează Monitorul Oficial pentru buletine, Imprimeria Națională pentru timbre autocolante și Monetăria Statului pentru ștampile. Aceasta restrânge accesul altor furnizori la comenzile respective, dar nu dovedește singură o atribuire ilegală sau existența unui monopol general.",
-        "Art. 1 alin. (2) permite membrilor biroului electoral competent să solicite retipărirea buletinelor când elementele electorale sunt greșite ori ilizibile. Este o garanție concretă pentru corectitudinea votării.",
-        "Art. 3 stabilește indemnizații de activitate între 128 și 248 lei pe zi pentru categoriile de la alin. (1), 188 lei pentru personalul MAI eligibil și 35 lei indemnizație de protocol. Alin. (4) prevede numai impozit pe venit, iar alin. (5)-(6) permit păstrarea și cumularea drepturilor enumerate; acestea sunt beneficii bugetare explicite.",
-        "Art. 3 alin. (8) acordă membrilor birourilor secțiilor de votare și operatorilor, la cerere și cu adeverință, o zi liberă plătită după votare. Poate produce un cost punctual pentru angajatori, inclusiv IMM-uri.",
-        "Art. 4 permite, fără să impună, un proiect pilot pentru vot independent în cel puțin șase secții din București. Beneficiul de accesibilitate este real, dar textul nu garantează implementarea și nici extinderea națională.",
-        "Art. 6 exceptează cheltuielile electorale de la dispoziții din OUG nr. 34/2023, OUG nr. 156/2024 și OUG nr. 52/2025. Excepția privește scrutinul indicat, nu abrogă aceste acte și nu introduce o relaxare permanentă pentru toate cheltuielile publice.",
-        "Art. 1, art. 3 și art. 5 identifică bugetele finanțatoare. Extrasul expunerii nu permite însă reconstruirea sigură a costului total, a ipotezelor de calcul sau a efectului scutirii de contribuții; identificarea sursei bugetare nu demonstrează singură suficiența fondurilor."
+        "Art. 1 desemnează direct Monitorul Oficial pentru buletine, Imprimeria Națională pentru timbre autocolante și Monetăria Statului pentru ștampile. Este o concentrare legală a producției pentru acest scrutin, nu instituirea unui monopol general și permanent.",
+        "Art. 1 alin. (2) cere prezentarea unui exemplar din primul tiraj cu minimum 10 zile înaintea votării și permite solicitarea retipăririi pentru anumite erori. Finalizarea imprimării cu minimum 5 zile înainte, prevăzută la alin. (1), privește o etapă diferită și nu creează singură o contradicție.",
+        "Art. 3 stabilește indemnizații zilnice între 128 și 248 de lei pentru categoriile electorale enumerate, 188 de lei pentru personalul MAI eligibil și o indemnizație de protocol de 35 de lei. Alin. (4) prevede numai impozit pe venit pentru indemnizațiile articolului, iar alin. (5)-(6) permit păstrarea sau cumularea altor drepturi bănești.",
+        "Art. 3 alin. (8) acordă membrilor birourilor secțiilor de votare și operatorilor de calculator, la cerere și pe baza unei adeverințe, o zi liberă plătită în ziua următoare votării. Aceasta poate genera un cost punctual de organizare și pentru angajatorii privați.",
+        "Art. 4 permite, fără să oblige AEP să îl inițieze, un proiect pilot pentru votul independent al persoanelor cu dizabilități de vedere. Dacă este organizat, proiectul trebuie să cuprindă cel puțin 6 secții din București; finanțarea este limitată la sumele aprobate prin hotărârea Guvernului.",
+        "Art. 6 înlătură aplicarea dispozițiilor indicate din OUG nr. 34/2023, OUG nr. 156/2024 și OUG nr. 52/2025 pentru cheltuielile acestui scrutin. Nu abrogă integral aceste acte și nu înlătură, prin el însuși, toate regulile privind achizițiile, controlul financiar sau utilizarea banilor publici.",
+        "Expunerea de motive declară că impactul asupra concurenței și unele efecte legislative nu sunt relevante, deși textul desemnează producători și introduce derogări. Aceste declarații nu înlocuiesc analiza efectelor și nu restrâng întinderea articolelor."
       ],
-      "blindSpotsCaught": "Dispoziția finală cu efect financiar semnificativ este art. 6, deși expunerea declară la secțiunea 5.1 că subiectul efectelor asupra legislației nu este incident. Nu există în textul furnizat o abrogare ascunsă sau o reglementare AI. Erorile evidente de OCR nu trebuie confundate cu defecte ale actului oficial. Verificarea online nu a fost disponibilă, astfel că întinderea exactă a fiecărei restricții exceptate necesită confruntarea cu textele oficiale aplicabile în 2025. Expunerea furnizată este incompletă: lipsește pagina 13.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din forma furnizată. Art. 1 alin. (5) din Constituție impune verificarea trimiterilor și a textului oficial, în special unde extragerea este coruptă; art. 23 alin. (12), referitor la pedepse, nu este incident, deoarece ordonanța nu instituie sancțiuni penale. Pentru art. 115 alin. (4), apropierea alegerilor susține urgența, dar calendarul previzibil și stabilit de Guvern nu demonstrează singur situația extraordinară. Art. 115 alin. (6) interzice afectarea drepturilor electorale: măsurile logistice și accesibilitatea nu indică prin ele însele o asemenea afectare, iar instrucțiunea AEP trebuie să respecte secretul și libertatea votului. Sursele de finanțare sunt indicate, însă respectarea art. 138 alin. (5) cere și verificarea documentelor bugetare. Mențiunea adoptării potrivit art. 76 alin. (1) este compatibilă cu materia electorală organică.",
-      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind accesul la profesii reglementate sau exercitarea lor; textul analizat nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu devine aplicabilă doar pentru că sunt folosite sisteme informatice: nu rezultă o nouă reglementare tehnică notificabilă privind produse ori servicii ale societății informaționale. Nominalizarea producătorilor de materiale electorale justifică verificarea temeiului atribuirilor potrivit normelor aplicabile achizițiilor și concurenței; proprietatea publică nu constituie singură o exceptare. Datele disponibile nu susțin constatarea unei încălcări certe a dreptului UE.",
+      "blindSpotsCaught": "Derogarea fiscal-bugetară relevantă este plasată chiar în art. 6, ultimul articol. Termenul indicat pentru amendamente, 9 decembrie 2025, este ulterior scrutinului: aprobarea parlamentară ulterioară nu echivalează cu o autorizare prealabilă, deoarece instrumentul conceput pentru aplicarea imediată este OUG. Aprobarea sa nu reactivează automat măsurile pentru alte alegeri. Extrasul expunerii de motive acoperă doar 12 dintre cele 13 pagini declarate, iar fragmentele OCR deteriorate nu trebuie tratate ca defecte certe ale textului oficial.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din textul furnizat. Pentru art. 1 alin. (5), delimitarea la un scrutin identificat și enumerarea beneficiarilor susțin previzibilitatea; formulările deteriorate prin OCR trebuie confruntate cu originalul. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident: nu sunt instituite infracțiuni sau pedepse. Problema principală rămâne art. 115 alin. (4): apropierea alegerilor justifică nevoia de rapiditate, dar Guvernul trebuie să demonstreze situația extraordinară, nu doar dificultăți administrative previzibile. Art. 115 alin. (6) nu interzice orice măsură electorală prin OUG; trebuie analizată afectarea negativă a drepturilor sau a regimului instituțiilor fundamentale, care nu este evidentă aici. Pilotul de accesibilitate susține art. 36 și art. 50, cu păstrarea egalității și secretului votului. Sursele bugetare sunt indicate, însă conformitatea cu art. 138 alin. (5) presupune și verificarea fundamentării financiare; rubricile incomplete din expunere nu dovedesc singure o încălcare. Mențiunea adoptării potrivit art. 76 alin. (1) indică majoritatea organică, fără să probeze toate condițiile procedurale.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării accesului la profesii reglementate și a exercitării acestora; stabilirea unor indemnizații electorale și utilizarea informaticienilor nu declanșează, prin ele însele, acest test. Directiva (UE) 2015/1535 nu devine aplicabilă doar pentru că este utilizat un sistem informatic: textul nu reglementează servicii digitale sau AI oferite pe piață, iar o obligație de notificare TRIS nu rezultă evident din dispozițiile prezentate. Desemnarea producătorilor de stat merită verificată distinct prin prisma achizițiilor publice și a concurenței; proprietatea publică nu justifică automat orice atribuire, dar lipsesc datele despre contracte, valori și temeiurile utilizate pentru a constata o încălcare. Nu există suficiente elemente pentru a afirma existența unui ajutor de stat ilegal.",
       "senatForm": {
-        "articleRef": "Articol unic / art. 6 din OUG nr. 57/2025",
-        "proposalContent": "Textul art. 6 devine alin. (1) și se adaugă alin. (2): «În 90 de zile de la intrarea în vigoare a legii de aprobare, AEP publică un raport al cheltuielilor exceptate potrivit alin. (1), pe instituții, categorii și derogări aplicate. Ordonatorii de credite transmit datele către AEP în 60 de zile de la aceeași dată.»",
-        "argumentation": "Exceptarea cheltuielilor electorale de la restricții fiscal-bugetare poate fi justificată operațional, dar necesită transparență. Raportul permite verificarea utilizării derogărilor și a costurilor efective, fără să condiționeze desfășurarea scrutinului.",
-        "otherComments": "Termenele propuse curg de la intrarea în vigoare a legii de aprobare, deoarece scrutinul a trecut. Propunerea poate fi preluată de un deputat. Termenul de amendamente indicat, 9 decembrie 2025, este expirat la data analizei; stadiul actual trebuie verificat înaintea trimiterii."
+        "articleRef": "Art. 6 din OUG nr. 57/2025",
+        "proposalContent": "Textul existent devine alin. (1). Se adaugă: „(2) Ordonatorii de credite publică, în 30 de zile de la intrarea în vigoare a legii de aprobare, situația cheltuielilor efectuate în baza derogărilor de la alin. (1), pe categorii și furnizori, cu respectarea legislației privind protecția datelor cu caracter personal.”",
+        "argumentation": "Exceptarea cheltuielilor electorale de la restricții fiscal-bugetare trebuie însoțită de transparență asupra utilizării derogărilor. Raportarea permite verificarea beneficiarilor și sumelor fără a întârzia operațiunile electorale. Termenul curge de la intrarea în vigoare a legii, astfel încât obligația poate fi executată și după scrutin.",
+        "otherComments": "Evaluarea privește forma Senatului furnizată. Verificarea online nu a fost disponibilă; conținutul exact al normelor la care trimite art. 6 necesită confruntare cu sursele oficiale. Expunerea de motive este incompletă, iar erorile OCR trebuie verificate în original."
       },
       "reachedEnd": true,
       "status": "ok"
     }
   },
   "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-19T11:36:23.811Z",
+      "method": "whole-text-v1",
+      "textChars": 14401,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:15:02.337Z",
+      "reasons": [
+        "model"
+      ]
+    },
     {
       "riskScore": 2.3,
       "riskLevel": "green",

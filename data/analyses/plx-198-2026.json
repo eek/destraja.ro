@@ -2,7 +2,7 @@
   "billId": "Pl-x 198/2026",
   "slug": "plx-198-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T14:23:13.188Z",
+  "updatedAt": "2026-11-24T15:12:45.187Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "b44fa75af4816440"
   },
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
-    "plainTitle": "Poprire bancară unică și salvarea plăților făcute în conturi bugetare greșite",
-    "summaryTlDr": "Intenție foarte bună pentru contribuabili, dar redactare defectuoasă: proiectul dublează sistemul e-Popriri existent, trimite la o lege abrogată și lasă în aer modul în care se aplică unicul comision bancar.",
-    "initiatorClaim": "Inițiatorul vrea să oprească blocarea simultană a tuturor conturilor și comisioanele bancare multiple printr-o poprire unică electronică, ridicată automat în 24 de ore, și să protejeze de penalități contribuabilii care plătesc din eroare într-un alt cont bugetar.",
-    "realityCheck": "Art. 164¹ (regularizarea din oficiu a plăților în conturi publice greșite) este un câștig real pentru cetățeni și firme. Însă la art. 235¹ proiectul nu oprește efectiv blocarea simultană a sumelor în toate băncile, ignoră reglementarea deja existentă a e-Popriri de la art. 236, nu spune care bancă încasează unicul comision și nu prevede nicio sancțiune pentru încălcarea termenului de 24 de ore.",
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "O singură poprire electronică pe bănci, ridicată automat, și plăți greșite de cont considerate valabile",
+    "summaryTlDr": "Proiectul îl favorizează pe contribuabil și e în mare parte inofensiv, dar e redactat slab. Nu rezolvă tocmai problema invocată, blocarea aceleiași sume în toate băncile, pentru că ridicarea automată vine abia după încasarea integrală.",
+    "initiatorClaim": "Inițiatorul vrea să pună capăt popririlor multiple și excesive pe toate conturile unui debitor, comisioanelor bancare cumulate și ridicării manuale și întârziate a popririlor. Vrea și ca plata făcută în contul altei instituții publice să nu mai ducă la penalități.",
+    "realityCheck": "Art. 235^1 cere un singur ordin electronic către bănci și ridicarea automată în 24 de ore după încasarea integrală. Comisionul bancar e plafonat prin regulament BNR și se percepe o singură dată, dar e suportat explicit de debitor. Textul nu limitează însă suma blocată cumulat în toate băncile, așa că supra-indisponibilizarea paralelă rămâne posibilă până la încasarea integrală. Art. 164^1 validează plata făcută într-un cont bugetar greșit și interzice penalitățile, însă folosește criterii vagi („în mod rezonabil”). Art. II alin. (4) poate fi citit ca amânând aplicarea întregii legi, inclusiv art. 164^1, până la implementarea sistemului IT.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1 și 4 (art. 1 și art. 235¹)",
-      "proposalContent": "Integrarea normelor art. 235¹ direct în art. 236 (e-Popriri), înlocuirea trimiterii la Legea 455/2001 (abrogată) cu Legea 214/2024 și Regulamentul eIDAS, și precizarea expresă la alin. (5) că unicul comision bancar plafonat poate fi perceput exclusiv de banca ce execută efectiv viramentul, fiind interzis pentru conturile din care nu se rețin sume.",
-      "argumentation": "Proiectul creează paralelism cu art. 236 (unde e-Popriri există deja), citează Legea 455/2001 abrogată în 2024 și lasă neclar care bancă încasează unicul comision când ordinul ajunge simultan la mai multe bănci. Totodată, plafonarea tarifelor bancare prin regulament BNR impune consultarea BCE (art. 127 TFUE) și clarificarea sancțiunilor aplicabile.",
-      "otherComments": "Art. 164¹ (regularizarea plăților în conturi greșite) este foarte util, dar necesită corelare cu autonomia bugetelor locale și intrare în vigoare separată de Art. II alin. (4), care amână aplicarea până la sistemul IT. Corectați și structura art. 1 (fără alin. 1) și clarificați dacă primăriile intră în termenul de 120 de zile."
+      "articleRef": "Art. I pct. 4 (art. 235^1 alin. (2))",
+      "proposalContent": "Art. 235^1 alin. (2): «Instituțiile de credit indisponibilizează, cumulat, numai suma urmărită. Când sumele indisponibilizate sau încasate acoperă creanța, organul fiscal transmite, în cel mult 24 de ore, notificarea de ridicare a popririi pentru conturile și sumele excedentare, chiar înainte de încasarea integrală.»",
+      "argumentation": "Forma actuală ridică poprirea doar după încasarea integrală, deci blocarea în paralel a aceleiași sume în toate băncile, problema invocată în expunerea de motive, rămâne. Fără o limită cumulată, o datorie de 1.000 lei poate bloca 1.000 lei în fiecare din 5 bănci. Amendamentul aplică proporționalitatea (art. 44, art. 53 Constituție).",
+      "otherComments": "Art. II alin. (4) trebuie limitat la art. 235^1, altfel blochează și art. 164^1. Art. III alin. (1) e fără obiect: sintagma «poprire unică» nu apare în Cod. Verificați numerotarea pct. 41-44 din art. 1 față de completările din 2022 și 2025. E necesară fișa financiară (art. 15 L. 500/2002) pentru costurile IT."
     }
   },
   "council": {
@@ -86,8 +86,39 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 58391,
+      "sourceEndMarker": "SF-223E871C",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "O singură poprire electronică pe bănci, ridicată automat, și plăți greșite de cont considerate valabile",
+      "verdictShort": "Proiectul îl favorizează pe contribuabil și e în mare parte inofensiv, dar e redactat slab. Nu rezolvă tocmai problema invocată, blocarea aceleiași sume în toate băncile, pentru că ridicarea automată vine abia după încasarea integrală.",
+      "initiatorClaim": "Inițiatorul vrea să pună capăt popririlor multiple și excesive pe toate conturile unui debitor, comisioanelor bancare cumulate și ridicării manuale și întârziate a popririlor. Vrea și ca plata făcută în contul altei instituții publice să nu mai ducă la penalități.",
+      "realityCheck": "Art. 235^1 cere un singur ordin electronic către bănci și ridicarea automată în 24 de ore după încasarea integrală. Comisionul bancar e plafonat prin regulament BNR și se percepe o singură dată, dar e suportat explicit de debitor. Textul nu limitează însă suma blocată cumulat în toate băncile, așa că supra-indisponibilizarea paralelă rămâne posibilă până la încasarea integrală. Art. 164^1 validează plata făcută într-un cont bugetar greșit și interzice penalitățile, însă folosește criterii vagi („în mod rezonabil”). Art. II alin. (4) poate fi citit ca amânând aplicarea întregii legi, inclusiv art. 164^1, până la implementarea sistemului IT.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 235^1 alin. (2)-(3): popririle se ridică automat abia la 24 de ore după confirmarea încasării integrale. Nicio regulă nu obligă băncile să blocheze cumulat doar suma datorată, deci aceeași datorie poate bloca în continuare sume în fiecare bancă. Este exact abuzul descris în expunerea de motive.",
+        "Art. 235^1 alin. (4)-(5): plafonul comisionului e lăsat integral pe seama unui regulament BNR, fără niciun criteriu în lege. Alin. (5) consfințește legal că debitorul suportă comisionul. Câștigul real e regula „o singură dată pe creanță”.",
+        "Art. 164^1: plata făcută în termen în contul altei instituții publice e considerată valabilă, cu regularizare din oficiu în 15 zile lucrătoare și interdicție de penalități și executare (alin. 3). Măsura e utilă, dar se suprapune parțial cu procedura existentă de corectare a erorilor din documentele de plată. Alin. (6) („rezultă, în mod rezonabil”) lasă loc de interpretări divergente între instituții.",
+        "Art. II alin. (4): până la implementarea sistemului IT se aplică „dispozițiile Codului în vigoare anterior”, fără să se precizeze că doar pentru poprire. Textul poate fi citit ca suspendând și art. 164^1, deși acesta nu depinde de sistemul interconectat.",
+        "Art. III alin. (1) e o normă fără obiect: sintagma „poprire unică” nu apare în actualul Cod. Art. I pct. 1 numerotează noile definiții 41-44, dar art. 1 a fost completat în 2022 (OUG 188/2022) și 2025 (Legea 239/2025), deci există risc de suprapunere a numerotării. Trebuie verificat în forma consolidată.",
+        "Art. II: reglementările subsecvente au termen de 90 de zile de la publicare, iar implementarea IT 120 de zile de la acestea. Termenele nu au nicio sancțiune, iar BNR, instituție independentă, e pusă să „elaboreze împreună” cu MF și ANAF."
+      ],
+      "blindSpotsCaught": "Expunerea de motive invocă o cauză CEDO „Iorga și alții c. România (2015)” despre menținerea popririlor după stingerea datoriei. Nu am putut-o verifica, posibil să nu existe, și nu ar trebui folosită ca argument fără referință exactă. Tot expunerea susține că legea nu are impact bugetar, deși adaptarea e-Popriri și a sistemelor bancare costă, iar art. 164^1 poate reduce accesoriile încasate. Proiectul nu are fișă financiară (art. 15 din Legea 500/2002). Noul art. 1 alin. (2) („înțelesul consacrat… principiile generale ale dreptului”) transformă un articol cu un singur alineat și adaugă o regulă de interpretare vagă, care poate intra în conflict cu definițiile din Codul fiscal.",
+      "constitutionalityNote": "Direcția e conformă art. 44 (proprietate) și art. 53 (proporționalitatea restrângerilor) și chiar le întărește. Problemele țin de art. 1 alin. (5) privind claritatea și previzibilitatea: art. II alin. (4) e ambiguu în privința aplicării în timp, art. III alin. (1) n-are obiect, iar art. 164^1 alin. (6) și art. 1 alin. (2) folosesc noțiuni vagi. Pentru o propunere parlamentară cu efect asupra cheltuielilor (IT) și veniturilor, art. 111 alin. (1) din Constituție și art. 15 din Legea 500/2002 impun informarea Guvernului și estimarea impactului. Lipsa acestora a fost sancționată constant de CCR. Atribuirea de sarcini BNR prin lege e admisibilă, dar formularea trebuie să respecte independența băncii (Legea 312/2004).",
+      "euLawNote": "Directiva 2018/958 nu e relevantă, pentru că proiectul nu reglementează accesul la profesii. TRIS (2015/1535) nu pare aplicabilă: interconectarea organ fiscal–bănci în executarea silită ține de raportul autoritate–instituție de credit, nu de o regulă privind serviciile societății informaționale oferite la distanță utilizatorilor. Trimiterea la Legea 455/2001 e depășită, fiindcă cadrul actual e Regulamentul eIDAS 910/2014, aplicabil direct, și legislația națională de aplicare. Plafonarea comisioanelor prin reglementare BNR e compatibilă cu Directiva 2014/92 privind conturile de plăți. Sistemul trebuie să respecte GDPR (minimizarea datelor, temei legal pentru identificarea tuturor conturilor). Pe fond, mecanismul e conform art. 17 din Carta UE și art. 1 din Protocolul 1 la CEDO.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 4 (art. 235^1 alin. (2))",
+        "proposalContent": "Art. 235^1 alin. (2): «Instituțiile de credit indisponibilizează, cumulat, numai suma urmărită. Când sumele indisponibilizate sau încasate acoperă creanța, organul fiscal transmite, în cel mult 24 de ore, notificarea de ridicare a popririi pentru conturile și sumele excedentare, chiar înainte de încasarea integrală.»",
+        "argumentation": "Forma actuală ridică poprirea doar după încasarea integrală, deci blocarea în paralel a aceleiași sume în toate băncile, problema invocată în expunerea de motive, rămâne. Fără o limită cumulată, o datorie de 1.000 lei poate bloca 1.000 lei în fiecare din 5 bănci. Amendamentul aplică proporționalitatea (art. 44, art. 53 Constituție).",
+        "otherComments": "Art. II alin. (4) trebuie limitat la art. 235^1, altfel blochează și art. 164^1. Art. III alin. (1) e fără obiect: sintagma «poprire unică» nu apare în Cod. Verificați numerotarea pct. 41-44 din art. 1 față de completările din 2022 și 2025. E necesară fișa financiară (art. 15 L. 500/2002) pentru costurile IT."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -144,7 +175,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T14:23:13.188Z",
+      "replacedAt": "2026-11-24T15:12:45.187Z",
       "reasons": [
         "model"
       ]

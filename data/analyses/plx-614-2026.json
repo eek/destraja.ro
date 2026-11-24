@@ -1,119 +1,178 @@
 {
   "billId": "Pl-x 614/2026",
   "slug": "plx-614-2026",
-  "updatedAt": "2026-10-28T21:46:15.157Z",
+  "version": "initiator",
+  "updatedAt": "2026-11-24T14:34:57.557Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1522,
+    "ordinanceChars": 0,
+    "memoChars": 7574,
+    "memoSupplied": 7574,
+    "marker": "SF-B2B270D2"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-614-2026.json",
+    "form": "initiator",
+    "textHash": "b2b270d2a684052b",
+    "fetchedAt": "2026-11-19T09:39:31.472Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 6265,
+    "truncated": false,
+    "included": true,
+    "key": "e7059d834d45a76c"
+  },
   "consensus": {
     "riskScore": 5.3,
     "riskLevel": "yellow",
-    "plainTitle": "Derogări pentru urși, lupi și alte specii protejate: ministerul ar decide fără avizul Academiei Române",
-    "summaryTlDr": "Legea nu desființează protecția speciilor, dar scoate singurul filtru științific independent de minister din derogările pentru specii strict protejate. Ministerul ar ajunge să-și realizeze, să-și comande sau doar să-și avizeze singur studiile. Scopul declarat, adică viteza, e legitim, dar textul nu îl garantează, iar riscul ca ordinele să fie anulate în instanță crește.",
-    "initiatorClaim": "Inițiatorii spun că avizul extern al Academiei Române întârzie soluționarea cererilor de derogare. Eliminarea lui ar simplifica procedura, iar studiile structurilor ministerului ar păstra fundamentarea științifică.",
-    "realityCheck": "Mecanic, legea face două lucruri. Șterge avizul Academiei Române din art. 38 alin. (2). Apoi cere ca ordinul să se bazeze pe studii „realizate, comandate sau avizate” de structuri aflate sub autoritatea, în subordinea sau în coordonarea aceluiași minister. Ministerul devine astfel decident, sursă și verificator al probelor științifice. În configurația actuală, ministerul acoperă și pădurile, deci printre aceste structuri pot intra și administratori de fonduri cinegetice, cum este Romsilva. Viteza promisă nu are acoperire în text, pentru că legea nu impune niciun termen. În plus, o fundamentare neverificată independent poate fi suspendată sau anulată mai ușor în contencios.",
+    "plainTitle": "Ministerul Mediului ar aproba singur, fără avizul Academiei Române, derogările pentru vânarea sau capturarea speciilor strict protejate",
+    "summaryTlDr": "Proiectul are două puncte și elimină singurul filtru științific din afara ministerului la derogările pentru specii strict protejate (de exemplu urs, lup, păsări). Fundamentarea trece pe studii pe care ministerul le poate și doar «aviza», adică ministerul își verifică singur deciziile.",
+    "initiatorClaim": "Inițiatorii spun că avizul Academiei Române lungește procedura, deși nu are caracter decizional. Ei susțin că garanțiile științifice rămân, pentru că ordinul se va emite pe baza studiilor de specialitate ale structurilor din sistemul ministerului, cu respectarea stării de conservare favorabile.",
+    "realityCheck": "Acum, art. 38 alin. (2) cere ca ordinul de derogare să fie emis «cu avizul Academiei Române». Proiectul elimină acest aviz și introduce alin. (2^4), care cere ca ordinul să aibă la bază studii «realizate, comandate sau avizate» de structuri din subordinea sau coordonarea ministerului. Prin varianta «avizate», un studiu comandat de cel care cere derogarea (de exemplu un gestionar de fond cinegetic) poate deveni temei după o simplă viză a unei instituții a ministerului. Condiția stării de conservare favorabile există deja în alin. (1), deci nu e o garanție nouă. Proiectul nu stabilește termene, nu cere publicarea studiilor și nu prevede o evaluare independentă.",
     "affectedGroups": [
       "Agricultură & Mediu",
-      "Justiție & Drepturi Civile",
       "Toți cetățenii",
+      "Justiție & Drepturi Civile",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 1 și 2 (art. 38 alin. 2 și 2⁴)",
-      "proposalContent": "„(2) Derogările se stabilesc prin ordin al conducătorului autorității publice centrale pentru protecția mediului, cu avizul Academiei Române, emis în 30 de zile de la solicitare. (2⁴) Ordinul se emite în baza unor studii științifice publicate pe site-ul autorității cu cel puțin 10 zile înainte. Dacă avizul nu este emis în termen, ordinul poate fi emis fără aviz.”",
-      "argumentation": "Problema invocată e întârzierea, nu avizul în sine: un termen de 30 de zile o rezolvă fără a elimina singura verificare științifică independentă de minister. Altfel, ministerul își comandă și își avizează singur studiile. CJUE (C-674/17 Tapiola) cere date științifice riguroase pentru derogări; publicarea studiilor reduce riscul de anulare în instanță.",
-      "otherComments": "Textul spune „realizate, comandate SAU avizate”: un studiu plătit de solicitant și doar avizat de o agenție a ministerului ar fi suficient. Sugerez și: termen-limită pentru emiterea ordinului (altfel nu se câștigă viteză), definirea structurilor eligibile (institute de cercetare, nu orice structură) și publicarea ordinelor cu studiile anexate."
+      "articleRef": "Art. 38 alin.(2) și (2^4) OUG 57/2007",
+      "proposalContent": "Alin.(2) se menține cu avizul consultativ al Academiei Române, emis în 30 de zile; la depășirea termenului, ordinul se poate emite fără aviz. Studiile de la alin.(2^4) se publică pe site-ul autorității odată cu proiectul de ordin și trebuie realizate sau comandate (nu doar avizate) de structurile de specialitate, pe date de monitorizare actuale.",
+      "argumentation": "Problema invocată e durata, nu avizul. Un termen de 30 de zile rezolvă întârzierea fără a elimina singura verificare științifică externă. Formula «avizate» permite ca un studiu plătit de solicitant să fie doar ștampilat de o structură a ministerului. CJUE (C-674/17 Tapiola) cere derogări fundamentate pe date științifice riguroase.",
+      "otherComments": "Alin.(2^1) rămâne cu «și avizul conform» al aceleiași autorități care emite ordinul; după eliminarea avizului Academiei, textul devine incoerent și trebuie corelat. Proiectul nu are dispoziții tranzitorii pentru cererile în curs și nu cere actualizarea ordinului de procedură de la alin.(2^2)."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 50901,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 78118,
+      "sourceEndMarker": "SF-B2B270D2",
       "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Eliminarea avizului Academiei Române la derogările pentru vânarea sau relocarea speciilor strict protejate",
-      "verdictShort": "Proiectul elimină filtrul științific independent al Academiei Române din procedura de acordare a derogărilor pentru speciile strict protejate, concentrând atât validarea studiilor, cât și decizia finală exclusiv în interiorul Ministerului Mediului. Sub pretextul debirocratizării, se creează un circuit închis de auto-avizare administrativă vulnerabil la presiuni politice și la sancțiuni europene.",
-      "initiatorClaim": "Inițiatorii susțin că vor să simplifice și să scurteze procedura administrativă de emitere a derogărilor pentru speciile protejate, eliminând avizul extern al Academiei Române, dar păstrând fundamentarea științifică prin studii asumate de structurile din subordinea Ministerului Mediului.",
-      "realityCheck": "În realitate, legea suprimă singurul control științific independent extern (Comisia pentru Ocrotirea Monumentelor Naturii din Academia Română) și îl înlocuiește cu studii „realizate, comandate sau avizate” chiar de instituțiile subordonate politic ministrului care semnează ordinul. În plus, formularea vagă permite oricărei structuri din subordinea sau coordonarea ministerului să comande ori să avizeze astfel de studii, fără criterii de competență științifică sau transparență publică.",
+      "plainTitle": "Scoate Academia Română din avizarea derogărilor pentru specii protejate",
+      "verdictShort": "Proiectul elimină singurul filtru științific independent din procedura de acordare a derogărilor la protecția speciilor sălbatice și permite Ministerului Mediului să se auto-valideze prin studii făcute sau comandate de propriile structuri subordonate. Deși condițiile de fond din lege nu dispar, slăbirea garanțiilor instituționale crește semnificativ riscul de decizii arbitrare și de proceduri de infringement din partea Comisiei Europene.",
+      "initiatorClaim": "Inițiatorii susțin că avizul Academiei Române este o etapă consultativă externă care prelungește nejustificat procedura și că înlocuirea lui cu studii ale structurilor din sistemul Ministerului Mediului va accelera deciziile fără a diminua fundamentarea științifică ori protecția biodiversității.",
+      "realityCheck": "În prezent, art. 38 alin. (2) din OUG nr. 57/2007 impune avizul Academiei Române (for științific autonom) pentru orice ordin de derogare privind capturarea, uciderea sau perturbarea speciilor strict protejate (urs, lup, râs, păsări etc.). Proiectul taie acest filtru extern și îl înlocuiește, prin noul alin. (2⁴), cu studii „realizate, comandate sau avizate” chiar de structuri aflate sub autoritatea, în subordinea ori în coordonarea aceluiași minister decident — fără criterii de independență, metodologie, transparență publică sau verificare a alternativelor neletale.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. unic pct. 1 (modificarea art. 38 alin. 2): elimină cerința avizului Academiei Române pentru ordinele de derogare emise de conducătorul autorității publice centrale pentru protecția mediului, concentrând atât decizia, cât și validarea științifică în interiorul aceleiași ierarhii executive.",
+        "Art. unic pct. 2 (introducerea art. 38 alin. 2⁴): permite fundamentarea derogărilor pe studii „realizate, comandate sau avizate” de structuri aflate „sub autoritatea, în subordinea ori în coordonarea” ministerului — categorie care include și entități cu interese administrative sau economice/cinegetice directe (ex. RNP Romsilva), fără a stabili cine poate elabora studiile comandate, ce standarde științifice trebuie respectate sau dacă acestea sunt publice.",
+        "Omisiune de corelare și impact bugetar neevaluat: deși alin. (2) înlătură sintagma „și pădurilor”, alin. (2¹) și (2²) rămân nemodificate (păstrând vechea denumire și o formulare redundantă privind „avizul conform” al aceleiași autorități), iar Expunerea de motive susține lipsa impactului bugetar deși alin. (2⁴) prevede expres „studii comandate” din fondurile structurilor subordonate."
+      ],
+      "blindSpotsCaught": "Noul art. 38 alin. (2⁴) preia doar una dintre cele două condiții cumulative cerute de art. 38 alin. (1) și de dreptul UE (menținerea stării de conservare favorabile), omițând obligația ca studiile să demonstreze și lipsa unei „alternative acceptabile”. În plus, sintagma „structuri aflate sub autoritatea” ministerului deschide ușa avizării sau comandării studiilor de către regii autonome cu scop comercial/cinegetic, nu doar institute științifice, iar proiectul nu impune niciun termen pentru aviz (care ar fi rezolvat real presupusa întârziere fără a desființa controlul independent).",
+      "constitutionalityNote": "Proiectul ridică probleme de claritate și previzibilitate în raport cu art. 1 alin. (5) din Constituție: noțiunile de „studii de specialitate” și „comandate” nu sunt definite ca standard metodologic, competență a autorilor, actualitate ori publicitate, lăsând o marjă excesivă de discreție executivului. Prin eliminarea garanției științifice autonome, scade nivelul de protecție subsumat art. 35 (dreptul la un mediu sănătos) și art. 135 alin. (2) lit. e) (obligația statului de refacere și ocrotire a mediului). Totodată, ignorarea costurilor pentru studiile „comandate” intră în tensiune cu cerința indicării sursei de finanțare din art. 138 alin. (5).",
+      "euLawNote": "Directiva 92/43/CEE (Habitate, art. 16) și Directiva 2009/147/CE (Păsări, art. 9), interpretate strict de CJUE, nu impun nominal avizul unei academii naționale, dar cer ca derogările să fie fundamentate pe cele mai bune date științifice disponibile, obiective și verificabile, care să dovedească atât starea favorabilă de conservare, cât și lipsa alternativelor. Înlocuirea unui for autonom cu o auto-validare internă fără criterii de independență și transparență crește substanțial riscul de proceduri de infringement și anulare a ordinelor de derogare. Directivele (UE) 2018/958 (proporționalitate profesii) și (UE) 2015/1535 (TRIS) nu sunt incidente.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 1-2 (art. 38 alin. 2 și 2^4)",
+        "proposalContent": "Menținerea avizului Academiei Române la art. 38 alin. (2), cu introducerea unui termen de emitere (ex. 30 de zile, respectiv 10 zile pentru urgențe de siguranță publică), și reformularea alin. (2⁴) pentru a impune studii științifice independente, publice și supuse transparenței decizionale, nu doar avizate de structuri subordonate ministerului.",
+        "argumentation": "Eliminarea avizului Academiei Române înlătură singurul filtru științific independent: ministerul se auto-validează prin structuri subordonate (unele cu interese economice). Formula „studii comandate” e vagă (art. 1 alin. 5 Constituție) și sporește riscul de infringement pe Directivele Habitate și Păsări.",
+        "otherComments": "Solicit corelarea alin. (2¹) și (2²), care păstrează vechea denumire „protecția mediului și pădurilor”, evaluarea impactului bugetar al studiilor „comandate” (art. 138 alin. 5 Constituție) și includerea explicită a verificării lipsei alternativelor acceptabile în studiile prevăzute la alin. (2⁴), conform art. 38 alin. (1) și jurisprudenței CJUE."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 52150,
+      "sourceEndMarker": "SF-B2B270D2",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Ministerul Mediului ar aproba singur, fără avizul Academiei Române, derogările pentru vânarea sau capturarea speciilor strict protejate",
+      "verdictShort": "Proiectul are două puncte și elimină singurul filtru științific din afara ministerului la derogările pentru specii strict protejate (de exemplu urs, lup, păsări). Fundamentarea trece pe studii pe care ministerul le poate și doar «aviza», adică ministerul își verifică singur deciziile.",
+      "initiatorClaim": "Inițiatorii spun că avizul Academiei Române lungește procedura, deși nu are caracter decizional. Ei susțin că garanțiile științifice rămân, pentru că ordinul se va emite pe baza studiilor de specialitate ale structurilor din sistemul ministerului, cu respectarea stării de conservare favorabile.",
+      "realityCheck": "Acum, art. 38 alin. (2) cere ca ordinul de derogare să fie emis «cu avizul Academiei Române». Proiectul elimină acest aviz și introduce alin. (2^4), care cere ca ordinul să aibă la bază studii «realizate, comandate sau avizate» de structuri din subordinea sau coordonarea ministerului. Prin varianta «avizate», un studiu comandat de cel care cere derogarea (de exemplu un gestionar de fond cinegetic) poate deveni temei după o simplă viză a unei instituții a ministerului. Condiția stării de conservare favorabile există deja în alin. (1), deci nu e o garanție nouă. Proiectul nu stabilește termene, nu cere publicarea studiilor și nu prevede o evaluare independentă.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articol unic pct. 1 (modificarea art. 38 alin. 2 din OUG 57/2007): Elimină complet avizul Academiei Române din procedura de stabilire a derogărilor de la regimul de protecție strictă a florei și faunei sălbatice (inclusiv capturarea, relocarea sau uciderea exemplarelor din specii strict protejate).",
-        "Articol unic pct. 2 (introducerea art. 38 alin. 2⁴): Creează un conflict de interese instituțional prin faptul că ordinul ministrului se emite pe baza unor studii „realizate, comandate sau avizate” chiar de structurile aflate în subordinea, coordonarea sau sub autoritatea aceluiași minister.",
-        "Lipsă de rigoare în desemnarea competenței (alin. 2⁴): Sintagma generică „structurile aflate sub autoritatea, în subordinea ori în coordonarea autorității publice centrale pentru protecția mediului” include zeci de entități administrative sau economice (nu doar institute de cercetare), fără a preciza cine are competența științifică reală de a aviza studiile."
+        "Art. unic pct. 1 (art. 38 alin. (2)): dispare avizul Academiei Române, singura instituție independentă de minister implicată acum în emiterea derogărilor de la art. 33 alin. (1)-(4) și art. 37 alin. (1). Aceste articole privesc capturarea, uciderea și perturbarea speciilor strict protejate.",
+        "Art. unic pct. 2 (noul alin. (2^4)): studiile pot fi «realizate, comandate sau avizate» de structuri ale ministerului. Formula «avizate» permite ca studii externe, inclusiv plătite de cei interesați de derogare, să fundamenteze ordinul după o simplă viză internă.",
+        "Problema invocată în expunerea de motive este durata procedurii. Proiectul nu o rezolvă printr-un termen pentru aviz (de exemplu 30 de zile, cu emitere fără aviz la depășire), ci elimină cu totul verificarea. Soluția mai blândă ar fi atins același scop fără să scadă garanțiile.",
+        "Cerința de «menținere într-o stare de conservare favorabilă» din alin. (2^4) repetă alin. (1) în vigoare. Prezentarea ei ca garanție compensatorie este, deci, în mare parte declarativă.",
+        "Alin. (2^1) rămâne neschimbat. El cere, «prin excepție de la alin. (2)», «și avizul conform» al autorității centrale pentru protecția mediului, adică al aceleiași autorități care emite ordinul. După eliminarea avizului Academiei, textul devine și mai incoerent."
       ],
-      "blindSpotsCaught": "Proiectul modifică doar alin. (2) și adaugă alin. (2⁴) la art. 38, ignorând faptul că alineatele (2¹)-(2³) din OUG 57/2007 (introduse anterior pentru reglementarea cotelor de intervenție la carnivorele mari) fac în continuare trimitere la proceduri specifice și la avizul Academiei Române, ceea ce generează un paralelism legislativ și confuzie în aplicare. Totodată, textul permite ca un studiu realizat de orice entitate privată să fie folosit ca bază legală dacă este doar „comandat” de o structură din subordinea ministerului, chiar și fără un aviz științific propriu-zis.",
-      "constitutionalityNote": "Ridică probleme de constituționalitate prin raportare la Art. 1 alin. (5) (calitatea și previzibilitatea legii), deoarece nu individualizează instituția competentă științific să avizeze studiile, lăsând o marjă de apreciere arbitrară la nivelul aparatului subordonat ministerului. De asemenea, prin raportare la Art. 35 (dreptul la un mediu sănătos), eliminarea unei garanții obiective și independente de control științific fără înlocuirea ei cu un mecanism echivalent de independență poate fi sancționată ca un regres în standardul de protecție a mediului.",
-      "euLawNote": "Nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) sau a Directivei (UE) 2018/958, însă afectează direct aplicarea art. 16 din Directiva 92/43/CEE (Directiva Habitate) și a art. 9 din Directiva 2009/147/CE (Directiva Păsări). Conform jurisprudenței constante a CJUE (ex. cauza C-674/17, Tapiola), derogările sunt de strictă interpretare și trebuie fundamentate pe cele mai bune și independente date științifice disponibile; înlocuirea forului academic independent cu avize interne ale structurilor subordonate politic expune România riscului de infringement.",
+      "blindSpotsCaught": "Proiectul nu corelează alin. (2^1), care cere avizul conform al aceleiași autorități care emite ordinul, deci un aviz dat sieși. Nu actualizează ordinul de procedură de la alin. (2^2) și nu are dispoziții tranzitorii pentru cererile de derogare în curs, care așteaptă avizul Academiei. Studiile nu trebuie publicate, ceea ce slăbește participarea publicului și controlul în contencios: o asociație de mediu va contesta greu un ordin a cărui fundamentare nu o poate vedea. Expunerea de motive afirmă conformitatea cu Directiva 92/43/CEE, dar nu analizează jurisprudența CJUE privind art. 16, care cere fundamentare științifică riguroasă și motivare precisă a fiecărei derogări.",
+      "constitutionalityNote": "Riscul de neconstituționalitate directă este moderat-scăzut, pentru că legiuitorul poate reorganiza procedurile de avizare. Pot fi invocate totuși două temeiuri. Primul este art. 35 (dreptul la mediu sănătos) coroborat cu art. 135 alin. (2) lit. e) (refacerea și ocrotirea mediului, echilibrul ecologic): eliminarea unei garanții științifice independente, fără o garanție echivalentă, poate fi atacată ca regres în nivelul de protecție. Al doilea este art. 1 alin. (5), privind claritatea și previzibilitatea: formula «realizate, comandate sau avizate» este vagă, iar alin. (2^1) rămâne necorelat. Prin art. 148, obligațiile din dreptul UE (Directivele Habitate și Păsări) au prioritate și trebuie respectate de legea internă.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: proiectul nu conține reguli tehnice și nu privește servicii digitale. Nu există efecte asupra concurenței sau a pieței unice. Dreptul UE relevant este art. 16 din Directiva 92/43/CEE și art. 9 din Directiva 2009/147/CE. Acestea nu impun un aviz al Academiei, deci eliminarea lui nu încalcă formal directivele. Totuși, CJUE (C-674/17 Tapiola) cere ca fiecare derogare să fie motivată precis, să se bazeze pe date științifice riguroase și actuale și să evalueze starea de conservare și alternativele. Scăderea independenței fundamentării sporește riscul ca ordinele să nu îndeplinească acest standard, ceea ce poate duce la anulări în instanță și chiar la proceduri de infringement. Convenția de la Aarhus (participarea publicului și accesul la justiție) cere, practic, ca studiile să fie accesibile publicului.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 1 și 2 (Art. 38 OUG 57/2007)",
-        "proposalContent": "Se menține avizul Academiei Române la alin. (2), cu instituirea unui termen maxim de 30 de zile pentru emiterea acestuia. La alin. (2⁴), sintagma „structurile aflate sub autoritatea, în subordinea ori în coordonarea” se înlocuiește cu „institutele naționale de cercetare-dezvoltare în domeniul biodiversității și Agenția Națională pentru Arii Naturale Protejate”.",
-        "argumentation": "Eliminarea completă a filtrului științific independent al Academiei Române creează un conflict de interese instituțional, ministerul devenind atât comanditar/avizator al studiilor prin propriile structuri subordonate, cât și decident. Dacă problema reală este durata avizării, soluția proporțională este impunerea unui termen legal, nu suprimarea controlului științific independent.",
-        "otherComments": "Formula „structurile aflate sub autoritatea, în subordinea ori în coordonarea” este imprecisă (încălcând art. 1 alin. 5 din Constituție), incluzând entități fără competențe științifice în conservarea faunei și florei. De asemenea, CJUE (cauza C-674/17) impune ca derogările pe Directiva Habitate să se bazeze pe expertiză științifică independentă și publică."
-      }
-    },
-    "claude": {
-      "model": "claude",
-      "status": "ok",
-      "durationMs": 168668,
-      "riskScore": 5,
-      "riskLevel": "yellow",
-      "plainTitle": "Derogări pentru urși, lupi și alte specii protejate: ministerul ar decide fără avizul Academiei Române",
-      "verdictShort": "Legea nu desființează protecția speciilor, dar scoate singurul filtru științific independent de minister din derogările pentru specii strict protejate. Ministerul ar ajunge să-și realizeze, să-și comande sau doar să-și avizeze singur studiile. Scopul declarat, adică viteza, e legitim, dar textul nu îl garantează, iar riscul ca ordinele să fie anulate în instanță crește.",
-      "initiatorClaim": "Inițiatorii spun că avizul extern al Academiei Române întârzie soluționarea cererilor de derogare. Eliminarea lui ar simplifica procedura, iar studiile structurilor ministerului ar păstra fundamentarea științifică.",
-      "realityCheck": "Mecanic, legea face două lucruri. Șterge avizul Academiei Române din art. 38 alin. (2). Apoi cere ca ordinul să se bazeze pe studii „realizate, comandate sau avizate” de structuri aflate sub autoritatea, în subordinea sau în coordonarea aceluiași minister. Ministerul devine astfel decident, sursă și verificator al probelor științifice. În configurația actuală, ministerul acoperă și pădurile, deci printre aceste structuri pot intra și administratori de fonduri cinegetice, cum este Romsilva. Viteza promisă nu are acoperire în text, pentru că legea nu impune niciun termen. În plus, o fundamentare neverificată independent poate fi suspendată sau anulată mai ușor în contencios.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "Justiție & Drepturi Civile"
-      ],
-      "keyFindings": [
-        "Art. unic pct. 1 (art. 38 alin. 2): dispare avizul Academiei Române, singura verificare externă și independentă de minister din procedura de derogare. Decizia rămânea oricum la minister, deci se pierde doar contraponderea științifică.",
-        "Art. unic pct. 2 (noul alin. 2⁴): formula „realizate, comandate SAU avizate” este disjunctivă. Ajunge ca o structură subordonată să avizeze un studiu făcut de oricine, inclusiv de solicitant sau de un gestionar de fond cinegetic. Nu există criterii privind metodologia, vechimea datelor, autorii sau publicarea studiilor.",
-        "Nu există niciun termen: nici pentru studii, nici pentru emiterea ordinului. Câștigul de timp invocat în Expunerea de motive nu e garantat juridic. Expunerea nu prezintă nicio cifră despre cât durează în prezent avizarea la Academie (art. 6 și art. 31 din Legea nr. 24/2000 cer fundamentare).",
-        "Textul diferă de Expunerea de motive. Expunerea promite ca ordinul să fie emis „exclusiv” pe baza studiilor „structurilor de specialitate”. Textul de lege nu conține nici cuvântul „exclusiv”, nici sintagma „de specialitate”, deci orice structură a ministerului poate aviza.",
-        "Condiția menținerii stării de conservare favorabile din alin. (2⁴) repetă ce prevede deja art. 38 alin. (1). Nu este o garanție nouă care să compenseze pierderea avizului."
-      ],
-      "blindSpotsCaught": "Legea creează o buclă de autovalidare. În structura actuală a Ministerului Mediului, Apelor și Pădurilor, între entitățile „aflate sub autoritatea” ministerului se poate afla și Romsilva, care administrează fonduri cinegetice. Un administrator interesat de recoltă ar putea astfel aviza studiul pe care se bazează derogarea. Al doilea efect e ironic: CJUE cere ca derogările să se bazeze pe date științifice riguroase și motivate precis (C-674/17 Tapiola). ONG-urile au acces la instanță împotriva derogărilor privind urșii (C-240/09, LZ). Prin urmare, eliminarea verificării independente poate aduce mai multe suspendări în contencios, deci mai multă întârziere, nu mai puțină. Afirmația „impact bugetar zero” este și ea neverificată, pentru că studiile „comandate” costă bani publici.",
-      "constitutionalityNote": "Textul nu este vădit neconstituțional. Avizul Academiei nu este o cerință constituțională, iar legiuitorul poate reorganiza avizele consultative. Există totuși puncte slabe. (1) Art. 1 alin. (5): noțiunile „studii de specialitate” și „structurile aflate sub autoritatea, în subordinea ori în coordonarea” sunt vagi și nu au criterii de calitate sau publicitate, ceea ce afectează previzibilitatea. (2) Art. 35 și art. 135 alin. (2) lit. e) obligă statul să asigure cadrul legislativ pentru protecția mediului. Reducerea unei garanții procedurale fără date care să o justifice slăbește argumentul de proporționalitate, chiar dacă principiul neregresiei nu e consacrat expres în Constituție. (3) Art. 148 alin. (2) și (4): soluția trebuie să rămână compatibilă cu obligațiile din dreptul UE privind derogările. Ca tehnică legislativă, condiția esențială pentru ordinul de la alin. (2) este plasată după alin. (2³), departe de alineatul pe care îl completează.",
-      "euLawNote": "Art. 16 din Directiva 92/43/CEE nu impune avizul unei academii, deci eliminarea lui nu încalcă direct directiva. Jurisprudența CJUE impune însă standarde stricte. Derogarea trebuie să demonstreze, pe date științifice riguroase și cu aplicarea principiului precauției, că nu există o alternativă satisfăcătoare și că starea de conservare favorabilă nu este afectată (C-674/17 Tapiola). Protecția strictă se aplică și în localități (C-88/19, cauză din România privind un lup). Studii produse și avizate în interiorul aceluiași minister cresc riscul de anulare și de procedură de infringement. Dacă derogările acoperă și păsări, se aplică și art. 9 din Directiva 2009/147/CE. Directiva (UE) 2018/958 nu este aplicabilă, pentru că nu se reglementează o profesie. Directiva (UE) 2015/1535 (TRIS) nu este aplicabilă, pentru că nu există reguli tehnice sau servicii digitale. Nu există impact asupra pieței unice.",
-      "senatForm": {
-        "articleRef": "Art. unic pct. 1 și 2 (art. 38 alin. 2 și 2⁴)",
-        "proposalContent": "„(2) Derogările se stabilesc prin ordin al conducătorului autorității publice centrale pentru protecția mediului, cu avizul Academiei Române, emis în 30 de zile de la solicitare. (2⁴) Ordinul se emite în baza unor studii științifice publicate pe site-ul autorității cu cel puțin 10 zile înainte. Dacă avizul nu este emis în termen, ordinul poate fi emis fără aviz.”",
-        "argumentation": "Problema invocată e întârzierea, nu avizul în sine: un termen de 30 de zile o rezolvă fără a elimina singura verificare științifică independentă de minister. Altfel, ministerul își comandă și își avizează singur studiile. CJUE (C-674/17 Tapiola) cere date științifice riguroase pentru derogări; publicarea studiilor reduce riscul de anulare în instanță.",
-        "otherComments": "Textul spune „realizate, comandate SAU avizate”: un studiu plătit de solicitant și doar avizat de o agenție a ministerului ar fi suficient. Sugerez și: termen-limită pentru emiterea ordinului (altfel nu se câștigă viteză), definirea structurilor eligibile (institute de cercetare, nu orice structură) și publicarea ordinelor cu studiile anexate."
-      }
+        "articleRef": "Art. 38 alin.(2) și (2^4) OUG 57/2007",
+        "proposalContent": "Alin.(2) se menține cu avizul consultativ al Academiei Române, emis în 30 de zile; la depășirea termenului, ordinul se poate emite fără aviz. Studiile de la alin.(2^4) se publică pe site-ul autorității odată cu proiectul de ordin și trebuie realizate sau comandate (nu doar avizate) de structurile de specialitate, pe date de monitorizare actuale.",
+        "argumentation": "Problema invocată e durata, nu avizul. Un termen de 30 de zile rezolvă întârzierea fără a elimina singura verificare științifică externă. Formula «avizate» permite ca un studiu plătit de solicitant să fie doar ștampilat de o structură a ministerului. CJUE (C-674/17 Tapiola) cere derogări fundamentate pe date științifice riguroase.",
+        "otherComments": "Alin.(2^1) rămâne cu «și avizul conform» al aceleiași autorități care emite ordinul; după eliminarea avizului Academiei, textul devine incoerent și trebuie corelat. Proiectul nu are dispoziții tranzitorii pentru cererile în curs și nu cere actualizarea ordinului de procedură de la alin.(2^2)."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 86386,
+      "durationMs": 82241,
+      "sourceEndMarker": "SF-B2B270D2",
       "riskScore": 5,
       "riskLevel": "yellow",
       "plainTitle": "Derogări pentru speciile protejate fără avizul Academiei Române",
-      "verdictShort": "Simplificarea procedurii poate fi utilă, dar proiectul elimină un filtru științific extern fără să garanteze o verificare echivalentă. Riscul principal este fundamentarea insuficientă a derogărilor, nu introducerea unor taxe sau sancțiuni.",
+      "verdictShort": "Proiectul elimină o verificare științifică externă și concentrează fundamentarea derogărilor în sistemul instituțional al ministerului. Riscul este moderat: condițiile legale de protecție rămân, dar independența evaluării nu primește o garanție echivalentă.",
       "initiatorClaim": "Inițiatorii urmăresc scurtarea procedurii prin eliminarea avizului Academiei Române. Ei susțin că studiile gestionate de structurile autorității de mediu păstrează fundamentarea științifică și nivelul de protecție.",
-      "realityCheck": "Articolul unic pct. 1 elimină avizul Academiei, iar pct. 2 condiționează ordinul de studii realizate, comandate sau avizate de structurile din sistemul autorității de mediu. Formularea alternativă permite utilizarea unui studiu doar comandat de aceste structuri, fără o obligație expresă de evaluare științifică distinctă. Condițiile materiale din art. 38 alin. (1), inclusiv absența unei alternative acceptabile, rămân aplicabile; proiectul nu permite automat capturarea sau uciderea speciilor protejate. [OUG nr. 57/2007, art. 38](https://legislatie.just.ro/Public/DetaliiDocument/83289)",
+      "realityCheck": "În prezent, art. 38 alin. (2) cere ordin ministerial și avizul Academiei Române; proiectul elimină avizul și introduce expres fundamentarea ordinului prin studii realizate, comandate sau avizate de structuri din sistemul autorității de mediu. Competența decizională era deja ministerială, iar condițiile privind lipsa unei alternative acceptabile, motivele derogării și conservarea speciilor rămân aplicabile. Simplul fapt că un studiu este comandat de o asemenea structură satisface formularea propusă, fără o cerință expresă de verificare științifică externă.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Articolul unic pct. 1 elimină o etapă obligatorie, dar competența emiterii ordinului aparținea deja autorității centrale pentru protecția mediului. Beneficiul posibil este reducerea duratei procedurii; expunerea de motive nu oferă date despre întârzierile imputabile avizului.",
-        "Noul art. 38 alin. (2⁴) nu precizează calificarea autorilor, actualitatea datelor, criteriile de validare sau garanțiile împotriva conflictelor de interese. Aceste omisiuni creează un risc de aplicare neuniformă, fără să demonstreze că toate studiile instituțiilor publice ar fi necorespunzătoare.",
-        "Proiectul nu introduce taxe, amenzi sau obligații declarative pentru cetățeni și IMM-uri. Studiile pot presupune cheltuieli și muncă administrativă, dar textul nu stabilește cine suportă costurile; impactul bugetar nul afirmat de inițiatori nu este demonstrat printr-o estimare.",
-        "Nu rezultă un monopol comercial asupra studiilor: posibilitatea comandării sau avizării permite și contribuția unor autori externi. Totuși, lipsesc criterii explicite pentru acceptarea studiilor și alegerea evaluatorilor, aspect relevant pentru tratamentul egal al prestatorilor."
+        "Articol unic pct. 1: dispare avizul Academiei Române. Textul actual îl cere, fără să îl califice drept aviz conform; eliminarea privește o consultare obligatorie, nu transferul unei puteri de decizie de la Academie la minister.",
+        "Articol unic pct. 2, noul alin. (2⁴): variantele «realizate, comandate sau avizate» sunt alternative. Nu se stabilesc criterii de competență a autorilor, actualitate a datelor, independență ori verificare a studiilor; totuși, autorii acestora pot fi și specialiști externi, deoarece realizarea nu este rezervată instituțiilor publice.",
+        "Art. 38 alin. (1) rămâne nemodificat: lipsa unei alternative acceptabile, conservarea populațiilor și încadrarea într-un motiv legal continuă să fie condiții cumulative. Proiectul nu autorizează automat capturarea sau uciderea exemplarelor și nu introduce motive suplimentare de derogare.",
+        "Art. 38 alin. (2¹)–(4) rămâne aplicabil: se păstrează avizul conform prevăzut pentru anumite categorii, conținutul obligatoriu al derogărilor respective și raportarea către Comisia Europeană. Controlul judecătoresc și regulile generale aplicabile actelor administrative nu sunt eliminate.",
+        "Nu apar taxe, sancțiuni sau obligații directe noi pentru cetățeni și IMM-uri. Pot exista economii de timp, dar și costuri pentru realizarea sau comandarea studiilor; textul nu precizează finanțarea, iar afirmația din expunere privind lipsa impactului bugetar nu este demonstrată prin date.",
+        "Proiectul se încheie după cele două intervenții asupra art. 38: nu conține alte abrogări, derogări ascunse sau dispoziții tranzitorii. Eliminarea avizului extern nu este însoțită de obligații speciale de publicare a studiilor ori de gestionare a conflictelor de interese."
       ],
-      "blindSpotsCaught": "Cuvântul „comandate” descrie proveniența contractuală a studiului, nu validarea concluziilor sale. În plus, alin. (2¹), privind avizul conform al autorității de mediu pentru anumite derogări, și alin. (2²), privind procedura aprobată prin ordin, rămân nemodificate; eliminarea avizului Academiei nu înlătură automat celelalte cerințe procedurale. [Art. 38 în vigoare](https://legislatie.just.ro/Public/DetaliiDocument/83289)",
-      "constitutionalityNote": "Eliminarea avizului Academiei nu este, prin ea însăși, neconstituțională: Constituția nu impune acest aviz. Art. 1 alin. (5) justifică însă clarificarea standardelor studiilor și a structurilor competente, iar art. 35 impune păstrarea unui cadru efectiv de protecție a mediului. Art. 23 alin. (12), privind legalitatea pedepsei, nu este direct incident, deoarece proiectul nu instituie pedepse. Nu se poate constata doar din text o încălcare constituțională certă. [Constituția României](https://www.cdep.ro/ords/pls/dic/site.page?id=339&idl=1)",
-      "euLawNote": "Art. 16 din Directiva Habitate și art. 9 din Directiva Păsări impun condiții stricte pentru derogări, fără să desemneze Academia Română drept avizator obligatoriu. În cauza C-674/17, pct. 66, CJUE cere abținerea de la derogare dacă cele mai bune date științifice disponibile lasă incertitudini privind efectele asupra conservării; simpla existență a unui studiu nu este suficientă. Directiva 2018/958 nu este direct aplicabilă textului analizat, care nu reglementează accesul la o profesie sau calificările profesionale. Nu rezultă nici obligația notificării TRIS potrivit Directivei 2015/1535: proiectul nu stabilește norme tehnice pentru produse ori reguli specifice serviciilor societății informaționale, inclusiv AI. [Directiva Habitate](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31992L0043), [Directiva Păsări](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32009L0147), [CJUE C-674/17](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62017CJ0674), [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32015L1535)",
+      "blindSpotsCaught": "Diferența decisivă este între un studiu «comandat» și unul verificat: noul alin. (2⁴) nu cere cumulativ comandarea și avizarea studiului. În plus, avizul conform din alin. (2¹), păstrat de proiect, provine tot din sfera autorității de mediu și nu înlocuiește funcțional evaluarea externă a Academiei. Caracterul nedecizional al avizului Academiei nu îl face facultativ în legea actuală.",
+      "constitutionalityNote": "Art. 35 impune protejarea mediului, dar nu consacră obligația constituțională de a solicita tocmai avizul Academiei Române; eliminarea lui nu este automat neconstituțională. Art. 1 alin. (5) justifică examinarea clarității cerințelor privind studiile și a coerenței procedurii, fără ca orice detaliu lăsat normelor de aplicare să constituie un viciu constituțional. Riscul relevant este insuficiența garanțiilor pentru fundamentarea derogărilor, analizabilă prin art. 35 și art. 135 alin. (2) lit. e). Art. 23 alin. (12), privind legalitatea pedepsei, nu are incidență directă: proiectul nu instituie pedepse.",
+      "euLawNote": "Reperele principale sunt art. 16 din Directiva 92/43/CEE și art. 9 din Directiva 2009/147/CE pentru păsări. Acestea nu impun avizul Academiei Române, dar derogările trebuie justificate riguros, cu respectarea condițiilor specifice fiecărei directive; existența formală a unui studiu nu dovedește singură îndeplinirea lor. Eliminarea avizului nu stabilește, prin ea însăși, o încălcare a dreptului UE. Directiva (UE) 2018/958 nu este incidentă prin obiectul proiectului, care nu restrânge accesul la o profesie reglementată sau exercitarea ei. Nu rezultă nici obligația notificării TRIS potrivit Directivei (UE) 2015/1535: textul nu introduce reglementări tehnice pentru produse sau reguli privind serviciile societății informaționale. Nu se instituie un monopol expres asupra realizării studiilor; eventuala lor achiziție rămâne supusă regulilor generale aplicabile.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 2 – art. 38 alin. (2⁴)",
-        "proposalContent": "(2⁴) Ordinul prevăzut la alin. (2) se emite pe baza unor studii de specialitate evaluate de experți independenți de autorii lor și de beneficiarii derogării. Studiile fundamentează îndeplinirea tuturor condițiilor de la alin. (1), pe baza celor mai bune date științifice disponibile, și se publică înaintea emiterii ordinului, cu protejarea informațiilor ocrotite de lege.",
-        "argumentation": "Eliminarea avizului Academiei trebuie însoțită de garanții verificabile privind calitatea studiilor și evitarea conflictelor de interese. Simpla comandare a unui studiu nu certifică validitatea concluziilor. Evaluarea independentă și publicitatea susțin aplicarea principiului precauției și controlul legalității derogării.",
-        "otherComments": "Termenul indicat pentru amendamente, 6 octombrie 2026, a trecut. Propunerea poate fi transmisă ca petiție celor trei comisii raportoare, solicitând preluarea de către un deputat, potrivit procedurii aplicabile. Corelați și procedura emisă în temeiul art. 38 alin. (2²)."
-      }
+        "articleRef": "Articol unic pct. 1 și 2",
+        "proposalContent": "La pct. 1, alin. (2): „Derogările se stabilesc prin ordin al conducătorului autorității publice centrale pentru protecția mediului, cu avizul Academiei Române.” La pct. 2, la finalul alin. (2⁴) se adaugă: „Studiile și avizul se publică înaintea emiterii ordinului, cu protejarea datelor sensibile potrivit legii.”",
+        "argumentation": "Avizul Academiei asigură o consultare științifică externă, fără a transfera decizia ministerială. Studiile comandate de structuri ale aceleiași autorități nu garantează singure verificarea externă. Publicarea permite examinarea fundamentării, păstrând condițiile de fond ale art. 38 alin. (1).",
+        "otherComments": "Analiză pe documentele furnizate; verificarea externă nu a fost disponibilă. Termenul indicat pentru amendamente, 06.10.2026, este depășit la 24.11.2026. Transmiterea observațiilor de către un cetățean nu echivalează cu depunerea unui amendament parlamentar; preluarea depinde de procedura comisiilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-10-28T21:46:15.157Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 5
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:34:57.557Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

@@ -1,120 +1,173 @@
 {
   "billId": "PL-x 704/2026",
   "slug": "plx-704-2026",
-  "updatedAt": "2026-10-28T17:28:15.893Z",
+  "version": "senat",
+  "updatedAt": "2026-11-24T14:36:58.255Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 915,
+    "ordinanceChars": 0,
+    "memoChars": 12261,
+    "memoSupplied": 12261,
+    "marker": "SF-C76E7912"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-704-2026.json",
+    "form": "senat",
+    "textHash": "c76e791259291a55",
+    "fetchedAt": "2026-11-19T09:32:28.817Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1331,
+    "truncated": false,
+    "included": true,
+    "key": "41294f60b53264db"
+  },
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Instituțiile statului nu vor putea folosi antivirusuri și alte programe de securitate rusești până în 2035",
-    "summaryTlDr": "Lege tehnică și utilă: mută un singur termen, de la 31.12.2026 la 31.12.2035, pentru o interdicție care se aplică deja din 2022. Conținutul nu ridică probleme. Riscul real ține de calendar: dacă legea nu intră în vigoare înainte de 31 decembrie 2026, interdicția încetează.",
-    "initiatorClaim": "Inițiatorii spun că amenințarea cibernetică rusă nu doar persistă, ci s-a agravat (atacul KA-SAT, atacurile Killnet asupra instituțiilor române, atacurile asupra infrastructurii electorale din 2024). De aceea, instituțiile publice nu trebuie lăsate să reintroducă din 2027 software de securitate controlat de un stat agresor.",
-    "realityCheck": "Articolul unic schimbă doar data din art. 3 al Legii 354/2022. Interdicția de la art. 2 (achiziția, instalarea și utilizarea în instituțiile publice a produselor și serviciilor de securitate informatică provenite din Rusia sau de la operatori controlați de Rusia) rămâne valabilă până la 31.12.2035, nu până la 31.12.2026. Proiectul nu adaugă produse, sancțiuni, obligații sau costuri noi și nu privește firmele private sau cetățenii. Retorica expunerii de motive („Rusia trebuie izolată tehnologic prin toate mijloacele”) depășește cu mult efectul juridic real, care se limitează la ce software de securitate pot cumpăra și folosi instituțiile statului.",
+    "plainTitle": "Instituțiile statului nu vor putea folosi antivirusuri rusești nici după 2026, ci până în 2035",
+    "summaryTlDr": "O prelungire tehnică și justificată a unei interdicții care există deja, fără costuri noi și fără efecte asupra cetățenilor sau firmelor private. Singura problemă reală e orizontul lung de 9 ani fără nicio reevaluare și termenul strâns: legea trebuie să intre în vigoare înainte de 1 ianuarie 2027.",
+    "initiatorClaim": "Inițiatorii vor ca autoritățile publice să nu poată reintroduce, de la 1 ianuarie 2027, programe antivirus și alte produse de securitate informatică controlate din Rusia. Invocă războiul din Ucraina și atacurile cibernetice rusești documentate, inclusiv asupra României.",
+    "realityCheck": "Articolul unic schimbă o singură dată în art.3 din Legea nr.354/2022: termenul de 31 decembrie 2026 devine 31 decembrie 2035. Interdicția de la art.2 (achiziție, instalare, utilizare de către autorități și instituții publice) rămâne neschimbată ca întindere: nu se extinde la firme private sau persoane fizice și nu adaugă sancțiuni noi. Efectul secundar: o măsură justificată prin „contextul invaziei” rămâne automat în vigoare 9 ani, chiar dacă acest context s-ar schimba, fără vreo reevaluare prevăzută în textul modificat.",
     "affectedGroups": [
       "IT & AI",
       "Toți cetățenii",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic – art. 3 din Legea nr. 354/2022",
-      "proposalContent": "„Art. 3. – (1) Interdicția prevăzută la art. 2 se aplică până la data de 31 decembrie 2035. (2) Directoratul Național de Securitate Cibernetică prezintă comisiilor de specialitate ale Parlamentului, la fiecare 2 ani, un raport privind aplicarea interdicției și persistența riscurilor care o justifică, cu o sinteză publică.”",
-      "argumentation": "Prelungirea cu 9 ani a unei măsuri adoptate „în contextul invaziei” este justificată, dar un orizont atât de lung cere control periodic. Un raport la 2 ani arată Parlamentului dacă riscul persistă și dacă lista produselor interzise trebuie extinsă sau ajustată, susține proporționalitatea măsurii și nu costă nimic. Termenul 2035 rămâne neschimbat.",
-      "otherComments": "Susțin prelungirea. Termenul actual expiră la 31.12.2026; legea intră în vigoare la 3 zile de la publicare (art. 78 Constituție), iar promulgarea poate dura până la 20 de zile. O normă care și-a încetat aplicarea nu mai poate fi modificată. Amendamentul nu trebuie să întârzie votul: dacă nu are consens, adoptați forma Senatului până la jumătatea lui noiembrie."
+      "articleRef": "Articol unic – art.3 din Legea nr.354/2022",
+      "proposalContent": "Art.3.- (1) Interdicția prevăzută la art.2 se aplică până la data de 31 decembrie 2035. (2) Directoratul Național de Securitate Cibernetică prezintă comisiilor de specialitate ale Parlamentului, până la 31 martie 2029 și 31 martie 2032, un raport privind aplicarea interdicției și necesitatea menținerii acesteia.",
+      "argumentation": "Susțin prelungirea, dar 9 ani este un orizont lung pentru o restricție justificată prin contextul războiului. Un raport periodic al DNSC ar da Parlamentului date concrete pentru a menține, extinde sau ridica interdicția în cunoștință de cauză, în spiritul proporționalității, fără a slăbi protecția.",
+      "otherComments": "Termenul pentru amendamente (6.11.2026) a trecut; propunerea poate fi preluată în comisie sau în plen. Esențial: legea trebuie publicată și intrată în vigoare înainte de 1.01.2027, altfel interdicția încetează și apare o perioadă fără protecție. Recomand adoptarea rapidă, chiar și în forma Senatului."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 46974,
-      "riskScore": 1,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 56150,
+      "sourceEndMarker": "SF-C76E7912",
+      "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Prelungirea până în 2035 a interdicției de a folosi programe antivirus rusești în instituțiile statului",
-      "verdictShort": "O măsură legislativă tehnică, benignă și necesară pentru securitatea cibernetică a statului, care prelungește cu 9 ani o interdicție deja existentă fără a impune costuri sau birocrație cetățenilor ori firmelor private.",
-      "initiatorClaim": "Inițiatorii susțin că amenințările cibernetice provenite din Federația Rusă s-au agravat, fiind necesară prelungirea interdicției de achiziționare și utilizare a soluțiilor software de securitate rusești în instituțiile publice înainte ca aceasta să expire la 31 decembrie 2026.",
-      "realityCheck": "Legea modifică exclusiv data-limită de la art. 3 din Legea nr. 354/2022, mutând termenul de încetare a interdicției de la 31 decembrie 2026 la 31 decembrie 2035. Nu introduce taxe, amenzi noi și nu afectează mediul privat sau cetățenii, ci doar menține regimul de protecție informatică aplicabil autorităților publice.",
+      "plainTitle": "Prelungirea până în 2035 a interdicției privind software-ul de securitate rusesc în instituțiile publice",
+      "verdictShort": "Proiect tehnic, clar și cu risc redus, care prelungește cu 9 ani o interdicție deja în vigoare pentru instituțiile publice, fără a introduce taxe, sancțiuni noi sau obligații pentru cetățeni. Singurele aspecte de urmărit sunt lipsa unei clauze de reevaluare periodică și riscul unui vid legislativ dacă adoptarea depășește 31 decembrie 2026.",
+      "initiatorClaim": "Inițiatorii (un grup transpartinic din PNL, PSD, USR, AUR și Minorități) susțin în expunerea de motive că amenințările cibernetice atribuite Federației Ruse persistă și s-au agravat, fiind necesară prelungirea interdicției din Legea nr. 354/2022 până la 31 decembrie 2035 pentru a asigura un orizont stabil de protecție a sistemelor publice.",
+      "realityCheck": "În formă adoptată de Senat, proiectul conține un singur articol care înlocuiește data de 31 decembrie 2026 cu 31 decembrie 2035 la art. 3 din Legea nr. 354/2022. Nu extinde interdicția la mediul privat, nu modifică alte articole și nu creează structuri noi, menținând pur și simplu regimul juridic aplicat deja din decembrie 2022; totuși, fixează un termen de 9 ani fără un mecanism legal de revizuire intermediară.",
       "affectedGroups": [
         "IT & AI",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic prelungește cu 9 ani (de la 31 decembrie 2026 până la 31 decembrie 2035) interdicția ca instituțiile publice să achiziționeze sau să utilizeze produse și servicii antivirus/securitate IT controlate direct sau indirect de Federația Rusă.",
-        "Proiectul nu adaugă obligații birocratice sau fiscale pentru IMM-uri și cetățeni, aplicându-se strict autorităților și instituțiilor publice centrale și locale.",
-        "Nu generează cheltuieli bugetare suplimentare, întrucât instituțiile publice aveau deja obligația de a elimina aceste soluții software încă din 2022."
+        "Articolul unic modifică exclusiv termenul din art. 3 al Legii nr. 354/2022, prelungind de la 31 decembrie 2026 până la 31 decembrie 2035 interdicția prevăzută la art. 2 privind achiziționarea, instalarea și utilizarea de către autoritățile și instituțiile publice a produselor și serviciilor de securitate informatică de proveniență sau sub control rusesc.",
+        "Nu există impact bugetar suplimentar direct și nici obligații birocratice noi pentru cetățeni sau IMM-uri, întrucât interdicția este aplicată de aproape patru ani, iar restul dispozițiilor Legii nr. 354/2022 rămân nemodificate.",
+        "Deși expunerea de motive invocă la secțiunea 2.3 caracterul urgent al adoptării înainte de expirarea termenului din 31 decembrie 2026, fișa Camerei Deputaților arată că proiectul nu se află în procedură de urgență."
       ],
-      "blindSpotsCaught": "Deși în Expunerea de motive (pct. 2.3) inițiatorii subliniază caracterul urgent al adoptării pentru ca legea să intre în vigoare înainte de expirarea termenului actual (31 decembrie 2026), proiectul este înregistrat la Camera Deputaților fără procedură de urgență, cu termen de amendamente la 6 noiembrie 2026. Orice întârziere la votul final sau la promulgare poate genera un vid legislativ temporar la începutul anului 2027.",
-      "constitutionalityNote": "Textul respectă exigențele de claritate, precizie și previzibilitate impuse de art. 1 alin. (5) din Constituție. Fiind o normă care vizează exclusiv achizițiile și sistemele informatice ale autorităților publice din rațiuni de securitate națională (art. 118 și art. 53 din Constituție), nu aduce atingere drepturilor fundamentale ale cetățenilor și nici principiului neretroactivității legii.",
-      "euLawNote": "Măsura este pe deplin compatibilă cu dreptul UE, încadrându-se în excepțiile de securitate națională prevăzute de art. 4 alin. (2) TUE și art. 36 și 346 TFUE, precum și în regimul sancțiunilor din Regulamentul (UE) nr. 833/2014. Nu reglementează profesii (Directiva 2018/958 nu este incidentă) și nu impune notificarea TRIS conform Directivei (UE) 2015/1535, fiind o simplă prelungire a unei măsuri de securitate internă pentru sectorul public.",
+      "blindSpotsCaught": "Două detalii subtile reies din compararea documentelor: (1) Expunerea de motive afirmă că măsura nu are efecte asupra mediului de afaceri, ignorând efectul indirect (deja existent din 2022) asupra furnizorilor și integratorilor IT care participă la achiziții publice și nu pot oferta soluții vizate de art. 2; (2) Lipsa procedurii de urgență la Camera Deputaților creează riscul tehnic al unui vid legislativ la 1 ianuarie 2027, dacă promulgarea, publicarea în Monitorul Oficial și termenul constituțional de 3 zile de intrare în vigoare nu se încheie înainte de 31 decembrie 2026.",
+      "constitutionalityNote": "Proiectul respectă cerințele de claritate, precizie și previzibilitate ale art. 1 alin. (5) din Constituția României și a fost adoptat corect de Senat ca lege ordinară, potrivit art. 76 alin. (2). Întrucât vizează exclusiv sistemele informatice ale autorităților și instituțiilor publice și nu restrânge drepturi fundamentale ale cetățenilor, nu ridică obiecții de neconstituționalitate; o clauză de reevaluare periodică ar întări totuși proporționalitatea pe un orizont de 9 ani.",
+      "euLawNote": "Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) nu este incidentă. Restricția la achizițiile publice de software de securitate poate fi justificată în dreptul UE prin excepția de securitate națională și interese esențiale de securitate (art. 4 alin. 2 TUE, art. 36 și 346 TFUE), în acord cu regimul sancțiunilor UE (Regulamentul UE nr. 833/2014). Totuși, întrucât prelungește durata unei interdicții privind utilizarea unor produse software, autoritățile trebuie să verifice procedural dacă modificarea necesită notificare sau actualizare prin mecanismul TRIS (Directiva UE 2015/1535).",
       "senatForm": {
-        "articleRef": "Articol unic (Art. 3 din Legea nr. 354/2022)",
-        "proposalContent": "„Art. 3. - (1) Interdicția prevăzută la art. 2 se aplică până la data de 31 decembrie 2035. (2) Directoratul Național de Securitate Cibernetică (DNSC) prezintă Parlamentului, o dată la 2 ani, un raport de evaluare a riscurilor cibernetice și a oportunității menținerii sau actualizării interdicției.”",
-        "argumentation": "Prelungirea pe 9 ani (până în 2035) este justificată de amenințările cibernetice actuale, însă un termen atât de lung în domeniul IT necesită un mecanism de control parlamentar periodic. Evaluarea bienală realizată de DNSC asigură proporționalitatea măsurii și adaptarea ei la evoluția tehnică și geopolitică.",
-        "otherComments": "Deși în Expunerea de motive (pct. 2.3) inițiatorii invocă urgența adoptării înainte de expirarea termenului actual (31 decembrie 2026), proiectul figurează fără procedură de urgență. Se recomandă adoptarea cu celeritate pentru a evita un vid legislativ la 1 ianuarie 2027."
-      }
+        "articleRef": "Articol unic (art. 3 din Legea nr. 354/2022)",
+        "proposalContent": "Art. 3. - (1) Interdicția prevăzută la art. 2 se aplică până la data de 31 decembrie 2035. (2) Aplicarea și necesitatea menținerii interdicției se reevaluează periodic, o dată la 3 ani, pe baza unui raport al Directoratului Național de Securitate Cibernetică prezentat Parlamentului.",
+        "argumentation": "Prelungirea cu 9 ani a unei măsuri temporare de securitate cibernetică este justificată de contextul actual, dar necesită un mecanism transparent de reevaluare periodică. Un raport la 3 ani al DNSC consolidează principiul proporționalității, alinierea cu sancțiunile UE și controlul parlamentar.",
+        "otherComments": "Întrucât interdicția actuală expiră la 31 decembrie 2026, iar proiectul nu este în procedură de urgență, se recomandă adoptarea rapidă pentru a evita un vid legislativ de la 1 ianuarie 2027 (ținând cont și de termenul constituțional de 3 zile de la publicare) și verificarea necesității notificării TRIS."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 129426,
+      "durationMs": 37637,
+      "sourceEndMarker": "SF-C76E7912",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Instituțiile statului nu vor putea folosi antivirusuri și alte programe de securitate rusești până în 2035",
-      "verdictShort": "Lege tehnică și utilă: mută un singur termen, de la 31.12.2026 la 31.12.2035, pentru o interdicție care se aplică deja din 2022. Conținutul nu ridică probleme. Riscul real ține de calendar: dacă legea nu intră în vigoare înainte de 31 decembrie 2026, interdicția încetează.",
-      "initiatorClaim": "Inițiatorii spun că amenințarea cibernetică rusă nu doar persistă, ci s-a agravat (atacul KA-SAT, atacurile Killnet asupra instituțiilor române, atacurile asupra infrastructurii electorale din 2024). De aceea, instituțiile publice nu trebuie lăsate să reintroducă din 2027 software de securitate controlat de un stat agresor.",
-      "realityCheck": "Articolul unic schimbă doar data din art. 3 al Legii 354/2022. Interdicția de la art. 2 (achiziția, instalarea și utilizarea în instituțiile publice a produselor și serviciilor de securitate informatică provenite din Rusia sau de la operatori controlați de Rusia) rămâne valabilă până la 31.12.2035, nu până la 31.12.2026. Proiectul nu adaugă produse, sancțiuni, obligații sau costuri noi și nu privește firmele private sau cetățenii. Retorica expunerii de motive („Rusia trebuie izolată tehnologic prin toate mijloacele”) depășește cu mult efectul juridic real, care se limitează la ce software de securitate pot cumpăra și folosi instituțiile statului.",
+      "plainTitle": "Instituțiile statului nu vor putea folosi antivirusuri rusești nici după 2026, ci până în 2035",
+      "verdictShort": "O prelungire tehnică și justificată a unei interdicții care există deja, fără costuri noi și fără efecte asupra cetățenilor sau firmelor private. Singura problemă reală e orizontul lung de 9 ani fără nicio reevaluare și termenul strâns: legea trebuie să intre în vigoare înainte de 1 ianuarie 2027.",
+      "initiatorClaim": "Inițiatorii vor ca autoritățile publice să nu poată reintroduce, de la 1 ianuarie 2027, programe antivirus și alte produse de securitate informatică controlate din Rusia. Invocă războiul din Ucraina și atacurile cibernetice rusești documentate, inclusiv asupra României.",
+      "realityCheck": "Articolul unic schimbă o singură dată în art.3 din Legea nr.354/2022: termenul de 31 decembrie 2026 devine 31 decembrie 2035. Interdicția de la art.2 (achiziție, instalare, utilizare de către autorități și instituții publice) rămâne neschimbată ca întindere: nu se extinde la firme private sau persoane fizice și nu adaugă sancțiuni noi. Efectul secundar: o măsură justificată prin „contextul invaziei” rămâne automat în vigoare 9 ani, chiar dacă acest context s-ar schimba, fără vreo reevaluare prevăzută în textul modificat.",
       "affectedGroups": [
-        "IT & AI",
-        "Toți cetățenii"
+        "IT & AI"
       ],
       "keyFindings": [
-        "Articolul unic modifică doar art. 3 din Legea nr. 354/2022: termenul interdicției trece de la 31.12.2026 la 31.12.2035. Conținutul interdicției (art. 2) și restul legii rămân neschimbate.",
-        "Calendarul e strâns. Senatul a votat pe 26.10.2026, termenul pentru amendamente la Cameră este 6.11.2026, iar proiectul NU are procedură de urgență, deși expunerea (pct. 2.3) spune că adoptarea are caracter urgent. Promulgarea poate dura până la 20 de zile, iar legea intră în vigoare la 3 zile de la publicare (art. 78 Constituție). Prin urmare, publicarea în Monitorul Oficial trebuie să aibă loc cu cel puțin 3 zile înainte de 31.12.2026.",
-        "Nu are impact bugetar nou. Instituțiile funcționează deja fără aceste produse din 2022, iar prelungirea evită riscul ca ele să fie reintroduse în 2027 și costurile unei noi migrări ulterioare.",
-        "Expunerea afirmă că nu există niciun efect asupra mediului de afaceri, ceea ce e ușor forțat. Revânzătorii și integratorii români ai acestor produse rămân excluși din piața achizițiilor publice încă 9 ani. Efectul există însă deja din 2022 și este marginal.",
-        "Legea nu prevede nicio reevaluare pe parcursul celor 9 ani. O clauză de raportare periodică ar întări proporționalitatea fără să slăbească protecția.",
-        "Proiectul e susținut de parlamentari din toate marile partide (PSD, PNL, USR, AUR, minorități), semn de consens politic, nu de controversă."
+        "Articol unic: art.3 din Legea nr.354/2022 se modifică din „până la data de 31 decembrie 2026” în „până la data de 31 decembrie 2035”. Nimic altceva nu se schimbă: conținutul interdicției de la art.2 rămâne cel din legea în vigoare.",
+        "Interdicția privește doar autoritățile și instituțiile publice. Nu creează obligații sau costuri pentru cetățeni ori IMM-uri, iar costurile de migrare au fost deja suportate după 2022, deci afirmația privind lipsa impactului bugetar e plauzibilă.",
+        "Textul modificat nu prevede niciun mecanism de reevaluare (raport periodic sau clauză de revizuire), deși prelungirea acoperă 9 ani, adică mai mult decât dublul perioadei inițiale de aproximativ 4 ani.",
+        "Risc de calendar: dacă legea nu este publicată și nu intră în vigoare (3 zile după publicare, art.78 din Constituție) înainte de 1 ianuarie 2027, interdicția încetează și ar urma o perioadă fără protecție până la o eventuală reactivare.",
+        "Expunerea de motive conține o retorică politică amplă (sancționare, izolare), dar efectul juridic real este strict tehnic: prelungirea unei restricții de achiziție și utilizare în sectorul public."
       ],
-      "blindSpotsCaught": "Capcana e de calendar, nu de conținut. O dispoziție temporară care și-a încetat aplicarea nu mai poate fi modificată, conform tehnicii legislative. Dacă legea intră în vigoare după 31.12.2026, ar modifica o interdicție deja stinsă, iar reactivarea ei ar cere o lege nouă, cu un gol de protecție între timp. Deși expunerea cere explicit urgență, proiectul nu are procedură de urgență, iar o sesizare la CCR sau o cerere de reexaminare din partea Președintelui ar putea împinge publicarea după termen. În plus, titlul legii rămâne legat de „contextul invaziei”, dar termenul fix 2035 desparte măsura de evoluția conflictului, fără nicio clauză de revizuire.",
-      "constitutionalityNote": "Textul este clar și previzibil (art. 1 alin. 5): o singură dată, ușor de aplicat, fără concepte vagi. Este lege ordinară, adoptată de Senat ca primă cameră (art. 76 alin. 2), iar Camera Deputaților este cameră decizională. Interdicția se adresează autorităților publice și nu restrânge drepturile cetățenilor. Afectarea indirectă a libertății economice (art. 45) a furnizorilor vizați este justificată de apărarea securității naționale, scop legitim admis de art. 53, iar măsura este adecvată acestui scop. Art. 23 alin. (12) nu este relevant, deoarece proiectul nu creează infracțiuni sau sancțiuni. Singurul punct de atenție este durata de 9 ani fără mecanism de reevaluare. Asta nu face legea neconstituțională, dar o clauză de raportare ar consolida testul de proporționalitate.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă proiectul nu reglementează nicio profesie. Nici TRIS (Directiva 2015/1535) nu pare să fie declanșată: proiectul nu creează reguli noi pentru produse sau servicii digitale, ci doar prelungește o interdicție de utilizare limitată la sectorul public. Totuși, o interdicție de utilizare a unor produse poate fi calificată drept regulament tehnic, deci merită verificat dacă legea inițială din 2022 a fost notificată. Pe fond, măsura vizează produse și operatori dintr-o țară terță aflată sub sancțiuni UE. Ea este acoperită de excepțiile de securitate națională (art. 4 alin. 2 TUE, art. 346 TFUE) și este coerentă cu art. 5k din Regulamentul (UE) nr. 833/2014 (interdicția contractelor publice cu entități rusești) și cu cerințele de securitate a lanțului de aprovizionare din Directiva NIS2 (UE) 2022/2555. Efectul asupra pieței unice este marginal: poate atinge filialele din UE ale unor furnizori controlați din Rusia, situație justificabilă prin art. 36 și art. 52 TFUE.",
+      "blindSpotsCaught": "Termenul pentru amendamente la Cameră (6.11.2026) a trecut deja, iar raportul și votul final trebuie date suficient de repede încât legea să fie promulgată, publicată și intrată în vigoare până la 28–31 decembrie 2026. Mai există o suprapunere parțială cu art.5k din Regulamentul (UE) nr.833/2014, care interzice deja atribuirea de contracte publice entităților rusești. Legea națională merge însă mai departe, pentru că vizează și utilizarea produselor deja instalate și controlul indirect, deci nu e redundantă. Lipsa unei clauze de revizuire face ca termenul de 2035 să fie fix, indiferent de evoluția conflictului.",
+      "constitutionalityNote": "Textul este clar și previzibil: o dată fixă, o trimitere precisă la art.2 (art.1 alin.5 din Constituție). Restricția nu afectează direct drepturi fundamentale ale cetățenilor. Privește modul în care statul își alege furnizorii, domeniu în care legiuitorul are o marjă largă, mai ales pe temei de securitate națională. Un eventual reproș privind libertatea economică (art.45) din partea furnizorilor vizați e slab, deoarece măsura are scop legitim (securitatea sistemelor statului), este limitată la sectorul public și rămâne temporară, chiar dacă perioada e lungă. Riscul de neconstituționalitate este redus.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este relevantă, pentru că nu se reglementează accesul la o profesie. TRIS (Directiva 2015/1535) nu pare aplicabilă: textul nu este o reglementare tehnică privind produsele sau serviciile introduse pe piață în general, ci o restricție de achiziție și utilizare pentru autoritățile publice. Măsura se poate justifica prin interese esențiale de securitate (art.4 alin.2 TUE, art.346 TFUE) și este coerentă cu sancțiunile UE (Reg. 833/2014, art.5k) și cu obiectivele NIS2. Impactul asupra pieței unice este neglijabil, pentru că furnizorii din UE nu sunt afectați.",
       "senatForm": {
-        "articleRef": "Art. unic – art. 3 din Legea nr. 354/2022",
-        "proposalContent": "„Art. 3. – (1) Interdicția prevăzută la art. 2 se aplică până la data de 31 decembrie 2035. (2) Directoratul Național de Securitate Cibernetică prezintă comisiilor de specialitate ale Parlamentului, la fiecare 2 ani, un raport privind aplicarea interdicției și persistența riscurilor care o justifică, cu o sinteză publică.”",
-        "argumentation": "Prelungirea cu 9 ani a unei măsuri adoptate „în contextul invaziei” este justificată, dar un orizont atât de lung cere control periodic. Un raport la 2 ani arată Parlamentului dacă riscul persistă și dacă lista produselor interzise trebuie extinsă sau ajustată, susține proporționalitatea măsurii și nu costă nimic. Termenul 2035 rămâne neschimbat.",
-        "otherComments": "Susțin prelungirea. Termenul actual expiră la 31.12.2026; legea intră în vigoare la 3 zile de la publicare (art. 78 Constituție), iar promulgarea poate dura până la 20 de zile. O normă care și-a încetat aplicarea nu mai poate fi modificată. Amendamentul nu trebuie să întârzie votul: dacă nu are consens, adoptați forma Senatului până la jumătatea lui noiembrie."
-      }
+        "articleRef": "Articol unic – art.3 din Legea nr.354/2022",
+        "proposalContent": "Art.3.- (1) Interdicția prevăzută la art.2 se aplică până la data de 31 decembrie 2035. (2) Directoratul Național de Securitate Cibernetică prezintă comisiilor de specialitate ale Parlamentului, până la 31 martie 2029 și 31 martie 2032, un raport privind aplicarea interdicției și necesitatea menținerii acesteia.",
+        "argumentation": "Susțin prelungirea, dar 9 ani este un orizont lung pentru o restricție justificată prin contextul războiului. Un raport periodic al DNSC ar da Parlamentului date concrete pentru a menține, extinde sau ridica interdicția în cunoștință de cauză, în spiritul proporționalității, fără a slăbi protecția.",
+        "otherComments": "Termenul pentru amendamente (6.11.2026) a trecut; propunerea poate fi preluată în comisie sau în plen. Esențial: legea trebuie publicată și intrată în vigoare înainte de 1.01.2027, altfel interdicția încetează și apare o perioadă fără protecție. Recomand adoptarea rapidă, chiar și în forma Senatului."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 95165,
+      "durationMs": 74458,
+      "sourceEndMarker": "SF-C76E7912",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Interdicția produselor rusești de securitate informatică se prelungește până în 2035",
-      "verdictShort": "Proiectul are un scop legitim de protecție cibernetică și un efect limitat: prelungește o interdicție existentă, fără taxe sau sancțiuni noi. Principala rezervă este durata suplimentară de nouă ani, insuficient justificată printr-o evaluare concretă a riscurilor și a efectelor economice.",
-      "initiatorClaim": "Inițiatorii urmăresc să împiedice reintroducerea în sistemele publice a produselor de securitate informatică provenite din Rusia sau asociate unor operatori cu legături rusești. Invocă persistența amenințărilor cibernetice și necesitatea continuității protecției după 2026.",
-      "realityCheck": "Articolul unic înlocuiește exclusiv termenul de 31 decembrie 2026 cu 31 decembrie 2035; nu modifică produsele vizate, criteriile de interzicere sau sancțiunile. Motivele geopolitice explică obiectivul, dar nu demonstrează singure necesitatea exactă a termenului ales. Afirmația că mediul de afaceri nu este afectat omite efectele asupra furnizorilor și distribuitorilor care vând instituțiilor publice.",
+      "plainTitle": "Interdicția produselor rusești de securitate IT în instituțiile publice continuă până în 2035",
+      "verdictShort": "Proiectul prelungește o măsură de protecție cibernetică deja existentă, fără taxe sau sancțiuni noi. Principala vulnerabilitate este justificarea insuficientă a duratei suplimentare de nouă ani și lipsa unei reevaluări periodice prevăzute expres.",
+      "initiatorClaim": "Inițiatorii urmăresc să împiedice reintroducerea în sistemele instituțiilor publice a produselor de securitate informatică provenite din Rusia sau aflate sub control rusesc. Invocă persistența amenințărilor cibernetice și necesitatea continuității protecției după 2026.",
+      "realityCheck": "Articolul unic schimbă exclusiv termenul din art. 3 al Legii nr. 354/2022: de la 31 decembrie 2026 la 31 decembrie 2035; categoriile de produse, destinatarii și mecanismele existente nu sunt modificate. Expunerea de motive și cererea de dobândire a calității de coinițiator nu introduc norme, derogări sau modificări ale celorlalte legi menționate în documente. Interdicția menține efecte economice asupra furnizorilor și distribuitorilor, chiar dacă obligația juridică vizează instituțiile publice.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "IT & AI",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Articolul unic prelungește interdicția cu nouă ani. Nu instituie un monopol și nu desemnează furnizori alternativi privilegiați.",
-        "Art. 2 din legea existentă acoperă inclusiv VPN, firewall și soluții de protecție a dispozitivelor, nu doar antivirus. Amenzile existente de 50.000–200.000 lei, prevăzute la art. 4, nu sunt introduse sau majorate prin proiect. [Legea nr. 354/2022](https://legislatie.just.ro/public/DetaliiDocument/262466)",
-        "Criteriile existente depășesc controlul societar obișnuit: art. 1 alin. (3) include și finanțarea ori promisiunea unor foloase, fără prag valoric explicit. Prelungirea perpetuează această problemă de delimitare. [Legea nr. 354/2022](https://legislatie.just.ro/public/DetaliiDocument/262466)",
-        "Art. 1 alin. (4) menționează și sisteme private care gestionează informații clasificate, în timp ce art. 2 formulează interdicția pentru autorități și instituții publice. Această corelare merită clarificată; nu justifică prezentarea proiectului ca interdicție generală pentru toate IMM-urile. [Legea nr. 354/2022](https://legislatie.just.ro/public/DetaliiDocument/262466)",
-        "Nu apar taxe, declarații sau autorizații noi pentru cetățeni și IMM-uri. Sunt însă posibile efecte indirecte asupra prețurilor, concurenței și costurilor achizițiilor publice, necuantificate în expunere.",
-        "Urgența invocată în expunere nu echivalează cu procedura parlamentară de urgență, indicată ca neaprobată în datele furnizate. Pentru continuitate, modificarea trebuie să intre în vigoare înaintea expirării termenului actual; simpla adoptare parlamentară nu este suficientă."
+        "Articolul unic prelungește cu nouă ani interdicția existentă. Nu instituie o interdicție generală pentru cetățeni sau pentru toate firmele private.",
+        "Data-limită din noul art. 3 este clară, dar proiectul nu explică tehnic alegerea anului 2035 și nu introduce reevaluări periodice. Această omisiune nu dovedește, singură, neconstituționalitatea.",
+        "Afirmația din expunerea de motive că nu există efecte asupra mediului de afaceri este prea categorică: furnizorii excluși, distribuitorii și concurenții lor sunt afectați prin menținerea restricției de acces la cererea publică.",
+        "Nu apar taxe, formulare, raportări sau sancțiuni noi pentru cetățeni ori IMM-uri. Menținerea regimului poate influența însă costurile licențelor și ale alternativelor disponibile; proiectul nu cuantifică aceste efecte.",
+        "Continuitatea presupune intrarea în vigoare înainte de expirarea termenului actual. Proiectul nu conține dispoziții tranzitorii pentru eventualitatea unei adoptări întârziate; o prelungire ulterioară nu poate justifica retroactiv sancționarea conduitei dintr-un eventual interval neacoperit."
       ],
-      "blindSpotsCaught": "TRIS nu devine aplicabil automat pentru că sunt vizate programe informatice, dar nici nu poate fi exclus automat prin calificarea măsurii drept regulă de achiziții: există o interdicție legală de utilizare și sunt vizate inclusiv servicii furnizate online. Trebuie verificată încadrarea concretă în art. 1 din Directiva 2015/1535 și, dacă este cazul, notificarea prelungirii și termenul de așteptare. Documentele furnizate nu dovedesc nici notificarea, nici inexistența ei. [Directiva 2015/1535](https://eur-lex.europa.eu/eli/dir/2015/1535/oj)",
-      "constitutionalityNote": "Data-limită este clară și previzibilă în sensul art. 1 alin. (5) din Constituție; nu rezultă o neconstituționalitate evidentă a simplei prelungiri. Problemele de precizie privesc mai ales criteriile preexistente de includere a furnizorilor. Art. 23 alin. (12) nu trebuie ignorat doar pentru că sancțiunile sunt contravenționale: garanțiile legalității sancționării pot fi relevante, potrivit jurisprudenței CCR. Restrângerea concurenței trebuie justificată prin securitate și proporționalitate, în raport cu art. 45 și 135. [Constituția](https://legislatie.just.ro/Public/DetaliiDocument/47355), [Decizia CCR nr. 479/2020](https://legislatie.just.ro/public/DetaliiDocument/235974)",
-      "euLawNote": "Directiva 2018/958 privește accesul la profesii reglementate și exercitarea lor, deci nu impune aici testul său special; proporționalitatea rămâne însă relevantă potrivit dreptului UE. [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/eli/dir/2018/958/oj) Restricțiile pot afecta inclusiv furnizori stabiliți în UE și trebuie corelate cu sancțiunile europene privind achizițiile, inclusiv art. 5k din Regulamentul 833/2014. [Comisia Europeană](https://finance.ec.europa.eu/publications/public-procurement_en) Invocarea securității naționale și a art. 4 alin. (2) TUE nu validează automat orice restricție. Art. 36 TFUE privește circulația mărfurilor și exclude discriminarea arbitrară; art. 346 alin. (1) lit. b) privește armamentul și materialul de război, fără a oferi o derogare generală pentru software civil. [Art. 36 TFUE](https://eur-lex.europa.eu/eli/treaty/tfeu_2012/art_36/oj/eng), [Art. 346 TFUE](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A12008E346) Verificarea TRIS rămâne distinctă; proiectul nu reglementează în sine inteligența artificială.",
+      "blindSpotsCaught": "O modificare exclusiv temporală poate necesita verificări europene dacă prelungește aplicarea unei reglementări tehnice notificabile; existența legii din 2022 nu tranșează singură problema TRIS. De asemenea, urgența afirmată în expunerea de motive nu înseamnă procedură parlamentară de urgență: fișa furnizată indică NU. Verificarea online a surselor nu a fost posibilă în această sesiune; existența avizelor și a unei eventuale notificări nu poate fi confirmată din documentele furnizate.",
+      "constitutionalityNote": "Noul art. 3 este inteligibil și previzibil sub aspectul duratei, în raport cu art. 1 alin. (5) din Constituție. Art. 23 alin. (12), privind legalitatea pedepsei, nu ridică o problemă distinctă prin simpla schimbare a termenului: proiectul nu creează infracțiuni sau pedepse. Restrângerea accesului anumitor furnizori la achizițiile publice trebuie justificată prin riscul de securitate și evaluată în raport cu libertatea economică și protecția concurenței, potrivit art. 45 și 135. Scopul este legitim, dar motivarea duratei până în 2035 ar trebui consolidată. Textul furnizat nu evidențiază o neconstituționalitate manifestă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementărilor care restricționează accesul la profesii reglementate sau exercitarea acestora; nu devine aplicabilă unei restricții asupra produselor software doar pentru că aceasta afectează concurența. Pentru Directiva (UE) 2015/1535 trebuie stabilit dacă regimul prelungit constituie o reglementare tehnică privind produse ori o regulă privind serviciile societății informaționale: simpla legătură cu IT nu declanșează automat notificarea, dar nici caracterul de prelungire nu o exclude. Nu există aici o reglementare distinctă a AI. Restricția trebuie verificată și prin prisma achizițiilor publice și a pieței interne, inclusiv pentru distribuitori din UE. Art. 4 alin. (2) TUE și art. 36 TFUE nu înlătură automat examinarea necesității și proporționalității; art. 346 TFUE are un domeniu limitat și nu justifică generic orice interdicție privind software civil. Nici invocarea Regulamentului nr. 833/2014 nu demonstrează singură compatibilitatea integrală.",
       "senatForm": {
-        "articleRef": "Articolul unic – art. 3 din Legea nr. 354/2022",
-        "proposalContent": "Art. 3. – Interdicția prevăzută la art. 2 se aplică până la 31 decembrie 2035. Începând cu 2027, Guvernul prezintă anual Parlamentului, până la 30 iunie, un raport public privind necesitatea și proporționalitatea menținerii interdicției, efectele asupra concurenței și costurile aplicării, cu protejarea informațiilor clasificate.",
-        "argumentation": "Protecția sistemelor publice justifică menținerea interdicției. Prelungirea cu nouă ani trebuie însoțită de evaluări periodice ale amenințării și ale efectelor economice. Raportarea permite control parlamentar fără încetarea automată a protecției și fără structuri administrative noi.",
-        "otherComments": "Propunere pentru comisiile de raport ale Camerei Deputaților, PL-x 704/2026; termen: 6 noiembrie 2026. Solicitați clarificarea aplicabilității TRIS și a impactului asupra furnizorilor. Raportul anual este o obligație propusă aici, absentă din textul Senatului."
-      }
+        "articleRef": "Articol unic – art. 3 din Legea nr. 354/2022",
+        "proposalContent": "Art. 3. – (1) Interdicția prevăzută la art. 2 se aplică până la data de 31 decembrie 2035.\n(2) Directoratul Național de Securitate Cibernetică transmite anual Parlamentului un raport public privind necesitatea și proporționalitatea menținerii interdicției, cu respectarea regimului informațiilor clasificate.",
+        "argumentation": "Prelungirea cu nouă ani trebuie însoțită de o reevaluare periodică a amenințărilor, a efectelor asupra concurenței și a costurilor pentru instituții. Raportarea permite Parlamentului să ajusteze măsura pe baza unor date actuale, fără a transfera executivului competența de a suspenda interdicția.",
+        "otherComments": "Potrivit fișei furnizate, termenul pentru amendamente a fost 6 noiembrie 2026. Posibilitatea preluării ulterioare trebuie verificată la secretariatele comisiilor raportoare. Raportarea propusă adaugă o sarcină administrativă DNSC, nu cetățenilor sau IMM-urilor."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-28T17:28:15.893Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": null,
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:36:58.255Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

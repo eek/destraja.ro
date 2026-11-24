@@ -2,14 +2,41 @@
   "billId": "PL-x 508/2025",
   "slug": "plx-508-2025",
   "version": "senat",
-  "updatedAt": "2026-11-17T08:52:28.081Z",
+  "updatedAt": "2026-11-24T14:34:05.630Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 5991,
+    "ordinanceChars": 0,
+    "memoChars": 4843,
+    "memoSupplied": 4843,
+    "marker": "SF-724F64E8"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-508-2025.json",
+    "form": "senat",
+    "textHash": "724f64e8e4f3edff",
+    "fetchedAt": "2026-11-19T10:47:03.982Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 4518,
+    "truncated": false,
+    "included": true,
+    "key": "01ff764e9f0abafb"
+  },
   "consensus": {
-    "riskScore": 5.7,
+    "riskScore": 6.7,
     "riskLevel": "yellow",
-    "plainTitle": "Drone agricole pentru stropit: legalizate, dar cu trimiteri greșite și scurtături riscante",
-    "summaryTlDr": "Scopul e legitim și util fermierilor, dar textul adoptat de Senat are erori grave de redactare, cum ar fi trimiterea la un regulament UE care nu are legătură cu dronele. În plus, ocolește regimul european al pulverizării aeriene și introduce o recunoaștere «automată» a produselor, pe care dreptul UE nu o permite.",
-    "initiatorClaim": "Inițiatorii vor să elimine birocrația care împiedică fermierii să folosească drone pentru tratamente fitosanitare rapide și precise. Invocă modelul Ungariei, Bulgariei și Poloniei, unde dronele ar fi tratate ca utilaje terestre.",
-    "realityCheck": "Legea include dronele în definiția «pulverizării aeriene» (art.3 lit.e), apoi le scoate din regimul aerian al art.9 și le asimilează echipamentelor terestre (art.9¹ alin.1-2), ceea ce creează o contradicție internă. Notificarea devine obligatorie doar în zone cu restricție de zbor, iar în «cazuri deosebite» termenul scade la 2 ore. Până la publicarea unei liste dedicate, pot fi folosite fără termen limită produse evaluate doar pentru aplicare terestră. Lipsesc distanțele de siguranță față de ape, locuințe și stupine.",
+    "plainTitle": "Fermierii pot stropi culturile cu drone, cu mai puține aprobări",
+    "summaryTlDr": "Scopul e legitim și util: dronele agricole au nevoie de un cadru clar. Textul votat de Senat ocolește însă regimul european al pulverizării aeriene, trimite la un regulament UE greșit și permite folosirea cu drona a pesticidelor neevaluate pentru acest mod de aplicare, ceea ce creează risc de infringement și de afectare a mediului.",
+    "initiatorClaim": "Inițiatorii spun că fermierii sunt blocați de proceduri neclare și de aprobări de la multe instituții. Ei vor ca dronele să fie tratate ca utilaje terestre, cu notificare simplificată, cum se întâmplă în Ungaria, Bulgaria și Polonia.",
+    "realityCheck": "Legea include dronele în definiția pulverizării aeriene (art. 3 lit. e), dar le scoate imediat de sub regimul aplicabil avioanelor și elicopterelor (art. 9) și le asimilează echipamentelor terestre (art. 9¹ alin. 1-2). Notificarea rămâne obligatorie doar în zonele cu restricții de zbor. Până la publicarea unei liste dedicate de către ANF, pot fi folosite cu drona toate produsele autorizate pentru aplicare terestră, iar legea nu stabilește un termen pentru publicarea listei. Mai mult, ea declară «automată» recunoașterea autorizațiilor din alte state UE, deși Regulamentul 1107/2009 nu prevede așa ceva.",
     "affectedGroups": [
       "Agricultură & Mediu",
       "IMM & Antreprenori",
@@ -17,111 +44,140 @@
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art.I pct.2 – art.9¹ alin.(5) și (6)",
-      "proposalContent": "Alin.(5): se înlocuiește «Regulamentul delegat (UE) 2019/247...(GECT)» cu «Regulamentul de punere în aplicare (UE) 2019/947». Alin.(6): se elimină fraza privind utilizarea interimară a produselor autorizate terestru și se înlocuiește «recunoaște automat» cu «poate recunoaște, la cerere, conform art.40-42 din Regulamentul (CE) nr.1107/2009».",
-      "argumentation": "Reg. 2019/247 privește indicatorii GECT, nu dronele: trimitere greșită, contrară art.1 alin.(5) Const. Recunoașterea reciprocă nu e automată: art.41-42 din Reg.1107/2009 cer cerere și evaluare națională; regulamentul e direct aplicabil (art.148). Folosirea interimară fără termen a produselor neevaluate pentru dronă încalcă art.55 (utilizare conform etichetei).",
-      "otherComments": "Asimilarea dronei cu echipamentul terestru (alin.2) riscă infringement: dronele intră în «pulverizare aeriană» (art.3 lit.e modificat; art.9 Dir.2009/128/CE). Recomand: distanțe minime față de ape, locuințe, stupine, notificarea apicultorilor, definirea «registrului» din alin.(7) și criterii clare pentru «cazuri deosebite» din alin.(4)."
+      "articleRef": "Art. I pct. 2 – art. 9¹ alin. (5) și (6)",
+      "proposalContent": "Alin. (5): trimiterea la Reg. delegat (UE) 2019/247 se înlocuiește cu «Regulamentul de punere în aplicare (UE) 2019/947». Alin. (6): se elimină teza a treia, iar teza a patra devine: «ANF soluționează cererile de recunoaștere reciprocă potrivit art. 40-42 din Regulamentul (CE) nr. 1107/2009, în termenul prevăzut de acesta.»",
+      "argumentation": "Reg. 2019/247 privește indicatorii GECT, nu dronele: trimiterea e greșită și contravine art. 1 alin. (5) din Constituție. Folosirea unui produs în afara condițiilor din autorizație încalcă art. 55 din Reg. 1107/2009, iar recunoașterea reciprocă nu e automată (art. 41). O lege națională nu poate deroga de la un regulament UE (art. 148 Constituție).",
+      "otherComments": "Alin. (1)-(2) asimilează drona echipamentelor terestre și o scot de sub art. 9, deși art. 3 lit. e) o definește ca pulverizare aeriană, interzisă în principiu de art. 9 din Dir. 2009/128/CE. Propun condiții minime: zone tampon, informarea apicultorilor, sancțiuni. «Registrul» de la alin. (7) trebuie definit."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 36214,
-      "riskScore": 5,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 101086,
+      "sourceEndMarker": "SF-724F64E8",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Legalizarea dronelor agricole pentru pesticide, cu erori grave de redactare UE",
-      "verdictShort": "Intenția de a debloca pulverizarea cu drone în agricultură este utilă și necesară, însă textul adoptat de Senat conține o eroare flagrantă de citare a legislației europene și lasă breșe de siguranță la aplicarea pesticidelor. Proiectul necesită corecturi tehnice urgente la Camera Deputaților pentru a evita neclaritatea constituțională și riscul de infringement UE.",
-      "initiatorClaim": "Inițiatorii susțin că proiectul elimină birocrația blocantă pentru fermieri prin asimilarea dronelor cu echipamentele terestre, digitalizarea notificărilor către Oficiul Fitosanitar Județean și AACR și alinierea la practicile din Ungaria, Bulgaria și Polonia.",
-      "realityCheck": "Legea exceptează dronele de la regimul strict al pulverizării aeriene (art. 9 din OUG 34/2012) și permite folosirea imediată a pesticidelor autorizate pentru echipamente terestre până când ANF publică o listă dedicată, fără un termen-limită. Contrar Expunerii de Motive, textul nu prevede nicio digitalizare și nicio notificare a Oficiului Fitosanitar Județean, iar la art. 9^1 alin. (5) trimite greșit la Regulamentul UE privind Grupările Europene de Cooperare Teritorială (GECT) în loc de regulamentul european pentru drone.",
+      "plainTitle": "Stropirea cu pesticide din drone, legalizată cu erori legislative și fără garanții pentru populație și albine",
+      "verdictShort": "Scopul de a moderniza agricultura prin drone este legitim, dar forma adoptată de Senat conține erori flagrante (citează un regulament UE despre cooperare teritorială în locul celui despre drone), încalcă legislația europeană și elimină garanțiile de protecție a sănătății și mediului.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul elimină birocrația blocantă pentru fermieri, definește clar termenii aplicabili și permite intervenții rapide și precise cu drone agricole, aliniind România la state vecine precum Ungaria, Bulgaria și Polonia.",
+      "realityCheck": "În realitate, proiectul scoate dronele de sub interdicțiile și garanțiile de siguranță ale pulverizării aeriene (art. 9 din OUG nr. 34/2012) și permite pulverizarea aeriană a tuturor pesticidelor omologate doar pentru sol, fără termen-limită, până la publicarea unei liste de către ANF. În plus, nu impune notificarea populației, a primăriilor sau a apicultorilor, nu definește termenii promiși în expunerea de motive și introduce o „recunoaștere automată” ilegală în raport cu Regulamentul (CE) nr. 1107/2009.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Eroare gravă de tehnică legislativă la art. 9^1 alin. (5): se invocă Regulamentul delegat (UE) 2019/247 (care reglementează indicatorii GECT), în loc de Regulamentul de punere în aplicare (UE) 2019/947 privind operarea aeronavelor fără pilot la bord.",
-        "Contradicție conceptuală și vid de protecție: art. 3 lit. e) și art. 9^1 alin. (1) definesc drona ca „pulverizare aeriană”, dar alin. (1)-(2) o exceptează de la art. 9 și o asimilează „echipamentelor terestre”, fără a stabili înălțimea maximă de zbor, condiții de vânt sau distanțe față de zone locuite și ape.",
-        "Derogare tranzitorie deschisă la art. 9^1 alin. (6): până la publicarea listei produselor autorizate expres pentru drone (fără termen pentru ANF), se pot pulveriza din aer produse omologate doar pentru aplicare terestră, iar „recunoașterea automată” forțează procedura de evaluare din art. 40 al Reg. (CE) 1107/2009.",
-        "Discrepanță între Expunerea de Motive și textul votat: în lege nu apare notificarea Oficiului Fitosanitar Județean sau comunicarea digitală, iar art. 9^1 alin. (7) face trimitere la produse „înregistrate în registru” fără a preciza la ce registru se referă."
+        "Art. I pct. 2 (art. 9¹ alin. 5) conține o eroare gravă de trimitere legislativă: impune aprobarea zborurilor în zone restricționate în baza Regulamentului delegat (UE) 2019/247 privind Grupările Europene de Cooperare Teritorială (GECT), în loc de Regulamentul de punere în aplicare (UE) 2019/947 privind operarea dronelor.",
+        "Art. I pct. 1 și pct. 2 (art. 3 lit. e și art. 9¹ alin. 1-2) creează o contradicție juridică: includ dronele în definiția «pulverizării aeriene», dar le exceptează integral de la regimul de siguranță al art. 9 și le asimilează «echipamentelor terestre» la autorizare și operare.",
+        "Art. I pct. 2 (art. 9¹ alin. 6) permite pe termen nedeterminat aplicarea din drone a oricăror pesticide autorizate doar pentru sol (până la publicarea listei ANF, fără termen-limită) și instituie o «recunoaștere automată» a produselor din alte state membre, contrară procedurii din art. 40-42 ale Regulamentului (CE) nr. 1107/2009.",
+        "Art. I pct. 2 (art. 9¹ alin. 4) limitează notificarea strict la entitățile care au instituit restricții de zbor (cu excepție de 2 ore chiar și pentru «terenuri denivelate», care nu sunt urgențe imprevizibile), fără nicio obligație de informare a populației, primăriei sau apicultorilor.",
+        "Art. I pct. 2 (art. 9¹ alin. 7) face trimitere la controlul produselor «înregistrate în registru» fără să precizeze ce registru este vizat, iar legea nu introduce niciun regim contravențional pentru încălcarea obligațiilor din noul art. 9¹."
       ],
-      "blindSpotsCaught": "Pe lângă confuzia halucinantă dintre Regulamentul (UE) 2019/247 (GECT) și Regulamentul (UE) 2019/947 (drone), textul creează o dublă/triplă certificare la art. 9^1 alin. (3): pilotul trebuie să aibă certificat AACR/UE și certificat art. 5, iar operatorul atât certificat art. 5, cât și dovada unei instruiri specifice ANF — aspect care poate reintroduce blocajele birocratice dacă nu este unificat în norme. De asemenea, forma Senatului conține multiple greșeli materiale de tipar („fâră pilot”, „territoriul”).",
-      "constitutionalityNote": "Proiectul prezintă vulnerabilități față de art. 1 alin. (5) din Constituția României privind calitatea, claritatea și previzibilitatea legii: trimiterea la un regulament UE fără nicio legătură cu aviația (GECT), nedefinirea „joasei înălțimi”, contradicția dintre „pulverizare aeriană” și „echipament terestru” și referirea ambiguă la „registru”. Totodată, absența unor garanții minime împotriva derivei pesticidelor ridică probleme din perspectiva art. 35 privind dreptul la un mediu sănătos.",
-      "euLawNote": "Risc ridicat de neconformitate cu art. 9 din Directiva 2009/128/CE (care interzice de principiu pulverizarea aeriană, admițând doar derogări stricte cu protecția populației și a mediului) și cu art. 40 din Regulamentul (CE) nr. 1107/2009 (care impune o procedură de recunoaștere reciprocă la cerere cu verificare zonală, nu o recunoaștere „automată”). În raport cu Directiva (UE) 2018/958, cumulul de atestate de la art. 9^1 alin. (3) trebuie justificat proporțional în normele metodologice; proiectul nu vizează servicii digitale/AI sub incidența Directivei (UE) 2015/1535, deși modifică condiții tehnice de aplicare a pesticidelor.",
+      "blindSpotsCaught": "Cea mai spectaculoasă scăpare din forma adoptată de Senat este art. 9¹ alin. (5): dintr-o eroare de tastare (2019/247 în loc de 2019/947), textul adoptat a ajuns să citeze integral titlul unui regulament UE despre indicatori pentru Grupări Europene de Cooperare Teritorială (GECT) drept temei pentru aprobarea zborului dronelor agricole. Totodată, deși expunerea de motive afirmă că legea «definește clar termenii: operatorul, pilotul și aeronava fără pilot la bord», în textul normativ nu există nicio astfel de definiție și nici nu se clarifică pragul de «joasă înălțime».",
+      "constitutionalityNote": "Textul prezintă vicii serioase de neconstituționalitate raportat la art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), prin citarea eronată a Regulamentului (UE) 2019/247 (GECT), contradicția internă dintre pulverizarea aeriană și asimilarea cu echipamente terestre, necorelarea dintre notificarea cu 2 ore înainte (alin. 4) și obligația obținerii aprobării în zone restricționate (alin. 5), precum și lipsa definițiilor pentru «joasă înălțime» și «registru». De asemenea, contravine art. 148 alin. (2) și (4) (prioritatea dreptului UE) și afectează garanțiile art. 34 și art. 35 (dreptul la sănătate și la un mediu sănătos) prin eliminarea măsurilor de protecție ale art. 9.",
+      "euLawNote": "Proiectul creează un risc ridicat de procedură de infringement: (1) eludează art. 9 din Directiva 2009/128/CE, care interzice pulverizarea aeriană ca regulă și impune derogări stricte cu protecția rezidenților; (2) încalcă direct art. 40-42 din Regulamentul (CE) nr. 1107/2009, care nu prevăd «recunoaștere automată», ci o procedură formală de cerere, evaluare pe zone agro-climatice și decizie în 120 de zile; (3) intră în conflict cu Regulamentul (UE) 2019/947 prin asimilarea operării dronelor cu utilajele terestre. În plus, cumularea certificatului de la art. 5 cu dovada separată de instruire ANF (art. 9¹ alin. 3 lit. b-c) necesită verificare de proporționalitate sub Directiva (UE) 2018/958, iar cerințele tehnice naționale nearmonizate privind utilizarea echipamentelor ar putea intra sub incidența notificării TRIS (Directiva 2015/1535).",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 - art. 9^1 alin. (5) și (6)",
-        "proposalContent": "(5) Conform Regulamentului de punere în aplicare (UE) 2019/947 privind normele de operare a aeronavelor fără pilot la bord, operatorul obține aprobarea entității ce a instituit restricția. (6) ... Până la publicarea listei (max. 12 luni), pot fi utilizate produsele terestre autorizate fără risc major de derivă, cu respectarea distanțelor de siguranță stabilite de ANF.",
-        "argumentation": "Forma Senatului citează eronat la alin. (5) Reg. (UE) 2019/247 (privind grupările de cooperare teritorială GECT!) în loc de Reg. (UE) 2019/947 privind dronele, încălcând art. 1 alin. (5) din Constituție. Totodată, derogarea nelimitată de la alin. (6) pentru pesticide terestre fără reguli de derivă creează risc de infringement pe Directiva 2009/128/CE.",
-        "otherComments": "Corectați și erorile materiale („fâră pilot”, „territoriul”), definiți „joasa înălțime” (ex. max. 5 m) și clarificați „registrul” de la alin. (7). La alin. (6), înlocuiți „recunoaște automat” cu procedura de recunoaștere reciprocă conform art. 40 din Reg. (CE) 1107/2009. Includeți notificarea digitală a OFJ menționată în Expunerea de Motive."
+        "articleRef": "Art. I pct. 2 - Art. 9^1 alin. (4)-(6)",
+        "proposalContent": "La art. 9^1: (1) alin. (5) să citeze Reg. (UE) 2019/947, nu 2019/247 (GECT); (2) alin. (6) să elimine recunoașterea automată și folosirea fără termen a pesticidelor terestre, stabilind termen de 90 zile pentru lista ANF și aplicarea art. 40-42 din Reg. (CE) 1107/2009; (3) alin. (4) să prevadă notificarea primăriei și apicultorilor.",
+        "argumentation": "Forma Senatului încalcă art. 1 alin. (5) și art. 148 din Constituție: citează greșit Reg. (UE) 2019/247 (cooperare teritorială) în loc de 2019/947 (drone) și contravine Reg. (CE) 1107/2009, care nu permite recunoaștere automată. Lipsa notificării locale și pulverizarea pe termen nedefinit a pesticidelor de sol pun în pericol sănătatea și apicultura.",
+        "otherComments": "Clarificați și definițiile promise în expunerea de motive (joasă înălțime, operator, pilot, registrul de la alin. 7), corelați excluderea de la art. 9 cu Directiva 2009/128/CE pentru a evita infringementul și armonizați alin. (4) cu alin. (5) (notificare de 2h vs. aprobare prealabilă în zone restricționate)."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 55387,
-      "riskScore": 5,
+      "durationMs": 55270,
+      "sourceEndMarker": "SF-724F64E8",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Drone agricole pentru stropit: legalizate, dar cu trimiteri greșite și scurtături riscante",
-      "verdictShort": "Scopul e legitim și util fermierilor, dar textul adoptat de Senat are erori grave de redactare, cum ar fi trimiterea la un regulament UE care nu are legătură cu dronele. În plus, ocolește regimul european al pulverizării aeriene și introduce o recunoaștere «automată» a produselor, pe care dreptul UE nu o permite.",
-      "initiatorClaim": "Inițiatorii vor să elimine birocrația care împiedică fermierii să folosească drone pentru tratamente fitosanitare rapide și precise. Invocă modelul Ungariei, Bulgariei și Poloniei, unde dronele ar fi tratate ca utilaje terestre.",
-      "realityCheck": "Legea include dronele în definiția «pulverizării aeriene» (art.3 lit.e), apoi le scoate din regimul aerian al art.9 și le asimilează echipamentelor terestre (art.9¹ alin.1-2), ceea ce creează o contradicție internă. Notificarea devine obligatorie doar în zone cu restricție de zbor, iar în «cazuri deosebite» termenul scade la 2 ore. Până la publicarea unei liste dedicate, pot fi folosite fără termen limită produse evaluate doar pentru aplicare terestră. Lipsesc distanțele de siguranță față de ape, locuințe și stupine.",
-      "affectedGroups": [
-        "Agricultură & Mediu",
-        "IMM & Antreprenori",
-        "Sănătate & Educație",
-        "Toți cetățenii"
-      ],
-      "keyFindings": [
-        "Art.9¹ alin.(5) invocă Regulamentul delegat (UE) 2019/247 privind indicatorii GECT (cooperare teritorială), care nu are legătură cu dronele. Actul relevant este Regulamentul de punere în aplicare (UE) 2019/947. Eroarea face norma inaplicabilă și imprevizibilă.",
-        "Art.9¹ alin.(6) prevede că ANF «recunoaște automat» produsele autorizate în alte state membre, invocând art.40 din Regulamentul (CE) 1107/2009. Recunoașterea reciprocă presupune însă cerere și evaluare națională (art.41-42), iar regulamentul este direct aplicabil și nu poate fi modificat prin lege națională.",
-        "Art.9¹ alin.(6) permite, fără termen, utilizarea cu drona a produselor autorizate doar terestru. Riscul de derivă și expunere nu a fost evaluat, iar utilizarea poate contraveni condițiilor de pe etichetă (art.55 din Regulamentul 1107/2009).",
-        "Art.9¹ alin.(4) cere notificare doar entității care a instituit restricția de zbor. Nu se notifică apicultorii, vecinii sau oficiul fitosanitar, deși expunerea de motive susține contrariul. Noțiunile «cazuri deosebite» și «terenuri denivelate» sunt vagi și pot transforma excepția de 2 ore în regulă.",
-        "Art.9¹ alin.(7) trimite la un «registru» nedefinit nicăieri în text. Art.II obligă Guvernul să adopte în 90 de zile norme pentru întreaga OUG 34/2012, fără mandat clar privind dronele."
-      ],
-      "blindSpotsCaught": "Directiva 2009/128/CE, art.9, interzice pulverizarea aeriană și permite doar derogări strict condiționate: aprobare prealabilă, produse aprobate expres pentru uz aerian, informarea publicului și măsuri de protecție. Prin modificarea art.3 lit.e), legea însăși încadrează dronele ca pulverizare aeriană, așa că «asimilarea cu echipamente terestre» nu le poate scoate de sub regimul directivei. Și inițiatorii admit că și-au extras textul de la art.9¹ alin.(5) dintr-un regulament greșit (GECT în loc de 2019/947), semn de copiere neverificată. Expunerea de motive promite notificare digitală către Oficiul Fitosanitar Județean, dar articolul nu o prevede.",
-      "constitutionalityNote": "Există riscuri serioase pe art.1 alin.(5) privind calitatea legii: trimitere la un act UE fără legătură cu obiectul, contradicție între art.3 lit.e) și art.9¹ alin.(1), un «registru» nedefinit și concepte vagi («cazuri deosebite»). Pe art.148 alin.(2)-(4), legea pretinde să reglementeze diferit un regulament UE direct aplicabil (recunoașterea «automată»). Pe art.35 și art.135 alin.(2) lit.e), lipsesc garanțiile pentru un mediu sănătos (zone tampon, protecția albinelor și a apelor). Procedura este corectă: Senatul a fost prima cameră, Camera Deputaților este decizională, legea e ordinară. Lipsa fișei financiare pentru noile atribuții ale ANF ridică întrebări minore privind art.138 alin.(5).",
-      "euLawNote": "Directiva 2009/128/CE (art.9): risc de infringement, pentru că dronele sunt scoase din regimul derogărilor de la interdicția pulverizării aeriene fără condițiile cerute de directivă. Regulamentul (CE) 1107/2009 (art.40-42, art.55): recunoașterea automată și utilizarea interimară a produselor neevaluate pentru dronă sunt incompatibile cu regulamentul. Regulamentul (UE) 2019/947: este corect că se acceptă certificatele de pilot din alte state membre, ceea ce e pozitiv pentru piața unică, dar trimiterea normativă din alin.(5) este greșită. Directiva 2018/958 (testul de proporționalitate): instruirea obligatorie emisă exclusiv de ANF (alin.3 lit.b) poate fi o cerință de calificare profesională. Ar trebui justificată proporționalitatea și recunoscută instruirea echivalentă din alte state membre. TRIS 2015/1535: nu e vorba de servicii digitale sau AI, dar condițiile de utilizare a dronelor ca produs pot constitui «alte cerințe» tehnice. Notificarea TRIS e prudentă înainte de adoptarea finală.",
-      "senatForm": {
-        "articleRef": "Art.I pct.2 – art.9¹ alin.(5) și (6)",
-        "proposalContent": "Alin.(5): se înlocuiește «Regulamentul delegat (UE) 2019/247...(GECT)» cu «Regulamentul de punere în aplicare (UE) 2019/947». Alin.(6): se elimină fraza privind utilizarea interimară a produselor autorizate terestru și se înlocuiește «recunoaște automat» cu «poate recunoaște, la cerere, conform art.40-42 din Regulamentul (CE) nr.1107/2009».",
-        "argumentation": "Reg. 2019/247 privește indicatorii GECT, nu dronele: trimitere greșită, contrară art.1 alin.(5) Const. Recunoașterea reciprocă nu e automată: art.41-42 din Reg.1107/2009 cer cerere și evaluare națională; regulamentul e direct aplicabil (art.148). Folosirea interimară fără termen a produselor neevaluate pentru dronă încalcă art.55 (utilizare conform etichetei).",
-        "otherComments": "Asimilarea dronei cu echipamentul terestru (alin.2) riscă infringement: dronele intră în «pulverizare aeriană» (art.3 lit.e modificat; art.9 Dir.2009/128/CE). Recomand: distanțe minime față de ape, locuințe, stupine, notificarea apicultorilor, definirea «registrului» din alin.(7) și criterii clare pentru «cazuri deosebite» din alin.(4)."
-      },
-      "status": "ok"
-    },
-    "codex": {
-      "model": "codex",
-      "durationMs": 99495,
-      "riskScore": 7,
-      "riskLevel": "red",
-      "plainTitle": "Pesticide din drone: simplificare cu goluri serioase de protecție",
-      "verdictShort": "Folosirea dronelor în agricultură este un obiectiv legitim și util. Forma analizată creează însă derogări ample de la protecțiile pentru pulverizarea aeriană și permite temporar folosirea unor pesticide fără evaluarea specifică acestei aplicări.",
-      "initiatorClaim": "Inițiatorii urmăresc intervenții agricole mai rapide, costuri mai mici și reducerea birocrației prin utilizarea dronelor. Expunerea de motive invocă precizia tratamentelor și economii de apă și timp, dar materialele furnizate nu includ studiile care susțin cifrele prezentate.",
-      "realityCheck": "Art. 9¹ alin. (1) exclude dronele de la regimul art. 9, iar alin. (2) le asimilează echipamentelor terestre inclusiv pentru autorizare și operare, deși rămân aeronave supuse dreptului UE. Alin. (6) permite, până la publicarea unei liste fără termen propriu, utilizarea produselor autorizate pentru echipamente terestre și instituie recunoașterea automată a autorizațiilor străine. Textul introduce și obligații de instruire și control, dar nu instituie procedura digitală de notificare promisă în motivare.",
+      "plainTitle": "Fermierii pot stropi culturile cu drone, cu mai puține aprobări",
+      "verdictShort": "Scopul e legitim și util: dronele agricole au nevoie de un cadru clar. Textul votat de Senat ocolește însă regimul european al pulverizării aeriene, trimite la un regulament UE greșit și permite folosirea cu drona a pesticidelor neevaluate pentru acest mod de aplicare, ceea ce creează risc de infringement și de afectare a mediului.",
+      "initiatorClaim": "Inițiatorii spun că fermierii sunt blocați de proceduri neclare și de aprobări de la multe instituții. Ei vor ca dronele să fie tratate ca utilaje terestre, cu notificare simplificată, cum se întâmplă în Ungaria, Bulgaria și Polonia.",
+      "realityCheck": "Legea include dronele în definiția pulverizării aeriene (art. 3 lit. e), dar le scoate imediat de sub regimul aplicabil avioanelor și elicopterelor (art. 9) și le asimilează echipamentelor terestre (art. 9¹ alin. 1-2). Notificarea rămâne obligatorie doar în zonele cu restricții de zbor. Până la publicarea unei liste dedicate de către ANF, pot fi folosite cu drona toate produsele autorizate pentru aplicare terestră, iar legea nu stabilește un termen pentru publicarea listei. Mai mult, ea declară «automată» recunoașterea autorizațiilor din alte state UE, deși Regulamentul 1107/2009 nu prevede așa ceva.",
       "affectedGroups": [
         "Agricultură & Mediu",
         "IMM & Antreprenori",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. 9¹ alin. (1): exceptarea generală a dronelor de la art. 9 înlătură filtrul derogărilor pentru pulverizarea aeriană. Art. 9 din Directiva 2009/128/CE impune interdicția de principiu și permite derogări numai în condiții restrictive; altitudinea mică nu justifică singură eliminarea acestora.",
-        "Art. 9¹ alin. (6): autorizarea pentru aplicare terestră nu demonstrează siguranța aplicării din dronă. Regimul tranzitoriu nu are termen calendaristic și permite utilizarea înaintea evaluării specifice pe care același alineat o cere ca regulă.",
-        "Art. 9¹ alin. (6): art. 40–42 din Regulamentul (CE) nr. 1107/2009 prevăd o procedură de recunoaștere reciprocă, cu cerere, condiții și examinare de către autoritatea competentă; nu consacră recunoașterea automată a oricărei autorizații din UE.",
-        "Art. 9¹ alin. (5): Regulamentul delegat (UE) 2019/247 privește indicatorii pentru grupările europene de cooperare teritorială, potrivit chiar titlului citat. Nu constituie temei pentru aprobarea zborurilor în zone restricționate.",
-        "Art. 9¹ alin. (2)–(5): asimilarea cu echipamentele terestre nu poate înlătura Regulamentul de punere în aplicare (UE) 2019/947. Categoria «deschisă» nu permite eliberarea de materiale în zbor; operațiunile trebuie încadrate și autorizate potrivit regimului european aplicabil. Notificarea cu 24 sau două ore înainte nu echivalează cu aprobarea.",
-        "Art. 9¹ alin. (3) și (7): instruirea specifică ANF se adaugă certificatelor prevăzute la art. 5, fără delimitarea clară a conținutului și procedurii. Registrul menționat la alin. (7) nu este identificat în dispoziția nouă.",
-        "Impact economic: proiectul poate reduce costurile tratamentelor, dar generează costuri de certificare și evaluare pentru operatori și sarcini de autorizare, publicare și control pentru ANF. Nu introduce expres taxe sau sancțiuni noi și nu acordă un monopol comercial; materialele furnizate nu cuantifică impactul bugetar."
+        "Art. 9¹ alin. (1)-(2): drona este definită ca mijloc de pulverizare aeriană (art. 3 lit. e modificat), dar este scoasă de sub art. 9 și asimilată echipamentelor terestre. Contradicția este internă, iar efectul practic este ocolirea interdicției de principiu și a derogărilor controlate prevăzute de art. 9 din Directiva 2009/128/CE.",
+        "Art. 9¹ alin. (5) trimite la Regulamentul delegat (UE) 2019/247 privind indicatorii pentru GECT (cooperare teritorială), act fără legătură cu dronele. Trimiterea corectă ar fi la Regulamentul de punere în aplicare (UE) 2019/947 privind operarea UAS. Eroarea face norma imprevizibilă.",
+        "Art. 9¹ alin. (6) teza a treia: până la publicarea listei ANF, pentru care nu există termen, se pot folosi cu drona produsele autorizate doar pentru aplicare terestră. Aceasta riscă să încalce art. 55 din Reg. (CE) 1107/2009, care obligă la utilizarea conform condițiilor din autorizație și de pe etichetă.",
+        "Art. 9¹ alin. (6) teza a patra: «recunoașterea automată» a autorizațiilor din alte state membre contrazice art. 40-42 din Reg. 1107/2009. Acolo, recunoașterea reciprocă se face la cerere, cu evaluare națională, iar o lege națională nu poate modifica un regulament UE.",
+        "Art. 9¹ alin. (4): notificarea se face doar entității care a instituit restricția de zbor. Nu se prevede informarea apicultorilor, a vecinilor sau a autorităților de mediu și nici zone tampon. Excepția de 2 ore se aplică și pentru «terenuri denivelate», o formulare vagă care poate deveni regula.",
+        "Art. 9¹ alin. (7) vorbește de «produsele autorizate înregistrate în registru» fără să precizeze ce registru. Art. II obligă Guvernul să adopte în 90 de zile norme pentru întreaga ordonanță, fără să precizeze dacă înlocuiesc sau completează normele existente. Nu sunt prevăzute sancțiuni specifice pentru încălcarea art. 9¹."
       ],
-      "blindSpotsCaught": "Regula tranzitorie de la alin. (6) slăbește chiar garanția autorizării exprese introdusă în prima teză. Afirmațiile despre încadrarea dronelor în Ungaria, Bulgaria și Polonia nu sunt demonstrate prin acte normative în materialele furnizate. Cererea inițiatorului pentru procedură de urgență nu dovedește aprobarea acesteia: fișa furnizată indică procedură neurgentă.",
-      "constitutionalityNote": "Există vulnerabilități serioase privind art. 1 alin. (5): calificări juridice contradictorii, trimitere europeană eronată și proceduri insuficient determinate. Art. 34 și 35 susțin necesitatea unor garanții efective pentru sănătate și mediu, fără a interzice tehnologia dronelor. Art. 148 alin. (2) și (4) este relevant pentru respectarea obligațiilor UE. Art. 23 alin. (12), privind legalitatea pedepsei, nu este direct incident în absența unor pedepse noi în textul analizat. Nu se poate constata automat încălcarea art. 138 alin. (5) numai din existența unor sarcini administrative necuantificate.",
-      "euLawNote": "Principalele probleme privesc Directiva 2009/128/CE, art. 9, Regulamentul (CE) nr. 1107/2009, art. 40–42 și 55, și Regulamentul de punere în aplicare (UE) 2019/947. Directiva (UE) 2018/958 necesită examinare în măsura în care noile condiții naționale de calificare restrâng accesul la o profesie reglementată sau exercitarea acesteia; nu se aplică automat oricărei certificări tehnice, iar domeniul armonizat trebuie delimitat. Pentru concurență, instruirea suplimentară trebuie justificată, proporțională și accesibilă, inclusiv cu tratarea adecvată a calificărilor echivalente. Directiva (UE) 2015/1535 nu devine aplicabilă doar pentru că sunt folosite drone: proiectul nu reglementează expres servicii digitale sau AI. Trebuie însă verificat separat dacă dispozițiile privind produsele și condițiile de utilizare constituie reglementări tehnice notificabile prin TRIS și dacă operează vreo excepție.",
+      "blindSpotsCaught": "Trei capcane de redactare au efect juridic real. Prima: trimiterea la un regulament UE complet străin de materie (2019/247, GECT, în loc de 2019/947, UAS). A doua: formula «în sensul prezentei legi» introdusă într-o ordonanță de urgență, care face incert domeniul de aplicare al asimilării dronei cu echipamentul terestru. A treia: regimul tranzitoriu fără termen de la alin. (6), care poate face din excepție regula permanentă. Obligația unei autorizări exprese pentru drone devine astfel teoretică cât timp ANF nu publică lista. Separat, alin. (3) lit. b) introduce o nouă dovadă de instruire emisă de ANF, fără criterii, durată sau cost stabilite prin lege.",
+      "constitutionalityNote": "Art. 1 alin. (5): trimiterea eronată la Regulamentul 2019/247, contradicția dintre art. 3 lit. e) și art. 9¹ alin. (1)-(2) și termenii nedefiniți («registru», «situații dificile», «terenuri denivelate») afectează claritatea și previzibilitatea normei, în sensul jurisprudenței constante a CCR. Art. 148 alin. (2) și (4): dispozițiile care contrazic Reg. 1107/2009 (recunoaștere «automată», utilizare în afara autorizației) și Directiva 2009/128/CE încalcă obligația de respectare a dreptului UE. Art. 35 și art. 34: reducerea garanțiilor de protecție (notificare, evaluare specifică) fără măsuri compensatorii poate fi contestată prin prisma dreptului la mediu sănătos și la ocrotirea sănătății. Procedura pare corectă: Senat primă cameră, Camera Deputaților decizională (art. 75). Nu e vorba de lege organică.",
+      "euLawNote": "Directiva 2009/128/CE (art. 9) interzice în principiu pulverizarea aeriană și permite derogări doar în condiții stricte: lipsa alternativelor, produse aprobate special după evaluarea riscurilor, plan de aplicare aprobat, măsuri de protecție a populației. Asimilarea prin lege națională a dronei cu echipamentul terestru riscă o transpunere incorectă și o procedură de infringement. Evoluțiile de la nivel UE privind simplificarea regimului dronelor nu pot fi anticipate unilateral până la adoptarea lor. Reg. (CE) 1107/2009 se aplică direct: art. 40-42 (recunoașterea reciprocă se face la cerere) și art. 55 (utilizarea conform autorizației) nu pot fi derogate. Directiva 2018/958 are relevanță redusă: nu se creează o profesie reglementată, dar noua dovadă de instruire de la ANF ar trebui justificată ca proporțională. TRIS 2015/1535: nu reglementează servicii digitale. Cerințele privind utilizarea dronelor și a produselor pot constitui însă «alte cerințe» tehnice, așa că o verificare a obligației de notificare este prudentă.",
       "senatForm": {
-        "articleRef": "Art. I pct. 2 – art. 9¹, înlocuire integrală",
-        "proposalContent": "„Art. 9¹. — Aplicarea pesticidelor cu aeronave fără pilot la bord se face numai în condițiile art. 9, cu produse autorizate expres pentru această utilizare și cu respectarea Regulamentului (UE) 2019/947. Recunoașterea autorizațiilor din alte state membre respectă art. 40–42 din Regulamentul (CE) nr. 1107/2009.”",
-        "argumentation": "Textul păstrează posibilitatea utilizării dronelor, dar elimină exceptarea generală de la garanțiile pulverizării aeriene, asimilarea cu utilajele terestre și folosirea tranzitorie a produselor fără evaluare specifică. Recunoașterea autorizațiilor trebuie să urmeze procedura europeană.",
-        "otherComments": "Analiza privește forma Senatului furnizată, nu eventuale modificări ulterioare. Verificarea online nu a fost disponibilă; actele și stadiul trebuie confruntate cu sursele oficiale înaintea depunerii. Normele din art. II trebuie corelate cu textul final și cu obligațiile europene."
+        "articleRef": "Art. I pct. 2 – art. 9¹ alin. (5) și (6)",
+        "proposalContent": "Alin. (5): trimiterea la Reg. delegat (UE) 2019/247 se înlocuiește cu «Regulamentul de punere în aplicare (UE) 2019/947». Alin. (6): se elimină teza a treia, iar teza a patra devine: «ANF soluționează cererile de recunoaștere reciprocă potrivit art. 40-42 din Regulamentul (CE) nr. 1107/2009, în termenul prevăzut de acesta.»",
+        "argumentation": "Reg. 2019/247 privește indicatorii GECT, nu dronele: trimiterea e greșită și contravine art. 1 alin. (5) din Constituție. Folosirea unui produs în afara condițiilor din autorizație încalcă art. 55 din Reg. 1107/2009, iar recunoașterea reciprocă nu e automată (art. 41). O lege națională nu poate deroga de la un regulament UE (art. 148 Constituție).",
+        "otherComments": "Alin. (1)-(2) asimilează drona echipamentelor terestre și o scot de sub art. 9, deși art. 3 lit. e) o definește ca pulverizare aeriană, interzisă în principiu de art. 9 din Dir. 2009/128/CE. Propun condiții minime: zone tampon, informarea apicultorilor, sancțiuni. «Registrul» de la alin. (7) trebuie definit."
       },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 104380,
+      "sourceEndMarker": "SF-724F64E8",
+      "riskScore": 8,
+      "riskLevel": "red",
+      "plainTitle": "Pesticide din drone: derogări largi și produse insuficient evaluate",
+      "verdictShort": "Proiectul facilitează tratamentele agricole cu drone, dar introduce derogări care pot compromite evaluarea riscurilor pentru sănătate și mediu. Problemele principale sunt excluderea regimului pulverizării aeriene și permisiunea temporară de a utiliza produse autorizate numai pentru aplicare terestră.",
+      "initiatorClaim": "Inițiatorii urmăresc intervenții rapide împotriva dăunătorilor, reducerea birocrației și scăderea costurilor pentru fermieri. Expunerea de motive invocă precizia dronelor și economii de timp, apă și substanțe, fără ca aceste avantaje să înlocuiască evaluarea fiecărui produs și tip de utilizare.",
+      "realityCheck": "Definiția actuală menționează avionul și elicopterul; proiectul include expres dronele, apoi le exclude de la art. 9 și le asimilează echipamentelor terestre pentru autorizare, operare și utilizare. Deși cere autorizarea expresă a produselor pentru drone, permite până la publicarea listei folosirea produselor autorizate pentru echipamente terestre și impune recunoașterea automată a autorizărilor din alte state membre. Nu introduce expres taxe sau sancțiuni noi, dar adaugă certificări și sarcini administrative pentru operatori și autorități.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 9¹ alin. (1): dronele sunt exceptate expres de la întregul regim al art. 9. Aceasta este o derogare substanțială, care trebuie confruntată cu interdicția de principiu și condițiile derogatorii ale pulverizării aeriene din art. 9 al Directivei 2009/128/CE. Protecțiile generale din celelalte articole nu sunt însă eliminate automat.",
+        "Art. 9¹ alin. (6): cerința evaluării specifice pentru drone este neutralizată temporar prin acceptarea produselor autorizate pentru echipamente terestre. Publicarea listei nu are un termen expres; cele 90 de zile din art. II privesc normele metodologice. Autorizarea pentru aplicare terestră nu dovedește siguranța aplicării aeriene.",
+        "Art. 9¹ alin. (6), ultima teză: recunoașterea automată depășește mecanismul art. 40–42 din Regulamentul (CE) nr. 1107/2009, care presupune condiții de eligibilitate, cerere, documentație și o decizie a autorității competente. Principiul recunoașterii reciproce nu echivalează cu acceptarea necondiționată a oricărei autorizări europene.",
+        "Art. 9¹ alin. (2)–(5): asimilarea dronelor echipamentelor terestre nu poate înlătura regulile europene de aviație. Pulverizarea presupune eliberarea de material și nu îndeplinește condițiile categoriei «deschise» din Regulamentul de punere în aplicare (UE) 2019/947; certificatul pilotului nu înlocuiește celelalte cerințe operaționale aplicabile.",
+        "Art. 9¹ alin. (5) citează Regulamentul delegat (UE) 2019/247 privind cooperarea teritorială, fără legătură cu autorizarea zborurilor. Alin. (4) reglementează notificarea, iar alin. (5) cere separat aprobarea: notificarea cu două ore înainte nu conferă singură drept de zbor.",
+        "Art. 9¹ alin. (3) și (7): instruirea specifică ANF se cumulează cu certificatele art. 5, fără clarificarea echivalențelor; expresia «înregistrate în registru» nu identifică registrul. Nu este demonstrat un monopol comercial, dar procedurile insuficient definite pot produce costuri și practici administrative divergente.",
+        "Art. II acordă Guvernului 90 de zile pentru norme, fără să amâne expres aplicarea noilor permisiuni. Proiectul nu cuantifică resursele pentru evaluarea produselor, instruire și controale; expunerea de motive descrie digitalizarea notificărilor, însă textul normativ nu o instituie."
+      ],
+      "blindSpotsCaught": "Clauza decisivă este în alin. (6): produsele pentru echipamente terestre devin utilizabile din drone înaintea listei bazate pe evaluări specifice, fără termen-limită expres pentru această perioadă. În plus, TRIS nu privește exclusiv serviciile digitale: condițiile tehnice de utilizare a produselor sau echipamentelor pot necesita verificarea obligației de notificare chiar dacă proiectul nu reglementează AI.",
+      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru contradicția dintre calificarea drept aplicare aeriană și asimilarea echipamentelor terestre, trimiterea europeană eronată și procedurile insuficient definite. Art. 34 și 35 impun examinarea protecției sănătății și mediului, iar art. 148 alin. (2) și (4) privește respectarea dreptului UE; o incompatibilitate europeană nu trebuie prezentată automat ca neconstituționalitate deja constatată. Art. 23 alin. (12) nu fundamentează aici o critică penală directă: proiectul nu instituie pedepse, iar sancțiunile existente trebuie verificate fără extindere prin analogie.",
+      "euLawNote": "Riscurile principale privesc art. 9 din Directiva 2009/128/CE, autorizarea și utilizarea conformă a produselor potrivit art. 31 și 55 din Regulamentul (CE) nr. 1107/2009, recunoașterea reciprocă din art. 40–42 și normele de operare din Regulamentul (UE) 2019/947. Pentru Directiva (UE) 2018/958 trebuie stabilit dacă noile condiții restrâng accesul la o profesie reglementată sau exercitarea acesteia și ce marjă națională există; certificările nu demonstrează singure aplicabilitatea directivei ori disproporționalitatea. Pentru Directiva (UE) 2015/1535 trebuie examinată calificarea drept reglementare tehnică și eventuala notificare înaintea adoptării; utilizarea dronelor nu constituie singură un serviciu al societății informaționale. Textul furnizat nu dovedește efectuarea acestor verificări, dar nici absența lor din dosarul complet. Verificarea online nu a fost disponibilă în această sesiune.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 – art. 9¹ alin. (1), (2), (6)",
+        "proposalContent": "Se elimină alin. (1) teza a doua, alin. (2) teza a doua și alin. (6) tezele a treia și a patra. La alin. (1), prima teză se înlocuiește cu: „Aplicarea produselor de protecție a plantelor cu aeronave fără pilot la bord este permisă numai în condițiile art. 9 și ale normelor Uniunii Europene privind operarea acestor aeronave.”",
+        "argumentation": "Amendamentul păstrează utilizarea dronelor în cadrul derogărilor pentru pulverizare aeriană și cerința autorizării specifice a produselor. Elimină permisiunea tranzitorie insuficient evaluată și recunoașterea automată; recunoașterea reciprocă rămâne posibilă potrivit art. 40–42 din Regulamentul (CE) nr. 1107/2009.",
+        "otherComments": "La alin. (5), înlocuiți trimiterea la Regulamentul (UE) 2019/247 cu temeiurile aeronautice aplicabile. Clarificați instruirea, registrul și raportul dintre notificare și aprobare. Corelați aplicarea legii cu normele metodologice și verificați obligația notificării TRIS."
+      },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-17T08:52:28.081Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:34:05.630Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

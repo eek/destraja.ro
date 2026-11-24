@@ -2,119 +2,178 @@
   "billId": "PL-x 506/2026",
   "slug": "plx-506-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T08:08:28.712Z",
+  "updatedAt": "2026-11-24T14:33:41.717Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 1212,
+    "ordinanceChars": 0,
+    "memoChars": 2092,
+    "memoSupplied": 2092,
+    "marker": "SF-FA7351AA"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-506-2026.json",
+    "form": "senat",
+    "textHash": "fa7351aa18d6a343",
+    "fetchedAt": "2026-11-19T10:08:34.304Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 3827,
+    "truncated": false,
+    "included": true,
+    "key": "83cc6777afa881fe"
+  },
   "consensus": {
     "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Nu mai iei amendă că ai uitat actele acasă, dacă poliția le vede în sistem",
-    "summaryTlDr": "Lege scurtă și utilă, care pune capăt amenzilor pentru acte uitate acasă atunci când poliția poate vedea datele în evidențe. Formularea este însă prea largă și vagă: nu spune ce se întâmplă la o pană de sistem și cum se stabilește identitatea persoanei fără act.",
-    "initiatorClaim": "Deputații USR spun că amenda pentru neprezentarea fizică a actelor este formalism excesiv și disproporționat (invocă art. 53 din Constituție), când permisul și înmatricularea pot fi verificate ușor în bazele Poliției. Vor ca legea să țină pasul cu digitalizarea administrației.",
-    "realityCheck": "Articolul unic adaugă o singură frază la art. 35 alin. (2): prezentarea actelor se consideră făcută dacă datele pot fi verificate în „baze de date oficiale”. Contravenția nu este abrogată, cum sugerează expunerea, iar amenda rămâne posibilă ori de câte ori verificarea nu se poate face. Fraza acoperă toate documentele din alineat, inclusiv cele pentru mărfuri și „alte documente prevăzute de lege”, iar textul nu spune cine suportă riscul unei pene a sistemului.",
+    "plainTitle": "Nu mai ești amendat că ai uitat actele acasă, dacă poliția le poate vedea în sistem",
+    "summaryTlDr": "Este o lege scurtă, benignă și utilă, care aliniază Codul rutier la digitalizare și scoate din practică amenzile pur formale. Are o singură slăbiciune: nu spune ce se întâmplă când baza de date nu poate fi accesată.",
+    "initiatorClaim": "Inițiatorii USR spun că astăzi șoferii sunt sancționați pentru neprezentarea fizică a actelor chiar când acestea există și pot fi verificate ușor în bazele de date ale Poliției. Ei consideră această practică disproporționată (art. 53 din Constituție) și contrară bunei administrări și digitalizării.",
+    "realityCheck": "Articolul unic face două modificări la art. 35 alin. (2). Înlocuiește verbul „să înmâneze” cu „să prezinte” și adaugă o teză nouă: obligația se consideră îndeplinită dacă datele pot fi verificate de polițistul rutier în bazele de date oficiale. Legea nu dezincriminează contravenția, deși expunerea de motive vorbește despre eliminarea ei: sancțiunea rămâne pentru cazurile în care datele nu pot fi verificate. Formula „pot fi verificate” nu lămurește cine suportă riscul unei pene de sistem, al lipsei de semnal sau al documentelor care nu există în baze de date (de exemplu, actele privind marfa transportată).",
     "affectedGroups": [
       "Șoferi & Auto",
-      "IMM & Antreprenori",
       "Toți cetățenii",
-      "Justiție & Drepturi Civile"
+      "Justiție & Drepturi Civile",
+      "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. unic, art. 35 alin. (2) teza a II-a",
-      "proposalContent": "Obligația de prezentare a permisului de conducere și a documentului de înmatriculare se consideră îndeplinită dacă polițistul rutier, după stabilirea identității, constată datele în bazele de date ale MAI, pe care are obligația să le consulte. Imposibilitatea tehnică a accesării, neimputabilă participantului la trafic, nu atrage sancționarea acestuia.",
-      "argumentation": "Textul extinde efectul la „documentele referitoare la bunurile transportate” și „alte documente prevăzute de lege” (ADR, tahograf, avize), unde există reguli speciale, unele din dreptul UE. „Pot fi verificate” și „baze de date oficiale” sunt vagi: nu spun cine suportă riscul unei pene de sistem și nu previn substituirea de identitate (art. 1 alin. 5).",
-      "otherComments": "Inițiativa e utilă: elimină amenzile pur formale. Expunerea cere scoaterea contravenției, dar textul nu modifică articolele de sancționare; amenda rămâne când datele nu pot fi verificate, de ex. la o pană de sistem. Sugerez un termen de 60 de zile pentru ca MAI să doteze echipajele cu acces mobil la registrele de permise, înmatriculări și persoane."
+      "articleRef": "Art. unic – art.35 alin.(2) teza II OUG 195/2002",
+      "proposalContent": "La teza a II-a: „Obligația se consideră îndeplinită dacă datele pot fi verificate de polițist prin accesarea bazelor de date oficiale pe baza datelor declarate de participant. Indisponibilitatea tehnică a bazelor de date nu poate fi imputată participantului la trafic și nu atrage sancțiunea.”",
+      "argumentation": "Forma actuală nu spune cine suportă riscul unei pene a sistemului sau al lipsei de semnal. Fără precizare, polițistul ar putea sancționa tocmai când verificarea nu e posibilă din motive ce țin de stat, contrar scopului declarat și art.1 alin.(5) Constituție. Identificarea pe baza datelor declarate (nume, CNP) e deja practică curentă.",
+      "otherComments": "Documentele privind marfa (CMR, ADR) și cele cerute de alte autorități de control nu sunt în baze de date ale Poliției; ar fi utilă o normă de corelare cu Regulamentul (UE) 2020/1056 (eFTI). Recomand și un termen de intrare în vigoare de 30 de zile pentru instruirea agenților."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 47608,
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 65376,
+      "sourceEndMarker": "SF-FA7351AA",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Fără amendă pentru șoferii care își uită actele acasă, dacă polițistul le poate verifica digital",
-      "verdictShort": "O măsură binevenită de debirocratizare care elimină amenzile absurde pentru simpla uitare acasă a plasticului permisului sau talonului, adaptând Codul Rutier la existența tabletelor e-DAC din dotarea Poliției. Are însă două mici lacune de corelare tehnică ce pot lăsa șoferul la mâna semnalului GSM.",
-      "initiatorClaim": "Inițiatorii vor să elimine sancționarea șoferilor care nu au fizic asupra lor actul de identitate, permisul sau talonul, dar ale căror documente sunt perfect valabile și pot fi verificate pe loc în bazele de date ale Poliției.",
-      "realityCheck": "Legea adaugă o teză nouă la art. 35 alin. (2) din Codul Rutier, stabilind că obligația prezentării actelor este îndeplinită dacă polițistul poate verifica datele electronic. Totuși, formularea „dacă datele aferente pot fi verificate” transferă riscul tehnic asupra cetățeanului: dacă polițistul nu are semnal la terminal sau pică serverul MAI, șoferul rămâne pasibil de amendă.",
+      "plainTitle": "Scapi de amendă dacă uiți actele acasă și polițistul le poate verifica în sistem",
+      "verdictShort": "O lege benefică și de bun-simț care elimină amenzile formaliste pentru uitarea permisului, talonului sau buletinului acasă atunci când datele pot fi verificate electronic. Singurele riscuri sunt tehnice: formularea lasă șoferul vulnerabil dacă nu există semnal sau echipamentul poliției nu funcționează și nu corelează expres articolul cu norma care sancționează lipsa fizică a actelor.",
+      "initiatorClaim": "Inițiatorii susțin că amendarea șoferilor care dețin legal documentele, dar nu le au fizic asupra lor, este un formalism excesiv și disproporționat, contrar digitalizării și principiului bunei administrări. Proiectul urmărește ca lipsa suportului fizic să nu mai fie sancționată contravențional dacă datele pot fi verificate electronic.",
+      "realityCheck": "În prezent, art. 35 alin. (2) din OUG nr. 195/2002 obligă participanții la trafic să înmâneze fizic polițistului rutier actul de identitate, permisul, certificatul de înmatriculare și celelalte documente legale. Forma adoptată de Senat schimbă obligația din «a înmâna» în «a prezenta» și adaugă că aceasta se consideră îndeplinită dacă polițistul poate verifica datele în bazele de date oficiale. În practică, măsura reduce birocrația, dar nu modifică expres art. 101 alin. (1) pct. 18 (care sancționează obligația de a «avea asupra sa» documentele) și face legalitatea conduitei șoferului dependentă de posibilitatea tehnică de verificare din acel moment.",
       "affectedGroups": [
         "Șoferi & Auto",
-        "IMM & Antreprenori",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Modificarea art. 35 alin. (2) din OUG nr. 195/2002 echivalează verificarea electronică în bazele de date oficiale (ex. sistemul e-DAC) cu prezentarea fizică a cărții de identitate, permisului de conducere și certificatului de înmatriculare.",
-        "Risc de necorelare cu art. 101 alin. (1) pct. 18 din OUG nr. 195/2002, care sancționează cu 6-8 puncte-amendă (clasa a III-a) nerespectarea obligației conducătorului „de a avea asupra sa” documentele, nu doar „neprezentarea” lor.",
-        "Condiționarea de posibilitatea tehnică de verificare („dacă datele aferente pot fi verificate”) creează imprevizibilitate în zonele fără acoperire de date mobile sau în cazul indisponibilității temporare a bazelor de date ale statului."
+        "Articolul unic modifică art. 35 alin. (2) din OUG nr. 195/2002, înlocuind obligația de «a înmâna» cu cea de «a prezenta» documentele și introducând regula că obligația este îndeplinită dacă datele pot fi verificate de polițistul rutier în bazele de date oficiale.",
+        "Proiectul nu modifică explicit art. 101 alin. (1) pct. 18 din OUG nr. 195/2002 (care sancționează contravențional neîndeplinirea obligației de a «avea asupra sa» documentele de la art. 35 alin. (2)), nici normele din Regulamentul rutier (HG nr. 1391/2006), ceea ce poate genera interpretări neunitare în teren.",
+        "Sintagma «dacă datele aferente pot fi verificate» transferă asupra cetățeanului riscul unor defecțiuni tehnice ale statului (lipsă semnal GSM, indisponibilitate servere sau lipsa unui terminal mobil la echipaj).",
+        "Scutirea operează practic doar pentru documentele înregistrate în baze de date oficiale accesibile polițistului (ex. permis românesc, CI, înmatriculare, RCA/ITP), nu și pentru toate documentele privind bunurile transportate sau pentru actele emise în străinătate care nu pot fi verificate instant."
       ],
-      "blindSpotsCaught": "Proiectul modifică doar termenul de „prezentare” din art. 35 alin. (2), dar uită să modifice art. 101 alin. (1) pct. 18 din OUG 195/2002 și art. 147 pct. 1 din Regulamentul de aplicare (HG nr. 1391/2006), unde fapta contravențională este definită ca „obligația de a avea asupra sa” documentele. În plus, pentru „documentele referitoare la bunurile transportate” (avize de însoțire a mărfii, CMR) nu există o bază de date unică accesibilă rutieriștilor, cu excepția codurilor RO e-Transport.",
-      "constitutionalityNote": "Proiectul valorifică corect principiul proporționalității din art. 53 din Constituție, eliminând o sancțiune pur formală. Pentru respectarea deplină a art. 1 alin. (5) privind claritatea și previzibilitatea legii, răspunderea contravențională a cetățeanului nu ar trebui să depindă de funcționarea tehnică de moment a conexiunii la internet a agentului constatator.",
-      "euLawNote": "Măsura este pe deplin aliniată cu tendințele europene privind digitalizarea serviciilor publice, Regulamentul (UE) 2024/1183 (Portofelul european pentru identitatea digitală - eIDAS 2.0) și reforma Directivei privind permisele de conducere digitale. Nu impune bariere pe piața unică și nu necesită notificare TRIS (Directiva 2015/1535) sau test de proporționalitate (Directiva 2018/958).",
+      "blindSpotsCaught": "Cea mai subtilă chichiță este necorelarea dintre textul modificat al art. 35 alin. (2) — care consideră îndeplinită «obligația de prezentare» — și norma contravențională din art. 101 alin. (1) pct. 18 din OUG nr. 195/2002, care sancționează obligația conducătorului auto «de a avea asupra sa» documentele. În plus, condiția «pot fi verificate» nu stabilește ce se întâmplă în zone fără semnal sau când sistemul informatic pică, și nu clarifică identificarea vizuală a persoanei dacă echipajul nu dispune de terminal mobil cu afișarea fotografiei din baza DEPABD.",
+      "constitutionalityNote": "Măsura este conformă cu principiul proporționalității (art. 53) și a fost adoptată corect de Senat ca lege ordinară (art. 76 alin. 2). Există totuși o vulnerabilitate minoră sub aspectul clarității și previzibilității legii (art. 1 alin. 5 Constituție), deoarece caracterul licit al faptei de a circula fără acte fizice ajunge să depindă de un factor aleatoriu și extern cetățeanului (capacitatea tehnică de interogare a bazei de date în momentul controlului), iar necorelarea expresă cu textul sancționator poate genera practici contravenționale divergente.",
+      "euLawNote": "Proiectul nu restricționează accesul la profesii reglementate (Directiva (UE) 2018/958 nu este incidentă) și nu instituie norme tehnice pentru produse sau servicii ale societății informaționale care să necesite notificare conform Directivei (UE) 2015/1535 (TRIS). Este compatibil cu direcția europeană de digitalizare (portofelul digital eIDAS 2 și tranziția spre permisul auto digital la nivelul UE), însă în practică șoferii cu documente emise în alte state membre vor beneficia de facilitate doar în măsura interconectării operative a bazelor de date transfrontaliere (ex. EUCARIS/RESPER).",
       "senatForm": {
-        "articleRef": "Articol unic (art. 35 alin. (2) și art. 101)",
-        "proposalContent": "La art. 35 alin. (2), teza a II-a se completează: „Obligația de a avea asupra sa și de a prezenta documentele emise de autoritățile române este considerată îndeplinită dacă titularul furnizează datele de identificare, chiar și când bazele de date sunt temporar indisponibile tehnic.” Se abrogă art. 101 alin. (1) pct. 18.",
-        "argumentation": "Art. 101 alin. (1) pct. 18 din OUG 195/2002 sancționează în continuare „neaverea asupra sa” a documentelor, nu doar „neprezentarea” lor, riscând aplicarea neunitară. De asemenea, șoferul nu trebuie amendat dacă aplicația e-DAC a polițistului nu are semnal sau conexiune la baza de date în momentul controlului.",
-        "otherComments": "După adoptarea legii, Guvernul trebuie obligat printr-un articol tranzitoriu să modifice corespunzător și art. 147 pct. 1 din Regulamentul de aplicare a OUG 195/2002 (HG nr. 1391/2006), care încă impune obligația deținerii fizice a documentelor asupra conducătorului auto."
-      }
+        "articleRef": "Articol unic (art. 35 alin. (2) OUG 195/2002)",
+        "proposalContent": "La art. 35 alin. (2) teza II, să se prevadă că obligația e îndeplinită dacă datele sunt înregistrate în bazele oficiale, fără a sancționa șoferul pentru lipsa semnalului sau a dotării tehnice. Totodată, corelarea expresă a art. 101 alin. (1) pct. 18 OUG 195/2002 pentru a elimina amenda pentru lipsa fizică a acestor acte.",
+        "argumentation": "Expresia „pot fi verificate” face ca legalitatea conduitei șoferului să depindă de semnalul GSM, servere sau dotarea echipajului, afectând previzibilitatea legii (art. 1 alin. 5 Constituție). Fără corelarea expresă cu art. 101 alin. (1) pct. 18 (obligația de a „avea asupra sa” actele), pot apărea interpretări și amenzi neunitare.",
+        "otherComments": "Inițiativa este utilă și binevenită pentru debirocratizare. Ar fi utilă și o clarificare în raportul comisiilor (și ulterior în HG 1391/2006) privind identificarea persoanei în lipsa actului de identitate fizic, documentele emise în străinătate și procedura de reținere a permisului când acesta nu se află fizic asupra conducătorului auto."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 151086,
+      "durationMs": 41350,
+      "sourceEndMarker": "SF-FA7351AA",
       "riskScore": 2,
       "riskLevel": "green",
-      "plainTitle": "Nu mai iei amendă că ai uitat actele acasă, dacă poliția le vede în sistem",
-      "verdictShort": "Lege scurtă și utilă, care pune capăt amenzilor pentru acte uitate acasă atunci când poliția poate vedea datele în evidențe. Formularea este însă prea largă și vagă: nu spune ce se întâmplă la o pană de sistem și cum se stabilește identitatea persoanei fără act.",
-      "initiatorClaim": "Deputații USR spun că amenda pentru neprezentarea fizică a actelor este formalism excesiv și disproporționat (invocă art. 53 din Constituție), când permisul și înmatricularea pot fi verificate ușor în bazele Poliției. Vor ca legea să țină pasul cu digitalizarea administrației.",
-      "realityCheck": "Articolul unic adaugă o singură frază la art. 35 alin. (2): prezentarea actelor se consideră făcută dacă datele pot fi verificate în „baze de date oficiale”. Contravenția nu este abrogată, cum sugerează expunerea, iar amenda rămâne posibilă ori de câte ori verificarea nu se poate face. Fraza acoperă toate documentele din alineat, inclusiv cele pentru mărfuri și „alte documente prevăzute de lege”, iar textul nu spune cine suportă riscul unei pene a sistemului.",
+      "plainTitle": "Nu mai ești amendat că ai uitat actele acasă, dacă poliția le poate vedea în sistem",
+      "verdictShort": "Este o lege scurtă, benignă și utilă, care aliniază Codul rutier la digitalizare și scoate din practică amenzile pur formale. Are o singură slăbiciune: nu spune ce se întâmplă când baza de date nu poate fi accesată.",
+      "initiatorClaim": "Inițiatorii USR spun că astăzi șoferii sunt sancționați pentru neprezentarea fizică a actelor chiar când acestea există și pot fi verificate ușor în bazele de date ale Poliției. Ei consideră această practică disproporționată (art. 53 din Constituție) și contrară bunei administrări și digitalizării.",
+      "realityCheck": "Articolul unic face două modificări la art. 35 alin. (2). Înlocuiește verbul „să înmâneze” cu „să prezinte” și adaugă o teză nouă: obligația se consideră îndeplinită dacă datele pot fi verificate de polițistul rutier în bazele de date oficiale. Legea nu dezincriminează contravenția, deși expunerea de motive vorbește despre eliminarea ei: sancțiunea rămâne pentru cazurile în care datele nu pot fi verificate. Formula „pot fi verificate” nu lămurește cine suportă riscul unei pene de sistem, al lipsei de semnal sau al documentelor care nu există în baze de date (de exemplu, actele privind marfa transportată).",
       "affectedGroups": [
         "Șoferi & Auto",
-        "Justiție & Drepturi Civile",
-        "Toți cetățenii"
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. unic: mecanismul este o ficțiune juridică („obligația este considerată îndeplinită”), nu abrogarea sancțiunii. Articolele de sancționare din OUG 195/2002 rămân neschimbate, așa că efectul depinde de posibilitatea concretă de verificare a datelor în momentul controlului.",
-        "Sfera este mai largă decât spune expunerea. Teza nouă se aplică și „documentelor referitoare la bunurile transportate” și „altor documente prevăzute de lege” (de ex. documente ADR, avize de însoțire), unde legi speciale sau reglementări UE pot cere în continuare documentul. Raportul dintre aceste norme rămâne neclar.",
-        "Identitatea: baza de date confirmă că un permis există, nu și că persoana oprită este titularul lui. Fără act de identitate, polițistul trebuie să stabilească identitatea pe altă cale (fotografia din evidențe sau conducerea la sediu, conform legii poliției). Textul nu tratează această etapă, deși alineatul se aplică tuturor participanților la trafic, inclusiv pietonilor.",
-        "Noțiunea de „baze de date oficiale” nu este definită: nu se precizează dacă e vorba doar de registrele naționale de permise, înmatriculări și persoane sau și de sisteme europene. Textul nici nu spune explicit că polițistul este obligat să le consulte.",
-        "Impactul bugetar este redus, pentru că polițiștii verifică deja frecvent datele prin dispecerat sau terminale. Totuși, nu există un studiu de impact privind dotarea echipajelor. Pentru cetățeni scade riscul de amenzi pur formale și nu apar sarcini noi."
+        "Art. unic (art. 35 alin. (2) teza I): „să înmâneze” devine „să prezinte”. Formularea e mai flexibilă și permite, de exemplu, arătarea unui document fără predarea lui fizică.",
+        "Art. unic (art. 35 alin. (2) teza a II-a): neprezentarea nu mai poate fi tratată ca neîndeplinire a obligației dacă datele (identitate, permis, înmatriculare) pot fi verificate în bazele de date oficiale. Efectul practic este eliminarea amenzilor pur formale pentru actele uitate.",
+        "Contravenția pentru încălcarea art. 35 alin. (2) nu este abrogată. Proiectul doar restrânge situațiile în care ea există, deci afirmația din expunerea de motive că „lipsa documentelor să nu mai fie reglementată drept contravenție” este mai largă decât efectul real al textului.",
+        "Pentru „documentele referitoare la bunurile transportate” și „alte documente prevăzute de lege” (CMR, ADR, avize de însoțire), care adesea nu există în baze de date ale Poliției, obligația de prezentare fizică rămâne practic neschimbată.",
+        "Textul se referă doar la „polițistul rutier”. Pentru alte autorități care opresc vehicule (ISCTR, Autoritatea Vamală, ANAF, art. 35 alin. (4^1)), regimul prezentării documentelor nu este clarificat.",
+        "Impactul bugetar este neglijabil, cu o posibilă scădere a încasărilor din amenzi formale. Birocratic, efectul este pozitiv pentru cetățeni și transportatori."
       ],
-      "blindSpotsCaught": "Teza nouă spune „pot fi verificate”, nu „au fost verificate”. La contestarea amenzii, șoferul poate invoca faptul că datele existau în evidențe, iar poliția ar trebui să justifice de ce nu le-a putut verifica. Fiind normă contravențională mai favorabilă, legea poate profita și faptelor săvârșite înainte de intrarea ei în vigoare, în condițiile art. 15 alin. (2) din Constituție și ale art. 12 din OG 2/2001. Ca detalii minore, expunerea citează greșit „OUG 195/2022”, iar lista susținătorilor vorbește de „modificare și completare”, deși textul doar modifică un alineat.",
-      "constitutionalityNote": "Nu identific probleme de constituționalitate. Este o lege ordinară, adoptată de Senat ca primă Cameră potrivit art. 76 alin. (2), cu Camera Deputaților decizională (art. 75), și modifică o ordonanță de urgență deja aprobată prin lege. Invocarea art. 53 în expunere este forțată, pentru că acest articol privește restrângerea drepturilor fundamentale. Argumentul de proporționalitate se sprijină mai bine pe art. 1 alin. (5) și pe principiul bunei administrări. Singurul punct sensibil este previzibilitatea (art. 1 alin. 5): sintagmele „pot fi verificate” și „baze de date oficiale” lasă loc unor practici neunitare între polițiști și instanțe, fără să ajungă la un viciu de neconstituționalitate.",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece legea nu reglementează accesul la o profesie. Nu este nici reglementare tehnică privind servicii ale societății informaționale, deci nu necesită notificare TRIS (Directiva 2015/1535). Direcția este compatibilă cu revizuirea normelor UE privind permisele de conducere, care introduce permisul digital. Teza generală privind „documentele referitoare la bunurile transportate” și „alte documente” nu poate însă înlătura obligații din dreptul UE direct aplicabil sau transpus, de exemplu Regulamentul (UE) 165/2014 privind tahografele sau regulile ADR aplicate prin Directiva 2008/68/CE. De aceea, textul ar trebui limitat la permis și înmatriculare. Accesul poliției la evidențe se face deja sub Directiva (UE) 2016/680, transpusă prin Legea 363/2018, și nu presupune colectarea de date noi.",
+      "blindSpotsCaught": "Formula „dacă datele aferente pot fi verificate” este condiționată de o capacitate tehnică a statului, nu de conduita șoferului. Dacă sistemul e indisponibil sau polițistul nu are acces mobil, textul permite interpretarea că obligația nu e îndeplinită și sancțiunea se aplică, deci riscul tehnic al administrației trece pe cetățean. Textul nu precizează nici pe ce bază se face identificarea în lipsa actului (date declarate verbal, CNP). Se aplică totuși art. 35 alin. (3), care limitează verificarea identității pasagerilor la situațiile cu indicii de faptă contravențională sau penală.",
+      "constitutionalityNote": "Proiectul nu ridică probleme de constituționalitate. El întărește proporționalitatea (art. 53) și principiul legalității sancțiunilor, eliminând sancționarea unei fapte fără pericol social real. Previzibilitatea (art. 1 alin. (5)) poate fi îmbunătățită prin precizarea situației de indisponibilitate a bazelor de date, dar nici forma actuală nu este neclară până la neconstituționalitate. Proiectul a fost adoptat de Senat ca primă cameră, conform art. 76 alin. (2) și art. 75, iar Camera Deputaților este decizională, ceea ce e corect pentru o lege ordinară de acest tip.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Notificarea TRIS (Directiva (UE) 2015/1535) nu este necesară, pentru că nu se introduc reguli tehnice privind produse sau servicii ale societății informaționale. Proiectul este compatibil cu direcția europeană de digitalizare: noua directivă UE privind permisele de conducere introduce permisul digital, iar Regulamentul (UE) 2020/1056 (eFTI) privește informațiile electronice despre marfă. Pentru documentele de transport internațional (CMR, tahograf, ADR) rămân aplicabile regulile UE și internaționale specifice, pe care proiectul nu le afectează.",
       "senatForm": {
-        "articleRef": "Art. unic, art. 35 alin. (2) teza a II-a",
-        "proposalContent": "Obligația de prezentare a permisului de conducere și a documentului de înmatriculare se consideră îndeplinită dacă polițistul rutier, după stabilirea identității, constată datele în bazele de date ale MAI, pe care are obligația să le consulte. Imposibilitatea tehnică a accesării, neimputabilă participantului la trafic, nu atrage sancționarea acestuia.",
-        "argumentation": "Textul extinde efectul la „documentele referitoare la bunurile transportate” și „alte documente prevăzute de lege” (ADR, tahograf, avize), unde există reguli speciale, unele din dreptul UE. „Pot fi verificate” și „baze de date oficiale” sunt vagi: nu spun cine suportă riscul unei pene de sistem și nu previn substituirea de identitate (art. 1 alin. 5).",
-        "otherComments": "Inițiativa e utilă: elimină amenzile pur formale. Expunerea cere scoaterea contravenției, dar textul nu modifică articolele de sancționare; amenda rămâne când datele nu pot fi verificate, de ex. la o pană de sistem. Sugerez un termen de 60 de zile pentru ca MAI să doteze echipajele cu acces mobil la registrele de permise, înmatriculări și persoane."
-      }
+        "articleRef": "Art. unic – art.35 alin.(2) teza II OUG 195/2002",
+        "proposalContent": "La teza a II-a: „Obligația se consideră îndeplinită dacă datele pot fi verificate de polițist prin accesarea bazelor de date oficiale pe baza datelor declarate de participant. Indisponibilitatea tehnică a bazelor de date nu poate fi imputată participantului la trafic și nu atrage sancțiunea.”",
+        "argumentation": "Forma actuală nu spune cine suportă riscul unei pene a sistemului sau al lipsei de semnal. Fără precizare, polițistul ar putea sancționa tocmai când verificarea nu e posibilă din motive ce țin de stat, contrar scopului declarat și art.1 alin.(5) Constituție. Identificarea pe baza datelor declarate (nume, CNP) e deja practică curentă.",
+        "otherComments": "Documentele privind marfa (CMR, ADR) și cele cerute de alte autorități de control nu sunt în baze de date ale Poliției; ar fi utilă o normă de corelare cu Regulamentul (UE) 2020/1056 (eFTI). Recomand și un termen de intrare în vigoare de 30 de zile pentru instruirea agenților."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 172827,
+      "durationMs": 63520,
+      "sourceEndMarker": "SF-FA7351AA",
       "riskScore": 3,
       "riskLevel": "green",
-      "plainTitle": "Actele verificate electronic pot înlocui prezentarea lor la controlul rutier",
-      "verdictShort": "Proiect util, care poate reduce formalitățile la controalele rutiere, fără taxe sau restricții economice noi. Totuși, eliminarea amenzilor pentru documentele uitate acasă trebuie asigurată prin corelarea expresă cu normele de sancționare.",
-      "initiatorClaim": "Inițiatorii urmăresc evitarea sancțiunilor pentru lipsa fizică a unor documente existente și verificabile electronic. Ei invocă digitalizarea administrației și caracterul disproporționat al sancționării unei simple omisiuni materiale.",
-      "realityCheck": "Articolul unic consideră îndeplinită obligația de prezentare atunci când datele documentelor pot fi verificate în baze oficiale; facilitatea privește participanții la trafic și poate acoperi inclusiv documentele bunurilor transportate. Textul nu abrogă expres contravenția pentru neținerea documentelor asupra conducătorului și nu stabilește explicit obligația polițistului de a consulta bazele. Beneficiul depinde de accesibilitatea și conținutul evidențelor, fără reguli pentru defecțiuni tehnice sau date incomplete.",
+      "plainTitle": "Documentele verificabile electronic pot înlocui prezentarea actelor la controlul rutier",
+      "verdictShort": "O simplificare utilă, cu risc redus: verificarea în bazele oficiale poate înlocui prezentarea documentelor. Totuși, proiectul nu garantează eliminarea amenzii pentru obligația distinctă de a avea actele asupra ta.",
+      "initiatorClaim": "Inițiatorii urmăresc eliminarea sancționării pentru lipsa documentelor fizice atunci când existența și valabilitatea acestora pot fi verificate electronic. Ei invocă digitalizarea administrației și caracterul disproporționat al sancțiunilor pur formale.",
+      "realityCheck": "În prezent, art. 35 alin. (2) cere înmânarea documentelor; proiectul înlocuiește «să înmâneze» cu «să prezinte» și consideră prezentarea îndeplinită dacă datele pot fi verificate în baze oficiale. Modificarea nu abrogă expres obligațiile distincte privind deținerea documentelor asupra persoanei și sancțiunile aferente. Nu stabilește nici obligația polițistului de a încerca verificarea electronică, nici soluția pentru lipsa conexiunii sau indisponibilitatea sistemului.",
       "affectedGroups": [
         "Șoferi & Auto",
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile"
       ],
       "keyFindings": [
-        "Art. 101 alin. (1) pct. 18 din OUG nr. 195/2002 sancționează lipsa documentelor asupra conducătorului, distinct de prezentarea lor. Proiectul nu îl modifică: interpretarea favorabilă cetățeanului trebuie securizată legislativ, fără a presupune că amenda dispare automat. Art. 147 pct. 1 din regulament necesită aceeași corelare. Surse: [OUG nr. 195/2002](https://legislatie.just.ro/Public/DetaliiDocumentAfis/307792), [Regulamentul rutier](https://legislatie.just.ro/Public/DetaliiDocument/79058).",
-        "Înlocuirea obligației de înmânare cu cea de prezentare trebuie corelată și cu art. 108 alin. (1) lit. c) pct. 2, care sancționează refuzul înmânării documentelor prin puncte de penalizare, împreună cu amenda prevăzută de art. 101 alin. (2). Lipsa documentului și refuzul înmânării sunt conduite distincte. Sursa: [OUG nr. 195/2002](https://legislatie.just.ro/Public/DetaliiDocumentAfis/307792).",
-        "Proiectul nu introduce taxe, autorizații, furnizori privilegiați sau obligația cetățeanului de a cumpăra echipamente ori aplicații. Poate reduce sarcinile șoferilor și transportatorilor, inclusiv IMM-uri; pentru poliție pot exista costuri de acces, conectivitate și instruire, necuantificate în materialele furnizate. Nu rezultă din text obligația construirii unei platforme noi."
+        "Articolul unic păstrează lista actuală a documentelor și introduce o modalitate alternativă de îndeplinire a obligației de prezentare. Nu înlătură necesitatea unui permis valabil sau a înmatriculării legale.",
+        "Corelarea esențială privește art. 101 alin. (1) pct. 18 din OUG nr. 195/2002, referitor la obligația de a avea documentele asupra persoanei, și art. 147 pct. 1 din regulamentul aprobat prin HG nr. 1391/2006. Proiectul nu le modifică expres; forma lor consolidată la data evaluării nu a putut fi reverificată online.",
+        "Formula «datele aferente pot fi verificate» nu precizează dacă este suficientă posibilitatea tehnică sau trebuie confirmate efectiv existența și valabilitatea documentului. Nici bazele oficiale relevante și nici tratamentul incidentelor tehnice nu sunt definite.",
+        "Excepția privește întreaga listă din alineat, inclusiv documentele pentru bunurile transportate și alte documente prevăzute de lege, în măsura în care datele necesare sunt verificabile. Nu este limitată la permis și certificatul de înmatriculare.",
+        "Proiectul poate reduce sarcinile administrative ale cetățenilor și transportatorilor, fără taxe sau sancțiuni noi. Nu impune expres achiziții informatice și nu cuantifică eventualele costuri de acces, interoperabilitate ori instruire.",
+        "Textul conține un singur articol, fără dispoziții tranzitorii, abrogări sau termen special de aplicare. Mențiunea «adoptat» nu dovedește, singură, promulgarea și intrarea în vigoare."
       ],
-      "blindSpotsCaught": "Formularea „pot fi verificate” exprimă o posibilitate, fără să precizeze cine constată imposibilitatea verificării și cum este aceasta documentată. Existența unui registru nu garantează că polițistul are acces la toate datele necesare, mai ales pentru acte străine sau documente de transport; proiectul nu garantează nici acceptarea acestei facilități în alte state. Procedural, termenul de amendamente indicat, 8 septembrie 2026, este depășit la data analizei, 29 octombrie 2026; stadiul „-” nu permite însă concluzia că proiectul a fost adoptat definitiv.",
-      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă a soluției de verificare electronică. Vulnerabilitatea principală privește art. 1 alin. (5): corelarea incompletă cu sancțiunile și condiția tehnică insuficient explicată pot reduce previzibilitatea. Legalitatea sancționării, analizată inclusiv în raport cu art. 23 alin. (12), impune delimitarea clară a conduitei sancționabile, conform [Deciziei CCR nr. 673/2024](https://legislatie.just.ro/Public/DetaliiDocument/304103). Afirmația inițiatorilor că regimul actual încalcă art. 53 nu este demonstrată doar prin existența verificării electronice: trebuie identificat dreptul fundamental restrâns și evaluată proporționalitatea concretă. Sursa: [Constituția, art. 53](https://www.cdep.ro/ords/pls/dic/site2015.page?den=act2_1&par1=2).",
-      "euLawNote": "Nu se identifică bariere noi pentru concurență sau accesul pe piață. Directiva (UE) 2018/958 nu impune aici un test profesional de proporționalitate: art. 2 privește restricțiile privind accesul la profesii reglementate ori exercitarea acestora, iar proiectul modifică modalitatea controlului documentelor rutiere. Sursa: [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=CELEX:32018L0958). Simpla consultare a bazelor oficiale nu constituie reglementarea specifică a unui serviciu digital sau AI și nu indică, prin ea însăși, obligația notificării TRIS; textul nu stabilește nici specificații tehnice pentru produse. Sursa: [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/RO/ALL/?uri=celex:32015L1535).",
+      "blindSpotsCaught": "Diferența decisivă este între prezentarea documentului la cererea polițistului și obligația de a-l avea asupra persoanei: îndeplinirea primei obligații prin verificare electronică nu o stinge neechivoc pe a doua. De asemenea, schimbarea verbului «înmâneze» poate necesita corelare cu regulile speciale privind reținerea documentelor, pe care proiectul nu le abrogă.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) impune însă clarificarea condițiilor verificării electronice și corelarea cu normele contravenționale, pentru o aplicare previzibilă. Art. 23 alin. (12) privește direct legalitatea pedepsei; pentru sancțiunile contravenționale, analiza trebuie raportată la natura sancțiunii și la garanțiile aplicabile, fără echivalare automată cu dreptul penal. Invocarea art. 53 în expunerea de motive nu dovedește că obligația actuală este neconstituțională: trebuie identificat dreptul fundamental restrâns și analizată proporționalitatea măsurii.",
+      "euLawNote": "Textul nu instituie monopoluri și nu restrânge accesul la profesii reglementate; Directiva (UE) 2018/958 privind testul de proporționalitate nu este incidentă prin simpla modificare a controlului documentelor rutiere. Nici utilizarea bazelor de date de către poliție nu transformă norma într-o reglementare a serviciilor societății informaționale: din text nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Verificările trebuie să respecte regimul aplicabil protecției datelor; articolul nu autorizează acces nelimitat la baze de date.",
       "senatForm": {
-        "articleRef": "Art. 35 alin. (2), teza a doua",
-        "proposalContent": "Obligația de a avea asupra sa și de a prezenta un document este îndeplinită dacă existența și valabilitatea acestuia pot fi verificate în bazele de date oficiale, pe care polițistul rutier este obligat să le consulte. Indisponibilitatea tehnică temporară nu atrage sancționarea pentru lipsa documentului dacă existența și valabilitatea sa la control se confirmă ulterior.",
-        "argumentation": "Textul trebuie să acopere și obligația de a avea documentele asupra persoanei, sancționată de art. 101 alin. (1) pct. 18, nu doar prezentarea lor. Consultarea obligatorie și protecția în caz de defecțiune tehnică împiedică aplicarea diferită a facilității și transferarea riscului informatic asupra cetățeanului.",
-        "otherComments": "Propun înlocuirea numai a tezei a doua. Sunt necesare corelarea expresă a art. 101 alin. (1) pct. 18 și art. 108 alin. (1) lit. c) pct. 2, adaptarea art. 147 pct. 1 din regulament și o procedură cu termen pentru confirmarea ulterioară. Solicit preluarea de către un deputat; e-mailul cetățeanului nu este, prin el însuși, amendament parlamentar."
-      }
+        "articleRef": "Art. unic — art. 35 alin. (2), teza a II-a",
+        "proposalContent": "Polițistul rutier verifică, cu prioritate, datele în bazele de date oficiale. Dacă acestea confirmă existența și valabilitatea documentului la momentul controlului, inclusiv prin verificare ulterioară în cazul unei indisponibilități tehnice, obligațiile de a avea asupra sa și de a prezenta documentul se consideră îndeplinite.",
+        "argumentation": "Textul trebuie să acopere atât prezentarea, cât și obligația de a avea documentul asupra persoanei. Altfel, sancțiunea poate supraviețui simplificării. Verificarea prioritară și confirmarea ulterioară evită transferarea riscului unei defecțiuni informatice asupra cetățeanului, fără a proteja lipsa unui document valabil.",
+        "otherComments": "Sunt necesare corelări cu art. 101 alin. (1) pct. 18 din OUG nr. 195/2002 și art. 147 pct. 1 din regulament. Propunerea privește forma Senatului. Dacă adoptarea finală s-a încheiat, acest formular nu mai poate produce un amendament în procedura parlamentară încheiată."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T08:08:28.712Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T14:33:41.717Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

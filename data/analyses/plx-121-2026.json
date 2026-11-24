@@ -2,124 +2,180 @@
   "billId": "PL-x 121/2026",
   "slug": "plx-121-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T06:44:44.209Z",
+  "updatedAt": "2026-11-24T15:30:38.920Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 2566,
+    "ordinanceChars": 0,
+    "memoChars": 8899,
+    "memoSupplied": 8899,
+    "marker": "SF-1F458505"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-121-2026.json",
+    "form": "senat",
+    "textHash": "1f458505b67116f8",
+    "fetchedAt": "2026-11-19T11:20:37.098Z",
+    "acts": 2,
+    "actsFound": 2,
+    "actsRepealed": 0,
+    "articlesFound": 2,
+    "articlesShown": 2,
+    "articleCap": 8000,
+    "articlesCut": 1,
+    "chars": 10572,
+    "truncated": false,
+    "included": true,
+    "key": "a031053e6c0f41cd"
+  },
   "consensus": {
-    "riskScore": 3.3,
+    "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "PFA-urile își pot scădea din impozit ochelarii și abonamentele medicale",
-    "summaryTlDr": "Intenția e corectă și costul e mic: independenții impuși în sistem real își pot deduce ochelarii (max. 500 lei/an) și asigurarea sau abonamentul medical (max. 400 euro/an). Art. II e însă scris neglijent: promite o „decontare” a ochelarilor fără să spună cine plătește, din ce buget și după ce procedură.",
-    "initiatorClaim": "Inițiatorii spun că PFA-urile, întreprinderile individuale și formele similare sunt dezavantajate față de salariați, care primesc ochelarii decontați și au facilități pentru abonamente medicale. Vor să elimine această „discriminare fiscală”, cu un cost estimat de circa 9 milioane lei/an.",
-    "realityCheck": "Art. I introduce la art. 68 din Codul fiscal o deducere pentru ochelari sau lentile (max. 500 lei/an) și pentru prime de asigurare voluntară de sănătate și abonamente medicale (max. 400 euro/an). Art. 68 privește însă venitul net determinat în sistem real, așa că independenții impuși la normă de venit nu câștigă nimic. Art. II „extinde” decontarea ochelarilor din OUG 53/2024, un act de salarizare a bugetarilor, la persoane care nu au angajator. Fără plătitor și procedură, norma e fie inaplicabilă, fie o sursă de dublă compensare. În plus, deducerea poate reduce și baza CASS, deci costul real e mai mare decât cel din expunere.",
+    "plainTitle": "PFA-urile și întreprinderile individuale își pot deduce ochelarii și abonamentele medicale",
+    "summaryTlDr": "Partea din Codul fiscal este o facilitate modestă și în general benignă pentru independenți. Partea care modifică OUG 53/2024 este însă incoerentă juridic: extinde la independenți o „decontare” fără să spună cine plătește și din ce bani.",
+    "initiatorClaim": "Inițiatorii spun că elimină o discriminare fiscală: salariații primesc ochelari decontați și facilități pentru asigurări de sănătate, iar PFA-urile și întreprinderile individuale nu. Impactul bugetar estimat de ei este de circa 9 milioane lei pe an.",
+    "realityCheck": "Art. I permite celor care își determină venitul în sistem real să scadă din venitul impozabil până la 500 lei pe an pentru ochelari și până la 400 euro pe an pentru asigurări voluntare de sănătate și abonamente medicale, deși sunt cheltuieli personale. Contribuabilii la normă de venit nu câștigă nimic, pentru că nu deduc cheltuieli. Art. II spune că decontarea ochelarilor prevăzută la art. V din OUG 53/2024, care este o obligație a autorităților publice față de propriii angajați, „se aplică și” independenților. Independenții nu au un angajator public, așa că norma nu are un plătitor identificabil și deschide riscul unei duble finanțări a aceleiași cheltuieli.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. II (art. V alin. 2¹ din OUG 53/2024)",
-      "proposalContent": "Se elimină Art. II. Pentru lucrătorii independenți, facilitatea privind ochelarii rămâne exclusiv deducerea fiscală introdusă prin Art. I la art. 68 alin. (4³)–(4⁵) din Codul fiscal. Corelativ, Art. III devine: „Prezenta lege intră în vigoare la 1 ianuarie 2027, iar prevederile art. I se aplică veniturilor realizate începând cu anul 2027.”",
-      "argumentation": "Art. II nu spune cine decontează ochelarii unui PFA, care nu are angajator, din ce buget și după ce procedură: normă neclară (art. 1 alin. 5 din Constituție) și risc de cheltuială fără sursă (art. 138 alin. 5). OUG 53/2024 reglementează salarizarea bugetarilor, nu fiscalitatea independenților. Deducerea din Art. I atinge deja scopul și evită dubla compensare.",
-      "otherComments": "Alin. (4⁵): scrieți „echivalentul în lei a 400 euro” și precizați cursul BNR folosit. Alin. (4⁴): definiți „alte forme juridice echivalente” (includ profesiile liberale?). Expunerea greșește calculul: 15.000 × 2.000 lei × 10% = 3 mil. lei, nu 1,5 mil.; lipsesc efectul asupra CASS și fișa financiară. Corectați „pct. 4.” și „dispositive”."
+      "articleRef": "Art. II (OUG 53/2024, art. V alin. (2¹))",
+      "proposalContent": "Eliminarea Art. II. La Art. I, alin. (4³) se completează: „…plătite de contribuabil pentru sine, în limitele de la alin. (4⁵); suma în euro se transformă la cursul mediu anual BNR. Deducerea nu se cumulează cu alte deduceri sau decontări pentru aceeași cheltuială.”",
+      "argumentation": "Art. V din OUG 53/2024 obligă autoritățile publice să deconteze ochelarii propriilor lucrători. Un independent nu are angajator: textul nu spune cine plătește și din ce buget (art. 138 alin. 5 Constituție), iar cumulat cu deducerea din Art. I ar finanța de două ori aceeași cheltuială. Egalitatea urmărită e deja asigurată corect prin deducerea fiscală.",
+      "otherComments": "Verificați suprapunerea cu eventuale deduceri existente în art. 68 alin. (5) pentru prime de asigurare de sănătate (400 euro). Data de 01.01.2027 încalcă regula de 6 luni din art. 4 Cod fiscal. Clarificați „alte forme juridice echivalente”. Corectați „dispositive” și numerotarea „4.”."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "status": "ok",
-      "durationMs": 67221,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "Deducerea ochelarilor de vedere (până la 500 lei/an) pentru PFA și lucrători independenți",
-      "verdictShort": "O măsură fiscală benignă și binevenită în principiu, dar redactată neglijent: confundă „deducerea din venit” a unui PFA cu „decontarea de către angajatorul bugetar” și prezintă ca noutate deducerea de 400 euro/an pentru abonamente medicale, care există deja în Codul fiscal.",
-      "initiatorClaim": "Inițiatorii susțin că elimină discriminarea fiscală dintre salariați și lucrătorii independenți (PFA, întreprinderi individuale), acordându-le dreptul de a-și deconta/deduce ochelarii de vedere în limita a 500 lei/an și abonamentele sau asigurările medicale în limita a 400 euro/an.",
-      "realityCheck": "În practică, pentru ochelarii de 500 lei/an, un PFA nu primește 500 lei înapoi de la stat, ci își scade suma din venitul impozabil, economisind efectiv maximum 50 lei/an la impozitul pe venit (10%). Mai mult, deducerea de 400 euro/an pentru asigurări voluntare de sănătate și abonamente medicale există deja în Codul fiscal la art. 68 alin. (5) lit. f), iar modificarea OUG nr. 53/2024 creează o confuzie juridică între decontarea plătită de o instituție publică angajaților săi și deducerea fiscală a unui liber-profesionist.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 105749,
+      "sourceEndMarker": "SF-1F458505",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Deducere pentru ochelari la PFA, dar cu articole contradictorii și fără plătitor",
+      "verdictShort": "Intenția proiectului este pozitivă pentru lucrătorii independenți, dar redactarea — trecută tacit prin Senat — conține defecte juridice majore: introduce o „decontare” neaplicabilă fără plătitor și dublează o deducere de 400 euro care există deja în Codul fiscal. În forma actuală, legea riscă blocaje la ANAF sau neconstituționalitate la CCR.",
+      "initiatorClaim": "Inițiatorii susțin că elimină discriminarea fiscală dintre salariați și lucrătorii independenți (PFA, II și forme echivalente), permițându-le deducerea a 500 lei/an pentru ochelari/lentile de vedere și 400 euro/an pentru asigurări sau abonamente medicale, precum și extinderea decontării din OUG 53/2024.",
+      "realityCheck": "În realitate, plafonul de 400 euro/an pentru asigurări voluntare și abonamente medicale există deja în Codul fiscal (art. 68 alin. 5 lit. h), deci Art. I creează un paralelism legislativ și folosește sintagma neclară „alte forme juridice echivalente”, cu risc de excludere a profesiilor liberale (PFI) și IF. Mai grav, Art. II extinde „decontarea” ochelarilor din OUG 53/2024 (destinată angajatorilor publici) la independenți, dar aceștia nu au angajator public și legea nu spune cine ar trebui să le plătească cei 500 lei.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I (art. 68 alin. 4³ - 4⁵ Cod fiscal): Introduce deductibilitatea cheltuielilor cu ochelarii sau lentilele de vedere în limita a 500 lei/an/persoană pentru activități independente, dar dublează inutil prevederea privind plafonul de 400 euro/an pentru asigurări voluntare de sănătate și abonamente medicale, care figurează deja la art. 68 alin. (5) lit. f) din Codul fiscal.",
-        "Art. I (art. 68 alin. 4⁴ Cod fiscal): Limitează textul la „persoanele fizice autorizate, întreprinderile individuale și alte forme juridice echivalente”, o formulare preluată din legislația Registrului Comerțului (OUG nr. 44/2008) care poate genera dispute cu ANAF privind aplicabilitatea pentru profesiile liberale (avocați, medici, experți contabili, arhitecți, notari).",
-        "Art. II (completarea art. V din OUG nr. 53/2024): Conține un nonsens juridic și erori materiale (numerotare direct cu pct. „4.” și ortografierea „dispositive”), extinzând „decontarea” din sectorul bugetar la lucrătorii independenți, deși un PFA nu are angajator care să îi deconteze ochelarii și nici nu i se pot aplica procedurile interne ale instituțiilor publice.",
-        "Art. III: Stabilește intrarea în vigoare la 1 ianuarie 2027, respectând termenul de predictibilitate fiscală prevăzut de art. 4 din Codul fiscal."
+        "Art. II (art. V alin. 2¹ din OUG 53/2024) confundă deducerea fiscală (economie de ~50 lei impozit) cu decontarea directă (500 lei primiți de la angajatorul public): nu desemnează nicio instituție plătitoare și nici o sursă de buget, transformând norma fie într-un drept inaplicabil, fie într-o cheltuială neacoperită de ~75 mil. lei/an (de 10 ori peste estimarea de 7,5 mil. lei din Expunerea de motive).",
+        "Art. I (art. 68 alin. 4³–4⁵ Codul fiscal) introduce ca „noutate” deducerea de 400 euro/an/persoană pentru prime de asigurare voluntară și abonamente medicale, deși aceasta există deja la art. 68 alin. (5) lit. h) din Codul fiscal, încălcând interdicția paralelismului legislativ (art. 16 din Legea 24/2000), omițând regula de conversie în lei și amplasând deduceri plafonate în afara alin. (5).",
+        "Art. I (art. 68 alin. 4⁴) limitează beneficiarii la „PFA, întreprinderi individuale și alte forme juridice echivalente” — formulare nedefinită în Codul fiscal, care creează incertitudine la controalele ANAF privind profesiile liberale (PFI/cabinete individuale) și întreprinderile familiale (IF), în condițiile în care art. 68 vizează exclusiv impozitarea în sistem real (nu și norma de venit).",
+        "Adoptat tacit de Senat (art. 75 alin. 2 teza a III-a din Constituție), textul păstrează erori evidente de tehnică legislativă: Art. II începe direct cu punctul „4.” (fără pct. 1–3), conține greșeala de redactare „dispositive”, are titlu necorelat („modificarea și completarea” OUG 53/2024, deși doar o completează) și lipsește fișa financiară prevăzută de art. 15 din Legea 500/2002."
       ],
-      "blindSpotsCaught": "Proiectul a trecut tacit de Senat cu trei erori de tehnică legislativă evidente: (1) paralelism legislativ prin rescrierea deducerii de 400 euro/an care există deja în art. 68 alin. (5) lit. f) din Codul fiscal; (2) confuzia între mecanismul „decontării” de către angajator (OUG 53/2024) și cel al „deducerii” din venitul net (Codul fiscal), ceea ce poate bloca deducerea la PFA-uri dacă ANAF cere îndeplinirea condițiilor de medicina muncii specifice instituțiilor publice; (3) numerotarea greșită a punctului unic din Art. II ca „4.” și greșeala de tipar „dispositive”.",
-      "constitutionalityNote": "Scopul legii este constituțional și urmărește egalitatea de tratament fiscal (art. 16 și art. 56 din Constituție). Totuși, paralelismul legislativ din Art. I și contradicția conceptuală din Art. II („decontare” în aceleași condiții ca la bugetari pentru persoane fără angajator) afectează exigențele de claritate și previzibilitate a normei juridice consacrate de art. 1 alin. (5) din Constituție, raportate la art. 16 din Legea nr. 24/2000.",
-      "euLawNote": "Proiectul nu încalcă dreptul UE, nu instituie bariere pe piața unică (Directiva 2018/958) și nu necesită notificare TRIS (Directiva 2015/1535). Inițiatorii invocă indirect logica jurisprudenței CJUE (Cauza C-392/21 privind Directiva 90/270/CEE referitoare la lucrul la monitor), însă respectiva directivă vizează obligația angajatorilor față de lucrători (salariați), pentru independenți instrumentul adecvat fiind strict deducerea fiscală.",
+      "blindSpotsCaught": "Capcana centrală este suprapunerea necorelată dintre două mecanisme complet diferite: la Art. I, ochelarii se deduc „în scopul personal al contribuabilului” până la 500 lei/an fără condiția muncii la monitor sau a examenului oftalmologic, în timp ce la Art. II se face trimitere la „decontarea” din OUG 53/2024 (care cere muncă obișnuită la ecran, examen oftalmologic și un angajator public plătitor). În plus, dublarea textului privind cei 400 euro creează ambiguitate dacă plafonul s-ar putea interpreta cumulativ cu art. 68 alin. (5) lit. h).",
+      "constitutionalityNote": "Vulnerabilitate serioasă pe art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii), din cauza „decontării” fără plătitor din Art. II, a paralelismului cu art. 68 alin. (5) lit. h) din Codul fiscal și a sintagmei neclare „alte forme juridice echivalente” (cu potențial impact și pe art. 16 — egalitatea în drepturi față de PFI/IF). De asemenea, există risc pe art. 138 alin. (5) și art. 111 alin. (1), întrucât inițiatorii recunosc lipsa fișei financiare și nu indică sursa de finanțare, critic mai ales dacă Art. II implică decontări directe din bani publici.",
+      "euLawNote": "OUG 53/2024 art. V transpune obligația angajatorului din Directiva 90/270/CEE (munca la monitor) interpretată de CJUE în cauza C-392/21 (TJ c. IGI), care vizează raporturi angajator–salariat; extinderea sa mecanică la lucrători independenți este juridic incoerentă. În schimb, o deducere fiscală clară și nediscriminatorie în Codul fiscal ține de competența națională în fiscalitatea directă și este compatibilă cu piața unică. Directivele (UE) 2018/958 (proporționalitate) și 2015/1535 (TRIS) nu sunt incidente.",
       "senatForm": {
-        "articleRef": "Art. I și eliminarea Art. II din proiect",
-        "proposalContent": "La art. 68 alin. (5) din Codul fiscal se introduce o nouă literă: „cheltuielile pentru achiziția de ochelari de vedere sau lentile de vedere, plătite în scopul personal al contribuabilului, indiferent dacă activitatea se desfășoară individual sau într-o formă de asociere, în limita a 500 lei anual/persoană.” Art. II privind OUG nr. 53/2024 se elimină.",
-        "argumentation": "Abonamentele și asigurările medicale în limita a 400 euro/an sunt deja deductibile la art. 68 alin. (5) lit. f) din Codul fiscal; dublarea lor la alin. (4³) încalcă art. 16 din Legea 24/2000. De asemenea, OUG 53/2024 vizează decontarea de către angajatorii bugetari, iar un PFA nu are angajator care să îi deconteze ochelarii, ci își deduce cheltuiala din venitul net.",
-        "otherComments": "Formularea „PFA, întreprinderi individuale și alte forme juridice echivalente” de la alin. (4⁴) riscă să genereze interpretări restrictive la controlul ANAF față de profesiile liberale (avocați, medici, contabili, arhitecți). Folosirea formulării standard de la art. 68 alin. (5) asigură aplicarea clară pentru toți contribuabilii impuși în sistem real."
-      }
+        "articleRef": "Art. I (pct. 1) și eliminarea Art. II",
+        "proposalContent": "Eliminarea Art. II (OUG 53/2024). La Art. I, introducerea deducerii de 500 lei/an pentru ochelari sau lentile de vedere direct la art. 68 alin. (5) din Codul fiscal, pentru toți contribuabilii cu activități independente în sistem real (PFA, II, IF, PFI), cu eliminarea dublării plafonului de 400 euro deja prevăzut la alin. (5) lit. h).",
+        "argumentation": "Art. II extinde „decontarea” bugetară din OUG 53/2024 la independenți fără a desemna plătitorul sau sursa de finanțare (risc CCR pe art. 1 alin. 5 și art. 138 alin. 5). La Art. I, deducerea de 400 euro există deja la art. 68 alin. (5) lit. h), iar „alte forme juridice echivalente” e ambiguă și poate exclude PFI/IF.",
+        "otherComments": "Proiectul a trecut tacit de Senat cu erori de redactare (pct. „4.” la Art. II, „dispositive”, titlu necorelat) și fără fișa financiară (art. 15 din Legea 500/2002). Recomandăm clarificarea documentelor justificative (factură și, eventual, prescripție oftalmologică) pentru a evita interpretări abuzive la controalele ANAF."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "ok",
-      "durationMs": 170939,
-      "riskScore": 3,
-      "riskLevel": "green",
-      "plainTitle": "PFA-urile își pot scădea din impozit ochelarii și abonamentele medicale",
-      "verdictShort": "Intenția e corectă și costul e mic: independenții impuși în sistem real își pot deduce ochelarii (max. 500 lei/an) și asigurarea sau abonamentul medical (max. 400 euro/an). Art. II e însă scris neglijent: promite o „decontare” a ochelarilor fără să spună cine plătește, din ce buget și după ce procedură.",
-      "initiatorClaim": "Inițiatorii spun că PFA-urile, întreprinderile individuale și formele similare sunt dezavantajate față de salariați, care primesc ochelarii decontați și au facilități pentru abonamente medicale. Vor să elimine această „discriminare fiscală”, cu un cost estimat de circa 9 milioane lei/an.",
-      "realityCheck": "Art. I introduce la art. 68 din Codul fiscal o deducere pentru ochelari sau lentile (max. 500 lei/an) și pentru prime de asigurare voluntară de sănătate și abonamente medicale (max. 400 euro/an). Art. 68 privește însă venitul net determinat în sistem real, așa că independenții impuși la normă de venit nu câștigă nimic. Art. II „extinde” decontarea ochelarilor din OUG 53/2024, un act de salarizare a bugetarilor, la persoane care nu au angajator. Fără plătitor și procedură, norma e fie inaplicabilă, fie o sursă de dublă compensare. În plus, deducerea poate reduce și baza CASS, deci costul real e mai mare decât cel din expunere.",
+      "durationMs": 52357,
+      "sourceEndMarker": "SF-1F458505",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "PFA-urile și întreprinderile individuale își pot deduce ochelarii și abonamentele medicale",
+      "verdictShort": "Partea din Codul fiscal este o facilitate modestă și în general benignă pentru independenți. Partea care modifică OUG 53/2024 este însă incoerentă juridic: extinde la independenți o „decontare” fără să spună cine plătește și din ce bani.",
+      "initiatorClaim": "Inițiatorii spun că elimină o discriminare fiscală: salariații primesc ochelari decontați și facilități pentru asigurări de sănătate, iar PFA-urile și întreprinderile individuale nu. Impactul bugetar estimat de ei este de circa 9 milioane lei pe an.",
+      "realityCheck": "Art. I permite celor care își determină venitul în sistem real să scadă din venitul impozabil până la 500 lei pe an pentru ochelari și până la 400 euro pe an pentru asigurări voluntare de sănătate și abonamente medicale, deși sunt cheltuieli personale. Contribuabilii la normă de venit nu câștigă nimic, pentru că nu deduc cheltuieli. Art. II spune că decontarea ochelarilor prevăzută la art. V din OUG 53/2024, care este o obligație a autorităților publice față de propriii angajați, „se aplică și” independenților. Independenții nu au un angajator public, așa că norma nu are un plătitor identificabil și deschide riscul unei duble finanțări a aceleiași cheltuieli.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I pct. 1 (art. 68 alin. 4³ și 4⁵ din Codul fiscal) permite deducerea a max. 500 lei/an pentru ochelari sau lentile și a max. 400 euro/an pentru prime de asigurare voluntară de sănătate și abonamente medicale, plătite în scop personal. Câștigul efectiv e modest: la ochelari, circa 50 lei/an din impozitul de 10%, plus eventual 50 lei din CASS.",
-        "Beneficiul există doar în sistem real. Art. 68 reglementează venitul net calculat din venituri minus cheltuieli. PFA-urile și II-urile impuse la normă de venit nu deduc nicio cheltuială, deci inegalitatea invocată în expunere se corectează doar parțial.",
-        "Art. I, alin. (4⁴) definește beneficiarii drept „persoanele fizice autorizate, întreprinderile individuale și alte forme juridice echivalente, conform reglementărilor fiscale în vigoare”. Codul fiscal nu definește „forme echivalente”. Nu e clar dacă intră profesiile liberale (avocați, medici, experți contabili) sau întreprinderile familiale, deși și ele obțin venituri din activități independente.",
-        "Art. II (art. V alin. 2¹ din OUG 53/2024) aplică decontarea ochelarilor și independenților, „în aceleași condiții” ca pentru lucrătorii din instituțiile publice. La bugetari plătește instituția angajatoare. Pentru un PFA, legea nu spune cine decontează, din ce fond și pe ce procedură. Dacă norma ar fi aplicată, aceiași ochelari ar putea fi și deduși (Art. I), și decontați (Art. II).",
-        "Expunerea de motive conține o greșeală de calcul: 15.000 persoane × 2.000 lei × 10% înseamnă 3.000.000 lei/an, nu 1.500.000 lei. Costul declarat ar fi deci circa 10,5 mil. lei/an, nu 9 mil. Estimarea ia în calcul doar impozitul pe venit și ignoră scăderea CASS (bani pentru FNUASS). Nu există fișă financiară.",
-        "Formularea „în scopul personal al contribuabilului” și plafonul de 400 euro reiau tiparul deducerilor limitate din art. 68 alin. (5). Comisiile ar trebui să verifice dacă partea despre asigurări și abonamente medicale nu dublează o facilitate deja în vigoare. Dacă o dublează, noutatea reală se reduce la ochelari.",
-        "Erori de tehnică legislativă: în Art. II singurul punct e numerotat „4.”, apare „dispositive” în loc de „dispozitive”, iar plafonul de 400 euro nu are regulă de conversie în lei (curs BNR de la ce dată)."
+        "Art. I, alin. (4³) introduce o excepție de la principiul din art. 68 alin. (1) Cod fiscal, după care sunt deductibile doar cheltuielile „efectuate în scopul realizării de venituri”. Aici sunt deductibile cheltuieli „plătite în scopul personal al contribuabilului”. Este o alegere de politică fiscală legitimă, dar trebuie asumată explicit.",
+        "Art. I, alin. (4⁴) desemnează drept beneficiari „persoanele fizice autorizate, întreprinderile individuale și alte forme juridice echivalente”. Formula „alte forme echivalente” este vagă: nu e clar dacă include profesiile liberale (avocați, medici, notari) sau asocierile fără personalitate juridică. Contribuabilul pentru impozitul pe venit este oricum persoana fizică, nu forma de organizare.",
+        "Art. I, alin. (4⁵) nu precizează cursul de schimb pentru plafonul de 400 euro. Formula „/persoană” lasă neclar dacă pot fi incluși și membrii familiei, deși alin. (4³) vorbește de scopul personal al contribuabilului.",
+        "Art. II modifică art. V din OUG 53/2024. Acel articol obligă autoritățile și instituțiile publice să deconteze, în aplicarea Legii nr. 319/2006, ochelarii lucrătorilor care folosesc ecrane, pe bază de examen oftalmologic. Extinderea „în aceleași condiții” la independenți nu indică cine decontează, din ce buget, după ce procedură și prin ce normă de aplicare.",
+        "Cumulul dintre Art. I (deducere pentru ochelari) și Art. II (decontare pentru ochelari) nu este exclus, deci aceeași cheltuială de 500 lei ar putea fi recuperată de două ori.",
+        "Estimarea bugetară din expunerea de motive ia în calcul doar impozitul de 10%. Pentru independenți, venitul net este și baza de calcul pentru CASS, deci impactul real este mai mare. Art. II nu are deloc o estimare de cost.",
+        "Probleme de redactare: punctul din Art. II este numerotat „4.” deși e singurul, apare forma greșită „dispositive”, iar trimiterea „conform reglementărilor fiscale în vigoare” nu are conținut normativ."
       ],
-      "blindSpotsCaught": "(1) Art. III fixează intrarea în vigoare la 01.01.2027, dar nu spune de la ce venituri se aplică deducerea. Cum ea operează „la determinarea venitului net anual”, unii contribuabili ar putea încerca s-o folosească deja în Declarația unică depusă în 2027 pentru veniturile din 2026. Codul fiscal cere și ca modificările să fie adoptate, de regulă, cu 6 luni înainte de intrarea în vigoare (art. 4), termen pe care proiectul aflat încă la comisii nu-l mai poate respecta. (2) Art. II folosește un act de salarizare a personalului bugetar ca să acorde un drept unor persoane fără angajator, deci „decontarea” rămâne fără plătitor. (3) Senatul nu a dezbătut textul: l-a adoptat tacit (art. 75 alin. 2 teza a III-a), cu greșelile de numerotare și ortografie cu tot. Camera decizională e singurul filtru real.",
-      "constitutionalityNote": "Pe fond nu sunt probleme: o deducere fiscală mică, menită să apropie tratamentul independenților de cel al salariaților, ține de marja de apreciere a legiuitorului și e compatibilă cu art. 16 și art. 56 alin. (2). Legea nu instituie sancțiuni, deci art. 23 alin. (12) nu e incident. Riscurile sunt procedurale și de redactare: (a) inițiativa reduce veniturile bugetare, deci solicitarea informării Guvernului e obligatorie (art. 111 alin. 1 teza a II-a); CCR a declarat neconstituționale legi adoptate fără această informare. (b) Dacă Art. II e citit ca obligație a statului de a deconta ochelari, creează o cheltuială fără sursă de finanțare (art. 138 alin. 5). (c) Sintagma „alte forme juridice echivalente”, lipsa regulii de conversie euro–lei și lipsa unui plătitor la Art. II slăbesc claritatea și previzibilitatea cerute de art. 1 alin. (5). Adoptarea tacită la Senat e constituțională.",
-      "euLawNote": "Directiva (UE) 2018/958 nu e incidentă: legea nu introduce condiții de acces la o profesie reglementată sau de exercitare a ei. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică, fiindcă nu sunt reglementate produse, servicii ale societății informaționale sau AI. Impozitarea directă a persoanelor fizice ține de competența națională. Pe ajutor de stat, deducerea e generală pentru toți independenții în sistem real, de valoare foarte mică per beneficiar și pentru cheltuieli personale. Chiar dacă ar fi considerată selectivă, ar rămâne mult sub plafonul de minimis din Regulamentul (UE) 2023/2831. Nu se văd efecte asupra concurenței sau a pieței unice.",
+      "blindSpotsCaught": "Partea din art. 68 Cod fiscal furnizată aici este trunchiată. Trebuie verificat dacă art. 68 alin. (5) mai conține vreo deducere în limita a 400 euro pentru prime de asigurare voluntară de sănătate sau abonamente medicale. Dacă da, alin. (4⁴)–(4⁵) dublează sau contrazic norma existentă. Intrarea în vigoare la 01.01.2027 pune o problemă separată: art. 4 Cod fiscal cere ca modificările să intre în vigoare cu cel puțin 6 luni înainte de aplicare, regulă deja încălcată la data de azi (24.11.2026), proiectul fiind încă la comisiile Camerei. Mai trebuie observat că Senatul nu a dezbătut textul: l-a adoptat tacit, conform art. 75 alin. (2) din Constituție, astfel că erorile din forma inițială au rămas necorectate.",
+      "constitutionalityNote": "Art. II ridică o problemă reală de constituționalitate. Instituie o cheltuială publică (decontarea) fără să indice sursa de finanțare, ceea ce contravine art. 138 alin. (5). Dacă lipsește punctul de vedere al Guvernului, cerut de art. 111 alin. (1) și art. 15 din Legea nr. 500/2002, Curtea Constituțională a sancționat constant asemenea legi. Lipsa plătitorului și a procedurii afectează și claritatea și previzibilitatea normei, protejate de art. 1 alin. (5). Art. I este în principiu constituțional: legiuitorul are o marjă largă în politica fiscală, iar argumentul egalității (art. 16) poate fi susținut. Formulările vagi din alin. (4⁴) și lipsa cursului de schimb pot genera totuși aplicare neunitară.",
+      "euLawNote": "Proiectul nu reglementează profesii, deci Directiva (UE) 2018/958 nu este relevantă. Nu vizează servicii ale societății informaționale, deci notificarea TRIS conform Directivei (UE) 2015/1535 nu este necesară. Riscul de ajutor de stat este redus: deducerea privește impozitul pe venitul persoanelor fizice, cu plafoane mici și criterii generale. Nu am identificat obstacole pentru piața unică. Deductibilitatea asigurărilor de sănătate ar trebui să nu discrimineze asigurătorii din alte state membre, iar textul nu face o asemenea distincție.",
       "senatForm": {
-        "articleRef": "Art. II (art. V alin. 2¹ din OUG 53/2024)",
-        "proposalContent": "Se elimină Art. II. Pentru lucrătorii independenți, facilitatea privind ochelarii rămâne exclusiv deducerea fiscală introdusă prin Art. I la art. 68 alin. (4³)–(4⁵) din Codul fiscal. Corelativ, Art. III devine: „Prezenta lege intră în vigoare la 1 ianuarie 2027, iar prevederile art. I se aplică veniturilor realizate începând cu anul 2027.”",
-        "argumentation": "Art. II nu spune cine decontează ochelarii unui PFA, care nu are angajator, din ce buget și după ce procedură: normă neclară (art. 1 alin. 5 din Constituție) și risc de cheltuială fără sursă (art. 138 alin. 5). OUG 53/2024 reglementează salarizarea bugetarilor, nu fiscalitatea independenților. Deducerea din Art. I atinge deja scopul și evită dubla compensare.",
-        "otherComments": "Alin. (4⁵): scrieți „echivalentul în lei a 400 euro” și precizați cursul BNR folosit. Alin. (4⁴): definiți „alte forme juridice echivalente” (includ profesiile liberale?). Expunerea greșește calculul: 15.000 × 2.000 lei × 10% = 3 mil. lei, nu 1,5 mil.; lipsesc efectul asupra CASS și fișa financiară. Corectați „pct. 4.” și „dispositive”."
-      }
+        "articleRef": "Art. II (OUG 53/2024, art. V alin. (2¹))",
+        "proposalContent": "Eliminarea Art. II. La Art. I, alin. (4³) se completează: „…plătite de contribuabil pentru sine, în limitele de la alin. (4⁵); suma în euro se transformă la cursul mediu anual BNR. Deducerea nu se cumulează cu alte deduceri sau decontări pentru aceeași cheltuială.”",
+        "argumentation": "Art. V din OUG 53/2024 obligă autoritățile publice să deconteze ochelarii propriilor lucrători. Un independent nu are angajator: textul nu spune cine plătește și din ce buget (art. 138 alin. 5 Constituție), iar cumulat cu deducerea din Art. I ar finanța de două ori aceeași cheltuială. Egalitatea urmărită e deja asigurată corect prin deducerea fiscală.",
+        "otherComments": "Verificați suprapunerea cu eventuale deduceri existente în art. 68 alin. (5) pentru prime de asigurare de sănătate (400 euro). Data de 01.01.2027 încalcă regula de 6 luni din art. 4 Cod fiscal. Clarificați „alte forme juridice echivalente”. Corectați „dispositive” și numerotarea „4.”."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "status": "ok",
-      "durationMs": 133375,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Ochelari deductibili pentru independenți, dar decontare fără plătitor clar",
-      "verdictShort": "Facilitatea pentru ochelari este utilă și modestă, însă textul confundă deducerea fiscală cu rambursarea cheltuielilor și dublează o facilitate medicală existentă. Riscul moderat provine din neclarități de aplicare și finanțare, fără taxe, monopoluri sau sancțiuni noi.",
-      "initiatorClaim": "Inițiatorii urmăresc egalizarea tratamentului fiscal dintre salariați și lucrătorii independenți pentru ochelari, asigurări voluntare de sănătate și abonamente medicale. Expunerea de motive promite și extinderea decontării ochelarilor către independenți.",
-      "realityCheck": "Art. I introduce deducerea cheltuielilor personale pentru ochelari sau lentile în limita a 500 lei anual, prin mecanismul venitului net determinat în sistem real; aceasta nu produce aceeași reducere pentru contribuabilii impozitați la normă de venit. Facilitatea medicală de 400 euro există deja la art. 68 alin. (5) lit. h), astfel încât completarea creează un paralelism, fără să stabilească expres un plafon suplimentar. Art. II declară aplicabilă decontarea și independenților, dar nu identifică instituția care plătește, bugetul și procedura: deducerea fiscală nu rezolvă aceste lipsuri. [Reglementarea facilității medicale din 2018](https://legislatie.just.ro/Public/DetaliiDocument/198921).",
+      "durationMs": 79531,
+      "sourceEndMarker": "SF-1F458505",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Deducerea ochelarilor pentru persoanele cu activități independente",
+      "verdictShort": "Proiectul introduce o facilitate fiscală modestă și utilă pentru ochelari. Necesită însă corectarea unei suprapuneri fiscale și clarificarea decontării, pentru care nu stabilește cine plătește.",
+      "initiatorClaim": "Inițiatorii urmăresc apropierea tratamentului fiscal al lucrătorilor independenți de cel al salariaților, prin deducerea cheltuielilor pentru ochelari, asigurări voluntare de sănătate și abonamente medicale. Ei prezintă separat extinderea decontării dispozitivelor speciale de corecție a vederii.",
+      "realityCheck": "Art. I permite deducerea cheltuielilor personale pentru ochelari sau lentile în limita a 500 lei anual, în cadrul determinării venitului net în sistem real: aceasta reduce baza fiscală, fără să reprezinte rambursarea integrală a cumpărăturii. Deducerea de 400 euro pentru asigurări voluntare de sănătate și abonamente medicale este deja reglementată la art. 68 alin. (5) lit. h), astfel încât proiectul trebuie corelat cu facilitatea existentă. Art. II declară extinderea decontării către independenți, dar nu identifică plătitorul, sursa banilor sau procedura aplicabilă acestora.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Contabili & Fiscalitate",
         "Sănătate & Educație"
       ],
       "keyFindings": [
-        "Art. I, alin. (4³) și (4⁵) propuse: 500 lei reprezintă cheltuiala deductibilă, nu suma restituită. La o cotă de impozit de 10%, efectul direct asupra impozitului este de cel mult 50 lei, dacă deducerea reduce integral baza impozabilă; eventualele efecte asupra contribuțiilor necesită calcul separat.",
-        "Art. I repetă deducerea medicală de 400 euro deja prevăzută la art. 68 alin. (5) lit. h). Nu rezultă automat un drept la două deduceri pentru aceeași cheltuială; normele trebuie unificate pentru a evita interpretările divergente. Paralelismele sunt interzise de art. 16 din Legea nr. 24/2000. [Normele de tehnică legislativă](https://legislatie.just.ro/public/detaliidocument/21698).",
-        "Art. I, alin. (4⁴) propus: expresia «alte forme juridice echivalente» nu identifică precis beneficiarii, inclusiv profesiile liberale și activitatea în asociere. Întreprinderea individuală este o formă de organizare; deducerea trebuie raportată clar la persoana fizică și la regimul său fiscal.",
-        "Art. II importă condițiile unei obligații a angajatorilor publici într-o relație fără angajator public identificat. Regimul existent privește utilizarea semnificativă a ecranelor și necesitatea unor dispozitive speciale constatată oftalmologic, nu orice achiziție de ochelari. [Art. V din OUG nr. 53/2024](https://legislatie.just.ro/Public/DetaliiDocument/283237).",
-        "Estimarea de 9 milioane lei anual din expunerea de motive nu este un impact incremental demonstrat: componenta medicală privește o deducere existentă, iar eventuala rambursare din art. II nu este evaluată distinct. Trebuie analizate și contribuțiile sociale, eligibilitatea efectivă și documentele justificative; proiectul nu introduce expres raportări periodice noi.",
-        "Art. III fixează intrarea în vigoare la 1 ianuarie 2027. Adoptarea tacită de către Senat este o procedură constituțională, dar nu confirmă calitatea juridică a soluțiilor; Camera Deputaților poate corecta aceste probleme. [Fișa proiectului](https://www.cdep.ro/ords/pls/proiecte/upl_pck.proiect?cam=2&idp=22770)."
+        "Art. I: noutatea fiscală principală este deducerea expresă a ochelarilor sau lentilelor cumpărate în scop personal, până la 500 lei/an/persoană. La o cotă de impozit de 10%, deducerea integrală poate însemna o economie de 50 lei la impozitul pe venit, dacă există bază impozabilă suficientă.",
+        "Art. I: plafonul de 400 euro privește împreună asigurările voluntare de sănătate și abonamentele medicale. Suprapunerea cu art. 68 alin. (5) lit. h) nu justifică automat o deducere cumulată de 800 euro; legiuitorul trebuie să prevină interpretările divergente.",
+        "Art. I: intervenția în art. 68 operează pentru veniturile determinate în sistem real. Nu acordă automat aceeași reducere persoanelor impozitate la normă de venit, iar sintagma «alte forme juridice echivalente» trebuie să clarifice includerea profesiilor liberale și a activităților exercitate în asociere.",
+        "Art. II: în prezent, autoritățile și instituțiile publice decontează propriilor lucrători dispozitive speciale necesare pentru lucrul la ecran, în condițiile examinării oftalmologice. Proiectul extinde textual beneficiarii, dar nu creează un mecanism prin care o persoană independentă să solicite efectiv plata.",
+        "Plafoanele celor două mecanisme nu sunt identice: Art. I prevede expres 500 lei anual pentru ochelari sau lentile, în timp ce art. V alin. (1) din OUG nr. 53/2024 menționează 500 lei/persoană, fără periodicitate anuală expresă în acel alineat. Decontarea păstrează condițiile privind lucrul la ecran și necesitatea dispozitivului special.",
+        "Expunerea de motive conține o eroare aritmetică: 15.000 × 2.000 lei × 10% înseamnă 3.000.000 lei/an, nu 1.500.000. În plus, existența deducerii medicale actuale împiedică tratarea întregii sume drept impact bugetar suplimentar al proiectului.",
+        "Art. III stabilește intrarea în vigoare la 1 ianuarie 2027. Textul nu conține alte derogări, abrogări sau dispoziții tranzitorii care să rezolve suprapunerea deducerilor ori organizarea decontării."
       ],
-      "blindSpotsCaught": "Plafonul anual de 500 lei din art. I nu trebuie confundat cu plafonul de 500 lei/persoană din art. V alin. (1) al OUG nr. 53/2024, care nu este formulat acolo ca plafon anual. În plus, deducerea pentru ochelari din art. I nu cere expres utilizarea ecranelor sau constatarea necesității unor dispozitive speciale, în timp ce art. II trimite la aceste condiții: cele două mecanisme au sfere diferite. Termenul pentru amendamente, 12 martie 2026, este deja depășit la data analizei; formularul rămâne o sugestie cetățenească a cărei preluare depinde de procedura parlamentară.",
-      "constitutionalityNote": "Există vulnerabilități de claritate și previzibilitate prin raportare la art. 1 alin. (5): beneficiari insuficient definiți, paralelism fiscal și decontare fără mecanism identificabil. Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident, deoarece proiectul nu instituie pedepse. Art. 16 și art. 56 alin. (2) permit evaluarea egalității și echității fiscale, dar diferențele dintre salariați, independenți în sistem real și contribuabili la normă nu constituie automat discriminare. Impactul bugetar impune verificarea solicitării informării Guvernului potrivit art. 111 alin. (1); dacă art. II instituie plăți din fonduri publice, trebuie stabilită sursa conform art. 138 alin. (5). Materialele furnizate nu demonstrează că aceste obligații procedurale au fost încălcate. Estimările inițiatorilor nu înlocuiesc fișa financiară cerută de art. 15 din Legea nr. 500/2002. [Legea finanțelor publice](https://legislatie.just.ro/Public/DetaliiDocument/268788), [CCR, Decizia nr. 764/2016](https://legislatie.just.ro/Public/DetaliiDocument/186425).",
-      "euLawNote": "Nu sunt introduse exclusivități pentru furnizori, condiții de naționalitate sau bariere de acces pe piață; efectul concurențial direct pare redus. Directiva (UE) 2018/958 nu impune aici testul special de proporționalitate: proiectul nu restrânge accesul la o profesie reglementată ori exercitarea acesteia. [Art. 2 din Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32018L0958). Nu identific o obligație TRIS pentru textul analizat: acesta nu reglementează explicit servicii digitale/AI și nu introduce specificații tehnice pentru produse; simpla motivare prin munca digitală nu activează notificarea. Caracterul fiscal nu exclude însă, în general, TRIS atunci când o facilitate este legată de respectarea unor specificații tehnice. [Art. 1 din Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1591780802624&uri=CELEX%3A32015L1535).",
+      "blindSpotsCaught": "Extrasul Codului fiscal omite tocmai alin. (5), unde este reglementată deducerea medicală existentă; omisiunea din extras nu înseamnă absența facilității. În plus, art. V alin. (3) din OUG nr. 53/2024 autorizează norme pentru alin. (1) și (2), iar proiectul nu actualizează această trimitere pentru noul alin. (2¹). Formula «în aceleași condiții» nu identifică o instituție obligată să plătească independenților și nu permite presupunerea că ANAF ar avea această obligație.",
+      "constitutionalityNote": "Principala vulnerabilitate privește claritatea și previzibilitatea, potrivit art. 1 alin. (5) din Constituție: beneficiarii formulați vag, deducerea medicală paralelă și decontarea fără plătitor pot produce practici administrative diferite. Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident, deoarece proiectul nu instituie pedepse. Egalitatea prevăzută de art. 16 nu impune mecanisme identice pentru salariați și independenți, dar diferențele dintre beneficiarii aflați în situații comparabile trebuie justificate. Dacă Art. II presupune cheltuieli publice suplimentare, trebuie stabilită sursa de finanțare conform art. 138 alin. (5); modificarea veniturilor sau cheltuielilor bugetare impune solicitarea informării Guvernului potrivit art. 111 alin. (1). Documentele furnizate nu permit constatarea îndeplinirii sau încălcării acestei obligații procedurale. Adoptarea tacită la Senat nu dovedește singură un viciu de constituționalitate.",
+      "euLawNote": "Proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora, astfel încât testul specific Directivei (UE) 2018/958 nu este declanșat de măsurile prezentate. Nu instituie reglementări tehnice pentru produse ori reguli privind servicii ale societății informaționale, deci nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535; simpla referire la lucrul la ecran nu este suficientă. Nu apar monopoluri sau furnizori privilegiați. Regimul european privind protecția lucrătorilor care utilizează ecrane, inclusiv Directiva 90/270/CEE, nu transformă automat persoana independentă într-un beneficiar al unei plăți din bugetul unei instituții publice.",
       "senatForm": {
-        "articleRef": "Art. II – art. V alin. (2¹) din OUG nr. 53/2024",
+        "articleRef": "Art. II",
         "proposalContent": "Articolul II se elimină.",
-        "argumentation": "Extinderea decontării către independenți nu identifică plătitorul, sursa de finanțare și procedura. Trimiterea la regulile aplicabile instituțiilor publice nu rezolvă aceste lipsuri. Deducerea fiscală din art. I poate fi reglementată autonom, fără a promite o rambursare neclară.",
-        "otherComments": "La art. I, păstrați numai deducerea nouă pentru ochelari/lentile, corelată cu art. 68 alin. (5). Plafonul medical de 400 euro există deja la lit. h). Definiți beneficiarii prin veniturile independente determinate în sistem real, inclusiv profesiile liberale și asocierile. Solicitați fișa financiară actualizată."
-      }
+        "argumentation": "Extinderea decontării nu identifică instituția plătitoare, sursa de finanțare și procedura pentru persoanele independente. Trimiterea la condițiile aplicabile personalului instituțiilor publice nu rezolvă aceste lipsuri. Deducerea fiscală pentru ochelari rămâne reglementată prin art. I.",
+        "otherComments": "La art. I trebuie corelate noile alineate cu art. 68 alin. (5) lit. h), pentru un singur plafon medical de 400 euro, și clarificați beneficiarii. Analiza folosește documentele furnizate și cadrul legal cunoscut; verificarea online independentă nu a fost disponibilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "analyzedAt": "2026-10-29T06:44:44.209Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:30:38.920Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

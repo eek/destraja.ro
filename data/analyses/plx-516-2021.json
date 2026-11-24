@@ -2,93 +2,184 @@
   "billId": "PL-x 516/2021",
   "slug": "plx-516-2021",
   "version": "senat",
-  "updatedAt": "2026-11-12T09:44:21.762Z",
+  "updatedAt": "2026-11-24T15:32:14.931Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "senat",
+    "billChars": 3455,
+    "ordinanceChars": 0,
+    "memoChars": 5421,
+    "memoSupplied": 5421,
+    "marker": "SF-F2BEA3C1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-516-2021.json",
+    "form": "senat",
+    "textHash": "f2bea3c14b3d3eed",
+    "fetchedAt": "2026-11-19T10:50:34.391Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 5,
+    "articlesShown": 5,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 6041,
+    "truncated": false,
+    "included": true,
+    "key": "039a02eb656b1966"
+  },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Executarea silită a instituțiilor statului: termene scurtate pe hârtie, dar cu capcane procedurale pentru creditori",
-    "summaryTlDr": "Intenția de a scurta de la 6 luni la 3 luni (2+1 luni) termenul în care statul își poate amâna plata datoriilor din hotărâri judecătorești este pozitivă, însă redactarea neglijentă introduce un termen prealabil de 2 luni fără dată de început certă și confuzii procedurale care pot bloca executarea în instanță.",
-    "initiatorClaim": "Inițiatorii susțin că vor să urgenteze plata datoriilor statului stabilite prin hotărâri judecătorești definitive (în acord cu cerințele Consiliului Europei), reducând termenul de grație de la 6 luni la 1 lună de la somație și obligând instituțiile să prezinte lista bunurilor urmăribile.",
-    "realityCheck": "În realitate, deși scurtează termenul de grație de după somație de la 6 luni la o lună și scutește creditorul de taxa de timbru pentru încuviințarea executării, proiectul introduce la art. 1 alin. (3) și art. 1¹ o etapă prealabilă de 2 luni înainte de executarea silită, fără să spună de când curge acest termen. În plus, instituțiile publice își păstrează scutirea totală de taxe de timbru și de cauțiune pentru orice contestație la executare, iar obligația de a prezenta lista bunurilor urmăribile nu are termen-limită și nici sancțiune.",
+    "plainTitle": "Statul trebuie să plătească mai repede datoriile stabilite de instanță",
+    "summaryTlDr": "Lege utilă, în favoarea cetățenilor și firmelor care au de primit bani de la stat: termenul de grație al instituției scade de la 6 luni la o lună și prescripția nu mai curge în acest timp. Riscul vine din redactare: un termen fără punct de plecare și trimiteri neclare la „art.(1)”, care pot fi folosite de instituții ca să tergiverseze plata.",
+    "initiatorClaim": "Inițiatorii vor să rezolve neexecutarea de către stat a hotărârilor judecătorești, problemă semnalată de Comitetul de Miniștri al Consiliului Europei în martie 2021. Propun termene scurte și clare, executare silită după Codul de procedură civilă și obligația instituției de a-și declara bunurile urmăribile.",
+    "realityCheck": "Efectul principal este la art.2: termenul în care instituția fără fonduri poate amâna plata după somație scade de la 6 luni la o lună, iar prescripția dreptului de a cere executarea silită se suspendă. Art.1 alin.(3) și art.1^1 introduc un termen de 2 luni care nu spune de când curge și trimit la „art.(1)”, fără să precizeze articolul sau alineatul, deci creditorul nu poate calcula sigur când poate cere executarea. Lista bunurilor urmăribile (art.3 alin.2) nu are termen și nici sancțiune, iar executarea rămâne limitată la sumele bugetate pentru acest scop (art.1 alin.2 în vigoare rămâne neschimbat).",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "IMM & Antreprenori",
+      "Angajați & HR",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. unic pct. 1-4 (art. 1-3 din OG nr. 22/2002)",
-      "proposalContent": "La art. 1 alin. (3), termenul de 2 luni curge de la comunicarea titlului executoriu și suspendă prescripția. La art. 2 alin. (2), termenul de o lună suspendă executarea silită, nu prescripția (deja întreruptă prin cererea de executare). La art. 3 alin. (2), lista bunurilor urmăribile se comunică în maximum 15 zile de conducătorul instituției debitoare, sub sancțiunea amenzii judiciare.",
-      "argumentation": "Forma adoptată tacit de Senat nu precizează de când curge termenul de 2 luni din art. 1 alin. (3), blocând încuviințarea executării silite (art. 1¹). De asemenea, art. 2 alin. (2) confundă suspendarea executării după somație cu suspendarea prescripției (care se întrerupe la depunerea cererii, cf. art. 709 CPC), iar art. 3 alin. (2) nu prevede niciun termen pentru lista bunurilor.",
-      "otherComments": "Se impune și corectarea normelor de tehnică legislativă: înlocuirea trimiterii eronate „art.(1)” din art. 1¹ cu „art. 1 alin. (3)”, includerea tuturor titlurilor de cheltuieli compatibile la art. 1¹ alin. (2) și obligarea ordonatorului de credite al instituției debitoare (nu doar a celui principal) să comunice bunurile urmăribile."
+      "articleRef": "Art.unic pct.1 și 2 (art.1 alin.3 și art.1^1)",
+      "proposalContent": "Art.1 alin.(3): „Instituția debitoare este obligată ca, în termen de 2 luni de la data comunicării titlului executoriu, să facă demersurile necesare pentru a-și îndeplini obligația de plată.” La art.1^1 alin.(1), „art.(1)” se înlocuiește cu „art.1 alin.(3)”, iar la alin.(2) cu „art.1 alin.(1) și (2)”.",
+      "argumentation": "Fără moment de început, termenul de 2 luni nu poate fi calculat, iar creditorul și executorul nu știu când se poate cere executarea silită (art.1^1). Trimiterea la „art.(1)” nu indică articolul sau alineatul vizat. Textul încalcă cerința de claritate și previzibilitate (art.1 alin.5 Constituție) și normele de tehnică legislativă din Legea 24/2000.",
+      "otherComments": "Propun și: la art.2 alin.(2), precizarea că prescripția e suspendată pe durata termenului de o lună; la art.3 alin.(2), un termen de 15 zile pentru prezentarea listei bunurilor, cu mențiunea că bunurile domeniului public nu sunt urmăribile. Pentru scutirea de taxă de timbru (venituri ale bugetelor locale) e necesară o fișă financiară."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "durationMs": 85901,
-      "riskScore": 4,
-      "riskLevel": "yellow",
-      "plainTitle": "Executarea silită a instituțiilor statului: termene scurtate pe hârtie, dar cu capcane procedurale pentru creditori",
-      "verdictShort": "Intenția de a scurta de la 6 luni la 3 luni (2+1 luni) termenul în care statul își poate amâna plata datoriilor din hotărâri judecătorești este pozitivă, însă redactarea neglijentă introduce un termen prealabil de 2 luni fără dată de început certă și confuzii procedurale care pot bloca executarea în instanță.",
-      "initiatorClaim": "Inițiatorii susțin că vor să urgenteze plata datoriilor statului stabilite prin hotărâri judecătorești definitive (în acord cu cerințele Consiliului Europei), reducând termenul de grație de la 6 luni la 1 lună de la somație și obligând instituțiile să prezinte lista bunurilor urmăribile.",
-      "realityCheck": "În realitate, deși scurtează termenul de grație de după somație de la 6 luni la o lună și scutește creditorul de taxa de timbru pentru încuviințarea executării, proiectul introduce la art. 1 alin. (3) și art. 1¹ o etapă prealabilă de 2 luni înainte de executarea silită, fără să spună de când curge acest termen. În plus, instituțiile publice își păstrează scutirea totală de taxe de timbru și de cauțiune pentru orice contestație la executare, iar obligația de a prezenta lista bunurilor urmăribile nu are termen-limită și nici sancțiune.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 91281,
+      "sourceEndMarker": "SF-F2BEA3C1",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Recuperare mai rapidă a banilor de la instituțiile statului, dar cu termene redactate neclar",
+      "verdictShort": "Un proiect în esență pozitiv pentru cetățeni și firme, care scurtează de la 6 luni la 1 lună blocajul executării silite după somație și elimină taxa de timbru la încuviințare. Totuși, adoptarea tacită la Senat a lăsat scăpări procedurale serioase (în special lipsa datei de început a noului termen de 2 luni) ce trebuie corectate la Camera Deputaților.",
+      "initiatorClaim": "Inițiatorii susțin că modificările accelerează executarea hotărârilor judecătorești împotriva statului (în acord cu solicitările Comitetului de Miniștri al Consiliului Europei), stabilesc termene scurte și previzibile și obligă instituțiile să își declare bunurile urmăribile.",
+      "realityCheck": "În legea actuală (OG 22/2002), instituția are un termen de grație de 6 luni de la somația executorului dacă nu are fonduri. Proiectul introduce un termen prealabil de 2 luni pentru plata voluntară, dar reduce termenul post-somație de la 6 luni la 1 lună (total 3 luni în loc de 6), scutește creditorul de taxa de timbru pentru încuviințarea executării și obligă instituția să indice bunurile urmăribile. Problema este că nu precizează de când curg cele 2 luni, nu sancționează refuzul prezentării listei de bunuri și lasă intacte protecțiile existente ale statului (imunitatea fondurilor de funcționare și scutirea de cauțiune).",
       "affectedGroups": [
         "Justiție & Drepturi Civile",
         "IMM & Antreprenori",
+        "Angajați & HR",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Termen de 2 luni fără dată de început (Art. 1 alin. 3 și Art. 1¹ alin. 1): Instituția debitoare are la dispoziție 2 luni pentru a face demersurile de plată înainte ca neîndeplinirea obligației să poată determina executarea silită, dar legea omite complet să precizeze momentul de la care curg cele 2 luni (pronunțarea hotărârii, comunicarea ei sau o notificare a creditorului).",
-        "Confuzie între suspendarea prescripției și suspendarea executării (Art. 2 alin. 2): Textul prevede că termenul de o lună de la primirea somației de plată „suspendă cursul prescripției dreptului de a obține executarea silită”, deși somația se emite abia după ce cererea de executare a fost depusă și încuviințată (moment la care prescripția a fost deja întreruptă conform art. 709 din Codul de procedură civilă), în timp ce pe durata primelor 2 luni din art. 1 alin. (3) prescripția nu este suspendată.",
-        "Obligație fără termen și blocaj ierarhic (Art. 3 alin. 2): Obligația instituției debitoare de a prezenta executorului lista bunurilor și veniturilor urmăribile este pusă exclusiv în sarcina „ordonatorului principal de credite bugetare” (de exemplu, ministrul pentru o instituție subordonată din teritoriu) și nu prevede niciun termen de comunicare sau sancțiune în caz de refuz.",
-        "Măsură pozitivă, dar asimetrică privind taxele judiciare (Art. 7): Creditorii sunt scutiți de taxa de timbru de 20 lei pentru cererea de încuviințare a executării silite (alin. 2), însă instituțiile debitoare rămân scutite atât de orice taxă de timbru, cât și de plata cauțiunii (alin. 1) atunci când formulează contestații la executare și cereri de suspendare."
+        "Reducere reală a amânării executării (art. 2): termenul acordat instituției publice fără fonduri, după primirea somației de plată, scade de la 6 luni (în prezent) la o lună, facilitând continuarea mai rapidă a executării silite.",
+        "Termen nou fără punct de pornire (art. 1 alin. 3 și art. 1¹): proiectul impune instituției un termen de 2 luni pentru demersurile de plată înainte de executarea silită, dar omite să spună de la ce dată curge acest termen (comunicarea hotărârii, rămânerea definitivă sau notificarea creditorului), creând risc de blocaj prin contestații la executare.",
+        "Obligație de transparență fără sancțiune și scutire parțială de taxe (art. 3 alin. 2 și art. 7 alin. 2): instituția, prin ordonatorul principal de credite, trebuie să predea executorului lista bunurilor și veniturilor urmăribile (dar fără termen-limită și fără sancțiune expresă), iar cererile creditorilor de încuviințare a executării devin scutite de taxa judiciară de timbru."
       ],
-      "blindSpotsCaught": "Proiectul conține erori de tehnică legislativă și de corelare cu Codul de procedură civilă: face trimitere la un inexistent „art.(1)” în loc de „art. 1”, restrânge la art. 1¹ alin. (2) urmărirea inițială doar la sumele bugetate expres cu destinația creanței (omițând teza a II-a din art. 1 alin. 1 privind titlurile generale de cheltuieli la care se încadrează obligația) și lasă creditorul descoperit în fața excepției de prematuritate a executării silite din cauza lipsei unui moment cert de debut al termenului de 2 luni.",
-      "constitutionalityNote": "Lipsa stabilirii momentului de la care curge termenul de 2 luni prevăzut la art. 1 alin. (3), coroborată cu condiționarea declanșării executării silite de împlinirea acestui termen (art. 1¹ alin. 1), încalcă standardul de claritate și previzibilitate a legii impus de art. 1 alin. (5) din Constituție și poate afecta accesul liber la justiție și dreptul la un proces echitabil în faza de executare silită (art. 21 din Constituție).",
-      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) sau a Directivei (UE) 2015/1535 TRIS (nu vizează servicii digitale). Din perspectiva CEDO (art. 6 par. 1 și art. 1 din Protocolul nr. 1 – grupul de cauze Săcăleanu c. României supravegheat de Comitetul de Miniștri al Consiliului Europei) și a art. 47 din Carta Drepturilor Fundamentale a UE, scurtarea termenelor este salutară, dar ambiguitățile procedurale riscă să perpetueze întârzierile în executarea hotărârilor contra statului.",
+      "blindSpotsCaught": "Art. 2 alin. (2) introduce suspendarea cursului prescripției pe durata lunii de după somația de plată, deși în acel moment prescripția era deja întreruptă prin cererea de executare silită (art. 709 CPC); în schimb, suspendarea lipsește exact pe durata noului termen prealabil de 2 luni (art. 1 alin. 3), când creditorul riscă să i se prescrie dreptul. În plus, lipsesc normele tranzitorii pentru executările aflate deja în curs, art. 6 alin. (4) rămâne neactualizat („definitivă și irevocabilă”), iar plasarea obligației de raportare a bunurilor la „ordonatorul principal” (ex. ministerul) poate încetini executarea instituțiilor subordonate.",
+      "constitutionalityNote": "Scopul proiectului sprijină art. 21 (accesul liber la justiție și dreptul la un proces echitabil), art. 44 (proprietatea privată) și obligațiile asumate prin art. 20 (jurisprudența CEDO în grupul de cauze Săcăleanu c. României). Totuși, art. 1 alin. (3) coroborat cu art. 1¹ alin. (1) prezintă un viciu clar de neconstituționalitate raportat la art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), deoarece nu indică momentul de la care curge termenul de 2 luni ce condiționează declanșarea executării silite. Menținerea art. 1 alin. (2) și art. 7 alin. (1) păstrează asimetria procedurală deja existentă în favoarea instituțiilor publice.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 / TRIS (nu vizează norme tehnice sau servicii digitale/AI). Efectul asupra pieței interne este pozitiv și aliniat cu spiritul Directivei 2011/7/UE privind combaterea întârzierii la plată de către autoritățile publice și cu art. 47 din Carta DFUE (protecție jurisdicțională efectivă), reducând timpul de blocaj pentru furnizorii și creditorii statului.",
       "senatForm": {
-        "articleRef": "Art. unic pct. 1-4 (art. 1-3 din OG nr. 22/2002)",
-        "proposalContent": "La art. 1 alin. (3), termenul de 2 luni curge de la comunicarea titlului executoriu și suspendă prescripția. La art. 2 alin. (2), termenul de o lună suspendă executarea silită, nu prescripția (deja întreruptă prin cererea de executare). La art. 3 alin. (2), lista bunurilor urmăribile se comunică în maximum 15 zile de conducătorul instituției debitoare, sub sancțiunea amenzii judiciare.",
-        "argumentation": "Forma adoptată tacit de Senat nu precizează de când curge termenul de 2 luni din art. 1 alin. (3), blocând încuviințarea executării silite (art. 1¹). De asemenea, art. 2 alin. (2) confundă suspendarea executării după somație cu suspendarea prescripției (care se întrerupe la depunerea cererii, cf. art. 709 CPC), iar art. 3 alin. (2) nu prevede niciun termen pentru lista bunurilor.",
-        "otherComments": "Se impune și corectarea normelor de tehnică legislativă: înlocuirea trimiterii eronate „art.(1)” din art. 1¹ cu „art. 1 alin. (3)”, includerea tuturor titlurilor de cheltuieli compatibile la art. 1¹ alin. (2) și obligarea ordonatorului de credite al instituției debitoare (nu doar a celui principal) să comunice bunurile urmăribile."
+        "articleRef": "Art. unic pct. 1 (art. 1 alin. 3 OG 22/2002)",
+        "proposalContent": "„(3) Instituția debitoare este obligată ca, în termen de 2 luni de la comunicarea titlului executoriu de către instanță sau creditor, să facă demersurile necesare pentru plata creanței. Pe durata acestui termen se suspendă cursul prescripției dreptului de a obține executarea silită.”",
+        "argumentation": "Forma adoptată tacit de Senat nu precizează data de la care curge termenul de 2 luni, încălcând art. 1 alin. (5) din Constituție (claritatea legii) și expunând creditorii la contestații privind prematuritatea executării. Totodată, suspendarea prescripției este utilă tocmai în acest interval anterior executării silite, nu doar după somație.",
+        "otherComments": "Se recomandă și: 1) stabilirea unui termen concret (ex. 10 zile) și a unei sancțiuni (amendă judiciară) pentru obligația de comunicare a listei bunurilor de la art. 3 alin. (2); 2) actualizarea sintagmei „definitivă și irevocabilă” și la art. 6 alin. (4); 3) introducerea unei norme tranzitorii pentru executările în curs și corectarea trimiterii „art.(1)”."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 4946,
-      "error": "You've hit your weekly limit · resets 7pm (Europe/Bucharest)"
+      "durationMs": 49538,
+      "sourceEndMarker": "SF-F2BEA3C1",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul trebuie să plătească mai repede datoriile stabilite de instanță",
+      "verdictShort": "Lege utilă, în favoarea cetățenilor și firmelor care au de primit bani de la stat: termenul de grație al instituției scade de la 6 luni la o lună și prescripția nu mai curge în acest timp. Riscul vine din redactare: un termen fără punct de plecare și trimiteri neclare la „art.(1)”, care pot fi folosite de instituții ca să tergiverseze plata.",
+      "initiatorClaim": "Inițiatorii vor să rezolve neexecutarea de către stat a hotărârilor judecătorești, problemă semnalată de Comitetul de Miniștri al Consiliului Europei în martie 2021. Propun termene scurte și clare, executare silită după Codul de procedură civilă și obligația instituției de a-și declara bunurile urmăribile.",
+      "realityCheck": "Efectul principal este la art.2: termenul în care instituția fără fonduri poate amâna plata după somație scade de la 6 luni la o lună, iar prescripția dreptului de a cere executarea silită se suspendă. Art.1 alin.(3) și art.1^1 introduc un termen de 2 luni care nu spune de când curge și trimit la „art.(1)”, fără să precizeze articolul sau alineatul, deci creditorul nu poate calcula sigur când poate cere executarea. Lista bunurilor urmăribile (art.3 alin.2) nu are termen și nici sancțiune, iar executarea rămâne limitată la sumele bugetate pentru acest scop (art.1 alin.2 în vigoare rămâne neschimbat).",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art.2 modificat: termenul pentru instituția debitoare fără fonduri scade de la 6 luni la o lună de la primirea somației. Aceasta este cea mai importantă schimbare în favoarea creditorilor (inclusiv bugetari cu drepturi salariale câștigate în instanță și furnizori ai statului).",
+        "Art.2 alin.(2) nou: suspendarea prescripției dreptului de a obține executarea silită. Prevederea e utilă, dar formularea e ambiguă: nu reiese clar dacă suspendarea ține pe durata termenului de o lună sau până la plată.",
+        "Art.1 alin.(3) nou: termenul de 2 luni pentru demersurile de plată nu are moment de început (comunicarea titlului? rămânerea definitivă?). Art.1^1 trimite la „art.(1)” și „termenul prevăzut de art.(1)”, deși art.1 alin.(1) nu conține niciun termen. Trimiterea corectă ar fi la art.1 alin.(3).",
+        "Art.1^1 alin.(2): executarea începe prin urmărirea sumelor bugetate cu destinația creanței. Restricția de a nu executa din fondurile de funcționare și personal (art.1 alin.2 în vigoare) rămâne, deci creditorul tot depinde de bugetarea creanței.",
+        "Art.2 nou elimină sintagma „nu începe”: termenul se aplică doar când executarea „nu poate continua”. Formularea e coerentă cu noul art.1^1, după care executarea poate începe după cele 2 luni.",
+        "Art.3 alin.(2): ordonatorul principal de credite trebuie să prezinte lista bunurilor și veniturilor urmăribile, dar fără termen și fără sancțiune. Bunurile din domeniul public rămân oricum neurmăribile.",
+        "Art.6 alin.(2): „definitivă și irevocabilă” devine „definitivă”, aliniere tehnică corectă la noul Cod de procedură civilă.",
+        "Art.7: dispare mențiunea depășită „timbru judiciar”. Alin.(2) nou scutește de taxa de timbru cererile de încuviințare a executării împotriva instituțiilor publice, o reducere de cost pentru creditori și o mică pierdere de venit pentru bugetele locale."
+      ],
+      "blindSpotsCaught": "Proiectul a fost adoptat tacit de Senat (art.75 alin.2 teza a III-a din Constituție), deci textul nu a trecut printr-o dezbatere care să corecteze trimiterile defectuoase la „art.(1)”. Mai sunt trei probleme: termenele de 2 luni (art.1 alin.3) și de o lună (art.2) se suprapun fără o ordine clară, prin inversiune pare că executarea începe înainte de termenul pentru lipsă de fonduri, iar suspendarea prescripției e legată ambiguu fie de termen, fie de somație. Scutirea de taxă de timbru reduce venituri ale bugetelor locale, însă nu apare o fișă financiară (art.111 alin.1 și art.138 alin.5 din Constituție, impact redus). Proiectul așteaptă pe ordinea de zi din 2021.",
+      "constitutionalityNote": "Pe fond, proiectul întărește dreptul la un proces echitabil și executarea hotărârilor într-un termen rezonabil (art.21 alin.3 din Constituție și art.6 CEDO), în linia grupului de cauze Săcăleanu împotriva României aflate sub supravegherea Comitetului de Miniștri. Riscul de neconstituționalitate ține de claritate și previzibilitate (art.1 alin.5): termenul de 2 luni fără moment de început și trimiterile la „art.(1)” fac ca momentul de la care se poate cere executarea silită să nu poată fi stabilit cu certitudine. Lipsa fișei financiare pentru scutirea de taxă e o problemă minoră sub art.111 alin.(1). Nu sunt afectate alte drepturi fundamentale.",
+      "euLawNote": "Proiectul nu reglementează profesii, deci Directiva (UE) 2018/958 nu se aplică. Nu privește servicii ale societății informaționale sau reglementări tehnice, deci nu cere notificare TRIS (Directiva 2015/1535). Plata mai rapidă a datoriilor statului este conformă cu spiritul Directivei 2011/7/UE privind combaterea întârzierii plăților în tranzacțiile comerciale, în care autoritățile publice au termene stricte. Nu afectează concurența sau piața unică.",
+      "senatForm": {
+        "articleRef": "Art.unic pct.1 și 2 (art.1 alin.3 și art.1^1)",
+        "proposalContent": "Art.1 alin.(3): „Instituția debitoare este obligată ca, în termen de 2 luni de la data comunicării titlului executoriu, să facă demersurile necesare pentru a-și îndeplini obligația de plată.” La art.1^1 alin.(1), „art.(1)” se înlocuiește cu „art.1 alin.(3)”, iar la alin.(2) cu „art.1 alin.(1) și (2)”.",
+        "argumentation": "Fără moment de început, termenul de 2 luni nu poate fi calculat, iar creditorul și executorul nu știu când se poate cere executarea silită (art.1^1). Trimiterea la „art.(1)” nu indică articolul sau alineatul vizat. Textul încalcă cerința de claritate și previzibilitate (art.1 alin.5 Constituție) și normele de tehnică legislativă din Legea 24/2000.",
+        "otherComments": "Propun și: la art.2 alin.(2), precizarea că prescripția e suspendată pe durata termenului de o lună; la art.3 alin.(2), un termen de 15 zile pentru prezentarea listei bunurilor, cu mențiunea că bunurile domeniului public nu sunt urmăribile. Pentru scutirea de taxă de timbru (venituri ale bugetelor locale) e necesară o fișă financiară."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 89753,
+      "durationMs": 66957,
+      "sourceEndMarker": "SF-F2BEA3C1",
       "riskScore": 3,
       "riskLevel": "green",
       "plainTitle": "Recuperarea mai rapidă a banilor datorați de instituțiile publice",
-      "verdictShort": "Proiectul este în principal favorabil creditorilor: reduce termenul pentru demersurile instituțiilor fără fonduri și elimină o taxă procedurală. Principala problemă este introducerea unei etape prealabile de două luni, fără precizarea momentului de la care începe.",
-      "initiatorClaim": "Inițiatorii urmăresc executarea mai rapidă a obligațiilor de plată ale instituțiilor publice, protejarea creditorilor împotriva prescripției și identificarea bunurilor urmăribile. Invocă întârzierile repetate în executarea hotărârilor judecătorești.",
-      "realityCheck": "Textul reduce de la șase luni la o lună termenul pentru demersurile necesare plății atunci când executarea nu poate continua din lipsă de fonduri, dar introduce anterior un termen de două luni cu început neprecizat. Ambele termene privesc efectuarea demersurilor, astfel că nu garantează încasarea creanței în trei luni. Proiectul impune prezentarea bunurilor și veniturilor urmăribile la solicitarea executorului și scutește de taxă cererile de încuviințare împotriva instituțiilor publice, fără să instituie taxe, monopoluri sau sancțiuni noi.",
+      "verdictShort": "Proiectul este predominant favorabil creditorilor: reduce termenul pentru demersurile de plată în lipsa fondurilor și elimină o taxă judiciară. Principala problemă este termenul inițial de două luni, care nu are un moment de început și poate deveni o nouă perioadă obligatorie de așteptare.",
+      "initiatorClaim": "Inițiatorii urmăresc executarea mai rapidă și previzibilă a obligațiilor de plată ale instituțiilor publice. Ei propun termene mai scurte, identificarea bunurilor urmăribile și protejarea creditorilor împotriva prescripției.",
+      "realityCheck": "Termenul actual de șase luni pentru demersurile necesare plății în lipsa fondurilor devine o lună, dar proiectul introduce și un termen inițial de două luni, fără să precizeze de când curge. Aceste termene privesc efectuarea demersurilor, astfel că proiectul nu garantează încasarea banilor în trei luni. Protecția fondurilor pentru funcționare și personal, precum și posibilitatea acordării judiciare a unor termene de grație, eșalonări și suspendări există deja și se păstrează.",
       "affectedGroups": [
         "IMM & Antreprenori",
         "Justiție & Drepturi Civile",
         "Toți cetățenii"
       ],
       "keyFindings": [
-        "Art. 1 alin. (3) propus nu precizează momentul începerii termenului de două luni. Art. 1¹ alin. (1) condiționează aparent executarea de neplata în acest termen, deși alin. (3) obligă numai la demersuri. Creditorul poate întâmpina astfel o dispută suplimentară privind momentul sesizării executorului.",
-        "Art. 2 reduce termenul pentru lipsa fondurilor la o lună, calculată de la primirea somației, și suspendă prescripția în acest interval. Lipsa fondurilor este condiția aplicării termenului; acesta nu reprezintă o amânare automată pentru orice instituție și nu garantează plata efectivă.",
-        "Art. 3 alin. (2) cere lista bunurilor și veniturilor urmăribile prin ordonatorul principal de credite, fără termen propriu de răspuns. Art. 7 alin. (2) reduce costul procedural al creditorului; impactul bugetar include diminuarea încasărilor din această taxă și accelerarea plății unor datorii existente, fără o cuantificare în documentele furnizate."
+        "Articol unic pct. 1–2: noul art. 1 alin. (3) obligă instituția să facă demersuri în două luni, fără să stabilească momentul inițial. Legarea executării de expirarea acestui termen, prin art. 1¹ alin. (1), poate întârzia inclusiv creditorii instituțiilor care au fonduri disponibile.",
+        "Articol unic pct. 3: art. 2 reduce de la șase luni la o lună termenul aplicabil lipsei fondurilor, calculat de la primirea somației. Noua redactare privește executarea care nu poate continua, în timp ce textul actual acoperă expres și executarea care nu începe.",
+        "Articol unic pct. 3: proiectul prevede expres suspendarea prescripției pe durata termenului de o lună. Nu stabilește o protecție expresă similară pentru cele două luni inițiale; aplicarea regulilor generale trebuie corelată cu eventuala interdicție de a începe executarea.",
+        "Articol unic pct. 2: art. 1¹ alin. (2) orientează urmărirea inițială către sumele bugetate cu destinația creanței. Corelarea cu art. 1 alin. (1), care permite plata și din titlurile de cheltuieli corespunzătoare obligației, trebuie clarificată pentru a evita interpretări restrictive.",
+        "Articol unic pct. 4: instituția debitoare trebuie să prezinte executorului, prin ordonatorul principal de credite, lista bunurilor și veniturilor urmăribile. Aceasta este o obligație expresă adăugată ordonanței; executarea potrivit Codului de procedură civilă era deja permisă.",
+        "Articol unic pct. 5: înlocuirea sintagmei «definitivă și irevocabilă» cu «definitivă» la art. 6 alin. (2) actualizează terminologia. Posibilitatea solicitării unui termen de grație sau a eșalonării există deja; celelalte alineate ale art. 6 rămân aplicabile.",
+        "Articol unic pct. 6: scutirea instituțiilor publice de taxele de timbru și cauțiune există deja. Noutatea relevantă este scutirea cererilor de încuviințare a executării împotriva acestora, care reduce costul procedural suportat de creditor, fără să elimine celelalte cheltuieli de executare.",
+        "Impact economic și administrativ: creditorii, inclusiv IMM-urile, pot recupera mai repede creanțele, iar instituțiile trebuie să organizeze mai rapid finanțarea și identificarea bunurilor. Plata mai rapidă modifică fluxurile bugetare, iar noua scutire poate reduce veniturile din taxe judiciare; materialele furnizate nu cuantifică aceste efecte."
       ],
-      "blindSpotsCaught": "Scutirea instituțiilor publice de taxe și cauțiune din art. 7 alin. (1), precum și posibilitatea solicitării unui termen de grație ori a eșalonării din art. 6 alin. (1), sunt mecanisme preexistente, nu privilegii create acum. Modificarea art. 6 alin. (2) actualizează referirea la hotărârea definitivă. Nici obligația prezentării listei bunurilor nu transformă bunurile legal insesizabile în bunuri urmăribile.",
-      "constitutionalityNote": "Vulnerabilitatea principală privește art. 1 alin. (5) din Constituție: începutul termenului de două luni, raportul dintre demersuri și plata efectivă și succesiunea etapelor trebuie clarificate. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct, deoarece proiectul nu instituie pedepse. Întârzierile nejustificate ale executării pot afecta accesul efectiv la justiție și proprietatea, protejate de art. 21 și 44. Protejarea funcționării instituțiilor poate justifica reguli speciale, însă acestea trebuie să rămână proporționale și să nu permită amânări indefinite; textul furnizat nu justifică o concluzie de neconstituționalitate în ansamblu.",
-      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor asupra profesiilor reglementate; proiectul nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru aceste reguli de executare: textul nu stabilește reglementări tehnice pentru produse sau servicii ale societății informaționale și nu reglementează AI. Nu apar bariere directe de acces pe piață ori avantaje rezervate unor operatori. Pentru creanțele comerciale acoperite de Directiva 2011/7/UE, regulile executării trebuie corelate cu obligațiile privind combaterea întârzierii plăților, fără transformarea termenelor procedurale în noi scadențe contractuale.",
+      "blindSpotsCaught": "Scurtarea termenului de șase luni nu înseamnă automat că fiecare creditor câștigă cinci luni: noua etapă inițială poate introduce o așteptare inclusiv atunci când există bani. Totodată, dispozițiile nemodificate privind fondurile protejate și suspendările judiciare rămân aplicabile. Proiectul nu conține dispoziții tranzitorii proprii; aplicarea în timp trebuie stabilită potrivit regulilor generale.",
+      "constitutionalityNote": "Direcția proiectului sprijină accesul efectiv la justiție și protecția creanțelor, relevante pentru art. 21 și art. 44 din Constituție. Vulnerabilitatea principală privește art. 1 alin. (5): lipsesc începutul termenului de două luni și o corelare clară între etapele executării. Dacă acest termen blochează executarea deși există fonduri, justificarea restrângerii trebuie examinată prin raportare la efectivitatea protecției judiciare. Art. 23 alin. (12) nu este incident, deoarece proiectul nu instituie pedepse penale. Textele furnizate nu susțin constatarea unei neconstituționalități evidente a întregului proiect.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile de acces la profesii reglementate sau de exercitare a acestora; proiectul nu introduce asemenea restricții. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru aceste norme de executare: ele nu stabilesc reglementări tehnice privind produse sau servicii ale societății informaționale. Nu sunt instituite monopoluri ori bariere directe pe piața unică. Pentru creanțele din tranzacții comerciale cu autorități publice este relevantă și Directiva 2011/7/UE privind întârzierile la plată: termenele pentru demersuri nu trebuie interpretate ca înlăturând drepturile creditorilor la dobânzi și despăgubiri aplicabile. Evaluarea se bazează pe materialele furnizate; verificarea externă nu a fost disponibilă.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 1 și 2",
-        "proposalContent": "La articolul unic, punctele 1 și 2 se elimină.",
-        "argumentation": "Termenul prealabil de două luni nu are un moment inițial determinat și poate întârzia sesizarea executorului. Art. 1¹ suprapune reguli ale Codului de procedură civilă și condiționează executarea de un termen destinat numai demersurilor. Eliminarea păstrează mecanismul somației și termenul special de o lună pentru lipsa fondurilor.",
-        "otherComments": "Se păstrează reducerea termenului din art. 2, obligația prezentării bunurilor urmăribile și scutirea cererii de încuviințare. Analiza privește forma Senatului furnizată; verificarea externă a legislației consolidate, jurisprudenței și stadiului parlamentar nu a fost disponibilă în această sesiune."
+        "articleRef": "Articol unic pct. 1–2",
+        "proposalContent": "Art. 1 alin. (3): „În cel mult 2 luni de la comunicarea titlului executoriu, instituția debitoare face demersurile necesare plății.” Art. 1¹ alin. (1): „Creditorul poate cere executarea silită potrivit Codului de procedură civilă, fără a aștepta expirarea termenului prevăzut la art. 1 alin. (3), cu respectarea art. 2.”",
+        "argumentation": "Termenul pentru demersurile administrative trebuie să aibă un început determinabil și să nu blocheze executarea când există fonduri. Modificarea păstrează termenul special pentru lipsa fondurilor și reduce riscul unor interpretări care întârzie nejustificat recuperarea creanței.",
+        "otherComments": "Se recomandă corelarea art. 1¹ alin. (2) cu toate sursele de plată permise de art. 1 alin. (1) și clarificarea protecției prescripției pentru orice interval în care executarea ar fi legal împiedicată. Plata efectivă nu trebuie confundată cu efectuarea demersurilor pentru finanțare."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 3.5,
+      "riskLevel": "green",
+      "analyzedAt": "2026-11-12T09:44:21.762Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "senat",
+      "agyModel": "gemini-4-argon-high",
+      "scores": {
+        "agy": 4,
+        "claude": null,
+        "codex": 3
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:32:14.931Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

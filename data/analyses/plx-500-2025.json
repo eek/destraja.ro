@@ -2,14 +2,41 @@
   "billId": "Pl-x 500/2025",
   "slug": "plx-500-2025",
   "version": "initiator",
-  "updatedAt": "2026-11-18T08:27:31.670Z",
+  "updatedAt": "2026-11-24T15:31:12.598Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 2153,
+    "ordinanceChars": 0,
+    "memoChars": 9249,
+    "memoSupplied": 9249,
+    "marker": "SF-2FC276F2"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/plx-500-2025.json",
+    "form": "initiator",
+    "textHash": "2fc276f27e2de71e",
+    "fetchedAt": "2026-11-19T10:47:13.792Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 0,
+    "articlesShown": 0,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 1098,
+    "truncated": false,
+    "included": true,
+    "key": "f604006604d56645"
+  },
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 6.7,
     "riskLevel": "yellow",
-    "plainTitle": "Imnul și rugăciunea „Tatăl Nostru” la începutul orelor, la decizia directorului",
-    "summaryTlDr": "Imnul național în școală este legitim și neproblematic. Rugăciunea, în schimb, vine cu un mecanism de refuz în scris care îi obligă pe elevi, părinți și profesori să își declare convingerile, iar Curtea Constituțională a respins deja acest tipar în 2014, la ora de religie.",
-    "initiatorClaim": "Inițiatorii spun că vor să întărească identitatea națională și spirituală a elevilor prin momente solemne zilnice. Susțin că participarea opțională la rugăciune garantează libertatea de conștiință și caracterul laic al școlii.",
-    "realityCheck": "Textul nu impune nimic automat: directorul poate decide, singur, ca prima oră să înceapă cu imnul și cu „Tatăl Nostru”, în clasă sau în curte cu toată școala. Imnul rămâne obligatoriu pentru toți. De rugăciune te poți retrage doar printr-o înștiințare scrisă către director, iar asta creează o evidență a celor care refuză și expune copiii presiunii colegilor. Legea nu spune nimic despre rolul părinților și nici cine semnează pentru un preșcolar.",
+    "plainTitle": "Imnul și rugăciunea „Tatăl Nostru” la începutul orelor, dacă decide directorul",
+    "summaryTlDr": "Imnul la început de zi e o măsură simbolică inofensivă. Problema e rugăciunea: copiii, inclusiv cei de grădiniță, sunt înscriși automat, iar cine nu participă trebuie să anunțe în scris directorul. Asta contrazice logica Deciziei CCR nr. 669/2014 și obligă familiile să-și declare convingerile.",
+    "initiatorClaim": "Inițiatorii spun că școala nu mai cultivă identitatea națională și spirituală. Propun momente solemne zilnice, imnul și rugăciunea „Tatăl Nostru”, cu participare opțională la rugăciune, ca respectul pentru libertatea de conștiință să fie păstrat.",
+    "realityCheck": "Articolul 11¹ nu obligă școlile să facă nimic. Lasă la decizia exclusivă a directorului, fără consiliu de administrație și fără părinți, introducerea zilnică a imnului și a unei rugăciuni creștine, în clasă sau în curte cu toată școala. Participarea la rugăciune e implicită: neparticiparea cere o notificare scrisă către director, deci se creează de fapt o evidență a celor care refuză, iar în curte refuzul devine vizibil pentru toată școala. Pentru imn nu există nicio posibilitate de neparticipare, iar textul nu spune cine decide pentru preșcolari și elevii minori.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Justiție & Drepturi Civile",
@@ -18,84 +45,91 @@
     ],
     "senatForm": {
       "articleRef": "Art. 11¹ alin. (1) lit. b) și alin. (3)",
-      "proposalContent": "Se elimină alin. (1) lit. b) și alin. (3). Subsidiar, alin. (3) devine: „Rostirea rugăciunii se poate organiza numai înaintea începerii orelor de curs, exclusiv cu elevii ai căror părinți sau reprezentanți legali, respectiv cu elevii majori, care au solicitat aceasta în scris. Neparticiparea nu se declară și nu se consemnează.”",
-      "argumentation": "Refuzul scris obligă la dezvăluirea convingerilor religioase, contrar art. 29 din Constituție, Deciziei CCR nr. 669/2014 (înscriere, nu retragere) și jurisprudenței CEDO (Papageorgiou c. Greciei, 2019). Textul ignoră rolul părinților (art. 29 alin. 6), deși preșcolarii nu pot formula un refuz scris. Imnul poate rămâne nemodificat.",
-      "otherComments": "Corectați referința: Legea nr. 198/2023 a fost publicată în M.Of. nr. 613 din 5 iulie 2023, nu nr. 83/2013. Fișa Camerei descrie o obligație, textul o facultate a directorului, deci trebuie clarificat. Propun consultarea consiliului de administrație și a părinților înainte de decizie și precizarea dacă momentul intră în durata orei."
+      "proposalContent": "Alin. (3): «Activitatea de la alin. (1) lit. b) se desfășoară înaintea primei ore, numai pentru elevii ai căror părinți ori reprezentanți legali, sau elevul major, au cerut-o în scris. Neparticiparea nu se consemnează și nu atrage nicio consecință; niciun cadru didactic nu e obligat să o conducă.» Alin. (2) nu se aplică lit. b).",
+      "argumentation": "Decizia CCR 669/2014 privind ora de religie a cerut o cerere de înscriere, nu de retragere. A obliga familia să declare în scris refuzul echivalează cu dezvăluirea convingerilor (art. 29 și 16 din Constituție; CEDO, Grzelak c. Poloniei, Alexandridis c. Greciei). Pentru preșcolari și minori decid părinții (art. 29 alin. 6).",
+      "otherComments": "Articolul unic indică greșit publicarea Legii 198/2023: corect este M.Of. nr. 613 din 5 iulie 2023, nu nr. 83/2013. Trebuie precizat din ce oră se scade timpul, cine supraveghează elevii neparticipanți și că decizia directorului se ia cu avizul consiliului de administrație și după consultarea părinților."
     }
   },
   "council": {
     "agy": {
       "model": "agy",
-      "modelId": "gemini-4-hydrogen-high",
-      "durationMs": 47934,
-      "riskScore": 6,
-      "riskLevel": "yellow",
-      "plainTitle": "Imnul național și rugăciunea «Tatăl Nostru» la începutul orelor, la decizia directorului",
-      "verdictShort": "Deși inițiatorii prezintă măsura ca facultativă, textul conține o eroare gravă de tehnică legislativă și instituie un mecanism de refuz scris (opt-out) pentru rugăciune care ridică riscuri constituționale și de protecție a datelor. Lipsesc reguli clare privind supravegherea minorilor neparticipanți și înlocuirea cadrelor didactice.",
-      "initiatorClaim": "Inițiatorii din grupul parlamentar AUR susțin în expunerea de motive că școlile se confruntă cu o diminuare a reperelor identitare și spirituale și că introducerea unui moment solemn opțional la începutul programului va consolida coeziunea socială, respectând totodată libertatea de conștiință.",
-      "realityCheck": "Contrar impresiei din fișa de prezentare, Art. 11¹ alin. (1) nu impune obligatoriu momentul solemn, ci acordă directorului fiecărei școli de stat sau particulare puterea unilaterală de a decide zilnic acest lucru, fără consultarea consiliului de administrație ori a părinților. Totodată, alin. (3) cere elevilor, preșcolarilor și profesorilor să notifice în scris refuzul participării la rugăciune, fără a reglementa cine semnează pentru minori, unde stau copiii neparticipanți sau cum se face concret suplinirea profesorilor.",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 78998,
+      "sourceEndMarker": "SF-2FC276F2",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Imnul și rugăciunea «Tatăl Nostru» zilnic la școală, la decizia directorului, cu refuz în scris",
+      "verdictShort": "Deși proiectul nu impune automat ritualul la nivel național, ci îl lasă la latitudinea fiecărui director, mecanismul de refuz în scris („opt-out”) pentru rugăciunea creștină încalcă frontal libertatea de conștiință (Decizia CCR nr. 669/2014) și colectează date religioase sensibile (art. 9 GDPR). În plus, textul nu prevede cine supraveghează preșcolarii și elevii care nu participă și conține erori grosiere de redactare.",
+      "initiatorClaim": "Inițiatorii susțin că proiectul consolidează identitatea națională și reperele spirituale ale elevilor printr-un cadru flexibil de momente solemne la începutul zilei școlare, respectând libertatea religioasă prin caracterul opțional al rugăciunii.",
+      "realityCheck": "Spre deosebire de rezumatul fișei parlamentare, textul art. 11¹ nu impune automat imnul și rugăciunea în toate școlile, ci dă fiecărui director (de stat sau privat) puterea unilaterală de a le introduce, fără consultarea Consiliului de Administrație sau a părinților. Pentru rugăciunea «Tatăl Nostru», legea instituie un mecanism de refuz scris («opt-out») care forțează elevii, părinții și profesorii să-și expună convingerile religioase în fața conducerii, fără a stabili cine semnează pentru minori, cine supraveghează copiii excluși temporar și cum poate un singur director să înlocuiască simultan mai mulți profesori care refuză.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
         "Angajați & HR"
       ],
       "keyFindings": [
-        "Eroare materială de citare în Articolul unic: Legea nr. 198/2023 a învățământului preuniversitar este indicată ca fiind publicată în Monitorul Oficial nr. 83 din 7 februarie 2013, o imposibilitate cronologică ce afectează claritatea actului normativ.",
-        "Mecanism de refuz scris (opt-out) la Art. 11¹ alin. (3): pentru a nu participa la rugăciunea «Tatăl Nostru», participanții trebuie să informeze în scris directorul, ceea ce obligă persoanele să își exprime poziția față de un act religios, contrar principiului consimțământului prealabil (opt-in).",
-        "Discreție managerială și lacune operaționale la Art. 11¹ alin. (1)-(3): directorul poate decide singur desfășurarea zilnică în clasă sau în curte pentru toate unitățile (inclusiv particulare neconfesionale ori de alte culte), iar obligația de înlocuire a profesorului care refuză nu precizează durata suplinirii sau soluția în lipsă de personal."
+        "Art. 11¹ alin. (3) impune un sistem de «opt-out» (informare scrisă a directorului privind refuzul participării la rugăciune), contravenind direct Deciziei CCR nr. 669/2014, care a stabilit că în școli manifestarea religioasă trebuie să funcționeze pe bază de cerere pozitivă («opt-in»), nu prin obligarea la declararea neapartenenței.",
+        "Art. 11¹ alin. (1)-(2) conferă o putere discreționară unui singur om — directorul unității — de a introduce zilnic o rugăciune specific creștină în clasă sau în curtea școlii, inclusiv în școli particulare, fără avizul Consiliului de Administrație, al părinților sau criterii legale.",
+        "Art. 11¹ alin. (3) creează un vid periculos privind siguranța minorilor (nu precizează unde stau și cine supraveghează preșcolarii și elevii care nu participă la rugăciune) și un blocaj operațional în cazul profesorilor care refuză, obligați să fie înlocuiți de alți colegi sau de director la începutul primei ore.",
+        "Colectarea notificărilor scrise de refuz la rugăciune reprezintă o prelucrare de date cu caracter special (convingeri religioase/filozofice) fără garanții privind confidențialitatea, accesul sau ștergerea, încălcând cerințele art. 9 din GDPR."
       ],
-      "blindSpotsCaught": "Articolul unic citează un număr de Monitor Oficial din anul 2013 pentru o lege adoptată în 2023, iar obligarea la depunerea în scris a refuzului de a participa la rugăciune transformă școlile în operatori de date cu caracter special privind convingerile religioase sau filosofice (Art. 9 GDPR), fără nicio normă de stocare sau confidențialitate.",
-      "constitutionalityNote": "Propunerea ridică obiecții serioase față de Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), din cauza citării eronate a Monitorului Oficial și a neclarității privind reprezentarea minorilor, supravegherea celor care nu participă și suplinirea cadrelor didactice. De asemenea, obligarea la înregistrarea scrisă a refuzului (opt-out) la o rugăciune specific creștină tensionează Art. 29 privind libertatea de conștiință și jurisprudența CCR (Decizia nr. 669/2014), potrivit căreia nimeni nu poate fi constrâns să își declare refuzul față de un act religios, fiind necesar un acord prealabil (opt-in). Aplicarea în toate unitățile particulare fără distincție poate afecta și neutralitatea statului ori autonomia unităților confesionale de alte religii (Art. 16 și Art. 29 alin. 5).",
-      "euLawNote": "Educația ține de competența națională (Art. 165 TFUE), iar proiectul nu intră sub incidența Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și nici a Directivei (UE) 2015/1535 (TRIS). Totuși, colectarea și arhivarea declarațiilor scrise de refuz privind o practică religioasă intră sub incidența Art. 9 din Regulamentul (UE) 2016/679 (GDPR) privind prelucrarea datelor sensibile și trebuie raportată la Art. 10 (libertatea de conștiință) și Art. 14 alin. (3) (dreptul părinților privind educația conform convingerilor) din Carta Drepturilor Fundamentale a UE.",
+      "blindSpotsCaught": "Proiectul conține o eroare flagrantă de tehnică legislativă chiar în Articolul unic: citează Legea nr. 198/2023 ca fiind publicată în «Monitorul Oficial nr. 83 din 7 februarie 2013» (cu 10 ani înainte de adoptare; în realitate a fost publicată în M.Of. nr. 613/5 iulie 2023), iar formula de atestare lasă necercetat caracterul organic al legii («art. 76 alin. (1) sau, după caz, alin. (2)»). De asemenea, lipsește complet reglementarea reprezentării legale a minorilor la depunerea refuzului scris, precum și orice garanție GDPR pentru aceste registre implicite de convingeri religioase.",
+      "constitutionalityNote": "Risc ridicat de neconstituționalitate pe art. 29 (libertatea conștiinței) și art. 26 (viața privată), prin raportare directă la Decizia CCR nr. 669/2014: obligarea elevilor, părinților și cadrelor didactice să depună o informare scrisă de refuz pentru a nu participa la o rugăciune creștină într-o instituție publică îi constrânge să-și dezvăluie convingerile religioase în fața autorității și favorizează stigmatizarea și discriminarea (art. 16). Proiectul încalcă și art. 1 alin. (5) privind calitatea și previzibilitatea legii, prin lipsa regulilor privind supravegherea minorilor neparticipanți, cine exercită refuzul pentru preșcolari/elevi, criteriile deciziei directorului și citarea eronată a actului normativ modificat.",
+      "euLawNote": "Proiectul intră în coliziune cu art. 9 din Regulamentul (UE) 2016/679 (GDPR), deoarece notificările scrise de refuz al rugăciunii dezvăluie direct sau indirect convingerile religioase ori filozofice ale elevilor, părinților și angajaților, fără un cadru legal adecvat de garanții (scop limitat, acces restricționat, durată de stocare). Directiva (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate) și Directiva (UE) 2015/1535 (TRIS) nu sunt incidente; nu există bariere directe pentru piața unică, însă autonomia organizațională a școlilor private confesionale sau laice depinde de decizia directorului.",
       "senatForm": {
-        "articleRef": "Art. 11¹ alin. (1)-(3) din Legea 198/2023",
-        "proposalContent": "Înlocuirea mecanismului de refuz scris de la alin. (3) cu participarea exclusiv pe bază de acord prealabil (opt-in) al părinților/elevilor majori și al cadrelor didactice, cu reglementarea supravegherii elevilor neparticipanți și a aprobării de către consiliul de administrație. Corectarea erorii de citare a M.Of. din Articolul unic.",
-        "argumentation": "Potrivit Art. 29 din Constituție și Deciziei CCR nr. 669/2014, obligarea la depunerea unui refuz scris (opt-out) față de un act religios afectează libertatea de conștiință, fiind necesar acordul prealabil (opt-in). În plus, înregistrarea refuzului generează prelucrări de date sensibile (Art. 9 GDPR), iar Articolul unic citează eronat M.Of. din 2013.",
-        "otherComments": "Textul nu clarifică cine semnează refuzul în numele preșcolarilor și elevilor minori, unde stau aceștia în timpul momentului solemn, cum este asigurată suplinirea cadrelor didactice la prima oră și nici cum se aplică măsura în unitățile particulare confesionale de altă religie sau în școlile internaționale."
+        "articleRef": "Articol unic, pct. 1 (Art. 11¹)",
+        "proposalContent": "Se elimină art. 11¹ (respingerea propunerii legislative). Alternativ, eliminarea lit. b) privind rugăciunea și a alin. (3), iar desfășurarea eventualelor momente solemne civice (intonarea imnului) să se decidă doar de Consiliul de Administrație al școlii, cu consultarea părinților și elevilor.",
+        "argumentation": "Refuzul scris (opt-out) la rugăciune încalcă art. 29 din Constituție și Decizia CCR nr. 669/2014, forțând elevii, părinții și profesorii să-și declare convingerile religioase. Textul ignoră supravegherea minorilor care nu participă, generează riscuri de stigmatizare și prelucrează date sensibile (art. 9 GDPR) fără garanții legale.",
+        "otherComments": "Proiectul are și erori grave de tehnică legislativă: citează greșit publicarea Legii nr. 198/2023 în M.Of. nr. 83/2013 (în realitate nr. 613/2023), nu precizează cine semnează refuzul pentru minori și creează blocaje logistice prin înlocuirea simultană a cadrelor didactice care refuză de către un singur director."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "claude": {
       "model": "claude",
-      "durationMs": 62869,
-      "riskScore": 5,
+      "durationMs": 57870,
+      "sourceEndMarker": "SF-2FC276F2",
+      "riskScore": 6,
       "riskLevel": "yellow",
-      "plainTitle": "Imnul și rugăciunea „Tatăl Nostru” la începutul orelor, la decizia directorului",
-      "verdictShort": "Imnul național în școală este legitim și neproblematic. Rugăciunea, în schimb, vine cu un mecanism de refuz în scris care îi obligă pe elevi, părinți și profesori să își declare convingerile, iar Curtea Constituțională a respins deja acest tipar în 2014, la ora de religie.",
-      "initiatorClaim": "Inițiatorii spun că vor să întărească identitatea națională și spirituală a elevilor prin momente solemne zilnice. Susțin că participarea opțională la rugăciune garantează libertatea de conștiință și caracterul laic al școlii.",
-      "realityCheck": "Textul nu impune nimic automat: directorul poate decide, singur, ca prima oră să înceapă cu imnul și cu „Tatăl Nostru”, în clasă sau în curte cu toată școala. Imnul rămâne obligatoriu pentru toți. De rugăciune te poți retrage doar printr-o înștiințare scrisă către director, iar asta creează o evidență a celor care refuză și expune copiii presiunii colegilor. Legea nu spune nimic despre rolul părinților și nici cine semnează pentru un preșcolar.",
+      "plainTitle": "Imnul și rugăciunea „Tatăl Nostru” la începutul orelor, dacă decide directorul",
+      "verdictShort": "Imnul la început de zi e o măsură simbolică inofensivă. Problema e rugăciunea: copiii, inclusiv cei de grădiniță, sunt înscriși automat, iar cine nu participă trebuie să anunțe în scris directorul. Asta contrazice logica Deciziei CCR nr. 669/2014 și obligă familiile să-și declare convingerile.",
+      "initiatorClaim": "Inițiatorii spun că școala nu mai cultivă identitatea națională și spirituală. Propun momente solemne zilnice, imnul și rugăciunea „Tatăl Nostru”, cu participare opțională la rugăciune, ca respectul pentru libertatea de conștiință să fie păstrat.",
+      "realityCheck": "Articolul 11¹ nu obligă școlile să facă nimic. Lasă la decizia exclusivă a directorului, fără consiliu de administrație și fără părinți, introducerea zilnică a imnului și a unei rugăciuni creștine, în clasă sau în curte cu toată școala. Participarea la rugăciune e implicită: neparticiparea cere o notificare scrisă către director, deci se creează de fapt o evidență a celor care refuză, iar în curte refuzul devine vizibil pentru toată școala. Pentru imn nu există nicio posibilitate de neparticipare, iar textul nu spune cine decide pentru preșcolari și elevii minori.",
       "affectedGroups": [
         "Sănătate & Educație",
-        "Justiție & Drepturi Civile"
+        "Justiție & Drepturi Civile",
+        "Angajați & HR"
       ],
       "keyFindings": [
-        "Art. 11¹ alin. (1): textul inițiatorului este facultativ („directorul unității poate decide”), deși fișa Camerei îl descrie ca obligație („să fie intonat... și să fie rostită”). Decizia aparține exclusiv directorului, fără consultarea consiliului de administrație, a profesorilor sau a părinților.",
-        "Art. 11¹ alin. (3): neparticiparea la rugăciune funcționează prin opțiune negativă. Directorul trebuie informat în scris despre refuz, deci se ajunge la dezvăluirea convingerilor religioase. Decizia CCR nr. 669/2014 a cerut, pentru ora de religie, opusul: înscriere pe bază de cerere, nu retragere.",
-        "Art. 11¹ alin. (3): legea le dă dreptul de refuz direct „preșcolarilor sau elevilor”. Nu menționează părinții sau reprezentanții legali (art. 29 alin. 6 din Constituție), iar un copil de grădiniță nu poate formula o înștiințare scrisă.",
-        "Art. 11¹ alin. (2): varianta în curte, cu toată școala, face vizibili pe cei care nu participă la rugăciune, ceea ce amplifică riscul de stigmatizare și discriminare (art. 4 alin. 2 și art. 16 din Constituție).",
-        "Art. 11¹ alin. (1) lit. b): se alege o singură rugăciune creștină, „Tatăl Nostru”, aplicabilă inclusiv în școlile particulare și confesionale ale altor culte sau ale minorităților. Asta ridică probleme de neutralitate a statului față de cultele religioase (art. 29 alin. 3–5).",
-        "Expunerea de motive invocă „studii” și practici din Polonia și Italia fără nicio sursă. În Polonia și Italia nu există, din câte se știe, o rugăciune zilnică reglementată prin lege în școlile de stat. Fundamentarea este declarativă."
+        "Art. 11¹ alin. (3) instituie un regim de opt-out: participarea la rugăciune e regula, iar refuzul se comunică în scris directorului. În Decizia nr. 669/2014 privind ora de religie, CCR a cerut o cerere de înscriere, nu una de retragere, tocmai ca nimeni să nu fie pus să-și declare convingerile.",
+        "Art. 11¹ alin. (1) se aplică și preșcolarilor, dar alin. (3) spune că «preșcolarii sau elevii» informează directorul. Textul nu menționează părinții, deși art. 29 alin. (6) din Constituție le dă dreptul de a asigura educația religioasă a copiilor minori potrivit propriilor convingeri.",
+        "Art. 11¹ alin. (2) permite ca activitatea să se țină în curte, cu toată școala și cu directorul. Mecanismul de înlocuire a profesorului din alin. (3) e gândit pentru sala de clasă, iar în curte elevii care nu participă sunt expuși public.",
+        "Profesorul care refuză să participe e «înlocuit» de alt cadru didactic sau de director. Asta îi dezvăluie convingerile în fața conducerii și complică organizarea primei ore. Nu se spune din ce oră de curs se scade timpul.",
+        "Pentru imnul de la alin. (1) lit. a) nu există nicio posibilitate de neparticipare. Riscul e redus, dar pot apărea obiecții de conștiință, de exemplu din partea unor culte care nu intonează imnuri de stat.",
+        "Decizia aparține exclusiv directorului («poate decide»), fără criterii și fără consultarea consiliului de administrație sau a părinților. Regimul poate fi diferit de la o școală la alta și se poate schimba la fiecare schimbare de director."
       ],
-      "blindSpotsCaught": "Articolul unic citează greșit publicarea: Legea nr. 198/2023 apare ca „publicată în M.Of. nr. 83 din 7 februarie 2013”, imposibil pentru o lege din 2023 (corect: M.Of. nr. 613 din 5 iulie 2023). Trimiterea la „anexa nr. 3” a Legii nr. 75/1994 pentru forma prescurtată a imnului trebuie verificată. Textul nu spune dacă momentul solemn intră în durata primei ore de curs. Mecanismul de înlocuire a cadrului didactic care refuză îl face și pe acesta vizibil în fața elevilor. Textul poate intra în tensiune cu interdicția prozelitismului religios din legislația învățământului.",
-      "constitutionalityNote": "Imnul (art. 12 alin. 2) nu ridică probleme. Rugăciunea, în forma actuală, este vulnerabilă pe art. 29 alin. (1) și (6), adică libertatea conștiinței, inclusiv dreptul de a nu-ți dezvălui convingerile, și dreptul părinților de a educa copiii după propriile convingeri. Decizia CCR nr. 669/2014 a declarat neconstituțională condiționarea retragerii de la religie de o cerere scrisă, iar alin. (3) reproduce același tipar. Se adaugă art. 1 alin. (5), pentru lipsa de claritate (cine semnează refuzul pentru minori, cum se aplică în curte), și art. 4 alin. (2) cu art. 16, pentru riscul de discriminare. Contextul relevant este și jurisprudența CEDO: Papageorgiou și alții c. Greciei (2019), privind declarația obligatorie pentru scutire, și Folgerø c. Norvegiei (2007).",
-      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că nu se reglementează accesul la o profesie. Directiva TRIS 2015/1535 nu se aplică, pentru că nu există reguli tehnice sau servicii digitale. Nu apar efecte asupra pieței unice, concurenței sau IMM-urilor. Educația ține de competența statelor membre. Rămâne relevantă Carta drepturilor fundamentale a UE (art. 10 și art. 14 alin. 3), dar numai când se aplică dreptul UE. Cadrul practic aplicabil este CEDO: art. 9 și art. 2 din Protocolul nr. 1.",
+      "blindSpotsCaught": "Partea introductivă a articolului unic dă date greșite de publicare: Legea nr. 198/2023 apare în «Monitorul Oficial nr. 83 din 7 februarie 2013». Legea a fost publicată în M.Of. nr. 613 din 5 iulie 2023, iar data din 2013 pare preluată din altă lege. Textul nu precizează nici varianta rugăciunii, deși formulările ortodoxă, catolică și protestantă diferă. Nici școlile particulare confesionale ale altor culte nu sunt tratate, ele putând aplica doar lit. a). Expunerea de motive vorbește de «caracter laic și incluziv», însă mecanismul implicit de participare contrazice această afirmație.",
+      "constitutionalityNote": "Imnul (art. 12 alin. 2) nu ridică probleme. Rugăciunea ridică probleme serioase pe art. 29 alin. (1), (2) și (6), adică libertatea conștiinței, respectul reciproc și dreptul părinților, și pe art. 16, egalitatea. Art. 29 alin. (1) interzice constrângerea la adoptarea unei credințe, iar jurisprudența aplică același principiu dezvăluirii ei. Prin Decizia nr. 669/2014, CCR a constatat neconstituțională procedura care cerea o cerere de retragere de la ora de religie. Alin. (3) reproduce exact acest mecanism, în plus zilnic și în afara cadrului orei de religie garantat de art. 32 alin. (7). Lipsa criteriilor pentru decizia directorului și neclaritatea privind cine semnează pentru minori ridică probleme de previzibilitate (art. 1 alin. 5). Cu un regim de opt-in și fără dispoziția privind curtea, textul ar putea fi apărat mult mai ușor.",
+      "euLawNote": "Directiva 2018/958 nu se aplică: nu se reglementează accesul la o profesie. Nici Directiva TRIS 2015/1535 nu se aplică: nu există servicii digitale sau reglementări tehnice. Carta drepturilor fundamentale a UE nu se aplică, fiindcă nu se pune în aplicare dreptul Uniunii, iar impactul asupra pieței unice e nul. Relevantă este CEDO, art. 9 din Convenție și art. 2 din Protocolul 1. Jurisprudența Folgerø c. Norvegiei, Grzelak c. Poloniei și Alexandridis c. Greciei sancționează mecanismele care obligă elevii sau părinții să-și dezvăluie convingerile pentru a fi scutiți. Lautsi c. Italiei a admis simboluri pasive, nu practici active de cult. Pe buget impactul e neglijabil, dar școlile vor avea sarcina administrativă de a gestiona notificările și înlocuirile.",
       "senatForm": {
         "articleRef": "Art. 11¹ alin. (1) lit. b) și alin. (3)",
-        "proposalContent": "Se elimină alin. (1) lit. b) și alin. (3). Subsidiar, alin. (3) devine: „Rostirea rugăciunii se poate organiza numai înaintea începerii orelor de curs, exclusiv cu elevii ai căror părinți sau reprezentanți legali, respectiv cu elevii majori, care au solicitat aceasta în scris. Neparticiparea nu se declară și nu se consemnează.”",
-        "argumentation": "Refuzul scris obligă la dezvăluirea convingerilor religioase, contrar art. 29 din Constituție, Deciziei CCR nr. 669/2014 (înscriere, nu retragere) și jurisprudenței CEDO (Papageorgiou c. Greciei, 2019). Textul ignoră rolul părinților (art. 29 alin. 6), deși preșcolarii nu pot formula un refuz scris. Imnul poate rămâne nemodificat.",
-        "otherComments": "Corectați referința: Legea nr. 198/2023 a fost publicată în M.Of. nr. 613 din 5 iulie 2023, nu nr. 83/2013. Fișa Camerei descrie o obligație, textul o facultate a directorului, deci trebuie clarificat. Propun consultarea consiliului de administrație și a părinților înainte de decizie și precizarea dacă momentul intră în durata orei."
+        "proposalContent": "Alin. (3): «Activitatea de la alin. (1) lit. b) se desfășoară înaintea primei ore, numai pentru elevii ai căror părinți ori reprezentanți legali, sau elevul major, au cerut-o în scris. Neparticiparea nu se consemnează și nu atrage nicio consecință; niciun cadru didactic nu e obligat să o conducă.» Alin. (2) nu se aplică lit. b).",
+        "argumentation": "Decizia CCR 669/2014 privind ora de religie a cerut o cerere de înscriere, nu de retragere. A obliga familia să declare în scris refuzul echivalează cu dezvăluirea convingerilor (art. 29 și 16 din Constituție; CEDO, Grzelak c. Poloniei, Alexandridis c. Greciei). Pentru preșcolari și minori decid părinții (art. 29 alin. 6).",
+        "otherComments": "Articolul unic indică greșit publicarea Legii 198/2023: corect este M.Of. nr. 613 din 5 iulie 2023, nu nr. 83/2013. Trebuie precizat din ce oră se scade timpul, cine supraveghează elevii neparticipanți și că decizia directorului se ia cu avizul consiliului de administrație și după consultarea părinților."
       },
+      "reachedEnd": true,
       "status": "ok"
     },
     "codex": {
       "model": "codex",
-      "durationMs": 120539,
+      "durationMs": 69739,
+      "sourceEndMarker": "SF-2FC276F2",
       "riskScore": 7,
       "riskLevel": "red",
-      "plainTitle": "Imn și rugăciune la începutul zilei de școală, prin decizia directorului",
-      "verdictShort": "Riscul principal este introducerea rugăciunii în programul comun, cu participare prezumată și refuz scris inclusiv pentru copii. Interdicția sancționării este utilă, dar nu elimină presiunea colectivă și problema libertății de conștiință.",
-      "initiatorClaim": "Inițiatorii urmăresc consolidarea identității naționale și a reperelor spirituale prin intonarea imnului și rostirea rugăciunii. Expunerea invocă beneficii psihopedagogice și exemple europene, fără să identifice în textul furnizat studiile care le-ar demonstra.",
-      "realityCheck": "Textul nu obligă toate școlile să introducă ritualurile: directorul poate decide organizarea lor zilnică, inclusiv în școlile particulare. După această decizie, numai rugăciunea beneficiază de o excepție expresă de participare, condiționată de informarea scrisă a directorului. Nu sunt reglementate suficient exercitarea opțiunii minorilor, supravegherea celor care nu participă și înlocuirea profesorului care refuză.",
+      "plainTitle": "Imn și rugăciune zilnică în școli, la decizia directorului",
+      "verdictShort": "Proiectul permite instituirea unei rugăciuni creștine zilnice în școală, cu participare prezumată și refuz scris. Libertatea declarată de a refuza reduce riscul constrângerii directe, dar nu rezolvă presiunea asupra copiilor și obligația de a se delimita public de practica religioasă.",
+      "initiatorClaim": "Inițiatorii urmăresc întărirea identității naționale și a reperelor spirituale prin intonarea imnului și rostirea rugăciunii „Tatăl Nostru”. Ei susțin că posibilitatea refuzului asigură respectarea libertății de conștiință.",
+      "realityCheck": "Articolul propus nu obligă toate școlile să introducă ritualurile: directorul poate decide organizarea lor zilnică, inclusiv în școlile particulare și la nivel preșcolar. Participarea la rugăciune este declarată opțională, însă neparticiparea presupune informarea scrisă a directorului; pentru imn nu apare o opțiune echivalentă. Proiectul nu introduce amenzi, nu abrogă alte dispoziții și nu înlătură garanțiile generale existente privind nediscriminarea și protecția copilului.",
       "affectedGroups": [
         "Sănătate & Educație",
         "Justiție & Drepturi Civile",
@@ -103,22 +137,46 @@
         "IMM & Antreprenori"
       ],
       "keyFindings": [
-        "Art. 11¹ alin. (1): competența directorului este facultativă, dar textul nu stabilește criterii pentru decizie, consultarea comunității școlare sau posibilitatea organizării separate a celor două activități.",
-        "Art. 11¹ alin. (3): rugăciunea funcționează prin retragere scrisă, nu prin înscriere voluntară. Refuzul nu trebuie motivat și nu poate atrage sancțiuni sau discriminări, însă rămâne necesară declararea neparticipării la o practică religioasă.",
-        "Art. 11¹ alin. (2)-(3): formularea privind participarea tuturor în curte trebuie corelată explicit cu dreptul de refuz. Lipsesc reguli pentru supravegherea minorilor neparticipanți și pentru situația în care niciun cadru didactic disponibil nu acceptă conducerea rugăciunii.",
-        "Proiectul nu introduce taxe, amenzi, monopoluri sau restricții comerciale. Gestionarea refuzurilor, supravegherea și înlocuirea personalului pot produce sarcini administrative și costuri pentru școli publice și private, fără cuantificare în documentele furnizate.",
-        "Formula introductivă indică greșit publicarea Legii nr. 198/2023: referința corectă este Monitorul Oficial, Partea I, nr. 613 din 5 iulie 2023. Eroarea trebuie verificată în documentul original și corectată dacă nu provine din extragerea textului."
+        "Art. 11¹ alin. (1): noutatea este autorizarea expresă a unui ritual zilnic, decis de director, în toate categoriile de unități indicate. Regimul actual al predării religiei, bazat pe cererea de participare, nu echivalează cu această rugăciune colectivă la începutul programului.",
+        "Art. 11¹ alin. (3): textul protejează expres refuzul nemotivat și interzice sancțiunile și discriminarea pentru neparticiparea la rugăciune. Aceste garanții sunt reale, dar mecanismul rămâne unul de retragere prin înscris, nu de înscriere voluntară.",
+        "Art. 11¹ alin. (2): desfășurarea în curte, cu întreaga colectivitate, poate face neparticiparea vizibilă. Nu se precizează organizarea unei alternative și supravegherea copiilor care nu participă, deși obligațiile generale de protecție rămân aplicabile.",
+        "Art. 11¹ alin. (3): nu se stabilește cine notifică refuzul pentru minori, cum este luată în considerare opinia copilului potrivit vârstei și maturității sau cât timp produce efecte notificarea.",
+        "Art. 11¹ alin. (3): înlocuirea cadrului didactic care refuză creează sarcini de organizare. Notificările, repartizarea personalului și supravegherea alternativă pot genera costuri administrative, inclusiv pentru școlile particulare; textul nu le cuantifică și nu instituie taxe.",
+        "Expunerea de motive invocă studii și exemple europene fără identificarea unor surse verificabile în materialul furnizat. Afirmațiile despre beneficii psihologice și coeziune socială sunt justificări ale inițiatorilor, nu efecte demonstrate ale normei.",
+        "Articolul unic identifică greșit publicarea Legii nr. 198/2023 printr-o trimitere la anul 2013. Referința trebuie corectată; eroarea de redactare nu constituie principalul risc al proiectului."
       ],
-      "blindSpotsCaught": "Garanția «fără motivarea refuzului» nu rezolvă integral problema: solicitarea refuzului scris face vizibilă neparticiparea religioasă, iar organizarea în curte o poate expune colectiv. Textul nu precizează cine formulează refuzul pentru minor și cum se soluționează divergențele dintre copil și părinte. Asocierea imnului cu o rugăciune creștină poate sugera, în aplicare, o legătură între apartenența națională și religie, deși acestea trebuie juridic distinse.",
-      "constitutionalityNote": "Există un risc serios privind art. 29 alin. (1), (2) și (6), în corelare cu art. 16 și art. 32: libertatea de conștiință protejează și neparticiparea religioasă, iar drepturile părinților trebuie concili­ate cu libertatea copilului. Decizia CCR nr. 669/2014, referitoare la înscrierea la disciplina Religie, este un reper relevant împotriva transferării asupra persoanei a sarcinii de a solicita neparticiparea; aplicarea raționamentului la acest ritual necesită analiză distinctă. Art. 12 recunoaște imnul ca simbol național, fără să impună intonarea sa zilnică în școli. Ambiguitățile procedurale și trimiterea bibliografică eronată ridică probleme de calitate a legii potrivit art. 1 alin. (5). Art. 23 alin. (12) privește legalitatea pedepselor și nu constituie aici un temei direct, deoarece proiectul nu instituie pedepse. Constituția permite învățământul religios; problema este mecanismul concret de participare și protejarea efectivă a conștiinței.",
-      "euLawNote": "Directiva (UE) 2018/958 nu instituie un test general pentru orice lege: ea privește restricțiile asupra accesului la profesii reglementate sau exercitării acestora. Textul analizat nu introduce o asemenea restricție profesională identificabilă. Nici notificarea TRIS în temeiul Directivei (UE) 2015/1535 nu rezultă necesară: nu sunt instituite reglementări tehnice pentru produse sau reguli privind serviciile societății informaționale, inclusiv servicii digitale ori AI. Nu se identifică un avantaj concurențial exclusiv; școlile private suportă însă obligațiile organizatorice atunci când directorul activează mecanismul. Aplicarea discriminatorie față de personal pe criterii religioase ar putea angaja Directiva 2000/78/CE. Carta UE necesită legătura cu dreptul Uniunii prevăzută la art. 51. Separat de dreptul UE, sunt relevante art. 9 CEDO și art. 2 din Protocolul nr. 1 privind conștiința și educația.",
+      "blindSpotsCaught": "Diferența decisivă este între opțiunea directorului de a organiza ritualul și opțiunea persoanei de a participa: prima este discreționară, iar a doua presupune notificarea refuzului numai pentru rugăciune. Asocierea imnului cu rugăciunea într-un eveniment comun poate expune neparticipanții chiar dacă refuzul nu trebuie motivat. Lipsa unor dispoziții tranzitorii sau metodologice nu suspendă aplicarea garanțiilor generale, dar lasă procedurile concrete insuficient definite.",
+      "constitutionalityNote": "Există un risc serios de incompatibilitate cu art. 29 alin. (1), (2) și (6), privind libertatea conștiinței, toleranța și drepturile părinților, coroborat cu art. 16 și art. 32 alin. (7). Constituția permite învățământul religios, dar această permisiune nu justifică automat un ritual confesional comun cu participare prezumată. Decizia CCR nr. 669/2014, privind solicitarea participării la ora de religie, oferă un reper relevant prin analogie; nu soluționează direct cazul acestei rugăciuni. Art. 12 justifică protecția imnului ca simbol național, fără a justifica prin el însuși rugăciunea. Ambiguitățile privind minorii și exercitarea refuzului ridică probleme de previzibilitate potrivit art. 1 alin. (5). Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este direct incident, deoarece proiectul nu instituie pedepse.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este direct aplicabilă: proiectul nu introduce condiții de acces sau exercitare a unei profesii reglementate. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată de acest text, care nu reglementează produse sau servicii ale societății informaționale. Nu rezultă monopoluri ori bariere directe de intrare pe piață, dar școlile particulare suportă eventualele sarcini administrative. Evidența refuzurilor poate permite deducerea convingerilor religioase, ceea ce impune evaluarea temeiului prelucrării și a garanțiilor GDPR, inclusiv art. 9 când sunt prelucrate asemenea date. Carta UE se aplică numai în condițiile art. 51; distinct, Convenția europeană a drepturilor omului protejează libertatea religioasă și convingerile părinților în educație.",
       "senatForm": {
-        "articleRef": "Articol unic pct. 1 – art. 11¹",
-        "proposalContent": "Art. 11¹. Directorul poate organiza intonarea imnului național în forma prescurtată prevăzută de anexa nr. 3 la Legea nr. 75/1994. Participarea elevilor, preșcolarilor și personalului este voluntară, fără cerere de refuz și fără sancțiuni ori discriminări. Unitatea asigură supravegherea minorilor care nu participă.",
-        "argumentation": "Se păstrează componenta civică și se elimină instituirea rugăciunii în programul comun. Participarea voluntară protejează libertatea de conștiință și evită evidențele de refuz. Supravegherea minorilor trebuie garantată. Soluția urmărește respectarea art. 16, 29 și 32 din Constituție și ține seama de raționamentul Deciziei CCR nr. 669/2014.",
-        "otherComments": "Analiza privește forma furnizată; verificarea online nu a fost disponibilă. Termenul indicat, 04.12.2025, este depășit; trebuie verificat stadiul actual. Propunerea cetățeanului nu devine automat amendament parlamentar: este necesară preluarea potrivit procedurii aplicabile. Verificați și corectați referința la publicarea Legii nr. 198/2023."
+        "articleRef": "Articolul unic – art. 11¹ propus",
+        "proposalContent": "Art. 11¹. Directorul poate organiza intonarea imnului național la începutul programului zilnic. Participarea este voluntară, fără obligația declarării convingerilor și fără consecințe discriminatorii. Pentru copiii care nu participă se asigură supravegherea și activități adecvate vârstei. Organizarea nu reduce timpul alocat activităților curriculare.",
+        "argumentation": "Se elimină instituirea rugăciunii confesionale prin decizia directorului și refuzul scris al participării. Soluția protejează libertatea de conștiință, egalitatea și drepturile părinților, păstrând posibilitatea unei activități dedicate simbolului național. Participarea voluntară și supravegherea copiilor reduc presiunea colectivă și riscul de stigmatizare.",
+        "otherComments": "Analiza privește forma inițiatorului furnizată; verificarea online nu a fost disponibilă. Termenul indicat, 04.12.2025, este depășit la data analizei. Trebuie verificată posibilitatea preluării propunerii de către un deputat în stadiul actual și corectată referința de publicare a Legii nr. 198/2023."
       },
+      "reachedEnd": true,
       "status": "ok"
     }
-  }
+  },
+  "history": [
+    {
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "analyzedAt": "2026-11-18T08:27:31.670Z",
+      "method": "first-14k",
+      "textChars": null,
+      "form": "initiator",
+      "agyModel": "gemini-4-hydrogen-high",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      },
+      "corrections": 0,
+      "replacedAt": "2026-11-24T15:31:12.598Z",
+      "reasons": [
+        "model"
+      ]
+    }
+  ]
 }

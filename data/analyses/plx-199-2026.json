@@ -2,7 +2,7 @@
   "billId": "Pl-x 199/2026",
   "slug": "plx-199-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:57:09.451Z",
+  "updatedAt": "2026-11-24T14:55:20.995Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "key": "3202ff91562bd7d4"
   },
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Amenzile plătite în alt cont public devin valabile, iar cele anulate în instanță se radiază din oficiu",
-    "summaryTlDr": "Este o lege utilă și favorabilă cetățenilor, care repară două abuzuri birocratice reale fără a introduce taxe sau capcane ascunse. Are însă scăpări tehnice de implementare care riscă să îi blocheze aplicarea în practică, mai ales în relația dintre instanțe și primării.",
-    "initiatorClaim": "Inițiatorul vrea să protejeze contribuabilii de bună-credință de executări silite abuzive atunci când plătesc o amendă într-un cont public greșit sau când câștigă în instanță anularea procesului-verbal, dar creanța rămâne activă la fisc.",
-    "realityCheck": "În legea actuală (art. 28 din OG 2/2001), plata este reglementată pe destinații separate (buget de stat vs. bugete locale), fără regulă pentru plățile greșite și fără obligație de comunicare a hotărârilor de anulare către fisc. Proiectul validează plata în alt cont public cu regularizare între instituții (art. 28 alin. 4-6) și obligă instanțele să comunice din oficiu anularea, iar fiscul să radieze creanța în 15 zile (art. 39^2), dar ignoră că amenzile persoanelor fizice merg la primării (nu la ANAF), lipsește interconectarea ECRIS cu cele peste 3.100 de UAT-uri și creează o normă tranzitorie greu executabilă pentru hotărârile vechi.",
+    "plainTitle": "Amenda plătită în contul greșit rămâne plătită, iar amenda anulată în instanță se șterge automat din evidențele fiscului",
+    "summaryTlDr": "Lege benefică pentru cetățean, care repară două situații reale de executare silită nedreaptă. Problemele țin de redactare: obligația de comunicare e pusă pe instanță, care nu știe cine administrează creanța; nu se reglementează restituirea sumelor deja încasate; ordinul de aplicare îi lasă pe dinafară pe cei care administrează bugetele locale.",
+    "initiatorClaim": "Inițiatorul vrea ca un contravenient care plătește la timp, dar într-un cont al altei instituții publice, să nu mai fie executat silit. Mai vrea ca hotărârea definitivă de anulare a procesului-verbal să ajungă din oficiu la organul fiscal, care să radieze creanța fără cerere din partea cetățeanului.",
+    "realityCheck": "Art. 28 alin. (4)-(5) recunoaște plata făcută în termen în contul altei instituții publice, cu identificarea certă a persoanei și a procesului-verbal, iar regularizarea revine instituțiilor. Art. 39² obligă instanța să comunice în 10 zile dispozitivul, iar organul fiscal să radieze creanța în 15 zile. Lipsesc însă reguli pentru sumele deja poprite, pentru înlocuirea amenzii cu avertisment sau reducerea ei și pentru executările în curs. Formula «orice cont bancar al unei instituții publice» e prea largă și greu de regularizat între bugete diferite (de stat și locale).",
     "affectedGroups": [
       "Toți cetățenii",
       "Șoferi & Auto",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I (art. 39^2) și Art. II alin. (2)",
-      "proposalContent": "Art. 39^2: extinderea la înlocuirea cu avertisment/reducerea amenzii și comunicarea către organul constatator și organul fiscal (ANAF/UAT) în 10 zile de la motivare. Art. II alin. (2): pentru hotărâri anterioare, radierea în 15 zile și pe baza transmiterii electronice simple de către debitor.",
-      "argumentation": "Organul fiscal (de regulă UAT, nu ANAF la persoane fizice) nu e parte în proces, iar instanțele nu sunt interconectate cu cele peste 3.100 de primării. Art. II alin. (2) nu poate obliga instanțele să comunice retroactiv în 10 zile hotărâri vechi, iar textul omite anularea parțială sau înlocuirea cu avertisment.",
-      "otherComments": "La art. 28 alin. (6), includeți MDLPA în ordinul comun (pentru bugetele locale) și mutați termenul de 30 de zile exclusiv în Art. II alin. (3). La Art. II alin. (1), clarificați că plata în 15 zile a jumătate din minim este acoperită, nu doar achitarea cuantumului integral."
+      "articleRef": "Art. I – art. 39² alin. (1),(3) OG 2/2001",
+      "proposalContent": "(1) La anularea sau modificarea definitivă a procesului-verbal (inclusiv înlocuirea amenzii cu avertisment ori reducerea ei), instanța comunică, din oficiu, în 10 zile, dispozitivul organului constatator și organului fiscal care administrează creanța. (3) Organul fiscal radiază sau reduce creanța în 15 zile, încetează executarea și restituie din oficiu sumele încasate.",
+      "argumentation": "Instanța nu știe dacă amenda a fost pusă în debit și la ce organ fiscal (amenzile persoanelor fizice merg de regulă la bugetele locale), deci trebuie notificat și organul constatator, parte în proces. Textul inițial ignoră modificarea sancțiunii, executările în curs și restituirea sumelor deja încasate, adică exact cazurile care produc prejudiciul invocat.",
+      "otherComments": "Art. 28 alin. (6): termenul de 30 de zile e normă tranzitorie, nu trebuie inserat în OG (dublează art. II alin. 3). Ordinul trebuie emis și cu ministerul dezvoltării, pentru bugetele locale. Alin. (4): precizați «termenul de plată» (nu doar cel de 15 zile de la alin. 1) și limitați la conturi bugetare/Trezorerie."
     }
   },
   "council": {
@@ -89,8 +89,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 54798,
+      "sourceEndMarker": "SF-EFFA5EDE",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Amenda plătită în contul greșit rămâne plătită, iar amenda anulată în instanță se șterge automat din evidențele fiscului",
+      "verdictShort": "Lege benefică pentru cetățean, care repară două situații reale de executare silită nedreaptă. Problemele țin de redactare: obligația de comunicare e pusă pe instanță, care nu știe cine administrează creanța; nu se reglementează restituirea sumelor deja încasate; ordinul de aplicare îi lasă pe dinafară pe cei care administrează bugetele locale.",
+      "initiatorClaim": "Inițiatorul vrea ca un contravenient care plătește la timp, dar într-un cont al altei instituții publice, să nu mai fie executat silit. Mai vrea ca hotărârea definitivă de anulare a procesului-verbal să ajungă din oficiu la organul fiscal, care să radieze creanța fără cerere din partea cetățeanului.",
+      "realityCheck": "Art. 28 alin. (4)-(5) recunoaște plata făcută în termen în contul altei instituții publice, cu identificarea certă a persoanei și a procesului-verbal, iar regularizarea revine instituțiilor. Art. 39² obligă instanța să comunice în 10 zile dispozitivul, iar organul fiscal să radieze creanța în 15 zile. Lipsesc însă reguli pentru sumele deja poprite, pentru înlocuirea amenzii cu avertisment sau reducerea ei și pentru executările în curs. Formula «orice cont bancar al unei instituții publice» e prea largă și greu de regularizat între bugete diferite (de stat și locale).",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Șoferi & Auto",
+        "Justiție & Drepturi Civile",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. 28 alin. (4) nou: plata în termen într-un cont bancar sau bugetar al altei instituții publice e valabilă dacă contravenientul și procesul-verbal sunt identificați cert. Azi art. 28 alin. (2)-(3) reglementează doar locurile de plată și dovada plății, nu și plata în contul greșit.",
+        "Art. 28 alin. (4) nu precizează ce înseamnă «termen legal». Art. II alin. (1) trimite la termenul din art. 28 alin. (1), adică cele 15 zile pentru plata a jumătate din minim, deci rămâne neclar dacă e protejată și plata integrală făcută în termenul general de plată.",
+        "Art. 28 alin. (6) inserează direct în OG 2/2001 un termen de 30 de zile «de la intrarea în vigoare a prezentei legi», normă tranzitorie care dublează art. II alin. (3). E tehnică legislativă defectuoasă. În plus, ordinul comun MF-MAI ignoră autoritățile locale, deși multe amenzi se fac venit la bugetele locale.",
+        "Art. 39² alin. (1) obligă instanța să comunice hotărârea «organului fiscal competent», dar instanța nu știe de regulă dacă amenda a fost pusă în debit și la ce organ fiscal, local sau ANAF. Organul constatator, care e parte în proces, nu primește nicio obligație.",
+        "Art. 39² alin. (3) formulează contradictoriu: creanța se radiază «de drept», dar «în termen de maxim 15 zile». Nu sunt prevăzute nici încetarea executării în curs, nici restituirea din oficiu a sumelor deja încasate, nici situațiile de modificare a sancțiunii (avertisment, reducerea amenzii).",
+        "Art. II se aplică și executărilor în curs și proceselor-verbale anulate anterior. Soluția e favorabilă cetățeanului și privește efecte juridice încă în desfășurare, deci nu ridică probleme de retroactivitate.",
+        "Expunerea de motive invocă cauze CEDO și CJUE («Iorga și alții c. România», «Ruxanda c. România», Gabalfrisa, Gombač) într-un mod greu de verificat și uneori nepotrivit. Statisticile provin din «consultări informale». Aceste lucruri nu afectează textul normativ, dar slăbesc fundamentarea."
+      ],
+      "blindSpotsCaught": "Codul de procedură fiscală are deja o procedură de îndreptare a erorilor din documentele de plată, dar doar la cererea debitorului. Proiectul nu se corelează cu ea și nu stabilește care organ dă curs regularizării. Amenzile persoanelor fizice se fac în general venit la bugetele locale, deci «organul fiscal competent» e adesea primăria, nu ANAF, iar un ordin doar MF-MAI nu le poate reglementa complet. Ordinul are termen de 30 de zile, dar legea intră în vigoare tot la 30 de zile: art. 28 alin. (4)-(5) pot fi deja invocate, fără metodologie, în ziua intrării în vigoare.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale de fond. Întărește art. 44 (proprietatea), art. 1 alin. (5) (legalitate) și autoritatea hotărârilor judecătorești (art. 124, art. 126 alin. 2, care permite legii să stabilească atribuții procedurale ale instanțelor). Riscurile sunt de previzibilitate (art. 1 alin. 5): «termen legal» neclar, «instituție publică» nedelimitată, norma tranzitorie inserată în actul de bază și sintagma «de drept... în 15 zile». Art. II nu încalcă art. 15 alin. (2), fiindcă reglementează efecte în curs, în favoarea persoanei. Impactul bugetar e redus, dar pentru o propunere parlamentară trebuie cerut punctul de vedere al Guvernului (art. 111 alin. 1, art. 138 alin. 5).",
+      "euLawNote": "Directiva (UE) 2018/958 nu e incidentă, fiindcă proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: comunicarea electronică dintre instanță și fisc nu e o regulă tehnică pentru servicii ale societății informaționale. Nu există efecte asupra concurenței sau a pieței unice. Proiectul e compatibil cu principiile generale ale bunei administrări și securității juridice, iar trimiterile din expunere la dreptul UE sunt mai degrabă decorative.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 39² alin. (1),(3) OG 2/2001",
+        "proposalContent": "(1) La anularea sau modificarea definitivă a procesului-verbal (inclusiv înlocuirea amenzii cu avertisment ori reducerea ei), instanța comunică, din oficiu, în 10 zile, dispozitivul organului constatator și organului fiscal care administrează creanța. (3) Organul fiscal radiază sau reduce creanța în 15 zile, încetează executarea și restituie din oficiu sumele încasate.",
+        "argumentation": "Instanța nu știe dacă amenda a fost pusă în debit și la ce organ fiscal (amenzile persoanelor fizice merg de regulă la bugetele locale), deci trebuie notificat și organul constatator, parte în proces. Textul inițial ignoră modificarea sancțiunii, executările în curs și restituirea sumelor deja încasate, adică exact cazurile care produc prejudiciul invocat.",
+        "otherComments": "Art. 28 alin. (6): termenul de 30 de zile e normă tranzitorie, nu trebuie inserat în OG (dublează art. II alin. 3). Ordinul trebuie emis și cu ministerul dezvoltării, pentru bugetele locale. Alin. (4): precizați «termenul de plată» (nu doar cel de 15 zile de la alin. 1) și limitați la conturi bugetare/Trezorerie."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -148,7 +180,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:57:09.451Z",
+      "replacedAt": "2026-11-24T14:55:20.995Z",
       "reasons": [
         "model"
       ]

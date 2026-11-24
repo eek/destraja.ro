@@ -2,7 +2,7 @@
   "billId": "PL-x 157/2026",
   "slug": "plx-157-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:55:48.884Z",
+  "updatedAt": "2026-11-24T14:55:05.887Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
-    "plainTitle": "E-mail oficial obligatoriu pentru instituțiile publice, dar cu capcane juridice și norme adoptate prea târziu",
-    "summaryTlDr": "Intenția de a scoate primăriile și instituțiile de pe Gmail și Yahoo este sănătoasă și necesară, dar textul adoptat de Senat are defecte serioase de execuție. Legea impune amenzi înainte de apariția normelor de aplicare, sancționează nediferențiat angajații pentru obligațiile instituției și concentrează arhivarea tuturor e-mailurilor publice la STS fără garanții GDPR.",
-    "initiatorClaim": "Inițiatorii vor să elimine riscurile cibernetice generate de faptul că peste 67% dintre primării folosesc adrese comerciale (Gmail, Yahoo) și să creeze un sistem național sigur (SNCE) și un registru public (RNAEO) prin care cetățenii să verifice autenticitatea e-mailurilor oficiale.",
-    "realityCheck": "În practică, legea intră în vigoare la 12 luni de la publicare (moment în care devin aplicabile amenzile de până la 10.000 lei), dar normele metodologice necesare pentru implementare și pentru sprijinirea comunelor mici se adoptă abia la 60 de zile DUPĂ intrarea în vigoare. În plus, legea omite clauza promisă în Expunerea de motive privind protecția validității actelor transmise cetățenilor de bună-credință, transformă auditul DNSC într-o simplă autoevaluare a STS și prevede arhivarea automată centralizată a corespondenței fără reguli GDPR sau termene de păstrare.",
+    "plainTitle": "Instituțiile statului nu mai au voie să folosească Gmail sau Yahoo pentru corespondența oficială",
+    "summaryTlDr": "Scopul e bun: adrese oficiale verificabile, mai puțin phishing și mai multă trasabilitate. Redactarea are însă probleme reale. Art.8 poate fi citit ca interzicând trimiterea actelor pe Gmail-ul cetățeanului, amenzile de până la 10.000 lei lovesc funcționari pentru obligații ale instituției, iar normele de aplicare vin abia după ce obligațiile devin aplicabile.",
+    "initiatorClaim": "Inițiatorii spun că peste 67% dintre UAT-uri folosesc adrese comerciale (Gmail, Yahoo, Outlook), ceea ce pune în pericol securitatea cibernetică și datele cetățenilor. Propun un serviciu național de e-mail (SNCE) administrat de ADR și STS și un registru public al adreselor oficiale, cu sprijin integral pentru UAT-urile mici.",
+    "realityCheck": "Legea obligă toate entitățile publice să comunice doar de pe adrese înregistrate în RNAEO, pe domenii gov.ro, .ro instituționale sau e-adm.ro. Domeniile proprii au nevoie de aviz conform ADR, iar găzduirea independentă e verificată anual. Problemele: art.2 lit.d) face «comercială» orice adresă din afara SNCE, inclusiv cea a cetățeanului, iar art.8 alin.(1) interzice și «furnizarea către» persoane a documentelor prin astfel de adrese. Amenzile cad pe funcționari individuali, iar sprijinul pentru UAT-urile mici se dă doar «la solicitare», nu «integral» cum susține expunerea de motive.",
     "affectedGroups": [
       "Toți cetățenii",
       "IT & AI",
@@ -44,10 +44,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Art. 10 alin. (1) și Art. 11 alin. (2)",
-      "proposalContent": "La art. 10 alin. (1), răspunderea contravențională să revină exclusiv entității publice sau conducătorului acesteia, proporțional atribuțiilor legale, nu oricărui angajat. La art. 11 alin. (2), normele metodologice să fie adoptate în 90 de zile de la publicarea legii în Monitorul Oficial, nu după intrarea în vigoare.",
-      "argumentation": "În forma actuală, art. 11 impune amenzi la 12 luni de la publicare, dar normele de aplicare și sprijinul pentru UAT-uri apar abia la 60 de zile după intrarea în vigoare. În plus, art. 10 sancționează cu până la 10.000 lei orice funcționar sau angajat contractual pentru obligații ce revin instituției, încălcând art. 1 alin. (5) din Constituție.",
-      "otherComments": "Recomandăm și: (1) introducerea clauzei din Expunerea de motive privind validitatea actelor față de destinatarii de bună-credință; (2) reguli GDPR și termene de arhivare în SNCE (art. 4); (3) audit independent DNSC, nu autoevaluare STS (art. 3 alin. 5); (4) termen de remediere înainte de radierea din RNAEO (art. 9 alin. 3)."
+      "articleRef": "Art.8 alin.(1) – adresele cetățenilor",
+      "proposalContent": "Art.8 alin.(1): «Se interzice entităților publice utilizarea, ca expeditor sau destinatar propriu, a adreselor de poștă electronică comerciale pentru comunicarea electronică oficială. Interdicția nu privește adresele comerciale ale persoanelor fizice sau juridice, către care entitățile publice pot transmite și de la care pot primi documente prin adresele oficiale.»",
+      "argumentation": "Art.2 lit.d) califică drept comercială orice adresă din afara SNCE, deci și Gmail-ul cetățeanului. Textul actual poate fi citit ca interzicând instituțiilor să trimită răspunsuri sau acte pe adresa personală a cetățenilor, blocând petițiile și comunicarea cu majoritatea populației. Clarificarea păstrează scopul: instituția folosește doar adrese oficiale.",
+      "otherComments": "Art.11: normele să fie adoptate în 90 de zile de la publicare, nu după intrarea în vigoare. Art.10: amenda să vizeze conducătorul entității, nu funcționarul fără adresă oficială alocată. Art.9 alin.(1): «RNEAO» devine «RNAEO». Art.1: clarificați aplicarea față de Parlament, instanțe și autoritățile autonome."
     }
   },
   "council": {
@@ -90,8 +90,40 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 56543,
+      "sourceEndMarker": "SF-658E3BCB",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Instituțiile statului nu mai au voie să folosească Gmail sau Yahoo pentru corespondența oficială",
+      "verdictShort": "Scopul e bun: adrese oficiale verificabile, mai puțin phishing și mai multă trasabilitate. Redactarea are însă probleme reale. Art.8 poate fi citit ca interzicând trimiterea actelor pe Gmail-ul cetățeanului, amenzile de până la 10.000 lei lovesc funcționari pentru obligații ale instituției, iar normele de aplicare vin abia după ce obligațiile devin aplicabile.",
+      "initiatorClaim": "Inițiatorii spun că peste 67% dintre UAT-uri folosesc adrese comerciale (Gmail, Yahoo, Outlook), ceea ce pune în pericol securitatea cibernetică și datele cetățenilor. Propun un serviciu național de e-mail (SNCE) administrat de ADR și STS și un registru public al adreselor oficiale, cu sprijin integral pentru UAT-urile mici.",
+      "realityCheck": "Legea obligă toate entitățile publice să comunice doar de pe adrese înregistrate în RNAEO, pe domenii gov.ro, .ro instituționale sau e-adm.ro. Domeniile proprii au nevoie de aviz conform ADR, iar găzduirea independentă e verificată anual. Problemele: art.2 lit.d) face «comercială» orice adresă din afara SNCE, inclusiv cea a cetățeanului, iar art.8 alin.(1) interzice și «furnizarea către» persoane a documentelor prin astfel de adrese. Amenzile cad pe funcționari individuali, iar sprijinul pentru UAT-urile mici se dă doar «la solicitare», nu «integral» cum susține expunerea de motive.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Angajați & HR",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art.8 alin.(1) coroborat cu art.2 lit.d): adresa personală Gmail/Yahoo a cetățeanului intră în definiția «adresei comerciale». Interdicția de a furniza documente «prin intermediul unor astfel de adrese» poate fi interpretată ca blocând trimiterea răspunsurilor și actelor către majoritatea populației.",
+        "Art.10: amenzi de 5.000–10.000 lei pentru funcționari publici și personal contractual care încalcă art.6 alin.(1). Acel alineat e o obligație a entității («fiecare entitate publică utilizează adrese oficiale»), deci un angajat poate fi sancționat pentru lipsa infrastructurii pe care nu o controlează. Răspunderea contravențională e personală și ar trebui să vizeze conducătorul.",
+        "Art.11: legea intră în vigoare la 12 luni de la publicare, iar normele metodologice se adoptă în 60 de zile DUPĂ intrarea în vigoare. Obligațiile și amenzile devin aplicabile înainte să existe cerințele tehnice (art.9 alin.(2)) și condițiile sprijinului pentru UAT-uri (art.5 alin.(1)).",
+        "Art.8 alin.(2): perioada de auto-reply de 12 luni curge de la intrarea în vigoare, adică exact când interdicția devine deja aplicabilă. Textul nu permite expres primirea corespondenței pe adresele vechi, deși expunerea de motive afirmă că o permite.",
+        "Art.3 alin.(5): evaluarea anuală de securitate o face STS, administratorul tehnic, care doar o înaintează DNSC. Expunerea de motive vorbește despre «audit anual realizat de DNSC», deci auditul e de fapt o autoevaluare.",
+        "Art.6 alin.(4) permite domenii proprii doar prin excepție de la lit.a), adică pentru instituțiile centrale. Art.9 alin.(1) folosește acronimul greșit «RNEAO». Obligația de integrare în 30 de zile din art.9 alin.(3) nu are nicio sancțiune."
+      ],
+      "blindSpotsCaught": "Expunerea de motive promite că nerespectarea legii nu afectează validitatea actului administrativ transmis destinatarului de bună-credință. Textul legii nu conține nicio astfel de garanție, deci un act comunicat de pe adresă neconformă rămâne contestabil procedural. În plus, RNAEO este public (art.7 alin.(3)): dacă include adrese nominale ale angajaților (prenume.nume@...), publicarea integrală ridică probleme de minimizare a datelor conform GDPR art.5 alin.(1) lit.c). În fine, art.1 alin.(2) se aplică tuturor autorităților centrale, inclusiv Parlamentului, instanțelor și autorităților autonome, iar ADR, subordonată Guvernului, ar putea controla și sancționa personalul acestora.",
+      "constitutionalityNote": "Art.1 alin.(5), claritate și previzibilitate: ambiguitatea art.8 alin.(1) privind adresele cetățenilor și decalajul normelor din art.11 afectează previzibilitatea. Art.1 alin.(4), separația puterilor: ADR (executiv) ar avea aviz conform și putere sancționatorie asupra personalului Parlamentului, al instanțelor (art.124–126, independența justiției) și al autorităților autonome. Art.120, autonomia locală: avizul conform ADR pentru domeniile locale e o tutelă tehnică, justificabilă prin securitate, dar trebuie proporțională. Art.138 alin.(5): sursa de finanțare e indicată generic (bugetul ADR, bugetul de stat, fonduri UE), fără fișă financiară cuantificată, ceea ce e un risc conform jurisprudenței CCR. Art.51, dreptul de petiționare: o interpretare restrictivă a art.8 ar îngrădi răspunsul către petenți.",
+      "euLawNote": "Directiva 2018/958 (testul de proporționalitate pentru profesii reglementate) nu se aplică: legea nu reglementează accesul la o profesie. TRIS 2015/1535: legea reglementează modul în care statul își organizează propria comunicare, nu condițiile de furnizare a serviciilor societății informaționale către public. Probabil nu e o «regulă tehnică» notificabilă, dar o notificare preventivă ar elimina riscul de inopozabilitate. GDPR: RNAEO public trebuie limitat la adrese funcționale (registratura@, contact@) sau la date minimizate. NIS2 (Directiva 2022/2555) și eIDAS: obiectivele sunt compatibile, însă legea nu prevede servicii calificate de livrare electronică înregistrată (art.43–44 eIDAS), deci SNCE nu oferă automat valoare probatorie transfrontalieră. Concurență: exclude furnizorii comerciali doar din comunicarea oficială a sectorului public. Măsura e justificabilă prin securitate și nu afectează piața privată, dar găzduirea exclusivă în Cloudul Privat Guvernamental prin STS închide piața pentru firmele românești de IT care azi administrează e-mailul instituțiilor. Art.9 atenuează parțial efectul.",
+      "senatForm": {
+        "articleRef": "Art.8 alin.(1) – adresele cetățenilor",
+        "proposalContent": "Art.8 alin.(1): «Se interzice entităților publice utilizarea, ca expeditor sau destinatar propriu, a adreselor de poștă electronică comerciale pentru comunicarea electronică oficială. Interdicția nu privește adresele comerciale ale persoanelor fizice sau juridice, către care entitățile publice pot transmite și de la care pot primi documente prin adresele oficiale.»",
+        "argumentation": "Art.2 lit.d) califică drept comercială orice adresă din afara SNCE, deci și Gmail-ul cetățeanului. Textul actual poate fi citit ca interzicând instituțiilor să trimită răspunsuri sau acte pe adresa personală a cetățenilor, blocând petițiile și comunicarea cu majoritatea populației. Clarificarea păstrează scopul: instituția folosește doar adrese oficiale.",
+        "otherComments": "Art.11: normele să fie adoptate în 90 de zile de la publicare, nu după intrarea în vigoare. Art.10: amenda să vizeze conducătorul entității, nu funcționarul fără adresă oficială alocată. Art.9 alin.(1): «RNEAO» devine «RNAEO». Art.1: clarificați aplicarea față de Parlament, instanțe și autoritățile autonome."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -147,7 +179,7 @@
         "codex": 5
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:55:48.884Z",
+      "replacedAt": "2026-11-24T14:55:05.887Z",
       "reasons": [
         "model"
       ]

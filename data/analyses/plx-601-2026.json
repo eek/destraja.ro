@@ -2,7 +2,7 @@
   "billId": "Pl-x 601/2026",
   "slug": "plx-601-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:57:40.047Z",
+  "updatedAt": "2026-11-24T14:55:42.831Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -31,12 +31,12 @@
     "reason": "proiectul nu modifică un act numit în text"
   },
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3,
     "riskLevel": "green",
-    "plainTitle": "Copiii sub 14 ani la parade de biciclete: intenție bună, dar scrisă pe un articol inexistent",
-    "summaryTlDr": "Obiectivul de a permite copiilor sub 14 ani să participe supravegheați la parade și curse cicliste este util și rezonabil, dar textul depus are un defect capital: introduce excepția la un articol care nu există în Codul Rutier (Art. 194). Fără rescriere în comisii, legea este inaplicabilă și lasă neclarificate garanțiile reale de siguranță rutieră.",
-    "initiatorClaim": "Inițiatorii susțin că vor să elimine vidul legislativ și să permită copiilor sub 14 ani să participe la parade, competiții și activități recreative organizate pe biciclete pe drumurile publice, în condiții controlate de trafic și sub supravegherea părinților ori a unor adulți desemnați.",
-    "realityCheck": "În realitate, proiectul adaugă un alineat (3¹) la „Art. 194” din OUG nr. 195/2002, însă OUG nr. 195/2002 republicată are doar 137 de articole, iar interdicția de vârstă de 14 ani se află la Art. 70 alin. (2) — deci textul nu modifică regula reală. Mai mult, deși expunerea de motive promite „restricționarea sau controlul circulației rutiere”, textul de lege nu impune explicit închiderea traficului auto sau avizul poliției rutiere și introduce sintagma neclară „adult desemnat oficial, prin împuternicire scrisă”.",
+    "plainTitle": "Copiii sub 14 ani vor putea merge cu bicicleta la parade și evenimente organizate pe drum, însoțiți de un adult",
+    "summaryTlDr": "Este o lege mică, benignă și utilă, care legalizează o practică deja răspândită: tururile cicliste cu familii. Problemele sunt de redactare. Trimiterea la articol pare greșită, iar condițiile de siguranță sunt lăsate vagi, dar nu există taxe, monopoluri sau sancțiuni noi.",
+    "initiatorClaim": "Inițiatorii vor să clarifice situația copiilor sub 14 ani care participă la parade, competiții și evenimente cicliste pe drumurile publice. Legea actuală interzice, ca regulă generală, conducerea bicicletei pe drum public sub această vârstă.",
+    "realityCheck": "Textul introduce o singură excepție de la limita de 14 ani, valabilă doar la evenimente organizate, cu un însoțitor: părinte, tutore sau adult împuternicit în scris. Textul nu cere ca traseul să fie închis sau protejat temporar traficului, deși expunerea de motive invocă «trafic restricționat sau controlat». Nu impune cască și nu stabilește câți adulți trebuie să supravegheze câți copii. Măsurile concrete sunt lăsate în seama organizatorilor și a unor «autorități competente» nenumite.",
     "affectedGroups": [
       "Șoferi & Auto",
       "Sănătate & Educație",
@@ -44,10 +44,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Articol unic (Art. 70 alin. (2¹) OUG 195/2002)",
-      "proposalContent": "Articol unic. – După art. 70 alin. (2) din OUG nr. 195/2002, republicată, se introduce alin. (2¹): «(2¹) Prin excepție de la alin. (2), minorii sub 14 ani pot participa la parade sau evenimente cicliste avizate de poliția rutieră, pe tronsoane cu trafic auto restricționat, cu cască de protecție, însoțiți de părinte, tutore ori adult cu acord scris.»",
-      "argumentation": "OUG 195/2002 are doar 137 de articole, deci Art. 194 alin. (3) nu există; limita de 14 ani este la Art. 70 alin. (2). Corectarea trimiterii previne neconstituționalitatea (Art. 1 alin. 5). Avizul poliției, restricționarea traficului auto și casca protejează copiii, iar «acordul scris» evită interpretarea abuzivă ca procură notarială.",
-      "otherComments": "Corectați și titlul proiectului: înlocuiți «Ordonanței du Urgență» cu «Ordonanței de urgență» și menționați doar «completarea» (nu «modificarea și completarea»), întrucât se introduce un singur alineat. Clarificați în comisie și dacă un profesor sau antrenor desemnat poate însoți simultan un grup de copii."
+      "articleRef": "Art. 194 alin. (3¹) (articol unic)",
+      "proposalContent": "Art. unic: la art. [corect] se introduce alin. (3¹): «Prin excepție, copiii sub 14 ani pot circula cu bicicleta pe drumurile publice doar în cadrul evenimentelor organizate legal, pe trasee închise sau protejate temporar circulației, purtând cască de protecție, sub supravegherea directă a părintelui, tutorelui sau a unui adult împuternicit în scris.»",
+      "argumentation": "Textul actual permite participarea și pe drumuri deschise traficului, fără cască și fără raport adult/copii. Condiționarea de traseu închis/protejat și cască transpune în normă intenția declarată în expunerea de motive (trafic restricționat sau controlat) și elimină interpretarea extensivă. Trimiterea la articol trebuie verificată.",
+      "otherComments": "Verificați numerotarea: regula vârstei de 14 ani pare să fie în Regulamentul aprobat prin HG 1391/2006, nu la art. 194 din OUG 195/2002. Titlul spune «modificarea și», dar textul doar completează. Corectați «Ordonanței du Urgență». Sugerăm un număr minim de adulți însoțitori raportat la numărul copiilor, stabilit prin regulament."
     }
   },
   "council": {
@@ -87,8 +87,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 36537,
+      "sourceEndMarker": "SF-4C2C91A4",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Copiii sub 14 ani vor putea merge cu bicicleta la parade și evenimente organizate pe drum, însoțiți de un adult",
+      "verdictShort": "Este o lege mică, benignă și utilă, care legalizează o practică deja răspândită: tururile cicliste cu familii. Problemele sunt de redactare. Trimiterea la articol pare greșită, iar condițiile de siguranță sunt lăsate vagi, dar nu există taxe, monopoluri sau sancțiuni noi.",
+      "initiatorClaim": "Inițiatorii vor să clarifice situația copiilor sub 14 ani care participă la parade, competiții și evenimente cicliste pe drumurile publice. Legea actuală interzice, ca regulă generală, conducerea bicicletei pe drum public sub această vârstă.",
+      "realityCheck": "Textul introduce o singură excepție de la limita de 14 ani, valabilă doar la evenimente organizate, cu un însoțitor: părinte, tutore sau adult împuternicit în scris. Textul nu cere ca traseul să fie închis sau protejat temporar traficului, deși expunerea de motive invocă «trafic restricționat sau controlat». Nu impune cască și nu stabilește câți adulți trebuie să supravegheze câți copii. Măsurile concrete sunt lăsate în seama organizatorilor și a unor «autorități competente» nenumite.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 194 alin. (3¹) (articol unic, nenumerotat ca atare): permite copiilor sub 14 ani să conducă biciclete pe drumuri publice numai în cadrul evenimentelor, paradelor, competițiilor sau altor activități organizate, cu respectarea măsurilor de siguranță.",
+        "Condiția de însoțire este formulată larg. Adultul poate fi părintele, tutorele sau o persoană «desemnată oficial» prin împuternicire scrisă. Nu se precizează forma împuternicirii, dacă însoțitorul trebuie să fie fizic lângă copil sau câți copii poate supraveghea un singur adult.",
+        "Textul nu condiționează excepția de închiderea sau restricționarea circulației. Formula «desfășurate pe drumurile publice în condițiile legii» permite, teoretic, evenimente pe drumuri deschise traficului. Asta contrazice argumentul din expunerea de motive.",
+        "Nu există sarcini bugetare, taxe, avize noi sau sancțiuni. Impactul birocratic se rezumă la o împuternicire scrisă pentru adulții care nu sunt părinți."
+      ],
+      "blindSpotsCaught": "Trimiterea la «Art. 194 alin. (3)» din OUG 195/2002 trebuie verificată. Forma consolidată a ordonanței nu pare să aibă un articol 194, iar regula vârstei minime de 14 ani pentru bicicliști se află, după toate aparențele, în Regulamentul de aplicare aprobat prin HG nr. 1391/2006. Dacă trimiterea este greșită, norma nu se poate încorpora corect și riscă să rămână inaplicabilă. Alte deficiențe: titlul anunță «modificarea și completarea», deși textul doar completează; lipsește formula «Articol unic»; apare greșeala «Ordonanței du Urgență».",
+      "constitutionalityNote": "Nu există probleme de fond. Măsura este compatibilă cu art. 49 din Constituție (protecția copiilor) și cu dreptul de a participa la activități culturale și sportive. Procedura respectă art. 75: Senatul a fost prima cameră sesizată, Camera Deputaților este decizională, iar o lege ordinară poate modifica o ordonanță de urgență. Singurul risc ține de art. 1 alin. (5), sub aspectul clarității și previzibilității. Trimiterea posibil eronată la art. 194 alin. (3) și termenii vagi («autorități competente», «adult desemnat oficial») pot crea dificultăți de aplicare, dar nu par să ducă la neconstituționalitate.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece legea nu reglementează accesul la o profesie. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu sunt vizate servicii ale societății informaționale sau reglementări tehnice pentru produse. Nu există efecte asupra pieței unice sau concurenței. Afirmația privind «armonizarea cu practicile europene» este doar o motivație politică: nu există un act UE care să impună sau să interzică astfel de reguli.",
+      "senatForm": {
+        "articleRef": "Art. 194 alin. (3¹) (articol unic)",
+        "proposalContent": "Art. unic: la art. [corect] se introduce alin. (3¹): «Prin excepție, copiii sub 14 ani pot circula cu bicicleta pe drumurile publice doar în cadrul evenimentelor organizate legal, pe trasee închise sau protejate temporar circulației, purtând cască de protecție, sub supravegherea directă a părintelui, tutorelui sau a unui adult împuternicit în scris.»",
+        "argumentation": "Textul actual permite participarea și pe drumuri deschise traficului, fără cască și fără raport adult/copii. Condiționarea de traseu închis/protejat și cască transpune în normă intenția declarată în expunerea de motive (trafic restricționat sau controlat) și elimină interpretarea extensivă. Trimiterea la articol trebuie verificată.",
+        "otherComments": "Verificați numerotarea: regula vârstei de 14 ani pare să fie în Regulamentul aprobat prin HG 1391/2006, nu la art. 194 din OUG 195/2002. Titlul spune «modificarea și», dar textul doar completează. Corectați «Ordonanței du Urgență». Sugerăm un număr minim de adulți însoțitori raportat la numărul copiilor, stabilit prin regulament."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -141,7 +169,7 @@
         "codex": 4
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:57:40.047Z",
+      "replacedAt": "2026-11-24T14:55:42.831Z",
       "reasons": [
         "model"
       ]

@@ -2,7 +2,7 @@
   "billId": "Pl-x 597/2026",
   "slug": "plx-597-2026",
   "version": "initiator",
-  "updatedAt": "2026-11-24T12:57:15.216Z",
+  "updatedAt": "2026-11-24T14:55:53.267Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "initiator",
@@ -33,20 +33,20 @@
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Procese-verbale de amendă fără adresă de domiciliu, adaptate la buletinul electronic",
-    "summaryTlDr": "Inițiativă tehnică utilă și proporțională, necesară pentru corelarea legislației contravenționale cu cartea electronică de identitate, pe care domiciliul nu mai este tipărit. Nu introduce abuzuri sau taxe ascunse, dar are două omisiuni de corelare remediabile ușor la comisie.",
-    "initiatorClaim": "Inițiatorii susțin că eliminarea obligației de a trece domiciliul în procesul-verbal corelează OG nr. 2/2001 cu regimul cărții electronice de identitate (OUG nr. 97/2005), elimină anulările formaliste și neunitare în instanță și evită blocajele agenților constatatori care nu au cititoare de cip sau acces la evidența persoanelor.",
-    "realityCheck": "Legea în vigoare (art. 16 alin. 1 și 5 din OG nr. 2/2001) cere obligatoriu înscrierea domiciliului contravenientului și, pentru minori, a domiciliului părinților ori ocrotitorilor legali. Proiectul șterge exclusiv cuvântul «domiciliul» din aceste două alineate, păstrând numele, prenumele și CNP-ul contravenientului (iar alin. 1^1 pentru străini, alin. 6 pentru firme și alin. 7 privind obiecțiunile rămân neschimbate). Efectele secundare reale sunt că, la minori, părinții sau tutorii rămân indicați doar prin nume și prenume (fără CNP), iar proiectul nu creează un mecanism prin care instituțiile fără acces la bazele de date să afle adresa pentru a comunica legal amenda.",
+    "plainTitle": "Domiciliul nu mai trebuie trecut obligatoriu în procesul-verbal de amendă",
+    "summaryTlDr": "Este o corecție tehnică utilă și benignă. Adaptează procesul-verbal la cartea electronică de identitate, pe care adresa nu mai este tipărită, și reduce anulările pe motiv pur formal. Problema adresei nu dispare însă, ci se mută la etapa comunicării și a executării amenzii, iar proiectul nu o rezolvă.",
+    "initiatorClaim": "Inițiatorii USR vor să scoată domiciliul dintre mențiunile obligatorii ale procesului-verbal. Motivele invocate: pe cartea electronică de identitate adresa nu mai e vizibilă (art. 17 alin. (5^2) din OUG 97/2005), mulți agenți constatatori nu au acces la bazele de date, iar instanțele tratează diferit lipsa domiciliului, uneori ca nulitate relativă.",
+    "realityCheck": "Articolul unic șterge cuvântul «domiciliul» din art. 16 alin. (1), pentru contravenient, și din alin. (5), pentru părinții sau ocrotitorii minorului. Celelalte mențiuni rămân neschimbate, inclusiv numele, prenumele și CNP-ul, iar art. 17 (nulitatea absolută) nu este atins, deci contravenientul rămâne pe deplin identificat. Efectul secundar: dispozițiile din OG 2/2001 care leagă comunicarea și executarea de domiciliu (comunicarea la domiciliu, trimiterea spre executare către organul fiscal al UAT de domiciliu) rămân neatinse. Agenții fără acces la evidența persoanelor vor avea aceeași problemă, doar într-o etapă ulterioară.",
     "affectedGroups": [
       "Toți cetățenii",
       "Șoferi & Auto",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. unic (Art. 16 alin. 5 OG nr. 2/2001)",
-      "proposalContent": "La art. 16 alin. (5), se propune: «(5) În cazul în care contravenientul este minor, procesul-verbal va cuprinde și numele, prenumele și, după caz, codul numeric personal ale părinților sau ale altor reprezentanți ori ocrotitori legali ai acestuia, dacă aceștia sunt de față sau pot fi identificați.»",
-      "argumentation": "Eliminarea domiciliului părinților ori ocrotitorilor legali din alin. (5), fără a prevedea CNP-ul lor, lasă doar numele și prenumele. În caz de omonimie sau când minorul are tutore, comunicarea obligatorie a procesului-verbal (art. 26 alin. 3) devine greoaie și poate afecta dreptul la apărare.",
-      "otherComments": "1) Corectați titlul legii eliminând «și completarea», deoarece proiectul conține doar modificări (Legea 24/2000). 2) Corelați proiectul cu art. 26-27 din OG 2/2001: clarificați cum obțin instituțiile fără acces la evidența persoanelor adresa necesară comunicării actului când contravenientul lipsește."
+      "articleRef": "Art. 27 OG 2/2001 – alineat nou (1^1)",
+      "proposalContent": "Se introduce la art. 27 alin. (1^1): «Dacă procesul-verbal nu cuprinde domiciliul contravenientului, organul din care face parte agentul constatator obține adresa acestuia, pe baza CNP, din Registrul național de evidență a persoanelor, iar comunicarea se face la adresa astfel obținută. Aceeași adresă se folosește pentru aplicarea art. 39.»",
+      "argumentation": "Eliminarea domiciliului din procesul-verbal mută problema la comunicare și executare: OG 2/2001 leagă comunicarea și trimiterea spre executare de domiciliu, iar agenții din afara poliției nu au acces la evidența persoanelor. Fără o cale legală de obținere a adresei, termenele de plângere și de plată a jumătății din minim pot rămâne neactivate.",
+      "otherComments": "Titlul spune «modificarea și completarea», deși articolul unic doar modifică alin. (1) și (5) ale art. 16; se recomandă «pentru modificarea art. 16». La alin. (5) ar fi utilă adăugarea CNP-ului reprezentantului legal al minorului. Lipsesc dispoziții tranzitorii pentru procesele-verbale anterioare aflate în litigiu."
     }
   },
   "council": {
@@ -86,8 +86,38 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 47033,
+      "sourceEndMarker": "SF-36BA1F77",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Domiciliul nu mai trebuie trecut obligatoriu în procesul-verbal de amendă",
+      "verdictShort": "Este o corecție tehnică utilă și benignă. Adaptează procesul-verbal la cartea electronică de identitate, pe care adresa nu mai este tipărită, și reduce anulările pe motiv pur formal. Problema adresei nu dispare însă, ci se mută la etapa comunicării și a executării amenzii, iar proiectul nu o rezolvă.",
+      "initiatorClaim": "Inițiatorii USR vor să scoată domiciliul dintre mențiunile obligatorii ale procesului-verbal. Motivele invocate: pe cartea electronică de identitate adresa nu mai e vizibilă (art. 17 alin. (5^2) din OUG 97/2005), mulți agenți constatatori nu au acces la bazele de date, iar instanțele tratează diferit lipsa domiciliului, uneori ca nulitate relativă.",
+      "realityCheck": "Articolul unic șterge cuvântul «domiciliul» din art. 16 alin. (1), pentru contravenient, și din alin. (5), pentru părinții sau ocrotitorii minorului. Celelalte mențiuni rămân neschimbate, inclusiv numele, prenumele și CNP-ul, iar art. 17 (nulitatea absolută) nu este atins, deci contravenientul rămâne pe deplin identificat. Efectul secundar: dispozițiile din OG 2/2001 care leagă comunicarea și executarea de domiciliu (comunicarea la domiciliu, trimiterea spre executare către organul fiscal al UAT de domiciliu) rămân neatinse. Agenții fără acces la evidența persoanelor vor avea aceeași problemă, doar într-o etapă ulterioară.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Șoferi & Auto",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 16 alin. (1): textul în vigoare cere «numele, prenumele, domiciliul și codul numeric personal ale contravenientului». Forma propusă păstrează doar numele, prenumele și CNP-ul. CNP-ul este identificator unic, deci identificarea persoanei nu are de suferit.",
+        "Art. 16 alin. (5): la minori dispare și domiciliul părinților sau al ocrotitorilor legali. Rămân doar numele și prenumele acestora, fără CNP, așa că identificarea reprezentantului legal devine mai slabă decât cea a contravenientului.",
+        "Alin. (1^1) (străini, apatrizi, români cu domiciliul în străinătate) nu se modifică, deci se păstrează datele pașaportului sau ale documentului de călătorie.",
+        "Comunicarea procesului-verbal (art. 25–27) și trimiterea spre executare (art. 39) din OG 2/2001 rămân raportate la domiciliul contravenientului. Proiectul nu prevede cum obține adresa un agent fără acces la Registrul național de evidență a persoanelor, de exemplu de la protecția consumatorului, mediu sau transport public.",
+        "Lipsesc dispozițiile tranzitorii. Procesele-verbale încheiate înainte de intrarea în vigoare se judecă după legea de la data încheierii, așa că practica neunitară invocată persistă pentru litigiile aflate pe rol.",
+        "Expunerea de motive spune că din 2031 cărțile electronice de identitate devin obligatorii. Regulamentul (UE) 2019/1157 impune însă standarde minime de securitate și retragerea treptată a cărților neconforme. Nu impune în sine eliminarea adresei de pe suport; aceea este o opțiune a legiuitorului român, prin OUG 97/2005."
+      ],
+      "blindSpotsCaught": "Domiciliul nu servește la identificare, cum notează corect expunerea de motive, ci la comunicarea actului și la stabilirea organului fiscal competent pentru executare. Proiectul elimină obligația de a consemna adresa, dar nu creează un mecanism prin care agentul constatator să o obțină ulterior. În cazurile în care procesul-verbal nu e înmânat pe loc (refuz de semnătură, contravenientul absent), riscul de comunicare defectuoasă poate întârzia curgerea termenului de plângere și a celui de 15 zile pentru plata a jumătate din minim. Riscul nu e eliminat, doar mutat. Ca detalii de formă: titlul vorbește de «modificare și completare», deși se fac doar modificări, iar textul inițiatorului se încheie deja cu formula de atestare semnată de președintele Senatului, ceea ce e impropriu pentru o propunere legislativă.",
+      "constitutionalityNote": "Proiectul nu ridică probleme de constituționalitate. Îmbunătățește previzibilitatea normei (art. 1 alin. (5)) prin eliminarea unei surse de practică neunitară privind nulitatea relativă. Dreptul la apărare (art. 24) și accesul la justiție (art. 21) nu sunt afectate, pentru că mențiunile despre faptă, temeiul legal, calea de atac și instanța competentă rămân obligatorii, iar contravenientul poate face obiecțiuni (art. 16 alin. (7)). Art. 23 alin. (12) nu este incident, fiind vorba de proceduri, nu de incriminări sau sancțiuni noi. Ca protecție a datelor (art. 26, viața privată), eliminarea adresei dintr-un act care circulă între mai multe instituții este chiar un plus. Sub aspect procedural, OG 2/2001 este normă cu caracter general, iar legea poate fi adoptată ca lege ordinară, conform formulei finale (art. 76 alin. (2)).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii sau exercitarea lor. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu există reglementări tehnice sau reguli privind serviciile societății informaționale. Proiectul este compatibil cu principiul minimizării datelor din art. 5 alin. (1) lit. c) GDPR, fiindcă reduce datele personale consemnate fără o necesitate stabilită. Regulamentul (UE) 2019/1157 privind securitatea cărților de identitate este doar context. Nu există impact asupra concurenței sau a pieței unice.",
+      "senatForm": {
+        "articleRef": "Art. 27 OG 2/2001 – alineat nou (1^1)",
+        "proposalContent": "Se introduce la art. 27 alin. (1^1): «Dacă procesul-verbal nu cuprinde domiciliul contravenientului, organul din care face parte agentul constatator obține adresa acestuia, pe baza CNP, din Registrul național de evidență a persoanelor, iar comunicarea se face la adresa astfel obținută. Aceeași adresă se folosește pentru aplicarea art. 39.»",
+        "argumentation": "Eliminarea domiciliului din procesul-verbal mută problema la comunicare și executare: OG 2/2001 leagă comunicarea și trimiterea spre executare de domiciliu, iar agenții din afara poliției nu au acces la evidența persoanelor. Fără o cale legală de obținere a adresei, termenele de plângere și de plată a jumătății din minim pot rămâne neactivate.",
+        "otherComments": "Titlul spune «modificarea și completarea», deși articolul unic doar modifică alin. (1) și (5) ale art. 16; se recomandă «pentru modificarea art. 16». La alin. (5) ar fi utilă adăugarea CNP-ului reprezentantului legal al minorului. Lipsesc dispoziții tranzitorii pentru procesele-verbale anterioare aflate în litigiu."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -140,7 +170,7 @@
         "codex": 3
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:57:15.216Z",
+      "replacedAt": "2026-11-24T14:55:53.267Z",
       "reasons": [
         "model"
       ]

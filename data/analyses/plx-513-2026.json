@@ -2,7 +2,7 @@
   "billId": "PL-x 513/2026",
   "slug": "plx-513-2026",
   "version": "senat",
-  "updatedAt": "2026-11-24T12:59:05.122Z",
+  "updatedAt": "2026-11-24T14:56:38.455Z",
   "coverage": {
     "method": "whole-text-v1",
     "form": "senat",
@@ -33,19 +33,19 @@
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
-    "plainTitle": "Fără certificate de stare civilă la ghișeu pentru buletin, dacă datele există în sistem",
-    "summaryTlDr": "Proiect benign și util, care obligă serviciile de evidență a persoanelor să verifice din oficiu datele de stare civilă în sistemele informatice ale statului. Nu introduce taxe, monopoluri sau restricții de drepturi, având doar mici lacune de aplicare practică ce pot fi ușor corectate la comisii.",
-    "initiatorClaim": "Inițiatorii susțin că vor să elimine birocrația repetitivă prin care cetățenii trebuie să aducă certificate de naștere, căsătorie, divorț sau deces la emiterea ori preschimbarea actului de identitate, deși statul deține deja aceste date în registrele digitale.",
-    "realityCheck": "În legea actuală, art. 20 alin. (1) lit. a) din OUG nr. 97/2005 impune eliberarea cărții de identitate provizorii dacă solicitantul nu aduce toate documentele cerute. Proiectul blochează această practică pentru certificatele de stare civilă verificabile electronic (art. 20 alin. 4) și instituie regula verificării din oficiu (art. 20¹), cu o excepție rezonabilă când datele lipsesc sau au neconcordanțe. Principala vulnerabilitate practică este că funcționarul nu este obligat să consemneze în scris sau electronic motivul pentru care verificarea nu a funcționat.",
+    "plainTitle": "Nu mai duci la ghișeul de buletine certificatele pe care statul le are deja în sistem",
+    "summaryTlDr": "O lege scurtă și utilă, care obligă serviciile de evidență să verifice singure, în baza de date, actele de stare civilă, în loc să le ceară cetățeanului. Riscurile sunt mici și țin de aplicare: excepția din alin.(3) e largă, iar motivarea refuzului nu e cerută în scris.",
+    "initiatorClaim": "Inițiatorii vor să oprească practica prin care oamenilor li se cer din nou certificatul de naștere, de căsătorie, de deces sau actele de divorț la eliberarea buletinului, deși statul le deține deja în registrele electronice. Vor ca regula să fie: dacă statul are informația, o verifică singur.",
+    "realityCheck": "Proiectul introduce art.20¹ în OUG 97/2005. Pentru eliberarea actelor de identitate (art.12, 12¹, 19 și 20), SPCLEP verifică din oficiu, prin sistemele informatice, datele de stare civilă strict necesare și nu mai poate cere certificatele dacă le poate verifica singur. Excepția din alin.(3) e însă largă: date indisponibile, incomplete, cu neconcordanțe sau neverificabile. Pentru actele vechi nedigitalizate sau pentru cele întocmite în străinătate și netranscrise, cetățeanul va prezenta în continuare documente. Legea nu prevede nicio sancțiune sau cale de atac specifică dacă ghișeul cere totuși certificatele.",
     "affectedGroups": [
       "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 2 - art. 20¹ alin. (3)",
-      "proposalContent": "La art. 20¹ alin. (3), după «cu indicarea» se introduce «în scris sau electronic a», pentru a consemna motivul imposibilității verificării din oficiu. De asemenea, se corectează erorile materiale de la Art. I pct. 2 («se introduce») și de la finalul Art. II (eliminarea ghilimelei în plus).",
-      "argumentation": "Proiectul este benefic și elimină birocrația inutilă, însă în forma actuală funcționarul poate invoca verbal imposibilitatea verificării în sistem, fără nicio trasabilitate. Consemnarea scrisă sau electronică a motivului descurajează refuzurile arbitrare la ghișeu și permite identificarea blocajelor tehnice reale din sistemele informatice.",
-      "otherComments": "Susțin adoptarea proiectului. Recomand clarificarea aplicării directe a legii până la actualizarea HG 295/2021 și HG 255/2024 (termenul de 90 de zile de la Art. II) și verificarea oportunității extinderii regulii și la înscrierea mențiunii de reședință (art. 30-31), nu doar la eliberarea actului de identitate."
+      "articleRef": "Art.I pct.2 – art.20¹ alin.(3) OUG 97/2005",
+      "proposalContent": "La art.20¹ alin.(3) se adaugă: „Motivul se comunică solicitantului în scris, la depunerea cererii. Neconcordanțele datorate erorilor din sistemele informatice se remediază din oficiu, prin comunicare directă cu oficiul de stare civilă, fără a condiționa eliberarea actului de prezentarea certificatelor.”",
+      "argumentation": "Fără motivare scrisă, excepția din alin.(3) poate redeveni regula, iar cetățeanul nu are cum contesta cererea. Erorile din registre (acte nedigitizate, diacritice greșite) țin de stat. Sarcina corectării lor nu trebuie mutată pe cetățean, în spiritul principiului „o singură dată” asumat chiar de inițiatori.",
+      "otherComments": "Corecturi de redactare: la pct.2 lipsește „se” („se introduce”), iar la Art.II ghilimelele de închidere sunt în plus. E util ca normele de la Art.II să precizeze ce înseamnă „nu pot fi verificate” și să stabilească un termen de răspuns între SPCLEP și oficiul de stare civilă."
     }
   },
   "council": {
@@ -84,8 +84,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "durationMs": 42230,
+      "sourceEndMarker": "SF-F27B104E",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Nu mai duci la ghișeul de buletine certificatele pe care statul le are deja în sistem",
+      "verdictShort": "O lege scurtă și utilă, care obligă serviciile de evidență să verifice singure, în baza de date, actele de stare civilă, în loc să le ceară cetățeanului. Riscurile sunt mici și țin de aplicare: excepția din alin.(3) e largă, iar motivarea refuzului nu e cerută în scris.",
+      "initiatorClaim": "Inițiatorii vor să oprească practica prin care oamenilor li se cer din nou certificatul de naștere, de căsătorie, de deces sau actele de divorț la eliberarea buletinului, deși statul le deține deja în registrele electronice. Vor ca regula să fie: dacă statul are informația, o verifică singur.",
+      "realityCheck": "Proiectul introduce art.20¹ în OUG 97/2005. Pentru eliberarea actelor de identitate (art.12, 12¹, 19 și 20), SPCLEP verifică din oficiu, prin sistemele informatice, datele de stare civilă strict necesare și nu mai poate cere certificatele dacă le poate verifica singur. Excepția din alin.(3) e însă largă: date indisponibile, incomplete, cu neconcordanțe sau neverificabile. Pentru actele vechi nedigitalizate sau pentru cele întocmite în străinătate și netranscrise, cetățeanul va prezenta în continuare documente. Legea nu prevede nicio sancțiune sau cale de atac specifică dacă ghișeul cere totuși certificatele.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art.I pct.2 – art.20¹ alin.(1)-(2): SPCLEP verifică din oficiu datele de stare civilă și nu poate cere certificatele sau copiile lor dacă datele pot fi verificate prin sistemele informatice. Acum, obligația de a le prezenta rezultă din practică și din normele metodologice (HG 295/2021). După proiect, regula devine interdicție expresă în lege.",
+        "Art.I pct.1 – art.20 alin.(4): în prezent, art.20 alin.(1) lit.a) prevede eliberarea cărții de identitate provizorii când solicitantul nu prezintă toate documentele. Noul alineat precizează că lipsa certificatelor de stare civilă nu mai justifică eliberarea buletinului provizoriu dacă datele pot fi verificate din oficiu. Efectul practic: cetățeanul primește direct actul definitiv, nu unul provizoriu valabil un an.",
+        "Art.20¹ alin.(3): SPCLEP poate cere documente când datele lipsesc, sunt incomplete, au neconcordanțe sau nu pot fi verificate, dar trebuie să indice motivul. Este o garanție utilă. Legea nu spune însă că motivul se comunică în scris și nu stabilește cine corectează erorile din registre.",
+        "Art.II: Guvernul are 90 de zile să modifice HG 295/2021 și HG 255/2024 (normele de stare civilă). Termenul e realist, dar nu e însoțit de nicio consecință dacă este depășit. Până la modificarea normelor, legea se aplică direct, deoarece are forță superioară hotărârilor de Guvern.",
+        "Formularea „datele strict necesare soluționării cererii” din art.20¹ alin.(1) respectă principiul minimizării datelor din GDPR (art.5 alin.(1) lit.c)) și limitează accesul SPCLEP la registrul de stare civilă."
+      ],
+      "blindSpotsCaught": "Excepția din art.20¹ alin.(3) acoperă exact situațiile frecvente: acte de stare civilă vechi, încă nedigitalizate în SIIEASC, acte întocmite în străinătate și netranscrise, și erori de transcriere (diacritice, nume). Fără termen de răspuns între SPCLEP și oficiul de stare civilă și fără obligația de a corecta erorile din oficiu, excepția poate redeveni regulă. În acest caz, sarcina de a corecta greșelile statului rămâne tot la cetățean. Probleme de redactare: noul alin.(4) se adaugă după un alin.(3) abrogat în 2020, ceea ce e corect tehnic, dar trebuie verificat la republicare. La pct.2 lipsește „se” („După articolul 20 [se] introduce”). La finalul Art.II apar ghilimele de închidere în plus. Sintagma „în condițiile legii” din alin.(4) e vagă, dar trimite implicit la art.20¹.",
+      "constitutionalityNote": "Nu apar probleme de constituționalitate. Textul e clar și previzibil în sensul art.1 alin.(5) din Constituție: stabilește regula verificării din oficiu, excepțiile ei și obligația de motivare. Proiectul reduce sarcinile cetățeanului și nu restrânge niciun drept, deci art.53 nu este incident. Prelucrarea datelor e limitată la cele „strict necesare”, în acord cu art.26 (viața intimă). Impactul bugetar e neglijabil, pentru că sistemele informatice există deja (SIIEASC, RNEP), așa că art.111 alin.(1) și art.138 alin.(5) nu ridică probleme reale. Forma Senatului a fost adoptată conform art.76 alin.(2), ca lege ordinară, ceea ce e corect: materia nu ține de legea organică.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la profesii. Nici Directiva (UE) 2015/1535 (TRIS) nu se aplică: nu stabilește reguli tehnice pentru servicii ale societății informaționale, ci o procedură administrativă internă. Proiectul e în linie cu principiul „o singură dată” (once-only) din Regulamentul (UE) 2018/1724 privind portalul digital unic și cu Regulamentul (UE) 2019/1157 privind securitatea cărților de identitate, pe care nu îl afectează. Pentru prelucrarea datelor, temeiul e art.6 alin.(1) lit.e) din GDPR (sarcină de interes public), iar limitarea la datele strict necesare respectă art.5 GDPR. Nu are impact asupra concurenței sau a pieței unice.",
+      "senatForm": {
+        "articleRef": "Art.I pct.2 – art.20¹ alin.(3) OUG 97/2005",
+        "proposalContent": "La art.20¹ alin.(3) se adaugă: „Motivul se comunică solicitantului în scris, la depunerea cererii. Neconcordanțele datorate erorilor din sistemele informatice se remediază din oficiu, prin comunicare directă cu oficiul de stare civilă, fără a condiționa eliberarea actului de prezentarea certificatelor.”",
+        "argumentation": "Fără motivare scrisă, excepția din alin.(3) poate redeveni regula, iar cetățeanul nu are cum contesta cererea. Erorile din registre (acte nedigitizate, diacritice greșite) țin de stat. Sarcina corectării lor nu trebuie mutată pe cetățean, în spiritul principiului „o singură dată” asumat chiar de inițiatori.",
+        "otherComments": "Corecturi de redactare: la pct.2 lipsește „se” („se introduce”), iar la Art.II ghilimelele de închidere sunt în plus. E util ca normele de la Art.II să precizeze ce înseamnă „nu pot fi verificate” și să stabilească un termen de răspuns între SPCLEP și oficiul de stare civilă."
+      },
+      "reachedEnd": true,
+      "status": "ok"
     },
     "codex": {
       "model": "codex",
@@ -136,7 +164,7 @@
         "codex": 2
       },
       "corrections": 0,
-      "replacedAt": "2026-11-24T12:59:05.122Z",
+      "replacedAt": "2026-11-24T14:56:38.455Z",
       "reasons": [
         "model"
       ]

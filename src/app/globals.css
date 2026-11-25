@@ -359,6 +359,33 @@ details[open] > summary .chevron {
     display: inline;
   }
 }
+/* Lista „Toate proiectele semnate” (src/components/mps/SignedBills.tsx): sute de rânduri pe o pagină, așa că rândul are
+   clase scurte aici, nu lista întreagă de utilitare repetată în HTML și în datele paginii. */
+.signed-row {
+  @apply grid grid-cols-[minmax(0,1fr)_auto] gap-x-4 gap-y-1 px-4 py-3 transition-colors hover:bg-sunken/50 sm:grid-cols-[8.5rem_minmax(0,1fr)_11rem] sm:gap-x-6 sm:px-5;
+}
+.signed-id {
+  @apply text-sm font-semibold tabular-nums text-ink sm:row-span-2;
+}
+.signed-stage {
+  @apply text-right text-xs leading-5 text-muted sm:col-start-3 sm:row-span-2 sm:row-start-1;
+}
+.signed-stage b {
+  @apply block font-semibold text-body;
+}
+.signed-title {
+  @apply col-span-2 line-clamp-2 text-[15px] leading-6 font-semibold text-ink underline-offset-4 sm:col-span-1 sm:col-start-2 sm:row-start-1;
+}
+li[data-a='no'] .signed-title {
+  @apply font-normal text-body;
+}
+.signed-row:hover .signed-title {
+  @apply underline;
+}
+.signed-meta {
+  @apply col-span-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted sm:col-span-1 sm:col-start-2 sm:row-start-2;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .tech-draw {
     animation: none;

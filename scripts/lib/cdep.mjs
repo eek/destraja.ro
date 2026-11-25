@@ -297,9 +297,12 @@ export function parseSheet(html) {
   // Când semnează doar deputați, fișa scrie „25 deputati, din care:” și apoi doar „- PSD:”. Liniuța din eticheta
   // partidului are spațiu înainte; cea din numele compuse („Sergiu-Mircea”) nu, așa că nu le confundăm.
   let rol = /^\s*\d+\s+senatori/i.test(clean(initBlock)) ? 'senator' : /^\s*\d+\s+deputati/i.test(clean(initBlock)) ? 'deputat' : null;
+  // leg: legislatura mandatului din linkul fișei („leg=2020”). idm-ul e numărul din lista alfabetică a legislaturii, deci
+  // același idm înseamnă alt om în altă legislatură (src/lib/signed.ts leagă semnăturile de pagina parlamentarului).
   for (const piece of initBlock.split(/(?=<a )/i)) {
-    const name = piece.match(/structura2015\.mp\?idm=(\d+)[^>]*>([^<]+)<\/a>/);
-    if (name) initiatori.push({ idm: +name[1], nume: clean(name[2]), partid: party, ...(rol && { rol }) });
+    const name = piece.match(/structura2015\.mp\?idm=(\d+)([^>]*)>([^<]+)<\/a>/);
+    const leg = name?.[2].match(/\bleg=(\d{4})/)?.[1];
+    if (name) initiatori.push({ idm: +name[1], nume: clean(name[3]), partid: party, ...(rol && { rol }), ...(leg && { leg: +leg }) });
     const labels = [...clean(piece).matchAll(/(?:^|\s)(?:(deputati|senatori)\s*)?-\s*([^:,\-]{1,30}):/gi)];
     if (labels.length) {
       const [, who, label] = labels.at(-1);

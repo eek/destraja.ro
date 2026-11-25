@@ -28,6 +28,21 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-25',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Toate proiectele semnate de un parlamentar',
+        text: 'Pe pagina fiecărui deputat și senator apare acum lista tuturor proiectelor pe care le-a semnat ca inițiator, nu doar a celor analizate de noi: cele înregistrate la Cameră în 2026, cele din anii trecuți încă în dezbatere și cele semnate în mandatul de dinainte, dacă era parlamentar și atunci. Fiecare rând are numărul, titlul, stadiul și data lui; riscul apare doar la proiectele analizate, celelalte sunt marcate „fără analiză”. Lista e pe ani și se poate filtra după analiză și după stadiu: în dezbatere, adoptate, respinse sau oprite. Cifrele din capul paginii rămân cele de până acum și numără doar proiectele analizate din 2026.',
+        link: { href: '/parlamentari', label: 'Parlamentarii' },
+        shot: {
+          id: '2026-11-25-proiecte-semnate',
+          alt: 'Lista „Toate proiectele semnate” de pe pagina unui parlamentar: câte proiecte a semnat și câte dintre ele au analiză, filtrele după analiză și după stadiu, apoi proiectele din 2026, fiecare cu numărul, titlul, stadiul cu data și riscul sau mențiunea „fără analiză”.',
+        },
+      },
+    ],
+  },
+  {
     date: '2026-11-24',
     items: [
       {

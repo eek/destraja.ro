@@ -11,7 +11,7 @@ import type { RiskLevel } from './types';
 
 export const SEARCH_API = 'https://cauta.destraja.ro/api/cauta';
 
-/** Un parlamentar din /cauta/oameni.json: nume, slug, partid, rol, câte proiecte urmărite a inițiat. */
+/** Un parlamentar din /cauta/oameni.json: nume, slug, partid, rol, câte proiecte a semnat ca inițiator (toate, ca pe pagina lui). */
 export type Person = { n: string; s: string; p: string; r: string; b: number };
 
 export type BillHit = {

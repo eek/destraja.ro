@@ -8,13 +8,15 @@ import { getAmendmentsByMp, getCdepSigned } from '@/lib/cdep';
 import { partyFullName } from '@/lib/site';
 import { RISK, RISK_LEVELS, levelFromScore } from '@/lib/risk';
 import { countWord, fmt } from '@/lib/format';
-import { Container, PartyTag, RiskChip, RiskDot, panel } from '@/components/ui';
+import { Container, PartyTag, RiskDot, panel } from '@/components/ui';
 import BillGrid from '@/components/bills/BillGrid';
 import MpContactPanel from '@/components/mps/MpContactPanel';
 import RiskInfo from '@/components/bills/RiskInfo';
 import { getMpContact } from '@/lib/mp-contacts';
 import MpVotes from '@/components/mps/MpVotes';
 import { getVotesByMp } from '@/lib/votes';
+import { getSignedByMp } from '@/lib/signed';
+import SignedBills from '@/components/mps/SignedBills';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -54,6 +56,7 @@ export default async function MpPage({ params }: PageProps) {
   const contact = await getMpContact(mp.name);
   const admitted = ((await getAmendmentsByMp()).get(mp.slug) ?? []).filter((a) => a.status === 'admis');
   const votes = (await getVotesByMp()).get(mp.slug) ?? [];
+  const signed = (await getSignedByMp()).byMp.get(mp.slug) ?? [];
 
   const shared = new Map<string, number>();
   for (const b of [...own, ...ownChamber]) {
@@ -88,7 +91,7 @@ export default async function MpPage({ params }: PageProps) {
         </div>
         <dl className="grid grid-cols-3 gap-x-8 gap-y-4 sm:grid-cols-5">
           <div className="flex flex-col-reverse">
-            <dt className="text-sm text-muted">proiecte</dt>
+            <dt className="text-sm text-muted">proiecte analizate</dt>
             <dd className="text-3xl font-semibold tabular-nums text-ink">{mp.billsCount}</dd>
           </div>
           {RISK_LEVELS.map((l) => (
@@ -128,43 +131,27 @@ export default async function MpPage({ params }: PageProps) {
         <h2 id="proiecte-title" className="font-display text-3xl font-normal">
           Proiectele semnate
         </h2>
-        <p className="mt-2 mb-6 text-sm text-muted">Ordonate după risc. Semnătura arată cine a inițiat proiectul, nu cum va vota.</p>
+        <p className="mt-2 max-w-[70ch] text-sm leading-6 text-muted">
+          Semnătura arată cine a inițiat proiectul, nu cum va vota.
+          {own.length > 0 && ' Întâi cele din consultarea Senatului, ordonate după risc, apoi toate proiectele pe care le-a semnat, pe ani.'}
+        </p>
         {own.length > 0 && (
           <>
-            {ownChamber.length > 0 && <h3 className="mb-4 text-lg font-semibold text-ink">În consultare la Senat</h3>}
+            <h3 className="mt-6 mb-4 text-lg font-semibold text-ink">În consultare la Senat</h3>
             <BillGrid bills={own} />
           </>
         )}
-        {ownChamber.length > 0 && (
-          <>
-            {own.length > 0 && <h3 className="mt-10 mb-4 text-lg font-semibold text-ink">La Camera Deputaților</h3>}
-            <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
-              {ownChamber.map((b) => (
-                <li key={b.slug}>
-                  <Link
-                    href={`/camera/${b.slug}`}
-                    className="group block px-4 py-4 transition-colors hover:bg-sunken/50 sm:px-6"
-                  >
-                    <span className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
-                      <span className="font-semibold tabular-nums text-ink">{b.id}</span>
-                      <RiskChip level={b.analysis.consensus.riskLevel} score={b.analysis.consensus.riskScore} />
-                      <span className="text-muted">{b.stadiu}</span>
-                      {b.textChange && (
-                        <span className={`font-semibold ${b.textChange.direction === 'mai_putin_riscant' ? 'text-risk-green-text' : 'text-risk-red-text'}`}>
-                          {b.textChange.direction === 'mai_putin_riscant' ? '↘ mai puțin riscant' : '↗ mai riscant'} după {b.textChange.after === 'senat' ? 'Senat' : 'Cameră'}
-                        </span>
-                      )}
-                    </span>
-                    <span className="mt-1.5 block text-[15px] font-semibold leading-6 text-ink group-hover:underline group-hover:underline-offset-4">
-                      {b.analysis.consensus.plainTitle}
-                    </span>
-                    <span className="mt-0.5 line-clamp-1 block text-xs leading-5 text-muted">{b.officialTitle}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
+        <SignedBills rows={signed} analysedCount={mp.billsCount} />
+        <p className="mt-6 max-w-[70ch] text-xs leading-5 text-muted">
+          Lista cuprinde proiectele din consultarea Senatului și fișele Camerei Deputaților pe care le avem: toate proiectele
+          înregistrate în 2026 și, din anii trecuți (din 2020), cele încă în dezbatere sau pe care le urmăream deja. Proiectele
+          mai vechi deja votate nu sunt încă aici. O semnătură dintr-o legislatură trecută intră pe pagină doar când suntem siguri
+          că e același om; cum verificăm, pe{' '}
+          <Link href="/metodologie#parlamentari" className="font-semibold text-link underline decoration-1 underline-offset-4 hover:decoration-2">
+            pagina metodologiei
+          </Link>
+          .
+        </p>
       </section>
 
       <MpVotes votes={votes} role={mp.role} />

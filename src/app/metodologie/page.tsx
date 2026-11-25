@@ -65,7 +65,7 @@ const FOLLOWED = [
   { t: 'Agenda', d: 'Ședințele comisiilor și ale plenului din Senat și din Camera Deputaților, din săptămâna curentă, cu proiectele pe care le urmărim.' },
   { t: 'Presa și organizațiile', d: 'Articolele și pozițiile publice ale ONG-urilor, sindicatelor și patronatelor, verificate pe site-ul lor.' },
   { t: 'Aceeași lege', d: 'Celelalte proiecte care modifică același act, întâi cele aflate încă în dezbatere.' },
-  { t: 'Parlamentarii', d: 'Ce proiecte a semnat fiecare deputat și senator, cât de riscante sunt și cum a votat.' },
+  { t: 'Parlamentarii', d: 'Toate proiectele semnate de fiecare deputat și senator, cât de riscante sunt cele analizate și cum a votat.' },
 ];
 
 const RISK_TEXT = {
@@ -113,7 +113,12 @@ const FAQ = [
   },
   {
     q: 'Cum e calculat scorul unui parlamentar?',
-    a: 'E media scorurilor proiectelor pe care le-a semnat ca inițiator, dintre cele analizate: cele din consultarea publică a Senatului și cele de la Camera Deputaților. Semnătura arată cine a propus proiectul, nu cum votează. Proiectele Guvernului nu intră, pentru că nu au semnături de parlamentari.',
+    a: 'E media scorurilor proiectelor pe care le-a semnat ca inițiator, dintre cele analizate din 2026: cele din consultarea publică a Senatului și cele de la Camera Deputaților. Tot doar pe ele sunt numărate proiectele cu risc ridicat, moderat și redus din capul paginii lui. Semnătura arată cine a propus proiectul, nu cum votează. Proiectele Guvernului nu intră, pentru că nu au semnături de parlamentari.',
+  },
+  {
+    id: 'parlamentari',
+    q: 'Ce proiecte apar în lista unui parlamentar?',
+    a: 'Toate proiectele pe care le-a semnat ca inițiator și pe care le avem, nu doar cele analizate: cele din consultarea Senatului și fișele Camerei Deputaților, adică toate proiectele înregistrate la Cameră în 2026 și, din anii trecuți (din 2020), cele încă în dezbatere sau pe care le urmăream deja. Proiectele mai vechi deja votate nu sunt încă în listă. Riscul apare doar lângă cele analizate; celelalte sunt marcate „fără analiză”. Pe fișa Camerei, fiecare inițiator are numărul lui din legislatura în care a semnat, așa că o semnătură dintr-o legislatură trecută intră pe pagina unui parlamentar de acum doar când fișa lui de pe cdep.ro listează mandatul acela sau, pentru cei fără o asemenea fișă (senatorii, de exemplu), când numele e identic, nu mai e altcineva cu același nume în acea legislatură și numele are cel puțin trei părți sau partidul e același. Altfel semnătura rămâne nelegată: preferăm să lipsească decât să apară pe pagina altcuiva.',
   },
   {
     q: 'De unde știți cum a votat fiecare parlamentar?',
@@ -467,7 +472,7 @@ export default async function MethodPage() {
           <QHead id="faq-title" q="Mai ai întrebări?" a="Răspunsurile pe scurt." />
           <div className="divide-y divide-line border-y border-line">
             {FAQ.map((it) => (
-              <details key={it.q} className="group py-2">
+              <details key={it.q} id={'id' in it ? it.id : undefined} className="group scroll-mt-24 py-2">
                 <summary {...trackAttrs('faq_open', { question: it.q })} className="flex min-h-14 cursor-pointer items-center justify-between gap-4 text-lg font-semibold text-ink">
                   {it.q}
                   <ChevronDown className="chevron h-5 w-5 shrink-0 text-muted" aria-hidden />

@@ -311,7 +311,11 @@ Quiet, solid, unadorned.
 A sunken track (8px corners, 4px padding) holding pills of 12px semibold muted text; the selected pill is white with ink text and the segment shadow. Used for chart metrics, chamber and sort choices, and the theme picker.
 
 ### Navigation
-Sticky header on paper at 90% with background blur and a bottom hairline. Logo left; 14px medium nav links right, muted at rest with a sunken hover fill; the current page is ink with a 2px underline set 10px below the text. A moon/sun toggle sits at the end. Below 768px the links collapse into a menu button revealing a full-width list of 48px rows divided by hairlines.
+Sticky header on paper at 90% with background blur and a bottom hairline, one row from 1024px. Two clusters: where to go, then what to do.
+- **Where to go** (left, after the logo): four groups in 14px medium, muted at rest with a sunken hover fill: Parlament, Monitorul Oficial, Date, Despre. A group with one page is a plain link; a group with two or more is a button with a small chevron that opens a panel. The group holding the current page is ink with a 2px underline set 10px below the text.
+- **Panels:** a white sheet (16px corners, hairline border, the lift shadow, because it floats) hanging 6px under the header, one row per page: an 18px muted line icon, the page name in 14px semibold ink and one muted 13px line saying what is there. The current page's row sits on the pale navy wash (brand-soft). Panels fade and drop 4px in 150ms; no motion under reduced motion. Click, Enter/Space and the arrow keys open them, hover opens them after a short delay, Esc, an outside click, Tab out or a page change closes them.
+- **What to do** (right): a search box that is a link to /cauta (a strong-hairline field with a "/" key hint; "/" and ⌘K/Ctrl+K put the cursor in the page's search field or open /cauta with it), the navy "Alerte" button (the only filled control in the header) and the moon/sun toggle.
+- **Below 1024px:** search icon, theme toggle and a menu button. The menu lies over the page (lift shadow, page scroll locked) with a search field on top, the same four groups as sections of 48px rows with icons (two columns from 640px) and a full-width "Alerte pe e-mail" button at the end.
 
 ### Status band
 A full-bleed navy strip under the hero: one bold sentence of live counts in on-band, a muted follow-up, and underlined action links with icons that pre-filter the bill list.

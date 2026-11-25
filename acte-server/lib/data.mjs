@@ -68,6 +68,9 @@ export class Generation {
         AND (? IS NULL OR (COALESCE(published_on, '') || '|' || id) < ?) ORDER BY COALESCE(published_on, '') DESC, id DESC LIMIT ?`),
       relOut: p(`SELECT * FROM relations WHERE from_id = ? AND (? IS NULL OR effect = ?) AND (? IS NULL OR published_on >= ?)
         AND (? IS NULL OR (COALESCE(published_on, '') || '|' || id) < ?) ORDER BY COALESCE(published_on, '') DESC, id DESC LIMIT ?`),
+      relInPage: p('SELECT * FROM relations WHERE to_id = ? ORDER BY COALESCE(published_on, \'\') DESC, id DESC LIMIT ? OFFSET ?'),
+      relOutPage: p('SELECT * FROM relations WHERE from_id = ? ORDER BY COALESCE(published_on, \'\') DESC, id DESC LIMIT ? OFFSET ?'),
+      portalIds: p('SELECT portal_id FROM publications WHERE act_id = ? ORDER BY CASE kind WHEN \'original\' THEN 0 WHEN \'republicare\' THEN 1 WHEN \'duplicat\' THEN 2 ELSE 3 END, portal_id'),
       relCountIn: p('SELECT effect, count(*) AS n FROM relations WHERE to_id = ? GROUP BY effect ORDER BY n DESC'),
       relCountOut: p('SELECT effect, count(*) AS n FROM relations WHERE from_id = ? GROUP BY effect ORDER BY n DESC'),
       evidence: p('SELECT source, label, observed_at FROM relation_evidence WHERE relation_id = ? ORDER BY source'),
@@ -164,6 +167,20 @@ export class Generation {
   relations(id, dir, { effect = null, since = null, cursor = null, limit = 50 } = {}) {
     const st = dir === 'out' ? this.q.relOut : this.q.relIn;
     return st.all(id, effect, effect, since, since, cursor, cursor, limit).map((r) => ({ ...r, units: parseJson(r.units, null) }));
+  }
+
+  relationsPage(id, dir, limit, offset) {
+    return (dir === 'out' ? this.q.relOutPage : this.q.relInPage).all(id, limit, offset).map((r) => ({ ...r, units: parseJson(r.units, null) }));
+  }
+
+  portalIds(id) {
+    return this.q.portalIds.all(id).map((r) => r.portal_id);
+  }
+
+  /** Liste pentru pagina de start: codes | mostAmended | recent. */
+  listIds(name, limit = 12) {
+    const st = this.q[name];
+    return (name === 'codes' ? st.all() : st.all(limit)).map((r) => r.id);
   }
 
   relationCounts(id) {

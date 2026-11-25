@@ -32,6 +32,7 @@ const LIMITS = {
   freeAfter: Number(process.env.ACTE_MIN_FREE || 2 * GiB),
 };
 const COUNTED = ['acts', 'relations', 'texts', 'versions'];
+const DROP = { acts: 0.02, relations: 0.02, texts: 0.02, versions: 0.05 };
 const COUNT_TABLES = ['acts', 'relations', 'texts', 'versions', 'blob_index'];
 const NAME_RE = /^[a-z0-9][a-z0-9._-]{0,63}$/;
 const HASH_RE = /^[0-9a-f]{64}$/;
@@ -224,18 +225,20 @@ function activate(n) {
     for (const t of COUNT_TABLES) counts[t] = db.prepare(`SELECT count(*) AS n FROM ${t}`).get().n;
     for (const t of COUNT_TABLES)
       if (m.counts?.[t] !== undefined && m.counts[t] !== counts[t]) throw new Reject('counts', `${t}: ${counts[t]} rânduri, manifestul spune ${m.counts[t]}`);
+    // Scăderile peste prag se resping (date pierdute); creșterea e liberă (crawl-ul adaugă), dar se raportează. Plafon:
+    // actele nu cresc cu peste 20% într-o generație, decât cu backfill: true.
+    const changes = {};
     if (live) {
-      const ageDays = (Date.now() - Date.parse(live.manifest.built_at || 0)) / 864e5;
       const prev = live.manifest.counts || {};
-      const grows = COUNTED.every((t) => counts[t] >= (prev[t] ?? 0));
-      if (!(ageDays > 7) && !(m.backfill === true && grows)) {
-        for (const t of COUNTED) {
-          const a = prev[t];
-          if (!a) continue;
-          const d = (counts[t] - a) / a;
-          if (Math.abs(d) > 0.05) throw new Reject('counts', `${t} ${counts[t]} față de ${a} în generația activă (${(d * 100).toFixed(1)}%)`);
-        }
+      for (const t of COUNTED) {
+        const a = prev[t];
+        if (!a) continue;
+        const d = (counts[t] - a) / a;
+        changes[t] = { from: a, to: counts[t], pct: Math.round(d * 1000) / 10 };
+        if (d < -DROP[t]) throw new Reject('counts', `${t} ${counts[t]} față de ${a} în generația activă (${(d * 100).toFixed(1)}%; scăderea permisă e ${DROP[t] * 100}%)`);
       }
+      const ga = changes.acts ? changes.acts.pct / 100 : 0;
+      if (ga > 0.2 && m.backfill !== true) throw new Reject('counts', `acts crește cu ${(ga * 100).toFixed(1)}% într-o generație (plafon 20%; manifestul poate spune backfill: true)`);
     }
 
     // 4. Texte.
@@ -331,11 +334,11 @@ function activate(n) {
     const removed = cleanup(n);
     const now = new Date().toISOString();
     writeStatus({
-      live: { generation: n, data_date: meta.data_date, schema, activated_at: now, counts },
+      live: { generation: n, data_date: meta.data_date, schema, activated_at: now, counts, changes },
       previous: live ? { generation: live.manifest.generation, data_date: live.manifest.data_date } : null,
       last_attempt: { generation: n, ok: true, at: now },
     });
-    return { ok: true, generation: n, previous: live?.manifest.generation ?? null, counts, new_shards: newShards.map((s) => s.seq), removed, seconds: Math.round((Date.now() - t0) / 1000) };
+    return { ok: true, generation: n, previous: live?.manifest.generation ?? null, counts, changes, new_shards: newShards.map((s) => s.seq), removed, seconds: Math.round((Date.now() - t0) / 1000) };
   } finally {
     try {
       db.close();

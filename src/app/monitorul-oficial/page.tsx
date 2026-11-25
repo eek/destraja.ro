@@ -1,13 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ExternalLink } from 'lucide-react';
-import { getMoLaws, getMoStats, type MoCategory, type MoStats } from '@/lib/mo';
+import { ArrowRight, ExternalLink } from 'lucide-react';
+import { getMoLaws, getMoPre1990, getMoStats, type MoCategory, type MoStats } from '@/lib/mo';
 import { countWord, formatDateRo } from '@/lib/format';
 import { Container, linkCls, panel } from '@/components/ui';
 import Wall from '@/components/mo/Wall';
 import { DAY_BINS, WEEK_BINS, binLabels } from '@/components/mo/wall-geometry';
 import { HundredActs, Swatch, VoteStrip, YearColumns, ro, type YearState } from '@/components/mo/charts';
+import { DecadeStrip } from '@/components/mo/pre1990';
 
 export const metadata: Metadata = {
   title: 'Monitorul Oficial, în cifre',
@@ -105,6 +106,7 @@ export default async function MonitorulOficialPage() {
   const stats = await getMoStats();
   if (!stats) notFound();
   const legi = await getMoLaws();
+  const pre1990 = await getMoPre1990();
   const states = yearStates(stats);
   const years = stats.coverage.map((c) => c.year);
   const complete = years.filter((y) => states[y] === 'complet');
@@ -256,6 +258,26 @@ export default async function MonitorulOficialPage() {
           </div>
           <Legend table={table} />
           <MonthTable stats={stats} states={states} />
+          {pre1990 && pre1990.totals.acts > 0 && (
+            <Link
+              href="/monitorul-oficial/inainte-de-1990"
+              className="group mt-8 flex flex-col gap-4 rounded-2xl border border-line bg-surface px-5 py-5 transition-colors hover:border-line-strong sm:px-6 lg:flex-row lg:items-center lg:gap-8"
+            >
+              <DecadeStrip decades={pre1990.decades} />
+              <span className="min-w-0 flex-1">
+                <span className="font-display block text-[1.3rem] leading-snug tracking-[-0.015em] text-ink">
+                  Și înainte de {years[0]}: {ro(pre1990.totals.acts)} de acte, din {pre1990.totals.first?.slice(0, 4)} încoace.
+                </span>
+                <span className="mt-1 block text-[15px] leading-6 text-body">
+                  Ce mai păstrează portalul din vechiul Monitor Oficial și din Buletinul Oficial: cine le semna, cele mai vechi și cele încă citate azi.
+                </span>
+              </span>
+              <span className="inline-flex shrink-0 items-center gap-1.5 text-[15px] font-semibold text-link underline decoration-1 underline-offset-4 group-hover:decoration-2">
+                Înainte de 1990
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
+              </span>
+            </Link>
+          )}
           <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
             <p className="max-w-[60ch] text-[15px] leading-7 text-body">
               {peaks.every((p) => p.decret > p.count / 2) ? (
@@ -547,7 +569,18 @@ export default async function MonitorulOficialPage() {
                 din portal și completate cu setul public romanian-law-data ({ro(info.rows)} de rânduri, la {formatDateRo(info.generatedAt ?? stats.to)}), plus
                 listele pe zile ale portalului, de unde vin titlurile și decretele de promulgare. Actele fără numele publicației ({ro(info.partNull)}, aproape
                 toate din romanian-law-data) le numărăm în Partea I. Nu intră: {ro(info.unpublished)} de acte marcate „nepublicat” și{' '}
-                {ro(info.buletinOficial + info.before1990)} de acte de dinainte de 1990 (Buletinul Oficial și altele), care nu sunt pe zid. Actele fără data
+                {ro(pre1990?.totals.acts ?? info.buletinOficial + info.before1990)} de acte de dinainte de 1990 (Buletinul Oficial și altele), care nu sunt pe zid
+                {pre1990 ? (
+                  <>
+                    {' '}
+                    (le găsiți pe{' '}
+                    <Link href="/monitorul-oficial/inainte-de-1990" className={linkCls}>
+                      pagina lor
+                    </Link>
+                    )
+                  </>
+                ) : null}
+                . Actele fără data
                 Monitorului, dar cu anul actului ({ro(info.undatedWithYear)}), intră în totalurile anului, nu în zid; {ro(info.undatedNoYear)} fără niciun an
                 rămân deoparte.
               </li>

@@ -705,7 +705,7 @@ function targets() {
 const OUT_COMMITTEES = path.join(OUT, 'comisii');
 const MIRROR = path.join(ROOT, '.cache', 'cdep-mirror');
 // Versiunea citirii verdictului din text (committeeVerdict): o schimbare recitește textele din cache, fără cereri noi.
-const COMMITTEE_VERSION = 1;
+const COMMITTEE_VERSION = 3;
 // Proiectele închise: avizele lor contează mai puțin decât ale celor încă în dezbatere.
 const CLOSED = /^(Lege\b|procedura legislativ[ăa] încetat|respins|retras)/i;
 

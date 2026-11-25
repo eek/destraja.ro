@@ -55,5 +55,7 @@ test('committeeVerdict: favorabil cu amendamente, negativ, respingere, voturi nu
   assert.deepEqual([v2.vote.pentru, v2.vote.contra], [14, 4]);
   assert.equal(committeeVerdict('Comisia propune comisiei sesizate în fond respingerea propunerii legislative.').verdict, 'negativ');
   assert.equal(committeeVerdict('Urmare a votului exprimat, nu a fost întrunită majoritatea pentru avizarea favorabilă a propunerii.').verdict, 'negativ');
+  assert.equal(committeeVerdict('Comisia a hotărât, cu majoritate de voturi, avizarea favorbilă a proiectului de lege.').verdict, 'favorabil');
+  assert.equal(committeeVerdict('S-a hotărât, cu majoritate de voturi, avizarea pozitiva a propunerii legislative.').verdict, 'favorabil');
   assert.equal(committeeVerdict('Text fără nicio formulă.').verdict, 'neclar');
 });

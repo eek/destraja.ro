@@ -281,9 +281,10 @@ const fold = (s) =>
     })
     .join('');
 
-// Formula comisiei: „avizarea favorabilă”, „să avizeze negativ”, „avizează favorabil”, „aviz favorabil”. Nu „avizul
+// Formula comisiei: „avizarea favorabilă”, „să avizeze negativ”, „avizează favorabil”, „aviz favorabil” (și cu greșelile
+// din avize: „avizarea favorbilă”, „avizarea pozitiva”). Nu „avizul
 // favorabil al Consiliului Legislativ”: substantivul articulat e aproape mereu avizul altcuiva, citat de comisie.
-const DECISION = /\b(avizarea|avizeze|avizeaza|avizat|avizam|avizez|aviz|un aviz)\s+(?:in\s+mod\s+|cu\s+caracter\s+)?(favorabil[ae]?|negativ[ae]?|nefavorabil[ae]?)\b/g;
+const DECISION = /\b(avizarea|avizeze|avizeaza|avizat|avizam|avizez|aviz|un aviz)\s+(?:in\s+mod\s+|cu\s+caracter\s+)?(favor\w*|pozitiv[ae]?|negativ[ae]?|nefavorabil[ae]?)\b/g;
 // Altcineva decât comisia: Consiliul Legislativ, Guvernul, CES, CSM, Consiliul Fiscal.
 const OTHERS = /(consiliul(ui)?\s+(legislativ|economic|superior|fiscal|suprem)|guvernul(ui)?|\bces\b|\bcsm\b|\bcsat\b)/;
 const AMEND = /\bcu\s+(?:un\s+|urmatoarele\s+|unele\s+)?(amendament|propuneri|observati|modificari)|amendamente(le)?\s+(admise|propuse|formulate|din\s+anexa)|\bprezentate?\s+in\s+anexa/;

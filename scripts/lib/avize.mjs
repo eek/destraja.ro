@@ -216,3 +216,164 @@ export function statedDate(date, text) {
 export function writeJsonAtomic(file, data) {
   writeFileAtomic(file, JSON.stringify(data, null, 1) + '\n');
 }
+
+// ─── Avizele comisiilor Camerei ───────────────────────────────────────────────────────────────────────────────────────
+// Comisiile sesizate pentru aviz (Regulamentul Camerei, art. 63–68) își trimit avizul comisiei care face raportul. Avizul
+// nu o obligă: după termen, ea poate face raportul și fără el (art. 66 alin. (3)); raportul arată avizele primite
+// (art. 68), iar plenul votează. Rândul „primire aviz de la:” din fișă are PDF-ul avizului lângă fiecare comisie.
+
+const SIDE_COLOR = /bgcolor="?#(dfefff|fff0d8|ffffe8)/i;
+
+/**
+ * Avizele comisiilor din HTML-ul fișei: un element pe document, cu ziua primirii, comisiile (una sau mai multe, când dau
+ * un aviz comun) și PDF-ul (sau doar .doc, rar). Doar rândurile Camerei, „primire aviz de la:” (cu două puncte: celelalte
+ * sunt avizele Consiliului Legislativ, CSM, CSAT, citite altfel).
+ */
+export function committeeAvizRows(html) {
+  const start = html.indexOf('Derularea procedurii');
+  if (start < 0) return [];
+  const out = [];
+  let date = null;
+  // Ca în parseSheet: un rând fără dată e din aceeași zi cu cel de deasupra.
+  for (const chunk of html.slice(start).split(/<tr\b/i).slice(1)) {
+    const cell = chunk.match(/^[^>]*>\s*<td[^>]*>([\s\S]*?)<\/td>/i);
+    if (!cell) continue;
+    const d = clean(cell[1]).match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
+    if (d) date = `${d[3]}-${d[2]}-${d[1]}`;
+    const color = chunk.match(/^[^>]*>\s*<td[^>]*/i)?.[0].match(SIDE_COLOR)?.[1]?.toLowerCase();
+    if (color !== 'fff0d8' || !/primire aviz de la:/i.test(chunk) || !date) continue;
+    const body = chunk.slice(chunk.search(/primire aviz de la:/i));
+    // În ordinea din pagină: documentul (PDF și/sau .doc), apoi comisia sau comisiile lui (un aviz comun le are una sub
+    // alta, după același document). O comisie fără document înaintea ei (rar) rămâne fără PDF.
+    let doc = null;
+    let lastWasFile = false;
+    for (const m of body.matchAll(/href="(\/comisii\/[^"]+\.(pdf|docx?))"|structura2015\.co\?[^"]*?\bidc=(\d+)[^"]*"[^>]*>([^<]+)<\/a>/gi)) {
+      if (m[1]) {
+        if (!lastWasFile) {
+          doc = { receivedAt: date, committees: [], pdfUrl: null, docUrl: null };
+          out.push(doc);
+        }
+        const url = `https://www.cdep.ro${m[1]}`;
+        if (/pdf/i.test(m[2])) doc.pdfUrl ??= url;
+        else doc.docUrl ??= url;
+        lastWasFile = true;
+      } else {
+        if (!doc) {
+          doc = { receivedAt: date, committees: [], pdfUrl: null, docUrl: null };
+          out.push(doc);
+        }
+        doc.committees.push({ idc: +m[3], nume: clean(m[4]) });
+        lastWasFile = false;
+      }
+    }
+  }
+  return out;
+}
+
+// Textul „pliat” pentru căutare: fără diacritice și cu litere mici, caracter cu caracter, ca pozițiile să rămână cele din
+// textul original (citatul îl tăiem din original).
+const FOLD = { ă: 'a', â: 'a', î: 'i', ș: 's', ş: 's', ț: 't', ţ: 't', Ă: 'a', Â: 'a', Î: 'i', Ș: 's', Ş: 's', Ț: 't', Ţ: 't' };
+const fold = (s) =>
+  [...s]
+    .map((c) => {
+      const l = c.toLowerCase();
+      return FOLD[c] ?? (l.length === c.length ? l : c);
+    })
+    .join('');
+
+// Formula comisiei: „avizarea favorabilă”, „să avizeze negativ”, „avizează favorabil”, „aviz favorabil”. Nu „avizul
+// favorabil al Consiliului Legislativ”: substantivul articulat e aproape mereu avizul altcuiva, citat de comisie.
+const DECISION = /\b(avizarea|avizeze|avizeaza|avizat|avizam|avizez|aviz|un aviz)\s+(?:in\s+mod\s+|cu\s+caracter\s+)?(favorabil[ae]?|negativ[ae]?|nefavorabil[ae]?)\b/g;
+// Altcineva decât comisia: Consiliul Legislativ, Guvernul, CES, CSM, Consiliul Fiscal.
+const OTHERS = /(consiliul(ui)?\s+(legislativ|economic|superior|fiscal|suprem)|guvernul(ui)?|\bces\b|\bcsm\b|\bcsat\b)/;
+const AMEND = /\bcu\s+(?:un\s+|urmatoarele\s+|unele\s+)?(amendament|propuneri|observati|modificari)|amendamente(le)?\s+(admise|propuse|formulate|din\s+anexa)|\bprezentate?\s+in\s+anexa/;
+const VOTE = /\bcu\s+(unanimitate(?:a)?|majoritate(?:a)?)\s+(?:de\s+)?voturi(?:lor)?(?:\s+(?:ale\s+)?(?:deputatilor|membrilor)\s+prezenti)?|\bcu\s+(\d+)\s+voturi\s+pentru(?:(?:\s*,\s*|\s+si\s+)(\d+|un|niciun)\s+(?:vot(?:uri)?\s+)?(?:impotriva|contra))?(?:(?:\s*,\s*|\s+si\s+)(\d+|o|nicio)\s+abtineri?)?/;
+const LUNA = Object.fromEntries(LUNI.map((l, i) => [l, i + 1]));
+
+/** Propoziția din `text` în jurul pozițiilor [a, b), cel mult ~320 de caractere, pe un rând. */
+function sentenceAround(text, a, b) {
+  const before = text.slice(Math.max(0, a - 260), a);
+  const cut = Math.max(before.lastIndexOf('. '), before.lastIndexOf('\n\n'), before.lastIndexOf(';'));
+  let from = a - before.length + (cut >= 0 ? cut + 1 : 0);
+  const after = text.slice(b, b + 220);
+  const end = after.search(/\.(\s|$)|\n\n|;/);
+  const to = b + (end >= 0 ? end + 1 : after.length);
+  let s = text.slice(from, to).replace(/\s+/g, ' ').trim();
+  if (s.length > 320) s = s.slice(0, 320).replace(/\s+\S*$/, '') + '…';
+  return s.replace(/^[,;:\s-]+/, '');
+}
+
+/**
+ * Verdictul unui aviz de comisie, din text, fără model: favorabil, favorabil_cu_amendamente, negativ sau neclar, cu
+ * propoziția care îl arată, votul (dacă e scris) și data ședinței. Ultima formulă a comisiei câștigă: concluzia e la
+ * sfârșit, iar mai sus comisia poate cita avizele altora.
+ */
+export function committeeVerdict(raw) {
+  const text = (raw ?? '').replace(/­/g, '').replace(/(\p{L})-\s*\n\s*(\p{L})/gu, '$1$2');
+  const f = fold(text);
+  const flat = (s) => s.replace(/\s+/g, ' ');
+  const hits = [];
+  for (const m of flat(f).matchAll(DECISION)) hits.push(m);
+  // Pozițiile din textul cu spațiile strânse: le refacem pe textul original, cu aceeași strângere.
+  const t = flat(text);
+  const ff = flat(f);
+  const decisive = hits.filter((m) => {
+    const before = ff.slice(Math.max(0, m.index - 70), m.index);
+    const after = ff.slice(m.index + m[0].length, m.index + m[0].length + 60);
+    if (OTHERS.test(before)) return false;
+    if (m[1] === 'aviz' && /^\s*(al|a)\s/.test(after) && OTHERS.test(after)) return false;
+    return true;
+  });
+  let verdict = 'neclar';
+  let at = null;
+  const last = decisive.at(-1);
+  if (last) {
+    const negative = /^(negativ|nefavorabil)/.test(last[2]);
+    at = [last.index, last.index + last[0].length];
+    // „nu a fost întrunită majoritatea pentru avizarea favorabilă” e tot un aviz negativ.
+    const denied = /(nu\s+(a\s+)?(fost\s+)?(s-a\s+)?intrun\w*\s+(majoritatea|numarul)|respins\w*)[^.]{0,60}$/.test(ff.slice(Math.max(0, last.index - 90), last.index));
+    if (negative || denied) verdict = 'negativ';
+    else {
+      // Amendamentele: în aceeași propoziție, după formula favorabilă; „fără amendamente” rămâne favorabil simplu.
+      const rest = ff.slice(at[1], at[1] + 260).split(/\.(\s|$)|;/)[0];
+      verdict = AMEND.test(rest) && !/fara\s+(amendamente|observatii|propuneri)/.test(rest) ? 'favorabil_cu_amendamente' : 'favorabil';
+    }
+  } else {
+    // Fără formula „aviz…”: comisia propune respingerea.
+    const m = ff.match(/\b(propun\w*|hotar\w*|decis\w*)\b[^.]{0,200}?\brespingerea\s+(proiectului|propunerii|initiativei|ordonantei)/);
+    if (m) {
+      verdict = 'negativ';
+      const i = m.index + m[0].lastIndexOf('respingerea');
+      at = [i, i + 'respingerea'.length];
+    }
+  }
+  const verdictQuote = at ? sentenceAround(t, at[0], at[1]) : null;
+  // Votul: în propoziția verdictului întâi, altfel primul din document.
+  let vote = null;
+  const zone = at ? ff.slice(Math.max(0, at[0] - 300), at[1] + 300) : '';
+  const vm = zone.match(VOTE) ?? ff.match(VOTE);
+  if (vm) {
+    const idx = (zone.match(VOTE) ? Math.max(0, at[0] - 300) : 0) + vm.index;
+    const statement = t.slice(idx, idx + vm[0].length).replace(/\s+/g, ' ');
+    const num = (x) => (x == null ? null : /^\d+$/.test(x) ? Number(x) : /^(un|o)$/.test(x) ? 1 : 0);
+    vote = vm[1]
+      ? { statement, pentru: null, contra: null, abtineri: null, quote: statement }
+      : { statement, pentru: num(vm[2]), contra: num(vm[3] ?? null), abtineri: num(vm[4] ?? null), quote: statement };
+    if (vm[1] && /^unanim/.test(vm[1])) vote.unanimous = true;
+  }
+  // Data ședinței comisiei: „a dezbătut propunerea în ședința din 17 noiembrie 2026”, „în ședința din data de 17.03.2026”.
+  // Nu ședința Senatului („Senatul … a respins propunerea în ședința din 28 octombrie”): o sărim pe cea precedată de
+  // „Senat” și o preferăm pe cea a unei dezbateri.
+  let date = null;
+  const dates = [];
+  for (const dm of ff.matchAll(/sedint\w*\s+(?:sa\s+)?(?:online\s+)?(?:din\s+)?(?:data\s+de\s+|ziua\s+de\s+)?(\d{1,2})\s*[./ ]\s*(\d{1,2}|[a-z]+)\s*[./ ]\s*(\d{4})/g)) {
+    const mo = /^\d+$/.test(dm[2]) ? Number(dm[2]) : LUNA[dm[2]];
+    const d = Number(dm[1]);
+    if (!(mo >= 1 && mo <= 12 && d >= 1 && d <= 31)) continue;
+    const before = ff.slice(Math.max(0, dm.index - 160), dm.index);
+    if (/senat/.test(before.slice(-90))) continue;
+    dates.push({ iso: `${dm[3]}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`, debate: /dezbat|examin|analiz|discut/.test(before) });
+  }
+  date = (dates.find((x) => x.debate) ?? dates.at(-1))?.iso ?? null;
+  return { verdict, verdictQuote, vote, date };
+}

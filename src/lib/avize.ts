@@ -55,3 +55,43 @@ export async function getBillAvize(slug: string): Promise<BillAvize | null> {
     return null;
   }
 }
+
+// ─── Avizele comisiilor Camerei ──────────────────────────────────────────────────────────────────────────────────────
+// data/avize/comisii/<slug>.json (scripts/straja-avize.mjs --comisii): un document pe aviz din derularea procedurii
+// („primire aviz de la:”), cu verdictul citit de cod din text. Separat de documentele de mai sus: avizul unei comisii nu
+// e poziția unei instituții, ci o părere pentru comisia care face raportul.
+
+export type CommitteeVerdict = 'favorabil' | 'favorabil_cu_amendamente' | 'negativ' | 'neclar';
+
+export interface CommitteeAviz {
+  kind: 'comisie';
+  /** Comisia sau, la un aviz comun, comisiile, despărțite de „; ”. */
+  institution: string;
+  committees: { idc: number; nume: string }[];
+  docType: 'aviz' | 'aviz comun';
+  pdfUrl: string | null;
+  docUrl?: string;
+  source: 'cdep.ro';
+  /** Ziua din derularea procedurii (AAAA-LL-ZZ). */
+  receivedAt: string;
+  /** null: PDF-ul nu l-am citit încă. */
+  verdict: CommitteeVerdict | null;
+  verdictQuote: string | null;
+  /** „regex”: verdictul l-a găsit codul în textul documentului, fără model. */
+  verdictFrom: 'regex' | null;
+  vote?: { statement: string; pentru: number | null; contra: number | null; abtineri: number | null; quote: string };
+  /** Data ședinței, dacă e scrisă în aviz. */
+  date: string | null;
+  /** Textul PDF-ului: stratul de text sau OCR. */
+  textMethod?: string;
+  unreadable?: string;
+}
+
+export async function getCommitteeAvize(slug: string): Promise<CommitteeAviz[]> {
+  try {
+    const data = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'avize', 'comisii', `${slug}.json`), 'utf8')) as { documents?: CommitteeAviz[] };
+    return data.documents ?? [];
+  } catch {
+    return [];
+  }
+}

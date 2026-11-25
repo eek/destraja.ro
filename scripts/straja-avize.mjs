@@ -5,6 +5,7 @@
 //
 //   node scripts/straja-avize.mjs [slug…] [--max=50] [--minute=N] [--force] [--paralel=2] [--senat] [--fara-cdep] [--asteapta-captcha]
 //                                 [--reverifica]
+//   node scripts/straja-avize.mjs --comisii [slug…] [--max=N] [--minute=N] [--fara-cdep] [--force]
 //
 // Fără slug-uri: proiectele Camerei din anul curent aflate pe ordinea de zi, apoi cele cu raport. Cu mai multe decât
 // --max, întâi cele neverificate, apoi cele schimbate sau rămase neterminate, apoi restul, de la verificarea cea mai veche.
@@ -12,6 +13,13 @@
 // data/texts). --fara-cdep nu cere nimic de la cdep.ro (doar senat.ro și ce e în cache). --asteapta-captcha: după un
 // captcha la cdep.ro așteptăm cele două ore de pauză (de cel mult două ori) în loc să sărim documentele de acolo.
 // --reverifica refolosește răspunsurile modelelor din cache și reface doar verificarea; --force cere din nou modelului.
+//
+// --comisii: avizele comisiilor Camerei (rândurile „primire aviz de la:” din derularea procedurii), în
+// data/avize/comisii/<slug>.json. PDF-urile vin din HTML-ul fișei deja păstrat (.cache/cdep-html, .cache/cdep-mirror),
+// deci de la cdep.ro cerem doar PDF-urile, prin aceeași pauză comună; --max e aici numărul de PDF-uri noi. Verdictul
+// (favorabil, favorabil cu amendamente, negativ) și votul le citește codul, fără model, iar scanările trec prin OCR.
+// Întâi proiectele încă în dezbatere, din anul curent, cu avizele cele mai noi; avizele necitite rămân în fișier cu
+// verdictul null, ca pagina să aibă măcar PDF-ul.
 //
 // Surse. Documentele sunt cele din fișa Camerei (fisa.documente). Când Senatul a fost prima cameră, același aviz sau
 // punct de vedere e și pe senat.ro (26L104LG.PDF, PV, CF): îl luăm de acolo, ca să cerem cât mai puțin de la cdep.ro.
@@ -41,6 +49,8 @@ import { extractPdfText } from './lib/pdf-text.mjs';
 import {
   KINDS,
   VERDICTS,
+  committeeAvizRows,
+  committeeVerdict,
   fetchSenatPdf,
   govFromTimeline,
   layerNoise,
@@ -62,7 +72,8 @@ const OUT = path.join(DATA, 'avize');
 const CACHE = path.join(ROOT, '.cache', 'avize');
 const SHEET_HTML = path.join(ROOT, '.cache', 'cdep-html');
 const OCR_CACHE = path.join(ROOT, '.cache', 'ocr');
-const CLAIMS = path.join(ROOT, '.cache', 'claims', 'avize');
+// Avizele comisiilor (--comisii) au alt fișier, deci și alte revendicări: nu țin pe loc rularea obișnuită.
+const CLAIMS = path.join(ROOT, '.cache', 'claims', process.argv.includes('--comisii') ? 'avize-comisii' : 'avize');
 // Evidența verificărilor, pe proiect: { slug: { at, pending } }. Fără ea, un proiect fără niciun document (nu scrie nimic
 // în data/avize) ar părea mereu nou, iar unul rămas la jumătate (model eșuat, cdep.ro oprit) ar părea terminat.
 const CHECKED_FILE = path.join(ROOT, '.cache', 'avize-checked.json');
@@ -91,6 +102,7 @@ const NO_CDEP = args.includes('--fara-cdep');
 const WAIT_CAPTCHA = args.includes('--asteapta-captcha');
 // Refă verificarea (citate, verdicte) din răspunsurile modelelor păstrate în cache, fără apeluri noi.
 const REVERIFY = args.includes('--reverifica');
+const COMMITTEES = args.includes('--comisii');
 
 /** Copia principală a repo-ului (ops/daily.lock e acolo), chiar când rulăm dintr-un worktree. */
 function mainCheckout() {
@@ -689,14 +701,177 @@ function targets() {
   return [...chamber, ...senate];
 }
 
+// ── Avizele comisiilor (--comisii) ─────────────────────────────────────────────────────────────────────────────────
+const OUT_COMMITTEES = path.join(OUT, 'comisii');
+const MIRROR = path.join(ROOT, '.cache', 'cdep-mirror');
+// Versiunea citirii verdictului din text (committeeVerdict): o schimbare recitește textele din cache, fără cereri noi.
+const COMMITTEE_VERSION = 1;
+// Proiectele închise: avizele lor contează mai puțin decât ale celor încă în dezbatere.
+const CLOSED = /^(Lege\b|procedura legislativ[ăa] încetat|respins|retras)/i;
+
+/** HTML-ul fișei, cel mai nou dintre cel citit de straja-cdep și copia de pe VM; null dacă nu-l avem întreg. */
+function storedSheetHtml(slug) {
+  const found = [path.join(SHEET_HTML, `${slug}.html`), path.join(MIRROR, `${slug}.html`)]
+    .filter((f) => fs.existsSync(f))
+    .map((f) => ({ f, at: fs.statSync(f).mtimeMs }))
+    .sort((a, b) => b.at - a.at);
+  for (const { f } of found) {
+    const html = fs.readFileSync(f, 'utf8');
+    if (/<\/html>\s*$/i.test(html)) return html;
+  }
+  return null;
+}
+
+const committeeKey = (row) => row.pdfUrl ?? `${row.receivedAt}|${row.committees.map((c) => c.idc).join(',')}`;
+
+function committeeTargets() {
+  const index = readJson(path.join(DATA, 'cdep', 'index.json'), { an: new Date().getFullYear() });
+  const year = String(index.an ?? new Date().getFullYear());
+  const files = slugs.length ? slugs.map((s) => `${s}.json`) : fs.readdirSync(path.join(DATA, 'cdep', 'proiecte')).filter((f) => f.endsWith('.json'));
+  const out = [];
+  let noHtml = 0;
+  for (const f of files) {
+    const sheet = readJson(path.join(DATA, 'cdep', 'proiecte', f));
+    if (!sheet) continue;
+    const asked = sheet.fisa.timeline.some((t) => t.camera === 'Camera Deputaților' && /^primire aviz de la:/i.test(t.actiune));
+    if (!asked) continue;
+    const html = storedSheetHtml(sheet.slug);
+    if (!html) {
+      noHtml++;
+      continue;
+    }
+    const rows = committeeAvizRows(html);
+    if (!rows.length) continue;
+    const prev = readJson(path.join(OUT_COMMITTEES, `${sheet.slug}.json`));
+    const settled = (d) => (d.verdict != null && d.extractVersion === COMMITTEE_VERSION) || (d.unreadable && Date.now() - Date.parse(d.checkedAt ?? 0) < 14 * 24 * HOUR);
+    const done = new Set((prev?.documents ?? []).filter(settled).map((d) => committeeKey(d)));
+    const unread = rows.filter((r) => r.pdfUrl && !done.has(committeeKey(r)));
+    const open = !CLOSED.test(sheet.stadiu ?? sheet.fisa.stadiu ?? '');
+    out.push({
+      slug: sheet.slug,
+      billId: sheet.numar,
+      rows,
+      unread: unread.length,
+      open,
+      current: (sheet.inregistrat ?? '').startsWith(year) || sheet.slug.endsWith(`-${year}`),
+      newest: unread.map((r) => r.receivedAt).sort().at(-1) ?? '',
+    });
+  }
+  // Întâi ce are avize necitite; dintre ele, proiectele în dezbatere, apoi cele din anul curent, apoi avizul cel mai nou.
+  out.sort((a, b) => Boolean(b.unread) - Boolean(a.unread) || b.open - a.open || b.current - a.current || b.newest.localeCompare(a.newest));
+  const pdfs = out.reduce((n, t) => n + t.rows.filter((r) => r.pdfUrl).length, 0);
+  const unread = out.reduce((n, t) => n + t.unread, 0);
+  const openUnread = out.filter((t) => t.open).reduce((n, t) => n + t.unread, 0);
+  console.log(`   ${out.length} proiecte cu avize de comisie, ${pdfs} PDF-uri: ${pdfs - unread} citite, ${unread} necitite (${openUnread} la proiecte în dezbatere); ${noHtml} proiecte fără HTML-ul fișei păstrat`);
+  return out;
+}
+
+let committeeBudget = MAX;
+const sameJson = (a, b) => JSON.stringify({ ...a, updatedAt: null }) === JSON.stringify({ ...b, updatedAt: null });
+
+async function processCommittees(target) {
+  const outPath = path.join(OUT_COMMITTEES, `${target.slug}.json`);
+  const prev = readJson(outPath);
+  const prevBy = new Map((prev?.documents ?? []).map((d) => [committeeKey(d), d]));
+  const docs = [];
+  const save = () => {
+    const next = { slug: target.slug, billId: target.billId, schema: SCHEMA, updatedAt: new Date().toISOString(), documents: docs };
+    if (prev && sameJson(prev, next)) return;
+    writeJsonAtomic(outPath, next);
+  };
+  for (const row of target.rows) {
+    const key = committeeKey(row);
+    const old = prevBy.get(key);
+    const base = {
+      kind: 'comisie',
+      institution: row.committees.map((c) => c.nume).join('; ') || 'Comisie a Camerei',
+      committees: row.committees,
+      docType: row.committees.length > 1 ? 'aviz comun' : 'aviz',
+      pdfUrl: row.pdfUrl,
+      ...(row.docUrl && { docUrl: row.docUrl }),
+      source: 'cdep.ro',
+      receivedAt: row.receivedAt,
+    };
+    const pending = { ...base, verdict: null, verdictQuote: null, verdictFrom: null, date: null, observations: [] };
+    if (old?.verdict != null && old.extractVersion === COMMITTEE_VERSION && !FORCE) {
+      docs.push({ ...old, ...base });
+      continue;
+    }
+    // Un PDF lipsă sau fără text lizibil îl mai încercăm abia peste două săptămâni (fără OCR la fiecare rulare).
+    if (old?.unreadable && Date.now() - Date.parse(old.checkedAt ?? 0) < 14 * 24 * HOUR && !FORCE) {
+      docs.push({ ...old, ...base });
+      continue;
+    }
+    // Numele PDF-ului se repetă de la o comisie la alta (av184.pdf): în cache îl ținem cu directorul comisiei.
+    const dir = row.pdfUrl?.match(/\/comisii\/([^/]+)\//)?.[1] ?? 'x';
+    const cacheKind = `comisie-${dir}`;
+    const cached = row.pdfUrl && fs.existsSync(path.join(CACHE, target.slug, `${cacheKind}-cdep-${safeName(row.pdfUrl)}`.replace(/(\.pdf)?$/i, '.txt')));
+    if (!row.pdfUrl || (!cached && (committeeBudget <= 0 || cdepOff || Date.now() > DEADLINE))) {
+      docs.push(old ?? pending);
+      continue;
+    }
+    if (!cached) committeeBudget--;
+    let got = null;
+    try {
+      got = await pdfText(target.slug, cacheKind, row.pdfUrl, 'cdep.ro');
+    } catch (err) {
+      if (/HTTP 404|nu e un PDF/.test(err.message)) {
+        docs.push({ ...pending, unreadable: 'lipsește', checkedAt: new Date().toISOString() });
+        console.log(`  ${target.billId} · ${base.institution}: PDF-ul lipsește de pe cdep.ro`);
+        save();
+        continue;
+      }
+      if (!(err instanceof CdepBlocked)) {
+        stats.failed++;
+        console.log(`  ✗ ${target.billId} · ${base.institution}: ${String(err.message || err).slice(0, 200)}`);
+      }
+      docs.push(old ?? pending);
+      continue;
+    }
+    if (!got?.text) {
+      // PDF fără text lizibil: rămâne necitit, cu motivul.
+      docs.push({ ...pending, unreadable: got ? 'fără text' : 'lipsește', checkedAt: new Date().toISOString() });
+      console.log(`  ${target.billId} · ${base.institution}: ${got ? 'fără text lizibil' : 'PDF-ul lipsește'}`);
+      save();
+      continue;
+    }
+    const v = committeeVerdict(got.text);
+    const entry = {
+      ...base,
+      verdict: v.verdict,
+      verdictQuote: v.verdictQuote,
+      verdictFrom: v.verdictQuote ? 'regex' : null,
+      ...(v.vote && { vote: v.vote }),
+      date: v.date,
+      observations: [],
+      textHash: sha1(got.text),
+      textMethod: got.method,
+      extractVersion: COMMITTEE_VERSION,
+      checkedAt: new Date().toISOString(),
+    };
+    docs.push(entry);
+    bump(stats.verdicts, `comisie:${entry.verdict}`);
+    bump(stats.sources, got.method);
+    console.log(`  ${target.billId} · ${base.institution}: ${entry.verdict}${entry.vote ? ` (${entry.vote.statement})` : ''} [${got.method}]`);
+    save();
+  }
+  save();
+  stats.bills++;
+}
+
 // ── Rularea ────────────────────────────────────────────────────────────────────────────────────────────────────────
-fs.mkdirSync(OUT, { recursive: true });
-const queue = targets();
+fs.mkdirSync(COMMITTEES ? OUT_COMMITTEES : OUT, { recursive: true });
+const queue = COMMITTEES ? committeeTargets() : targets();
 const started = Date.now();
-console.log(`🏛️ Ce spun instituțiile: ${queue.length} proiecte, ${PARALLEL} în paralel${NO_CDEP ? ', fără cdep.ro' : ''}; așteptăm cât există ${YIELD_TO}`);
+console.log(
+  COMMITTEES
+    ? `🏛️ Avizele comisiilor: ${queue.length} proiecte, cel mult ${MAX} PDF-uri noi${NO_CDEP ? ', fără cdep.ro' : ''}; așteptăm cât există ${YIELD_TO}`
+    : `🏛️ Ce spun instituțiile: ${queue.length} proiecte, ${PARALLEL} în paralel${NO_CDEP ? ', fără cdep.ro' : ''}; așteptăm cât există ${YIELD_TO}`,
+);
 async function worker() {
   for (let t = queue.shift(); t; t = queue.shift()) {
-    if (Date.now() > DEADLINE) {
+    // La avizele comisiilor, după termen sau buget doar mai scriem ce e deja citit (fără rețea), până la capăt.
+    if (Date.now() > DEADLINE && !COMMITTEES) {
       console.log(`⏱ Timpul pasului s-a terminat: ${queue.length + 1} proiecte rămân pentru rularea următoare`);
       queue.length = 0;
       return;
@@ -708,7 +883,7 @@ async function worker() {
     }
     try {
       console.log(`▶ ${t.billId} (${t.slug})`);
-      await processBill(t);
+      await (COMMITTEES ? processCommittees(t) : processBill(t));
     } catch (err) {
       stats.failed++;
       console.log(`✗ ${t.billId}: ${String(err.message || err).slice(0, 200)}`);

@@ -7,7 +7,8 @@
 //    legislatie.just.ro, pentru proiectele noi sau schimbate și pentru legile cu textul schimbat (straja-baseline)
 // 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces);
 //    la Cameră, și amendamentele din rapoartele comisiilor, cu autorii lor (straja-amendments), apoi voturile nominale din
-//    plen ale fișelor noi sau schimbate, la Cameră și la Senat (straja-votes)
+//    plen ale fișelor noi sau schimbate, la Cameră și la Senat (straja-votes), apoi avizele comisiilor Camerei, cu
+//    verdictul citit din PDF (straja-avize --comisii)
 // 3. presa pentru proiectele aflate în consultare (straja-news), apoi poziția articolelor noi față de proiect, cu două
 //    modele de decizie rulate local, GLiDE și d1-3B (straja-stance)
 // 4. pozițiile organizațiilor (straja-positions --due): proiectele cu risc ridicat sau cu cel mult 3 zile până la
@@ -498,6 +499,11 @@ async function main() {
     // altele, iar ce rămâne e în față mâine.
     const avize = await step('Avize', 'node', ['scripts/straja-avize.mjs', '--max=40', '--minute=40', '--yield-to=nimic'], { timeoutMs: 3_600_000 });
     if (!avize.ok) fail('avizele instituțiilor au eșuat');
+    // Avizele comisiilor Camerei (rândurile „primire aviz de la:”): PDF-urile din HTML-ul fișelor citite mai sus, cel mult
+    // 25 noi pe zi, în pauza comună a cdep.ro (o cerere pe minut), întâi la proiectele în dezbatere; verdictul îl citește
+    // codul, fără model. Ce rămâne vine a doua zi; cele deja citite doar se rescriu, fără cereri.
+    const committeeAvize = await step('Avize comisii', 'node', ['scripts/straja-avize.mjs', '--comisii', '--max=25', '--minute=30', '--yield-to=nimic'], { timeoutMs: 2_700_000 });
+    if (!committeeAvize.ok) fail('avizele comisiilor au eșuat');
     // Ce e bine și ce strică, pentru proiectele noi și cele cu textul sau scorul schimbat.
     const balance = await step('Ce e bine și ce strică', 'node', ['scripts/straja-balance.mjs', '--risc=toate', '--max=30', '--limita=1800'], { timeoutMs: 3_600_000 });
     if (!balance.ok) fail('„ce e bine și ce strică” a eșuat');

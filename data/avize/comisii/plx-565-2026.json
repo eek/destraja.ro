@@ -2,7 +2,7 @@
  "slug": "plx-565-2026",
  "billId": "Pl-x 565/2026",
  "schema": 1,
- "updatedAt": "2026-11-25T13:23:04.482Z",
+ "updatedAt": "2026-11-25T17:29:27.319Z",
  "documents": [
   {
    "kind": "comisie",
@@ -17,11 +17,22 @@
    "pdfUrl": "https://www.cdep.ro/comisii/controlul_sri/pdf/2026/av565.pdf",
    "source": "cdep.ro",
    "receivedAt": "2026-10-21",
-   "verdict": null,
-   "verdictQuote": null,
-   "verdictFrom": null,
-   "date": null,
-   "observations": []
+   "verdict": "negativ",
+   "verdictQuote": "În urma dezbaterilor, membrii Comisiei au hotărât să emită aviz negativ asupra proiectului de lege, cu 7 voturi pentru, 1 vot împotrivă și 1 abținere.",
+   "verdictFrom": "regex",
+   "vote": {
+    "statement": "cu 7 voturi pentru, 1 vot împotrivă și 1 abținer",
+    "pentru": 7,
+    "contra": 1,
+    "abtineri": 1,
+    "quote": "cu 7 voturi pentru, 1 vot împotrivă și 1 abținer"
+   },
+   "date": "2026-10-21",
+   "observations": [],
+   "textHash": "39d7a74039b4a9faa5cc209fd78e1913c926fe32",
+   "textMethod": "mineru",
+   "extractVersion": 4,
+   "checkedAt": "2026-11-25T17:25:46.267Z"
   },
   {
    "kind": "comisie",
@@ -36,11 +47,15 @@
    "pdfUrl": "https://www.cdep.ro/comisii/controlul_sie/pdf/2026/av565.pdf",
    "source": "cdep.ro",
    "receivedAt": "2026-11-03",
-   "verdict": null,
+   "verdict": "neclar",
    "verdictQuote": null,
    "verdictFrom": null,
    "date": null,
-   "observations": []
+   "observations": [],
+   "textHash": "b83a87b8e32e7bc037cdf82caec2dd76c9cedf98",
+   "textMethod": "text",
+   "extractVersion": 4,
+   "checkedAt": "2026-11-25T17:28:25.585Z"
   },
   {
    "kind": "comisie",
@@ -55,11 +70,22 @@
    "pdfUrl": "https://www.cdep.ro/comisii/egalitatea_de_sanse/pdf/2026/av565.pdf",
    "source": "cdep.ro",
    "receivedAt": "2026-11-04",
-   "verdict": null,
-   "verdictQuote": null,
-   "verdictFrom": null,
-   "date": null,
-   "observations": []
+   "verdict": "negativ",
+   "verdictQuote": "În urma dezbaterilor, Comisia pentru egalitatea de șanse pentru femei și bărbați a hotărât, cu majoritate de voturi, avizarea negativă a proiectului de lege.",
+   "verdictFrom": "regex",
+   "vote": {
+    "statement": "cu majoritate de voturi",
+    "pentru": null,
+    "contra": null,
+    "abtineri": null,
+    "quote": "cu majoritate de voturi"
+   },
+   "date": "2026-11-03",
+   "observations": [],
+   "textHash": "4fc117f1b1205753159761ac26e46747d71300a5",
+   "textMethod": "text",
+   "extractVersion": 4,
+   "checkedAt": "2026-11-25T17:29:27.318Z"
   }
  ]
 }

@@ -9,12 +9,12 @@ import { ALERTS_LIVE } from '@/lib/site';
 import { ThemeToggle } from './ThemeControls';
 
 const NAV = [
-  { href: '/', label: 'Acasă', match: (p: string) => p === '/' },
   { href: '/senat', label: 'Senat', match: (p: string) => p.startsWith('/senat') || p.startsWith('/legi') },
   { href: '/camera', label: 'Camera', match: (p: string) => p.startsWith('/camera') },
   { href: '/agenda', label: 'Agenda', match: (p: string) => p.startsWith('/agenda') },
   { href: '/parlamentari', label: 'Parlamentari', match: (p: string) => p.startsWith('/parlamentari') },
-  { href: '/presa', label: 'Presă și date', match: (p: string) => p.startsWith('/presa') || p.startsWith('/monitorul-oficial') },
+  { href: '/monitorul-oficial', label: 'Monitorul Oficial', match: (p: string) => p.startsWith('/monitorul-oficial') },
+  { href: '/presa', label: 'Presă și date', match: (p: string) => p.startsWith('/presa') },
   { href: '/metodologie', label: 'Metodologie', match: (p: string) => p.startsWith('/metodologie') },
   ...(ALERTS_LIVE ? [{ href: '/abonare', label: 'Alerte', match: (p: string) => p.startsWith('/abonare') }] : []),
 ];

@@ -147,3 +147,41 @@ export function ruleInForce(moDate: string): string {
   d.setUTCDate(d.getUTCDate() + 3);
   return d.toISOString().slice(0, 10);
 }
+
+// ---------- Înainte de 1990 (data/mo/pre1990.json, scris de scripts/straja-mo.mjs cu scripts/lib/mo-pre1990.mjs)
+
+export interface MoOldAct {
+  /** Id-ul din Portalul Legislativ (legislatie.just.ro/Public/DetaliiDocument/<id>). */
+  id: number;
+  date: string;
+  /** „Decretul nr. 167/1958” */
+  designation: string;
+  /** Obiectul actului („privind prescripția extinctivă”), din titlu sau, când titlul lipsește, din textele care îl citează. */
+  subject: string | null;
+  subjectFrom: 'titlu' | 'citari' | null;
+  issuer: string | null;
+  /** Câte acte distincte îl citează (doar în lista celor mai citate). */
+  citedBy?: number;
+}
+
+export interface MoPre1990 {
+  generatedAt: string;
+  tableGeneratedAt: string | null;
+  citationsGeneratedAt: string | null;
+  totals: { acts: number; withText: number; unpublished: number; publishedLater: number; first: string | null; last: string | null };
+  decades: { decade: number; acts: number; years: number[] }[];
+  eras: { key: string; label: string; span: string; acts: number; first: string | null; last: string | null; issuers: [string, number][]; types: [string, number][] }[];
+  types: [string, number][];
+  unpublishedBy: [string, number][];
+  oldest: MoOldAct[];
+  cited: { docsScanned: number | null; citedAtLeastOnce: number | null; method: string | null; top: MoOldAct[] } | null;
+  longLived: { id: number; name: string; date: string; until: string; by: string; issuer: string }[];
+}
+
+export async function getMoPre1990(): Promise<MoPre1990 | null> {
+  return readJson<MoPre1990>('pre1990.json');
+}
+
+/** Pagina actului în Portalul Legislativ. */
+// TODO: când paginile de acte de pe acte.destraja.ro devin publice, legăturile spre actele vechi trec acolo.
+export const portalUrl = (id: number) => `https://legislatie.just.ro/Public/DetaliiDocument/${id}`;

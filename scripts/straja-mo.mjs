@@ -18,6 +18,7 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { writeFileAtomic } from './lib/atomic.mjs';
 import { addDays, aggregate, dayStatus, decreeIndex, lawIndex, lawOfSheet, matchBills } from './lib/mo.mjs';
+import { pre1990, pre1990Date } from './lib/mo-pre1990.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const MO_DIR = process.env.MO_DIR || path.join(os.homedir(), 'work', 'monitorul-oficial');
@@ -129,6 +130,9 @@ let to = days.at(-1).date;
 // Tabelul întreg: actele după data Monitorului, fiecare zi din 1990 până azi; listele pe zile doar completează.
 let undated = [];
 let tableInfo = null;
+// Actele de dinainte de 1990, pentru /monitorul-oficial/inainte-de-1990 (data/mo/pre1990.json).
+const preRows = [];
+let preText = null;
 if (TABLE) {
   const lines = fs.readFileSync(ACTS_FILE, 'utf8').split('\n');
   const meta = JSON.parse(lines[0])._meta ?? {};
@@ -161,6 +165,8 @@ if (TABLE) {
       info.consolidations = (info.consolidations ?? 0) + 1;
       continue;
     }
+    // Și actele semnate înainte de 1990, dar publicate după: pagina le numără separat.
+    if (pre1990Date(nd) || (nd.actDate && nd.actDate < '1990-01-01')) preRows.push(nd);
     const part = nd.mo?.part ?? null;
     // Buletinul Oficial (înainte de 1990) și broșurile: în afara zidului, doar numărate în notă.
     if (part === 'BO' || part === 'Broşură' || part === 'Broșură') {
@@ -211,6 +217,12 @@ if (TABLE) {
   days.length = 0;
   days.push(...rebuilt);
   tableInfo = info;
+  // Titlurile și citările vin din data/mo/pre1990-citari.json (scripts/mo-pre1990-citari.py, rulat de mână); fără el,
+  // pagina are doar cifrele din tabel.
+  const citari = readJson(path.join(OUT, 'pre1990-citari.json'));
+  const pre = pre1990(preRows, citari, { tableGeneratedAt: meta.generatedAt ?? null });
+  preText = JSON.stringify({ generatedAt: new Date().toISOString(), source: 'Portalul Legislativ (legislatie.just.ro), Ministerul Justiției', ...pre }) + '\n';
+  console.log(`[mo] înainte de 1990: ${pre.totals.acts} acte (${pre.totals.withText} cu text), ${pre.cited?.top.length ?? 0} citate${citari ? '' : ' (lipsește pre1990-citari.json)'}`);
   console.log(`[mo] tabelul întreg (${path.relative(MO_DIR, ACTS_FILE)}, ${meta.generatedAt}): ${JSON.stringify(info)}`);
 }
 console.log(`[mo] ${days.length} zile citite (${days[0].date} … ${to}); format vechi: ${completed} din ${unread} acte completate din cache`);
@@ -246,5 +258,6 @@ const legiText = JSON.stringify({ generatedAt, source, samplesTo: to, billsWithL
 // Ambele fișiere din aceeași rulare, scrise abia după ce s-au calculat amândouă.
 writeFileAtomic(path.join(OUT, 'stats.json'), statsText);
 writeFileAtomic(path.join(OUT, 'legi.json'), legiText);
+if (preText) writeFileAtomic(path.join(OUT, 'pre1990.json'), preText);
 console.log(`[mo] proiecte devenite lege: ${withLaw}; găsite în Monitor: ${Object.keys(matched).length}; nepotriviri: ${misses.length}`);
 for (const m of misses) console.log(`[mo]   ${m.slug} ${m.law}: ${m.reason}`);

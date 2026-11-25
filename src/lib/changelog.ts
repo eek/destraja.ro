@@ -28,6 +28,18 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-25',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Înainte de 1990: ce a rămas din Buletinul Oficial',
+        text: 'De pe pagina Monitorului Oficial poți merge acum înapoi în timp, înainte de 1990. Portalul Legislativ mai păstrează 4.572 de acte din acei ani, de la o circulară din 1837 până la decretele din ultimele zile ale lui 1989: le vezi pe decenii (cele mai multe sunt din anii ’70), cine le semna în fiecare perioadă, de la Parlament și rege la Marea Adunare Națională și Consiliul de Stat, cele mai vechi zece și legile și decretele vechi pe care actele de azi le citează încă cel mai des, cu Legea contravențiilor din 1968 în frunte. Câteva coduri, precum Codul civil din 1864, s-au aplicat până după 2010. Nu e tot ce s-a publicat atunci, ci doar ce a ajuns în portal; pagina spune deschis ce acoperă datele. Fiecare act duce la textul lui de pe legislatie.just.ro.',
+        link: { href: '/monitorul-oficial/inainte-de-1990', label: 'Înainte de 1990' },
+        shot: { id: '2026-11-25-inainte-de-1990', alt: 'Pagina „Înainte de 1990”: titlul „4.572 de acte păstrate, din 1837 până în decembrie 1989”, trei cifre pe scurt (cel mai vechi act, din 1837; 1.824 de acte din anii ’70; 225 de acte marcate „nepublicat”).' },
+      },
+    ],
+  },
+  {
     date: '2026-11-24',
     items: [
       {

@@ -13,6 +13,7 @@ import crypto from 'node:crypto';
 import { DatabaseSync } from 'node:sqlite';
 import { pathToFileURL } from 'node:url';
 import { schemaProblems, SCHEMA_VERSION } from '../lib/schema.mjs';
+import { runGolden } from '../lib/golden.mjs';
 
 const ROOT = process.env.ACTE_ROOT || '/srv/acte';
 const INCOMING = path.join(ROOT, 'incoming');
@@ -40,10 +41,11 @@ const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const RESERVED = new Set(['api', 'date', 'p', 'cauta', '_static', 'robots.txt', 'sitemap.xml', 'favicon.ico', 'urmaresc', 'despre', 'metodologie']);
 
 class Reject extends Error {
-  constructor(step, msg, code = 1) {
+  constructor(step, msg, code = 1, extra = {}) {
     super(msg);
     this.step = step;
     this.code = code;
+    this.extra = extra;
   }
 }
 
@@ -305,6 +307,16 @@ function activate(n) {
     const forma = db.prepare("SELECT a.id FROM acts a JOIN publications p ON p.portal_id = a.id AND p.kind = 'forma' LIMIT 1").get();
     if (forma) throw new Reject('content', `actul ${forma.id} e și formă consolidată (publications.kind = forma)`);
 
+    // 5a. Cazurile golden ale versiunii active (contract §7.1).
+    let golden = 'absent';
+    const gfile = path.join(ROOT, 'release', 'current', 'golden.json');
+    if (fs.existsSync(gfile)) {
+      const spec = JSON.parse(fs.readFileSync(gfile, 'utf8'));
+      const failures = runGolden(db, spec);
+      if (failures.length) throw new Reject('golden', `${failures[0].case}: ${failures[0].error}${failures.length > 1 ? ` (și încă ${failures.length - 1})` : ''}`, 1, { case: failures[0].case, failures: failures.slice(0, 10) });
+      golden = `${(spec.cases || []).length} cazuri trecute`;
+    }
+
     // 6. Disc.
     const need = fs.statSync(metaFile).size; // mutarea e un rename; păstrăm loc pentru generația următoare
     const fsst = fs.statfsSync(DATA);
@@ -338,7 +350,7 @@ function activate(n) {
       previous: live ? { generation: live.manifest.generation, data_date: live.manifest.data_date } : null,
       last_attempt: { generation: n, ok: true, at: now },
     });
-    return { ok: true, generation: n, previous: live?.manifest.generation ?? null, counts, changes, new_shards: newShards.map((s) => s.seq), removed, seconds: Math.round((Date.now() - t0) / 1000) };
+    return { ok: true, generation: n, previous: live?.manifest.generation ?? null, counts, changes, golden, new_shards: newShards.map((s) => s.seq), removed, seconds: Math.round((Date.now() - t0) / 1000) };
   } finally {
     try {
       db.close();
@@ -404,5 +416,5 @@ try {
     writeStatus({ last_attempt: { generation: n, ok: false, step: rej.step, error: rej.message, at: new Date().toISOString() } });
   } catch {}
   unlock();
-  out({ ok: false, step: rej.step, error: rej.message }, rej.code);
+  out({ ok: false, step: rej.step, error: rej.message, ...(rej.extra || {}) }, rej.code);
 }

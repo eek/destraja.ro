@@ -50,7 +50,61 @@ export class Generation {
       this.shards.set(s.seq, { db, get: db.prepare('SELECT n, z FROM blob WHERE hash = ?') });
     }
     this.prepare();
+    this.hasConfidence = this.db.prepare('PRAGMA table_info(relations)').all().some((c) => c.name === 'confidence');
+    this.contested = { relations: new Set(), acts: new Set() };
     return this;
+  }
+
+  /** Lista „contestată” din versiune (contract §3.5), aplicată peste generație. */
+  setContested(c) {
+    this.contested = { relations: new Set(c?.relations || []), acts: new Set(c?.acts || []) };
+  }
+
+  /** Încrederea efectivă a unei relații: contestată din listă, altfel coloana; fără coloană = neconfirmată. */
+  confidence(r) {
+    if (this.contested.relations.has(r.id)) return 'contested';
+    if (!this.hasConfidence) return null;
+    return r.confidence || null;
+  }
+  isConfirmed(r) {
+    return this.confidence(r) === 'confirmed';
+  }
+
+  /** Starea pe care pagina o poate afirma (contract §3.4): doar cu relația care o produce, totală și confirmată. */
+  statusShown(act) {
+    if (this.contested.acts.has(act.slug)) return null;
+    const effect = { abrogat: 'abroga', suspendat: 'suspenda', respins: 'respinge' }[act.status];
+    if (!effect || act.status_by == null) return null;
+    const rels = this.q.relByPair.all(act.status_by, act.id, effect);
+    return rels.some((r) => this.isConfirmed(r) && (effect !== 'abroga' || r.scope === 'total')) ? act.status : null;
+  }
+
+  /** Contorul modificărilor, doar din relațiile confirmate (contract §3.4, design v2 §6.4). */
+  confirmedStats(id) {
+    const CHANGE = new Set(['modifica', 'completeaza', 'suspenda', 'proroga', 'deroga', 'aproba_cu_modificari']);
+    const changers = new Map();
+    let unconfirmed = 0;
+    for (const r of this.q.relInAll.iterate(id)) {
+      const isChange = CHANGE.has(r.effect) || (r.effect === 'abroga' && r.scope === 'partial');
+      if (!this.isConfirmed(r)) {
+        unconfirmed++;
+        continue;
+      }
+      if (isChange && (!changers.has(r.from_id) || (r.published_on || '') > (changers.get(r.from_id) || ''))) changers.set(r.from_id, r.published_on);
+    }
+    const kinds = { oug: 0, lege: 0, og: 0 };
+    let last = null;
+    for (const [from, date] of changers) {
+      const k = this.q.actKind.get(from)?.kind;
+      if (k in kinds) kinds[k]++;
+      if (!last || (date || '') > (last.date || '')) last = { id: from, date };
+    }
+    const act = this.q.actById.get(id);
+    const years = last?.date && act?.mo_date ? Math.max(1, (Date.parse(last.date) - Date.parse(act.mo_date)) / 3.156e10) : null;
+    return {
+      changes: changers.size, changes_oug: kinds.oug, changes_lege: kinds.lege, changes_og: kinds.og, changes_other: changers.size - kinds.oug - kinds.lege - kinds.og,
+      last_change: last?.date ?? null, last_change_by: last?.id ?? null, years: years ? Math.round(years * 10) / 10 : null, unconfirmed, verified: this.hasConfidence,
+    };
   }
 
   prepare() {
@@ -71,6 +125,9 @@ export class Generation {
       relInPage: p('SELECT * FROM relations WHERE to_id = ? ORDER BY COALESCE(published_on, \'\') DESC, id DESC LIMIT ? OFFSET ?'),
       relOutPage: p('SELECT * FROM relations WHERE from_id = ? ORDER BY COALESCE(published_on, \'\') DESC, id DESC LIMIT ? OFFSET ?'),
       portalIds: p('SELECT portal_id FROM publications WHERE act_id = ? ORDER BY CASE kind WHEN \'original\' THEN 0 WHEN \'republicare\' THEN 1 WHEN \'duplicat\' THEN 2 ELSE 3 END, portal_id'),
+      relByPair: p('SELECT * FROM relations WHERE from_id = ? AND to_id = ? AND effect = ?'),
+      relInAll: p('SELECT * FROM relations WHERE to_id = ?'),
+      actKind: p('SELECT kind FROM acts WHERE id = ?'),
       relCountIn: p('SELECT effect, count(*) AS n FROM relations WHERE to_id = ? GROUP BY effect ORDER BY n DESC'),
       relCountOut: p('SELECT effect, count(*) AS n FROM relations WHERE from_id = ? GROUP BY effect ORDER BY n DESC'),
       evidence: p('SELECT source, label, observed_at FROM relation_evidence WHERE relation_id = ? ORDER BY source'),
@@ -89,7 +146,8 @@ export class Generation {
         WHERE (? = 1 OR a.minor = 0) AND (? IS NULL OR a.year >= ?) AND (? IS NULL OR a.year <= ?)`),
       sitemapCount: p('SELECT count(*) AS n FROM acts WHERE indexable = 1 AND text_policy = \'show\''),
       sitemapPage: p('SELECT slug, updated_at FROM acts WHERE indexable = 1 AND text_policy = \'show\' ORDER BY id LIMIT ? OFFSET ?'),
-      codes: p('SELECT id FROM acts WHERE kind = \'cod\' OR (is_code = 1 AND code_name IS NOT NULL) ORDER BY code_name, year'),
+      codes: p(`SELECT a.id FROM acts a LEFT JOIN act_stats s ON s.act_id = a.id WHERE a.kind = 'cod' AND a.indexable = 1
+        ORDER BY COALESCE(s.incoming, 0) DESC, a.year DESC LIMIT 16`),
       mostAmended: p(`SELECT a.id FROM act_stats s JOIN acts a ON a.id = s.act_id WHERE a.indexable = 1 AND a.status = 'in_vigoare'
         ORDER BY s.changes DESC LIMIT ?`),
       recent: p(`SELECT id FROM acts WHERE minor = 0 AND kind IN ('lege', 'oug', 'og', 'hg', 'decizie-ccr') AND mo_date IS NOT NULL
@@ -223,6 +281,18 @@ export class Generation {
     const buf = zlib.inflateSync(row.z, { maxOutputLength: row.n });
     if (buf.length !== row.n) throw new Error('blob: lungime greșită');
     return JSON.parse(buf.toString('utf8'));
+  }
+
+  /** Documentul fără unitățile referite (doar id, hash și dimensiunea din blob_index): pentru cuprins și pagini. */
+  docShallow(hash) {
+    const d = this.blob(hash);
+    d.items = (d.items || []).map((it) => (it.k === 'u' && !it.u && it.h ? { ...it, n: this.q.blobShard.get(it.h)?.n ?? 0 } : it));
+    return d;
+  }
+
+  /** Încarcă unitățile referite dintr-o listă de elemente. */
+  resolveItems(items) {
+    return items.map((it) => (it.k === 'u' && !it.u && it.h ? { ...it, u: this.blob(it.h) } : it));
   }
 
   /** Documentul cu toate unitățile, rezolvate (referințele h înlocuite cu unitatea). */

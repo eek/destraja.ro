@@ -98,10 +98,64 @@ test('pagini: abrogare, cod, text prea mare, ordin comun, noindex', () => {
   assert.equal(g.byPortalId(84137).slug, 'lege-95-2006');
   const rect = R.actPage(tpl, g, g.bySlug('act-311910'));
   assert.match(rect, /<meta name="robots" content="noindex, follow">/);
+  assert.match(R.actPage(tpl, g, g.bySlug('lege-95-2006')), /<meta name="robots" content="noindex, follow">/, 'înainte de lansare, nimic indexat');
+  R.configure({ launched: true });
   const law = R.actPage(tpl, g, g.bySlug('lege-95-2006'));
+  R.configure({ launched: false });
   assert.match(law, /<meta name="robots" content="index, follow">/);
   // Starea necunoscută nu se afișează ca etichetă.
   assert.ok(!law.includes('Stare necunoscută'));
+});
+
+test('fără încrederea pe relații: nicio stare, niciun contor, totul la „neconfirmate”', () => {
+  const f = buildFixture({ outDir: path.join(tmp, 'noconf'), generation: 1, synthetic: false, confidence: false });
+  const g0 = new Generation(f.genDir, path.join(f.dataDir, 'blobs')).open();
+  try {
+    assert.equal(g0.hasConfidence, false);
+    const l1 = R.actPage(tpl, g0, g0.bySlug('lege-1-2011'));
+    assert.ok(!l1.includes('Abrogat'), 'fără stare afirmată');
+    assert.ok(l1.includes('Încă nu numărăm modificările'));
+    assert.ok(l1.includes('Legături neconfirmate'));
+    assert.ok(!/Modificat[ă]? de \d+/.test(l1));
+    assert.ok(!l1.includes('NotInForce'));
+    const j = actJson(g0, g0.bySlug('lege-1-2011'));
+    assert.equal(j.act.status.value, 'necunoscut');
+    assert.equal(j.stats, null);
+    assert.equal(relationsJson(g0, g0.bySlug('lege-95-2006'), {}).items.every((r) => r.confirmed === false), true);
+  } finally {
+    g0.close();
+  }
+});
+
+test('relațiile confirmate se numără, celelalte sunt separate; ținta ambiguă nu are legătură', () => {
+  const law = R.actPage(tpl, g, g.bySlug('lege-95-2006'));
+  assert.match(law, /Modificată de \d+ ori/);
+  assert.ok(law.includes('Legături neconfirmate'));
+  assert.ok(law.includes('listează o legătură de tip'));
+  const st = g.confirmedStats(71139);
+  assert.ok(st.changes >= 1 && st.unconfirmed >= 1);
+  const amb = g.db.prepare('SELECT * FROM relations WHERE target_ambiguous = 1').get();
+  assert.ok(amb);
+  const out = relationsJson(g, g.bySlug('lege-95-2006'), { dir: 'out', limit: '100' });
+  const a = out.items.find((x) => x.relation_id === amb.id);
+  assert.equal(a.act, null);
+  assert.equal(a.target_ambiguous, true);
+  const page = R.changesPage(tpl, g, g.bySlug('lege-95-2006'), 1);
+  assert.ok(page.includes(amb.to_cite));
+});
+
+test('lista contestată ascunde starea și scoate relația din contor', () => {
+  const rel = g.db.prepare("SELECT id FROM relations WHERE to_id = 125150 AND effect = 'abroga' AND scope = 'total'").get();
+  assert.equal(g.statusShown(g.bySlug('lege-1-2011')), 'abrogat');
+  g.setContested({ relations: [rel.id], acts: [] });
+  try {
+    assert.equal(g.statusShown(g.bySlug('lege-1-2011')), null);
+    assert.ok(R.actPage(tpl, g, g.bySlug('lege-1-2011')).includes('semnalată de un cititor'));
+    g.setContested({ relations: [], acts: ['lege-95-2006'] });
+    assert.ok(R.actPage(tpl, g, g.bySlug('lege-95-2006')).includes('Un cititor a semnalat o problemă'));
+  } finally {
+    g.setContested(null);
+  }
 });
 
 test('textul lung se împarte în pagini și se randează repede', () => {
@@ -151,7 +205,10 @@ function get(port, p, headers = {}) {
 }
 
 test('HTTP: rute, 301, 404, ETag/304, gzip, cache, limită pe IP', async () => {
-  const s = createActeServer({ dataDir: fx.dataDir, releaseDir: path.join(tmp, 'norel'), pollMs: 100000, ratePerMin: 30, log: () => {} });
+  const rel = path.join(tmp, 'rel-launched');
+  fs.mkdirSync(rel, { recursive: true });
+  fs.writeFileSync(path.join(rel, 'manifest.json'), JSON.stringify({ id: 'test', launched: true }));
+  const s = createActeServer({ dataDir: fx.dataDir, releaseDir: rel, pollMs: 100000, ratePerMin: 30, log: () => {} });
   await new Promise((r) => s.server.listen(0, '127.0.0.1', r));
   const port = s.server.address().port;
   try {
@@ -182,11 +239,27 @@ test('HTTP: rute, 301, 404, ETag/304, gzip, cache, limită pe IP', async () => {
     assert.match((await get(port, '/sitemap-1.xml')).body.toString(), /<loc>https:\/\/acte.destraja.ro\/lege-95-2006<\/loc>/);
     assert.ok(!(await get(port, '/sitemap-1.xml')).body.toString().includes('act-311910'));
     assert.equal((await get(port, '/date/site-export.ndjson.gz')).status, 200);
+    assert.equal(page.headers['x-robots-tag'], undefined, 'lansat: fără noindex pe actele indexabile');
     // Limita pe IP privește doar randările noi; paginile din cache trec.
     let limited = 0;
     for (let i = 0; i < 40; i++) if ((await get(port, `/cauta?q=x${i}`, { 'CF-Connecting-IP': '203.0.113.9' })).status === 429) limited++;
     assert.ok(limited >= 5, `limitate: ${limited}`);
     assert.equal((await get(port, '/lege-95-2006', { 'CF-Connecting-IP': '203.0.113.9' })).status, 200, 'cache hit nelimitat');
+  } finally {
+    s.server.close();
+    R.configure({ launched: false });
+  }
+});
+
+test('HTTP: înainte de lansare, noindex peste tot și sitemap gol', async () => {
+  const s = createActeServer({ dataDir: fx.dataDir, releaseDir: path.join(tmp, 'norel'), pollMs: 100000, log: () => {} });
+  await new Promise((r) => s.server.listen(0, '127.0.0.1', r));
+  const port = s.server.address().port;
+  try {
+    assert.equal((await get(port, '/lege-95-2006')).headers['x-robots-tag'], 'noindex, follow');
+    assert.equal((await get(port, '/')).headers['x-robots-tag'], 'noindex, follow');
+    assert.ok(!(await get(port, '/sitemap.xml')).body.toString().includes('<sitemap>'));
+    assert.equal((await get(port, '/sitemap-1.xml')).status, 404);
   } finally {
     s.server.close();
   }
@@ -320,6 +393,33 @@ test('activare: o generație bună trece; încărcarea incompletă, schema și n
   assert.equal(st.live.generation, 7);
   assert.equal(st.previous.generation, 1);
   assert.deepEqual(fs.readdirSync(path.join(root, 'data')).filter((d) => d.startsWith('gen-')).sort(), ['gen-1', 'gen-7']);
+});
+
+test('activare: un caz golden picat respinge generația și numește cazul', () => {
+  const root = stageRoot();
+  fs.mkdirSync(path.join(root, 'release', 'rel-g'));
+  const golden = { cases: [
+    { case: 'cod', checks: [{ alias: 'codul-fiscal', resolves_to: 'cod-fiscal-2015' }] },
+    { case: 'ordin-comun', checks: [{ same_act: [306515, 306516] }] },
+    { case: 'forma', checks: [{ portal_id: 84137, resolves_to: 'lege-95-2006', not_an_act: true }] },
+    { case: 'aprobare', checks: [{ relation: { from: 'lege-3-2026', to: 'oug-109-2024', effect: 'aproba' }, exists: true }] },
+    { case: 'indexare', checks: [{ rule: 'indexable_whitelist' }] },
+  ] };
+  fs.writeFileSync(path.join(root, 'release', 'rel-g', 'golden.json'), JSON.stringify(golden));
+  fs.writeFileSync(path.join(root, 'release', 'rel-g', 'manifest.json'), JSON.stringify({ data_schema: { min: 1, max: 1 } }));
+  fs.symlinkSync('rel-g', path.join(root, 'release', 'current'));
+  const good = buildFixture({ outDir: path.join(tmp, 'g1'), generation: 1, synthetic: false });
+  upload(root, good);
+  const ok = activate(root, 'activate', '1');
+  assert.equal(ok.code, 0, JSON.stringify(ok));
+  assert.match(ok.golden, /5 cazuri/);
+  const bad = buildFixture({ outDir: path.join(tmp, 'g2'), generation: 2, synthetic: false, mutate: (ctx) => { ctx.aliases.length = 0; } });
+  upload(root, bad);
+  const r = activate(root, 'activate', '2');
+  assert.equal(r.code, 1);
+  assert.equal(r.step, 'golden');
+  assert.equal(r.case, 'cod');
+  assert.equal(fs.readlinkSync(path.join(root, 'data', 'current')), 'gen-1');
 });
 
 test('activare: un blob stricat în fragment e prins', () => {

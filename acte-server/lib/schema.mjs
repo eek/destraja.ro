@@ -68,6 +68,14 @@ CREATE VIRTUAL TABLE acts_fts USING fts5(title_norm, cite_norm, content='acts', 
   tokenize='unicode61 remove_diacritics 2', prefix='3');
 `;
 
+/** Coloane adăugate după v1 (contract §3.4), opționale: o generație fără ele e acceptată, iar serverul o tratează
+ * ca neconfirmată. Constructorul de date de test le adaugă. */
+export const OPTIONAL_SQL = `
+ALTER TABLE relations ADD COLUMN confidence TEXT;
+ALTER TABLE relations ADD COLUMN evidence_sources TEXT;
+ALTER TABLE relations ADD COLUMN target_ambiguous INTEGER NOT NULL DEFAULT 0;
+`;
+
 export const SHARD_SQL = `
 CREATE TABLE blob (hash TEXT PRIMARY KEY, n INTEGER NOT NULL, z BLOB NOT NULL) WITHOUT ROWID;
 CREATE TABLE shard_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);

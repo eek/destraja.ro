@@ -80,6 +80,20 @@ try {
   fs.unlinkSync(path.join(fx.dataDir, 'current'));
 } catch {}
 
+// 3b. Cazurile golden (monitorul-oficial docs/acte/golden.json) și lista contestată (contract §3.5).
+const moDir = process.env.MO_DIR || path.join(os.homedir(), 'work', 'monitorul-oficial');
+const goldenSrc = path.join(moDir, 'docs', 'acte', 'golden.json');
+if (fs.existsSync(goldenSrc)) {
+  JSON.parse(fs.readFileSync(goldenSrc, 'utf8'));
+  fs.copyFileSync(goldenSrc, path.join(outDir, 'golden.json'));
+} else console.warn(`[release] ${goldenSrc} lipsește: activarea datelor nu va avea cazuri golden`);
+const contestedSrc = path.join(REPO, '.cache', 'acte', 'contested.json');
+if (fs.existsSync(contestedSrc)) {
+  const c = JSON.parse(fs.readFileSync(contestedSrc, 'utf8'));
+  if (!Array.isArray(c.relations) || !Array.isArray(c.acts)) throw new Error('contested.json: relations și acts trebuie să fie liste');
+  fs.copyFileSync(contestedSrc, path.join(outDir, 'contested.json'));
+}
+
 // 4. Ce cere proba: adrese pe datele de test (cu text așteptat) și pe datele active (doar starea).
 const smoke = {
   fixture: [
@@ -125,6 +139,8 @@ const manifest = {
   data_schema: SCHEMA_SUPPORTED,
   node: '24',
   sitemap_kinds: ['lege', 'oug', 'og', 'cod', 'decret-lege'],
+  // Până la porțile de lansare (0.9): noindex peste tot, sitemap gol. --launch îl pornește.
+  launched: args.includes('--launch'),
   files,
 };
 fs.writeFileSync(path.join(outDir, 'manifest.json'), `${JSON.stringify(manifest, null, 1)}\n`);

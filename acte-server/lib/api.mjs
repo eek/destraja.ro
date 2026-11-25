@@ -22,7 +22,7 @@ export const actRef = (a) => (a ? { act_id: a.slug, cite: a.cite, title: a.title
 
 function resultOf(g, a, match) {
   return {
-    act_id: a.slug, cite: a.cite, title: a.title, kind: a.kind, kind_label: a.kind_label, year: a.year, mo: mo(a), status: a.status,
+    act_id: a.slug, cite: a.cite, title: a.title, kind: a.kind, kind_label: a.kind_label, year: a.year, mo: mo(a), status: g.statusShown(a) || 'necunoscut',
     portal_ids: g.portalIds(a.id), match, minor: !!a.minor, url: actUrl(a),
   };
 }
@@ -172,7 +172,7 @@ function flatten(u) {
 
 /** §10.2: actul, fără sau cu unități de text. */
 export function actJson(g, act, params = {}) {
-  const st = g.stats(act.id);
+  const st = g.confirmedStats(act.id);
   const latest = act.latest_form_id ? g.version(act.latest_form_id) : null;
   const pending = latest ? g.includes(latest.form_id).filter((i) => i.state !== 'confirmed').map((i) => ({ act_id: g.byId(i.amending_id)?.slug ?? null, cite: i.amending_cite, state: i.state })) : [];
   const nums = act.number_raw ?? null;
@@ -188,14 +188,19 @@ export function actJson(g, act, params = {}) {
     act: {
       act_id: act.slug, cite: act.cite, title: act.title, kind: act.kind, kind_label: act.kind_label, issuers: act.issuers, number: nums, year: act.year,
       act_date: act.act_date, mo: mo(act), in_force_from: act.in_force_from, in_force_source: act.in_force_source,
-      status: { value: act.status, source: act.status_source, by: act.status_by ? actRef(g.byId(act.status_by)) : null, from: act.status_from },
+      // Doar starea pe care o susține o relație confirmată (contract §3.4); altfel „necunoscut”.
+      status: g.statusShown(act)
+        ? { value: act.status, source: act.status_source, by: act.status_by ? actRef(g.byId(act.status_by)) : null, from: act.status_from, confirmed: true }
+        : { value: 'necunoscut', source: null, by: null, from: null, confirmed: false },
+      contested: g.contested.acts.has(act.slug),
       portal_ids: g.portalIds(act.id), portal_url: act.portal_id ? portalUrl(act.portal_id) : null, url: actUrl(act), text_policy: act.text_policy,
       indexable: robotsFor(act).startsWith('index'), code_name: act.code_name, code_of: act.code_of ? actRef(g.byId(act.code_of)) : null, flags: act.flags,
     },
-    stats: st
+    // Doar relațiile confirmate; null cât timp generația nu are încă încrederea pe relații.
+    stats: st.verified
       ? {
-          changes: st.changes, changes_oug: st.changes_oug, changes_lege: st.changes_lege, changes_og: st.changes_og, changes_other: st.changes_other,
-          first_change: st.first_change, last_change: st.last_change, years: st.years, last_change_by: st.last_change_by ? actRef(g.byId(st.last_change_by)) : null,
+          confirmed_only: true, changes: st.changes, changes_oug: st.changes_oug, changes_lege: st.changes_lege, changes_og: st.changes_og, changes_other: st.changes_other,
+          last_change: st.last_change, years: st.years, last_change_by: st.last_change_by ? actRef(g.byId(st.last_change_by)) : null, unconfirmed_relations: st.unconfirmed,
         }
       : null,
     latest_form: latest ? { form_id: latest.form_id, valid_from: latest.valid_from, integrated: latest.integrated, has_text: !!latest.doc, pending } : null,
@@ -223,9 +228,15 @@ export function relationsJson(g, act, params = {}) {
   }
   const rows = g.relations(act.id, dir, { effect, since, cursor, limit: limit + 1 });
   const items = rows.slice(0, limit).map((r) => {
-    const other = dir === 'in' ? g.byId(r.from_id) : r.to_id != null ? g.byId(r.to_id) : null;
+    const other = dir === 'in' ? g.byId(r.from_id) : r.to_id != null && !r.target_ambiguous ? g.byId(r.to_id) : null;
+    const confidence = g.confidence(r);
+    let sources = [];
+    try {
+      sources = JSON.parse(r.evidence_sources || '[]');
+    } catch {}
     return {
-      relation_id: r.id, effect: r.effect, scope: r.scope, units: r.units, units_raw: r.units_raw, act: actRef(other), cite: other?.cite ?? r.to_cite,
+      relation_id: r.id, effect: r.effect, scope: r.scope, confidence: confidence || 'neconfirmat', confirmed: confidence === 'confirmed', evidence_sources: sources,
+      target_ambiguous: !!r.target_ambiguous, units: r.units, units_raw: r.units_raw, act: actRef(other), cite: other?.cite ?? r.to_cite,
       published_on: r.published_on, effective_on: r.effective_on, via: r.via_id ? actRef(g.byId(r.via_id)) : null,
       evidence: g.evidence(r.id).map((e) => ({ source: e.source, label: e.label })),
     };

@@ -86,16 +86,20 @@ export function refLink(g, id, fallback) {
   return html`<a class="${C.quiet}" href="${actPath(a)}">${a.cite}</a>`;
 }
 
-function statusChip(act) {
-  if (!STATUS[act.status] || act.status === 'necunoscut') return '';
-  const s = STATUS[act.status] || STATUS.necunoscut;
-  const label = agree(act, s.label, s.labelF || s.label);
-  return html`<span class="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ${C.chip[s.tone]}">${label}${s.note ? html`<span class="font-normal opacity-85">(${s.note})</span>` : ''}</span>`;
+function statusChip(g, act) {
+  const shown = g.statusShown(act);
+  if (!shown) return '';
+  const st = STATUS[shown];
+  return html`<span class="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ${C.chip[st.tone]}">${agree(act, st.label, st.labelF || st.label)}</span>`;
 }
 
-/** „Modificată de 14 ori în 3 ani, 9 dintre modificări (64%) prin ordonanțe de urgență. Ultima: …” */
+/** „Modificată de 14 ori în 3 ani, 9 dintre modificări (64%) prin ordonanțe de urgență. Ultima: …” (doar confirmate). */
 export function counterSentence(g, act, st) {
-  if (!st || !st.changes) return `${agree(act, 'Nemodificat', 'Nemodificată')} potrivit legăturilor din Portalul Legislativ.`;
+  if (!st.verified) return 'Încă nu numărăm modificările acestui act: legăturile de mai jos nu sunt confirmate din două surse.';
+  if (!st.changes)
+    return st.unconfirmed
+      ? `Nicio modificare confirmată din două surse; vezi legăturile neconfirmate de mai jos.`
+      : `${agree(act, 'Nemodificat', 'Nemodificată')} potrivit legăturilor din Portalul Legislativ.`;
   const n = st.changes;
   const years = st.years ? Math.max(1, Math.round(st.years)) : null;
   let s = `${agree(act, 'Modificat', 'Modificată')} ${n === 1 ? 'o dată' : `de ${n} ${n % 100 >= 20 || n % 100 === 0 ? 'de ori' : 'ori'}`}`;
@@ -110,19 +114,78 @@ export function counterSentence(g, act, st) {
   return s;
 }
 
+const SOURCE = {
+  portal: 'Portalul Legislativ (Acțiuni induse)',
+  scriptogre: 'copia publică a portalului (romanian-law-data)',
+  version_note: 'notele formei consolidate',
+  text: 'textul actului',
+  manual: 'o verificare manuală',
+};
+function sourcesOf(g, r) {
+  let src = [];
+  try {
+    src = JSON.parse(r.evidence_sources || '[]');
+  } catch {}
+  if (!src.length) src = g.evidence(r.id).map((e) => e.source);
+  return [...new Set(src)].map((x) => SOURCE[x] || x);
+}
+
+/** Celălalt capăt al relației, ca legătură; ținta ambiguă sau necunoscută rămâne text. */
+function otherEnd(g, r, dir) {
+  if (dir === 'in') {
+    const a = g.byId(r.from_id);
+    return a ? html`<a class="${C.quiet}" href="${actPath(a)}">${a.cite}</a>` : html`<span>un act necunoscut</span>`;
+  }
+  const a = !r.target_ambiguous && r.to_id != null ? g.byId(r.to_id) : null;
+  return a ? html`<a class="${C.quiet}" href="${actPath(a)}">${a.cite}</a>` : html`<span>${r.to_cite || 'un act necunoscut'}</span>`;
+}
+
+const unitsText = (r) => (r.units_raw ? ` ${r.units_raw.replace(/^ART\./i, 'art.').replace(/^ANEXA/i, 'anexa')}` : '');
+const dateCell = (r) => html`<span class="w-28 shrink-0 text-sm tabular-nums text-muted">${r.published_on ? dateRo(r.published_on) : 'dată necunoscută'}</span>`;
+
+/** O relație confirmată: verb la indicativ („modifică”). */
 function relationRow(g, r, dir) {
-  const other = dir === 'in' ? g.byId(r.from_id) : r.to_id != null ? g.byId(r.to_id) : null;
   const via = r.via_id ? g.byId(r.via_id) : null;
-  const units = r.units_raw ? ` ${r.units_raw.replace(/^ART\./i, 'art.').replace(/^ANEXA/i, 'anexa')}` : '';
   const scope = r.effect === 'abroga' && r.scope ? (r.scope === 'total' ? ' (total)' : ' (parțial)') : '';
   return html`<li class="flex flex-col gap-1 border-b border-line py-3 last:border-0 sm:flex-row sm:gap-4">
-  <span class="w-28 shrink-0 text-sm tabular-nums text-muted">${r.published_on ? dateRo(r.published_on) : 'dată necunoscută'}</span>
+  ${dateCell(r)}
   <span class="text-[15px] leading-7 text-body">${
     dir === 'in'
-      ? html`${other ? html`<a class="${C.quiet}" href="${actPath(other)}">${other.cite}</a>` : 'Un act'} ${effectVerb(r.effect)}${scope}${units}${via ? html` (prin ${refLink(g, via.id)})` : ''}`
-      : html`${effectVerb(r.effect)}${scope} ${other ? html`<a class="${C.quiet}" href="${actPath(other)}">${other.cite}</a>` : html`<span>${r.to_cite || 'un act'}</span>`}${units}`
+      ? html`${otherEnd(g, r, 'in')} ${effectVerb(r.effect)}${scope}${unitsText(r)}${via ? html` (prin ${refLink(g, via.id)})` : ''}`
+      : html`${effectVerb(r.effect)}${scope} ${otherEnd(g, r, 'out')}${unitsText(r)}`
   }</span>
 </li>`;
+}
+
+const CONF_LABEL = { single: 'o singură sursă', conflicting: 'surse în dezacord', contested: 'semnalată de un cititor, în verificare' };
+
+/** O relație neconfirmată: cine o listează și de ce tip, fără să afirmăm că s-a întâmplat. */
+function unconfirmedRow(g, r, dir) {
+  const conf = g.confidence(r);
+  const noun = (EFFECT[r.effect] || EFFECT.alta).noun;
+  const src = sourcesOf(g, r);
+  return html`<li class="flex flex-col gap-1 border-b border-dashed border-line py-3 last:border-0 sm:flex-row sm:gap-4">
+  ${dateCell(r)}
+  <span class="text-[15px] leading-7 text-body">${src.length ? src.join(' și ') : 'O sursă'} ${src.length > 1 ? 'listează' : 'listează'} o legătură de tip „${noun}” ${dir === 'in' ? html`de la ${otherEnd(g, r, 'in')}` : html`spre ${otherEnd(g, r, 'out')}`}${unitsText(r)}.
+  <span class="ml-1 text-sm text-muted">(${CONF_LABEL[conf] || 'neconfirmată'})</span></span>
+</li>`;
+}
+
+/** Relațiile unui act împărțite în confirmate și neconfirmate, cele mai noi întâi. */
+function splitRelations(g, id, dir, limit, offset = 0) {
+  const rows = g.relationsPage(id, dir, limit, offset);
+  return { confirmed: rows.filter((r) => g.isConfirmed(r)), unconfirmed: rows.filter((r) => !g.isConfirmed(r)), rows };
+}
+
+function unconfirmedSection(g, act, inc, out, more = null) {
+  if (!inc.length && !out.length) return '';
+  return html`<section aria-labelledby="neconfirmate" class="mt-10 rounded-2xl border border-dashed border-line-strong bg-sunken p-5 sm:p-7">
+  <h2 id="neconfirmate" class="font-display text-xl font-normal text-ink sm:text-2xl">Legături neconfirmate</h2>
+  <p class="mt-2 ${C.muted}">Le arătăm cu sursa lor, dar nu le numărăm și nu ne bazăm pe ele: nu sunt confirmate din două surse independente sau au fost semnalate ca greșite.</p>
+  ${inc.length ? html`<h3 class="mt-4 text-sm font-semibold text-ink">Spre acest act</h3><ul class="mt-1">${inc.map((r) => unconfirmedRow(g, r, 'in'))}</ul>` : ''}
+  ${out.length ? html`<h3 class="mt-4 text-sm font-semibold text-ink">De la acest act</h3><ul class="mt-1">${out.map((r) => unconfirmedRow(g, r, 'out'))}</ul>` : ''}
+  ${more}
+</section>`;
 }
 
 // ---------------------------------------------------------------- textul
@@ -169,7 +232,7 @@ export function paginate(items) {
   const pages = [[]];
   let size = 0;
   for (const it of items) {
-    const n = it.k === 'u' ? JSON.stringify(it.u || '').length : 100;
+    const n = it.k === 'u' ? (it.u ? JSON.stringify(it.u).length : it.n || 0) : 100;
     if (size + n > PAGE_CHARS && pages[pages.length - 1].length) {
       pages.push([]);
       size = 0;
@@ -180,16 +243,29 @@ export function paginate(items) {
   return pages;
 }
 
+/** Eticheta unei unități din id, când unitatea nu e încărcată: art-5^1 → Articolul 5^1. */
+export function labelFromId(id) {
+  let m;
+  if (id === 'art-unic') return 'Articol unic';
+  if ((m = /^art-(.+)$/.exec(id))) return `Articolul ${m[1]}`;
+  if (id === 'anexa') return 'Anexa';
+  if ((m = /^anexa-([^/]+)$/.exec(id))) return `Anexa nr. ${m[1]}`;
+  if (id === 'preambul') return 'Preambul';
+  if (id === 'formula') return 'Formula de încheiere';
+  return id;
+}
+const isArticle = (it) => it.k === 'u' && (it.u ? it.u.kind === 'articol' : /^art-/.test(it.id || ''));
+
 function toc(items, base = '') {
-  const entries = items.filter((it) => it.k === 'h' || (it.k === 'u' && it.u?.kind !== 'articol'));
-  const arts = items.filter((it) => it.k === 'u' && it.u?.kind === 'articol').length;
+  const entries = items.filter((it) => it.k === 'h' || (it.k === 'u' && !isArticle(it)));
+  const arts = items.filter(isArticle).length;
   if (!entries.length && arts < 12) return '';
   return html`<details class="mt-4 rounded-xl bg-sunken p-4 text-sm">
 <summary class="cursor-pointer font-semibold text-ink">Cuprins (${countWord(arts, 'articol', 'articole')})</summary>
 <ol class="mt-3 space-y-1">${entries.map((it) =>
     it.k === 'h'
       ? html`<li class="${(it.level || 1) > 2 ? 'pl-4' : ''} text-body">${richText(it.label)}${it.title ? html` · ${richText(it.title)}` : ''}</li>`
-      : html`<li><a class="${C.quiet}" href="${base}${unitHref(it.u.id)}">${richText(it.u.label || it.u.id)}</a></li>`,
+      : html`<li><a class="${C.quiet}" href="${base}${unitHref(it.u?.id || it.id)}">${richText(it.u?.label || labelFromId(it.id))}</a></li>`,
   )}</ol>
 </details>`;
 }
@@ -227,8 +303,7 @@ function jsonLd(g, act, st) {
   };
   if (act.act_date) o.legislationDate = act.act_date;
   if (act.mo_date) o.datePublished = act.mo_date;
-  if (act.status === 'abrogat' && act.status_source === 'portal') o.legislationLegalForce = 'https://schema.org/NotInForce';
-  else if (act.status === 'in_vigoare' && act.status_source === 'portal') o.legislationLegalForce = 'https://schema.org/InForce';
+  if (g.statusShown(act) === 'abrogat') o.legislationLegalForce = 'https://schema.org/NotInForce';
   const passed = act.issuers?.[0];
   if (passed) o.legislationPassedBy = { '@type': 'Organization', name: passed };
   if (st?.last_change) o.dateModified = st.last_change;
@@ -237,8 +312,14 @@ function jsonLd(g, act, st) {
 
 // Contract §3.3: serverul aplică aceeași listă peste coloana indexable a rândului.
 const INDEX_KINDS = new Set(['lege', 'oug', 'og', 'hg', 'decret-lege', 'cod', 'decizie-ccr', 'decizie-iccj', 'decizie-iccj-ril', 'decizie-iccj-hp', 'ordin']);
+// Până la lansare (porțile 0.9), versiunea spune launched: false și nimic nu se indexează.
+let LAUNCHED = false;
+export const configure = ({ launched }) => {
+  LAUNCHED = !!launched;
+};
+export const isLaunched = () => LAUNCHED;
 export function robotsFor(act) {
-  return act.indexable && act.text_policy === 'show' && !(act.flags || []).length && INDEX_KINDS.has(act.kind) ? 'index, follow' : 'noindex, follow';
+  return LAUNCHED && act.indexable && act.text_policy === 'show' && !(act.flags || []).length && INDEX_KINDS.has(act.kind) ? 'index, follow' : 'noindex, follow';
 }
 
 function actHeader(g, act, { sub = null } = {}) {
@@ -246,7 +327,7 @@ function actHeader(g, act, { sub = null } = {}) {
   const iss = (act.issuers || []).join(', ');
   return html`<header class="${C.panel} mt-4 p-6 sm:p-9">
   <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-    ${statusChip(act)}
+    ${statusChip(g, act)}
     <span class="tabular-nums text-muted">${act.kind_label}${iss ? ` · ${iss}` : ''}</span>
   </div>
   <h1 class="font-display mt-5 text-[clamp(1.8rem,4vw,2.8rem)] font-normal leading-[1.12] text-ink">${act.cite}${act.title ? html` <span class="block text-[0.62em] leading-snug text-body">${richText(act.title)}</span>` : ''}</h1>
@@ -254,7 +335,8 @@ function actHeader(g, act, { sub = null } = {}) {
   <dl class="mt-5 grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
     ${mo ? html`<div><dt class="sr-only">Publicare</dt><dd class="text-body">${mo}</dd></div>` : html`<div><dd class="text-muted">Nu știm în ce Monitor a apărut.</dd></div>`}
     ${act.in_force_from ? html`<div><dt class="sr-only">Intrare în vigoare</dt><dd class="text-body">${agree(act, 'Intrat', 'Intrată')} în vigoare pe ${dateRo(act.in_force_from)}${act.in_force_source === 'rule' ? ' (regula celor 3 zile de la publicare)' : ''}</dd></div>` : ''}
-    ${act.status === 'abrogat' ? html`<div><dd class="text-body">${agree(act, 'Abrogat', 'Abrogată')}${act.status_from ? ` de la ${dateRo(act.status_from)}` : ''}${act.status_by ? html` prin ${refLink(g, act.status_by)}` : ''}</dd></div>` : ''}
+    ${g.contested.acts.has(act.slug) ? html`<div class="sm:col-span-2"><dd class="text-risk-amber-text">Un cititor a semnalat o problemă la acest act; verificăm.</dd></div>` : ''}
+    ${g.statusShown(act) === 'abrogat' ? html`<div><dd class="text-body">${agree(act, 'Abrogat', 'Abrogată')}${act.status_from ? ` de la ${dateRo(act.status_from)}` : ''}${act.status_by ? html` prin ${refLink(g, act.status_by)}` : ''}</dd></div>` : ''}
     ${act.portal_id ? html`<div><dd><a class="${C.quiet}" href="${portalUrl(act.portal_id)}" rel="noopener">Pe Portalul Legislativ</a></dd></div>` : ''}
   </dl>
 </header>`;
@@ -262,10 +344,10 @@ function actHeader(g, act, { sub = null } = {}) {
 
 /** Pagina principală a actului (starea curentă). */
 export function actPage(tpl, g, act) {
-  const st = g.stats(act.id);
+  const st = g.confirmedStats(act.id);
   const counts = g.relationCounts(act.id);
-  const incoming = g.relations(act.id, 'in', { limit: CHANGES_ON_PAGE });
-  const outgoing = g.relations(act.id, 'out', { limit: CHANGES_ON_PAGE });
+  const inc = splitRelations(g, act.id, 'in', 300);
+  const out = splitRelations(g, act.id, 'out', 300);
   const totalIn = Object.values(counts.incoming).reduce((a, b) => a + b, 0);
   const totalOut = Object.values(counts.outgoing).reduce((a, b) => a + b, 0);
   const pubs = g.publications(act.id).filter((p) => p.kind === 'republicare' || p.kind === 'rectificare');
@@ -274,6 +356,11 @@ export function actPage(tpl, g, act) {
   const sentence = counterSentence(g, act, st);
   const latest = act.latest_form_id ? g.version(act.latest_form_id) : null;
   const flags = act.flags || [];
+  const incC = inc.confirmed.slice(0, CHANGES_ON_PAGE);
+  const outC = out.confirmed.slice(0, CHANGES_ON_PAGE);
+  const incU = inc.unconfirmed.slice(0, CHANGES_ON_PAGE);
+  const outU = out.unconfirmed.slice(0, CHANGES_ON_PAGE);
+  const moreAll = totalIn + totalOut > incC.length + outC.length + incU.length + outU.length;
 
   const textSection = renderTextSection(g, act, { base: actPath(act) });
 
@@ -284,15 +371,15 @@ ${actHeader(g, act)}
 <section aria-labelledby="modificari" class="mt-10">
   <h2 id="modificari" class="${C.h2}">Modificări</h2>
   <p class="mt-3 text-lg leading-8 text-ink">${sentence}</p>
-  <p class="${C.muted}">Potrivit legăturilor din Portalul Legislativ; pot lipsi modificări.</p>
+  ${st.verified ? html`<p class="${C.muted}">Numărăm doar legăturile confirmate din două surse; pot lipsi modificări.</p>` : ''}
   ${latest ? html`<p class="mt-3 text-[15px] leading-7 text-body">Ultima formă consolidată pe Portalul Legislativ: de la ${dateRo(latest.valid_from)} (informativă)${latest.doc ? html`. <a class="${C.quiet}" href="${actPath(act, `/forma/${latest.valid_from}`)}">Vezi forma</a>` : ''}.</p>` : ''}
-  ${incoming.length ? html`<ul class="mt-4">${incoming.map((r) => relationRow(g, r, 'in'))}</ul>` : ''}
-  ${totalIn > incoming.length ? html`<p class="mt-3"><a class="${C.link}" href="${actPath(act, '/modificari')}">Toate cele ${totalIn.toLocaleString('ro-RO')} de legături</a></p>` : ''}
+  ${incC.length ? html`<ul class="mt-4">${incC.map((r) => relationRow(g, r, 'in'))}</ul>` : ''}
 </section>
 ${code ? html`<p class="mt-6 text-[15px] text-body">${act.kind === 'cod' ? 'Adoptat prin' : 'Aprobă'} ${refLink(g, code.id)}.</p>` : ''}
-${outgoing.length ? html`<section aria-labelledby="modifica" class="mt-10"><h2 id="modifica" class="${C.h2}">Ce ${agree(act, 'schimbă acest act', 'schimbă acest act')}</h2>
-  <ul class="mt-4">${outgoing.map((r) => relationRow(g, r, 'out'))}</ul>
-  ${totalOut > outgoing.length ? html`<p class="mt-3"><a class="${C.link}" href="${actPath(act, '/modificari#modifica')}">Toate cele ${totalOut.toLocaleString('ro-RO')}</a></p>` : ''}</section>` : ''}
+${outC.length ? html`<section aria-labelledby="modifica" class="mt-10"><h2 id="modifica" class="${C.h2}">Ce schimbă acest act</h2>
+  <ul class="mt-4">${outC.map((r) => relationRow(g, r, 'out'))}</ul></section>` : ''}
+${unconfirmedSection(g, act, incU, outU)}
+${moreAll ? html`<p class="mt-4"><a class="${C.link}" href="${actPath(act, '/modificari')}">Toate cele ${(totalIn + totalOut).toLocaleString('ro-RO')} de legături</a></p>` : ''}
 ${pubs.length ? html`<section class="mt-10"><h2 class="${C.h2}">Republicări și rectificări</h2><ul class="mt-4 space-y-1 text-[15px] text-body">${pubs.map((p) => html`<li>${p.kind === 'republicare' ? 'Republicat' : 'Rectificare'}: ${moLine(act, p) || `portal ${p.portal_id}`}</li>`)}</ul></section>` : ''}
 ${mentions.length ? html`<section class="mt-10"><h2 class="${C.h2}">Menționat în</h2><ul class="mt-4 space-y-1 text-[15px]">${mentions.map((m) => html`<li>${refLink(g, m.from_id)}</li>`)}</ul></section>` : ''}
 ${textSection}
@@ -302,7 +389,7 @@ ${footerNote(g, flags.includes('suspect_consolidation') ? html`<p class="mt-2">R
 
   return layout(tpl, {
     title: `${act.cite}${act.title ? ` ${shorten(act.title, 90)}` : ''}: modificări și text | destrajă.ro`,
-    description: `${sentence} ${act.cite}${act.title ? ` ${shorten(act.title, 120)}` : ''}.`.slice(0, 300),
+    description: `${st.verified && st.changes ? `${sentence} ` : ''}${act.cite}${act.title ? ` ${shorten(act.title, 160)}` : ''}. ${moLine(act) || ''}`.trim().slice(0, 300),
     canonical: actUrl(act),
     robots: robotsFor(act),
     jsonld: jsonLd(g, act, st),
@@ -319,10 +406,10 @@ function renderTextSection(g, act, { base, page = null }) {
     return html`<section class="mt-10">${head}<p class="mt-3 text-[15px] leading-7 text-body">Textul e prea mare ca să-l copiem (pagina portalului are peste 10 MB). ${act.portal_id ? html`Îl găsești <a class="${C.quiet}" href="${portalUrl(act.portal_id)}" rel="noopener">pe Portalul Legislativ</a>.` : ''}</p></section>`;
   const t = g.texts(act.id)[0];
   if (!t) return html`<section class="mt-10">${head}<p class="mt-3 text-[15px] leading-7 text-muted">Nu avem încă textul acestui act.${act.portal_id ? html` <a class="${C.quiet}" href="${portalUrl(act.portal_id)}" rel="noopener">Vezi-l pe Portalul Legislativ</a>.` : ''}</p></section>`;
-  const doc = g.doc(t.doc);
+  const doc = g.docShallow(t.doc);
   const pages = paginate(doc.items || []);
   const p = page ?? 1;
-  const items = pages[p - 1] || [];
+  const items = page == null && pages.length > 1 ? [] : g.resolveItems(pages[p - 1] || []);
   const nav =
     pages.length > 1
       ? html`<nav aria-label="Paginile textului" class="mt-6 flex flex-wrap gap-2 text-sm">${pages.map((_, i) =>
@@ -355,13 +442,13 @@ ${footerNote(g)}
   });
 }
 
-/** /<slug>/modificari: toate legăturile, pe pagini de câte 100. */
+/** /<slug>/modificari: toate legăturile, pe pagini de câte 100 (spre act), confirmate și neconfirmate separat. */
 export function changesPage(tpl, g, act, page, perPage = 100) {
-  const st = g.stats(act.id);
+  const st = g.confirmedStats(act.id);
   const counts = g.relationCounts(act.id);
   const totalIn = Object.values(counts.incoming).reduce((a, b) => a + b, 0);
-  const all = g.relationsPage(act.id, 'in', perPage, (page - 1) * perPage);
-  const out = page === 1 ? g.relationsPage(act.id, 'out', 500, 0) : [];
+  const inc = splitRelations(g, act.id, 'in', perPage, (page - 1) * perPage);
+  const out = page === 1 ? splitRelations(g, act.id, 'out', 500, 0) : { confirmed: [], unconfirmed: [] };
   const pages = Math.max(1, Math.ceil(totalIn / perPage));
   const nav =
     pages > 1
@@ -372,17 +459,18 @@ export function changesPage(tpl, g, act, page, perPage = 100) {
   const main = html`<div class="${C.container}">
 ${breadcrumb([['Acte', '/'], [act.cite, actPath(act)], ['Modificări', null]])}
 ${actHeader(g, act, { sub: 'Toate modificările și legăturile' })}
-<section class="mt-10"><h2 class="${C.h2}">Modificări primite</h2>
+<section class="mt-10"><h2 class="${C.h2}">Modificări confirmate</h2>
 <p class="mt-3 text-lg leading-8 text-ink">${counterSentence(g, act, st)}</p>
-<p class="${C.muted}">Potrivit legăturilor din Portalul Legislativ; pot lipsi modificări. ${Object.entries(counts.incoming).map(([e, n]) => `${(EFFECT[e] || EFFECT.alta).noun}: ${n}`).join(' · ')}</p>
-${all.length ? html`<ul class="mt-4">${all.map((r) => relationRow(g, r, 'in'))}</ul>` : html`<p class="mt-4 text-muted">Nicio legătură.</p>`}
-${nav}</section>
-${out.length ? html`<section class="mt-10"><h2 id="modifica" class="${C.h2}">Ce schimbă acest act</h2><ul class="mt-4">${out.map((r) => relationRow(g, r, 'out'))}</ul></section>` : ''}
+${inc.confirmed.length ? html`<ul class="mt-4">${inc.confirmed.map((r) => relationRow(g, r, 'in'))}</ul>` : html`<p class="mt-4 text-muted">Nicio legătură confirmată${pages > 1 ? ' pe această pagină' : ''}.</p>`}
+</section>
+${out.confirmed.length ? html`<section class="mt-10"><h2 id="modifica" class="${C.h2}">Ce schimbă acest act</h2><ul class="mt-4">${out.confirmed.map((r) => relationRow(g, r, 'out'))}</ul></section>` : ''}
+${unconfirmedSection(g, act, inc.unconfirmed, out.unconfirmed)}
+${nav}
 ${footerNote(g)}
 </div>`;
   return layout(tpl, {
     title: `${act.cite}: toate modificările${page > 1 ? `, pagina ${page}` : ''} | destrajă.ro`,
-    description: `${counterSentence(g, act, st)} Lista completă a actelor care au modificat ${act.cite}.`.slice(0, 300),
+    description: `Lista legăturilor ${act.cite} din Portalul Legislativ, cu cele confirmate separat de cele neconfirmate.`,
     canonical: actUrl(act, `/modificari${page > 1 ? `?pagina=${page}` : ''}`),
     robots: robotsFor(act),
     main,
@@ -429,7 +517,9 @@ ${footerNote(g)}
 // ---------------------------------------------------------------- landing, căutare, erori
 
 function actListItem(a, extra = null) {
-  return html`<li class="border-b border-line py-3 last:border-0"><a class="${C.quiet} text-[15px]" href="${actPath(a)}">${a.cite}</a>${a.title ? html` <span class="text-[15px] text-body">${shorten(a.title, 140)}</span>` : ''}${extra ? html`<span class="block text-sm text-muted">${extra}</span>` : ''}</li>`;
+  const name = a.kind === 'cod' && a.code_name ? a.code_name : a.cite;
+  const title = a.title && a.title !== name ? a.title : null;
+  return html`<li class="border-b border-line py-3 last:border-0"><a class="${C.quiet} text-[15px]" href="${actPath(a)}">${name}</a>${title ? html` <span class="text-[15px] text-body">${shorten(title, 140)}</span>` : ''}${extra ? html`<span class="block text-sm text-muted">${extra}</span>` : ''}</li>`;
 }
 
 export function landingPage(tpl, g) {
@@ -445,7 +535,7 @@ ${breadcrumb([['Acte', null]])}
 <div class="mt-8 max-w-3xl">${searchFormSimple('')}</div>
 <div class="mt-12 grid gap-10 lg:grid-cols-3">
   <section><h2 class="${C.h2}">Coduri</h2><ul class="mt-4">${codes.map((a) => actListItem(a))}</ul></section>
-  <section><h2 class="${C.h2}">Cele mai modificate</h2><ul class="mt-4">${amended.map((a) => actListItem(a, g.stats(a.id) ? countWord(g.stats(a.id).changes, 'modificare', 'modificări') : null))}</ul></section>
+  ${g.hasConfidence ? html`<section><h2 class="${C.h2}">Cele mai modificate</h2><ul class="mt-4">${amended.map((a) => [a, g.confirmedStats(a.id)]).filter(([, st]) => st.changes).map(([a, st]) => actListItem(a, `${countWord(st.changes, 'modificare confirmată', 'modificări confirmate')}`))}</ul></section>` : ''}
   <section><h2 class="${C.h2}">Publicate recent</h2><ul class="mt-4">${recent.map((a) => actListItem(a, a.mo_date ? dateRo(a.mo_date) : null))}</ul></section>
 </div>
 ${footerNote(g)}
@@ -454,7 +544,7 @@ ${footerNote(g)}
     title: 'Actele din Monitorul Oficial: legi, ordonanțe, hotărâri | destrajă.ro',
     description: 'Caută o lege, o ordonanță sau o hotărâre după număr sau titlu și vezi cine a modificat-o și când, cu textul publicat, după Portalul Legislativ.',
     canonical: `${ORIGIN}/`,
-    robots: 'index, follow',
+    robots: LAUNCHED ? 'index, follow' : 'noindex, follow',
     ogType: 'website',
     main,
   });

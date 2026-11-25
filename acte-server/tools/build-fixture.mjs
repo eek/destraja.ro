@@ -14,7 +14,7 @@ import zlib from 'node:zlib';
 import crypto from 'node:crypto';
 import { DatabaseSync } from 'node:sqlite';
 import { fileURLToPath } from 'node:url';
-import { META_SQL, SHARD_SQL, SCHEMA_VERSION } from '../lib/schema.mjs';
+import { META_SQL, OPTIONAL_SQL, SHARD_SQL, SCHEMA_VERSION } from '../lib/schema.mjs';
 import { norm, numberNorm } from '../lib/norm.mjs';
 import { textToUnits, unitChars } from './text-units.mjs';
 
@@ -90,7 +90,7 @@ function cleanTitle(a, text) {
   return t || null;
 }
 
-export function buildFixture({ samplesDir = path.join(HERE, '..', 'test', 'samples'), outDir, generation = 1, synthetic = true, dataDate = null, mutate = null } = {}) {
+export function buildFixture({ samplesDir = path.join(HERE, '..', 'test', 'samples'), outDir, generation = 1, synthetic = true, dataDate = null, mutate = null, confidence = true } = {}) {
   const samples = fs
     .readdirSync(samplesDir)
     .filter((f) => f.endsWith('.json'))
@@ -337,6 +337,9 @@ export function buildFixture({ samplesDir = path.join(HERE, '..', 'test', 'sampl
     textId++;
   }
 
+  // Contract §3.3: fără text, nu se indexează.
+  for (const a of acts.values()) if (!a.has_text) a.indexable = 0;
+
   // ---- versiuni (formele consolidate)
   const verRows = [];
   const incRows = [];
@@ -413,6 +416,23 @@ export function buildFixture({ samplesDir = path.join(HERE, '..', 'test', 'sampl
   // ---- mențiuni (act_refs)
   const mentionRows = refs.filter((r) => acts.has(actIdFor(r.to_id)) && acts.has(actIdFor(r.from_id))).map((r) => ({ from_id: actIdFor(r.from_id), to_id: actIdFor(r.to_id), label: r.label }));
 
+  // Încrederea (contract §3.4), pentru datele de test: două surse = confirmată, una = single; abrogarea Legii 1/2011
+  // e confirmată (portal + textul legii noi); o țintă ambiguă, ca exemplu.
+  for (const r of rels.values()) {
+    const src = [...r.evidence.keys()];
+    if (r.from_id === 273000) src.push('text');
+    r.evidence_sources = JSON.stringify(src);
+    r.confidence = src.length >= 2 ? 'confirmed' : 'single';
+    r.target_ambiguous = 0;
+  }
+  const law95 = [...rels.values()].filter((r) => r.to_id === 71139).slice(0, 6);
+  for (const r of law95) {
+    r.confidence = 'confirmed';
+    r.evidence_sources = JSON.stringify(['scriptogre', 'version_note']);
+  }
+  const amb = [...rels.values()].find((r) => r.from_id === 71139 && r.to_id != null);
+  if (amb) Object.assign(amb, { target_ambiguous: 1, to_id: null, confidence: 'single' });
+
   const ctx = { acts, publications, aliases, numbers, issuerRows, rels, textRows, verRows, incRows, statRows, mentionRows, blobs };
   if (mutate) mutate(ctx);
 
@@ -445,10 +465,11 @@ export function buildFixture({ samplesDir = path.join(HERE, '..', 'test', 'sampl
   const tmpMeta = path.join(genDir, 'meta.build.sqlite');
   const db = new DatabaseSync(tmpMeta);
   db.exec(META_SQL);
+  if (confidence) db.exec(OPTIONAL_SQL);
   db.exec('BEGIN');
   const insertAll = (table, list) => {
     if (!list.length) return;
-    const cols = Object.keys(list[0]).filter((c) => c !== 'evidence');
+    const cols = Object.keys(list[0]).filter((c) => c !== 'evidence' && (confidence || !['confidence', 'evidence_sources', 'target_ambiguous'].includes(c)));
     const st = db.prepare(`INSERT INTO ${table} (${cols.join(', ')}) VALUES (${cols.map(() => '?').join(', ')})`);
     for (const r of list) st.run(...cols.map((c) => r[c] ?? null));
   };

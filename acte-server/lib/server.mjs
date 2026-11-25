@@ -54,6 +54,7 @@ export function createActeServer(opts) {
     if (!target || target === genTarget) return;
     try {
       const g = new Generation(path.resolve(o.dataDir, target), path.join(o.dataDir, 'blobs')).open();
+      g.setContested(release.contested);
       // Verificarea de deschidere: un act oarecare și un document, dacă există.
       const any = g.db.prepare('SELECT id FROM acts LIMIT 1').get();
       if (any) g.byId(any.id);
@@ -162,7 +163,7 @@ export function createActeServer(opts) {
   }
 
   const etagFor = (g, key) => `"g${g?.generation ?? 0}-${release.id.slice(0, 12)}-${crypto.createHash('sha1').update(key).digest('hex').slice(0, 12)}"`;
-  const htmlR = (status, body, extra = {}) => ({ status, body, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': status === 200 ? PAGE_CC : status >= 500 ? 'no-store' : SHORT_CC, ...extra } });
+  const htmlR = (status, body, extra = {}) => ({ status, body, headers: { ...(release.launched ? {} : { 'X-Robots-Tag': 'noindex, follow' }), 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': status === 200 ? PAGE_CC : status >= 500 ? 'no-store' : SHORT_CC, ...extra } });
   const jsonR = (status, obj, extra = {}) => ({ status, body: JSON.stringify(obj), headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': status === 200 ? API_CC : status >= 500 ? 'no-store' : SHORT_CC, ...extra } });
   const redirect = (to, status = 301) => ({ status, body: '', headers: { Location: to, 'Cache-Control': status === 301 ? 'public, max-age=86400' : 'no-store' }, compress: false });
   const noindex = (r) => ((r.headers['X-Robots-Tag'] = 'noindex, follow'), r);
@@ -285,6 +286,7 @@ export function createActeServer(opts) {
   function health() {
     return {
       ok: !!gen, generation: gen?.generation ?? null, data_date: gen?.dataDate ?? null, schema: gen?.schema ?? null, release: release.id, started_at: started,
+      launched: release.launched, relation_confidence: gen?.hasConfidence ?? null, contested: { relations: release.contested.relations?.length || 0, acts: release.contested.acts?.length || 0 },
       pending_error: pendingError, cache: { entries: cache.size, bytes: cache.bytes }, stats,
     };
   }
@@ -306,12 +308,13 @@ export function createActeServer(opts) {
     return s;
   }
   function sitemapIndex(g) {
+    if (!release.launched) return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n</sitemapindex>\n`;
     const n = Math.max(1, Math.ceil(sitemapQuery(g).count() / SITEMAP_SIZE));
     const lastmod = g.dataDate ? `<lastmod>${g.dataDate}</lastmod>` : '';
     return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<sitemap><loc>${R.ORIGIN}/sitemap-1.xml</loc>${lastmod}</sitemap>\n${Array.from({ length: n - 1 }, (_, i) => `<sitemap><loc>${R.ORIGIN}/sitemap-${i + 2}.xml</loc>${lastmod}</sitemap>`).join('\n')}</sitemapindex>\n`;
   }
   function sitemapPage(g, n) {
-    if (n < 1) return null;
+    if (n < 1 || !release.launched) return null;
     const rows = sitemapQuery(g).page(n);
     if (!rows.length && n > 1) return null;
     const urls = [`<url><loc>${R.ORIGIN}/</loc></url>`, ...rows.map((r) => `<url><loc>${R.ORIGIN}/${r.slug}</loc>${r.updated_at ? `<lastmod>${r.updated_at.slice(0, 10)}</lastmod>` : ''}</url>`)];
@@ -488,6 +491,10 @@ export function loadRelease(dir) {
     }
   };
   const manifest = JSON.parse(read('manifest.json', '{}'));
+  R.configure({ launched: manifest.launched === true });
+  // Lista contestată (contract §3.5): lipsa ei înseamnă „nimic contestat”, dar un fișier stricat oprește pornirea.
+  const contestedRaw = read('contested.json', null);
+  const contested = contestedRaw ? JSON.parse(contestedRaw) : { relations: [], acts: [] };
   const template = read('template.html', R.FALLBACK_TEMPLATE);
   if (!template.includes('<!--ACT:HEAD-->') || !template.includes('<!--ACT:MAIN-->')) throw new Error('template.html fără locurile <!--ACT:HEAD--> și <!--ACT:MAIN-->');
   // CSP: scripturile din șablon se permit prin hash; JSON-LD nu se execută.
@@ -511,6 +518,8 @@ export function loadRelease(dir) {
   return {
     id: manifest.id || 'dev',
     manifest,
+    contested,
+    launched: manifest.launched === true,
     template,
     csp,
     sitemapKinds: manifest.sitemap_kinds || DEFAULT_SITEMAP_KINDS,

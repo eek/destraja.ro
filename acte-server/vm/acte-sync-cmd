@@ -1,0 +1,23 @@
+#!/bin/bash
+# Comanda forțată a contului acte-sync (NAS → VM, contractul actelor §8). Fără shell: doar încărcări rsync în
+# /srv/acte/incoming (doar scriere, fără ștergeri, fără legături simbolice) și verbele activate / status / discard.
+set -euo pipefail
+cmd="${SSH_ORIGINAL_COMMAND:-}"
+usage() { echo '{"ok":false,"step":"usage","error":"rsync spre incoming/, activate <n>, status, rollback, discard <n>"}'; exit 3; }
+case "$cmd" in
+  "rsync --server "*)
+    # Doar încărcare: --sender ar însemna citire de pe VM.
+    [[ "$cmd" == *" --sender "* ]] && usage
+    exec /usr/bin/rrsync -wo -no-del -munge /srv/acte/incoming/
+    ;;
+  status | rollback)
+    exec /opt/node/bin/node --disable-warning=ExperimentalWarning /usr/local/lib/acte/vm/activate-data.mjs "$cmd"
+    ;;
+  activate\ *|discard\ *)
+    verb="${cmd%% *}"
+    arg="${cmd#* }"
+    [[ "$arg" =~ ^[1-9][0-9]{0,8}$ ]] || usage
+    exec /opt/node/bin/node --disable-warning=ExperimentalWarning /usr/local/lib/acte/vm/activate-data.mjs "$verb" "$arg"
+    ;;
+  *) usage ;;
+esac

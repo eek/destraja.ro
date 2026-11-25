@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+// Punctul de intrare al serverului actelor. Pe VM (systemd):
+//   node release/current/server.mjs --root /srv/acte --port 8090 --host 127.0.0.1
+// Local, cu datele de test:
+//   node acte-server/server.mjs --data acte-server/.fixture/data --release <dir cu template.html> --port 8090
+// --root R înseamnă --data R/data, --release <directorul acestui fișier>, cu urmărirea lui R/release/current.
+
+import path from 'node:path';
+import fs from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { createActeServer } from './lib/server.mjs';
+
+const args = process.argv.slice(2);
+const opt = (k, d = null) => {
+  const i = args.indexOf(k);
+  return i >= 0 ? args[i + 1] : d;
+};
+const here = path.dirname(fs.realpathSync(fileURLToPath(import.meta.url)));
+const root = opt('--root');
+const dataDir = path.resolve(opt('--data', root ? path.join(root, 'data') : path.join(here, '.fixture', 'data')));
+const releaseDir = path.resolve(opt('--release', here));
+const port = Number(opt('--port', 8090));
+const host = opt('--host', '127.0.0.1');
+
+const s = createActeServer({
+  dataDir,
+  releaseDir,
+  releasesRoot: root ? path.join(root, 'release') : null,
+  watchRelease: !!root && !args.includes('--no-watch-release'),
+  cacheBytes: Number(opt('--cache-mb', 128)) * 1024 * 1024,
+});
+s.server.listen(port, host, () => console.error(`[acte] ascult pe http://${host}:${port} (versiunea ${s.release.id}, date: ${dataDir})`));
+for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, () => s.drain(sig));

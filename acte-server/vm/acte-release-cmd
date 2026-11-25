@@ -1,0 +1,20 @@
+#!/bin/bash
+# Comanda forțată a contului acte-release (Mac → VM). Doar încărcări rsync în /srv/acte/release-incoming și verbele
+# activate <id> / rollback / status.
+set -euo pipefail
+cmd="${SSH_ORIGINAL_COMMAND:-}"
+usage() { echo '{"ok":false,"step":"usage","error":"rsync spre release-incoming/, activate <id>, rollback, status"}'; exit 3; }
+run() { exec /opt/node/bin/node --disable-warning=ExperimentalWarning /usr/local/lib/acte/vm/activate-release.mjs "$@"; }
+case "$cmd" in
+  "rsync --server "*)
+    [[ "$cmd" == *" --sender "* ]] && usage
+    exec /usr/bin/rrsync -wo -no-del -munge /srv/acte/release-incoming/
+    ;;
+  status | rollback) run "$cmd" ;;
+  activate\ *)
+    arg="${cmd#activate }"
+    [[ "$arg" =~ ^[a-z0-9][a-z0-9-]{5,63}$ ]] || usage
+    run activate "$arg"
+    ;;
+  *) usage ;;
+esac

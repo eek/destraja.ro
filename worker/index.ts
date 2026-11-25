@@ -3,6 +3,7 @@
 //
 // /api/report                 rapoartele cititorilor despre greșeli în analize (report.ts)
 // /api/report/result          rezultatul verificării, pe e-mail, doar cu DIGEST_TOKEN (report.ts)
+// /api/report/act             rapoartele despre acte și legături, de pe acte.destraja.ro (CORS doar de acolo; act-report.ts)
 // /api/subscribe, /api/confirm, /api/preferences, /api/unsubscribe   alertele pe e-mail (subscribe.ts)
 // /api/digest, /api/digest/stats   trimiterea ediției zilnice, doar cu DIGEST_TOKEN (digest.ts)
 // /api/mail/events            anunțurile Resend despre adrese care resping mesajele, semnate (mail.ts)
@@ -15,6 +16,7 @@
 
 import { requireAdmin } from './access';
 import { handleAdmin } from './admin';
+import { handleActReport } from './act-report';
 import { handleDigest, handleDigestStats } from './digest';
 import { json, logError } from './http';
 import { handleMailEvents } from './mail';
@@ -61,6 +63,7 @@ export default {
         return user instanceof Response ? user : await handleAdmin(request, env, url, user);
       }
       if (url.pathname === '/api/mcp') return await handleMcp(request, env);
+      if (url.pathname === '/api/report/act') return await handleActReport(request, env);
       if (url.pathname === '/api/unsubscribe') return await handleUnsubscribe(request, env, url);
       if (url.pathname === '/api/digest/stats' && request.method === 'GET') return await handleDigestStats(request, env);
       const handler = POST_ROUTES[url.pathname];

@@ -8,6 +8,7 @@
 //   node acte-server/tools/release.mjs --no-push      # doar construiește (acte-server/.build/rel-<id>)
 //   node acte-server/tools/release.mjs --site-out out --id <id>
 //   node acte-server/tools/release.mjs --rollback | --status
+//   node acte-server/tools/release.mjs --no-og        # fără imaginile de previzualizare (fără bin/resvg)
 
 import fs from 'node:fs';
 import os from 'node:os';
@@ -99,6 +100,46 @@ if (fs.existsSync(contestedSrc)) {
   fs.copyFileSync(contestedSrc, path.join(outDir, 'contested.json'));
 }
 
+// 3c. Imaginile de previzualizare (lib/og.mjs): resvg pentru Linux x86_64 (VM-ul, Ubuntu 24.04), versiune fixată și
+// verificată după sha256, ținută în .cache/resvg; fonturile site-ului (OFL, cu licența lor) și logo-ul. Pe VM binarul
+// ajunge cu drepturile 0444; serverul îl pornește prin încărcătorul dinamic, deci nu are nevoie de bitul de execuție.
+const RESVG = { version: '0.49.0', file: 'resvg-linux-x86_64.tar.gz', sha256: '216637e75e909e53e3098b0875cd5f7da2fdc8b4359771b4a29b539afff9d3f5' };
+async function resvgBinary() {
+  const dir = path.join(REPO, '.cache', 'resvg', RESVG.version);
+  const tgz = path.join(dir, RESVG.file);
+  const bin = path.join(dir, 'linux', 'resvg');
+  const ok = (f) => fs.existsSync(f) && crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex') === RESVG.sha256;
+  if (!ok(tgz)) {
+    fs.mkdirSync(dir, { recursive: true });
+    const url = `https://github.com/linebender/resvg/releases/download/v${RESVG.version}/${RESVG.file}`;
+    try {
+      const r = await fetch(url, { signal: AbortSignal.timeout(60000) });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      fs.writeFileSync(`${tgz}.tmp`, Buffer.from(await r.arrayBuffer()));
+      fs.renameSync(`${tgz}.tmp`, tgz);
+    } catch (e) {
+      console.warn(`[release] resvg nu s-a descărcat (${e.message}); versiunea iese fără imagini de previzualizare`);
+      return null;
+    }
+    if (!ok(tgz)) throw new Error(`${tgz}: sha256 diferit de cel fixat; nu-l folosesc`);
+  }
+  if (!fs.existsSync(bin)) {
+    fs.mkdirSync(path.dirname(bin), { recursive: true });
+    execFileSync('tar', ['-xzf', tgz, '-C', path.dirname(bin), 'resvg']);
+  }
+  return bin;
+}
+const resvg = args.includes('--no-og') ? null : await resvgBinary();
+if (resvg) {
+  fs.mkdirSync(path.join(outDir, 'bin'), { recursive: true });
+  fs.copyFileSync(resvg, path.join(outDir, 'bin', 'resvg'));
+  fs.writeFileSync(path.join(outDir, 'bin', 'resvg.txt'), `resvg ${RESVG.version} (MIT sau Apache-2.0), https://github.com/linebender/resvg, ${RESVG.file} sha256 ${RESVG.sha256}\n`);
+  const ogDir = path.join(outDir, 'og');
+  fs.mkdirSync(ogDir, { recursive: true });
+  for (const f of ['serif-400.ttf', 'serif-600.ttf', 'sans-400.ttf', 'sans-600.ttf', 'OFL-SourceSerif4.txt', 'OFL-PublicSans.txt']) fs.copyFileSync(path.join(REPO, 'src', 'og', f), path.join(ogDir, f));
+  fs.copyFileSync(path.join(REPO, 'public', 'destraja-logo.svg'), path.join(ogDir, 'logo.svg'));
+}
+
 // 4. Ce cere proba: adrese pe datele de test (cu text așteptat) și pe datele active (doar starea).
 const smoke = {
   fixture: [
@@ -109,6 +150,8 @@ const smoke = {
     { path: '/cauta?q=oug+109%2F2024', contains: ['oug-109-2024'] },
     { path: '/api/acte/lege-95-2006', contains: ['"act_id":"lege-95-2006"'] },
     { path: '/nu-exista-1', status: [404] },
+    // Cu resvg în versiune, imaginea trebuie să se deseneze pe VM (altfel ar trimite spre imaginea de rezervă, 302).
+    ...(resvg ? [{ path: '/lege-95-2006/imagine.png', status: [200], contains: ['PNG'] }, { path: '/lege-95-2006', contains: ['/lege-95-2006/imagine.png?v='] }] : []),
   ],
   live: [
     { path: '/', status: [200] },

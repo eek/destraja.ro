@@ -12,12 +12,15 @@ import { Generation } from './data.mjs';
 import * as R from './render.mjs';
 import { search, actJson, relationsJson, ApiError } from './api.mjs';
 import { isIsoDate } from './format.mjs';
+import { OgRenderer, loadOgAssets, actCard, landingCard, OG_VERSION } from './og.mjs';
 
 const gzip = promisify(zlib.gzip);
 const PAGE_CC = 'public, max-age=300, stale-while-revalidate=86400, stale-if-error=604800';
 const API_CC = 'public, max-age=60, stale-if-error=86400';
 const STATIC_CC = 'public, max-age=31536000, immutable';
 const SHORT_CC = 'public, max-age=60';
+// Adresa imaginii se schimbă cu generația (?v=), deci poate sta o săptămână în cache-ul Cloudflare.
+const IMG_CC = 'public, max-age=604800, stale-while-revalidate=86400';
 const TYPES = { '.css': 'text/css; charset=utf-8', '.woff2': 'font/woff2', '.woff': 'font/woff', '.svg': 'image/svg+xml', '.png': 'image/png', '.js': 'text/javascript; charset=utf-8', '.ico': 'image/x-icon', '.webp': 'image/webp' };
 const SITEMAP_SIZE = 45000;
 const DEFAULT_SITEMAP_KINDS = ['lege', 'oug', 'og', 'cod', 'decret-lege'];
@@ -34,10 +37,17 @@ export function createActeServer(opts) {
     queueMax: opts.queueMax ?? 64,
     queueWaitMs: opts.queueWaitMs ?? 2000,
     log: opts.log || ((...a) => console.error(...a)),
+    // Imaginile de previzualizare: fonturile și logo-ul (og/), binarul resvg (bin/resvg), ambele din versiune;
+    // cache-ul de pe disc în directorul de stare al serviciului (systemd StateDirectory), dacă există.
+    ogAssetsDir: opts.ogAssetsDir || path.join(opts.releaseDir, 'og'),
+    resvg: opts.resvg || path.join(opts.releaseDir, 'bin', 'resvg'),
+    ogCacheDir: opts.ogCacheDir !== undefined ? opts.ogCacheDir : process.env.STATE_DIRECTORY ? path.join(process.env.STATE_DIRECTORY.split(':')[0], 'og-cache') : null,
   };
 
   // ---- versiunea (cod + șablon)
   const release = loadRelease(o.releaseDir);
+  const og = setupOg(o);
+  R.configure({ og: og ? { version: OG_VERSION } : null });
   const releaseLink = o.releasesRoot ? path.join(o.releasesRoot, 'current') : null;
   const releaseTarget = releaseLink ? safeReadlink(releaseLink) : null;
 
@@ -288,6 +298,7 @@ export function createActeServer(opts) {
       ok: !!gen, generation: gen?.generation ?? null, data_date: gen?.dataDate ?? null, schema: gen?.schema ?? null, release: release.id, started_at: started,
       launched: release.launched, relation_confidence: gen?.hasConfidence ?? null, contested: { relations: release.contested.relations?.length || 0, acts: release.contested.acts?.length || 0 },
       pending_error: pendingError, cache: { entries: cache.size, bytes: cache.bytes }, stats,
+      og: og ? { enabled: true, disk_cache: !!og.renderer.cacheDir, ...og.renderer.stats } : { enabled: false },
     };
   }
 
@@ -380,6 +391,8 @@ export function createActeServer(opts) {
       const body = p.startsWith('/api/') ? JSON.stringify(err(null, 'unavailable', 'Datele despre acte nu se pot citi acum; încearcă mai târziu.')) : R.messagePage(tpl, null, { status: 503, title: 'Datele nu sunt disponibile', text: 'Serverul actelor pornește sau nu are încă date. Încearcă din nou peste câteva minute.' });
       return send(req, res, await finish({ status: 503, body, headers: { 'Content-Type': p.startsWith('/api/') ? 'application/json; charset=utf-8' : 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'Retry-After': '120' } }));
     }
+    const img = p === '/imagine.png' ? '' : /^\/([a-z0-9-]{1,120})\/imagine\.png$/.exec(p)?.[1];
+    if (img !== undefined) return sendImage(req, res, g, img, url);
     if (p === '/date/site-export.ndjson.gz') return sendFile(req, res, path.join(g.dir, 'site-export.ndjson.gz'), 'application/gzip', etagFor(g, p));
 
     // Doar parametrii documentați intră în cheia cache-ului.
@@ -421,6 +434,49 @@ export function createActeServer(opts) {
     const r = await finish(out.value);
     if (r.status === 200 || r.status === 404 || r.status === 301) r.etag = r.status === 200 ? etag : undefined;
     if (r.status < 500 && r.status !== 429 && p !== '/api/sanatate') cache.set(key, { gen: g.generation, r }, r.body.length + (r.gz?.length || 0) + key.length + 200);
+    return send(req, res, r);
+  }
+
+  // ---- imaginile de previzualizare (în afara cozii de randare: resvg rulează într-un proces separat, cu coada lui)
+  async function sendImage(req, res, g, slug, url) {
+    const reply = async (r) => send(req, res, await finish(r));
+    if (!og) return reply(redirect(R.OG_FALLBACK.url, 302));
+    let act = null;
+    if (slug) {
+      const r = g.resolve(slug);
+      if (!r) return reply({ status: 404, body: 'Actul nu există.\n', headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': SHORT_CC }, compress: false });
+      if (!r.canonical) return reply(redirect(`/${r.act.slug}/imagine.png${url.search}`));
+      act = r.act;
+    }
+    const key = `img:${url.pathname}`;
+    const hit = cache.get(key);
+    if (hit && hit.gen === g.generation) {
+      stats.hits++;
+      return send(req, res, hit.r);
+    }
+    const ip = String(req.headers['cf-connecting-ip'] || req.socket.remoteAddress || '');
+    if (!allow(ip)) {
+      stats.limited++;
+      return reply({ status: 429, body: 'Prea multe cereri; încearcă peste un minut.\n', headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Retry-After': '60', 'Cache-Control': 'no-store' }, compress: false });
+    }
+    g.acquire();
+    let out;
+    try {
+      const card = act ? actCard(og.assets, g, act) : landingCard(og.assets, g);
+      out = await og.renderer.render(card.svg);
+    } catch (e) {
+      stats.errors++;
+      o.log(`[acte] imaginea ${url.pathname} nu s-a desenat: ${e.message}`);
+      return reply(redirect(R.OG_FALLBACK.url, 302));
+    } finally {
+      g.release();
+    }
+    if (out.shed) {
+      stats.shed++;
+      return reply({ status: 503, body: 'Serverul e ocupat; încearcă din nou.\n', headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Retry-After': '5', 'Cache-Control': 'no-store' }, compress: false });
+    }
+    const r = await finish({ status: 200, body: out.png, headers: { 'Content-Type': 'image/png', 'Cache-Control': IMG_CC }, etag: `"og-${out.key}"`, compress: false });
+    cache.set(key, { gen: g.generation, r }, r.body.length + key.length + 200);
     return send(req, res, r);
   }
 
@@ -481,6 +537,17 @@ export function createActeServer(opts) {
 }
 
 // ---------------------------------------------------------------- ajutoare
+
+/** Imaginile de previzualizare, dacă versiunea are fonturile, logo-ul și binarul resvg; altfel null (imaginea de rezervă). */
+function setupOg(o) {
+  if (!fs.existsSync(o.resvg)) return null;
+  const assets = loadOgAssets(o.ogAssetsDir);
+  if (!assets) {
+    o.log(`[acte] ${o.ogAssetsDir}: fonturile sau logo-ul imaginilor lipsesc; folosesc imaginea de rezervă`);
+    return null;
+  }
+  return { assets, renderer: new OgRenderer({ binary: o.resvg, fontFiles: assets.fontFiles, cacheDir: o.ogCacheDir, log: o.log }) };
+}
 
 export function loadRelease(dir) {
   const read = (f, dflt = null) => {

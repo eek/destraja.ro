@@ -2,189 +2,127 @@
   "slug": "b598-2026",
   "billId": "B598/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T20:00:55.023Z",
-  "inputHash": "7b8866d3385e",
-  "riskScore": 3,
-  "summary": "O lege utilă pentru tinerii cu venituri mici, cu câteva prevederi scrise neclar (cumulul, calculul chiriei, mecanismul la transport) care se pot repara ușor.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:29:26.102Z",
+  "inputHash": "afac4a5d6400",
+  "riskScore": 4,
+  "summary": "Un scop social bun, dar redactat atât de lacunar încât mecanismele de plată, finanțarea și criteriile sunt neclare sau inechitabile.",
   "good": [
     {
-      "text": "Tinerii angajați primesc lunar un ajutor pentru chirie, mai mare acolo unde chiriile sunt mai scumpe: până la 600 lei în București și Cluj, 500 în 8 mari orașe, 400 în rest.",
-      "article": "art. I, art. 76⁶ alin. (1) lit. a) și alin. (6)",
-      "quote": "600 de lei pe lună pentru locuințele situate în municipiul București și în municipiul Cluj-Napoca",
+      "text": "Sprijin concret pentru tinerii de 18–29 ani cu salarii de până la 4.000 lei net, care pot primi lunar bani de chirie și reducere de 50% la abonamentele de transport public sau feroviar.",
+      "article": "art. I (art. 76^6 alin. (1))",
+      "quote": "se instituie măsuri de sprijin pentru reducerea costurilor aferente închirierii locuinței și transportului",
       "weight": 3
     },
     {
-      "text": "Abonamentele nominale de transport public local sau de tren pentru navetă se reduc cu 50%, ceea ce scade costul drumului zilnic la muncă sau la școală.",
-      "article": "art. I, art. 76⁶ alin. (1) lit. b)",
-      "quote": "reducerea cu 50% a tarifului abonamentelor nominale pentru transportul public local, metropolitan și integrat",
+      "text": "Condiționarea banilor de chirie de un contract de cel puțin 6 luni înregistrat la Fisc scoate la lumină piața gri a chiriilor și crește protecția juridică a chiriașilor.",
+      "article": "art. I (art. 76^6 alin. (3) lit. d))",
+      "quote": "este solicitant, titular sau cotitular al unui contract de închiriere, înregistrat la organele fiscale competente și încheiat pentru o perioadă de cel puțin 6 luni;",
       "weight": 3
     },
     {
-      "text": "Ajutorul merge doar la cei cu salariu net de cel mult 4.000 lei, deci banii ajung la tinerii cu venituri mici, nu la toți.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. c) și alin. (4) lit. d)",
-      "quote": "realizează un venit salarial net lunar mai mic sau egal cu 4.000 de lei, raportat la un timp de lucru complet de 8 ore pe zi",
+      "text": "Previne abuzurile la subvenția de chirie: exclude proprietarii de locuințe, chiriașii din locuințe sociale sau ANL și contractele făcute cu rude ori afini până la gradul al IV-lea.",
+      "article": "art. I (art. 76^6 alin. (3) lit. f)–h))",
+      "quote": "închiriază locuința de la un proprietar care nu îi este soț, soție, rudă sau afin până la gradul al IV-lea inclusiv;",
       "weight": 2
     },
     {
-      "text": "Contractul de chirie trebuie să fie înregistrat la fisc și să dureze cel puțin 6 luni, ceea ce scoate chiriile la vedere și protejează și chiriașul, și proprietarul.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. d)",
-      "quote": "este solicitant, titular sau cotitular al unui contract de închiriere, înregistrat la organele fiscale competente și încheiat pentru o perioadă de cel puțin 6 luni",
+      "text": "Permite studenților și elevilor de la cursuri acreditate care lucrează part-time să primească ambele ajutoare, sprijinind concret tinerii care îmbină școala cu munca.",
+      "article": "art. I (art. 76^6 alin. (5))",
+      "quote": "poate beneficia de măsurile de sprijin și tânărul care este încadrat cu contract individual de muncă cu timp parțial, cu condiția de a urma cursurile unei instituții de învățământ acreditate.",
       "weight": 2
     },
     {
-      "text": "Nu se dă ajutor dacă proprietarul e rudă sau soț, ceea ce împiedică contractele fictive în familie făcute doar pentru bani publici.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. h)",
-      "quote": "închiriază locuința de la un proprietar care nu îi este soț, soție, rudă sau afin până la gradul al IV-lea inclusiv",
-      "weight": 2
-    },
-    {
-      "text": "Sunt excluși cei care au deja o locuință în proprietate sau stau în locuințe sociale, de serviciu ori ANL, deci ajutorul merge la cine chiar plătește chirie pe piață.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. f) și g)",
-      "quote": "nu ocupă o locuință socială, de necesitate, de serviciu sau o locuință pentru tineri destinată închirierii",
-      "weight": 2
-    },
-    {
-      "text": "Sprijinul se dă cel mult 36 de luni în total, ceea ce îl face un ajutor de pornire, nu o subvenție permanentă, și ține costul sub control.",
-      "article": "art. I, art. 76⁶ alin. (7)",
+      "text": "Cele două ajutoare pot fi cumulate și folosite flexibil, până la 36 de luni cu pauze, ajutând tinerii care își schimbă jobul sau se mută temporar.",
+      "article": "art. I (art. 76^6 alin. (2) și (7))",
       "quote": "Măsurile de sprijin se acordă unei persoane pentru o perioadă cumulată de maximum 36 de luni, indiferent de numărul și durata întreruperilor.",
       "weight": 2
     },
     {
-      "text": "Studenții și elevii care lucrează cu jumătate de normă pot primi și ei ajutorul, nu doar cei cu normă întreagă.",
-      "article": "art. I, art. 76⁶ alin. (5)",
-      "quote": "poate beneficia de măsurile de sprijin și tânărul care este încadrat cu contract individual de muncă cu timp parțial, cu condiția de a urma cursurile unei instituții de învățământ acreditate",
-      "weight": 2
-    },
-    {
-      "text": "Banii vin de la bugetul de stat, nu din fondul de șomaj plătit din contribuțiile salariaților, deci nu se slăbesc ajutoarele de șomaj.",
-      "article": "art. II",
-      "quote": "Sumele aferente măsurilor de sprijin se suportă din bugetul de stat.",
+      "text": "Încearcă să adapteze plafonul de chirie la costul vieții din marile orașe, stabilind trei trepte diferențiate (600, 500 și 400 lei pe lună) în funcție de localitate.",
+      "article": "art. I (art. 76^6 alin. (6))",
+      "quote": "Cuantumul lunar al sprijinului pentru chirie se stabilește în funcție de localitatea în care se află locuința închiriată, în limita următoarelor plafoane:",
       "weight": 1
     },
     {
-      "text": "Nu se poate primi de două ori ajutor pentru aceeași locuință în aceeași perioadă, ceea ce previne plata dublă din bani publici.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. i)",
-      "quote": "nu beneficiază, pentru aceeași locuință și pentru aceeași perioadă, de o altă măsură de sprijin din partea statului",
-      "weight": 1
-    },
-    {
-      "text": "Guvernul are un termen fix, 6 luni, pentru regulile de aplicare, ceea ce reduce riscul ca legea să rămână pe hârtie.",
-      "article": "art. II",
-      "quote": "se aprobă prin hotărâre a Guvernului, la propunerea Agenției Naționale pentru Ocuparea Forței de Muncă, în termen de 6 luni",
+      "text": "Împiedică dubla finanțare din bani publici pentru aceeași locuință, rută sau cheltuială de transport din alte programe ale statului sau ale primăriilor.",
+      "article": "art. I (art. 76^6 alin. (3) lit. i) și alin. (4) lit. e))",
+      "quote": "nu beneficiază, pentru aceeași locuință și pentru aceeași perioadă, de o altă măsură de sprijin din partea statului sau a autorităților administrației publice locale",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Alin. (2) interzice orice cumul cu alte ajutoare de chirie sau transport, dar alin. (3) și (4) îl interzic doar pentru aceeași locuință, rută și perioadă. Regulile se bat cap în cap.",
-      "article": "art. I, art. 76⁶ alin. (2) vs. alin. (3) lit. i) și alin. (4) lit. e)",
-      "quote": "Acestea nu pot fi acordate cumulat cu alte măsuri de sprijin pentru chirie sau transport acordate la nivel local sau central.",
-      "weight": 3
-    },
-    {
-      "text": "Legea dă doar plafoane, nu spune cât din chirie se plătește (procent, sumă fixă), nici că nu poate depăși chiria reală. Nimeni nu știe sigur cât primește.",
-      "article": "art. I, art. 76⁶ alin. (1) lit. a) și alin. (6)",
-      "quote": "Cuantumul lunar al sprijinului pentru chirie se stabilește în funcție de localitatea în care se află locuința închiriată, în limita următoarelor plafoane",
-      "weight": 3
-    },
-    {
-      "text": "La transport, alin. (1) vorbește de reducere de 50% la bilet, iar alin. (4) de „sprijin financiar lunar”. Nu e clar dacă plătești jumătate la ghișeu sau primești bani înapoi, nici cine plătește operatorii.",
-      "article": "art. I, art. 76⁶ alin. (1) lit. b) și alin. (4)",
-      "quote": "Poate beneficia de măsura de sprijin financiar lunar pentru reducerea costurilor asociate transportului tânărul care îndeplinește cumulativ următoarele condiții",
-      "weight": 2
-    },
-    {
-      "text": "Lipsesc regulile de bază: unde se depune cererea, cine aprobă, cum se recuperează banii luați pe nedrept și ce sancțiuni sunt. Normele vizează doar verificarea și decontarea.",
-      "article": "art. II",
-      "quote": "Normele metodologice privind procedura de verificare și decontare a sumelor reprezentând măsurile de sprijin prevăzute la art. 76⁶ din Legea nr. 76/2002",
-      "weight": 2
-    },
-    {
-      "text": "Ajutorul e un drept deschis oricui îndeplinește condițiile, fără plafon total de buget și fără estimare de cost în text, deci cheltuiala publică poate crește greu de controlat.",
+      "text": "Nu indică sursa concretă de finanțare, ci pune o cheltuială bugetară majoră generic pe „bugetul de stat”, fără fișă de impact și fără costuri de administrare.",
       "article": "art. II",
       "quote": "Sumele aferente măsurilor de sprijin se suportă din bugetul de stat.",
-      "weight": 2
+      "weight": 3
     },
     {
-      "text": "Pragul de venit ia în calcul doar salariul, nu și PFA, chirii sau dividende. Nu spune pe ce perioadă se calculează, ce se face la mai mulți angajatori și nu e indexat.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. c) și alin. (4) lit. d)",
-      "quote": "realizează un venit salarial net lunar mai mic sau egal cu 4.000 de lei",
-      "weight": 2
+      "text": "La transport, textul se contrazice și nu spune cum funcționează: un alineat prevede „reducere de 50%”, altul „sprijin lunar”, fără reguli de plată către operatorii de transport.",
+      "article": "art. I (art. 76^6 alin. (1) lit. b) și alin. (4))",
+      "quote": "reducerea cu 50% a tarifului abonamentelor nominale pentru transportul public local, metropolitan și integrat sau reducerea cu 50% a tarifului abonamentelor feroviare nominale de navetă.",
+      "weight": 3
     },
     {
-      "text": "Cu jumătate de normă, plafonul scade la 2.000 lei, deși chiria e la fel. Tinerii cu timp parțial care nu sunt elevi sau studenți sunt excluși complet.",
-      "article": "art. I, art. 76⁶ alin. (5)",
-      "quote": "În acest caz, venitul salarial net lunar maxim eligibil se calculează proporțional cu timpul de lucru.",
-      "weight": 2
+      "text": "Stabilește doar plafoane maxime de chirie (400–600 lei), fără procent din chiria reală și fără plafon pe locuință; mai mulți cotitulari pot încasa cumulat chiar peste chiria reală.",
+      "article": "art. I (art. 76^6 alin. (3) lit. d) și alin. (6))",
+      "quote": "Cuantumul lunar al sprijinului pentru chirie se stabilește în funcție de localitatea în care se află locuința închiriată, în limita următoarelor plafoane:",
+      "weight": 3
     },
     {
-      "text": "Cine câștigă cu 1 leu peste 4.000 lei pierde tot ajutorul, fără scădere treptată, ceea ce poate descuraja o mărire de salariu.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. c) și alin. (4) lit. d)",
+      "text": "Lipsește regimul fiscal și recuperarea banilor: legea nu scutește sprijinul de impozite sau contribuții și nu prevede cum recuperează statul sumele încasate necuvenit.",
+      "article": "art. I (art. 76^6)",
       "quote": null,
-      "weight": 1
+      "weight": 3
     },
     {
-      "text": "Raportarea la 8 ore pe zi apare la chirie, dar nu și la transport, și nu e corelată expres cu regula pentru timp parțial. Textul poate fi citit diferit pentru cele două ajutoare.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. c), alin. (4) lit. d) și alin. (5)",
-      "quote": "raportat la un timp de lucru complet de 8 ore pe zi",
-      "weight": 1
+      "text": "Pragul fix și neindexat de 4.000 lei net creează o prăpastie salarială: o mărire sau un bonus de 1 leu taie tot ajutorul, iar inflația va scoate tot mai mulți tineri din program.",
+      "article": "art. I (art. 76^6 alin. (3) lit. c) și alin. (4) lit. d))",
+      "quote": "realizează un venit salarial net lunar mai mic sau egal cu 4.000 de lei, raportat la un timp de lucru complet de 8 ore pe zi;",
+      "weight": 2
     },
     {
-      "text": "Nu se spune cum se împarte ajutorul când mai mulți colegi sunt cotitulari pe același contract, nici ce înseamnă „solicitant” al unui contract.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. d)",
-      "quote": "este solicitant, titular sau cotitular al unui contract de închiriere",
-      "weight": 1
+      "text": "Împărțirea arbitrară pe orașe nedreptățește zonele periurbane scumpe (ex. lângă București sau Cluj), care primesc doar 400 lei, mai puțin decât Craiova sau Târgu Mureș.",
+      "article": "art. I (art. 76^6 alin. (6))",
+      "quote": "400 de lei pe lună pentru locuințele situate în celelalte localități – categoria teritorială a III-a.",
+      "weight": 2
     },
     {
-      "text": "Localitățile din jurul marilor orașe, cu chirii mari (de ex. lângă București sau Cluj), primesc doar plafonul minim de 400 lei.",
-      "article": "art. I, art. 76⁶ alin. (6) lit. c)",
-      "quote": "400 de lei pe lună pentru locuințele situate în celelalte localități – categoria teritorială a III-a",
-      "weight": 1
-    },
-    {
-      "text": "„Nu deține o locuință” nu lămurește dacă o cotă dintr-o casă moștenită, poate în alt județ, te exclude.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. f)",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Nu e clar dacă „18 - 29 de ani împliniți” înseamnă până la ziua de 29 de ani sau până la 30, ceea ce poate duce la aplicare diferită.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. a) și alin. (4) lit. a)",
-      "quote": "are vârsta cuprinsă în intervalul 18 - 29 de ani împliniți",
-      "weight": 1
-    },
-    {
-      "text": "Formularea cu „sau” lasă neclar dacă un navetist care folosește și trenul, și transportul urban poate primi reducere la ambele abonamente.",
-      "article": "art. I, art. 76⁶ alin. (1) lit. b)",
-      "quote": "sau reducerea cu 50% a tarifului abonamentelor feroviare nominale de navetă",
-      "weight": 1
-    },
-    {
-      "text": "Sunt excluși tinerii care lucrează ca PFA, pe drepturi de autor sau ca zilieri, iar „raport asimilat” nu e definit.",
-      "article": "art. I, art. 76⁶ alin. (3) lit. b) și alin. (4) lit. c)",
-      "quote": "desfășoară o activitate profesională în baza unui contract individual de muncă, a unui raport de serviciu sau asimilat, cu normă întreagă",
-      "weight": 1
-    },
-    {
-      "text": "Legea intră în vigoare înainte de norme (până la 6 luni), iar textul nu spune ce se întâmplă cu cererile din această perioadă.",
+      "text": "Delegare excesivă și blocaj de 6 luni: lasă reguli esențiale la discreția unei HG emise în 6 luni de la intrarea în vigoare, lăsând legea inaplicabilă în acest interval.",
       "article": "art. II",
-      "quote": null,
+      "quote": "se aprobă prin hotărâre a Guvernului, la propunerea Agenției Naționale pentru Ocuparea Forței de Muncă, în termen de 6 luni de la data intrării în vigoare a prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Interdicția generală de cumul poate bloca combinarea unui ajutor local de chirie cu reducerea națională de transport (sau invers) și intră în tensiune cu programele primăriilor.",
+      "article": "art. I (art. 76^6 alin. (2))",
+      "quote": "Acestea nu pot fi acordate cumulat cu alte măsuri de sprijin pentru chirie sau transport acordate la nivel local sau central.",
+      "weight": 2
+    },
+    {
+      "text": "Exclude tinerii care muncesc ca PFA, pe drepturi de autor, zilieri sau cu normă parțială fără să fie la studii, deși mulți au venituri mici și aceleași costuri de locuire și navetă.",
+      "article": "art. I (art. 76^6 alin. (3) lit. b) și alin. (5))",
+      "quote": "desfășoară o activitate profesională în baza unui contract individual de muncă, a unui raport de serviciu sau asimilat, cu normă întreagă;",
+      "weight": 2
+    },
+    {
+      "text": "Limita de 36 de luni este ambiguă: nu precizează dacă se calculează separat pentru chirie și transport ori cumulat, caz în care un tânăr cu abonament 3 ani pierde dreptul la chirie.",
+      "article": "art. I (art. 76^6 alin. (7))",
+      "quote": "Măsurile de sprijin se acordă unei persoane pentru o perioadă cumulată de maximum 36 de luni, indiferent de numărul și durata întreruperilor.",
+      "weight": 1
+    },
+    {
+      "text": "Formulări imprecise: vârsta „18–29 de ani împliniți” e neclară, lipsește raportarea la 8 ore la transport, iar „solicitant al unui contract” nu are sens juridic.",
+      "article": "art. I (art. 76^6 alin. (3) lit. a), d) și alin. (4) lit. a), d))",
+      "quote": "este solicitant, titular sau cotitular al unui contract de închiriere, înregistrat la organele fiscale competente și încheiat pentru o perioadă de cel puțin 6 luni;",
       "weight": 1
     }
   ],
-  "fix": {
-    "text": "Armonizarea regulii de cumul din alin. (2) cu alin. (3) lit. i) și (4) lit. e), plus stabilirea în lege a formulei de calcul a chiriei și a mecanismului concret al reducerii la transport.",
-    "removes": [
-      0,
-      1,
-      2
-    ],
-    "levelAfter": "green",
-    "scoreAfter": 2
-  },
+  "fix": null,
   "quotes": {
-    "checked": 24,
-    "verified": 24
+    "checked": 17,
+    "verified": 17
   }
 }

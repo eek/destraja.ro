@@ -3,99 +3,107 @@
   "billId": "B632/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-13T09:05:22.286Z",
-  "inputHash": "07d41a70a30d",
-  "riskScore": 3.7,
-  "summary": "Un proiect cu scop legitim de protejare a inspectorilor de mediu și de probare a abuzurilor, dar redactat neglijent, care omite chiar pădurarii invocați în motivare și introduce capcane procedurale.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:35:27.504Z",
+  "inputHash": "d7318eb7d4ec",
+  "riskScore": 4.3,
+  "summary": "O lege cu un scop util pentru protecția mediului și a inspectorilor, dar lipsită de garanții legale clare pentru viața privată și redactată neglijent.",
   "good": [
     {
-      "text": "Permite folosirea înregistrărilor foto-audio-video ca mijloace de probă în controalele de mediu și ape, descurajând atât agresarea inspectorilor pe teren, cât și abuzurile acestora.",
-      "article": "Art. I - IV, alin. (1)",
+      "text": "Recunoaște filmările inspectorilor de mediu ca probe, ceea ce ajută la dovedirea poluării și braconajului, descurajează agresiunile și face controalele mai transparente.",
+      "article": "Art. I–IV, alin. (1)",
       "quote": "activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate și fixate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate. Înregistrările foto-audio-video constituie mijloace de probă.",
       "weight": 3
     },
     {
-      "text": "Limitează păstrarea înregistrărilor la cel mult 6 luni și impune distrugerea lor dacă nu sunt folosite ca probe, prevenind stocarea pe termen nelimitat a imaginilor cu cetățenii.",
-      "article": "Art. I - II alin. (2), Art. III - IV alin. (3)",
+      "text": "Limitează păstrarea înregistrărilor la cel mult 6 luni și impune distrugerea lor ireversibilă, împiedicând crearea unor arhive permanente cu cetățeni filmați.",
+      "article": "Art. I–II alin. (2), Art. III–IV alin. (3)",
       "quote": "Imaginile fotografice ori înregistrările audio și/sau video obținute potrivit alin. (1) pot fi păstrate pe o perioadă de 6 luni de la data obținerii acestora",
       "weight": 2
     },
     {
-      "text": "Interzice folosirea imaginilor și a datelor personale colectate în alte scopuri decât cel al controlului, protejând persoanele filmate împotriva divulgării înregistrărilor.",
-      "article": "Art. I - II alin. (3), Art. III - IV alin. (2)",
+      "text": "Interzice folosirea datelor personale din înregistrări în alte scopuri decât cele ale controlului sau monitorizării, cu excepția cazurilor prevăzute expres de lege.",
+      "article": "Art. I–II alin. (3), Art. III–IV alin. (2)",
       "quote": "Se interzice prelucrarea datelor cu caracter personal conținute de imaginile fotografice ori înregistrările audio și/sau video în alte scopuri decât cele în care au fost colectate",
       "weight": 2
     },
     {
-      "text": "Impune explicit respectarea regulilor europene și naționale privind protecția datelor cu caracter personal (GDPR) la gestionarea înregistrărilor.",
-      "article": "Art. I - IV, alin. (4)",
-      "quote": "Prelucrarea datelor cu caracter personal, efectuată de entitățile prevăzute la alin. (1), se realizează cu respectarea prevederilor Regulamentului (UE) 679/2016 al Parlamentului European și al Consiliului",
+      "text": "Trimite expres la respectarea regulamentului european privind datele personale (RGPD) și a legislației naționale, menținând obligațiile de securitate și drepturile persoanelor filmate.",
+      "article": "Art. I–IV, alin. (4)",
+      "quote": "se realizează cu respectarea prevederilor Regulamentului (UE) 679/2016 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Formularea obligatorie „sunt înregistrate” permite contravenienților să ceară în instanță anularea amenzilor dacă instituția nu are camere suficiente sau bateria s-a descărcat.",
-      "article": "Art. I - IV, alin. (1)",
-      "quote": "în exercitarea atribuțiilor de serviciu, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate și fixate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate.",
+      "text": "Permite filmarea fără consimțământ oriunde, inclusiv în spații private, fără obligația de a avertiza persoanele filmate și fără reguli privind pornirea, oprirea sau filmarea trecătorilor.",
+      "article": "Art. I–IV, alin. (1)",
+      "quote": "activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate.",
       "weight": 3
     },
     {
-      "text": "Permite filmarea și înregistrarea audio fără consimțământ la inspecțiile fiscale din birourile firmelor, expunând documente contabile, secrete comerciale și angajați.",
-      "article": "Art. IV (art. 3¹ alin. (1) din OUG 196/2005)",
+      "text": "Lasă garanțiile esențiale despre stocare, securitate, integritatea probelor și cine poate vedea filmările pe seama unui ordin de ministru, în loc să le fixeze clar prin lege.",
+      "article": "Art. I–IV, alin. (5)",
+      "quote": "Procedura privind înregistrarea și fixarea cu mijloace foto-audio-video din dotare a activităților specifice prevăzute la alin. (1), precum și stocarea și accesarea acestora, se stabilește prin ordin",
+      "weight": 3
+    },
+    {
+      "text": "Autorizează filmarea la inspecții fiscale și controale inopinate ale AFM în sediile firmelor, expunând documente contabile și secrete comerciale fără garanții corelate cu procedura fiscală.",
+      "article": "Art. IV (art. 3¹ alin. 1)",
       "quote": "de inspecții fiscale și controale inopinate la contribuabilii/plătitorii la Fondul pentru mediu, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate cu mijloacele foto-audio-video din dotare",
       "weight": 3
     },
     {
-      "text": "Nu obligă inspectorii să anunțe persoanele că sunt filmate și nu stabilește când se pornește sau oprește camera, permițând înregistrarea selectivă ori filmarea abuzivă a terților.",
-      "article": "Art. I - IV, alin. (1)",
-      "quote": "în exercitarea atribuțiilor de serviciu, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate cu mijloacele foto-audio-video din dotare, fără consimțământul persoanelor vizate.",
-      "weight": 3
-    },
-    {
-      "text": "Obligă la distrugerea probelor după 6 luni dacă nu a început deja un proces în instanță, ignorând contestațiile fiscale sau administrative prealabile care durează mai mult.",
-      "article": "Art. I - II alin. (2), Art. III - IV alin. (3)",
-      "quote": "pot fi păstrate pe o perioadă de 6 luni de la data obținerii acestora, cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare",
+      "text": "Formula «sunt înregistrate» transformă un drept într-o obligație; fără camere în dotare și reguli tranzitorii, lipsa filmării poate fi folosită în instanță pentru anularea amenzilor.",
+      "article": "Art. I–IV, alin. (1)",
+      "quote": "în exercitarea atribuțiilor de serviciu, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate și fixate cu mijloacele foto-audio-video din dotare",
       "weight": 2
     },
     {
-      "text": "Deși proiectul e justificat prin cazurile pădurarilor uciși sau bătuți, textul legii omite complet personalul silvic și cinegetic, lăsându-i fără protecția promisă.",
-      "article": "Art. I - IV și Expunerea de motive",
-      "quote": null,
+      "text": "Extinde filmarea fără consimțământ la activități tehnice de rutină, precum monitorizarea apelor sau prelevarea de probe, ceea ce duce la înregistrare permanentă disproporționată.",
+      "article": "Art. I (art. 2¹ alin. 1), Art. III (art. 3¹ alin. 1)",
+      "quote": "a celor de monitorizare cantitativă și calitativă a resurselor de apă precum și pentru intervențiile operative, inclusiv cu ocazia prelevării probelor necesare activității de control sau monitorizare",
       "weight": 2
     },
     {
-      "text": "La controalele AFM asupra organizațiilor de reciclare (OIREP), legea menționează doar electronicele și bateriile, omițând inexplicabil organizațiile pentru deșeuri de ambalaje.",
-      "article": "Art. IV (art. 3¹ alin. (1) din OUG 196/2005)",
-      "quote": null,
+      "text": "Păstrarea peste 6 luni se aplică doar în procese judiciare, riscând ștergerea probelor în contestații administrative, fără obligația de a șterge mai devreme filmările fără relevanță.",
+      "article": "Art. I–II alin. (2), Art. III–IV alin. (3)",
+      "quote": "cu excepția situațiilor în care sunt utilizate în cadrul unei proceduri judiciare, caz în care acestea urmează regimul probelor. La împlinirea acestui termen imaginile și/sau înregistrările se distrug",
       "weight": 2
     },
     {
-      "text": "Lasă regulile de stocare și dreptul cetățeanului de a accesa filmarea în apărarea sa la latitudinea unui ordin de ministru, fără garanții contra ștergerii sau modificării fișierelor.",
-      "article": "Art. I - IV, alin. (5)",
-      "quote": "Procedura privind înregistrarea și fixarea cu mijloace foto-audio-video din dotare a activităților specifice prevăzute la alin. (1), precum și stocarea și accesarea acestora, se stabilește prin ordin",
+      "text": "Face trimitere în gol la «entitățile prevăzute la alin. (1)», deși alin. (1) nu numește nicio instituție, lăsând neclar cine este operatorul legal responsabil pentru protecția datelor.",
+      "article": "Art. I–IV, alin. (4)",
+      "quote": "Prelucrarea datelor cu caracter personal, efectuată de entitățile prevăzute la alin. (1), se realizează cu respectarea prevederilor Regulamentului (UE) 679/2016",
       "weight": 2
     },
     {
-      "text": "Textul conține numeroase greșeli de scriere și gramatică („ireversible”, „irreversibile”, „pentru parcurilor naturale”, „GRINDEAU”) și inversează aleatoriu ordinea alineatelor.",
-      "article": "Art. I - IV și formula finală",
+      "text": "Omite din Art. III și Art. IV condiția ca filmarea să aibă loc «în exercitarea atribuțiilor de serviciu», prezentă în Art. I și II, creând neclaritate și posibilități de interpretare abuzivă.",
+      "article": "Art. III (art. 3¹ alin. 1), Art. IV (art. 3¹ alin. 1)",
+      "quote": "al măsurilor de conservare pentru parcurilor naturale și parcurilor naționale precum și monitorizarea specifică a capitalului natural, activitățile personalului de specialitate, împuternicit conform legii, sunt înregistrate",
+      "weight": 1
+    },
+    {
+      "text": "Prezintă redactare neglijentă («pentru parcurilor», alineate inversate) și nu include personalul silvic în niciun articol, deși motivarea invocă mai ales atacurile asupra pădurarilor.",
+      "article": "Art. I–IV",
       "quote": "În scopul realizării acțiunilor de control pentru administrarea ariilor naturale protejate, al măsurilor de conservare pentru parcurilor naturale și parcurilor naționale precum și monitorizarea specifică a capitalului natural",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Înlocuirea formulării „sunt înregistrate” cu „pot fi înregistrate” însoțită de informarea prealabilă a persoanelor vizate, eliminarea inspecțiilor fiscale de birou din Art. IV și păstrarea probelor pe toată durata contestațiilor administrative.",
+    "text": "Transformarea obligației «sunt înregistrate» în facultatea «pot fi înregistrate» doar la controale, cu avertizare și limite pentru spații private și secret comercial, plus mutarea garanțiilor de acces din ordinul de ministru direct în lege.",
     "removes": [
       0,
       1,
       2,
-      3
+      3,
+      4
     ],
     "levelAfter": "green",
-    "scoreAfter": 1.5
+    "scoreAfter": 2
   },
   "quotes": {
-    "checked": 12,
-    "verified": 10
+    "checked": 13,
+    "verified": 13
   }
 }

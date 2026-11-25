@@ -2,7 +2,7 @@
   "slug": "b542-2026",
   "billId": "B542/2026",
   "checkedAt": "2026-10-29T12:03:50.312Z",
-  "indexCheckedAt": "2026-11-24T11:29:38.297Z",
+  "indexCheckedAt": "2026-11-25T12:41:51.210Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
@@ -48,6 +48,94 @@
             "stanceP": 0.99,
             "source": "national_news",
             "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.presshub.ro/datorii-de-miliarde-si-active-la-schimb-cine-semneaza-avizele-pentru-proiectul-neacsu-marinescu-424923",
+      "title": "Datorii de miliarde și active la schimb. Cine semnează avizele pentru proiectul Neacșu - Marinescu",
+      "outlet": "PressHub",
+      "domain": "presshub.ro",
+      "publishedAt": "2026-11-24",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Unsprezece parlamentari PSD, între care Marian Neacșu și ministrul Justiției, Radu Marinescu, își asumă proiectul prin care companii din energie și industrie ar putea stinge datorii către stat predând active.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-25",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-25",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "mixed",
+            "stanceP": 0.693,
+            "source": "national_news",
+            "sourceP": 0.847,
+            "about": 0.972,
+            "release": 0.006
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.396,
+            "source": "national_news",
+            "sourceP": 0.318,
+            "about": 0.755,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.94,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://stirileprotv.ro/stiri/politic/tradatori-marian-neacsu-si-alti-lideri-psd-acuzati-ca-au-initiat-o-lege-prin-care-marii-datornici-scapa-de-credite.html",
+      "title": "„Trădători”. Marian Neacșu și alți lideri PSD, acuzați că au inițiat o lege prin care marii datornici scapă de credite - Știrile ProTV",
+      "outlet": "Știrile ProTV",
+      "domain": "stirileprotv.ro",
+      "publishedAt": "2026-11-24",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Proiectul modifică o ordonanță de urgență din 2019 și se referă în mod expres la datoriile provenite din finanțări, garanții, contragaranții și asigurări acordate în numele și în contul statului.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-25",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-25",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "mixed",
+            "stanceP": 0.638,
+            "source": "national_news",
+            "sourceP": 0.989,
+            "about": 0.995,
+            "release": 0.057
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.801,
+            "source": "national_news",
+            "sourceP": 0.396,
+            "about": 0.867,
+            "release": 0.269
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.99,
             "about": 0.99,
             "release": 0.01
           }

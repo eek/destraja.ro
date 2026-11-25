@@ -1,7 +1,12 @@
 {
   "slug": "plx-576-2026",
   "billId": "Pl-x 576/2026",
-  "updatedAt": "2026-10-30T09:47:16.372Z",
+  "updatedAt": "2026-11-25T11:52:20.762Z",
+  "plan": [
+    "initiator",
+    "camera",
+    "senat"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,7 +21,9 @@
         "agy": 1,
         "claude": 1,
         "codex": 1
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,7 +38,26 @@
         "agy": 1,
         "claude": 1,
         "codex": 1
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L570FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "România aprobă votul prin procură pentru europarlamentarele însărcinate sau proaspăt mame",
+      "summaryTlDr": "Lege tehnică, de un singur articol, prin care România își dă acordul la o modificare a regulilor europene deja votate în unanimitate în Consiliu. Nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme. Riscul real este aproape nul.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
@@ -39,55 +65,60 @@
       "from": "initiator",
       "to": "camera",
       "direction": "la_fel",
-      "headline": "Fără schimbări de fond: Camera a înlocuit doar „se aprobă” cu „se acceptă” în textul legii",
-      "summary": "Acum legea spune că România „acceptă” decizia UE, nu că o „aprobă”, iar formula finală e cea a Camerei. Efectul e același: consimțământul României la votul prin procură al eurodeputaților în jurul nașterii unui copil.",
+      "headline": "Doar formulări schimbate: „se acceptă” în loc de „se aprobă”, fără efect asupra cetățenilor sau firmelor",
+      "summary": "Acum legea „acceptă” decizia UE, iar inițial o „aproba”. Restul diferențelor țin de forma de adoptare de către Camera Deputaților. Efectul juridic rămâne același: România își dă acordul la votul prin procură al eurodeputaților în jurul nașterii unui copil.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Excepție de la votul individual și personal al eurodeputaților, prin procură dată altui membru",
+            "text": "Regulile concrete ale votului prin procură le stabilește doar Parlamentul European",
             "major": true,
-            "article": "art. 1 din Decizie (art. 6 alin. (1a) din Actul din 1976)"
+            "article": "art. 6 alin. (1b) din Actul din 1976"
           },
           {
-            "text": "Garanțiile anti-abuz sunt doar principii; regulile concrete le stabilește Parlamentul European",
+            "text": "Se creează o excepție de la votul individual și personal al eurodeputaților",
+            "major": true,
+            "article": "art. 6 alin. (1a) din Actul din 1976"
+          },
+          {
+            "text": "Garanțiile anti-abuz sunt doar enunțate ca principii, fără reguli concrete",
             "major": false,
-            "article": "art. 1 din Decizie (art. 6 alin. (1b) din Actul din 1976)"
+            "article": "art. 6 alin. (1b) din Actul din 1976"
           },
           {
-            "text": "Parlamentul României nu are niciun rol ulterior în stabilirea condițiilor votului prin procură",
+            "text": "Parlamentul României nu mai are niciun rol după acceptarea deciziei",
             "major": false,
             "article": "art. unic"
           }
         ],
         "good": [
           {
-            "text": "Nu creează taxe, obligații, sancțiuni sau costuri pentru cetățeni și firme",
+            "text": "Nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme",
             "major": true,
             "article": "art. unic"
           },
           {
-            "text": "Eurodeputații pot vota prin procură în perioada din jurul nașterii unui copil",
+            "text": "Impact bugetar zero și nicio birocrație nouă pentru cetățeni și IMM-uri",
             "major": true,
-            "article": "art. 1 din Decizie (art. 6 alin. (1a) din Actul din 1976)"
-          },
-          {
-            "text": "Derogarea e limitată la 3 luni înainte și 6 luni după naștere",
-            "major": false,
-            "article": "art. 1 din Decizie (art. 6 alin. (1a) din Actul din 1976)"
-          },
-          {
-            "text": "Votul prin procură se exprimă exclusiv prin alt membru al Parlamentului European",
-            "major": false,
-            "article": "art. 1 din Decizie (art. 6 alin. (1a) din Actul din 1976)"
-          },
-          {
-            "text": "Nu modifică Legea nr. 33/2007 și nici altă lege națională",
-            "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Acceptarea de către România evită blocarea intrării în vigoare pentru toate statele UE",
+            "text": "Eurodeputații care devin părinți își pot exercita votul fără să fie prezenți",
+            "major": true,
+            "article": "art. 6 alin. (1a) din Actul din 1976"
+          },
+          {
+            "text": "Votul prin procură e limitat: 3 luni înainte și 6 luni după naștere",
+            "major": false,
+            "article": "art. 6 alin. (1a) din Actul din 1976"
+          },
+          {
+            "text": "Procura poate fi dată exclusiv altui membru al Parlamentului European",
+            "major": false,
+            "article": "art. 6 alin. (1a) din Actul din 1976"
+          },
+          {
+            "text": "Adoptarea la timp evită blocarea mecanismului pentru toate statele membre",
             "major": false,
             "article": "art. unic"
           }
@@ -100,8 +131,66 @@
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:44:42.643Z"
+      "schema": 4,
+      "updatedAt": "2026-11-25T11:52:08.151Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Senatul a adoptat același text de acceptare a Deciziei UE 2026/1296",
+      "summary": "Acum, textul este identic în fond cu cel adoptat inițial de Cameră. S-au schimbat doar camera care adoptă, data ședinței (21 septembrie 2026) și semnatarul. Efectul legii rămâne același, la fel și riscul pentru cetățeni și firme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Se creează o excepție de la votul personal al eurodeputaților",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Garanțiile pentru votul prin împuternicit sunt doar principii, fără reguli concrete",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Regulile detaliate le stabilește Parlamentul European, fără rol ulterior pentru Parlamentul României",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Votul prin împuternicit este plafonat la 3 luni înainte și 6 luni după naștere",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Votul se poate delega exclusiv unui alt membru al Parlamentului European",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Fără impact bugetar și fără sarcini birocratice pentru cetățeni sau IMM-uri",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu modifică Legea nr. 33/2007 și nicio altă lege națională",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-25T11:52:20.762Z"
     }
   ]
 }

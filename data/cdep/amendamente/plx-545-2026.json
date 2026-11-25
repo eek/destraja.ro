@@ -1,20 +1,39 @@
 {
  "slug": "plx-545-2026",
  "billId": "PL-x 545/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T15:52:32.361Z",
- "inputHash": "37b91d4ff1c6",
+ "updatedAt": "2026-11-25T12:15:20.122Z",
+ "inputHash": "f2b051be38a5",
  "reports": [
   "https://www.cdep.ro/comisii/economica/pdf/2026/rp545.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp545.pdf",
+   "sha256": "6de73c2e9e56d5e7",
+   "parts": 1,
+   "rows": 50,
+   "unchanged": 0,
+   "admise": 50,
+   "respinse": 0,
+   "truncated": false
+  }
+ ],
+ "completeness": "incomplete",
+ "problems": [
+  "texte propuse neverificate"
+ ],
  "counts": {
-  "admise": 39,
-  "respinse": 0
+  "admise": 50,
+  "respinse": 0,
+  "anuntate": 50,
+  "nemodificate": 0
  },
  "amendments": [
   {
    "nr": "1",
+   "report": "rp545.pdf",
    "article": "Titlul legii",
    "status": "admis",
    "authors": [
@@ -44,11 +63,57 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește în titlul legii denumirea conturilor cu „Conturi de Economii și de Investiții” și adaugă referirea la modificarea Codului fiscal.",
-   "quote": "Lege pentru înființarea și funcționarea Conturilor de Economii și de Investiții, precum și pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal"
+   "byGroup": null,
+   "summary": "Schimbă titlul legii din Conturi Individuale de Investiții pentru Pensie în Conturi de Economii și de Investiții și adaugă modificarea Codului fiscal.",
+   "quote": "Lege pentru înființarea și funcționarea Conturilor de Economii și de Investiții, precum și pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal",
+   "inForce": null,
+   "before": "Lege pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie",
+   "after": "Lege pentru înființarea și funcționarea Conturilor de Economii și de Investiții, precum și pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal",
+   "motivation": "Schimbarea denumirii „conturi individuale de investiții pentru viitor” în „conturi de economii și de investiții (CEI)” pentru alinierea terminologiei naționale la Recomandarea (UE) 2025/2029 a Comisiei, pe care prezentul proiect de lege o implementează.\n\nRecomandarea (UE) 2025/2029 a Comisiei propune un „plan european pentru conturile de economii și de investiții (CEI)” și descrie acest tip de instrument destinat creșterii participării investitorilor de retail pe piețele de capital, pentru economisire și investire pe termen lung.\n\nAdoptarea denumirii CEI permite identificarea clară a proiectului ca instrument de implementare a Recomandării, facilitează recunoașterea instituțională a produsului și ancorarea explicită a regimului fiscal în obiectivul formulat de Comisie, ca statele membre să instituie cadre naționale pentru CEI, cu acces simplu, gamă largă de active și tratament fiscal avantajos."
+  },
+  {
+   "nr": "2",
+   "report": "rp545.pdf",
+   "article": "Capitolul I",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Redenumește Capitolul I pentru a cuprinde toate dispozițiile privind înființarea și funcționarea Conturilor de Economii și de Investiții.",
+   "quote": "CAPITOLUL I – Dispoziții privind înființarea și funcționarea Conturilor de Economii și de Investiții",
+   "inForce": null,
+   "before": "CAPITOLUL I – Dispoziții generale",
+   "after": "CAPITOLUL I – Dispoziții privind înființarea și funcționarea Conturilor de Economii și de Investiții",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "3",
+   "report": "rp545.pdf",
    "article": "art. 1",
    "status": "admis",
    "authors": [
@@ -78,11 +143,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește denumirea CIIV cu CEI (conturi de economii și de investiții) și le definește ca fiind conturi de investiții constituite în baza prezentei legi.",
-   "quote": "Conturile CEI sunt conturi de investiții constituite în baza prezentei legi, în care persoanele fizice pot economisi și investi fonduri beneficiind de un regim fiscal specific"
+   "byGroup": null,
+   "summary": "Înlocuiește denumirea CIIV cu CEI și definește conturile CEI drept conturi de investiții constituite în baza prezentei legi, nu portofolii în sensul Legii nr. 126/2018.",
+   "quote": "Conturile CEI sunt conturi de investiții constituite în baza prezentei legi, în care persoanele fizice pot economisi și investi fonduri",
+   "inForce": null,
+   "before": "Art. 1 – Obiectul reglementării\n(1) Prezenta lege instituie conturile individuale de investiții pentru viitor, denumite în continuare CIIV, drept instrument voluntar de economisire individuală pentru asigurarea unui venit suplimentar distinct de pensie.\n(2) Conturile CIIV sunt portofolii în sensul Legii nr. 126/2018 privind piețele de instrumente financiare, cu modificările și completările ulterioare, în care persoanele fizice pot economisi și investi fonduri beneficiind de un regim fiscal specific și care se deschid la administratori de conturi CIIV.\n(3) Administratorii de conturi CIIV sunt următoarele societăți autorizate să presteze serviciul de administrare de portofolii, potrivit Legii nr. 126/2018, cu modificările și completările ulterioare:\na) societăți de servicii de investiții financiare, denumite în continuare SSIF, astfel cum sunt reglementate de Legea nr. 126/2018, cu modificările și completările ulterioare;\nb) bănci, astfel cum sunt reglementate de Ordonanța de urgență nr. 99/2006 privind instituțiile de credit și adecvarea capitalului, aprobată cu modificări și completări prin Legea nr. 227/2007, cu modificările și completările ulterioare.",
+   "after": "Art. 1 – Dispoziții generale\n(1) Prezenta lege instituie conturile de economii și de investiții, denumite în continuare CEI, drept instrument voluntar de economisire individuală pentru asigurarea unui venit suplimentar distinct de pensie.\n\n(2) Conturile CEI sunt conturi de investiții constituite în baza prezentei legi, în care persoanele fizice pot economisi și investi fonduri beneficiind de un regim fiscal specific și care se deschid la administratori de conturi CEI.\n\n(3) Administratorii de conturi CEI sunt următoarele societăți autorizate să presteze serviciul de administrare de portofolii, potrivit Legii nr. 126/2018, cu modificările și completările ulterioare:\na) societăți de servicii de investiții financiare, denumite în continuare SSIF, astfel cum sunt reglementate de Legea nr. 126/2018 privind piețele de instrumente financiare, cu modificările și completările ulterioare;\nb) bănci, astfel cum sunt reglementate de Ordonanța de urgență nr. 99/2006 privind instituțiile de credit și adecvarea capitalului, aprobată cu modificări și completări prin Legea nr. 227/2007, cu modificările și completările ulterioare.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
   },
   {
    "nr": "4",
+   "report": "rp545.pdf",
    "article": "art. 2",
    "status": "admis",
    "authors": [
@@ -112,11 +183,57 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Actualizează definițiile legale pentru a înlocui termenul CIIV cu CEI și adaptează definiția contului și a administratorului de conturi CEI.",
-   "quote": "CEI – contul de economii și de investiții este un cont de investiții constituit în baza prezentei legi, cu modificările și completările ulterioare, care beneficiază de un regim juridic"
+   "byGroup": null,
+   "summary": "Actualizează definițiile din art. 2 prin înlocuirea CIIV cu CEI, trimite la art. 1 alin. (3) pentru administratori și corectează redactarea unor definiții.",
+   "quote": "contul de economii și de investiții este un cont de investiții constituit în baza prezentei legi, cu modificările și completările ulterioare",
+   "inForce": null,
+   "before": "Art. 2 – Definiții\nÎn sensul prezentei legi, termenii și expresiile de mai jos au următoarele semnificații:\na) administrator de conturi CIIV – societățile autorizate să presteze serviciul de administrare de portofolii, în conformitate cu prevederile Legii nr. 126/2018, cu modificările și completările ulterioare;\nb) CIIV – contul individual de investiții pentru viitor este un portofoliu în sensul Legii nr. 126/2018, cu modificările și completările ulterioare, care beneficiază de un regim juridic și fiscal reglementat de prezenta lege;\nc) contribuție – suma de bani transferată voluntar de titular sau, după caz, acordată de angajator, în contul CIIV;\nd) Fond de Compensare a Investitorilor, denumit în continuare FCI – fondul constituit în conformitate cu prevederile Leii nr. 88/2021 privind Fondul de compensare a investitorilor, cu modificările și completările ulterioare;\ne) instrumente financiare eligibile – instrumentele financiare în care pot fi investite fondurile acumulate în conturile CIIV, în condițiile prevăzute la art. 6;\nf) OPCVM – organisme de plasament colectiv în valori mobiliare, autorizate de ASF, în conformitate cu prevederile Ordonanței de urgență a Guvernului nr. 32/2012 privind organismele de plasament colectiv în valori mobiliare și societățile de administrare a investițiilor, precum și pentru modificarea și completarea Legii nr. 297/2004 privind piața de capital, aprobată cu modificări și completări prin Legea nr. 10/2015, cu modificările și completările ulterioare;\ng) piață reglementată – piața definită conform art. 3 alin. (1) pct. 60 din Legea nr. 126/2018, cu modificările și completările ulterioare;\nh) retragere – transferul fondurilor din contul CIIV într-un cont bancar al titularului; i) titular – persoana fizică care deține un cont CIIV.\ni) titular - persoana fizică care deține un cont CIIV.",
+   "after": "Art. 2 – Definiții\nÎn sensul prezentei legi, termenii și expresiile de mai jos au următoarele semnificații:\na) administrator de conturi CEI – societățile prevăzute la art. 1 alin. (3);\n\nb) CEI – contul de economii și de investiții este un cont de investiții constituit în baza prezentei legi, cu modificările și completările ulterioare, care beneficiază de un regim juridic reglementat de prezenta lege;\nc) contribuție – suma de bani transferată voluntar de titular sau, după caz, acordată de angajator, în contul CEI;\n\nd) Fond de Compensare a Investitorilor, denumit în continuare FCI – fondul constituit în conformitate cu prevederile Legii nr. 88/2021 privind Fondul de compensare a investitorilor, cu modificările și completările ulterioare;\ne) instrumente financiare eligibile – instrumentele financiare în care pot fi investite fondurile acumulate în conturile CEI, în condițiile prevăzute la art. 6;\nf) OPCVM – organisme de plasament colectiv în valori mobiliare, autorizate de Autoritatea de Supraveghere Financiară denumită în continuare ASF, în conformitate cu prevederile Ordonanței de urgență a Guvernului nr. 32/2012 privind organismele de plasament colectiv în valori mobiliare și societățile de administrare a investițiilor, precum și pentru modificarea și completarea Legii nr. 297/2004 privind piața de capital, aprobată cu modificări și completări prin Legea nr. 10/2015, cu modificările și completările ulterioare;\ng) piață reglementată – piața definită conform art. 3 alin. (1) pct. 60 din Legea nr. 126/2018, cu modificările și completările ulterioare;\nh) retragere – transferul fondurilor din contul CEI într-un cont bancar al titularului;\ni) titular – persoana fizică care deține un cont CEI.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
+  },
+  {
+   "nr": "5",
+   "report": "rp545.pdf",
+   "article": "Capitolul II",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului II (Tipurile de conturi CIIV) pentru a restructura legea în două capitole.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL II – Tipurile de conturi CIIV",
+   "after": "Se elimină.",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "6",
+   "report": "rp545.pdf",
    "article": "art. 3",
    "status": "admis",
    "authors": [
@@ -146,14 +263,60 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește denumirea CIIV cu CEI, trimite la Codul fiscal pentru regimul fiscal și elimină dreptul titularului de a schimba tipul de administrare a contului.",
-   "quote": "Un titular poate deține simultan conturi CEI-S și conturi CEI-D, la același administrator de conturi CEI sau la administratori de conturi CEI diferiți.",
+   "byGroup": null,
+   "summary": "Elimină alin. (2) privind dreptul titularului de a alege tipul de administrare, redenumește conturile CEI-S/CEI-D și trimite la Codul fiscal pentru regimul fiscal.",
+   "quote": "contul cu regim de deductibilitate fiscală potrivit prevederilor Legii nr. 227/2015 cu modificările și completările ulterioare",
+   "inForce": null,
+   "before": "Art. 3 – Tipuri de conturi\n(1) Conturile CIIV sunt de două tipuri:\na) contul CIIV cu regim de scutire (CIIV-S) – contul în care contribuțiile sunt efectuate de către titularul contului CIIV-S și pentru care veniturile realizate la retragere din cont sunt scutite de la plata impozitului pe venit și nu se includ în baza de calcul al contribuțiilor sociale obligatorii;\n\nb) contul CIIV cu regim de deductibilitate (CIIV-D) – contul cu regim de deductibilitate fiscală definit la art. 8, în care contribuțiile pot fi efectuate de către titularul contului CIIV sau de către angajatorul titularului la locul unde se află funcția de bază.\n\n(2) Titularul de cont are dreptul de a alege sau schimba, oricând și de oricâte ori, tipul de administrare a contului, discreționar sau individualizat, în conformitate cu prevederile Legii nr. 126/2018, cu modificările și completările ulterioare.\n\n(3) Un titular poate deține simultan conturi CIIV-S și conturi CIIV-D, la același administrator de conturi CIIV sau la administratori de conturi CIIV diferiți.\n\n(4) Tipul contului CIIV de la alin. (1) nu poate fi modificat după înființare.",
+   "after": "Art. 3 – Tipuri de conturi\n(1) Conturile CEI sunt de două tipuri:\na) contul CEI cu regim de scutire (CEI-S) – contul în care contribuțiile sunt efectuate de către titularul contului CEI-S și pentru care veniturile realizate la retragere din cont sunt scutite de la plata impozitului pe venit și nu se includ în baza de calcul al contribuțiilor sociale obligatorii potrivit prevederilor Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare;\nb) contul CEI cu regim de deductibilitate (CEI-D) – contul cu regim de deductibilitate fiscală potrivit prevederilor Legii nr. 227/2015 cu modificările și completările ulterioare, în care contribuțiile pot fi efectuate de către titularul contului CEI sau de către angajatorul titularului la locul unde se află funcția de bază.\n\nSe elimină\n\n(2) Un titular poate deține simultan conturi CEI-S și conturi CEI-D, la același administrator de conturi CEI sau la administratori de conturi CEI diferiți.\n\n(3) Tipul contului CEI de la alin. (1) nu poate fi modificat după înființare.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene.\n\nDe asemenea, se înlocuiește trimiterea la art. 8 cu trimiterea la prevederile Codului Fiscal ce vor fi făcute prin prezentul proiect, Capitolul II, pentru a integra reglementarea fiscală în sediul materiei corespunzător.\n\nAvând în vedere trimiterea la definiția din Legea nr. 126/2018 – conform căreia administrarea de portofoliu reprezintă administrarea discreționară și individualizată a portofoliilor care includ unul sau mai multe instrumente financiare, în conformitate cu mandatul acordat de client, alin. (2) se elimină",
    "effects": [
     "mai_rau"
    ]
   },
   {
+   "nr": "7",
+   "report": "rp545.pdf",
+   "article": "Capitolul III",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului III (Titularii și condițiile de eligibilitate) ca măsură de tehnică legislativă.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL III – Titularii și condițiile de eligibilitate",
+   "after": "Se elimină.",
+   "motivation": "Tehnică legislativă"
+  },
+  {
    "nr": "8",
+   "report": "rp545.pdf",
    "article": "art. 4",
    "status": "admis",
    "authors": [
@@ -183,11 +346,57 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește denumirea CIIV cu CEI în cadrul regulii privind eligibilitatea persoanelor fizice de a deschide conturi.",
-   "quote": "Orice persoană fizică poate deschide unul sau mai multe conturi CEI, de oricare dintre cele două tipuri, la unul sau mai mulți administratori de conturi CEI."
+   "byGroup": null,
+   "summary": "Înlocuiește denumirea CIIV cu CEI în articolul privind eligibilitatea deschiderii conturilor.",
+   "quote": "Orice persoană fizică poate deschide unul sau mai multe conturi CEI, de oricare dintre cele două tipuri",
+   "inForce": null,
+   "before": "Art. 4 – Eligibilitate\nOrice persoană fizică poate deschide unul sau mai multe conturi CIIV, de oricare dintre cele două tipuri, la unul sau mai mulți administratori de conturi CIIV.",
+   "after": "Art. 4 – Eligibilitate\nOrice persoană fizică poate deschide unul sau mai multe conturi CEI, de oricare dintre cele două tipuri, la unul sau mai mulți administratori de conturi CEI.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
+  },
+  {
+   "nr": "9",
+   "report": "rp545.pdf",
+   "article": "Capitolul IV",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului IV (Regimul investițiilor) ca măsură de tehnică legislativă.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL IV – Regimul investițiilor",
+   "after": "Se elimină.",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "10",
+   "report": "rp545.pdf",
    "article": "art. 5",
    "status": "admis",
    "authors": [
@@ -217,11 +426,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește denumirea CIIV cu CEI în dispozițiile privind efectuarea contribuțiilor și retragerea fondurilor din conturi.",
-   "quote": "Contribuțiile efectuate în conturi CEI se stabilesc și se plătesc voluntar de către titulari, în nume propriu, sau, după caz, se acordă ca venit din salariu"
+   "byGroup": null,
+   "summary": "Înlocuiește denumirea CIIV cu CEI în articolul privind contribuțiile și retragerile din conturi.",
+   "quote": "Contribuțiile efectuate în conturi CEI se stabilesc și se plătesc voluntar de către titulari, în nume propriu",
+   "inForce": null,
+   "before": "Art. 5 – Contribuțiile și retragerile din conturile CIIV\n(1) Contribuțiile efectuate în conturi CIIV se stabilesc și se plătesc voluntar de către titulari, în nume propriu, sau, după caz, se acordă ca venit din salariu sau asimilat salariului de către angajator, astfel cum este prevăzut în regulamentul intern sau în contractul de muncă.\n(2) Contribuțiile prevăzute la alin. (1) se pot efectua numai până la momentul deschiderii drepturilor de pensie pentru limită de vârstă, pensie anticipată sau pensie de invaliditate, în conformitate cu prevederile Legii nr. 360/2023 privind sistemul public de pensii, cu modificările ulterioare, sau până la împlinirea vârstei de 65 de ani, oricare dintre cele două evenimente intervine primul.\n(3) Fondurile pot fi retrase, la solicitarea titularului de cont CIIV și în cuantumul solicitat de acesta, de la momentul deschiderii drepturilor de pensie pentru limită de vârstă, pensie anticipată sau pensie de invaliditate, în conformitate cu prevederile Legii nr. 360/2023, cu modificările ulterioare, sau după împlinirea vârstei de 65 de ani, oricare dintre cele două evenimente intervine primul.",
+   "after": "Art. 5 – Contribuțiile și retragerile din conturile CEI\n(1) Contribuțiile efectuate în conturi CEI se stabilesc și se plătesc voluntar de către titulari, în nume propriu, sau, după caz, se acordă ca venit din salariu sau asimilat salariului de către angajator, astfel cum este prevăzut în regulamentul intern sau în contractul de muncă.\n\n(2) Contribuțiile prevăzute la alin. (1) se pot efectua numai până la momentul deschiderii drepturilor de pensie pentru limită de vârstă, pensie anticipată sau pensie de invaliditate, în conformitate cu prevederile Legii nr. 360/2023 privind sistemul public de pensii, cu modificările ulterioare, sau până la împlinirea vârstei de 65 de ani, oricare dintre cele două evenimente intervine primul.\n(3) Fondurile pot fi retrase, la solicitarea titularului de cont CEI și în cuantumul solicitat de acesta, de la momentul deschiderii drepturilor de pensie pentru limită de vârstă, pensie anticipată sau pensie de invaliditate, în conformitate cu prevederile Legii nr. 360/2023, cu modificările ulterioare, sau după împlinirea vârstei de 65 de ani, oricare dintre cele două evenimente intervine primul.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
   },
   {
    "nr": "11",
+   "report": "rp545.pdf",
    "article": "art. 6",
    "status": "admis",
    "authors": [
@@ -251,14 +466,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Clarifică piețele eligibile (UE și piețe echivalente OCDE), elimină mențiunea separată a obligațiunilor de stat OCDE/UE și extinde excepția pentru OPCVM-uri care folosesc derivate.",
-   "quote": "de pe orice piețe reglementate din UE sau piețe echivalente ale unei țări terțe membră a Organizației pentru Cooperare și Dezvoltare Economică, în conformitate cu prevederile Legii nr. 126/2018",
+   "byGroup": null,
+   "summary": "Modifică instrumentele eligibile la piețe reglementate din UE sau piețe echivalente din țări terțe OCDE, elimină mențiunea obligațiunilor de stat și relaxează excepția OPCVM la derivate.",
+   "quote": "de pe orice piețe reglementate din UE sau piețe echivalente ale unei țări terțe membră a Organizației pentru Cooperare și Dezvoltare Economică",
+   "inForce": null,
+   "before": "Art. 6 – Instrumente financiare eligibile\n(1) Fondurile acumulate în conturi CIIV pot fi investite în obligațiuni, acțiuni, OPCVM-uri sau alte instrumente financiare admise la tranzacționare pe o piață reglementată și oferite de administratorii de conturi CIIV, de pe orice piețe reglementate din state membre ale Organizației pentru Cooperare și Dezvoltare Economică și/sau ale Uniunii Europene, în conformitate cu prevederile Legii nr. 126/2018, cu modificările și completările ulterioare, precum și în titluri de participare emise de OPCVM-uri distribuite în conformitate cu legislația aplicabilă și în obligațiuni emise de state membre ale Organizației pentru Cooperare și Dezvoltare Economică și/sau ale Uniunii Europene.\n(2) Prin excepție de la prevederile Leii nr. 126/2018, cu modificările și completările ulterioare, referitoare la instrumentele financiare disponibile în cadrul serviciilor de investiții financiare, din conturile CIIV nu se pot investi fonduri în instrumente financiare derivate, în sensul normelor de aplicare prevăzute la art. 17, cu excepția OPCVM-urilor admise la tranzacționare pe o piață reglementată care folosesc instrumente financiare derivate pentru a replica randamentul unui indice sau pentru a acoperi riscuri (hedging).",
+   "after": "Art. 6 – Instrumente financiare eligibile\n(1) Fondurile acumulate în conturi CEI pot fi investite în obligațiuni, acțiuni, OPCVM-uri sau alte instrumente financiare admise la tranzacționare pe o piață reglementată și oferite de administratorii de conturi CEI, de pe orice piețe reglementate din UE sau piețe echivalente ale unei țări terțe membră a Organizației pentru Cooperare și Dezvoltare Economică, în conformitate cu prevederile Legii nr. 126/2018, cu modificările și completările ulterioare, precum și în titluri de participare emise de OPCVM-uri distribuite în conformitate cu legislația aplicabilă.\n\n(2) Prin excepție de la prevederile Leii nr. 126/2018, cu modificările și completările ulterioare, referitoare la instrumentele financiare disponibile în cadrul serviciilor de investiții financiare, din conturile CEI nu se pot investi fonduri în instrumente financiare derivate cu excepția OPCVM-urilor care folosesc instrumente financiare derivate pentru a replica randamentul unui indice sau pentru a acoperi riscuri (hedging).",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene.\n\nNoțiunea de piață reglementată este legată de teritoriul UE. Legislația aplicabilă folosește noțiunea de ,,piață echivalentă a unei țări terțe”, Comisia Europeană fiind cea care emite decizii de echivalență.",
    "effects": [
-    "mai_rau"
+    "neutru"
    ]
   },
   {
    "nr": "12",
+   "report": "rp545.pdf",
    "article": "art. 7",
    "status": "admis",
    "authors": [
@@ -288,14 +509,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Obligă administratorii să elibereze documente justificative pentru contribuțiile CEI-D, să înștiințeze entitățile plătitoare de venituri pentru scutire și să ofere extrase gratuit pe hârtie.",
-   "quote": "să furnizeze titularului un document justificativ privind contribuțiile efectuate în conturile CEI-D. Documentul justificativ cuprinde cel puțin următoarele elemente: datele de identificare ale persoanei fizice",
+   "byGroup": null,
+   "summary": "Adaugă obligația eliberării documentului justificativ CEI-D, mută înștiințarea de la Depozitarul Central la plătitorii de venituri și permite primirea gratuită a extrasului pe hârtie.",
+   "quote": "La solicitarea titularului, documentul prevăzut la alin. (1) lit. b) poate fi furnizat pe suport durabil, iar la cererea expresă a acestuia să poată fi furnizat și pe hârtie, fără costuri pentru titular.",
+   "inForce": null,
+   "before": "Art. 7 – Obligațiile administratorilor de conturi CIIV\n(1) Administratorii de conturi CIIV au următoarele obligații specifice suplimentare față de cele din Legea nr. 126/2018, cu modificările și completările ulterioare:\na) să asigure evidența separată a activelor deținute în conturile CIIV față de celelalte active administrate;\nb) să furnizeze în format online titularului, cel puțin anual, un extras de cont care să cuprindă valoarea totală a activelor, structura portofoliului, randamentul și costurile;\nc) să înștiințeze depozitarul central despre deținerile de acțiuni în CIIV, astfel încât emitenții care distribuie dividende să nu rețină la sursă impozitul pe dividende datorat de titularii conturilor CIIV;\nd) să raporteze ASF, în formatul și la termenele stabilite prin normele de aplicare prevăzute la art. 17, situația conturilor CIIV administrate.\n\n(2) Comisioanele și tarifele percepute de administratorii de conturi CIIV pentru administrarea conturilor CIIV se stabilesc în mod transparent și se comunică titularului înainte de deschiderea contului, precum și la fiecare modificare ulterioară, cu un preaviz de cel puțin 30 de zile calendaristice.",
+   "after": "Art. 7 – Obligațiile administratorilor de conturi CEI\n(1) Administratorii de conturi CEI au următoarele obligații specifice suplimentare față de cele din Legea nr. 126/2018, cu modificările și completările ulterioare:\na) să asigure evidența separată a activelor deținute în conturile CEI față de celelalte active administrate;\nb) să furnizeze în format online titularului, cel puțin anual, un extras de cont care să cuprindă valoarea totală a activelor, structura portofoliului, randamentul și costurile;\nc) să furnizeze titularului un document justificativ privind contribuțiile efectuate în conturile CEI-D. Documentul justificativ cuprinde cel puțin următoarele elemente: datele de identificare ale persoanei fizice, data decontării tranzacției, valoarea contribuției, precum și tipul de cont;\nd) să înștiințeze entitățile plătitoare de venituri obținute de titular ca urmare a deținerii de active investite în instrumente financiare eligibile prevăzute la art. 6 alin. (1), în vederea aplicării prevederilor art. 93 alin. (1) lit. e) din Legea nr. 227/2015, cu modificările și completările ulterioare;\ne) să raporteze ASF, în formatul și la termenele stabilite prin normele de aplicare prevăzute la art. 17, situația conturilor CEI administrate.\n\n(2) Comisioanele și tarifele percepute de administratorii de conturi CEI pentru administrarea conturilor CEI se stabilesc în mod transparent și se comunică titularului înainte de deschiderea contului, precum și la fiecare modificare ulterioară, cu un preaviz de cel puțin 30 de zile calendaristice.\n(3) La solicitarea titularului, documentul prevăzut la alin. (1) lit. b) poate fi furnizat pe suport durabil, iar la cererea expresă a acestuia să poată fi furnizat și pe hârtie, fără costuri pentru titular.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene.",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "13",
+   "report": "rp545.pdf",
    "article": "art. 8",
    "status": "admis",
    "authors": [
@@ -325,14 +552,60 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește detalierea regimului fiscal din articolul 8 cu o trimitere la Codul fiscal, unde sunt mutate regulile de impozitare și deducere.",
+   "byGroup": null,
+   "summary": "Elimină detaliile fiscale din art. 8 (alin. 2-8) și introduce trimiterea la Codul fiscal pentru regimul fiscal al contribuțiilor și retragerilor CEI.",
    "quote": "Regimul fiscal aplicabil contribuțiilor în conturile CEI, precum și sumelor retrase din aceste conturi este cel stabilit potrivit prevederilor Legii nr. 227/2015 privind Codul fiscal",
+   "inForce": null,
+   "before": "Art. 8 – Regimul fiscal al conturilor CIIV\n(1) Contribuțiile în conturile CIIV-D pot fi făcute:\na) de către titularul contului CIIV-D, din veniturile sale din activități independente pentru care venitul net anual se determină în sistem real pe baza datelor din contabilitate potrivit art. 68 din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare;\nb) de către titularul contului CIIV-D, din salarii și asimilate salariilor, obținute la locul unde se află funcția de bază;\nc) de către angajatorul la care titularul contului CIIV-D realizează venituri din salarii la locul unde se află funcția de bază.\n(2) Contribuțiile prevăzute la alin. (1) lit. a) sunt cheltuieli deductibile la calculul impozitului pe venit în cazul veniturilor din activități independente realizate din România sau din străinătate, cu aplicarea regulilor prevăzute la art. 68 din Legea nr. 227/2015, cu modificările și completările ulterioare.\n(3) Contribuțiile prevăzute la alin. (1) lit. b) se scad din baza de calcul pentru determinarea impozitului pe veniturile din salarii și asimilate salariilor, cu aplicarea regulilor prevăzute la art. 78 alin. (2) lit. a) din Legea nr. 227/2015, cu modificările și completările ulterioare.\n(4) Contribuțiile prevăzute la alin. (1) lit. c) nu sunt venituri impozabile, în limita plafonului lunar de cel mult 33% prevăzut la art. 76 alin. (41) din Legea nr. 227/2015, cu modificările și completările ulterioare.\n(5) Prin derogare de la prevederile Titlului IV, precum și de la prevederile Titlului V din Legea nr. 227/2015, cu modificările și completările ulterioare, veniturile din investiții, astfel cum sunt definite la art. 91 din Legea nr. 227/2015, cu modificările și completările ulterioare, realizate în cadrul conturilor CIIV, pe perioada deținerii contului CIIV, nu reprezintă venituri impozabile și nu se includ în baza de calcul al impozitului pe venit și a contribuțiilor sociale obligatorii.\n(6) Fondurile retrase din conturile CIIV-D reprezintă venituri din investiții, definite la art. 91 din Legea nr. 227/2015, cu modificările și completările ulterioare, și se impozitează, la momentul retragerii, prin reținere la sursă, în integralitatea lor, cu impozit pe venit în cota prevăzută la art. 64 alin. (1) din aceeași lege. Prin derogare de la prevederile Titlului V din Legea nr. 227/2015, cu modificările și completările ulterioare, sumele provenite din conturile CIIV-D în urma retragerii nu se includ în baza de calcul a contribuțiilor sociale obligatorii.\n(7) Impozitul pe venit reținut la sursă de către plătitorii de venituri se virează până la data de 25, inclusiv, a lunii următoare celei în care are loc retragerea fondurilor. Obligațiile declarative ale plătitorilor de venituri sunt cele prevăzute la art. 132 alin. (1) și (2) din Legea nr. 227/2015, cu modificările și completările ulterioare.\n(8) Fondurile retrase din conturile CIIV-S reprezintă venituri neimpozabile din investiții. Prin derogare de la prevederile Titlului V din Legea nr. 227/2015, cu modificările și completările ulterioare, sumele provenite din conturile CIIV-S în urma retragerii nu se includ în baza de calcul a contribuțiilor sociale obligatorii.",
+   "after": "Art. 8 – Reguli privind contribuțiile în conturile CEI\n(1) Contribuțiile în conturile CEI-D pot fi făcute:\na) de către titularul contului CEI-D, din veniturile sale din activități independente pentru care venitul net anual se determină în sistem real pe baza datelor din contabilitate potrivit art. 68 din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare;\nb) de către titularul contului CEI-D, din veniturile din salarii și asimilate salariilor, obținute la locul unde se află funcția de bază;\nc) de către angajatorul la care titularul contului CEI-D realizează venituri din salarii și asimilate salariilor la locul unde se află funcția de bază.\n(2) Regimul fiscal aplicabil contribuțiilor în conturile CEI, precum și sumelor retrase din aceste conturi este cel stabilit potrivit prevederilor Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare.\n\n(3) Se elimină.\n\n(4) Se elimină.\n\n(5) Se elimină.\n\n(6) Se elimină.\n\n(7) Se elimină.\n\n(8) Se elimină.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene.\n\nSe reglementează reguli privind contribuțiile în conturile CEI, tratamentul fiscal urmând a fi reglementat în aceleași condiții în cadrul modificărilor aduse la Codul Fiscal prin Capitolul II al prezentului proiect.\n\nTehnică legislativă",
    "effects": [
-    "mai_bine"
+    "neutru"
    ]
   },
   {
+   "nr": "14",
+   "report": "rp545.pdf",
+   "article": "Capitolul V",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului V (Regimul fiscal) ca măsură de tehnică legislativă.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL V – Regimul fiscal",
+   "after": "Se elimină.",
+   "motivation": "Tehnică legislativă"
+  },
+  {
    "nr": "15",
+   "report": "rp545.pdf",
    "article": "art. 9",
    "status": "admis",
    "authors": [
@@ -362,11 +635,57 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește denumirea CIIV cu CEI în prevederile referitoare la transferul activelor între administratori.",
-   "quote": "Titularul contului CEI are dreptul să transfere activele acumulate, integral sau parțial, în alte conturi CEI de același tip și cu același titular la un alt administrator"
+   "byGroup": null,
+   "summary": "Înlocuiește denumirea CIIV cu CEI în articolul privind transferul activelor între administratori.",
+   "quote": "Titularul contului CEI are dreptul să transfere activele acumulate, integral sau parțial, în alte conturi CEI de același tip",
+   "inForce": null,
+   "before": "Art. 9 – Transferul între administratori de conturi CIIV\n(1) Titularul contului CIIV are dreptul să transfere activele acumulate, integral sau parțial, în alte conturi CIIV de același tip și cu același titular la un alt administrator de conturi CIIV.\n(2) Transferul prevăzut la alin. (1) se efectuează în termen de cel mult 15 zile lucrătoare de la data solicitării, fără perceperea de comisioane de transfer.",
+   "after": "Art. 9 – Transferul între administratori de conturi CEI\n(1) Titularul contului CEI are dreptul să transfere activele acumulate, integral sau parțial, în alte conturi CEI de același tip și cu același titular la un alt administrator de conturi CEI.\n(2) Transferul prevăzut la alin. (1) se efectuează în termen de cel mult 15 zile lucrătoare de la data solicitării, fără perceperea de comisioane de transfer.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
+  },
+  {
+   "nr": "16",
+   "report": "rp545.pdf",
+   "article": "Capitolul VI",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului VI (Transferul și portabilitatea) ca măsură de tehnică legislativă.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL VI – Transferul și portabilitatea",
+   "after": "Se elimină.",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "17",
+   "report": "rp545.pdf",
    "article": "art. 10",
    "status": "admis",
    "authors": [
@@ -396,11 +715,57 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește denumirea CIIV cu CEI în dispozițiile privind falimentul administratorului de conturi și protecția prin Fondul de Compensare a Investitorilor.",
-   "quote": "În cazul falimentului unui administrator de conturi CEI se aplică prevederile legii care reglementează procedura specială aplicabilă administratorului respectiv, iar titularii conturilor CEI aleg un alt administrator"
+   "byGroup": null,
+   "summary": "Înlocuiește denumirea CIIV cu CEI în articolul privind falimentul administratorului de conturi.",
+   "quote": "Activele deținute în conturile CEI beneficiază de protecția oferită de Fondul de Compensare a Investitorilor",
+   "inForce": null,
+   "before": "Art. 10 – Falimentul administratorului de conturi CIIV\n(1) În cazul falimentului unui administrator de conturi CIIV se aplică prevederile legii care reglementează procedura specială aplicabilă administratorului respectiv, iar titularii conturilor CIIV aleg un alt administrator de conturi CIIV în condițiile art. 9 alin. (1).\n(2) Activele deținute în conturile CIIV beneficiază de protecția oferită de Fondul de Compensare a Investitorilor, în conformitate cu prevederile Legii nr. 88/2021, cu modificările și completările ulterioare.",
+   "after": "Art. 10 – Falimentul administratorului de conturi CEI\n(1) În cazul falimentului unui administrator de conturi CEI se aplică prevederile legii care reglementează procedura specială aplicabilă administratorului respectiv, iar titularii conturilor CEI aleg un alt administrator de conturi CEI în condițiile art. 9 alin. (1).\n(2) Activele deținute în conturile CEI beneficiază de protecția oferită de Fondul de Compensare a Investitorilor, în conformitate cu prevederile Legii nr. 88/2021, cu modificările și completările ulterioare.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
+  },
+  {
+   "nr": "18",
+   "report": "rp545.pdf",
+   "article": "Capitolul VII",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului VII (Moștenirea conturilor CIIV) ca parte a restructurării legii.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL VII – Moștenirea conturilor CIIV",
+   "after": "Se elimină.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
   },
   {
    "nr": "19",
+   "report": "rp545.pdf",
    "article": "art. 11",
    "status": "admis",
    "authors": [
@@ -430,11 +795,57 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Clarifică regulile de succesiune a conturilor CEI, condiționând cumularea activelor de existența aceluiași tip de cont și făcând trimitere la Codul fiscal pentru impozitare.",
-   "quote": "vânzarea activelor și retragerea fondurilor printr-o plată unică, cu aplicarea regimului fiscal conform prevederilor Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare."
+   "byGroup": null,
+   "summary": "Înlocuiește CIIV cu CEI la succesiune, precizează că cumularea activelor se face într-un cont de același tip și trimite la Codul fiscal pentru retragerea prin plată unică, eliminând alin. (3).",
+   "quote": "vânzarea activelor și retragerea fondurilor printr-o plată unică, cu aplicarea regimului fiscal conform prevederilor Legii nr. 227/2015 privind Codul fiscal",
+   "inForce": null,
+   "before": "Art. 11 – Succesiunea\n(1) În cazul decesului titularului unui cont CIIV, activele acumulate în cont revin moștenitorilor, în condițiile Legii nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare.\n(2) Moștenitorii au dreptul să opteze pentru:\na) transferul activelor într-un cont CIIV propriu, de același tip cu cel al contului deținut de titularul decedat, sau cumularea activelor într-un cont CIIV propriu deja existent;\n\nb) vânzarea activelor și retragerea fondurilor printr-o plată unică, cu aplicarea corespunzătoare a prevederilor art. 8 alin. (6) în cazul unui cont CIIV-D.\n\n(3) Prin derogare de la prevederile Legii nr. 227/2015, cu modificările și completările ulterioare, veniturile realizate de către moștenitori la retragerea fondurilor din contul CIIV-S sunt scutite de la plata impozitului pe venit și nu se includ în baza de calcul al contribuțiilor sociale obligatorii.",
+   "after": "Art. 11 – Succesiunea\n(1) În cazul decesului titularului unui cont CEI, activele acumulate în cont revin moștenitorilor, în condițiile Legii nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare.\n(2) Moștenitorii au dreptul să opteze pentru:\na) transferul activelor într-un cont CEI propriu, de același tip cu cel al contului deținut de titularul decedat, sau cumularea activelor într-un cont CEI propriu deja existent, de același tip cu cel al contului deținut de titularul decedat;\nb) vânzarea activelor și retragerea fondurilor printr-o plată unică, cu aplicarea regimului fiscal conform prevederilor Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare.\n(3) Se elimină.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene.\n\nAvând în vedere că și în cazul conturilor CEI-S, moștenitorul poate opta pentru vânzarea activelor și retragerea fondurilor printr-o plată unică, la fel ca în cazul conturilor CEI-D, se cumulează prevederile într-o singură literă, inclusiv cu regimul fiscal, iar alin. (3) nu mai este necesar."
+  },
+  {
+   "nr": "20",
+   "report": "rp545.pdf",
+   "article": "Capitolul VIII",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului VIII (Protecția investițiilor) ca măsură de tehnică legislativă.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL VIII – Protecția investițiilor",
+   "after": "Se elimină.",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "21",
+   "report": "rp545.pdf",
    "article": "art. 12",
    "status": "admis",
    "authors": [
@@ -464,11 +875,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește denumirea CIIV cu CEI și precizează că obligația de informare înainte de deschiderea contului este suplimentară celor din Legea nr. 126/2018.",
-   "quote": "Înainte de deschiderea unui cont CEI, suplimentar obligațiilor prevăzute de Legea nr. 126/2018, administratorul de conturi CEI pune la dispoziția persoanei interesate un document informativ standardizat"
+   "byGroup": null,
+   "summary": "Înlocuiește CIIV cu CEI la obligațiile de informare și clarifică faptul că documentul informativ standardizat se oferă suplimentar obligațiilor din Legea nr. 126/2018.",
+   "quote": "Înainte de deschiderea unui cont CEI, suplimentar obligațiilor prevăzute de Legea nr. 126/2018, administratorul de conturi CEI pune la dispoziția persoanei interesate un document informativ standardizat",
+   "inForce": null,
+   "before": "Art. 12 – Obligații de informare\n(1) Înainte de deschiderea unui cont CIIV, administratorul de conturi CIIV pune la dispoziția persoanei interesate un document informativ standardizat care cuprinde cel puțin următoarele elemente:\n\na) descrierea celor două tipuri de conturi CIIV și a regimului fiscal aferent;\nb) lista instrumentelor financiare eligibile;\nc) structura comisioanelor și a costurilor;\nd) condițiile de transfer și moștenire;\ne) riscurile asociate investițiilor.\n(2) Documentul informativ prevăzut la alin. (1) se redactează în limba română, în termeni clari și accesibili, conform cerințelor Regulamentului (UE) nr. 1286/2014 al Parlamentului European și al Consiliului din 26 noiembrie 2014 privind documentele cu informații esențiale referitoare la produsele de investiții individuale structurate și bazate pe asigurări (PRIIP).",
+   "after": "Art. 12 – Obligații de informare\n(1) Înainte de deschiderea unui cont CEI, suplimentar obligațiilor prevăzute de Legea nr. 126/2018, administratorul de conturi CEI pune la dispoziția persoanei interesate un document informativ standardizat care cuprinde cel puțin următoarele elemente::\na) descrierea celor două tipuri de conturi CEI și a regimului fiscal aferent;\nb) lista instrumentelor financiare eligibile;\nc) structura comisioanelor și a costurilor;\nd) condițiile de transfer și moștenire;\ne) riscurile asociate investițiilor.\n(2) Documentul informativ prevăzut la alin. (1) se redactează în limba română, în termeni clari și accesibili, conform cerințelor Regulamentului (UE) nr. 1286/2014 al Parlamentului European și al Consiliului din 26 noiembrie 2014 privind documentele cu informații esențiale referitoare la produsele de investiții individuale structurate și bazate pe asigurări (PRIIP).",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
   },
   {
    "nr": "22",
+   "report": "rp545.pdf",
    "article": "art. 13",
    "status": "admis",
    "authors": [
@@ -498,11 +915,60 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește că titularul este proprietarul activelor din contul CEI și că acestea sunt insesizabile, neputând fi executate silit, cesionate sau gajate.",
-   "quote": "Activele deținute în conturile CEI sunt insesizabile și nu pot face obiectul niciunei măsuri de executare silită sau unor tranzacții, sub sancțiunea nulității actelor și măsurilor dispuse"
+   "byGroup": null,
+   "summary": "Consacră proprietatea titularului asupra activelor CEI și stabilește că acestea sunt insesizabile, nu pot fi executate silit, cesionate sau gajate, fără a afecta succesiunea.",
+   "quote": "Activele deținute în conturile CEI sunt insesizabile și nu pot face obiectul niciunei măsuri de executare silită sau unor tranzacții, sub sancțiunea nulității actelor și măsurilor dispuse cu încălcarea prezentei legi.",
+   "inForce": null,
+   "before": "Art. 13 – Protecția activelor\nActivele deținute în conturile CIIV sunt protejate în conformitate cu prevederile Legii nr. 88/2021, cu modificările și completările ulterioare, și ale Legii nr. 126/2018, cu modificările și completările ulterioare, aplicându-se același regim de protecție ca și pentru celelalte active deținute de clienți.",
+   "after": "Art. 13 – Protecția activelor\n(1) Activele deținute în conturile CEI sunt protejate în conformitate cu prevederile Legii nr. 88/2021, cu modificările și completările ulterioare, și ale Legii nr. 126/2018, cu modificările și completările ulterioare, aplicându-se același regim de protecție ca și pentru celelalte active deținute de clienți.\n(2) Titularul este proprietarul activelor deținute în contul său CEI.\n(3) Activele deținute în conturile CEI sunt insesizabile și nu pot face obiectul niciunei măsuri de executare silită sau unor tranzacții, sub sancțiunea nulității actelor și măsurilor dispuse cu încălcarea prezentei legi.\n(4) Activele deținute în conturile CEI nu pot fi cesionate sau gajate, sub sancțiunea nulității actelor respective.\n(5) Dispozițiile alin. (3) și (4) nu aduc atingere prevederilor art. 11 privind succesiunea activelor din conturile CEI.",
+   "motivation": "Modificarea are ca scop alinierea regimului juridic al activelor din conturile CEI la standardul de protecție aplicat activului personal din alte conturi de investiții și economii pe termen lung, prin consacrarea dreptului de proprietate al titularului și instituirea insesizabilității și a interdicției de cesionare sau gajare ș, sub sancțiunea nulității, astfel încât economisirea pe termen lung să fie protejată integral față de riscul executării silite și al operațiunilor care ar compromite această finalitate.",
+   "effects": [
+    "mai_rau"
+   ]
+  },
+  {
+   "nr": "23",
+   "report": "rp545.pdf",
+   "article": "Capitolul IX",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului IX (Supravegherea și sancțiuni) ca măsură de tehnică legislativă.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL IX – Supravegherea și sancțiuni",
+   "after": "Se elimină.",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "24",
+   "report": "rp545.pdf",
    "article": "art. 14",
    "status": "admis",
    "authors": [
@@ -532,11 +998,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Înlocuiește denumirea CIIV cu CEI în prevederea privind raportul anual publicat de ASF.",
-   "quote": "ASF monitorizează și publică anual un raport privind evoluția conturilor CEI, incluzând numărul conturilor, valoarea totală a activelor administrate și structura investițiilor."
+   "byGroup": null,
+   "summary": "Înlocuiește denumirea CIIV cu CEI în articolul privind supravegherea exercitată de ASF.",
+   "quote": "ASF monitorizează și publică anual un raport privind evoluția conturilor CEI, incluzând numărul conturilor, valoarea totală a activelor administrate și structura investițiilor.",
+   "inForce": null,
+   "before": "Art. 14 – Supravegherea\n(1) Supravegherea respectării prevederilor prezentei legi revine ASF, în conformitate cu competențele stabilite de Legea nr. 126/2018, cu modificările și completările ulterioare, și de Ordonanța de urgență a Guvernului nr. 93/2012 privind înființarea, organizarea și funcționarea Autorității de Supraveghere Financiară, aprobată cu modificări și completări prin Legea nr. 113/2013, cu modificările și completările ulterioare.\n(2) ASF monitorizează și publică anual un raport privind evoluția conturilor CIIV, incluzând numărul conturilor, valoarea totală a activelor administrate și structura investițiilor.",
+   "after": "Art. 14 – Supravegherea\n(1) Supravegherea respectării prevederilor prezentei legi revine ASF, în conformitate cu competențele stabilite de Legea nr. 126/2018, cu modificările și completările ulterioare, și de Ordonanța de urgență a Guvernului nr. 93/2012 privind înființarea, organizarea și funcționarea Autorității de Supraveghere Financiară, aprobată cu modificări și completări prin Legea nr. 113/2013, cu modificările și completările ulterioare.\n(2) ASF monitorizează și publică anual un raport privind evoluția conturilor CEI, incluzând numărul conturilor, valoarea totală a activelor administrate și structura investițiilor.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
   },
   {
    "nr": "25",
+   "report": "rp545.pdf",
    "article": "art. 15",
    "status": "admis",
    "authors": [
@@ -566,11 +1038,57 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Actualizează contravențiile aplicabile administratorilor de conturi CEI și elimină sancțiunea privind neînștiințarea depozitarului central.",
-   "quote": "nerespectarea de către administratorul de conturi CEI a obligațiilor de informare și raportare prevăzute la art. 7 alin. (1) lit. b) și e) și la art. 12;"
+   "byGroup": null,
+   "summary": "Înlocuiește CIIV cu CEI la contravenții, elimină contravenția pentru neînștiințarea depozitarului central și actualizează trimiterile la art. 7.",
+   "quote": "nerespectarea de către administratorul de conturi CEI a obligațiilor de informare și raportare prevăzute la art. 7 alin. (1) lit. b) și e)",
+   "inForce": null,
+   "before": "Art. 15 – Sancțiuni\n(1) Constituie contravenții următoarele fapte, dacă nu sunt săvârșite în astfel de condiții încât să constituie infracțiuni potrivit legii penale:\na) nerespectarea de către administratorul de conturi CIIV a obligației de evidență separată a activelor deținute în conturile CIIV, prevăzută la art. 7 alin. (1) lit. a);\nb) nerespectarea de către administratorul de conturi CIIV a obligațiilor de informare și raportare prevăzute la art. 7 alin. (1) lit. b) și d) și la art. 12;\nc) nerespectarea de către administratorul de conturi CIIV a obligației de înștiințare a depozitarului central prevăzute la art. 7 alin. (1) lit. c);\nd) nerespectarea de către administratorul de conturi CIIV a obligațiilor de transparență privind comisioanele și tarifele, prevăzute la art. 7 alin. (2);\ne) nerespectarea de către administratorul de conturi CIIV a termenului de transfer prevăzut la art. 9 alin. (2).\n\n(2) Contravențiile prevăzute la alin. (1) se sancționează de către ASF cu:\na) avertisment scris;\nb) amendă contravențională pentru persoane juridice, de la 1.000 lei la 100.000 lei.\n(3) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute de prezentul articol se realizează de către ASF, prin personalul împuternicit al Sectorului instrumentelor și investițiilor financiare, conform competențelor stabilite prin Legea nr. 126/2018, cu modificările și completările ulterioare, și prin Ordonanța de urgență a Guvernului nr. 93/2012, aprobată cu modificări și completări prin Legea nr. 113/2013, cu modificările și completările ulterioare.\n(4) Dispozițiile prezentului articol se completează cu prevederile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, în măsura în care prezenta lege și Legea nr. 126/2018, cu modificările și completările ulterioare, nu dispun altfel.",
+   "after": "Art. 15 – Sancțiuni\n(1) Constituie contravenții următoarele fapte, dacă nu sunt săvârșite în astfel de condiții încât să constituie infracțiuni potrivit legii penale:\na) nerespectarea de către administratorul de conturi CEI a obligației de evidență separată a activelor deținute în conturile CEI, prevăzută la art. 7 alin. (1) lit. a);\nb) nerespectarea de către administratorul de conturi CEI a obligațiilor de informare și raportare prevăzute la art. 7 alin. (1) lit. b) și e) și la art. 12;\nSe elimină.\n\nc) nerespectarea de către administratorul de conturi CEI a obligațiilor de transparență privind comisioanele și tarifele, prevăzute la art. 7 alin. (2);\nd) nerespectarea de către administratorul de conturi CEI a termenului de transfer prevăzut la art. 9 alin. (2).\n\n(2) Contravențiile prevăzute la alin. (1) se sancționează de către ASF cu:\na) avertisment scris;\nb) amendă contravențională pentru persoane juridice, de la 1.000 lei la 100.000 lei.\n(3) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute de prezentul articol se realizează de către ASF, prin personalul împuternicit al Sectorului instrumentelor și investițiilor financiare, conform competențelor stabilite prin Legea nr. 126/2018, cu modificările și completările ulterioare, și prin Ordonanța de urgență a Guvernului nr. 93/2012, aprobată cu modificări și completări prin Legea nr. 113/2013, cu modificările și completările ulterioare.\n\n(4) Dispozițiile prezentului articol se completează cu prevederile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, în măsura în care prezenta lege și Legea nr. 126/2018, cu modificările și completările ulterioare, nu dispun altfel.",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
+  },
+  {
+   "nr": "26",
+   "report": "rp545.pdf",
+   "article": "Capitolul X",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Elimină titlul Capitolului X (Dispoziții tranzitorii și finale) ca măsură de tehnică legislativă.",
+   "quote": null,
+   "inForce": null,
+   "before": "CAPITOLUL X – Dispoziții tranzitorii și finale",
+   "after": "Se elimină.",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "27",
+   "report": "rp545.pdf",
    "article": "art. 16",
    "status": "admis",
    "authors": [
@@ -600,11 +1118,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Clarifică dispozițiile tranzitorii pentru administratorii de conturi CEI și precizează că obligațiile din lege sunt suplimentare celor din Legea nr. 126/2018.",
-   "quote": "Obligațiile instituite prin prezenta lege cu privire la administrarea de conturi CEI sunt suplimentare obligațiilor ce revin S.S.I.F. care prestează serviciul de administrare de portofolii"
+   "byGroup": null,
+   "summary": "Înlocuiește CIIV cu CEI, impune conformarea administratorilor anterior oferirii serviciului și adaugă alin. (2) despre caracterul suplimentar al obligațiilor față de Legea nr. 126/2018.",
+   "quote": "Obligațiile instituite prin prezenta lege cu privire la administrarea de conturi CEI sunt suplimentare obligațiilor ce revin S.S.I.F. care prestează serviciul de administrare de portofolii",
+   "inForce": null,
+   "before": "Art. 16 – Dispoziții finale și tranzitorii\nSocietățile prevăzute la art. 1 alin. (3), care sunt autorizate la data intrării în vigoare a prezentei legi și care aleg să ofere serviciul de administrare de conturi CIIV, se conformează cerințelor specifice privind administrarea conturilor CIIV în termen de 90 de zile de la data publicării normelor de aplicare prevăzute la art. 17.",
+   "after": "Art. 16 – Dispoziții finale și tranzitorii\n(1)Societățile prevăzute la art. 1 alin. (3), care sunt autorizate la data intrării în vigoare a prezentei legi și care aleg să ofere serviciul de administrare de portofolii pentru conturi CEI, se conformează cerințelor specifice privind administrarea conturilor CEI în termen de 90 de zile de la data publicării normelor de aplicare prevăzute la art. 17 anterior oferirii acestuia.\n\n(2) Obligațiile instituite prin prezenta lege cu privire la administrarea de conturi CEI sunt suplimentare obligațiilor ce revin S.S.I.F. care prestează serviciul de administrare de portofolii în conformitate cu dispozițiile Legii nr. 126/2018, cu modificările și completările ulterioare.”",
+   "motivation": "Înlocuirea denumirii pentru uniformizarea cu denumirea dată de Recomandarea (UE) 2025/2029 a Comisiei Europene."
   },
   {
    "nr": "28",
+   "report": "rp545.pdf",
    "article": "art. 17",
    "status": "admis",
    "authors": [
@@ -634,11 +1158,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește că ASF emite reglementări pentru aplicarea primului capitol al legii, în loc de instrucțiuni emise de președintele ASF.",
-   "quote": "În termen de 90 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Partea I, ASF emite reglementări pentru punerea în aplicare a prevederilor prezentului capitol."
+   "byGroup": null,
+   "summary": "Modifică modul de adoptare a normelor de aplicare: ASF emite reglementări pentru Capitolul I, în loc de instrucțiuni emise de președintele ASF.",
+   "quote": "ASF emite reglementări pentru punerea în aplicare a prevederilor prezentului capitol.",
+   "inForce": null,
+   "before": "Art. 17 – Norme de aplicare\nÎn termen de 90 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Partea I, prin instrucțiuni emise de președintele Autorității de Supraveghere Financiară, se adoptă normele metodologice de aplicare.",
+   "after": "Art. 17 – Norme de aplicare\nÎn termen de 90 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Partea I, ASF emite reglementări pentru punerea în aplicare a prevederilor prezentului capitol.",
+   "motivation": "Potrivit prevederilor art. 6 alin. (2) din O.U.G. nr. 93/2012, ,,Reglementările A.S.F. pot fi sub formă de hotărâri, ordine, regulamente, norme și instrucțiuni.”"
   },
   {
    "nr": "29",
+   "report": "rp545.pdf",
    "article": "art. 18",
    "status": "admis",
    "authors": [
@@ -668,11 +1198,57 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Restrânge norma de intrare în vigoare de la articolul 18 la prevederile primului capitol al legii.",
-   "quote": "Prevederile prezentului capitol intră în vigoare la data de 1 ianuarie a anului următor publicării acesteia în Monitorul Oficial al României, Partea I."
+   "byGroup": null,
+   "summary": "Restrânge norma de intrare în vigoare de la art. 18 la prevederile Capitolului I (în loc de întreaga lege).",
+   "quote": "Prevederile prezentului capitol intră în vigoare la data de 1 ianuarie a anului următor publicării acesteia în Monitorul Oficial al României, Partea I.",
+   "inForce": null,
+   "before": "Art. 18 – Intrarea în vigoare\nPrezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării acesteia în Monitorul Oficial al României, Partea I.",
+   "after": "Art. 18 – Intrarea în vigoare\nPrevederile prezentului capitol intră în vigoare la data de 1 ianuarie a anului următor publicării acesteia în Monitorul Oficial al României, Partea I.",
+   "motivation": null
+  },
+  {
+   "nr": "30",
+   "report": "rp545.pdf",
+   "article": "Capitolul II",
+   "status": "admis",
+   "authors": [
+    {
+     "name": "Maria-Gabriela HORGA",
+     "role": "senator",
+     "party": "PNL",
+     "site": "Horga Maria-Gabriela"
+    },
+    {
+     "name": "Sebastian-Ioan BURDUJA",
+     "role": "deputat",
+     "party": "PNL",
+     "site": "Burduja Sebastian-Ioan"
+    },
+    {
+     "name": "Claudiu Iulius Gavril NĂSUI",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Năsui Claudiu-Iulius-Gavril"
+    },
+    {
+     "name": "Cristina-Mădălina PRUNĂ",
+     "role": "deputat",
+     "party": "USR",
+     "site": "Prună Cristina-Mădălina"
+    }
+   ],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Introduce un nou Capitol II – Măsuri fiscale, pentru a transpune regimul fiscal al conturilor CEI direct în Codul fiscal.",
+   "quote": null,
+   "inForce": null,
+   "before": null,
+   "after": "CAPITOLUL II – Măsuri fiscale",
+   "motivation": "Tratamentul fiscal reglementat anterior în cadrul art. 8 al prezentului proiect de lege este transpus, pentru unitate și claritate a reglementării, direct în cuprinsul prevederilor Codului Fiscal."
   },
   {
    "nr": "31",
+   "report": "rp545.pdf",
    "article": "art. 19",
    "status": "admis",
    "authors": [
@@ -702,15 +1278,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce articolul 19, prin care se modifică și se completează Legea nr. 227/2015 privind Codul fiscal pentru reglementarea regimului fiscal al conturilor CEI.",
-   "quote": "Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică",
-   "effects": [
-    "mai_bine"
-   ]
+   "byGroup": null,
+   "summary": "Introduce partea introductivă a art. 19 prin care se modifică și se completează Legea nr. 227/2015 privind Codul fiscal.",
+   "quote": "Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:",
+   "inForce": null,
+   "before": null,
+   "after": "Art. 19 - Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "32",
-   "article": "art. 19 pct. 1",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 1 (art. 60 pct. 6^1 Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -739,15 +1318,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Scutește de impozit pe venit titularii și moștenitorii conturilor CEI-S pentru sumele retrase din aceste conturi, prin completarea art. 60 din Codul fiscal.",
+   "byGroup": null,
+   "summary": "Scutește de impozit pe venit în Codul fiscal persoanele fizice, titulari și moștenitori, pentru sumele retrase din conturile CEI-S.",
    "quote": "persoanele fizice, titulari și/sau moștenitori ai conturilor de economii și de investiții CEI-S, pentru veniturile reprezentând sumele retrase din aceste conturi, potrivit legii.",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "1. La articolul 60, după punctul 6 se introduce un nou punct, punctul 6^1, cu următorul cuprins:\n\n”6^1. persoanele fizice, titulari și/sau moștenitori ai conturilor de economii și de investiții CEI-S, pentru veniturile reprezentând sumele retrase din aceste conturi, potrivit legii.”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "33",
-   "article": "art. 19 pct. 2",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 2 (art. 68 alin. (4^3) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -776,15 +1359,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Reglementează în Codul fiscal (art. 68) deductibilitatea contribuțiilor la conturile CEI-D pentru veniturile din activități independente în sistem real.",
+   "byGroup": null,
+   "summary": "Prevede în Codul fiscal deductibilitatea contribuțiilor în conturile CEI-D pentru veniturile din activități independente în sistem real.",
    "quote": "Sunt cheltuieli deductibile cheltuielile reprezentând contribuții efectuate în conturile de economii și de investiții CEI-D, potrivit legii, plătite de către contribuabil",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "2. La articolul 68, după alineatul (4^2) se introduce un nou alineat, alin. (4^3), cu următorul cuprins:\n”(4^3) Sunt cheltuieli deductibile cheltuielile reprezentând contribuții efectuate în conturile de economii și de investiții CEI-D, potrivit legii, plătite de către contribuabil, indiferent dacă activitatea se desfășoară individual sau într-o formă de asociere.”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "34",
-   "article": "art. 19 pct. 3",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 3 (art. 76 alin. (3) lit. a^1) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -813,15 +1400,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Include contribuțiile la conturile CEI-D suportate de angajator în calculul plafonului neimpozabil de 33% din salariul de bază la art. 76 alin. (3) din Codul fiscal.",
+   "byGroup": null,
+   "summary": "Actualizează trimiterea din art. 76 alin. (3) lit. a^1) din Codul fiscal pentru a include și noua literă k) (contribuții CEI-D suportate de angajator) în limita neimpozabilă.",
    "quote": "veniturile prevăzute la alin. (4^1) lit. d) - f) și h) - k), pentru partea care depășește limitele prevăzute la alin. (4^1);",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "3. La articolul 76 alineatul (3), litera a^1) se modifică și va avea următorul curpins:\n”a^1) veniturile prevăzute la alin. (4^1) lit. d) - f) și h) - k), pentru partea care depășește limitele prevăzute la alin. (4^1);”",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "35",
-   "article": "art. 19 pct. 4",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 4 (art. 76 alin. (4^1) lit. k) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -850,15 +1440,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Adaugă în Codul fiscal (art. 76 alin. (4^1)) contribuțiile la conturile CEI-D suportate de angajator la funcția de bază printre veniturile neimpozabile în plafonul de 33%.",
+   "byGroup": null,
+   "summary": "Include contribuțiile în conturile CEI-D suportate de angajator la funcția de bază printre beneficiile salariale neimpozabile în plafonul lunar de 33%.",
    "quote": "contribuțiile în conturile de economii și de investiții CEI-D, potrivit legii, suportate de angajator pentru angajații proprii, la locul unde se află funcția de bază",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "4. La articolul 76 alineatul (4^1), după litera j) se introduce o nouă literă, litera k), cu următorul cuprins:\n”k) contribuțiile în conturile de economii și de investiții CEI-D, potrivit legii, suportate de angajator pentru angajații proprii, la locul unde se află funcția de bază, astfel cum este prevăzut în contractul de muncă sau în regulamentul intern.”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "36",
-   "article": "art. 19 pct. 5",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 5 (art. 76 alin. (13^1) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -887,15 +1481,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește în Codul fiscal (art. 76) că sumele suportate de angajator pentru conturile CEI-D sunt considerate venituri aferente lunii în care s-a efectuat plata.",
-   "quote": "Sumele reprezentând contribuții efectuate în conturile de economii și de investiții CEI-D potrivit legii, suportate de angajator pentru angajații proprii, în condițiile alin. (4^1) lit. k)",
-   "effects": [
-    "mai_bine"
-   ]
+   "byGroup": null,
+   "summary": "Stabilește că contribuțiile CEI-D suportate de angajator se consideră venituri aferente lunii în care s-a efectuat plata.",
+   "quote": "Sumele reprezentând contribuții efectuate în conturile de economii și de investiții CEI-D potrivit legii, suportate de angajator pentru angajații proprii, în condițiile alin. (4^1) lit. k) se consideră venituri aferente lunii în care s-a efectuat plata .",
+   "inForce": null,
+   "before": null,
+   "after": "5. La articolul 76, după alineatul (13) se introduce un nou alineat, alin. (13^1), cu următorul cuprins:\n“(13^1) Sumele reprezentând contribuții efectuate în conturile de economii și de investiții CEI-D potrivit legii, suportate de angajator pentru angajații proprii, în condițiile alin. (4^1) lit. k) se consideră venituri aferente lunii în care s-a efectuat plata .“",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "37",
-   "article": "art. 19 pct. 6",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 6 (art. 76 alin. (14) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -924,15 +1522,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Corelează la art. 76 alin. (14) din Codul fiscal regulile de calcul și reținere a impozitului pentru contribuțiile angajatorului la conturile CEI-D care depășesc plafonul.",
+   "byGroup": null,
+   "summary": "Extinde trimiterea din art. 76 alin. (14) din Codul fiscal la noul alin. (13^1) pentru calculul, reținerea și plata impozitului aferent sumelor peste plafon.",
    "quote": "Impozitul datorat în cazul sumelor prevăzute la alin. (8) - (13^1) se calculează și se reține prin cumularea cu veniturile din salarii și asimilate salariilor",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "6. La articolul 76, alineatul (14) se modifică și va avea următorul cuprins:\n“(14) Impozitul datorat în cazul sumelor prevăzute la alin. (8) - (13^1) se calculează și se reține prin cumularea cu veniturile din salarii și asimilate salariilor aferente lunii în care se consideră venit, iar plata impozitului la bugetul de stat se efectuează lunar sau trimestrial, potrivit prevederilor art. 80 și 82, după caz.”",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "38",
-   "article": "art. 19 pct. 7",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 7 (art. 78 alin. (2) lit. a) pct. (vii) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -961,15 +1562,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Reglementează în Codul fiscal (art. 78) deducerea din venitul salarial a contribuțiilor la conturile CEI-D suportate de angajați, pe baza documentelor justificative.",
+   "byGroup": null,
+   "summary": "Reglementează în Codul fiscal deducerea din baza impozabilă salarială a contribuțiilor CEI-D suportate de angajați, pe baza documentului justificativ, inclusiv în caz de schimbare a angajatorului.",
    "quote": "Sumele se deduc, din veniturile lunii în care s-a efectuat plata contribuțiilor, pe baza documentelor justificative eliberate de către administratorii de conturi de economii și de investiții CEI-D",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "7. La articolul 78 alineatul (2) litera a), după punctul (vi) se introduce un nou punct, pct. (vii), cu următorul cuprins:\n”(vii) contribuțiile în conturile de economii și de investiții CEI-D suportate de angajați, potrivit legii.\nSumele se deduc, din veniturile lunii în care s-a efectuat plata contribuțiilor, pe baza documentelor justificative eliberate de către administratorii de conturi de economii și de investiții CEI-D, prevăzuți de lege, indiferent de numărul acestora.\nDocumentul justificativ cuprinde cel puțin următoarele elemente: datele de identificare ale persoanei fizice, data decontării tranzacției, valoarea contribuției, precum și tipul de cont.\nÎn situația în care angajatul se mută în cursul lunii, la un alt angajator unde obține venituri din salarii la funcția de bază, deducerea contribuțiilor la acesta pentru luna curentă, se poate efectua în baza documentelor justificative eliberate de către angajatorul anterior privind cuantumul deducerilor acordate pentru aceeași lună până la momentul mutării.",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "39",
-   "article": "art. 19 pct. 8",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 8 (art. 91 lit. f) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -998,15 +1603,19 @@
     }
    ],
    "byCommittee": null,
+   "byGroup": null,
    "summary": "Include sumele retrase din conturile CEI-D și CEI-S în categoria veniturilor din investiții definite la art. 91 din Codul fiscal.",
    "quote": "venituri reprezentând sumele retrase din conturile de economii și de investiții CEI, respectiv CEI-D și CEI-S, potrivit legii.",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "8. La articolul 91, după litera e) se introduce o nouă literă, lit. f), cu următorul cuprins:\n”f) venituri reprezentând sumele retrase din conturile de economii și de investiții CEI, respectiv CEI-D și CEI-S, potrivit legii.”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "40",
-   "article": "art. 19 pct. 9",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 9 (art. 92 Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1035,15 +1644,21 @@
     }
    ],
    "byCommittee": null,
+   "byGroup": null,
    "summary": "Modifică denumirea marginală a art. 92 din Codul fiscal pentru a include veniturile reprezentând sume retrase din conturile CEI.",
    "quote": null,
-   "effects": [
-    "mai_bine"
+   "inForce": null,
+   "before": null,
+   "after": null,
+   "motivation": "Tehnică legislativă",
+   "unverified": [
+    "after"
    ]
   },
   {
    "nr": "41",
-   "article": "art. 19 pct. 10",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 10 (art. 92 lit. c) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1072,15 +1687,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Definește la art. 92 din Codul fiscal veniturile din conturile CEI realizate printr-un administrator rezident sau nerezident cu sediu permanent în România ca venituri din România.",
-   "quote": "venituri realizate din conturile de economii și de investiții CEI, definite potrivit legii, realizate printr-un administrator de conturi CEI, rezident fiscal român sau nerezident",
-   "effects": [
-    "mai_bine"
-   ]
+   "byGroup": null,
+   "summary": "Definește drept venituri din România veniturile din conturi CEI realizate printr-un administrator rezident fiscal român sau cu sediu permanent în România.",
+   "quote": "venituri realizate din conturile de economii și de investiții CEI, definite potrivit legii, realizate printr-un administrator de conturi CEI, rezident fiscal român sau nerezident care are în România un sediu permanent",
+   "inForce": null,
+   "before": null,
+   "after": "10. La articolul 92, după lit. b) se introduce o nouă literă, lit. c), cu următorul cuprins:\n“c) venituri realizate din conturile de economii și de investiții CEI, definite potrivit legii, realizate printr-un administrator de conturi CEI, rezident fiscal român sau nerezident care are în România un sediu permanent, la care persoana fizică, titular al contului sau moștenitor, după caz, are deschis contul.”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "42",
-   "article": "art. 19 pct. 11",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 11 (art. 93 alin. (1) lit. e) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1109,15 +1728,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește la art. 93 alin. (1) din Codul fiscal că veniturile realizate în conturile CEI pe perioada deținerii acestora nu sunt venituri impozabile.",
+   "byGroup": null,
+   "summary": "Prevede în Codul fiscal că veniturile realizate în conturile CEI pe perioada deținerii acestora sunt venituri neimpozabile.",
    "quote": "veniturile realizate în conturile de economii și de investiții CEI, pe perioada deținerii acestora, potrivit legii.",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "11. La articolul 93 alineat (1), după litera d) se introduce o nouă literă, lit. e), cu următorul cuprins:\n”e) veniturile realizate în conturile de economii și de investiții CEI, pe perioada deținerii acestora, potrivit legii.”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "43",
-   "article": "art. 19 pct. 12",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 12 (art. 93 alin. (2) lit. n) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1146,15 +1769,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Prevede la art. 93 alin. (2) din Codul fiscal că transferul activelor între conturi CEI de același tip sau către contul moștenitorilor nu este operațiune impozabilă.",
+   "byGroup": null,
+   "summary": "Exclude din sfera veniturilor impozabile transferul activelor între conturi CEI de același tip și transferul din contul titularului decedat în contul moștenitorilor.",
    "quote": "transferul, integral sau parțial, al activelor acumulate de titulari în conturile de economii și de investiții CEI, în alte conturi de același tip și cu același titular",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "12. La articolul 93 alineatul (2), după litera m) se introduce o nouă literă, lit. n), cu următorul cuprins:\n”n) transferul, integral sau parțial, al activelor acumulate de titulari în conturile de economii și de investiții CEI, în alte conturi de același tip și cu același titular, precum și transferul activelor din contul titularului decedat în contul moștenitorilor, potrivit legii.”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "44",
-   "article": "art. 19 pct. 13",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 13 (art. 96^2 Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1183,15 +1810,22 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce art. 96^2 în Codul fiscal, stabilind impozitarea cu 10% prin reținere la sursă a sumelor retrase din conturile CEI-D de către titulari sau moștenitori.",
-   "quote": "retragerea sumelor din conturile de economii și de investiții CEI-D, potrivit legii, se impun cu o cotă de 10% din suma acestora, impozitul fiind final.",
+   "byGroup": null,
+   "summary": "Introduce art. 96^2 în Codul fiscal: retragerile din CEI-D se impozitează cu 10% impozit final reținut la sursă și virat până pe 25 a lunii următoare.",
+   "quote": "Veniturile obținute de titularul contului sau, după caz, de moștenitorii acestuia, din retragerea sumelor din conturile de economii și de investiții CEI-D, potrivit legii, se impun cu o cotă de 10% din suma acestora, impozitul fiind final.",
+   "inForce": null,
+   "before": null,
+   "after": "13. După articolul 96^1 se introduce un nou articol, articolul 96^2, cu următorul cuprins:\n”Art.96^2 Stabilirea impozitului pe veniturile realizate din conturile de economii și de investiții CEI\nVeniturile obținute de titularul contului sau, după caz, de moștenitorii acestuia, din retragerea sumelor din conturile de economii și de investiții CEI-D, potrivit legii, se impun cu o cotă de 10% din suma acestora, impozitul fiind final. Calculul și reținerea impozitului se efectuează de plătitorul de venit la data la care acestea sunt plătite. Termenul de virare a impozitului pe venit reținut la sursă este până la data de 25 inclusiv a lunii următoare celei în care veniturile au fost plătite contribuabilului.",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true,
    "effects": [
-    "mai_bine"
+    "neutru"
    ]
   },
   {
    "nr": "45",
-   "article": "art. 19 pct. 14",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 14 (art. 130 alin. (3^2) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1220,15 +1854,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Reglementează la art. 130 din Codul fiscal regimul fiscal al veniturilor din conturi CEI administrate de entități nerezidente fără sediu permanent în România.",
+   "byGroup": null,
+   "summary": "Reglementează tratamentul fiscal în România pentru veniturile din conturi CEI administrate de nerezidenți fără sediu permanent în România, scutind retragerile de impozit.",
    "quote": "Veniturile reprezentând sumele retrase din astfel de conturi de către persoanele fizice, titulari și/sau moștenitori ai acestora sunt scutite de la plata impozitului pe venit în România.",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "14. La articolul 130, după alineatul (3^1) se introduce un nou alineat, alin. (3^2), cu următorul cuprins:\n(3^2) În cazul veniturilor realizate în conturi de economii și investiții, pe perioada deținerii acestora, se aplică prevederile alin. (2), în situația în care administratorul de conturi este nerezident fiscal român și nu are sediu permanent în România. Veniturile reprezentând sumele retrase din astfel de conturi de către persoanele fizice, titulari și/sau moștenitori ai acestora sunt scutite de la plata impozitului pe venit în România.”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "46",
-   "article": "art. 19 pct. 15",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 15 (art. 142 lit. aa^1) pct. 11 Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1257,15 +1895,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Exclude din baza de calcul al contribuțiilor de asigurări sociale (art. 142 din Codul fiscal) contribuțiile la conturile CEI-D suportate de angajator în plafonul de 33%.",
+   "byGroup": null,
+   "summary": "Exclude din baza de calcul a contribuțiilor sociale obligatorii contribuțiile CEI-D suportate de angajator în plafonul lunar de 33%.",
    "quote": null,
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "15. La articolul 142 litera aa^1), după pct. 10 se introduce un nou punct, pct.11 , cu următorul cuprins:\n”11. contribuțiile în conturile de economii și de investiții CEI-D suportate de angajator pentru angajații proprii, la locul unde se află funcția de bază, astfel cum este prevăzut în contractul de muncă sau în regulamentul intern;”",
+   "motivation": "Tehnică legislativă",
+   "newProvision": true
   },
   {
    "nr": "47",
-   "article": "art. 19 pct. 16",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 16 (art. 142 lit. aa^1) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1294,15 +1936,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Permite angajatorului să stabilească ordinea includerii contribuțiilor CEI-D în plafonul lunar neimpozabil de 33% prevăzut la art. 142 lit. aa^1) din Codul fiscal.",
+   "byGroup": null,
+   "summary": "Actualizează ultima teză a art. 142 lit. aa^1) din Codul fiscal pentru a include pct. 11 în plafonul lunar de 33% a cărui ordine o stabilește angajatorul.",
    "quote": "Ordinea includerii veniturilor prevăzute la pct. 1-11 în plafonul lunar de cel mult 33% din salariul de bază corespunzător locului de muncă ocupat",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "16. La articolul 142, ultima teză a literei aa^1) se modifică și va avea următorul cuprins:\n“Ordinea includerii veniturilor prevăzute la pct. 1-11 în plafonul lunar de cel mult 33% din salariul de bază corespunzător locului de muncă ocupat sau din solda lunară/salariul lunar acordată/acordat potrivit legii se stabilește de angajator.”",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "48",
-   "article": "art. 19 pct. 17",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 17 (art. 155 alin. (1) lit. g) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1331,15 +1976,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Exclude veniturile din conturile CEI (definite la art. 91 lit. f)) din baza de calcul al contribuției de asigurări sociale de sănătate prevăzută la art. 155 din Codul fiscal.",
+   "byGroup": null,
+   "summary": "Exclude sumele retrase din conturile CEI (art. 91 lit. f) din baza veniturilor din investiții supuse contribuției de asigurări sociale de sănătate (CASS).",
    "quote": "venituri din investiții, definite conform art. 91 lit. a) – e);",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "17. La articolul 155 alineatul (1), litera g) se modifică și va avea următorul cuprins:\n“g) venituri din investiții, definite conform art. 91 lit. a) – e);”",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "49",
-   "article": "art. 19 pct. 18",
+   "report": "rp545.pdf",
+   "article": "art. 19 pct. 18 (art. 223 alin. (2) lit. g) Cod fiscal)",
    "status": "admis",
    "authors": [
     {
@@ -1368,14 +2016,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Include veniturile obținute de persoane fizice nerezidente din conturile CEI în sfera veniturilor impozabile obținute din România la art. 223 din Codul fiscal.",
+   "byGroup": null,
+   "summary": "Include veniturile din conturile CEI în categoria veniturilor nerezidenților reglementate la art. 223 alin. (2) lit. g) din Codul fiscal.",
    "quote": "din transferul titlurilor de valoare emise de rezidenți români și din conturile de economii și de investiții CEI, definite potrivit legii;",
-   "effects": [
-    "mai_bine"
-   ]
+   "inForce": null,
+   "before": null,
+   "after": "18. La articolul 223 alin.(2), litera g) se modifică și va avea următorul cuprins:\n„g) veniturile unei persoane fizice nerezidente obținute din închirierea sau din altă formă de cedare a dreptului de folosință a unei proprietăți imobiliare situate în România, din transferul proprietăților imobiliare situate în România, din transferul titlurilor de participare deținute la un rezident, din transferul titlurilor de valoare emise de rezidenți români și din conturile de economii și de investiții CEI, definite potrivit legii;”",
+   "motivation": "Tehnică legislativă"
   },
   {
    "nr": "50",
+   "report": "rp545.pdf",
    "article": "art. 20",
    "status": "admis",
    "authors": [
@@ -1405,56 +2056,55 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește intrarea în vigoare a modificărilor aduse Codului fiscal (art. 19) la data de 1 ianuarie a anului următor publicării legii în Monitorul Oficial.",
-   "quote": "prevederile art. 19 din prezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării acesteia în Monitorul Oficial al României, Partea I"
+   "byGroup": null,
+   "summary": "Stabilește intrarea în vigoare a modificărilor Codului fiscal de la art. 19 la 1 ianuarie a anului următor publicării legii, prin derogare de la art. 4 din Codul fiscal.",
+   "quote": "prevederile art. 19 din prezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării acesteia în Monitorul Oficial al României, Partea I",
+   "inForce": null,
+   "before": null,
+   "after": "Art. 20 Prin derogare de la prevederile art. 4 din Legea nr. 227/2015, cu modificările și completările ulterioare, prevederile art. 19 din prezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării acesteia în Monitorul Oficial al României, Partea I și se aplică contribuțiilor plătite și veniturilor realizate din conturile de economii și de investiții începând cu aceeași dată.",
+   "motivation": null
   }
  ],
  "matches": [
   {
-   "change": "0:0",
+   "change": "1:0",
+   "report": "rp545.pdf",
    "amendments": [
-    "12"
+    "22"
    ]
   },
   {
-   "change": "0:1",
-   "amendments": [
-    "13",
-    "31",
-    "32",
-    "33",
-    "34",
-    "35",
-    "36",
-    "37",
-    "38",
-    "39",
-    "40",
-    "41",
-    "42",
-    "43",
-    "44",
-    "45",
-    "46",
-    "47",
-    "48",
-    "49"
-   ]
-  },
-  {
-   "change": "0:2",
+   "change": "1:1",
+   "report": "rp545.pdf",
    "amendments": [
     "6"
    ]
   },
   {
-   "change": "0:3",
+   "change": "1:2",
+   "report": "rp545.pdf",
+   "amendments": [
+    "13",
+    "44"
+   ]
+  },
+  {
+   "change": "1:3",
+   "report": "rp545.pdf",
+   "amendments": [
+    "12"
+   ]
+  },
+  {
+   "change": "1:4",
+   "report": "rp545.pdf",
    "amendments": [
     "11"
    ]
   },
   {
-   "change": "0:4",
+   "change": "1:5",
+   "report": "rp545.pdf",
    "amendments": [
     "12"
    ]

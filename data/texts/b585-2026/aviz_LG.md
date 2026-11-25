@@ -1,0 +1,121 @@
+## AVIZ
+
+# referitor la propunerea legislativă pentru modificarea și completarea unor acte normative în vederea producerii, stocării și partajării energiei electrice fotovoltaice în condominii
+
+Analizând propunerea legislativă pentru modificarea și completarea unor acte normative în vederea producerii, stocării și partajării energiei electrice fotovoltaice în condominii (b585/21.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5175/26.10.2026 și înregistrată la Consiliul Legislativ cu nr. D899/27.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (4) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează negativ propunerea legislativă, pentru următoarele considerente:
+
+1\. Propunerea legislativă are ca obiect de reglementare, în fapt, completarea Legii nr. 196/2018 privind înființarea, organizarea și funcționarea asociațiilor de proprietari și administrarea condominiilor, a Legii energiei electrice și a gazelor naturale nr. 123/2012, precum și a Ordonanței de urgență a Guvernului nr. 163/2022 pentru completarea cadrului legal de promovare a utilizării energiei din surse regenerabile, precum și pentru modificarea și completarea unor acte normative, în scopul transpunerii „art. 15a introdus în Directiva (UE) 2019/944 prin art. 2 pct. 5 din Directiva (UE) 2024/1711”, așa cum se arată în Expunerea de motive.
+
+2\. Propunerea legislativă face parte din categoria legilor organice, fiind incidente prevederile art. 73 alin. (3) lit. m) din Constituția României, republicată, iar în aplicarea prevederilor art. 75 alin. (1) din Legea fundamentală, prima Cameră sesizată este Senatul.
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Menționăm că, la data de 4 noiembrie 2026, Ministerul Energiei a publicat în transparență decizională proiectul de Ordonanță de urgență a Guvernului pentru modificarea și completarea Legii energiei electrice și a gazelor naturale nr. 123/2012¹, „în vederea asigurării respectării obligației statului român de a adopta, în calitate de stat membru, măsurile legislative naționale necesare transpunerii prevederilor Directivei (UE) 2024/1711 a Parlamentului European și a Consiliului din 13 iunie 2024 de modificare a Directivelor (UE) 2018/2001 și (UE) 2019/944 în ceea ce privește îmbunătățirea organizării pieței energiei electrice a Uniuniii”.
+
+Acest proiect de act normativ vizează inclusiv transpunerea art. 15a - Dreptul la partajarea energiei, menționat la pct. 1 supra, care, potrivit alin. (1), este aplicabil tuturor gospodăriilor, întreprinderilor mici și mijlocii, organismelor publice și, în cazul în care un stat membru a decis astfel, altor categorii de clienți finali.
+
+În acest context, semnalăm că prezenta propunere legislativă nu doar că restrânge sfera beneficiarilor dispozițiilor art. 15a antereferit la energia fotovoltaică în condominii, neasigurând astfel transpunerea pe deplin a acestui articol, dar nu transpune nici celelalte dispoziții din Directiva (UE) 2019/944 care au fost modificate, respectiv introduse prin Directiva (UE) 2024/1711, dacă ne referim, de pildă, numai la expresii pe care le folosește, cum sunt „client activ” sau „partajare a energiei”, a căror semnificație este stabilită de Directiva (UE) 2024/1711.
+
+Mai mult decât atât, în cazul în care soluțiile promovate prin acest proiect se vor concretiza în plan legislativ, există posibilitatea ca prevederile legale respective să nu se coreleze ori să dubleze dispozițiile ordonanței de urgență care urmează a fi adoptată.
+
+În legătură cu obligația care revine României de a adopta, în calitate de stat membru, măsurile legislative naționale necesare transpunerii prevederilor Directivei (UE) 2024/1711, precizăm că, potrivit articolului 3 alineatul (1) teza întâi și a doua din acest act juridic european, „Statele membre asigură intrarea în vigoare a actelor cu putere de lege și a actelor administrative necesare pentru a se conforma prezentei directive până la 17 ianuarie 2025.
+
+Prin derogare de la primul paragraf al prezentului alineat, statele membre asigură intrarea în vigoare a actelor cu putere de lege și a actelor administrative necesare pentru a se conforma articolului 2 punctele 2 și 5 până la 17 iulie 2026".
+
+¹ https://energie.gov.ro/proiectul-de-ordonanta-de-urgenta-a-guvernului-pentru-completarea-si-modificarea-legii-energiei-electrice-si-a-gazelor-naturale-nr-123-2012/
+
+5\. Semnalăm că Expunerea de motive nu respectă structura instrumentului de prezentare și motivare prevăzută la art. 31 din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, potrivit căruia acesta trebuie să cuprindă secțiuni distincte privind motivul emiterii actului normativ, impactul socioeconomic cu prezentarea efectelor asupra mediului macroeconomic, de afaceri, social și asupra mediului înconjurător, inclusiv evaluarea costurilor și beneficiilor, impactul financiar asupra bugetului general consolidat, impactul asupra sistemului juridic, inclusiv compatibilitatea cu reglementările Uniunii Europene în materie, consultările derulate în vederea elaborării prezentei propuneri, informarea publică privind elaborarea și implementarea acesteia, precum și măsurile de implementare, respectiv modificările instituționale și funcționale la nivelul administrației publice centrale și locale pe care le presupune aplicarea noului act normativ.
+
+Față de cele de mai sus, atragem atenția asupra faptului că o fundamentare neconformă cu dispozițiile art. 31 antereferit nu este de natură să asigure înțelegerea soluțiilor preconizate și, cu precădere, a scopului și a corectitudinii acestora în raport cu jurisprudența obligatorie a Curții Constituționale².
+
+Precizăm că, potrivit considerentelor exprimate în Decizia Curții Constituționale nr. 682 din 27 iunie 2012, „dispozițiile art. 6 din Legea nr. 24/2000 privind normele de tehnică legislativă, republicată [...], cu modificările și completările ulterioare instituie obligația fundamentării actelor normative. [...]. Lipsa unei fundamentări temeinice a actului normativ în discuție determină, [...], încălcarea prevederilor din Constituție cuprinse în art. 1 alin. (5) [...]”.
+
+6\. Menționăm că, potrivit prevederilor art. 7 alin. (3¹) din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, „Propunerile legislative, proiectele de legi și celelalte proiecte de acte normative vor fi însoțite, în mod obligatoriu, de o evaluare preliminară a impactului noilor reglementări asupra drepturilor și libertăților fundamentale ale omului”.
+
+² Cu privire la problematica lipsei de fundamentare temeinică a actelor normative, Curtea Constituțională a reținut în Decizia nr. 139/2019 că „În lipsa motivării, în sensul arătat, a legii adoptate, nu se poate cunoaște rațiunea legiuiitorului, esențială pentru înțelegerea, interpretarea și aplicarea acesteia. (...) Caracterul sumar al instrumentului de prezentare și motivare, precum și lipsa de fundamentare temeinică a actelor normative au fost sancționate de Curtea Constituțională în jurisprudența sa, în raport cu aceleași exigențe de claritate, predictibilitate a legii și securitate a raporturilor juridice impuse de art. 1 alin. (5) din Constituție, cu invocarea deopotrivă a normelor de tehnică legislativă pentru elaborarea actelor normative”.
+
+Precizăm că evaluarea preliminară a impactului noilor reglementări asupra drepturilor și libertăților fundamentale ale omului reprezintă un set de activități și proceduri realizate cu scopul de a asigura o fundamentare adecvată a inițiativelor legislative, în vederea, atât a evaluării impactului legislației specifice în vigoare la momentul elaborării proiectului de act normativ, cât și a evaluării impactului politicilor publice pe care proiectul de act normativ le implementează.
+
+7\. Având în vedere că instalarea pe acoperișuri, terase și alte părți comune din condominii a sistemelor fotovoltaice și instalațiilor de stocare aferente se aprobă doar cu majoritate calificată, de cel puțin două treimi, astfel cum se preconizează la art. 39² din cadrul art. I, împreună cu acordul scris al tuturor proprietarilor direct afectați, atragem atenția că soluția legislativă este susceptibilă a afecta dreptul de proprietate privată, încălcând dispozițiile art. 44 alin. (1) și art. 136 alin. (5) din Constituție.
+
+8\. De asemenea, atragem atenția asupra faptului că redactările defectuoase, imprecise, lipsite de predictibilitate și coerență, cu nesocotirea limbajului juridic de specialitate, care caracterizează întreg proiectul, cel mai probabil urmarea folosirii unor instrumente de inteligență artificială, nevalidate ulterior de specialiști în domeniul juridic, afectează în mod vădit fondul reglementării, aspectele de genul celor semnalate determinând imposibilitatea aplicării normelor așa cum sunt preconizate în proiect.
+
+Astfel, prin modalitatea de exprimare a intenției normative, se instituie reguli insuficient conturate, contrare dispozițiilor Legii nr. 24/2000, republicată, cu modificările și completările ulterioare, care nu sunt de natură să conducă la o cât mai mare stabilitate și eficiență legislativă, fiind susceptibile să încalce prevederile art. 1 alin. (5) din Constituție.
+
+Așa cum se va arăta infra cu titlu exemplificativ, prin redactarea propusă, proiectul nu se conformează prevederilor cuprinse în Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, la art. 8 alin. (4) teza I - „Textul legislativ trebuie să fie formulat clar, fluent și inteligibil, fără dificultăți sintactice și pasaje obscure sau echivoce” - și la art. 36 alin. (1) - „Actele normative trebuie redactate într-un limbaj și stil juridic specific normativ, concis, sobru, clar și precis, care să excludă orice echivoc (...)"”.
+
+Referitor la aceste aspecte, Curtea Constituțională s-a pronunțat în mai multe rânduri, statuând că „una dintre cerințele principiului respectării legilor vizează calitatea actelor normative”, orice act normativ trebuind „să îndeplinească anumite condiții calitative, printre acestea numărându-se previzibilitatea, ceea ce presupune că acesta trebuie să fie suficient de clar și precis pentru a putea fi aplicat” și că „respectarea prevederilor Legii nr. 24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative se constituie într-un veritabil criteriu de constituționalitate prin prisma aplicării art. 1 alin. (5) din Constituție”³.
+
+Totodată, menționăm că, astfel cum a fost dezvoltat în jurisprudența Curții Constituționale⁴, Curtea a reținut că principiul legalității presupune existența unor norme de drept intern suficient de accesibile, precise și previzibile în aplicarea lor, conducând la caracterul de lex certa al normei. Legiuiitorului îi revine obligația ca în actul de legiferare, indiferent de domeniul în care își exercită această competență constituțională, să dea dovadă de o atenție sporită în respectarea acestor cerințe, concretizate în claritatea, precizia și predictibilitatea legii⁵.
+
+9\. Textul propunerii legislative prezintă, în integralitatea sa, deficiențe grave de redactare și de tehnică legislativă, nefiind întrunite cerințele privind claritatea, precizia și predictibilitatea necesare unui act normativ.
+
+Exempli gratia, ne referim doar la câteva aspecte:
+
+9.1. La art. I, textele propuse pentru:
+
+a) art. 20 alin. (1¹), ultima teză „Existența conturilor distincte nu modifică titularii creanțelor și obligațiilor și nu instituie, prin ea însăși, o limitare a răspunderii sau o insesizabilitate”;
+
+b) art. 39¹ alin. (6), sintagma „proprietarii pot organiza proiectul prin convenție și mandat” din cadrul primei teze, respectiv teza a II-a, „Contractele identifică persoanele care își asumă obligațiile”;
+
+c) art. 39² alin. (1) și (2), exprimarea „Prin derogare de la art.”;
+
+d) art. 70¹ alin. (3), sintagma „distribuirea unui venit bănesc al asociației”, alin. (6), sintagma „Documentele [...] identifică persoana” și alin. (7), sintagma „Cheltuielile și veniturile se documentează”;
+
+e) art. 70¹ alin. (5), ultima teză „Compensarea acestei remunerații cu energie necesită evaluare contractuală transparentă și evidență distinctă.”;
+
+f) art. 70¹ alin. (8), sintagma „prezintă periodic”. 9.2. La art. II, textele propuse pentru:
+
+³ A se vedea paragraful 35 din Decizia Curții Constituționale nr. 22/2016 care trimite la Decizia nr. 1 din 10 ianuarie 2014, Decizia nr. 17 din 21 ianuarie 2015, publicată în Monitorul Oficial al României, Partea I, nr. 79 din 30 ianuarie 2015, paragrafele 95 și 96).
+
+⁴ A se vedea, în acest sens, spre exemplu, Decizia nr. 193 din 6 aprilie 2022, paragraful 23, Decizia nr. 189 din 2 martie 2006, sau Decizia nr. 26 din 18 ianuarie 2012.
+
+⁵ A se vedea Decizia nr. 845 din 18 noiembrie 2020, paragraful 92.
+
+a) art. 73³ alin. (1), sintagma „coproprietatea proprietarilor”;
+
+b) art. 73⁴ alin. (1), sintagma „persoana responsabilă de relația cu partea responsabilă cu echilibrarea”, alin. (3), formularea „Contractele cu preț fix nu pot exclude partajarea pentru simplul motiv al caracterului fix al prețului”, și alin. (6), exprimarea „Dispoziția nu creează o obligație de subvenționare pentru proprietarii privați neparticipanți”;
+
+c) art. 73⁵ alin. (4), formularea „Întârzierea accesului la contor imputabilă solicitantului suspendă numai termenul aferent locului respectiv, cu notificare motivată.”, alin. (7), exprimarea „Pentru datele indisponibile se aplică proceduri de estimare și corecție aprobate de ANRE, distinct marcate”, și alin. (8), formularea „Coordonarea este obligatorie pentru evitarea golurilor sau suprapunerilor de decontare”;
+
+d) art. 73⁶ alin. (2), sintagma „Partea a cărei origine eligibilă nu poate fi determinată verificabil”;
+
+e) art. 73⁷ alin. (7), formularea „Nu se garantează o reducere fixă a valorii totale a facturii”;
+
+f) art. 73⁸ alin. (1), sintagma „contractul identifică vânzătorul”;
+
+g) art. 73⁹ alin. (1), sintagma „se păstrează exceptările prevăzute de art. 66³ și de art. 21 din Ordonanța de urgență a Guvernului nr. 163/2022, în condițiile lor de aplicare”;
+
+h) art. 73¹⁰ alin. (3), formularea „Operatorii și furnizorii respectă termenele speciale aplicabile, dacă sunt mai scurte. Sesizarea nu condiționează accesul la instanță”;
+
+i) alte formulări, cum sunt: „prezentul regim”, „furnizorului rezidual”, „energie activă”, „energia injectată”, „90 de zile de la cererea completă”, „prevăzute de acel articol”, „compensarea de prosumator exclusă prin acel articol”, „cu păstrarea excepțiilor și interdicțiilor”, „Prezentele articole nu stabilesc” etc..
+
+9.3. La art. III pct. 1 partea dispozitivă, sintagma „textul existent devine alineatul (1), iar după acesta se introduc două noi alineate”.
+
+9.4. La art. IV alin. (1) și (4), sintagma „În termen de 120 de zile de la publicarea prezentei legi”, „În termen de 120 de zile de la publicare”, precum și expresile „aprobă ori adaptează” ori „Sunt correlate inclusiv”, respectiv „adaptează, în competența sa, reglementările contabile”, alin. (3) și (5), sintagma „În același termen”.
+
+Semnalăm că actele normative produc efecte de la data intrării în vigoare, și nu de la publicare, așa cum greșit s-a prevăzut în cazul de față.
+
+9.5. La art. V alin. (3), formularea „Neemiterea la termen a unui act secundar nu suspendă data prevăzută la alin. (1)”, și alin. (5), formularea „Nu se nasc obligații de investiție ori garanții retroactive pentru proprietari. Trecerea la partajare nu șterge creanțele, soldurile sau răspunderea (...)"”.
+
+9.6. La art. VII alin. (2), sintagma „fără împiedicarea acordurilor deja executabile legal” este improprie stilului normativ.
+
+De asemenea, semnalăm utilizarea unei terminologii neunitare, fapt ce poate crea confuzii în înțelegerea și aplicarea legii. Spre exemplu, avem în vedere utilizarea în paralel a sintagmelor „acord privat de partajare”, „acordul de partajare” sau „acordul simplu”.
+
+În plus, se utilizează sintagme de tipul „legislația construcțiilor”, „cu respectarea legislației insolvenței și a drepturilor creditorilor”, „potrivit legislației energiei”, „potrivit (...) legislației fiscale” sau „potrivit legii”, în locul folosirii unor trimiteri în mod expres la actele normative/dispozițiile legale vizate.
+
+10\. Raportat la obiectul specific de reglementare, și anume producerea, stocarea și partajarea energiei electrice fotovoltaice în condominii, proiectul conține, la art. I, respectiv la art. II, reglementări extrem de detaliate, unele dintre ele cu caracter tehnic, prezentând în acest fel un caracter disproporționat comparativ cu celelalte ipoteze juridice vizate de cele două legi a căror completare se preconizează la cele două articole mai sus-menționate.
+
+Ținând seama de cele de mai sus, reglementarea preconizată nu poate fi promovată astfel cum a fost propusă.
+
+PRESEINTE
+
+Florin IORDACHE
+
+București Nr. 967/23.11.2026

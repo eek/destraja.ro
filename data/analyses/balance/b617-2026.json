@@ -3,87 +3,140 @@
   "billId": "B617/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-09T09:33:03.827Z",
-  "inputHash": "1501a6cf61ae",
-  "riskScore": 2.3,
-  "summary": "O lege de sănătate publică neobișnuit de riguroasă medical și benefică pentru femei, dar cu finanțare lăsată în bugetul existent, fără acoperirea neasiguratelor și cu mici scăpări tehnice.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:33:18.153Z",
+  "inputHash": "3f1dcffc6ad6",
+  "riskScore": 2.7,
+  "summary": "O lege utilă și bine calibrată medical, dar vulnerabilă din cauza finanțării necalculate și a unui conflict de termene la intrarea în vigoare.",
   "good": [
     {
-      "text": "Femeile asigurate primesc dreptul la o consultație ginecologică preventivă anuală, direct la medicul specialist, fără drumuri suplimentare după bilet de trimitere.",
-      "article": "art. 1 (art. 229¹ alin. (1) și (3))",
-      "quote": "Pentru efectuarea consultației preventive anuale prevăzute la alin. (1), asigurata beneficiază de acces direct la medicul de specialitate obstetrică-ginecologie, fără obligația prezentării unui bilet de trimitere de la medicul de familie sau de la un alt medic de specialitate.",
+      "text": "Elimină obligația biletului de trimitere de la medicul de familie pentru consultația preventivă anuală la ginecolog, reducând birocrația și timpul pierdut de paciente.",
+      "article": "art. 1 (art. 229¹ alin. (3))",
+      "quote": "asigurata beneficiază de acces direct la medicul de specialitate obstetrică-ginecologie, fără obligația prezentării unui bilet de trimitere de la medicul de familie sau de la un alt medic de specialitate.",
       "weight": 3
     },
     {
-      "text": "Include în pachet ecografii, teste Babeș-Papanicolau, HPV și mamografii, decontate integral din fondul de sănătate, interzicând perceperea oricărei coplăți de la paciente.",
-      "article": "art. 1 (art. 229¹ alin. (5), (7) și (9))",
-      "quote": "se decontează din bugetul Fondului național unic de asigurări sociale de sănătate, potrivit tarifelor și condițiilor de decontare stabilite prin reglementările aplicabile, fără perceperea unei coplăți sau contribuții personale pentru serviciile incluse în Pachetul anual pentru sănătatea femeii.",
+      "text": "Interzice expres coplata și contribuția personală pentru serviciile incluse în pachet, protejând pacientele de taxe ascunse la furnizorii publici sau privați.",
+      "article": "art. 1 (art. 229¹ alin. (9))",
+      "quote": "fără perceperea unei coplăți sau contribuții personale pentru serviciile incluse în Pachetul anual pentru sănătatea femeii.",
       "weight": 3
     },
     {
-      "text": "Previne risipa și erorile medicale: investigațiile se fac doar la indicația medicului, fără obligații anuale inutile, iar ecografia mamară nu înlocuiește mamografia indicată.",
-      "article": "art. 1 (art. 229¹ alin. (6) și (8))",
-      "quote": "Investigațiile imagistice mamare se recomandă în funcție de indicația medicală și de particularitățile clinice ale pacientei. Ecografia mamară nu substituie mamografia atunci când aceasta reprezintă investigația indicată potrivit protocoalelor și ghidurilor de practică medicală aplicabile.",
+      "text": "Consacră în lege dreptul femeilor asigurate la o consultație preventivă ginecologică și mamară o dată la 12 luni, pentru depistarea timpurie a bolilor grave.",
+      "article": "art. 1 (art. 229¹ alin. (1))",
+      "quote": "beneficiază, o dată la 12 luni, de un pachet de servicii medicale preventive, denumit în continuare «Pachetul anual pentru sănătatea femeii», în scopul prevenirii, identificării existenței factorilor de risc și depistării precoce",
+      "weight": 3
+    },
+    {
+      "text": "Condiționează ecografiile, testele HPV, citologia și mamografia de indicația medicală și ghidurile clinice, evitând analizele anuale inutile și risipa banilor publici.",
+      "article": "art. 1 (art. 229¹ alin. (5)-(7))",
+      "quote": "fără instituirea obligativității efectuării anuale a unor investigații care nu sunt justificate medical.",
+      "weight": 3
+    },
+    {
+      "text": "Stabilește expres că ecografia mamară nu poate înlocui mamografia atunci când aceasta este indicată de ghiduri, protejând acuratețea diagnosticului oncologic.",
+      "article": "art. 1 (art. 229¹ alin. (8))",
+      "quote": "Ecografia mamară nu substituie mamografia atunci când aceasta reprezintă investigația indicată potrivit protocoalelor și ghidurilor de practică medicală aplicabile.",
       "weight": 2
     },
     {
-      "text": "Permite accesul atât în clinici publice, cât și private aflate în contract cu CNAS și obligă furnizorii să informeze pacientele dinainte despre gratuitatea serviciilor.",
-      "article": "art. 1 (art. 229¹ alin. (2) și (10))",
-      "quote": "Furnizorii de servicii medicale aflați în relație contractuală cu casele de asigurări de sănătate au obligația de a informa asiguratele, anterior acordării serviciilor, cu privire la serviciile incluse",
+      "text": "Include atât spitalele de stat, cât și clinicile private aflate în contract cu CAS, crescând capacitatea de programare și posibilitatea de alegere pentru paciente.",
+      "article": "art. 1 (art. 229¹ alin. (2))",
+      "quote": "se acordă prin furnizorii de servicii medicale publici sau privați aflați în relație contractuală cu casele de asigurări de sănătate",
       "weight": 2
     },
     {
-      "text": "Păstrează intacte celelalte drepturi medicale ale pacientelor și corelează pachetul cu programele naționale de screening pentru a evita dublarea analizelor și a decontărilor.",
-      "article": "art. 1 (art. 229¹ alin. (11) și (12))",
-      "quote": "Serviciile acordate în temeiul prezentului articol se corelează cu serviciile medicale preventive și cu programele naționale de screening existente, pentru evitarea efectuării nejustificate a unor investigații identice și a decontării multiple a aceluiași serviciu medical.",
+      "text": "Obligă furnizorii să informeze pacientele înainte de consultație despre serviciile incluse și gratuitatea lor, reducând riscul ca femeile să plătească servicii decontate.",
+      "article": "art. 1 (art. 229¹ alin. (10))",
+      "quote": "au obligația de a informa asiguratele, anterior acordării serviciilor, cu privire la serviciile incluse în pachetul prevăzut la alin. (1), condițiile de acordare și gratuitatea acestora, în condițiile legii.",
       "weight": 2
     },
     {
-      "text": "Obligă CNAS să centralizeze anual numărul beneficiarelor, distribuția pe județe și cheltuielile, ajutând la identificarea zonelor fără medici și la calculul bugetului viitor.",
+      "text": "Definește concret etapele consultației preventive și cere ca examenul ginecologic să se facă doar la indicație medicală și cu consimțământul pacientei.",
+      "article": "art. 1 (art. 229¹ alin. (4))",
+      "quote": "examenul clinic ginecologic, atunci când este indicat medical, cu respectarea vârstei, a particularităților clinice și a consimțământului pacientei;",
+      "weight": 2
+    },
+    {
+      "text": "Garantează că pachetul anual nu limitează și nu înlocuiește dreptul pacientelor la alte consultații, analize sau tratamente necesare pe parcursul anului.",
+      "article": "art. 1 (art. 229¹ alin. (11))",
+      "quote": "Acordarea Pachetului anual pentru sănătatea femeii nu limitează și nu înlocuiește dreptul asiguratei de a beneficia de alte servicii medicale preventive, de diagnostic, monitorizare sau tratament",
+      "weight": 2
+    },
+    {
+      "text": "Corelează pachetul cu programele naționale de screening existente, protejând bugetul public împotriva analizelor făcute inutil de două ori și a dublei decontări.",
+      "article": "art. 1 (art. 229¹ alin. (12))",
+      "quote": "se corelează cu serviciile medicale preventive și cu programele naționale de screening existente, pentru evitarea efectuării nejustificate a unor investigații identice și a decontării multiple a aceluiași serviciu medical.",
+      "weight": 2
+    },
+    {
+      "text": "Adaptează serviciile preventive pentru minore în funcție de vârstă și dezvoltare, impunând respectarea regulilor legale privind consimțământul informat.",
+      "article": "art. 1 (art. 229¹ alin. (13))",
+      "quote": "Pentru persoanele asigurate minore, serviciile medicale preventive se acordă în funcție de vârstă, de indicația medicală și de particularitățile dezvoltării, cu respectarea dispozițiilor legale privind consimțământul informat al pacientului.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă CNAS să strângă anual date despre numărul beneficiarelor, distribuția teritorială și cheltuieli, ajutând la depistarea zonelor fără acces și la planificarea bugetului.",
       "article": "art. 1 (art. 229¹ alin. (15))",
-      "quote": "Casa Națională de Asigurări de Sănătate centralizează anual date statistice privind numărul beneficiarelor, serviciile medicale acordate, distribuția teritorială a acestora și cheltuielile aferente, în scopul monitorizării accesului la servicii medicale preventive și al fundamentării necesarului de finanțare.",
+      "quote": "Casa Națională de Asigurări de Sănătate centralizează anual date statistice privind numărul beneficiarelor, serviciile medicale acordate, distribuția teritorială a acestora și cheltuielile aferente",
+      "weight": 2
+    },
+    {
+      "text": "Folosește sistemele informatice existente ale sistemului de sănătate pentru evidență, cerând expres protejarea datelor personale și a confidențialității medicale.",
+      "article": "art. 1 (art. 229¹ alin. (14))",
+      "quote": "cu respectarea legislației privind protecția datelor cu caracter personal, a confidențialității informațiilor medicale și a drepturilor pacientului.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Nu alocă fonduri suplimentare certe, lăsând decontarea în limita bugetului existent al CNAS; chiar expunerea de motive recunoaște că simpla indicare a FNUASS nu dovedește suficiența banilor.",
-      "article": "art. III alin. (1) și (3)",
-      "quote": "Finanțarea serviciilor medicale prevăzute de prezenta lege se asigură din bugetul Fondului național unic de asigurări sociale de sănătate, prin creditele bugetare aprobate potrivit legii, în cadrul cheltuielilor destinate asistenței medicale",
+      "text": "Nu indică surse clare de bani și nici costul estimat, ci trimite generic la bugetul FNUASS; riscă blocarea serviciilor și respingerea la CCR (art. 138 alin. 5).",
+      "article": "art. III alin. (1)-(3)",
+      "quote": "Finanțarea serviciilor medicale prevăzute de prezenta lege se asigură din bugetul Fondului național unic de asigurări sociale de sănătate, prin creditele bugetare aprobate potrivit legii",
+      "weight": 3
+    },
+    {
+      "text": "Cere Guvernului să schimbe contractul-cadru în 90 de zile de la publicare, deși legea intră în vigoare abia la 120 de zile, iar normele pot amâna și mai mult aplicarea.",
+      "article": "art. II alin. (1)-(2) și art. IV",
+      "quote": null,
       "weight": 2
     },
     {
-      "text": "Exclude femeile neasigurate de la acest pachet preventiv anual cu acces direct, lăsându-le doar cu opțiunile mai reduse din pachetul minimal și din programele naționale existente.",
+      "text": "Acordă pachetul anual doar femeilor asigurate, lăsând pe dinafară femeile neasigurate, adesea cele mai vulnerabile, care rămân doar la pachetul minimal și screening.",
       "article": "art. 1 (art. 229¹ alin. (1))",
-      "quote": "Femeile care au calitatea de asigurat în sistemul de asigurări sociale de sănătate beneficiază, o dată la 12 luni, de un pachet de servicii medicale preventive, denumit în continuare «Pachetul anual pentru sănătatea femeii»",
+      "quote": "Femeile care au calitatea de asigurat în sistemul de asigurări sociale de sănătate beneficiază, o dată la 12 luni, de un pachet de servicii medicale preventive",
       "weight": 2
     },
     {
-      "text": "Lasă Guvernului și CNAS stabilirea „condițiilor de eligibilitate” prin norme secundare, ceea ce ar putea restrânge în practică dreptul recunoscut de lege tuturor femeilor asigurate.",
+      "text": "Lasă eligibilitatea, periodicitatea analizelor, circuitul de acces și decontarea în seama normelor secundare, permițând restrângerea practică a pachetului fără votul Parlamentului.",
       "article": "art. 1 (art. 229¹ alin. (16))",
       "quote": "Conținutul detaliat al Pachetului anual pentru sănătatea femeii, condițiile de eligibilitate, periodicitatea investigațiilor, circuitul de acces, condițiile de raportare și modalitățile de decontare se stabilesc prin contractul-cadru și normele metodologice de aplicare a acestuia",
       "weight": 2
     },
     {
-      "text": "Obligă Guvernul să modifice contractul-cadru în 90 de zile de la publicare, deși legea însăși intră în vigoare abia la 120 de zile, fără o excepție pentru aplicarea imediată a acestui termen.",
-      "article": "art. II alin. (1) și art. IV",
-      "quote": "În termen de 90 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, Guvernul, la propunerea Casei Naționale de Asigurări de Sănătate și cu avizul Ministerului Sănătății, modifică",
+      "text": "Interzice coplata și obligă clinicile să informeze pacientele despre gratuitate, dar nu stabilește sancțiuni clare în lege pentru furnizorii care încalcă aceste reguli.",
+      "article": "art. 1 (art. 229¹ alin. (9)-(10))",
+      "quote": "Furnizorii de servicii medicale aflați în relație contractuală cu casele de asigurări de sănătate au obligația de a informa asiguratele, anterior acordării serviciilor, cu privire la serviciile incluse",
+      "weight": 1
+    },
+    {
+      "text": "Condiționează pachetul de existența unor cabinete aflate în contract cu CAS, fără mecanisme de acoperire în zonele rurale sau slab deservite, unde accesul poate rămâne doar pe hârtie.",
+      "article": "art. 1 (art. 229¹ alin. (2))",
+      "quote": "se acordă prin furnizorii de servicii medicale publici sau privați aflați în relație contractuală cu casele de asigurări de sănătate, în condițiile contractului-cadru",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Fundamentarea și alocarea unei linii bugetare dedicate, includerea femeilor neasigurate, eliminarea posibilității de a restrânge eligibilitatea prin norme și intrarea în vigoare la publicare a art. II.",
+    "text": "Trebuie adăugată o evaluare clară a impactului bugetar cu surse concrete de finanțare în art. III și corelat termenul de intrare în vigoare din art. IV cu adoptarea normelor din art. II.",
     "removes": [
       0,
-      1,
-      2,
-      3
+      1
     ],
     "levelAfter": "green",
-    "scoreAfter": 0.5
+    "scoreAfter": 1.5
   },
   "quotes": {
-    "checked": 10,
-    "verified": 10
+    "checked": 18,
+    "verified": 18
   }
 }

@@ -3,87 +3,92 @@
   "billId": "B644/2026",
   "schema": 1,
   "model": "agy",
-  "modelId": "gemini-4-hydrogen-high",
-  "updatedAt": "2026-11-19T10:22:20.846Z",
-  "inputHash": "02f22cf8aed8",
-  "riskScore": 3.3,
-  "summary": "O lege favorabilă consumatorilor care scade plafonul creditelor IFN la 150%, dar lasă portițe la refinanțări și exclude debitorii cu întârzieri peste 60 de zile.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:38:07.397Z",
+  "inputHash": "6414d334b6da",
+  "riskScore": 3.7,
+  "summary": "O lege utilă de protecție a debitorilor IFN, dar cu portițe la refinanțările prin firme afiliate și neclarități la contractele în derulare.",
   "good": [
     {
-      "text": "Scade plafonul total plătibil la creditele IFN de până la 25.000 lei de la 200% la 150%, înjumătățind costul maxim suportat de consumatori.",
+      "text": "Reduce suma maximă de rambursat la 150% din împrumut pentru creditele IFN până la 25.000 lei, înjumătățind costul maxim față de limita actuală de 200%.",
       "article": "art. I (art. 6 alin. (4))",
       "quote": "Pentru creditele prevăzute la alin. (1)-(3) acordate de instituțiile financiare nebancare, valoarea totală plătibilă de către consumator nu poate depăși 150% din valoarea totală a creditului.",
       "weight": 3
     },
     {
-      "text": "Împiedică același IFN să reseteze plafonul de 150% prin prelungirea, restructurarea sau refinanțarea creditului, aplicând limita cumulat.",
+      "text": "Aplică plafonul de 150% întregului lanț de prelungiri, restructurări, novații sau refinanțări la același IFN, blocând resetarea limitei prin contracte noi.",
       "article": "art. I (art. 6 alin. (5))",
       "quote": "În cazul prelungirii, restructurării, novării sau refinanțării unui credit prevăzut la alin. (4) de către instituția financiară nebancară care l-a acordat, plafonul se aplică și ansamblului format din contractul inițial și operațiunile successive",
       "weight": 3
     },
     {
-      "text": "Exclude din calculul noului capital sumele folosite la stingerea vechii datorii și interzice dubla numărare a costurilor incluse în principal.",
+      "text": "Exclude din creditul nou banii folosiți la stingerea vechii datorii și numără o singură dată costurile capitalizate, oprind umflarea artificială a sumei.",
       "article": "art. I (art. 6 alin. (6))",
-      "quote": "cu excluderea sumelor folosite la stingerea obligațiilor aferente aceleiași finanțări. Valoarea totală plătibilă cumulată cuprinde valoarea totală a creditului astfel calculată și costurile aferente finanțării, achitate sau datorate de consumator.",
+      "quote": "În aplicarea alin. (5), valoarea totală a creditului cuprinde valoarea totală a creditului inițial și sumele suplimentare puse la dispoziția consumatorului prin operațiunile successive, cu excluderea sumelor folosite la stingerea obligațiilor aferente aceleiași finanțări.",
       "weight": 3
     },
     {
-      "text": "Extinde noul plafon de 150% și la contractele în derulare cu întârzieri de cel mult 60 de zile, aplicat pe viitor asupra sumei rămase de plată.",
-      "article": "art. II alin. (2)-(3)",
+      "text": "Extinde noul plafon de 150% și la creditele în derulare cu restanțe de cel mult 60 de zile, prin procedura de revizuire deja existentă în lege.",
+      "article": "art. II alin. (2)",
       "quote": "se aplică și creditelor supuse art. 6 în forma sa anterioară, dacă, la data intrării în vigoare a prezentei legi, contractele sunt în derulare, iar întârzierile la plată sunt de cel mult 60 de zile.",
       "weight": 2
     },
     {
-      "text": "Definește continuu tranșele plafoanelor zilnice (1%, 0,8%, 0,6%), acoperind clar și creditele cu sume care conțin fracțiuni de leu.",
+      "text": "Definește continuu tranșele de sumă până la 25.000 lei, eliminând golurile la fracțiuni de leu care puteau lăsa unele credite fără plafon zilnic.",
       "article": "art. I (art. 6 alin. (1)-(3))",
-      "quote": "costul total al creditării nu poate depăși 0,8% pe zi pentru creditele de consum cu o valoare totală mai mare de 5.000 lei și de cel mult 10.000 lei.",
-      "weight": 1
-    },
-    {
-      "text": "Acordă un termen de 30 de zile până la intrarea în vigoare, timp suficient pentru adaptarea contractelor și a sistemelor de calcul.",
-      "article": "art. III",
-      "quote": "Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "quote": "Prin excepție de la art. 5, costul total al creditării nu poate depăși 0,8% pe zi pentru creditele de consum cu o valoare totală mai mare de 5.000 lei și de cel mult 10.000 lei.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Regula anti-eludare la refinanțare vizează doar același IFN; o refinanțare făcută printr-o firmă afiliată sau alt IFN scapă de plafonul cumulat.",
+      "text": "Regula anti-cumul vizează doar operațiunile la același IFN, lăsând portița ocolirii plafonului de 150% prin firme afiliate din același grup sau cesionari.",
       "article": "art. I (art. 6 alin. (5))",
       "quote": "În cazul prelungirii, restructurării, novării sau refinanțării unui credit prevăzut la alin. (4) de către instituția financiară nebancară care l-a acordat, plafonul se aplică și ansamblului",
+      "weight": 3
+    },
+    {
+      "text": "Pentru creditele în derulare, aplică limita de 150% pe principalul rămas doar costurilor viitoare, fără a clarifica raportul cu vechiul plafon global de 200%.",
+      "article": "art. II alin. (3)-(4)",
+      "quote": "valoarea totală a creditului pentru aplicarea noului plafon este principalul râmas de rambursat la data intrării în vigoare a prezentei legi.",
       "weight": 2
     },
     {
-      "text": "Dacă o sumă nouă duce creditul cumulat peste 25.000 lei, întregul pachet iese de sub plafonul de 150%, încurajând depășirea intenționată a pragului.",
+      "text": "Alin. (1)-(3) vizează generic creditele de consum, dar alin. (4) restrânge plafonul de 150% strict la IFN-uri, lăsând neclar regimul altor creditori sau cesionari.",
+      "article": "art. I (art. 6 alin. (4))",
+      "quote": "Pentru creditele prevăzute la alin. (1)-(3) acordate de instituțiile financiare nebancare, valoarea totală plătibilă de către consumator nu poate depăși 150% din valoarea totală a creditului.",
+      "weight": 2
+    },
+    {
+      "text": "Dacă o sumă suplimentară urcă totalul peste 25.000 lei, întregul lanț de refinanțări iese de sub agregare, fără reguli clare pentru protecția sumelor anterioare.",
       "article": "art. I (art. 6 alin. (5))",
       "quote": "plafonul se aplică și ansamblului format din contractul inițial și operațiunile successive, dacă valoarea totală a creditului, determinată potrivit alin. (6), este de cel mult 25.000 lei.",
       "weight": 2
     },
     {
-      "text": "Exclude de la protecția noului plafon contractele în curs cu întârzieri peste 60 de zile, lăsând fără sprijin tocmai oamenii cu cele mai mari dificultăți.",
+      "text": "Exclude de la reducerea plafonului debitorii cu întârzieri mai vechi de 60 de zile, adică tocmai persoanele cel mai grav afectate de costurile excesive.",
       "article": "art. II alin. (2)",
       "quote": "dacă, la data intrării în vigoare a prezentei legi, contractele sunt în derulare, iar întârzierile la plată sunt de cel mult 60 de zile.",
       "weight": 2
     },
     {
-      "text": "Nu clarifică dacă limita de 60 de zile privește întârzierea curentă de la intrarea în vigoare sau toate întârzierile adunate anterior în contract.",
-      "article": "art. II alin. (2)",
-      "quote": "contractele sunt în derulare, iar întârzierile la plată sunt de cel mult 60 de zile.",
-      "weight": 1
+      "text": "Intrarea în vigoare în doar 30 de zile oferă prea puțin timp pentru adaptarea sistemelor și contractelor, fără un studiu de impact asupra accesului la credit.",
+      "article": "art. III",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 2
     }
   ],
   "fix": {
-    "text": "Extinderea regulii anti-eludare la refinanțările prin IFN-uri afiliate, menținerea plafonului la depășirea pragului de 25.000 lei și eliminarea excluderii debitorilor cu întârzieri peste 60 de zile ar închide principalele portițe.",
+    "text": "Extinderea regulii anti-cumul de la art. 6 alin. (5) la firmele afiliate și cesionari și clarificarea aplicării limitei mai favorabile la contractele în derulare din art. II ar elimina principalele portițe și riscuri de litigii.",
     "removes": [
       0,
-      1,
-      2
+      1
     ],
     "levelAfter": "green",
-    "scoreAfter": 1
+    "scoreAfter": 2.2
   },
   "quotes": {
-    "checked": 10,
-    "verified": 10
+    "checked": 11,
+    "verified": 11
   }
 }

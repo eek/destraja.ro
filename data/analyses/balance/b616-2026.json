@@ -3,71 +3,99 @@
   "billId": "B616/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-09T09:32:06.167Z",
-  "inputHash": "ceb882941378",
-  "riskScore": 5,
-  "summary": "O intenție bună de a încuraja vacanțele în țară pentru angajații din privat, dar compromisă total de scăderea voucherelor din plafonul pentru sponsorizări și de erori grave de tehnică legislativă.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:32:44.667Z",
+  "inputHash": "562de860718c",
+  "riskScore": 4.7,
+  "summary": "Intenție utilă pentru angajați și turism, dar prost redactată: taie din sponsorizări și lasă portițe fiscale.",
   "good": [
     {
-      "text": "Încurajează firmele să ofere angajaților vouchere pentru vacanțe în România, permițând scăderea costului direct din impozitul pe profit datorat.",
-      "article": "art. unic (art. 25 alin. (4) lit. i³))",
+      "text": "Firmele plătitoare de impozit pe profit pot scădea voucherele de vacanță direct din impozit, încurajând acordarea lor angajaților.",
+      "article": "art. unic, lit. i³)",
       "quote": "cheltuielile efectuate de contribuabili pentru acordarea voucherelor de vacanță salariaților, utilizabile exclusiv pentru achiziționarea serviciilor turistice pe territoriul României, pot fi scăzute din impozitul pe profit datorat",
       "weight": 2
     },
     {
-      "text": "Limitează scăderea din impozit la un plafon fiscal existent, prevenind acordarea neplafonată de credite fiscale în dauna bugetului de stat.",
-      "article": "art. unic (art. 25 alin. (4) lit. i³))",
+      "text": "Voucherele pot fi cheltuite doar pentru servicii turistice în România, direcționând banii către hotelurile, pensiunile și economia locală.",
+      "article": "art. unic, lit. i³)",
+      "quote": "acordarea voucherelor de vacanță salariaților, utilizabile exclusiv pentru achiziționarea serviciilor turistice pe territoriul României",
+      "weight": 2
+    },
+    {
+      "text": "Facilitatea nu deschide o scutire fiscală nelimitată, ci păstrează scăderea din impozit în limita unui plafon deja existent.",
+      "article": "art. unic, lit. i³)",
       "quote": "pot fi scăzute din impozitul pe profit datorat, în limita plafonului prevăzut la alin. (4) lit. i).",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Voucherele pentru propriii angajați se scad din același plafon cu sponsorizările, reducând banii privați disponibili pentru ONG-uri, spitale, culte și burse.",
-      "article": "art. unic (art. 25 alin. (4) lit. i³))",
+      "text": "Voucherele împart același plafon fiscal cu sponsorizările, împingând firmele să-și finanțeze angajații în locul ONG-urilor, spitalelor sau școlilor.",
+      "article": "art. unic, lit. i³)",
       "quote": "Sumele utilizate în acest scop se cumulează cu cele aferente sponsorizărilor și actelor de mecenat, fără depășirea plafonului fiscal comun.",
       "weight": 3
     },
     {
-      "text": "Introducerea la cheltuieli nedeductibile fără corelare cu deducerea de 5% existentă la alin. (3) creează confuzie: risc de dublă deducere sau de pierdere a deducerii actuale.",
-      "article": "art. unic (art. 25 alin. (4) lit. i³))",
-      "quote": "La alineatul (4), după litera i²) se introduc două noi litere, literele i³) și i⁴), cu următorul cuprins:",
+      "text": "Textul nu spune clar că cheltuiala cu voucherele devine nedeductibilă și nu se corelează cu restul Codului fiscal, riscând un dublu beneficiu fiscal.",
+      "article": "art. unic, lit. i³)",
+      "quote": "cheltuielile efectuate de contribuabili pentru acordarea voucherelor de vacanță salariaților, utilizabile exclusiv pentru achiziționarea serviciilor turistice pe territoriul României, pot fi scăzute din impozitul pe profit datorat",
       "weight": 3
     },
     {
-      "text": "Plafonul de 1.600 lei vizează „un voucher”, nu suma anuală pe angajat, putând fi ocolit prin acordarea mai multor vouchere și contrazicând plafonul din legea specială.",
-      "article": "art. unic (art. 25 alin. (4) lit. i⁴))",
-      "quote": "i⁴) – valoarea nominală a unui voucher de vacanță nu poate depăși suma de 1.600 de lei.",
+      "text": "Plafonul de 1.600 de lei vizează un singur voucher, nu totalul anual pe angajat, deci limita poate fi ocolită ușor prin acordarea mai multor vouchere.",
+      "article": "art. unic, lit. i⁴)",
+      "quote": "valoarea nominală a unui voucher de vacanță nu poate depăși suma de 1.600 de lei.",
       "weight": 2
     },
     {
-      "text": "Litera i⁴) stabilește o regulă generală de plafonare în mijlocul unei liste de cheltuieli nedeductibile, ceea ce reprezintă un nonsens gramatical și de tehnică legislativă.",
-      "article": "art. unic (art. 25 alin. (4) lit. i⁴))",
-      "quote": "i⁴) – valoarea nominală a unui voucher de vacanță nu poate depăși suma de 1.600 de lei.",
+      "text": "Proiectul nu are niciun calcul de impact bugetar, deși scăderea directă din impozit reduce încasările statului mult mai mult decât o deducere clasică.",
+      "article": "Expunerea de motive",
+      "quote": null,
       "weight": 2
     },
     {
-      "text": "Trimite generic la „potrivit legii” pentru evidența fiscală a scăderii din impozit, fără a indica actul normativ și fără a obliga Guvernul să emită norme de aplicare.",
-      "article": "art. unic (art. 25 alin. (4) lit. i³))",
+      "text": "Regulile de acordare și evidență fiscală sunt trimise vag „potrivit legii”, fără a indica un act normativ sau norme clare de aplicare.",
+      "article": "art. unic, lit. i³)",
       "quote": "Conditiiile de acordare, mecanismul de evidență fiscală și modalitatea de utilizare a voucherelor de vacanță se stabilesc potrivit legii.",
       "weight": 2
     },
     {
-      "text": "Facilitatea se aplică doar firmelor plătitoare de impozit pe profit care au profit datorat, excluzând microîntreprinderile și angajații acestora.",
-      "article": "art. unic (art. 25 alin. (4) lit. i³))",
+      "text": "Facilitatea ajută doar contribuabilii cu impozit pe profit datorat; microîntreprinderile și firmele fără profit nu primesc sprijin similar, iar textul nu limitează măsura la mediul privat.",
+      "article": "art. unic, lit. i³)",
       "quote": "pot fi scăzute din impozitul pe profit datorat, în limita plafonului prevăzut la alin. (4) lit. i).",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu prevede o dată de intrare în vigoare corelată cu regulile de predictibilitate ale Codului fiscal, lăsând firmele și Fiscul fără termen de adaptare.",
+      "article": "întregul proiect",
+      "quote": null,
       "weight": 1
     },
     {
-      "text": "Textul conține greșeli de scriere („territoriul”, „Conditiiile”) și repetă inutil sintagma „cu modificările și completările ulterioare” în aceeași frază.",
+      "text": "Condiționarea scăderii din impozit de cheltuirea banilor exclusiv în România poate ridica probleme față de regulile pieței unice europene și ajutorului de stat.",
+      "article": "art. unic, lit. i³)",
+      "quote": "utilizabile exclusiv pentru achiziționarea serviciilor turistice pe territoriul României, pot fi scăzute din impozitul pe profit datorat",
+      "weight": 1
+    },
+    {
+      "text": "Redactarea este neîngrijită: litera i⁴) rupe sintaxa listei de cheltuieli nedeductibile, iar textul conține repetiții și greșeli de scriere.",
       "article": "art. unic",
-      "quote": "Articolul 25 din Legea nr.227/2015 privind Codul fiscal, cu modificările și completările ulterioare, publicată în Monitorul Oficial al României, Partea I, nr.688 din 10 septembrie 2015, cu modificările și completările ulterioare",
+      "quote": "cu modificările și completările ulterioare, publicată în Monitorul Oficial al României, Partea I, nr.688 din 10 septembrie 2015, cu modificările și completările ulterioare",
       "weight": 1
     }
   ],
-  "fix": null,
+  "fix": {
+    "text": "Separarea plafonului de cel al sponsorizărilor, precizarea clară că cheltuiala este nedeductibilă și limitarea sumei de 1.600 de lei anual per angajat ar elimina riscurile majore.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.8
+  },
   "quotes": {
-    "checked": 9,
-    "verified": 9
+    "checked": 10,
+    "verified": 10
   }
 }

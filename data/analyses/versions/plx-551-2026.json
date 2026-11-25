@@ -1,8 +1,30 @@
 {
   "slug": "plx-551-2026",
   "billId": "PL-x 551/2026",
-  "updatedAt": "2026-10-30T09:46:52.393Z",
+  "updatedAt": "2026-11-25T11:50:36.356Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L468FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile și județele mai primesc 2 ani ca să termine lucrările PNDL",
+      "summaryTlDr": "Lege tehnică și în esență utilă. Evită ca sute de UAT-uri să fie obligate să returneze până la circa 10,86 miliarde lei pentru lucrări aproape gata. Redactarea e însă neglijentă, iar aceasta este a cincea prelungire succesivă, ceea ce arată o problemă structurală nerezolvată.",
+      "scores": {
+        "agy": 4,
+        "claude": 2,
+        "codex": 2
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 3,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,31 +55,101 @@
         "agy": 3,
         "claude": 2,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Fără schimbări de fond: Camera a adoptat același text ca Senatul pentru prelungirea contractelor PNDL",
-      "summary": "Camera a păstrat neschimbat textul votat de Senat. Diferențele sunt doar de redactare. Contractele PNDL I și II nefinalizate se pot prelungi cu 2 ani la cererea beneficiarilor. Neclaritățile și lipsa condițiilor de eligibilitate au rămas.",
+      "headline": "Fără schimbări de fond: Senatul a adoptat textul inițiatorului, adăugând doar data adoptării",
+      "summary": "Textul adoptat de Senat este identic ca fond cu forma inițiatorului. S-au schimbat doar data ședinței (24 august 2026) și o greșeală de scriere la numele președintelui Senatului. Problemele inițiale rămân toate.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Prelungirea este fixă, de 2 ani, deși Expunerea de motive spune „până la 2 ani”",
+            "text": "Nu e clar cine se califică: formula despre recepție „cu cel mult 3 luni anterior” e confuză",
             "major": true,
             "article": "art. 1"
           },
           {
-            "text": "Nu există condiții de eligibilitate, deci pot fi prelungite și șantiere practic abandonate",
+            "text": "„Respectiv” leagă greșit etapa I de 2026 și etapa II de 2027",
             "major": true,
             "article": "art. 1"
           },
           {
-            "text": "Formula „cu cel mult 3 luni anterior” e confuză, așa că nu e clar cine se califică",
+            "text": "A cincea prelungire succesivă, fără condiții de performanță sau monitorizare pentru beneficiari",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Prelungire fixă de 2 ani, deși Expunerea și OUG 28/2013 spun „până la 2 ani”",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Pronumele „acestea” poate viza obiectivele, nu contractele de finanțare",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nu există termen-limită pentru cererea beneficiarului; cererile târzii rămân fără procedură",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Permite prelungirea contractelor pentru finalizarea investițiilor locale începute, evitând pierderea finanțării",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Prelungirea se acordă doar la cererea beneficiarilor, nu automat",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Ministerul trebuie să modifice ordinele și contractele cu cel puțin 15 zile înainte de expirare",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 2,
+        "removed": 2,
+        "same": 0.6
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-25T11:50:21.829Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat textul Senatului, cu modificări doar de formă",
+      "summary": "Camera Deputaților a păstrat neschimbat conținutul legii adoptate de Senat. S-au schimbat doar camera care adoptă, data ședinței și semnătura. Prelungirea cu 2 ani a contractelor PNDL rămâne la fel, cu aceleași neclarități.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Formula „cu cel mult 3 luni anterior” face neclar cine poate primi prelungirea",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "„Respectiv” leagă greșit etapa I de 2026 și etapa II de 2027",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nu se cere grad minim de execuție sau motiv justificat pentru prelungire",
             "major": true,
             "article": "art. 1"
           },
@@ -65,39 +159,34 @@
             "article": "art. 1"
           },
           {
+            "text": "Prelungirea este fixă de 2 ani, nu „de până la 2 ani”",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
             "text": "Nu e clar dacă „acestea” se referă la obiective sau la contracte",
             "major": false,
             "article": "art. 1"
           },
           {
-            "text": "„Respectiv” leagă greșit etapele I și II de termenele din 2026 și 2027",
-            "major": false,
-            "article": "art. 1"
-          },
-          {
-            "text": "Nu există termen pentru cererea beneficiarului, iar o cerere tardivă face imposibil termenul ministerului",
+            "text": "Nu există termen pentru cererea beneficiarului, deci termenul ministerului poate deveni imposibil",
             "major": false,
             "article": "art. 2"
           }
         ],
         "good": [
           {
-            "text": "Lucrările nefinalizate pot continua cu finanțare, prin prelungirea contractelor cu 2 ani",
+            "text": "Primăriile pot cere 2 ani în plus pentru a termina investițiile PNDL",
             "major": true,
             "article": "art. 1"
           },
           {
-            "text": "Prelungirea se acordă la solicitarea beneficiarilor, adică a autorităților locale",
-            "major": true,
-            "article": "art. 1"
-          },
-          {
-            "text": "Ministerul trebuie să modifice ordinele și contractele cu cel puțin 15 zile înainte de expirare",
+            "text": "Ministerul trebuie să modifice ordinele și contractele cu minimum 15 zile înainte",
             "major": false,
             "article": "art. 2"
           },
           {
-            "text": "Se aplică explicit contractelor de finanțare aflate în derulare",
+            "text": "Se aplică doar contractelor aflate în derulare la intrarea în vigoare",
             "major": false,
             "article": "art. 2"
           }
@@ -105,13 +194,13 @@
         "partial": false
       },
       "diff": {
-        "added": 5,
-        "removed": 4,
-        "same": 0
+        "added": 3,
+        "removed": 3,
+        "same": 0.4
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:44:10.466Z"
+      "schema": 4,
+      "updatedAt": "2026-11-25T11:50:36.356Z"
     }
   ]
 }

@@ -3,31 +3,32 @@
   "billId": "B634/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-13T09:05:13.244Z",
-  "inputHash": "78f6ea7d750b",
-  "riskScore": 5,
-  "summary": "O inițiativă cu intenție bună pentru micii fermieri, dar compromisă de încălcarea proprietății private și de termeni juridici inaplicabili.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:36:21.082Z",
+  "inputHash": "ea200a8013d1",
+  "riskScore": 5.3,
+  "summary": "Un scop util pentru micii fermieri, dar legea e redactată greșit din temelii: încalcă proprietatea privată și cere acte desființate.",
   "good": [
     {
-      "text": "Permite micilor producători să își vândă direct marfa proprie în parcări publice, scurtând lanțul de aprovizionare și eliminând intermediarii.",
-      "article": "art. 13¹ alin. (1)",
-      "quote": "pot comercializa produsele agricole și alimentare provenite din propria producție în orice loc, inclusiv în parcări publice",
+      "text": "Păstrează explicit obligația de declarare fiscală și nu scoate vânzarea din controlul sanitar-veterinar sau al Protecției Consumatorilor, evitând scutiri ascunse.",
+      "article": "art. 13¹ alin. (4)",
+      "quote": "nu exonerează microproducătorul agricol de obligațiile de declarare fiscală prevăzute de legislația în vigoare și nu constituie excepție față de controlul sanitar-veterinar sau al Autorității pentru Protecția Consumatorilor",
       "weight": 2
     },
     {
-      "text": "Menține obligația respectării regulilor sanitare, de igienă, de ordine publică și a controalelor pentru siguranța alimentelor și protecția consumatorilor.",
-      "article": "art. 13¹ alin. (3) și (4)",
+      "text": "Cere respectarea regulilor de igienă alimentară, sănătate, protecția consumatorilor și ordine publică, protejând cumpărătorii la vânzarea în afara piețelor.",
+      "article": "art. 13¹ alin. (3)",
       "quote": "Dreptul prevăzut la alin. (1) se exercită cu respectarea normelor sanitare, de igienă alimentară, de protecție a consumatorilor și a reglementărilor privind ordinea publică.",
       "weight": 2
     },
     {
-      "text": "Păstrează expres obligațiile de declarare fiscală pentru veniturile obținute, prevenind folosirea facilității pentru evaziune.",
-      "article": "art. 13¹ alin. (4)",
-      "quote": "Comercializarea în temeiul alin. (1) nu exonerează microproducătorul agricol de obligațiile de declarare fiscală prevăzute de legislația în vigoare",
+      "text": "Limitează acest drept de vânzare strict la produsele din propria producție, urmărind să ajute direct fermierii și nu intermediarii care revând marfă.",
+      "article": "art. 13¹ alin. (1)",
+      "quote": "pot comercializa produsele agricole și alimentare provenite din propria producție în orice loc",
       "weight": 1
     },
     {
-      "text": "Stabilește o regulă clară și previzibilă de calcul în lei a plafonului în euro, la cursul BNR din ultima zi lucrătoare a anului precedent.",
+      "text": "Stabilește clar calculul anual în lei al pragului în euro, la cursul BNR din ultima zi lucrătoare a anului anterior, evitând confuzii legate de cursul valutar.",
       "article": "art. 13¹ alin. (2)",
       "quote": "pragul exprimat în euro se actualizează anual în lei la cursul de referință al Băncii Naționale a României comunicat pentru ultima zi lucrătoare a anului precedent.",
       "weight": 1
@@ -35,42 +36,51 @@
   ],
   "bad": [
     {
-      "text": "Permite vânzarea în parcări private deschise publicului (de exemplu la supermarket) fără acordul proprietarului, încălcând dreptul de proprietate privată.",
+      "text": "Permite vânzarea în parcări private deschise publicului, cum ar fi ale magazinelor, fără acordul proprietarului și fără despăgubiri, încălcând dreptul de proprietate.",
       "article": "art. 13¹ alin. (1)",
       "quote": "pot comercializa produsele agricole și alimentare provenite din propria producție în orice loc, inclusiv în parcări publice sau private deschise spre accesul public",
       "weight": 3
     },
     {
-      "text": "Cere „certificatul de producător”, document abrogat chiar de Legea 145/2014 și înlocuit cu atestatul de producător și carnetul de comercializare.",
+      "text": "Cere un act desființat încă din 2014 («certificatul de producător») și omite atestatul și carnetul de comercializare, făcând legea greu de aplicat și produsul greu de verificat.",
       "article": "art. 13¹ alin. (1)",
-      "quote": "inclusiv în parcări publice sau private deschise spre accesul public, pe baza certificatul de producător valabil eliberat conform legislației în vigoare.",
+      "quote": "pe baza certificatul de producător valabil eliberat conform legislației în vigoare.",
       "weight": 3
     },
     {
-      "text": "Nu definește „microproducătorul”, iar pragul cifrei de afaceri nu poate fi verificat la persoane fizice impozitate la normă de venit, fără contabilitate.",
+      "text": "Raportează pragul la cifra de afaceri din ultimul exercițiu financiar, noțiune pe care persoanele fizice cu atestat nu o au, și nu spune cum se verifică pe loc sau ce fac cei nou-înființați.",
       "article": "art. 13¹ alin. (1)",
       "quote": "Microproducătorii agricoli care au o cifră de afaceri anuală realizată în ultimul exercițiu financiar, până la echivalentul a 100.000 euro",
       "weight": 3
     },
     {
-      "text": "Limitează primăriile la „măsuri rezonabile” neclare și nu precizează dacă se mai aplică taxele și avizele locale pentru ocuparea domeniului public.",
+      "text": "Interzice primăriilor să oprească general vânzarea în parcări și le lasă doar «măsuri rezonabile» nedefinite, afectând gestionarea domeniului public și siguranța traficului.",
       "article": "art. 13¹ alin. (3)",
       "quote": "Autoritățile publice locale pot adopta măsuri rezonabile de organizare și protecție a siguranței traficului rutier și pietonal, fără a interzice în mod general vânzarea în parcări",
       "weight": 2
+    },
+    {
+      "text": "Folosește noțiunea de «microproducător agricol» fără să o definească în lege, lăsând neclar dacă beneficiază doar persoanele fizice, PFA-urile și întreprinderile familiale ori și firmele.",
+      "article": "art. 13¹ alin. (1)",
+      "quote": "Microproducătorii agricoli care au o cifră de afaceri anuală realizată",
+      "weight": 2
+    },
+    {
+      "text": "Pragul de 100.000 euro pe an depășește cu mult agricultura de subzistență și lasă ferme comerciale mari să vândă gratuit în parcări, în concurență inegală cu piețele și magazinele.",
+      "article": "art. 13¹ alin. (1)",
+      "quote": "până la echivalentul a 100.000 euro, pot comercializa produsele agricole și alimentare provenite din propria producție în orice loc",
+      "weight": 2
+    },
+    {
+      "text": "Permite vânzarea de produse alimentare în orice loc, fără condiții minime de păstrare, și adaugă formula vagă «atunci când acesta este aplicabil» pentru controalele sanitare și ANPC.",
+      "article": "art. 13¹ alin. (1) și (4)",
+      "quote": "nu constituie excepție față de controlul sanitar-veterinar sau al Autorității pentru Protecția Consumatorilor atunci când acesta este aplicabil.",
+      "weight": 1
     }
   ],
-  "fix": {
-    "text": "Condiționarea vânzării în parcări private de acordul proprietarului, înlocuirea certificatului abrogat cu atestatul și carnetul de comercializare și raportarea plafonului la venitul agricol.",
-    "removes": [
-      0,
-      1,
-      2
-    ],
-    "levelAfter": "green",
-    "scoreAfter": 2
-  },
+  "fix": null,
   "quotes": {
-    "checked": 8,
-    "verified": 8
+    "checked": 11,
+    "verified": 11
   }
 }

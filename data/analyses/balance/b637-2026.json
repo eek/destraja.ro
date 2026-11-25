@@ -3,74 +3,73 @@
   "billId": "B637/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-13T09:06:46.210Z",
-  "inputHash": "6c726dcfe4cc",
-  "riskScore": 2.7,
-  "summary": "O măsură utilă care deblochează transportul alternativ în zonele metropolitane și spre aeroporturile de lângă orașe, dar redactată neglijent, cu riscul restrângerii dreptului de lucru în București-Ilfov și al unor confuzii la control.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:36:09.757Z",
+  "inputHash": "2c12ccd2772d",
+  "riskScore": 3.3,
+  "summary": "Un proiect util care modernizează transportul alternativ, dar redactat grăbit și cu riscuri pentru București-Ilfov.",
   "good": [
     {
-      "text": "Șoferii de ridesharing pot prelua permanent clienți și din localitățile vecine sau din zona metropolitană, deblocând transportul spre aeroporturile de lângă orașe (ex. Brașov-Ghimbav).",
-      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. a))",
+      "text": "Șoferii de ridesharing pot lucra permanent și în localitățile vecine sau în zona metropolitană, rezolvând blocajele de la aeroporturi și naveta, fără taxe noi.",
+      "article": "art. unic pct. 1, lit. a)",
       "quote": "permanent, în interiorul localității unde își are sediul sau domiciliul precum și în unitățile administrativ-teritoriale limitrofe acesteia, inclusiv în cadrul zonelor metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare.",
       "weight": 3
     },
     {
-      "text": "Permite plecarea în curse ocazionale din toată zona metropolitană și preluarea de pasageri la întoarcere, reducând drumurile făcute cu mașina goală și costurile călătorilor.",
-      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. b))",
-      "quote": "ocazional, cu plecare din localitatea unde își are sediul sau domiciliul precum și din zonele metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare, după caz, spre alte localități",
+      "text": "Cursele ocazionale spre alte orașe pot pleca și din localitățile zonei metropolitane, oferind mai multe opțiuni călătorilor din suburbii și de la aeroporturi.",
+      "article": "art. unic pct. 1, lit. b)",
+      "quote": "ocazional, cu plecare din localitatea unde își are sediul sau domiciliul precum și din zonele metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare",
+      "weight": 2
+    },
+    {
+      "text": "Șoferii care fac o cursă ocazională în altă localitate pot prelua un pasager la întoarcere, reducând drumurile pe gol, costurile și poluarea.",
+      "article": "art. unic pct. 1, lit. b)",
+      "quote": "după caz, spre alte localități cu posibilitatea efectuării unei curse retur din localitățile tranzitate.",
       "weight": 2
     }
   ],
   "bad": [
     {
-      "text": "Elimină regiunea București-Ilfov în favoarea zonelor metropolitane; cum zona nu e înființată formal, șoferii din București și Ilfov pot pierde dreptul de a lucra în comunele nelimitrofe.",
-      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. a) și b))",
-      "quote": "permanent, în interiorul localității unde își are sediul sau domiciliul precum și în unitățile administrativ-teritoriale limitrofe acesteia, inclusiv în cadrul zonelor metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare.",
+      "text": "Eliminarea mențiunii exprese pentru București-Ilfov riscă să lase fără drept de lucru în Capitală șoferii din comunele din Ilfov dacă zona metropolitană nu e constituită formal.",
+      "article": "art. unic pct. 1, lit. a) și b)",
+      "quote": "inclusiv în cadrul zonelor metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare.",
       "weight": 3
     },
     {
-      "text": "Formula de început modifică întregul alineat (4), dar redă doar literele a) și b), ștergând din greșeală textul care prevede valabilitatea de 3 ani a autorizației și condiția copiilor conforme.",
+      "text": "Formula «cursă retur din localitățile tranzitate» nu clarifică dacă șoferul poate lua un client chiar din localitatea de destinație, lăsând loc amenzilor abuzive.",
+      "article": "art. unic pct. 1, lit. b)",
+      "quote": "spre alte localități cu posibilitatea efectuării unei curse retur din localitățile tranzitate.",
+      "weight": 2
+    },
+    {
+      "text": "Pronumele «acestea» e ambiguu și greșit acordat: poate extinde aria în lanț prin zonele metropolitane ale localităților vecine, generând interpretări diferite la controale.",
+      "article": "art. unic pct. 1, lit. a) și b)",
+      "quote": "unitățile administrativ-teritoriale limitrofe acesteia, inclusiv în cadrul zonelor metropolitane din care acestea fac parte",
+      "weight": 2
+    },
+    {
+      "text": "Localitățile vecine sunt incluse la activitatea permanentă, dar lipsesc la plecările pentru cursele ocazionale, creând o blocare absurdă în afara zonelor metropolitane.",
+      "article": "art. unic pct. 1, lit. b)",
+      "quote": "ocazional, cu plecare din localitatea unde își are sediul sau domiciliul precum și din zonele metropolitane din care acestea fac parte",
+      "weight": 2
+    },
+    {
+      "text": "Articolul unic anunță modificarea întregului alineat (4), dar rescrie doar literele a) și b), o eroare de redactare care poate crea confuzie asupra părții introductive a articolului.",
       "article": "art. unic",
-      "quote": "nr. 901 din data de 7 noiembrie 2019 cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:",
-      "weight": 3
-    },
-    {
-      "text": "Permite curse retur doar din „localitățile tranzitate”, omițând localitatea de destinație și punctul final al returului, astfel că șoferii riscă amenzi dacă iau clienți de la capătul cursei.",
-      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. b))",
-      "quote": "după caz, spre alte localități cu posibilitatea efectuării unei curse retur din localitățile tranzitate.",
-      "weight": 2
-    },
-    {
-      "text": "Formularea „din care acestea fac parte” e ambiguă: poate extinde activitatea în zonele metropolitane ale comunelor vecine, lăsând aria legală la interpretarea agenților de control.",
-      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. a))",
-      "quote": "precum și în unitățile administrativ-teritoriale limitrofe acesteia, inclusiv în cadrul zonelor metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare.",
-      "weight": 2
-    },
-    {
-      "text": "Textul confundă „localitatea” (care poate fi un sat) cu „unitatea administrativ-teritorială” (comuna/orașul), creând neclarități la stabilirea vecinătăților în afara zonelor metropolitane.",
-      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. a))",
-      "quote": "în interiorul localității unde își are sediul sau domiciliul precum și în unitățile administrativ-teritoriale limitrofe acesteia",
-      "weight": 1
-    },
-    {
-      "text": "Litera b) nu este corelată cu litera a): șoferii pot lucra permanent în comunele vecine, dar nu pot pleca de acolo în curse ocazionale spre alte orașe.",
-      "article": "art. unic pct. 1 (art. 13 alin. (4) lit. b))",
-      "quote": "ocazional, cu plecare din localitatea unde își are sediul sau domiciliul precum și din zonele metropolitane din care acestea fac parte potrivit prevederilor legale în vigoare",
+      "quote": "1. La articolul 13 alineatul (4), literele a) și b) se modifică și vor avea următorul cuprins :",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Păstrarea mențiunii exprese pentru regiunea București-Ilfov, corectarea comenzii de modificare doar pentru literele a) și b), precum și clarificarea vecinătății la nivel de UAT și a curselor retur inclusiv din localitatea de destinație.",
+    "text": "Păstrarea mențiunii exprese pentru regiunea București-Ilfov și clarificarea formulărilor din lit. a) și b) privind cursa retur (inclusiv din destinație), localitățile limitrofe și acordul gramatical ar elimina principalele riscuri.",
     "removes": [
       0,
       1,
       2,
-      3,
-      4,
-      5
+      3
     ],
     "levelAfter": "green",
-    "scoreAfter": 0.5
+    "scoreAfter": 1
   },
   "quotes": {
     "checked": 8,

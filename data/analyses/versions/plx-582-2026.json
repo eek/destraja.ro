@@ -1,10 +1,11 @@
 {
   "slug": "plx-582-2026",
   "billId": "PL-x 582/2026",
-  "updatedAt": "2026-11-10T21:11:00.646Z",
+  "updatedAt": "2026-11-25T11:55:25.703Z",
   "plan": [
     "initiator",
-    "senat"
+    "senat",
+    "camera"
   ],
   "versions": [
     {
@@ -20,7 +21,9 @@
         "agy": 2,
         "claude": 3,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "senat",
@@ -35,7 +38,26 @@
         "agy": 2,
         "claude": 2,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl582_cd582_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Nu mai alergi după adeverința de asigurat: medicul verifică online dacă ești asigurat",
+      "summaryTlDr": "Este o lege de debirocratizare utilă și în favoarea pacientului: verificarea electronică devine regula, iar adeverința pe hârtie rămâne o excepție. Riscurile sunt de redactare și corelare (trimiteri greșite, numerotare, o excepție formulată ambiguu), nu de fond.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
@@ -208,6 +230,91 @@
       "model": "claude",
       "schema": 4,
       "updatedAt": "2026-11-10T21:11:00.646Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: doar furnizorii de dispozitive asistive scoși dintr-un alineat, rămași în art. 342",
+      "summary": "Forma adoptată de cameră păstrează practic textul inițial. Singura schimbare de conținut scoate furnizorii de tehnologii și dispozitive asistive din art. 223 alin. (1⁴), dar art. 342 îi obligă în continuare la verificare electronică. Restul sunt corecturi de redactare.",
+      "changes": [
+        {
+          "title": "Furnizorii de dispozitive asistive, scoși dintr-un alineat",
+          "text": "Art. 223 alin. (1⁴) nu mai numește furnizorii de tehnologii și dispozitive asistive. Art. 342 alin. (1) și art. 223 alin. (1¹) îi includ în continuare, deci efectul practic e minim, dar apare o neconcordanță.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 223 alin. (1⁴)",
+          "before": "(1⁴) Furnizorii de servicii medicale, de dispositive medicale, tehnologii și dispositive asistive, de medicamente și materiale sanitare aflați în relații contractuale cu casele de asigurări de sănătate au obligația de a utiliza instrumentele electronice puse la dispoziție de CNAS",
+          "after": "(1⁴) Furnizorii de servicii medicale, de dispositive medicale, de medicamente și materiale sanitare aflați în relații contractuale cu casele de asigurări de sănătate au obligația de a utiliza instrumentele electronice puse la dispoziție de CNAS",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fraza finală ambiguă; omite documentele alternative, plată integrală posibilă la pană CNAS",
+            "major": true,
+            "article": "art. 343 alin. (3)"
+          },
+          {
+            "text": "Excepția pentru refuzul cardului poate permite cererea adeverinței deși verificarea online merge",
+            "major": true,
+            "article": "art. 223 alin. (1⁵)"
+          },
+          {
+            "text": "Înscris sigilat generat automat la fiecare verificare, cu cost tehnic necuantificat",
+            "major": false,
+            "article": "art. 223 alin. (1²); art. 322 alin. (8)"
+          },
+          {
+            "text": "Furnizorii de dispozitive asistive lipsesc din alin. (1⁴), dar apar în art. 342",
+            "major": false,
+            "article": "art. 223 alin. (1⁴)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Interzisă cererea adeverinței când verificarea electronică e posibilă; doar date de identificare",
+            "major": true,
+            "article": "art. 223 alin. (1⁵)-(1⁶); art. 231 lit. h)"
+          },
+          {
+            "text": "Fără card sau adeverință nu se mai plătește dacă asigurarea e confirmată electronic",
+            "major": true,
+            "article": "art. 343 alin. (3)"
+          },
+          {
+            "text": "Cardul și cartea electronică de identitate folosite alternativ până la 31.12.2027",
+            "major": true,
+            "article": "art. 338 alin. (6)-(7)"
+          },
+          {
+            "text": "Proaspăt angajații își pot dovedi calitatea de asigurat cu documente până la declarație",
+            "major": true,
+            "article": "art. 223 alin. (1⁷)-(1⁸)"
+          },
+          {
+            "text": "Înscrisul electronic nu conține date despre sănătate și servește doar scopurilor legii",
+            "major": false,
+            "article": "art. 223 alin. (1³); art. 322 alin. (9)"
+          },
+          {
+            "text": "CNAS publică anual statistici despre verificări și situațiile în care n-au funcționat",
+            "major": false,
+            "article": "art. 322 alin. (10)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 7,
+        "same": 0.83
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-25T11:55:25.703Z"
     }
   ]
 }

@@ -3,31 +3,26 @@
   "billId": "B636/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-13T09:05:04.737Z",
-  "inputHash": "bb967dcfcf80",
-  "riskScore": 2.7,
-  "summary": "O măsură bună de eliminare a suprataxării contractelor part-time și a birocrației aferente, căreia îi lipsesc doar norma tranzitorie de aplicare și fișa financiară.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:40:01.236Z",
+  "inputHash": "4a45339b6fb7",
+  "riskScore": 2.3,
+  "summary": "O lege benefică pentru eliminarea supraimpozitării muncii part-time, dar căreia îi lipsesc data clară de aplicare și evaluarea impactului bugetar.",
   "good": [
     {
-      "text": "Elimină suprataxarea la pensii (CAS) pentru contractele cu timp parțial, astfel că plata se va face doar pentru venitul efectiv lucrat, nu la nivelul salariului minim brut.",
+      "text": "Elimină pragul minim al contribuției la pensii (CAS), astfel încât taxele se plătesc pe venitul real, iar angajatorii nu mai acoperă diferența pentru contractele part-time.",
       "article": "art. unic pct. 1",
-      "quote": null,
+      "quote": "1. La articolul 146. alineatele (5⁶) - (5⁹) se abrogă.",
       "weight": 3
     },
     {
-      "text": "Elimină suprataxarea la sănătate (CASS) pentru munca cu timp parțial, revenindu-se la taxarea proporțională cu orele lucrate și încurajând angajarea legală cu fracțiune de normă.",
+      "text": "Elimină supraimpozitarea contribuției la sănătate (CASS), calculând-o strict la salariul real, în timp ce angajații part-time își păstrează calitatea de asigurat.",
       "article": "art. unic pct. 3",
       "quote": null,
       "weight": 3
     },
     {
-      "text": "Scutește elevii, studenții, pensionarii și salariații cu mai multe contracte de depunerea lunară a declarațiilor și adeverințelor necesare până acum pentru exceptarea de la suprataxare.",
-      "article": "art. unic pct. 1",
-      "quote": null,
-      "weight": 2
-    },
-    {
-      "text": "Corelează textul legii cu eliminarea suprataxării și păstrează termenul clar de plată a contribuțiilor până la data de 25 a lunii următoare celei pentru care se plătesc salariile.",
+      "text": "Corelează textul pentru angajații firmelor din afara UE fără acorduri sociale, scoțând trimiterile abrogate și păstrând termenul clar de plată la data de 25 a lunii următoare.",
       "article": "art. unic pct. 2",
       "quote": "Calculul contribuției de asigurări sociale datorate de persoanele prevăzute la alin. (2) se realizează de către acestea conform prevederilor alin. (5) și (7), după caz.",
       "weight": 1
@@ -35,41 +30,41 @@
   ],
   "bad": [
     {
-      "text": "Nu conține fișa financiară și nu indică sursa de acoperire a scăderii încasărilor bugetare pe termen scurt, obligație prevăzută de art. 138 alin. (5) din Constituție.",
-      "article": "expunerea de motive",
+      "text": "Nu prevede o dată clară de aplicare, putând intra în vigoare la 3 zile de la publicare, în mijlocul lunii, contrar regulilor Codului fiscal și încurcând raportarea salariilor.",
+      "article": "întregul proiect",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Nu precizează cu veniturile cărei luni începe aplicarea noului calcul, ceea ce creează neclarități contabile dacă legea intră în vigoare la mijlocul unei luni salariale.",
-      "article": "art. unic",
+      "text": "Nu are fișă financiară și nu arată cum se acoperă scăderea pe termen scurt a încasărilor la pensii și sănătate, deși expunerea de motive recunoaște acest impact negativ.",
+      "article": "întregul proiect",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Elimină orice prag minim chiar și pentru contracte de câteva ore pe lună, fără măsuri împotriva mascării muncii la negru și cu diminuarea contribuției la pensie a salariatului.",
+      "text": "Scoate complet pragul minim fără măsuri alternative contra muncii la gri și se aplică inclusiv contractelor cu normă întreagă care au venituri lunare sub salariul minim.",
       "article": "art. unic pct. 1 și 3",
       "quote": null,
-      "weight": 1
+      "weight": 2
     },
     {
-      "text": "Argumentarea se bazează pe date parțiale din 2022, fără un studiu de impact actualizat care să estimeze câți salariați și ce sume bugetare sunt afectate în prezent.",
-      "article": "expunerea de motive",
-      "quote": null,
+      "text": "Partea introductivă anunță și completarea Codului fiscal, deși legea doar modifică și abrogă articole, iar la pct. 1 există o greșeală de punctuație după numărul articolului.",
+      "article": "art. unic",
+      "quote": "cu modificările și completările ulterioare, se modifică și se completează după cum urmează",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Introducerea unui articol tranzitoriu care să aplice măsura începând cu veniturile lunii următoare publicării și atașarea fișei financiare cu impactul bugetar estimat.",
+    "text": "Ar trebui adăugat un articol care să stabilească aplicarea de la începutul unei luni viitoare sau de la 1 ianuarie și atașată fișa financiară cu impactul bugetar estimat.",
     "removes": [
       0,
       1
     ],
     "levelAfter": "green",
-    "scoreAfter": 1
+    "scoreAfter": 1.2
   },
   "quotes": {
-    "checked": 5,
-    "verified": 1
+    "checked": 3,
+    "verified": 3
   }
 }

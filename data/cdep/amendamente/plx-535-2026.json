@@ -1,21 +1,38 @@
 {
  "slug": "plx-535-2026",
  "billId": "PL-x 535/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T15:46:03.869Z",
- "inputHash": "f45d0431c1dc",
+ "updatedAt": "2026-11-25T12:07:22.305Z",
+ "inputHash": "ca7b05f3f2ae",
  "reports": [
   "https://www.cdep.ro/comisii/economica/pdf/2026/rp535.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp535.pdf",
+   "sha256": "60e21f315b65683f",
+   "parts": 1,
+   "rows": 12,
+   "unchanged": 10,
+   "admise": 2,
+   "respinse": 14,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
   "admise": 2,
-  "respinse": 14
+  "respinse": 14,
+  "anuntate": 12,
+  "nemodificate": 10
  },
  "amendments": [
   {
    "nr": "11",
-   "article": "Art. IV alin. (2) lit. A lit. b)",
+   "report": "rp535.pdf",
+   "article": "art. IV alin. (2) lit. A lit. b)",
    "status": "admis",
    "authors": [
     {
@@ -26,14 +43,20 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Precizează expres că declarația pe propria răspundere anexată cererii adiționale este cea prevăzută la art. 9 alin. (7) din OUG nr. 27/2022 și respectiv OUG nr. 6/2025.",
-   "quote": "prevăzută la art.9 alin. (7) din Ordonanța de urgență a Guvernului nr. 27/2022, aprobată cu modificări și completări prin Legea nr. 206/2022, cu modificările și completările ulterioare",
+   "byGroup": null,
+   "summary": "Precizează expres că declarația pe propria răspundere a furnizorului este cea prevăzută la art. 9 alin. (7) din OUG nr. 27/2022 și, respectiv, din OUG nr. 6/2025.",
+   "quote": "prevăzută la art.9 alin. (7) din Ordonanța de urgență a Guvernului nr. 27/2022, aprobată cu modificări și completări prin Legea nr. 206/2022",
+   "inForce": null,
+   "before": "b) cererea adițională este depusă în termen de 30 de zile de la data intrării în vigoare a prezentei legi și este însoțită de o declarație pe propria răspundere a furnizorului prevăzută la art.9 alin. (7), emisă conform modelului din anexă;",
+   "after": "b) cererea adițională este depusă în termen de 30 de zile de la data intrării în vigoare a prezentei legi și este însoțită de o declarație pe propria răspundere a furnizorului prevăzută la art.9 alin. (7) din Ordonanța de urgență a Guvernului nr. 27/2022, aprobată cu modificări și completări prin Legea nr. 206/2022, cu modificările și completările ulterioare, și respectiv art. 9 alin. (7) din Ordonanța de urgență a Guvernului nr. 6/2025, cu modificările și completările ulterioare, emisă conform modelului din anexă;",
+   "motivation": "Tehnică legislativă",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "12",
+   "report": "rp535.pdf",
    "article": "Anexă",
    "status": "admis",
    "authors": [
@@ -45,15 +68,21 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Corectează în modelul cererii adiționale din anexă trimiterea la temeiul legal al solicitării, indicând art. IV alin. (2) lit. A din lege în loc de ordonanța de urgență.",
+   "byGroup": null,
+   "summary": "Corectează în formularul cererii adiționale temeiul legal invocat și nota de subsol (***), trimițând la art. IV alin. (2) lit. A din lege, nu la o ordonanță.",
    "quote": "în temeiul prevederilor art. IV, alin. (2). lit. A. din Legea nr.",
+   "inForce": null,
+   "before": "„ANEXĂ\nDenumire furnizor . . . . . . . . . .\nAdresă sediu social . . . . . . . . . .\nJudeț . . . . . . . . . .\nCUI . . . . . . . . . .\nC.I.S. . . . . . . . . . .\nCont escrow sau cont bancar nr. . . . . . . . . . .\nTelefon . . . . . . . . . .\nE-mail . . . . . . . . . .\nCătre: Ministerul Energiei\nSpre știință: Autoritatea Națională de Reglementare în Domeniul Energiei\nCERERE ADIȚIONALĂ\nla Cererea de decontare nr. .......\nSubsemnatul, . . . . . . . . . . (*), în calitate de reprezentant legal al . . . . . . . . . .(**), înregistrat la oficiul registrului comerțului cu nr. . . . . . . . . . ., CUI . . . . . . . . . ., cu sediul social în . . . . . . . . . ., nr. telefon . . . . . . . . . ., nr. fax . . . . . . . . . ., titular al licenței nr. . . . . . . . . . . din data de . . . . . . . . . . și contului . . . . . . . . . . deschis la Banca . . . . . . . . . ., Sucursala . . . . . . . , în temeiul prevederilor art. IV, alin. 1. litera A. din Ordonanța de urgență a Guvernului nr. . . . . . . . . . . . (***), solicit decontarea sumei de . . . . . . . . . . lei, reprezentând contravaloarea a 20% din valoarea cererii de decontare nr. ........................., aferentă lunii . . . . . . . .,\nConform prevederilor Ordonanței de urgență a Guvernului nr. . . . . . . . . . ., datele, informațiile și documentele justificative care au stat la baza stabilirii sumei solicitate au fost încărcate pe platforma pusă la dispoziție de către Autoritatea Națională de Reglementare în Domeniul Energiei, în vederea determinării valorii compensației ce urmează a fi suportată din bugetul Ministerului Energiei.\nDeclar pe propria răspundere că datele, informațiile și documentele justificative puse la dispoziția Autorității Naționale de Reglementare în Domeniul Energiei, precum și calculele prin care am stabilit suma solicitată sunt reale și corecte, în conformitate cu prevederile art. 9 alin. (4) din Ordonanța de urgență a Guvernului nr. . . . . . . . . . ., potrivit cărora: \"Răspunderea privind corectitudinea și modul de calcul al sumelor solicitate la decontare revine furnizorilor.\"\n\nReprezentantul legal al solicitantului,\n. . . . . . . . .\n(numele și prenumele în clar, semnătura)\nData . . . . . . . . . .\n\n(*) Se completează cu numele și prenumele reprezentantului legal al furnizorului solicitant.\n(**) Se completează cu denumirea furnizorului.\n(***) Ordonanța de urgență a Guvernului nr. . . . . . . . . . sau nr.",
+   "after": "„ANEXĂ\nDenumire furnizor . . . . . . . . . .\nAdresă sediu social . . . . . . . . . .\nJudeț . . . . . . . . . .\nCUI . . . . . . . . . .\nC.I.S. . . . . . . . . . .\nCont escrow sau cont bancar nr. . . . . . . . . . .\nTelefon . . . . . . . . . .\nE-mail . . . . . . . . . .\nCătre: Ministerul Energiei\nSpre știință: Autoritatea Națională de Reglementare în Domeniul Energiei\nCERERE ADIȚIONALĂ\nla Cererea de decontare nr. .......\nSubsemnatul, . . . . . . . . . . (*), în calitate de reprezentant legal al . . . . . . . . . .(**), înregistrat la oficiul registrului comerțului cu nr. . . . . . . . . . ., CUI . . . . . . . . . ., cu sediul social în . . . . . . . . . ., nr. telefon . . . . . . . . . ., nr. fax . . . . . . . . . ., titular al licenței nr. . . . . . . . . . . din data de . . . . . . . . . . și contului . . . . . . . . . . deschis la Banca . . . . . . . . . ., Sucursala . . . . . . . , în temeiul prevederilor art. IV, alin. (2). lit. A. din Legea nr. . . . . . . . . . . . (***), solicit decontarea sumei de . . . . . . . . . . lei, reprezentând contravaloarea a 20% din valoarea cererii de decontare nr. ........................., aferentă lunii . . . . . .,\nConform prevederilor Ordonanței de urgență a Guvernului nr. . . . . . . . . . ., datele, informațiile și documentele justificative care au stat la baza stabilirii sumei solicitate au fost încărcate pe platforma pusă la dispoziție de către Autoritatea Națională de Reglementare în Domeniul Energiei, în vederea determinării valorii compensației ce urmează a fi suportată din bugetul Ministerului Energiei.\nDeclar pe propria răspundere că datele, informațiile și documentele justificative puse la dispoziția Autorității Naționale de Reglementare în Domeniul Energiei, precum și calculele prin care am stabilit suma solicitată sunt reale și corecte, în conformitate cu prevederile art. 9 alin. (4) din Ordonanța de urgență a Guvernului nr. . . . . . . . . . ., potrivit cărora: \"Răspunderea privind corectitudinea și modul de calcul al sumelor solicitate la decontare revine furnizorilor.\"\nReprezentantul legal al solicitantului,\n. . . . . . . . .\n(numele și prenumele în clar, semnătura)\nData . . . . . . . . . .\n\n(*) Se completează cu numele și prenumele reprezentantului legal al furnizorului solicitant.\n(**) Se completează cu denumirea furnizorului.\n(***) Legea nr ... pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.6/2025 privind măsurile aplicabile clienților finali din piața de energie electrică în perioada 1 aprilie 2025 - 30 iunie 2025, respectiv măsurile aplicabile clienților finali din piața de gaze naturale în perioada 1 aprilie 2025 - 31 martie 2026, precum și pentru modificarea și completarea unor acte normative din domeniul energiei și a Ordonanței de urgență a Guvernului nr. 27/2022 privind măsurile aplicabile clienților finali din piața de energie electrică și gaze naturale în perioada 1 aprilie 2022 -31 martie 2023, precum și pentru modificarea și completarea unor acte normative din domeniul energiei.",
+   "motivation": "Tehnică legislativă",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "1",
-   "article": "Art. I pct. 1 (art. 9 alin. (10) lit. a))",
+   "report": "rp535.pdf",
+   "article": "art. I pct. 1 (art. 9 alin. (10) lit. a))",
    "status": "respins",
    "authors": [
     {
@@ -64,12 +93,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește un termen de maximum 30 de zile pentru plata decontărilor către furnizori și de 20 de zile pentru transferul fondurilor de către Ministerul Finanțelor.",
-   "quote": "Plata se efectuează în termen de cel mult 30 de zile calendaristice de la data înregistrării cererii de decontare și a declarației pe propria răspundere prevăzute la alin. (7)."
+   "byGroup": null,
+   "summary": "Stabilește termene fixe pentru OUG 6/2025: plata tranșei de 60% în cel mult 30 de zile calendaristice și transferul fondurilor de către Ministerul Finanțelor în cel mult 20 de zile.",
+   "quote": "Plata se efectuează în termen de cel mult 30 de zile calendaristice de la data înregistrării cererii de decontare și a declarației pe propria răspundere prevăzute la alin. (7).",
+   "inForce": "a) 40% din valoarea solicitată prin cererea de decontare depusă conform prevederilor alin. (5), din Fondul de Tranziție Energetică și din alte surse legal constituite, în termen de 10 zile lucrătoare de la transferul fondurilor cu această destinație de către Ministerul Finanțelor în contul Ministerului Energiei, respectiv Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale - Agenția Națională pentru Plăți și Inspecție Socială;",
+   "before": "1. La articolul 9 alineatul (10), litera a) se modifică și va avea următorul cuprins:\na) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5), prin derogare de la prevederile art. 52 alin. (8) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite; plata sumelor se realizează în baza declarației pe propria răspundere a furnizorului prevăzută la alin. (7), emisă conform modelului din anexa nr. 3 și comunicată Ministerului Energiei și Agenției Naționale pentru Plăți și Inspecție Socială, odată cu cererea de decontare;”",
+   "after": "La art.I pct.1 lit.a) a art.9 alin.(10) se modifică și va avea următorul cuprins:\n\n„a) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5), prin derogare de la prevederile art. 52 alin. (8) din Legea nr.500/2002 privind finanțele publice, cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite. Plata se efectuează în termen de cel mult 30 de zile calendaristice de la data înregistrării cererii de decontare și a declarației pe propria răspundere prevăzute la alin. (7). Ministerul Finanțelor asigură transferul fondurilor cu această destinație în termen de cel mult 20 de zile calendaristice de la primirea solicitării de fonduri formulate de Ministerul Energiei, respectiv de Agenția Națională pentru Plăți și Inspecție Socială.”",
+   "motivation": "1. Forma adoptată de Senat stabilește plata în 10 zile lucrătoare de la transferul fondurilor de către Ministerul Finanțelor, dar nu instituie un termen în care Ministerul Finanțelor trebuie să facă acel transfer. În acest fel, termenul de plată poate deveni, în practică, unul nedeterminat. Amendamentul transformă obligația statului într-una previzibilă și exigibilă și împiedică perpetuarea arieratelor sub pretextul lipsei transferului bugetar.\n\n2. Respins la vot"
   },
   {
    "nr": "2",
-   "article": "Art. I pct. 1 (art. 9 alin. (10) lit. a))",
+   "report": "rp535.pdf",
+   "article": "art. I pct. 1 (art. 9 alin. (10) lit. a))",
    "status": "respins",
    "authors": [
     {
@@ -80,12 +115,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce un termen de plată de 10 zile lucrătoare de la confirmarea de către ANRE a depunerii documentației și a nesuspendării verificării.",
-   "quote": "Autoritatea Națională de Reglementare în Domeniul Energiei efectuează comunicarea în termen de cel mult 2 zile lucrătoare de la îndeplinirea cumulativă a condițiilor prevăzute în teza anterioară."
+   "byGroup": null,
+   "summary": "Pentru OUG 6/2025, leagă plata de 60% de un termen de 10 zile lucrătoare de la confirmarea ANRE (transmisă în cel mult 2 zile) că documentele sunt încărcate și verificarea nu e suspendată.",
+   "quote": "Autoritatea Națională de Reglementare în Domeniul Energiei efectuează comunicarea în termen de cel mult 2 zile lucrătoare de la îndeplinirea cumulativă a condițiilor prevăzute în teza anterioară.",
+   "inForce": "a) 40% din valoarea solicitată prin cererea de decontare depusă conform prevederilor alin. (5), din Fondul de Tranziție Energetică și din alte surse legal constituite, în termen de 10 zile lucrătoare de la transferul fondurilor cu această destinație de către Ministerul Finanțelor în contul Ministerului Energiei, respectiv Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale - Agenția Națională pentru Plăți și Inspecție Socială;",
+   "before": "a) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5), prin derogare de la prevederile art. 52 alin. (8) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite; plata sumelor se realizează în baza declarației pe propria răspundere a furnizorului prevăzută la alin. (7), emisă conform modelului din anexa nr. 3 și comunicată Ministerului Energiei și Agenției Naționale pentru Plăți și Inspecție Socială, odată cu cererea de decontare;”",
+   "after": "Art. I pct. 1 se modifică și va avea următorul cuprins:\n„1. La articolul 9 alineatul (10), litera a) se modifică și va avea următorul cuprins:\na) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5), prin derogare de la prevederile art. 52 alin. (8) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite. Plata sumelor se realizează, în baza declarației pe propria răspundere a furnizorului prevăzute la alin. (7), emisă conform modelului din anexa nr. 3 și comunicată Ministerului Energiei, respectiv Agenției Naționale pentru Plăți și Inspecție Socială, după caz, în termen de 10 zile lucrătoare de la data comunicării de către Autoritatea Națională de Reglementare în Domeniul Energiei către instituția plătitoare a faptului că cererea de decontare a fost depusă potrivit alin. (5), documentele justificative și declarația pe propria răspundere prevăzute la alin. (7) au fost încărcate, iar procedura de verificare aferentă cererii nu este suspendată potrivit legii. Autoritatea Națională de Reglementare în Domeniul Energiei efectuează comunicarea în termen de cel mult 2 zile lucrătoare de la îndeplinirea cumulativă a condițiilor prevăzute în teza anterioară. Comunicarea nu echivalează cu determinarea de către Autoritatea Națională de Reglementare în Domeniul Energiei a valorilor aferente compensărilor potrivit art. 8 alin. (1).”",
+   "motivation": "1. Forma adoptată de Senat majorează plata parțială la 60%, dar nu stabilește un termen determinat pentru efectuarea plății și leagă plata de o declarație comunicată „odată cu cererea de decontare”, deși documentația prevăzută la alin. (7) se încarcă în etapa procedurală ulterioară. Amendamentul păstrează declarația pe propria răspundere ca temei documentar al plății, introduce un termen cert, corelează plata cu existența documentației și cu regimul legal al suspendării verificării și precizează expres că această verificare prealabilă nu se confundă cu determinarea valorilor aferente compensărilor de către ANRE.\n\n2. Respins la vot"
   },
   {
    "nr": "3",
-   "article": "Art. I pct. 2 (art. 9 alin. (10) lit. d))",
+   "report": "rp535.pdf",
+   "article": "art. I pct. 2 (art. 9 alin. (10) lit. d))",
    "status": "respins",
    "authors": [
     {
@@ -96,12 +137,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Exonerează furnizorii de dobânzi și penalități dacă sumele de restituit rezultă din erori imputabile autorităților sau din modificarea metodologiei de calcul.",
-   "quote": "Dobânzile și penalitățile de întârziere nu se datorează în situația în care diferența de restituit rezultă, în tot sau în parte, dintr-o eroare de calcul, verificare, validare ori procesare"
+   "byGroup": null,
+   "summary": "Pentru OUG 6/2025, scutește furnizorii de dobânzi și penalități dacă diferența de restituit provine din erori ale autorităților sau schimbări de metodologie, acordând 30 de zile lucrătoare.",
+   "quote": "Dobânzile și penalitățile de întârziere nu se datorează în situația în care diferența de restituit rezultă, în tot sau în parte, dintr-o eroare de calcul",
+   "inForce": null,
+   "before": "2. La articolul 9 alineatul (10), după litera c) se introduce o noua literă, lit. d), cu următorul cuprins:\n„d) în situațiile în care este necesară recuperarea unor sume plătite în conformitate cu prevederile prezentului articol, iar recuperarea nu se realizează în termenul de 10 zile lucrătoare prevăzut la lit. c), pentru sumele nerecuperate se calculează și se percep dobânzi și penalități de întârziere aferente sumelor de restituit către bugetul de stat, calculate în conformitate cu dispozițiile art. 174 și art. 176 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare.”",
+   "after": "La art.I pct.2, lit.d) se completează cu două teze finale, cu următorul cuprins:\n\n„d) în situațiile în care este necesară recuperarea unor sume plătite în conformitate cu prevederile prezentului articol, iar recuperarea nu se realizează în termenul de 10 zile lucrătoare prevăzut la lit. c), pentru sumele nerecuperate se calculează și se percep dobânzi și penalități de întârziere aferente sumelor de restituit către bugetul de stat, calculate în conformitate cu dispozițiile art. 174 și art. 176 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare. Dobânzile și penalitățile de întârziere nu se datorează în situația în care diferența de restituit rezultă, în tot sau în parte, dintr-o eroare de calcul, verificare, validare ori procesare imputabilă Autorității Naționale de Reglementare în Domeniul Energiei, Ministerului Energiei sau Agenției Naționale pentru Plăți și Inspecție Socială ori din modificarea ulterioară a metodologiei de calcul, pentru cauze neimputabile furnizorului. În aceste situații, obligația de restituire a debitului principal se menține, iar accesoriile pot fi calculate numai după expirarea unui termen de 30 de zile lucrătoare de la comunicarea individuală către furnizor a cuantumului, modului de calcul și cauzei diferenței de restituit.”",
+   "motivation": "1. În forma adoptată, după expirarea celor 10 zile lucrătoare se aplică furnizorului atât dobânzi, cât și penalități calculate potrivit art.174 și 176 din Codul de procedură fiscală. Aceste accesorii trebuie să sancționeze o conduită culpabilă a beneficiarului, nu erorile administrației. Amendamentul protejează bugetul – principalul rămâne integral datorat – dar elimină situația inechitabilă în care un operator economic ar suporta sancțiuni pentru o eroare produsă exclusiv de autoritatea publică.\n\n2. Respins la vot"
   },
   {
    "nr": "4",
-   "article": "Art. I pct. 2 (art. 9 alin. (10) lit. e))",
+   "report": "rp535.pdf",
+   "article": "art. I pct. 2 (art. 9 alin. (10) lit. e))",
    "status": "respins",
    "authors": [
     {
@@ -112,12 +159,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Acordă furnizorilor dreptul la dobânzi legale dacă statul întârzie plata sumelor decontate peste termenele prevăzute de lege.",
-   "quote": "Dobânda se suportă din același buget din care se achită suma principală și se plătește concomitent cu aceasta, fără a fi necesară formularea unei cereri distincte."
+   "byGroup": null,
+   "summary": "Introduce în OUG 6/2025 dreptul furnizorilor de a primi dobândă fiscală din oficiu atunci când statul întârzie plata compensărilor peste termenele legale.",
+   "quote": "Dobânda se suportă din același buget din care se achită suma principală și se plătește concomitent cu aceasta, fără a fi necesară formularea unei cereri distincte.",
+   "inForce": null,
+   "before": null,
+   "after": "La art.I pct.2, după lit.d) a art. 9 alin.(10), se introduce o nouă literă, lit.e), cu următorul cuprins:\n„e) În cazul în care sumele datorate furnizorilor nu sunt achitate în termenele prevăzute la lit. a) și b), furnizorii beneficiază de drept, pentru perioada cuprinsă între ziua următoare expirării termenului de plată și data plății efective, de dobândă calculată la nivelul prevăzut de art. 174 alin.(5) din Legea nr.207/2015 privind Codul de procedură fiscală. Dobânda se suportă din același buget din care se achită suma principală și se plătește concomitent cu aceasta, fără a fi necesară formularea unei cereri distincte.”",
+   "motivation": "1. Proiectul instituie dobânzi și penalități împotriva furnizorilor atunci când aceștia nu restituie în termen sumele datorate statului, însă nu instituie o consecință echivalentă atunci când statul însuși întârzie plata sumelor datorate furnizorilor. Art.174 din Codul de procedură fiscală reglementează dobânda pentru fiecare zi de întârziere, iar art. 176 reglementează penalitatea de întârziere. Este o problemă elementară de echitate juridică: statul nu poate pretinde disciplină financiară doar celeilalte părți, rezervându-și lui însuși posibilitatea de a întârzia fără nicio consecință.\n\n2. Respins la vot",
+   "newProvision": true
   },
   {
    "nr": "5",
-   "article": "Art. II pct. 1 (art. 9 alin. (10) lit. a))",
+   "report": "rp535.pdf",
+   "article": "art. II pct. 1 (art. 9 alin. (10) lit. a))",
    "status": "respins",
    "authors": [
     {
@@ -128,12 +182,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește în OUG 27/2022 un termen de cel mult 30 de zile pentru plata decontărilor și de 20 de zile pentru transferul fondurilor de la Ministerul Finanțelor.",
-   "quote": "Plata se efectuează în termen de cel mult 30 de zile calendaristice de la data înregistrării cererii de decontare și a declarației pe propria răspundere prevăzute la alin. (7)."
+   "byGroup": null,
+   "summary": "Stabilește termene fixe și pentru OUG 27/2022: plata tranșei de 60% în cel mult 30 de zile calendaristice și transferul fondurilor de la Ministerul Finanțelor în cel mult 20 de zile.",
+   "quote": "Ministerul Finanțelor asigură transferul fondurilor cu această destinație în termen de cel mult 20 de zile calendaristice de la primirea solicitării de fonduri",
+   "inForce": "a) 40% din valoarea solicitată prin cererea de decontare depusă conform prevederilor alin. (5), din Fondul de Tranziție Energetică și din alte surse legal constituite, în termen de 10 zile lucrătoare de la transferul fondurilor cu această destinație de către Ministerul Finanțelor în contul Ministerului Energiei, respectiv Agenției Naționale pentru Plăți și Inspecție Socială;",
+   "before": "1. La articolul 9 alineatul (10), litera a) se modifică și va avea următorul cuprins:\n„a) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5), prin derogare de la prevederile art. 52 alin. (8) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite; plata sumelor se realizează în baza declarației pe propria răspundere a furnizorului prevăzută la alin. (7), emisă conform modelului din anexa nr. 3 și comunicată Ministerului Energiei și Agenției Naționale pentru Plăți și Inspecție Socială, odată cu cererea de decontare;”",
+   "after": "La art.II pct.1, lit.a) a art.9 alin.(10) se modifică și va avea următorul cuprins:\n\n„a) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5), prin derogare de la prevederile art. 52 alin. (8) din Legea nr.500/2002 privind finanțele publice, cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite. Plata se efectuează în termen de cel mult 30 de zile calendaristice de la data înregistrării cererii de decontare și a declarației pe propria răspundere prevăzute la alin. (7). Ministerul Finanțelor asigură transferul fondurilor cu această destinație în termen de cel mult 20 de zile calendaristice de la primirea solicitării de fonduri formulate de Ministerul Energiei, respectiv de Agenția Națională pentru Plăți și Inspecție Socială.”",
+   "motivation": "1. Forma adoptată de Senat stabilește plata în 10 zile lucrătoare de la transferul fondurilor de către Ministerul Finanțelor, dar nu instituie un termen în care Ministerul Finanțelor trebuie să facă acel transfer. În acest fel, termenul de plată poate deveni, în practică, unul nedeterminat. Amendamentul transformă obligația statului într-una previzibilă și exigibilă și împiedică perpetuarea arieratelor sub pretextul lipsei transferului bugetar.\n\n2. Respins la vot"
   },
   {
    "nr": "6",
-   "article": "Art. II pct. 1 (art. 9 alin. (10) lit. a))",
+   "report": "rp535.pdf",
+   "article": "art. II pct. 1 (art. 9 alin. (10) lit. a))",
    "status": "respins",
    "authors": [
     {
@@ -144,12 +204,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Stabilește în OUG 27/2022 plata în 10 zile lucrătoare de la comunicarea ANRE privind depunerea documentelor și nesuspendarea procedurii de verificare.",
-   "quote": "Autoritatea Națională de Reglementare în Domeniul Energiei efectuează comunicarea în termen de cel mult 2 zile lucrătoare de la îndeplinirea cumulativă a condițiilor prevăzute în teza anterioară."
+   "byGroup": null,
+   "summary": "Pentru OUG 27/2022, prevede plata tranșei de 60% în 10 zile lucrătoare de la confirmarea ANRE (transmisă în cel mult 2 zile) că dosarul e încărcat și verificarea nu e suspendată.",
+   "quote": "Comunicarea nu echivalează cu determinarea de către Autoritatea Națională de Reglementare în Domeniul Energiei a valorilor aferente compensărilor potrivit art. 8 alin. (1).",
+   "inForce": "a) 40% din valoarea solicitată prin cererea de decontare depusă conform prevederilor alin. (5), din Fondul de Tranziție Energetică și din alte surse legal constituite, în termen de 10 zile lucrătoare de la transferul fondurilor cu această destinație de către Ministerul Finanțelor în contul Ministerului Energiei, respectiv Agenției Naționale pentru Plăți și Inspecție Socială;",
+   "before": "„a) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5), prin derogare de la prevederile art. 52 alin. (8) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite; plata sumelor se realizează în baza declarației pe propria răspundere a furnizorului prevăzută la alin. (7), emisă conform modelului din anexa nr. 3 și comunicată Ministerului Energiei și Agenției Naționale pentru Plăți și Inspecție Socială, odată cu cererea de decontare;”",
+   "after": "Art. II pct. 1 se modifică și va avea următorul cuprins:\n„1. La articolul 9 alineatul (10), litera a) se modifică și va avea următorul cuprins:\na) 60% din valoarea solicitată prin cererea de decontare, depusă conform prevederilor alin. (5), prin derogare de la prevederile art. 52 alin. (8) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, din bugetul de stat și din alte surse legal constituite. Plata sumelor se realizează, în baza declarației pe propria răspundere a furnizorului prevăzute la alin. (7), emisă conform modelului din anexa nr. 3 și comunicată Ministerului Energiei, respectiv Agenției Naționale pentru Plăți și Inspecție Socială, după caz, în termen de 10 zile lucrătoare de la data comunicării de către Autoritatea Națională de Reglementare în Domeniul Energiei către instituția plătitoare a faptului că cererea de decontare a fost depusă potrivit alin. (5), documentele justificative și declarația pe propria răspundere prevăzute la alin. (7) au fost încărcate, iar procedura de verificare aferentă cererii nu este suspendată potrivit legii. Autoritatea Națională de Reglementare în Domeniul Energiei efectuează comunicarea în termen de cel mult 2 zile lucrătoare de la îndeplinirea cumulativă a condițiilor prevăzute în teza anterioară. Comunicarea nu echivalează cu determinarea de către Autoritatea Națională de Reglementare în Domeniul Energiei a valorilor aferente compensărilor potrivit art. 8 alin. (1).”",
+   "motivation": "1. Se asigură simetria normativă între mecanismele instituite prin OUG nr. 6/2025 și OUG nr. 27/2022. Amendamentul păstrează declarația pe propria răspundere ca temei documentar al plății și instituie același standard procedural privind momentul de la care curge termenul de plată, existența documentației și verificarea unei eventuale suspendări a procedurii.\n\n2. Respins la vot"
   },
   {
    "nr": "7",
-   "article": "Art. II pct. 2 (art. 9 alin. (10) lit. d))",
+   "report": "rp535.pdf",
+   "article": "art. II pct. 2 (art. 9 alin. (10) lit. d))",
    "status": "respins",
    "authors": [
     {
@@ -160,12 +226,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Scutește furnizorii, în cadrul OUG 27/2022, de dobânzi și penalități dacă diferențele de restituit provin din erori ale autorităților sau schimbări metodologice.",
-   "quote": "În aceste situații, obligația de restituire a debitului principal se menține, iar accesoriile pot fi calculate numai după expirarea unui termen de 30 de zile lucrătoare"
+   "byGroup": null,
+   "summary": "Pentru OUG 27/2022, exclude dobânzile și penalitățile dacă diferența de restituit rezultă din erori ale autorităților sau schimbarea metodologiei, acordând 30 de zile lucrătoare.",
+   "quote": "obligația de restituire a debitului principal se menține, iar accesoriile pot fi calculate numai după expirarea unui termen de 30 de zile lucrătoare",
+   "inForce": null,
+   "before": "2. La articolul 9 alineatul (10), după litera c) se introduce o noua literă, lit. d), cu următorul cuprins:\n„d) în situațiile în care este necesară recuperarea unor sume plătite în conformitate cu prevederile prezentului articol, iar recuperarea nu se realizează în termenul de 10 zile lucrătoare prevăzut la lit. c), pentru sumele nerecuperate se calculează și se percep dobânzi și penalități de întârziere aferente sumelor de restituit către bugetul de stat, calculate în conformitate cu dispozițiile art. 174 și 176 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare.”",
+   "after": "La art.II pct.2, lit.d) se completează cu două teze finale, cu următorul cuprins:\n\n„d) în situațiile în care este necesară recuperarea unor sume plătite în conformitate cu prevederile prezentului articol, iar recuperarea nu se realizează în termenul de 10 zile lucrătoare prevăzut la lit. c), pentru sumele nerecuperate se calculează și se percep dobânzi și penalități de întârziere aferente sumelor de restituit către bugetul de stat, calculate în conformitate cu dispozițiile art. 174 și 176 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare. Dobânzile și penalitățile de întârziere nu se datorează în situația în care diferența de restituit rezultă, în tot sau în parte, dintr-o eroare de calcul, verificare, validare ori procesare imputabilă Autorității Naționale de Reglementare în Domeniul Energiei, Ministerului Energiei sau Agenției Naționale pentru Plăți și Inspecție Socială ori din modificarea ulterioară a metodologiei de calcul, pentru cauze neimputabile furnizorului. În aceste situații, obligația de restituire a debitului principal se menține, iar accesoriile pot fi calculate numai după expirarea unui termen de 30 de zile lucrătoare de la comunicarea individuală către furnizor a cuantumului, modului de calcul și cauzei diferenței de restituit.”",
+   "motivation": "1. În forma adoptată, după expirarea celor 10 zile lucrătoare se aplică furnizorului atât dobânzi, cât și penalități calculate potrivit art.174 și 176 din Codul de procedură fiscală. Aceste accesorii trebuie să sancționeze o conduită culpabilă a beneficiarului, nu erorile administrației. Amendamentul protejează bugetul - principalul rămâne integral datorat - dar elimină situația inechitabilă în care un operator economic ar suporta sancțiuni pentru o eroare produsă exclusiv de autoritatea publică.\n\n2. Respins la vot"
   },
   {
    "nr": "8",
-   "article": "Art. II pct. 2 (art. 9 alin. (10) lit. e))",
+   "report": "rp535.pdf",
+   "article": "art. II pct. 2 (art. 9 alin. (10) lit. e))",
    "status": "respins",
    "authors": [
     {
@@ -176,12 +248,19 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Introduce în OUG 27/2022 obligația statului de a plăti dobânzi din oficiu către furnizori în cazul întârzierii achitării sumelor datorate.",
-   "quote": "Dobânda se suportă din același buget din care se achită suma principală și se plătește concomitent cu aceasta, fără a fi necesară formularea unei cereri distincte."
+   "byGroup": null,
+   "summary": "Introduce și în OUG 27/2022 dreptul furnizorilor la dobândă fiscală plătită din oficiu pentru întârzierile statului la decontarea sumelor datorate.",
+   "quote": "Dobânda se suportă din același buget din care se achită suma principală și se plătește concomitent cu aceasta, fără a fi necesară formularea unei cereri distincte.",
+   "inForce": null,
+   "before": null,
+   "after": "La art.II pct.2, după lit.d) a art. 9 alin.(10), se introduce o nouă literă, lit.e), cu următorul cuprins:\n„e) În cazul în care sumele datorate furnizorilor nu sunt achitate în termenele prevăzute la lit. a) și b), furnizorii beneficiază de drept, pentru perioada cuprinsă între ziua următoare expirării termenului de plată și data plății efective, de dobândă calculată la nivelul prevăzut de art. 174 alin.(5) din Legea nr.207/2015 privind Codul de procedură fiscală. Dobânda se suportă din același buget din care se achită suma principală și se plătește concomitent cu aceasta, fără a fi necesară formularea unei cereri distincte.”",
+   "motivation": "1. Proiectul instituie dobânzi și penalități împotriva furnizorilor atunci când aceștia nu restituie în termen sumele datorate statului, însă nu instituie o consecință echivalentă atunci când statul însuși întârzie plata sumelor datorate furnizorilor. Art.174 din Codul de procedură fiscală reglementează dobânda pentru fiecare zi de întârziere, iar art. 176 reglementează penalitatea de întârziere. Este o problemă elementară de echitate juridică: statul nu poate pretinde disciplină financiară doar celeilalte părți, rezervându-și lui însuși posibilitatea de a întârzia fără nicio consecință.\n\n2. Respins la vot",
+   "newProvision": true
   },
   {
    "nr": "9",
-   "article": "Art. III",
+   "report": "rp535.pdf",
+   "article": "art. III",
    "status": "respins",
    "authors": [
     {
@@ -192,12 +271,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Reduce la 15 zile termenul de emitere a ordinului comun și impune conținutul obligatoriu al acestuia, inclusiv publicarea lunară a situației cererilor.",
-   "quote": "Ordinul comun prevăzut la alin.(1) se publică în Monitorul Oficial al României, Partea I, și stabilește în mod obligatoriu:"
+   "byGroup": null,
+   "summary": "Scurtează la 15 zile termenul de emitere a ordinului comun și îi impune conținut obligatoriu, inclusiv soluționarea cronologică a cererilor și raportarea lunară publică.",
+   "quote": "Ordinul comun prevăzut la alin.(1) se publică în Monitorul Oficial al României, Partea I, și stabilește în mod obligatoriu:",
+   "inForce": null,
+   "before": "Art. III. - În termen de 30 de zile de la data intrării în vigoare a prezentei legi, ministrul energiei și ministrul muncii, familiei, tineretului și solidarității sociale, cu consultarea Autorității Naționale de Reglementare în Domeniul Energiei, emit un ordin comun, având ca obiect analiza, verificarea, validarea, plata cererilor de decontare și alimentarea conturilor Ministerului Energiei și Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale cu sumele necesare decontării compensației.",
+   "after": "„Art.III. - (1) În termen de 15 zile de la data intrării în vigoare a prezentei legi, ministrul energiei și ministrul muncii, familiei, tineretului și solidarității sociale, cu consultarea Autorității Naționale de Reglementare în Domeniul Energiei, emit un ordin comun privind analiza, verificarea, validarea și plata cererilor de decontare.\n\n(2) Ordinul comun prevăzut la alin.(1) se publică în Monitorul Oficial al României, Partea I, și stabilește în mod obligatoriu:\na) etapele și termenele procedurii de verificare și validare;\nb) lista exhaustivă a documentelor necesare;\nc) criteriile obiective și nediscriminatorii de soluționare a cererilor;\nd) soluționarea cererilor, de regulă, în ordinea cronologică a înregistrării;\ne) procedura de formulare și soluționare a clarificărilor;\nf) obligația publicării lunare, în format agregat, a numărului și valorii cererilor depuse, validate, plătite, respinse și rămase nesoluționate, cu respectarea secretului comercial și a datelor cu caracter confidențial.”",
+   "motivation": "1. Proiectul lasă pentru ordinul comun elemente esențiale ale mecanismului și acordă 30 de zile pentru adoptarea acestuia. Într-o procedură care privește sume importante din bugetul de stat, trebuie să existe trasabilitate, criterii verificabile și transparență, astfel încât plata să nu depindă de criterii administrative netransparente sau de ordinea discreționară în care sunt analizate dosarele.\n\n2. Respins la vot"
   },
   {
    "nr": "10",
-   "article": "Art. III",
+   "report": "rp535.pdf",
+   "article": "art. III",
    "status": "respins",
    "authors": [
     {
@@ -208,12 +293,18 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Limitează ordinul comun la aspecte strict procedurale, menține aplicabile regulile existente până la emiterea lui și fixează un termen de 30 de zile pentru cererile restante.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Limitează ordinul comun la reguli procedurale, interzice blocarea plăților dacă ordinul întârzie și obligă ANRE să finalizeze în 30 de zile dosarele restante complete.",
+   "quote": "Neemiterea ordinului comun în termenul prevăzut la alin. (1) nu constituie motiv pentru suspendarea, respingerea sau amânarea soluționării ori plății cererilor de decontare.",
+   "inForce": null,
+   "before": "Art. III. - În termen de 30 de zile de la data intrării în vigoare a prezentei legi, ministrul energiei și ministrul muncii, familiei, tineretului și solidarității sociale, cu consultarea Autorității Naționale de Reglementare în Domeniul Energiei, emit un ordin comun, având ca obiect analiza, verificarea, validarea, plata cererilor de decontare și alimentarea conturilor Ministerului Energiei și Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale cu sumele necesare decontării compensației.",
+   "after": "Art. III se modifică și va avea următorul cuprins:\n„Art. III. - (1) În termen de 30 de zile de la data intrării în vigoare a prezentei legi, ministrul energiei și ministrul muncii, familiei, tineretului și solidarității sociale, cu consultarea Autorității Naționale de Reglementare în Domeniul Energiei, emit un ordin comun având ca obiect procedura privind analiza, verificarea, validarea și plata cererilor de decontare, precum și alimentarea conturilor Ministerului Energiei și ale Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale cu sumele necesare decontării compensațiilor.\n(2) Ordinul comun prevăzut la alin. (1) are caracter exclusiv procedural și nu poate institui condiții suplimentare de eligibilitate, nu poate modifica procentele ori termenele stabilite prin lege și nu poate suspenda sau amâna exercitarea drepturilor recunoscute prin prezenta lege.\n(3) Până la intrarea în vigoare a ordinului comun prevăzut la alin. (1), procedurile existente continuă să se aplice în măsura în care nu contravin prezentei legi. Neemiterea ordinului comun în termenul prevăzut la alin. (1) nu constituie motiv pentru suspendarea, respingerea sau amânarea soluționării ori plății cererilor de decontare.\n(4) Pentru cererile de decontare aflate în curs de verificare la data intrării în vigoare a prezentei legi, pentru care documentația prevăzută de lege este completă, iar termenul legal de determinare a valorilor, inclusiv eventualele prelungiri prevăzute de lege, este împlinit, Autoritatea Națională de Reglementare în Domeniul Energiei finalizează determinarea valorilor și le comunică instituțiilor plătitoare în termen de cel mult 30 de zile de la data intrării în vigoare a prezentei legi. Perioadele în care procedura de verificare este suspendată potrivit legii nu se includ în calculul termenului prevăzut în prezentul alineat.”",
+   "motivation": "1. Se elimină riscul unui vid procedural între intrarea în vigoare a legii și emiterea ordinului comun, se delimitează expres competența de reglementare secundară și se introduce un termen pentru cererile aflate în curs pentru care documentația este completă, iar termenul legal de determinare a valorilor este deja împlinit. Regula privind suspendarea este corelată cu mecanismul legal de suspendare a procedurii de verificare de către ANRE.\n\n2. Respins la vot"
   },
   {
    "nr": "11",
-   "article": "Art. IV alin. (1)",
+   "report": "rp535.pdf",
+   "article": "art. IV alin. (1)",
    "status": "respins",
    "authors": [
     {
@@ -224,15 +315,24 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină trimiterea la art. III din norma privind aplicarea noilor reguli doar cererilor de decontare lunare depuse după intrarea în vigoare a legii.",
+   "byGroup": null,
+   "summary": "Elimină trimiterea la art. III din norma privind aplicarea în timp pentru cererile de decontare lunare depuse după intrarea în vigoare a legii.",
    "quote": null,
+   "inForce": null,
+   "before": "Art. IV.- (1) Prevederile art. I pct. 1, art. II pct. 1 și art. III se aplică cererilor de decontare lunare depuse, începând cu data intrării în vigoare a prezentei legi, de către furnizorii de energie electrică și de gaze naturale conform Ordonanței de urgență a Guvernului nr. 27/2022 privind măsurile aplicabile clienților finali din piața de energie electrică și gaze naturale în perioada 1 aprilie 2022 - 31 martie 2023, precum și pentru modificarea și completarea unor acte normative din domeniul energiei, aprobată cu modificări și completări prin Legea nr.206/2022, cu modificările și completările ulterioare, și conform Ordonanței de urgență a Guvernului nr. 6/2025 privind măsurile aplicabile clienților finali din piața de energie electrică în perioada 1 aprilie 2025 - 30 iunie 2025, respectiv măsurile aplicabile clienților finali din piața de gaze naturale în perioada 1 aprilie 2025 - 31 martie 2026, precum și pentru modificarea și completarea unor acte normative din domeniul energiei, cu modificările și completările ulterioare.",
+   "after": "Art. IV.- (1) Prevederile art. I pct. 1 și art. II pct. 1 se aplică cererilor de decontare lunare depuse, începând cu data intrării în vigoare a prezentei legi, de către furnizorii de energie electrică și de gaze naturale conform Ordonanței de urgență a Guvernului nr. 27/2022 privind măsurile aplicabile clienților finali din piața de energie electrică și gaze naturale în perioada 1 aprilie 2022 - 31 martie 2023, precum și pentru modificarea și completarea unor acte normative din domeniul energiei, aprobată cu modificări și completări prin Legea nr.206/2022, cu modificările și completările ulterioare, și conform Ordonanței de urgență a Guvernului nr. 6/2025 privind măsurile aplicabile clienților finali din piața de energie electrică în perioada 1 aprilie 2025 - 30 iunie 2025, respectiv măsurile aplicabile clienților finali din piața de gaze naturale în perioada 1 aprilie 2025 - 31 martie 2026, precum și pentru modificarea și completarea unor acte normative din domeniul energiei, cu modificările și completările ulterioare.",
+   "motivation": null,
+   "unverified": [
+    "motivation"
+   ],
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "12",
-   "article": "Art. IV alin. (2) lit. A",
+   "report": "rp535.pdf",
+   "article": "art. IV alin. (2) lit. A",
    "status": "respins",
    "authors": [
     {
@@ -243,15 +343,21 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Prevede plata din oficiu a diferenței de 20% pentru cererile deja achitate parțial în procent de 40%, fără a mai solicita depunerea unei cereri adiționale.",
+   "byGroup": null,
+   "summary": "Elimină cererea adițională pentru diferența de 20%: autoritățile ar calcula și achita suma din oficiu în 30 de zile, solicitând declarația doar dacă lipsește din dosar.",
    "quote": "diferența necesară pentru atingerea procentului de 60% se determină din oficiu, pe baza cererii de decontare inițiale, și se achită fără depunerea unei cereri adiționale",
+   "inForce": null,
+   "before": "(2) În situația cererilor de decontare depuse de către furnizori până la data intrării în vigoare a prezentei legi, se va proceda după cum urmează:\nA. pentru cererile de decontare pentru care Ministerul Energiei sau Agenția Națională pentru Plăți și Inspecție Socială au efectuat deja plata sumei reprezentând 40% din valoarea solicitată prin cererea de decontare depusă conform prevederilor art. 9 alin. (5) din Ordonanța de urgență a Guvernului nr. 27/2022, aprobată cu modificări și completări prin Legea nr. 206/2022, cu modificările și completările ulterioare, și respectiv art. 9 alin. (5) din Ordonanța de urgență a Guvernului nr. 6/2025, cu modificările și completările ulterioare:\na) furnizorii pot depune o cerere adițională, al cărei conținut este determinat conform anexei care face parte integrantă din prezenta lege, prin care solicită plata sumei reprezentând contravaloarea unui procent de 20% din valoarea cererii de decontare, determinată prin raportare la procentul de 60% stabilit prin prezenta lege și procentul de 40% aplicabil până la data intrării în vigoare a prezentei legi;\nb) cererea adițională este depusă în termen de 30 de zile de la data intrării în vigoare a prezentei legi și este însoțită de o declarație pe propria răspundere a furnizorului prevăzută la art.9 alin. (7), emisă conform modelului din anexă;\nc) plata sumelor aferente cererii adiționale se realizează în termen de 10 zile lucrătoare de la transferul fondurilor cu această destinație de către Ministerul Finanțelor în contul Ministerului Energiei, respectiv Agenției Naționale pentru Plăți și Inspecție Socială, în baza declarației pe propria răspundere prevăzută la lit. b);",
+   "after": "La art.IV alin.(2), lit.A se modifică și va avea următorul cuprins:\n\n„A. Pentru cererile de decontare pentru care Ministerul Energiei sau Agenția Națională pentru Plăți și Inspecție Socială au efectuat, până la data intrării în vigoare a prezentei legi, plata sumei reprezentând 40% din valoarea solicitată, diferența necesară pentru atingerea procentului de 60% se determină din oficiu, pe baza cererii de decontare inițiale, și se achită fără depunerea unei cereri adiționale, în termen de cel mult 30 de zile de la data intrării în vigoare a prezentei legi.\nÎn situația în care declarația pe propria răspundere prevăzută la art.9 alin.(7) nu se află deja la dosarul cererii, Ministerul Energiei sau Agenția Națională pentru Plăți și Inspecție Socială, după caz, solicită furnizorului transmiterea acesteia, iar furnizorul are obligația de a o depune în termen de 10 zile lucrătoare de la comunicarea solicitării. Neîndeplinirea acestei obligații suspendă plata diferenței până la completarea documentației, fără a conduce la pierderea dreptului la decontare.”",
+   "motivation": "1. Forma Senatului obligă furnizorii care au primit deja 40% să formuleze o nouă cerere, într-un termen de numai 30 de zile, pentru diferența rezultată exclusiv din modificarea procentului legal de la 40% la 60%. Autoritățile dețin deja cererea inițială, valoarea solicitată și datele furnizorului. Impunerea unei noi cereri reprezintă o formalitate administrativă inutilă și poate conduce la pierderea de facto a dreptului la plată dintr-un motiv pur procedural. În plus, chiar Consiliul Legislativ a semnalat necesitatea evaluării capacității administrative de gestionare a procedurii.\n\n2. Respins la vot",
    "effects": [
     "mai_bine"
    ]
   },
   {
    "nr": "13",
-   "article": "Art. IV alin. (2) pct. A lit. b), c) și d)",
+   "report": "rp535.pdf",
+   "article": "art. IV alin. (2) pct. A lit. b)-d)",
    "status": "respins",
    "authors": [
     {
@@ -262,11 +368,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Condiționează plata cererii adiționale de confirmarea ANRE că verificarea nu e suspendată și precizează că nedepunerea ei nu afectează dreptul la decontarea finală.",
-   "quote": "nedepunerea cererii adiționale în termenul prevăzut la lit. b) nu afectează dreptul furnizorului la plata diferenței rezultate în urma determinării finale a valorii"
+   "byGroup": null,
+   "summary": "Condiționează plata cererii adiționale în 10 zile de confirmarea ANRE că verificarea nu e suspendată și clarifică faptul că nedepunerea ei nu stinge creanța finală.",
+   "quote": "nedepunerea cererii adiționale în termenul prevăzut la lit. b) nu afectează dreptul furnizorului la plata diferenței rezultate în urma determinării finale a valorii",
+   "inForce": null,
+   "before": "b) cererea adițională este depusă în termen de 30 de zile de la data intrării în vigoare a prezentei legi și este însoțită de o declarație pe propria răspundere a furnizorului prevăzută la art.9 alin. (7), emisă conform modelului din anexă;\nc) plata sumelor aferente cererii adiționale se realizează în termen de 10 zile lucrătoare de la transferul fondurilor cu această destinație de către Ministerul Finanțelor în contul Ministerului Energiei, respectiv Agenției Naționale pentru Plăți și Inspecție Socială, în baza declarației pe propria răspundere prevăzută la lit. b);",
+   "after": "La art. IV alin. (2) pct. A, lit. b) și c) se modifică, iar după lit. c) se introduce o nouă literă, lit. d), cu următorul cuprins:\n\n„b) cererea adițională se depune în termen de 30 de zile de la data intrării în vigoare a prezentei legi și este însoțită de declarația pe propria răspundere a furnizorului prevăzută la art. 9 alin. (7), emisă conform modelului din anexă. Autoritatea Națională de Reglementare în Domeniul Energiei comunică instituției plătitoare, în termen de 2 zile lucrătoare de la înregistrarea cererii adiționale, dacă procedura de verificare aferentă cererii inițiale este sau nu suspendată potrivit legii;\n\nc) plata sumelor aferente cererii adiționale se realizează în termen de 10 zile lucrătoare de la data comunicării de către Autoritatea Națională de Reglementare în Domeniul Energiei a faptului că procedura de verificare aferentă cererii inițiale nu este suspendată, în baza declarației pe propria răspundere prevăzute la lit. b). În cazul în care procedura este suspendată, Autoritatea Națională de Reglementare în Domeniul Energiei comunică instituției plătitoare încetarea suspendării în termen de 2 zile lucrătoare de la data luării la cunoștință, iar termenul de plată curge de la data acestei comunicări;\n\nd) nedepunerea cererii adiționale în termenul prevăzut la lit. b) nu afectează dreptul furnizorului la plata diferenței rezultate în urma determinării finale a valorii de către Autoritatea Națională de Reglementare în Domeniul Energiei, potrivit dispozițiilor actului normativ aplicabil.”",
+   "motivation": "1. Se corectează trimiterea de tehnică legislativă la pct. A și se stabilește un reper procedural verificabil pentru plata suplimentară. Comunicarea ANRE asigură corelarea expresă cu regimul suspendării procedurii de verificare, fără a transforma cererea adițională într-o nouă validare finală. Totodată, se clarifică faptul că termenul de 30 de zile privește numai facilitatea plății adiționale anticipate și nu stinge creanța rezultată din determinarea finală.\n\n2. Respins la vot"
   },
   {
    "nr": "14",
+   "report": "rp535.pdf",
    "article": "Anexă",
    "status": "respins",
    "authors": [
@@ -278,21 +390,35 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Completează modelul cererii adiționale cu o declarație că furnizorul nu a mai încasat sau solicitat diferența de 20% și că va anunța eventualele modificări.",
-   "quote": "Declar, de asemenea, pe propria răspundere că, în afara sumei reprezentând 40% din valoarea cererii de decontare achitate anterior, nu am încasat nicio sumă cu titlu de plată adițională"
+   "byGroup": null,
+   "summary": "Adaugă în formularul cererii adiționale o declarație împotriva dublei plăți a tranșei de 20% și obligația de a anunța în 2 zile lucrătoare orice modificare a sumei.",
+   "quote": null,
+   "inForce": null,
+   "before": null,
+   "after": "În anexă, după paragraful care începe cu sintagma „Declar pe propria răspundere că datele, informațiile și documentele justificative...” se introduce următorul paragraf:\n\n„Declar, de asemenea, pe propria răspundere că, în afara sumei reprezentând 40% din valoarea cererii de decontare achitate anterior, nu am încasat nicio sumă cu titlu de plată adițională aferentă diferenței de până la 20% solicitate prin prezenta cerere și nu am depus o altă cerere adițională, aflată în curs de soluționare, pentru aceeași diferență ori pentru o parte din aceasta; că suma solicitată prin prezenta cerere nu depășește diferența dintre 60% din valoarea cererii de decontare și suma efectiv achitată anterior; precum și că voi comunica Autorității Naționale de Reglementare în Domeniul Energiei și instituției plătitoare, în termen de 2 zile lucrătoare de la data constatării, orice împrejurare ulterioară care poate determina o plată nedatorată ori modificarea cuantumului sumei solicitate.”",
+   "motivation": "1. Se introduce o garanție expresă și neechivocă împotriva dublei plăți a tranșei adiționale, delimitând-o de suma de 40% deja achitată. Se instituie și obligația de actualizare promptă a împrejurărilor care pot conduce la o plată nedatorată sau la modificarea cuantumului solicitat, întărind protecția fondurilor publice.\n\n2. Respins la vot"
   }
  ],
  "matches": [
   {
-   "change": "0:0",
+   "change": "1:0",
+   "report": "rp535.pdf",
    "amendments": [
     "12"
    ]
   },
   {
-   "change": "0:1",
+   "change": "1:1",
+   "report": "rp535.pdf",
    "amendments": [
     "11"
+   ]
+  },
+  {
+   "change": "1:2",
+   "report": "rp535.pdf",
+   "amendments": [
+    "12"
    ]
   }
  ]

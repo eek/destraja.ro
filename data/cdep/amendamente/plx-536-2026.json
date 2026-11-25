@@ -1,20 +1,67 @@
 {
  "slug": "plx-536-2026",
  "billId": "Pl-x 536/2026",
- "schema": 1,
+ "schema": 3,
  "model": "agy",
- "updatedAt": "2026-10-30T15:49:37.003Z",
- "inputHash": "45950db1fd2e",
+ "updatedAt": "2026-11-25T12:09:11.611Z",
+ "inputHash": "f9faa2dd35cd",
  "reports": [
   "https://www.cdep.ro/comisii/invatamant/pdf/2026/rp536.pdf"
  ],
+ "perReport": [
+  {
+   "file": "rp536.pdf",
+   "sha256": "c5719223f2538cb0",
+   "parts": 1,
+   "rows": 3,
+   "unchanged": 1,
+   "admise": 2,
+   "respinse": 6,
+   "truncated": false
+  }
+ ],
+ "completeness": "complete",
+ "problems": [],
  "counts": {
-  "admise": 0,
-  "respinse": 6
+  "admise": 2,
+  "respinse": 6,
+  "anuntate": 3,
+  "nemodificate": 1
  },
  "amendments": [
   {
    "nr": "1",
+   "report": "rp536.pdf",
+   "article": "Titlul Legii",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Înlocuiește cuvântul «privind» cu «pentru» în titlul legii, ca modificare de tehnică legislativă.",
+   "quote": "Lege pentru prorogarea termenului prevăzut la art. 248 alin. (4) din Legea învățământului",
+   "inForce": null,
+   "before": "Titlul Legii: Lege privind prorogarea termenului prevăzut la art. 248 alin. (4) din Legea învățământului preuniversitar nr. 198/2023",
+   "after": "Titlul Legii: Lege pentru prorogarea termenului prevăzut la art. 248 alin. (4) din Legea învățământului preuniversitar nr. 198/2023",
+   "motivation": "Respectarea normelor de tehnică legislativă"
+  },
+  {
+   "nr": "2",
+   "report": "rp536.pdf",
+   "article": "art. I",
+   "status": "admis",
+   "authors": [],
+   "byCommittee": null,
+   "byGroup": null,
+   "summary": "Corectează formularea trimiterii la art. 248 alin. (4) și înlocuiește «care a început» cu «înscriși în» clasa a V-a, ca tehnică legislativă.",
+   "quote": "se prorogă până la absolvirea clasei a VIII-a de către generația de elevi înscriși în clasa a V-a",
+   "inForce": "Art. 248 - (4) Admiterea la liceu și evaluarea națională organizată la finalul clasei a VIII-a se vor desfășura în conformitate cu prevederile prezentei legi începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2023-2024.",
+   "before": "Art. I. - Termenul prevăzut la alin. (4) art. 248 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, pentru desfășurarea admiterii la liceu și evaluării naționale organizate la finalul clasei a VIII-a se prorogă până la absolvirea clasei a VIII-a de către generația de elevi care a început clasa a V-a în anul școlar 2025-2026.",
+   "after": "Art. I. - Termenul prevăzut la art. 248 alin. (4) din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, pentru desfășurarea admiterii la liceu și evaluării naționale organizate la finalul clasei a VIII-a se prorogă până la absolvirea clasei a VIII-a de către generația de elevi înscriși în clasa a V-a în anul școlar 2025-2026.",
+   "motivation": "Respectarea normelor de tehnică legislativă"
+  },
+  {
+   "nr": "1",
+   "report": "rp536.pdf",
    "article": "art. 32 alin. (4)",
    "status": "respins",
    "authors": [
@@ -26,12 +73,21 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Interzice organizarea de evaluări sau examene de admitere la înscrierea elevilor în clasa a V-a.",
-   "quote": "Înscrierea elevilor în clasa a V-a se realizează fără evaluări."
+   "byGroup": null,
+   "summary": "Propune ca înscrierea elevilor în clasa a V-a să se facă fără evaluări, eliminând admiterea la gimnaziu.",
+   "quote": "Înscrierea elevilor în clasa a V-a se realizează fără evaluări.",
+   "inForce": null,
+   "before": null,
+   "after": "Art. 32 - (4) Înscrierea elevilor în clasa a V-a se realizează fără evaluări.",
+   "motivation": "a) Motivare pentru adoptare Necesitatea eliminării admiterii la clasa a V-a, care nu are niciun sens pedagogic b) Motivare pentru respingere Amendament respinsa la vot",
+   "unverified": [
+    "inForce"
+   ]
   },
   {
    "nr": "2",
-   "article": "art. 101 alin. (2), (4)-(10)",
+   "report": "rp536.pdf",
+   "article": "art. 101 alin. (2), (4), (5)-(10)",
    "status": "respins",
    "authors": [
     {
@@ -42,12 +98,22 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină concursul separat de admitere la liceu, repartizarea făcându-se doar pe baza Evaluării Naționale, cu excepția probelor de aptitudini la filiera vocațională.",
-   "quote": "Locurile rămase neocupate după repartizarea prevăzută la alin. (3) se atribuie pe baza rezultatelor obținute la evaluarea națională, conform opțiunilor exprimate, prin repartiție computerizată."
+   "byGroup": null,
+   "summary": "Elimină concursul separat de admitere la liceu, păstrând doar repartiția computerizată după Evaluarea Națională și probele vocaționale.",
+   "quote": "Locurile rămase neocupate după repartizarea prevăzută la alin. (3) se atribuie pe baza rezultatelor obținute la evaluarea națională",
+   "inForce": null,
+   "before": null,
+   "after": null,
+   "motivation": "a) Motivare pentru adoptare Necesitatea abrogării și eliminării admiterii la liceu, ca examen separat. b) Motivare pentru respingere Amendament respinsa la vot",
+   "unverified": [
+    "after",
+    "inForce"
+   ]
   },
   {
    "nr": "3",
-   "article": "art. I (art. 248 alin. (4))",
+   "report": "rp536.pdf",
+   "article": "art. I",
    "status": "respins",
    "authors": [
     {
@@ -58,11 +124,17 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Elimină articolul I privind prorogarea termenului de aplicare a noilor reguli pentru admiterea la liceu și evaluarea națională.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Propune eliminarea articolului I privind prorogarea termenului de aplicare a noii admiteri la liceu.",
+   "quote": null,
+   "inForce": "Art. 248 - (4) Admiterea la liceu și evaluarea națională organizată la finalul clasei a VIII-a se vor desfășura în conformitate cu prevederile prezentei legi începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2023-2024.",
+   "before": "Art. I. - Termenul prevăzut la alin. (4) art. 248 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, pentru desfășurarea admiterii la liceu și evaluării naționale organizate la finalul clasei a VIII-a se prorogă până la absolvirea clasei a VIII-a de către generația de elevi care a început clasa a V-a în anul școlar 2025-2026.",
+   "after": "Se elimină.",
+   "motivation": "a) Motivare pentru adoptare Se creează vid legislativ. b) Motivare pentru respingere Amendament respinsa la vot"
   },
   {
    "nr": "4",
+   "report": "rp536.pdf",
    "article": "art. 248 alin. (4)",
    "status": "respins",
    "authors": [
@@ -74,26 +146,43 @@
     }
    ],
    "byCommittee": null,
-   "summary": "Amână aplicarea noilor reguli privind admiterea la liceu și evaluarea națională până la generația de elevi înscriși în clasa a V-a în anul școlar 2026-2027.",
-   "quote": "se vor desfășura în conformitate cu prevederile prezentei legi, începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2026-2027."
+   "byGroup": null,
+   "summary": "Amână aplicarea noii admiteri la liceu și a evaluării naționale pentru generația care intră în clasa a V-a în 2026-2027.",
+   "quote": "începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2026-2027.",
+   "inForce": "Art. 248 - (4) Admiterea la liceu și evaluarea națională organizată la finalul clasei a VIII-a se vor desfășura în conformitate cu prevederile prezentei legi începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2023-2024.",
+   "before": null,
+   "after": "(4) Admiterea la liceu și evaluarea națională organizată la finalul clasei a VIII-a se vor desfășura în conformitate cu prevederile prezentei legi, începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2026-2027.",
+   "motivation": "a) Motivare pentru adoptare Pentru a se începe aplicarea măsurii la început de ciclu b) Motivare pentru respingere Amendament respinsa la vot"
   },
   {
    "nr": "5",
+   "report": "rp536.pdf",
    "article": "art. II",
    "status": "respins",
    "authors": [],
    "byCommittee": null,
-   "summary": "Introduce norme tranzitorii privind actualizarea ordinelor de ministru în 30 de zile și derularea admiterii la liceu aflate în curs doar pe baza Evaluării Naționale.",
-   "quote": null
+   "byGroup": null,
+   "summary": "Introduce norme tranzitorii: actualizarea metodologiei în 30 de zile și derularea admiterilor în curs doar prin repartiție computerizată.",
+   "quote": "se derulează în continuare exclusiv pe baza rezultatelor evaluării naționale, prin repartiție computerizată",
+   "inForce": null,
+   "before": null,
+   "after": "Art. II – (1) În termen de 30 de zile de la data intrării în vigoare a prezentei legi, ministrul educației și cercetării modifică în mod corespunzător ordinul de aprobare a metodologiei-cadru și a calendarului de organizare și desfășurare a repartizării și admiterii în învățământul liceal, precum și celelalte ordine incidente, pentru punerea lor în acord cu prevederile prezentei legi. (2) Procedurile de admitere în învățământul liceal aflate în curs de organizare la data intrării în vigoare a prezentei legi se derulează în continuare exclusiv pe baza rezultatelor evaluării naționale, prin repartiție computerizată, cu respectarea prevederilor art. 101 din Legea nr. 198/2023, astfel cum a fost modificat prin prezenta lege.",
+   "motivation": "a) Motivare pentru adoptare Norme tranzitorii și finale. b) Motivare pentru respingere Amendament respinsa la vot"
   },
   {
    "nr": "6",
+   "report": "rp536.pdf",
    "article": "art. III",
    "status": "respins",
    "authors": [],
    "byCommittee": null,
-   "summary": "Stabilește că legea intră în vigoare în 3 zile de la publicare, dar prevederile ei se aplică începând cu anul școlar 2026-2027.",
-   "quote": "Prevederile prezentei legi se aplică începând cu anul școlar 2026-2027."
+   "byGroup": null,
+   "summary": "Renumerotează articolul final ca art. III și prevede intrarea în vigoare în 3 zile, cu aplicare din anul școlar 2026-2027.",
+   "quote": "Prevederile prezentei legi se aplică începând cu anul școlar 2026-2027.",
+   "inForce": null,
+   "before": "Art. II. - Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare, prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.",
+   "after": "Art. III – (1) Prezenta lege intră în vigoare în termen de 3 zile de la data publicării în Monitorul Oficial al României, Partea I. (2) Prevederile prezentei legi se aplică începând cu anul școlar 2026-2027.",
+   "motivation": "a) Motivare pentru adoptare Norme tranzitorii și finale. b) Motivare pentru respingere Amendament respinsa la vot"
   }
  ],
  "matches": []

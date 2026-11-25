@@ -1,7 +1,12 @@
 {
   "slug": "plx-594-2026",
   "billId": "PL-x 594/2026",
-  "updatedAt": "2026-10-29T13:17:49.325Z",
+  "updatedAt": "2026-11-25T11:59:30.056Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
     {
       "key": "initiator",
@@ -16,7 +21,9 @@
         "agy": 5,
         "claude": 4,
         "codex": 5
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "senat",
@@ -31,7 +38,26 @@
         "agy": 4,
         "claude": 4,
         "codex": 5
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl594_cd594_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Reducerile de transport pentru pensionari se vor acorda pe baza talonului de pensie cu cod QR, iar veteranii pot folosi și autobuzul sau vaporul",
+      "summaryTlDr": "Este o lege utilă, de simplificare administrativă. Înlocuiește cardul de transport, prevăzut în lege din 2011, cu talonul de pensie cu cod QR și o bază de date de contorizare, iar veteranilor le extinde opțiunile de transport. Riscurile reale țin de execuție: datele personale sunt guvernate prin protocoale, talonul se prezintă «în integralitatea lui», iar dispoziția tranzitorie pentru 2027 este formulată ambiguu.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 5
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
     }
   ],
   "changes": [
@@ -209,6 +235,171 @@
       "model": "claude",
       "schema": 3,
       "updatedAt": "2026-10-29T13:15:40.049Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Cardul veteranilor e înlocuit de legitimație și o bază de date centrală; noul sistem e amânat la 2028",
+      "summary": "Acum veteranii călătoresc cu legitimația de veteran, iar dreptul se verifică într-o bază de date centrală administrată sub MTI. Trimiterea la un articol abrogat a dispărut, se adaugă o perioadă de tranziție și o limită de folosire a datelor. Nu se știe cine operează baza și cât timp păstrează datele.",
+      "changes": [
+        {
+          "title": "Cardul de transport e înlocuit de legitimația de veteran",
+          "text": "Art. II pct. 2: inițial trimitea la un card din art. VII al OG 8/2011, abrogat chiar la intrarea în vigoare. Acum se folosesc legitimația de veteran și baza de date, deci trimiterea nu mai rămâne fără obiect.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II pct. 2",
+          "before": "Facilitățile de transport acordate persoanelor prevăzute la art.16 lit.a) se acordă în baza legitimației de transport tip card, prevăzută la art. VII din Ordonanța Guvernului nr.8/2011",
+          "after": "Facilitățile de transport pentru persoanele prevăzute la art. 16 lit. a) se acordă în baza legitimației de veteran de război prevăzută la art. 6, precum și în baza accesării datelor din sistemul de interogare/transmitere",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Apare o bază de date centrală cu beneficiarii",
+          "text": "Art. IV: inițial ARF și ARR consultau bazele caselor de pensii. Acum datele lor sunt trimise lunar într-o bază terță făcută sub MTI. Operatorii, inclusiv cei privați, intră pe bază de protocoale, fără criterii stabilite în lege.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. IV alin. (1)-(4)",
+          "before": "Autoritatea pentru Reformă Feroviară și Autoritatea Rutieră Română încheie protocoale de colaborare cu Casa Națională de Pensii Publice, cu casele sectoriale de pensii",
+          "after": "(4) În baza unor protocoale/acorduri încheiate cu Ministerul Transporturilor și Infrastructurii, operatorii de transport de călători au acces la sistemul de interrogare/transmitere a datelor de identificare și de contorizare a numărului de călătorii acordate anual",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Operatorii pot folosi datele doar pentru validare",
+          "text": "Art. IV alin. (6) le interzice expres operatorilor de transport să folosească datele primite în alt scop decât validarea dreptului și numărarea călătoriilor.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. IV alin. (6)",
+          "before": "exclusiv în scopul stabilirii, acordării și decontării facilităților de transport.",
+          "after": "(6) Datele și informațiile puse la dispoziție operatorilor de transport de călători conform prevederilor prezentei legi sunt utilizate de către aceștia exclusiv pentru validarea calității de beneficiar de facilități de transport",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Noul sistem amânat, cu tranziție până în 2028",
+          "text": "Art. VI-VII: noile reguli pentru documente se aplică de la 1 ianuarie 2028, nu din 2027. Până atunci rămân valabile tichetele și taloanele emise înainte de intrarea în vigoare a legii.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. VI",
+          "before": null,
+          "after": "Art. VI. – Până la data de 1 ianuarie 2028 persoanele prevăzute de Legea nr. 147/2000 privind reducerile acordate pensionarilor pentru transportul intern",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare pierderea dreptului la folosirea abuzivă a legitimației",
+          "text": "Art. III: inițial se păstrau obligația de a anunța pierderea sau furtul cardului și pierderea dreptului în caz de folosire abuzivă. Acum art. V-VIII din OG 8/2011 sunt abrogate în întregime.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. III",
+          "before": "(2) În cazul utilizării legitimației de transport tip card de către alte persoane decât cele îndreptățite și în alte condiții decât cele recunoscute de lege, beneficiarul își pierde dreptul de a mai folosi legitimația până la expirare.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Mai mult timp pentru actualizarea normelor",
+          "text": "Art. V: termenul crește de la 30 la 90 de zile. Legea numește acum actele de modificat: HG 2403/2004 și Ordinul 266/312/2005.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. V",
+          "before": "Art.V.- În termen de 30 de zile de la intrarea în vigoare a prezentei legi, se aprobă prin hotărâre a Guvernului:",
+          "after": "Art. V. – În termen de 90 de zile de la data intrării în vigoare a prezentei legi, se actualizează în mod corespunzător:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Documentul de plată arătat integral dezvăluie cuantumul pensiei controlorului",
+            "major": true,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Operatorul bazei de date centrale nu este numit în lege",
+            "major": true,
+            "article": "art. IV alin. (1)-(2)"
+          },
+          {
+            "text": "Nu există termen de păstrare a datelor personale",
+            "major": true,
+            "article": "art. IV"
+          },
+          {
+            "text": "Tipurile de date și securitatea lăsate pe protocoale nepublicate",
+            "major": true,
+            "article": "art. IV alin. (5)"
+          },
+          {
+            "text": "Acces operatori privați fără criterii, termene sau obligație de nediscriminare",
+            "major": true,
+            "article": "art. IV alin. (4)"
+          },
+          {
+            "text": "Tranziția acoperă doar tichetele emise înainte de intrarea în vigoare",
+            "major": true,
+            "article": "art. VI"
+          },
+          {
+            "text": "Nu se cere actul de identitate, documentul nu e legat de călător",
+            "major": false,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Legea nu precizează ce date conține codul QR",
+            "major": false,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Baza de date se actualizează doar lunar, poate conține date depășite",
+            "major": false,
+            "article": "art. IV alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Veteranii și văduvele pot alege transport auto, feroviar sau fluvial",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Operatorii pot folosi datele exclusiv pentru validare și contorizare",
+            "major": true,
+            "article": "art. IV alin. (6)"
+          },
+          {
+            "text": "Tichetele existente rămân valabile până la 1 ianuarie 2028",
+            "major": true,
+            "article": "art. VI"
+          },
+          {
+            "text": "Soțul sau mandatarul pot folosi legitimația fără prezența titularului",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Au dispărut trimiterile la articole abrogate din OG 8/2011",
+            "major": false,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Dreptul se verifică electronic, prin cod QR și bază de date",
+            "major": false,
+            "article": "art. I alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 23,
+        "removed": 27,
+        "same": 0.39
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-25T11:59:30.056Z"
     }
   ]
 }

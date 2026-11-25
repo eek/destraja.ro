@@ -3,107 +3,84 @@
   "billId": "B627/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-11-11T11:03:21.261Z",
-  "inputHash": "8d92481e5afb",
-  "riskScore": 4.3,
-  "summary": "O măsură binevenită de reducere a dublei impuneri la sănătate pentru salariați, dar viciată de erori tehnice grave și de o breșă care permite ocolirea contribuției prin angajări de o zi.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:34:52.875Z",
+  "inputHash": "1ac4cb4eeead",
+  "riskScore": 5.7,
+  "summary": "Scopul de a reduce dubla taxare la sănătate e stricat de erori grave de redactare: modifică un articol abrogat, încurcă formula de calcul și creează o portiță facilă de evitare a CASS.",
   "good": [
     {
-      "text": "Scutește salariații care plătesc deja CASS la salariu de o a doua contribuție pentru venituri din PFA, chirii sau dividende sub 120.000 lei anual.",
+      "text": "Scutește angajații care plătesc deja CASS de contribuție suplimentară pentru venituri secundare sub 120.000 lei, reducând dubla taxare pentru venituri modeste.",
       "article": "art. I pct. 1",
       "quote": "persoanele fizice care, în anul fiscal, realizează venituri din salarii sau asimilate salariilor pentru care contribuția de asigurări sociale de sănătate se reține la sursă potrivit art. 168 nu datorează contribuția de asigurări sociale de sănătate",
-      "weight": 3
-    },
-    {
-      "text": "Păstrează obligația de plată a CASS pentru partea din veniturile nesalariale care depășește 120.000 lei anual, menținând solidaritatea la venituri mari.",
-      "article": "art. I pct. 2",
-      "quote": "baza anuală de calcul al contribuției de asigurări sociale de sănătate o reprezintă numai partea din baza anuală cumulată aferentă veniturilor prevăzute la art. 155 alin. (1) lit. b)-h) care depășește suma de 120.000 lei.",
       "weight": 2
     },
     {
-      "text": "Amână intrarea în vigoare pentru 1 ianuarie a anului următor și menține regulile vechi pentru veniturile anterioare, asigurând predictibilitate fiscală.",
-      "article": "art. IV și art. V",
+      "text": "Aplică noile reguli abia de la 1 ianuarie al anului următor, oferind predictibilitate și evitând schimbarea taxelor în mijlocul anului fiscal.",
+      "article": "art. IV",
       "quote": "Prezenta lege intră în vigoare la data de 1 ianuarie a anului fiscal următor celui în care a fost publicată în Monitorul Oficial al României, Partea I.",
       "weight": 2
     },
     {
-      "text": "Obligă Guvernul și ANAF să actualizeze normele metodologice și formularul Declarației unice, facilitând aplicarea practică a noilor reguli.",
+      "text": "Stabilește clar că legea nu se aplică retroactiv, astfel încât veniturile câștigate înainte de intrarea în vigoare rămân taxate după vechile reguli.",
+      "article": "art. V",
+      "quote": "Pentru veniturile realizate anterior intrării în vigoare a prezentei legi rămân aplicabile dispozițiile legale în vigoare la data realizării acestora.",
+      "weight": 1
+    },
+    {
+      "text": "Obligă Guvernul și ANAF să actualizeze normele și formularul Declarației unice în 60 de zile, pentru ca noile reguli să poată fi aplicate practic.",
       "article": "art. II și art. III",
-      "quote": "Agenția Națională de Administrare Fiscală adaptează formularul „Declarație unică privind impozitul pe venit și contribuțiile sociale datorate de persoanele fizice”, precum și instrucțiunile de completare a acestuia, potrivit dispozițiilor art. I.",
+      "quote": "În termen de 60 de zile de la data publicării în Monitorul Oficial al României, Partea I, Agenția Națională de Administrare Fiscală adaptează formularul",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Nu prevede un prag minim de salariu sau durată: și o zi de muncă part-time pe an scutește de CASS venituri de 120.000 lei din dividende, chirii sau PFA, încurajând angajările fictive.",
-      "article": "art. I pct. 1",
-      "quote": "Prin excepție de la alin. (1) lit. b)-h), persoanele fizice care, în anul fiscal, realizează venituri din salarii sau asimilate salariilor pentru care contribuția de asigurări sociale de sănătate se reține la sursă potrivit art. 168",
-      "weight": 3
-    },
-    {
-      "text": "Introduce un alineat nou într-un articol abrogat din 2018 (art. 175 din Codul fiscal), regulile privind Declarația unică fiind azi la art. 174 și 174^1, ceea ce face norma inaplicabilă.",
+      "text": "Modifică articolul 175 din Codul fiscal, dar acesta este abrogat din 2018; regula privind declararea taxei nu poate produce niciun efect juridic.",
       "article": "art. I pct. 3",
       "quote": "La articolul 175, după alineatul (5) se introduce un nou alineat, alin. (5^1), cu următorul cuprins:",
       "weight": 3
     },
     {
-      "text": "Aplică 10% pe tot ce trece de 120.000 lei fără să mai menționeze plafoanele maxime de 24 și 60 de salarii minime, riscând să supraimpoziteze veniturile mari față de regimul actual.",
-      "article": "art. I pct. 2",
-      "quote": "Contribuția de asigurări sociale de sănătate datorată potrivit alin. (1^1) se stabilește prin aplicarea cotei prevăzute la art. 156 asupra bazei de calcul determinate potrivit alin. (1^1).",
+      "text": "Nu cere un salariu sau o durată minimă de muncă; chiar și o zi de salariu simbolic scutește de CASS până la 120.000 lei din PFA, chirii sau dividende.",
+      "article": "art. I pct. 1",
+      "quote": "persoanele fizice care, în anul fiscal, realizează venituri din salarii sau asimilate salariilor pentru care contribuția de asigurări sociale de sănătate se reține la sursă potrivit art. 168",
       "weight": 3
     },
     {
-      "text": "Derogă doar de la art. 170 alin. (1) (activități independente), ignorând alin. (2) (chirii, dividende), și nu clarifică dacă se cumulează veniturile reale sau bazele deja plafonate.",
+      "text": "Amestecă regulile de calcul actuale: dividendele și chiriile plafonate sub 120.000 lei pot ajunge scutite complet, indiferent de cât de mari sunt veniturile reale.",
       "article": "art. I pct. 2",
-      "quote": "Baza anuală cumulată prevăzută la alin. (1^1) se determină prin însumarea bazelor de calcul stabilite, potrivit legii, pentru veniturile prevăzute la art. 155 alin. (1) lit. b)-h), din una sau mai multe surse și/sau categorii de venituri.",
+      "quote": "Baza anuală cumulată prevăzută la alin. (1^1) se determină prin însumarea bazelor de calcul stabilite, potrivit legii, pentru veniturile prevăzute la art. 155 alin. (1) lit. b)-h)",
       "weight": 3
     },
     {
-      "text": "Reduce veniturile Fondului de Sănătate cu până la 12.000 lei anual per beneficiar, fără ca proiectul să prezinte calculul de impact bugetar și sursa de compensare cerute de lege.",
+      "text": "Face excepție doar de la regula pentru PFA, ignorând chiriile și dividendele; nu clarifică dacă plafoanele maxime mai există, putând crește taxa peste 120.000 lei.",
+      "article": "art. I pct. 2",
+      "quote": "Prin excepție de la alin. (1), pentru persoanele fizice prevăzute la art. 155 alin. (3), baza anuală de calcul al contribuției de asigurări sociale de sănătate o reprezintă numai partea",
+      "weight": 3
+    },
+    {
+      "text": "Reduce încasările fondului de sănătate fără a calcula pierderea bugetară și fără a indica sursa de finanțare, riscând un deficit și probleme de constituționalitate.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Creează o inechitate majoră: cineva cu salariu minim și venituri secundare de 120.000 lei plătește mai puțin CASS decât un PFA fără salariu cu venituri mai mici.",
       "article": "art. I pct. 1",
       "quote": "nu datorează contribuția de asigurări sociale de sănătate pentru veniturile prevăzute la alin. (1) lit. b)-h), cu excepția părții din baza anuală cumulată aferentă acestor venituri care depășește suma de 120.000 lei.",
       "weight": 2
     },
     {
-      "text": "Limita completării Declarației unice doar pentru sumele peste 120.000 lei nu e restrânsă la secțiunea CASS, creând confuzie privind declararea veniturilor pentru impozitul pe venit.",
-      "article": "art. I pct. 3",
-      "quote": "În cazul persoanelor fizice prevăzute la art. 155 alin. (3), declarația prevăzută la prezentul articol se completează numai pentru partea din baza anuală cumulată aferentă veniturilor prevăzute la art. 155 alin. (1) lit. b)-h)",
-      "weight": 2
-    },
-    {
-      "text": "Creează un tratament fiscal inegal față de PFA-uri, profesii liberale sau pensionari fără salariu, care plătesc CASS de la praguri mult mai mici pentru aceleași categorii de venituri.",
-      "article": "art. I pct. 1",
-      "quote": null,
-      "weight": 2
-    },
-    {
-      "text": "Folosește o sumă fixă (120.000 lei) în loc de multipli ai salariului minim brut, cum face restul Codului fiscal, expunând plafonul la erodare prin inflație.",
+      "text": "Folosește un prag fix în lei, nelegat de salariul minim ca restul Codului fiscal; valoarea lui scade cu inflația și creează nepotriviri cu plafoanele actuale.",
       "article": "art. I pct. 1 și pct. 2",
-      "quote": "Prin excepție de la alin. (1), pentru persoanele fizice prevăzute la art. 155 alin. (3), baza anuală de calcul al contribuției de asigurări sociale de sănătate o reprezintă numai partea din baza anuală cumulată",
-      "weight": 1
-    },
-    {
-      "text": "Dacă legea este publicată în noiembrie sau decembrie, ea intră în vigoare la 1 ianuarie, înainte să expire termenul de 60 de zile pentru actualizarea normelor și a Declarației unice.",
-      "article": "art. II, art. III și art. IV",
-      "quote": "În termen de 60 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, Guvernul modifică în mod corespunzător Normele metodologice de aplicare a Legii nr. 227/2015 privind Codul fiscal",
+      "quote": "baza anuală cumulată aferentă veniturilor prevăzute la art. 155 alin. (1) lit. b)-h) care depășește suma de 120.000 lei.",
       "weight": 1
     }
   ],
-  "fix": {
-    "text": "Condiționarea scutirii de un prag salarial minim anual (precum 6 salarii minime brute), corelarea cu plafoanele de la art. 170 alin. (1) și (2) și înlocuirea trimiterii la art. 175 abrogat cu art. 174 și 174^1 privind secțiunea CASS din Declarația unică.",
-    "removes": [
-      0,
-      1,
-      2,
-      3,
-      5,
-      7
-    ],
-    "levelAfter": "green",
-    "scoreAfter": 2
-  },
+  "fix": null,
   "quotes": {
-    "checked": 12,
-    "verified": 12
+    "checked": 10,
+    "verified": 10
   }
 }

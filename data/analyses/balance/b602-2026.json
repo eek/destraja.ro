@@ -2,153 +2,109 @@
   "slug": "b602-2026",
   "billId": "B602/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T17:38:05.235Z",
-  "inputHash": "681a586c1b85",
-  "riskScore": 4,
-  "summary": "O lege prudentă și în mare parte bine construită, slăbită de o tranziție prost reglementată: fără conducere provizorie, cu un gol juridic între abrogare și predare și fără protecție pentru personal.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-25T12:31:39.732Z",
+  "inputHash": "db363be1c746",
+  "riskScore": 4.3,
+  "summary": "Scop util și garanții bune de concurs, dar afectat de vicii constituționale și o tranziție prost reglementată.",
   "good": [
     {
-      "text": "Programele de master și doctorat pot începe doar după autorizare și acreditare, deci diplomele vor avea garanția calității și nu se ocolește ARACIS.",
-      "article": "art. 2 alin. (1)-(2), art. 3 alin. (3), art. 10 alin. (3), art. 11 alin. (4)",
+      "text": "Admiterea se face doar prin concurs, iar Ministerul de Externe nu poate selecta candidați și nu are locuri rezervate, prevenind intrarea pe pile.",
+      "article": "art. 8 alin. (1), (5) și (6)",
+      "quote": "fără a conferi Ministerului Afacerilor Externe competența de a selecta candidații la admiterea în cadrul SND.",
+      "weight": 3
+    },
+    {
+      "text": "Diploma școlii nu garantează angajarea în Ministerul de Externe sau statutul de diplomat, păstrând concursurile deschise și corecte pentru toți candidații.",
+      "article": "art. 3 alin. (4)",
+      "quote": "Absolvirea programelor organize de SND nu conferă, prin ea însăși, dreptul de ocupare a unei funcții în Ministerul Afacerilor Externe sau de dobândire a calității de membru al Corpului diplomatic și consular al României.",
+      "weight": 3
+    },
+    {
+      "text": "Școala nu poate ține masterate și doctorate din pix, ci doar după ce trece prin evaluările și acreditările legale cerute tuturor universităților.",
+      "article": "art. 10 alin. (3)",
       "quote": "Programele de studii universitare se organizează și se desfășoară numai după îndeplinirea condițiilor legale de autorizare, acreditare și evaluare aplicabile.",
       "weight": 3
     },
     {
-      "text": "Diploma SND nu dă automat un post în MAE sau în corpul diplomatic. Recrutarea rămâne prin concurs, deci școala nu devine o cale ocolită de angajare.",
-      "article": "art. 3 alin. (4)-(5), art. 8 alin. (8)",
-      "quote": "Absolvirea programelor organize de SND nu conferă, prin ea însăși, dreptul de ocupare a unei funcții în Ministerul Afacerilor Externe",
-      "weight": 3
-    },
-    {
-      "text": "MAE nu poate rezerva locuri pentru persoane alese de el și nu selectează candidații. Asta reduce riscul de favoritism la admitere.",
-      "article": "art. 8 alin. (5)-(6)",
-      "quote": "Necesitatea de formare comunicată de Ministerul Afacerilor Externe nu instituie, prin ea însăși, locuri rezervate unor persoane desemnate de minister",
-      "weight": 2
-    },
-    {
-      "text": "Admiterea se face prin concurs, după reguli și metodologii stabilite în prealabil, ceea ce asigură acces egal pe bază de merit.",
-      "article": "art. 8 alin. (1), (7)",
-      "quote": "Admiterea la programele organizate de SND se realizează prin concurs, cu respectarea legislației în vigoare și a metodologiei aplicabile fiecărui tip de program.",
-      "weight": 2
-    },
-    {
-      "text": "Cursurile IDR aflate în desfășurare trebuie duse la capăt de SND, deci cursanții nu rămân cu pregătirea întreruptă.",
-      "article": "art. 11 alin. (2)",
-      "quote": "Finalizarea cursurilor și programelor de formare profesională aflate în desfășurare la data intrării în vigoare a prezentei legi se asigură de către SND.",
-      "weight": 2
-    },
-    {
-      "text": "Ordinele ministerului date pentru pornirea școlii nu pot încălca legea și nu pot ocoli acreditarea, angajarea legală sau regulile de transfer al bunurilor.",
+      "text": "Ordinele de organizare ale Ministerului Educației nu pot ocoli legea și nu pot înlocui concursurile pentru posturi sau regulile de acreditare.",
       "article": "art. 9 alin. (4)",
-      "quote": "Actele administrative emise în aplicarea prezentului articol nu pot deroga de la lege și nu pot înlocui procedurile legale de autorizare, acreditare",
+      "quote": "Actele administrative emise în aplicarea prezentului articol nu pot deroga de la lege și nu pot înlocui procedurile legale de autorizare, acreditare, ocupare a posturilor, transfer al patrimoniului sau soluționare a raporturilor de muncă și de serviciu.",
       "weight": 2
     },
     {
-      "text": "Școala este deschisă și altor instituții publice, mediului privat și diplomaților străini, nu doar personalului MAE.",
+      "text": "La cursuri pot preda diplomați activi sau pensionați, experți UE și NATO și specialiști din societatea civilă, aducând experiență practică reală.",
+      "article": "art. 7 alin. (4)",
+      "quote": "În activitățile didactice și de cercetare pot fi implicați, în condițiile legii, diplomați în activitate sau pensionați, experți ai organizațiilor internaționale, specialiști din instituțiile Uniunii Europene și NATO",
+      "weight": 2
+    },
+    {
+      "text": "Pregătirea în diplomație nu e închisă doar pentru angajații ministerului, ci deschisă și altor instituții publice, mediului privat și diplomaților străini.",
       "article": "art. 3 alin. (1)",
-      "quote": "persoane din cadrul altor autorități și instituții publice, persoane din mediul privat, precum și diplomați străini",
+      "quote": "pentru personalul Ministerului Afacerilor Externe, membrii Corpului diplomatic și consular al României, persoane din cadrul altor autorități și instituții publice, persoane din mediul privat, precum și diplomați străini",
       "weight": 1
     },
     {
-      "text": "Pe lângă bugetul de stat, școala poate atrage fonduri europene, taxe și sponsorizări, folosite numai pentru activitatea ei și după regulile finanțelor publice.",
-      "article": "art. 5 alin. (1)-(2)",
-      "quote": "Veniturile proprii și celelalte resurse financiare ale SND se utilizează pentru realizarea obiectului său de activitate, cu respectarea legislației finanțelor publice",
-      "weight": 1
-    },
-    {
-      "text": "Pot preda diplomați, experți din UE, NATO și organizații internaționale, ceea ce aduce experiență practică în pregătire.",
-      "article": "art. 7 alin. (1)-(4)",
-      "quote": "pot fi implicați, în condițiile legii, diplomați în activitate sau pensionați, experți ai organizațiilor internaționale, specialiști din instituțiile Uniunii Europene și NATO",
-      "weight": 1
-    },
-    {
-      "text": "Formarea continuă poate porni înainte de acreditare, iar instituția se pune în funcțiune pe etape, deci pregătirea diplomaților nu se oprește.",
-      "article": "art. 10 alin. (2), (4)",
-      "quote": "Activitățile de formare profesională continuă, perfecționare și specializare pot fi organizate înaintea începerii programelor de studii universitare",
-      "weight": 1
-    },
-    {
-      "text": "Bunurile IDR trec la SND cu respectarea regimului juridic al fiecărui bun, fără să fie scoase din proprietatea publică.",
-      "article": "art. 4 alin. (1), (3)",
-      "quote": "prin preluarea patrimoniului IDR, cu respectarea regimului juridic al bunurilor, a drepturilor și obligațiilor patrimoniale și a legislației aplicabile",
-      "weight": 1
-    },
-    {
-      "text": "Publicațiile școlii trebuie să respecte regulile privind informațiile secrete și datele personale.",
-      "article": "art. 6 alin. (5)",
-      "quote": "cu respectarea legislației privind informațiile clasificate, protecția datelor și drepturile de proprietate intelectuală",
+      "text": "Exclude studiile de licență și se limitează la masterat, doctorat și cursuri postuniversitare, evitând dublarea facultăților clasice deja existente.",
+      "article": "art. 2 alin. (3)",
+      "quote": "Activitatea de învățământ superior a SND se circumscrie doar organizării programelor de studii universitare aferente ciclurilor II și III, precum și a programelor de studii postuniversitare, în condițiile legii, fiind exclusă organizarea programelor de studii universitare de licență.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Legea nu spune cine conduce școala la început și cine semnează cheltuielile. Funcția de rector apare, dar nu se aplică unei instituții încă neacreditate.",
-      "article": "art. 5 alin. (4), art. 9 alin. (3)",
-      "quote": "Atribuțiile de ordonator de credite se exercită de persoana desemnată potrivit legii și actelor de organizare aplicabile.",
+      "text": "Pune școala în subordinea Ministerului Educației, dar îi dă rector, facultăți și autonomie universitară, contrazicând Constituția și statutul universităților autonome.",
+      "article": "art. 1 alin. (1) și art. 6 alin. (3)",
+      "quote": "instituție publică cu personalitate juridică aflată în subordinea Ministerului Educației și Cercetării, ca autoritate națională de referință pentru formarea profesională continuă",
       "weight": 3
     },
     {
-      "text": "Actul care organizează IDR se abrogă imediat, dar bunurile se predau în până la 90 de zile. În acest interval IDR nu are bază legală, iar SND nu are conducere.",
-      "article": "art. 11 alin. (1) și (3)",
-      "quote": "La data intrării în vigoare a prezentei legi se abrogă Hotărârea Guvernului nr. 880/2005 privind organizarea și funcționarea Institutului Diplomatic Român",
+      "text": "Parlamentul abrogă direct o hotărâre de guvern, ceea ce încalcă separația puterilor în stat și poate duce la declararea legii neconstituționale.",
+      "article": "art. 11 alin. (1)",
+      "quote": "La data intrării în vigoare a prezentei legi se abrogă Hotărârea Guvernului nr. 880/2005 privind organizarea și funcționarea Institutului Diplomatic Român, cu modificările și completările ulterioare.",
       "weight": 3
     },
     {
-      "text": "Angajații IDR nu sunt preluați automat. Formularea vagă permite disponibilizări prin reorganizare și reangajări fără criterii clare.",
-      "article": "art. 4 alin. (2)",
-      "quote": "Situația personalului IDR se soluționează potrivit legislației aplicabile raporturilor de muncă sau de serviciu.",
-      "weight": 2
-    },
-    {
-      "text": "SND preia obligațiile IDR doar dacă sunt „compatibile” cu activitatea ei, fără criterii. Creditorii și partenerii IDR nu știu cine le mai răspunde.",
-      "article": "art. 1 alin. (2)",
-      "quote": "preluând drepturile și obligațiile acestuia în condițiile legii și în măsura în care acestea sunt compatibile cu obiectul de activitate al SND",
-      "weight": 2
-    },
-    {
-      "text": "Formarea diplomaților trece în subordinea Ministerului Educației. MAE, principalul beneficiar, rămâne doar cu opinii consultative, deci pregătirea poate devia de la nevoile reale.",
-      "article": "art. 1 alin. (1), art. 3 alin. (2), art. 8 alin. (4)-(5)",
-      "quote": "Comunicarea prevăzută la alin. (4) are rol consultativ și contribuie la fundamentarea ofertei educaționale și a cifrei de școlarizare",
-      "weight": 2
-    },
-    {
-      "text": "Nu există niciun termen pentru autorizare și acreditare și nicio soluție dacă eșuează. Instituția poate rămâne nedefinit o structură finanțată public, fără programe universitare.",
-      "article": "art. 2 alin. (1), art. 10 alin. (4)",
-      "quote": "SND are atribuția și obligația de a iniția, susține și finaliza demersurile necesare autorizării de funcționare provizorie și acreditării, în condițiile legii.",
-      "weight": 2
-    },
-    {
-      "text": "Statutul juridic este neclar. Legea vorbește de facultăți, rector și autonomie universitară pentru o instituție publică din subordinea ministerului, care nu este încă universitate.",
-      "article": "art. 5 alin. (4), art. 6 alin. (2)-(3), art. 9 alin. (3)",
-      "quote": "Structurile organizatorice ale SND, inclusiv facultățile, departamentele și structurile de cercetare, se înființează și funcționează în condițiile legii.",
-      "weight": 2
-    },
-    {
-      "text": "RA-APPS este obligată să dea gratuit imobilul, fără durată, fără contract și fără regulă privind cine plătește întreținerea. Regia poate pierde venituri.",
+      "text": "Obligă direct prin lege regia de protocol RA-APPS să dea gratuit o vilă din Primăverii, amestecându-se în administrarea bunurilor de către Guvern, fără verificări juridice.",
       "article": "art. 1 alin. (3)",
-      "quote": "Folosința imobilului va fi asigurată cu titlu gratuit de către Regia Autonomă \"Administrația Patrimoniului Protocolului de Stat\".",
-      "weight": 1
+      "quote": "SND are sediul în municipiul București, Bulevardul Primăverii nr. 17, sector 1. Folosința imobilului va fi asigurată cu titlu gratuit de către Regia Autonomă \"Administrația Patrimoniului Protocolului de Stat\".",
+      "weight": 3
     },
     {
-      "text": "Formula „autoritate națională de referință” nu are efecte definite. Poate fi invocată ulterior pentru a pretinde prioritate față de alți furnizori de formare.",
-      "article": "art. 1 alin. (1)",
-      "quote": "ca autoritate națională de referință pentru formarea profesională continuă în domeniul diplomăției și al relațiilor internaționale",
-      "weight": 1
+      "text": "Desființează Institutul Diplomatic în 30 de zile, dar dă 90 de zile pentru preluarea bunurilor și nu are structuri gata, riscând blocarea cursurilor în desfășurare.",
+      "article": "art. 11 alin. (1), (3) și art. 12",
+      "quote": "În termen de 90 de zile de la data intrării în vigoare a prezentei legi, patrimoniul IDR va fi preluat de SND pe bază de protocol de predare-preluare conform legislației în vigoare.",
+      "weight": 3
+    },
+    {
+      "text": "Nu spune cine conduce școala și cine semnează plățile între desființarea vechiului institut și alegerea rectorului, folosind o formulare vagă ce poate bloca bugetul.",
+      "article": "art. 5 alin. (4)",
+      "quote": "Atribuțiile de ordonator de credite se exercită de persoana desemnată potrivit legii și actelor de organizare aplicabile.",
+      "weight": 2
+    },
+    {
+      "text": "Nu garantează preluarea salariaților IDR și nu stabilește reguli clare de transfer, lăsând oamenii expuși concedierilor sau deciziilor arbitrare la reorganizare.",
+      "article": "art. 4 alin. (2)",
+      "quote": "Situația personalului IDR se soluționează potrivit legislației aplicabile raporturilor de muncă sau de serviciu. Ocuparea posturilor în cadrul SND se realizează în condițiile legii",
+      "weight": 2
+    },
+    {
+      "text": "Noua școală preia doar drepturile și obligațiile „compatibile” ale IDR, dar nu spune cine decide asta și cine plătește datoriile rămase, creând risc de procese.",
+      "article": "art. 1 alin. (2)",
+      "quote": "SND este succesoarea de drept a Institutului Diplomatic Român, denumit în continuare IDR, preluând drepturile și obligațiile acestuia în condițiile legii și în măsura în care acestea sunt compatibile cu obiectul de activitate al SND.",
+      "weight": 2
+    },
+    {
+      "text": "Prevede bani de la bugetul de stat, dar nu precizează prin ce minister se alocă și cum se mută bugetul fostului institut de la Externe la Educație în anul tranziției.",
+      "article": "art. 5 alin. (1) lit. a)",
+      "quote": null,
+      "weight": 2
     }
   ],
-  "fix": {
-    "text": "Să se numească explicit o conducere interimară și un ordonator de credite, să se amâne abrogarea HG 880/2005 până la finalizarea predării și să se preia de drept personalul IDR.",
-    "removes": [
-      0,
-      1,
-      2
-    ],
-    "levelAfter": "yellow",
-    "scoreAfter": 2.5
-  },
+  "fix": null,
   "quotes": {
-    "checked": 21,
-    "verified": 21
+    "checked": 14,
+    "verified": 14
   }
 }

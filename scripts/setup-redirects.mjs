@@ -23,6 +23,27 @@ const ZONES = {
   // destrajă.ro, cu ă, ca în siglă; zona apare în Cloudflare sub forma punycode.
   'xn--destraj-f4a.ro': { hosts: ['xn--destraj-f4a.ro', 'www.xn--destraj-f4a.ro'] },
 };
+// Paginile actelor stau pe acte.destraja.ro (serverul de pe NAS, design §3): destraja.ro/acte și /acte/* trimit
+// acolo, cu restul căii și query-ul. wildcard_replace merge pe planul Free.
+const ACTE_REF = 'destraja_acte_redirect';
+const EXTRA = {
+  'destraja.ro': [
+    {
+      ref: ACTE_REF,
+      description: 'destraja.ro/acte/* → acte.destraja.ro/*',
+      expression: '(http.host eq "destraja.ro") and (http.request.uri.path eq "/acte" or starts_with(http.request.uri.path, "/acte/"))',
+      action: 'redirect',
+      action_parameters: {
+        from_value: {
+          status_code: 301,
+          target_url: { expression: 'wildcard_replace(http.request.full_uri, "https://destraja.ro/acte*", "https://acte.destraja.ro${1}")' },
+          preserve_query_string: false,
+        },
+      },
+    },
+  ],
+};
+const OUR_REFS = new Set([REF, ACTE_REF]);
 const APPLY = process.argv.includes('--apply');
 
 const env = Object.fromEntries(
@@ -55,12 +76,14 @@ for (const [zone, { hosts, extra }] of Object.entries(ZONES)) {
     },
   };
   const entry = await api(`/zones/${zoneId}/rulesets/phases/http_request_dynamic_redirect/entrypoint`);
-  const others = entry.success ? entry.result.rules.filter((r) => r.ref !== REF) : [];
+  const others = entry.success ? entry.result.rules.filter((r) => !OUR_REFS.has(r.ref)) : [];
+  const extraRules = EXTRA[zone] || [];
+  for (const x of extraRules) console.log(`${zone}: ${x.description}`);
   console.log(`${zone}: ${rule.expression} → ${TARGET}{path} (301)${others.length ? `, plus ${others.length} reguli existente păstrate` : ''}`);
   if (!APPLY) continue;
   const res = await api(`/zones/${zoneId}/rulesets/phases/http_request_dynamic_redirect/entrypoint`, {
     method: 'PUT',
-    body: JSON.stringify({ rules: [...others.map(({ id, version, last_updated, ...r }) => r), rule] }),
+    body: JSON.stringify({ rules: [...others.map(({ id, version, last_updated, ...r }) => r), rule, ...extraRules] }),
   });
   if (!res.success) throw new Error(`${zone}: ${JSON.stringify(res.errors)}`);
   console.log(`  ✓ scris`);

@@ -154,6 +154,13 @@ if (TABLE) {
     const nd = JSON.parse(line);
     info.rows++;
     seenIds.add(nd.portalId);
+    // Forme consolidate (sau republicate) ale altui act, nu publicări: pagina lor numește alt id. Cele încă neverificate pe
+    // pagina lor (suspectConsolidation) stau și ele deoparte până le lămurește coada de texte de pe NAS. Id-ul rămâne în
+    // seenIds, ca să nu revină din listele pe zile.
+    if (nd.consolidationOf || nd.suspectConsolidation) {
+      info.consolidations = (info.consolidations ?? 0) + 1;
+      continue;
+    }
     const part = nd.mo?.part ?? null;
     // Buletinul Oficial (înainte de 1990) și broșurile: în afara zidului, doar numărate în notă.
     if (part === 'BO' || part === 'Broşură' || part === 'Broșură') {

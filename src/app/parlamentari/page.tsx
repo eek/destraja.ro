@@ -34,7 +34,7 @@ export default async function MpsPage() {
         <MpDirectory mpStats={mpStats} levels={levels} withEmail={withEmail} />
       </div>
       <p className="mt-8 max-w-2xl text-xs leading-5 text-muted">
-        Semnătura pe un proiect arată doar cine l-a inițiat, nu cum va vota. Lista cuprinde inițiatorii proiectelor din consultarea publică a Senatului și ai proiectelor din 2026 de la Camera Deputaților pe care le-am analizat; proiectele Guvernului nu au semnături de parlamentari.
+        Semnătura pe un proiect arată doar cine l-a inițiat, nu cum va vota. Lista cuprinde inițiatorii proiectelor din consultarea publică a Senatului și ai proiectelor din 2026 de la Camera Deputaților pe care le-am analizat; proiectele Guvernului nu au semnături de parlamentari. Pe pagina fiecăruia găsești și restul proiectelor pe care le-a semnat, inclusiv cele neanalizate și cele din mandatul de dinainte.
       </p>
     </Container>
   );

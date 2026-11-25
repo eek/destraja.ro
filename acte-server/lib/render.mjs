@@ -140,7 +140,14 @@ function otherEnd(g, r, dir) {
   return a ? html`<a class="${C.quiet}" href="${actPath(a)}">${a.cite}</a>` : html`<span>${r.to_cite || 'un act necunoscut'}</span>`;
 }
 
-const unitsText = (r) => (r.units_raw ? ` ${r.units_raw.replace(/^ART\./i, 'art.').replace(/^ANEXA/i, 'anexa')}` : '');
+// Unitățile, dacă nu sunt deja în citarea brută afișată ca text („LEGE (R) 215 23/04/2001 ART. 90”).
+const unitsText = (r) => {
+  if (!r.units_raw) return '';
+  const shownAsText = r.target_ambiguous || r.to_id == null;
+  if (shownAsText && r.to_cite && r.to_cite.toUpperCase().includes(r.units_raw.toUpperCase())) return '';
+  return ` ${r.units_raw.replace(/^ART\./i, 'art.').replace(/^ANEXA/i, 'anexa')}`;
+};
+const capFirst = (t) => (t ? t[0].toUpperCase() + t.slice(1) : t);
 const dateCell = (r) => html`<span class="w-28 shrink-0 text-sm tabular-nums text-muted">${r.published_on ? dateRo(r.published_on) : 'dată necunoscută'}</span>`;
 
 /** Butonul „semnalează” de lângă o legătură; ascuns fără JavaScript (îl arată acte-report.js). */
@@ -208,7 +215,7 @@ function unconfirmedRow(g, r, dir) {
   const src = sourcesOf(g, r);
   return html`<li class="flex flex-col gap-1 border-b border-dashed border-line py-3 last:border-0 sm:flex-row sm:gap-4">
   ${dateCell(r)}
-  <span class="text-[15px] leading-7 text-body">${src.length ? src.join(' și ') : 'O sursă'} ${src.length > 1 ? 'listează' : 'listează'} o legătură de tip „${noun}” ${dir === 'in' ? html`de la ${otherEnd(g, r, 'in')}` : html`spre ${otherEnd(g, r, 'out')}`}${unitsText(r)}.
+  <span class="text-[15px] leading-7 text-body">${src.length ? capFirst(src.join(' și ')) : 'O sursă'} listează o legătură de tip „${noun}” ${dir === 'in' ? html`de la ${otherEnd(g, r, 'in')}` : html`spre ${otherEnd(g, r, 'out')}`}${unitsText(r)}.
   <span class="ml-1 text-sm text-muted">(${CONF_LABEL[conf] || 'neconfirmată'})</span>${reportButton(g, r, dir)}</span>
 </li>`;
 }
@@ -395,7 +402,7 @@ export function actPage(tpl, g, act) {
   const totalIn = Object.values(counts.incoming).reduce((a, b) => a + b, 0);
   const totalOut = Object.values(counts.outgoing).reduce((a, b) => a + b, 0);
   const pubs = g.publications(act.id).filter((p) => p.kind === 'republicare' || p.kind === 'rectificare');
-  const mentions = g.mentionsIn(act.id, 12);
+  const mentions = [...new Map(g.mentionsIn(act.id, 40).map((m) => [m.from_id, m])).values()].slice(0, 12);
   const code = act.code_of ? g.byId(act.code_of) : null;
   const sentence = counterSentence(g, act, st);
   const latest = act.latest_form_id ? g.version(act.latest_form_id) : null;
@@ -454,7 +461,9 @@ function renderTextSection(g, act, { base, page = null }) {
   const doc = g.docShallow(t.doc);
   const pages = paginate(doc.items || []);
   const p = page ?? 1;
-  const items = page == null && pages.length > 1 ? [] : g.resolveItems(pages[p - 1] || []);
+  // Pe pagina actului, un text mai lung decât o pagină (sau o singură unitate uriașă, ca o anexă de 3 MB) rămâne pe /text.
+  const long = pages.length > 1 || t.chars > PAGE_CHARS;
+  const items = page == null && long ? [] : g.resolveItems(pages[p - 1] || []);
   const nav =
     pages.length > 1
       ? html`<nav aria-label="Paginile textului" class="mt-6 flex flex-wrap gap-2 text-sm">${pages.map((_, i) =>
@@ -465,7 +474,7 @@ function renderTextSection(g, act, { base, page = null }) {
 ${head}
 <p class="mt-3 ${C.muted}">${textLabel(act, doc.kind, null)}${t.origin === 'scriptogre' ? ' Textul vine dintr-o copie publică a portalului (romanian-law-data).' : ''}</p>
 ${completenessNotes(doc)}
-${page == null && pages.length > 1 ? html`<p class="mt-3 text-[15px] text-body">Textul are ${countWord(pages.length, 'pagină', 'pagini')}. <a class="${C.link}" href="${actPath(act, '/text')}">Citește-l pe pagini</a>.</p>${toc(doc.items, actPath(act, '/text'))}` : html`${toc(items, '')}${nav}
+${page == null && long ? html`<p class="mt-3 text-[15px] text-body">Textul are ${t.chars.toLocaleString('ro-RO')} de caractere${pages.length > 1 ? `, pe ${countWord(pages.length, 'pagină', 'pagini')}` : ''}. <a class="${C.link}" href="${actPath(act, '/text')}">Citește-l pe pagini</a>.</p>${toc(doc.items, actPath(act, '/text'))}` : html`${toc(items, '')}${nav}
 <div class="mt-6">${renderItems(items)}</div>${nav}`}
 </section>`;
 }

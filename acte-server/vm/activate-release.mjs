@@ -122,7 +122,8 @@ async function smoke(relDir, dataDir, checks, label) {
       up = h.status === 200 && JSON.parse(h.body || '{}').ok === true;
       if (child.exitCode != null) break;
     }
-    if (!up) throw new Reject('smoke', `${label}: serverul nu pornește sau nu are date: ${stderr.trim().split('\n').slice(-3).join(' | ')}`);
+    const why = stderr.split('\n').find((l) => /Error|eroare|nu se deschide/i.test(l)) || stderr.trim().split('\n').slice(-1)[0] || '';
+    if (!up) throw new Reject('smoke', `${label}: serverul nu pornește sau nu are date: ${why.trim().slice(0, 300)}`);
     const results = [];
     for (const c of checks) {
       const t0 = Date.now();

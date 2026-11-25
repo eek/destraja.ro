@@ -141,7 +141,8 @@ const manifest = {
   commit,
   dirty,
   built_at: new Date().toISOString(),
-  data_schema: SCHEMA_SUPPORTED,
+  // --data-schema 2-2: doar pentru repetiția unei versiuni incompatibile (activarea trebuie s-o refuze).
+  data_schema: opt('--data-schema') ? { min: Number(opt('--data-schema').split('-')[0]), max: Number(opt('--data-schema').split('-')[1]) } : SCHEMA_SUPPORTED,
   node: '24',
   sitemap_kinds: ['lege', 'oug', 'og', 'cod', 'decret-lege'],
   // Până la porțile de lansare (0.9): noindex peste tot, sitemap gol. --launch îl pornește.

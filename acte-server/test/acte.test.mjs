@@ -393,6 +393,11 @@ test('activare: o generație bună trece; încărcarea incompletă, schema și n
   assert.equal(st.live.generation, 7);
   assert.equal(st.previous.generation, 1);
   assert.deepEqual(fs.readdirSync(path.join(root, 'data')).filter((d) => d.startsWith('gen-')).sort(), ['gen-1', 'gen-7']);
+  // Înapoi la generația anterioară, apoi nimic mai vechi de atât.
+  const rb = activate(root, 'rollback');
+  assert.equal(rb.code, 0, JSON.stringify(rb));
+  assert.equal(fs.readlinkSync(path.join(root, 'data', 'current')), 'gen-1');
+  assert.equal(activate(root, 'rollback').code, 1);
 });
 
 test('activare: un caz golden picat respinge generația și numește cazul', () => {

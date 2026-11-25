@@ -386,7 +386,50 @@ function cleanup(current) {
       if (!f.endsWith('.sha256')) removed.push(`blobs/${f}`);
     }
   }
+  // Fragmentele urcate pentru generații respinse rămân în incoming pentru o reîncercare; după 3 zile pleacă.
+  const inc = path.join(INCOMING, 'blobs');
+  for (const f of fs.existsSync(inc) ? fs.readdirSync(inc) : []) {
+    const p = path.join(inc, f);
+    if (Date.now() - fs.statSync(p).mtimeMs > 3 * 864e5) {
+      fs.rmSync(p, { force: true });
+      removed.push(`incoming/blobs/${f}`);
+    }
+  }
   return removed;
+}
+
+/** Înapoi la generația anterioară păstrată (după o problemă văzută abia pe pagini). Verifică doar că se deschide și
+ * că schema e suportată; integritatea a fost verificată la activarea ei. */
+function rollback() {
+  const live = liveGeneration();
+  if (!live) throw new Reject('rollback', 'nu există o generație activă');
+  const prev = fs
+    .readdirSync(DATA)
+    .map((d) => /^gen-(\d+)$/.exec(d))
+    .filter(Boolean)
+    .map((x) => Number(x[1]))
+    .filter((g) => g < live.manifest.generation)
+    .sort((a, b) => b - a)[0];
+  if (!prev) throw new Reject('rollback', 'nu există o generație anterioară păstrată');
+  const dir = path.join(DATA, `gen-${prev}`);
+  const m = readJson(path.join(dir, 'manifest.json'));
+  const range = releaseRange();
+  if (!m || !(m.schema >= range.min && m.schema <= range.max)) throw new Reject('schema', `generația ${prev} are schema ${m?.schema}, versiunea activă suportă ${range.min}–${range.max}`);
+  const db = ro(path.join(dir, 'meta.sqlite'));
+  try {
+    const g = Number(db.prepare("SELECT value FROM meta WHERE key = 'generation'").get()?.value);
+    if (g !== prev) throw new Reject('rollback', `gen-${prev}/meta.sqlite spune generația ${g}`);
+  } finally {
+    db.close();
+  }
+  for (const sh of m.shards || []) if (!fs.existsSync(path.join(BLOBS, shardName(sh.seq)))) throw new Reject('rollback', `lipsește fragmentul ${sh.seq}`);
+  const tmpLink = path.join(DATA, '.current.tmp');
+  fs.rmSync(tmpLink, { force: true });
+  fs.symlinkSync(`gen-${prev}`, tmpLink);
+  fs.renameSync(tmpLink, path.join(DATA, 'current'));
+  const now = new Date().toISOString();
+  writeStatus({ live: { generation: prev, data_date: m.data_date, schema: m.schema, activated_at: now, counts: m.counts, rollback_from: live.manifest.generation }, last_attempt: { rollback: true, ok: true, at: now } });
+  return { ok: true, rollback: true, generation: prev, from: live.manifest.generation };
 }
 
 function discard(n) {
@@ -398,6 +441,17 @@ function discard(n) {
 const [verb, arg] = process.argv.slice(2);
 const n = Number(arg);
 if (verb === 'status') out(readJson(STATUS, { live: null }), 0);
+if (verb === 'rollback') {
+  if (!lock()) out({ ok: false, step: 'lock', error: 'altă activare rulează acum' }, 2);
+  try {
+    const r = rollback();
+    unlock();
+    out(r, 0);
+  } catch (e) {
+    unlock();
+    out({ ok: false, step: e.step || 'rollback', error: e.message }, e.code || 1);
+  }
+}
 if (!['activate', 'discard'].includes(verb) || !Number.isInteger(n) || n < 1 || String(n) !== arg) out({ ok: false, step: 'usage', error: 'activate <n> | status | discard <n>' }, 3);
 if (!lock()) out({ ok: false, step: 'lock', error: 'altă activare rulează acum' }, 2);
 try {

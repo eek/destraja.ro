@@ -80,6 +80,11 @@ try {
   fs.unlinkSync(path.join(fx.dataDir, 'current'));
 } catch {}
 
+// 3a. Scriptul formularului de raportare și cheia publică Turnstile a site-ului (src/lib/site.ts).
+fs.mkdirSync(path.join(outDir, 'static'), { recursive: true });
+fs.copyFileSync(path.join(ACTE, 'public', 'acte-report.js'), path.join(outDir, 'static', 'acte-report.js'));
+const sitekey = /TURNSTILE_SITEKEY\s*=\s*'([^']+)'/.exec(fs.readFileSync(path.join(REPO, 'src', 'lib', 'site.ts'), 'utf8'))?.[1] ?? null;
+
 // 3b. Cazurile golden (monitorul-oficial docs/acte/golden.json) și lista contestată (contract §3.5).
 const moDir = process.env.MO_DIR || path.join(os.homedir(), 'work', 'monitorul-oficial');
 const goldenSrc = path.join(moDir, 'docs', 'acte', 'golden.json');
@@ -141,10 +146,28 @@ const manifest = {
   sitemap_kinds: ['lege', 'oug', 'og', 'cod', 'decret-lege'],
   // Până la porțile de lansare (0.9): noindex peste tot, sitemap gol. --launch îl pornește.
   launched: args.includes('--launch'),
+  // Formularele de raportare apar doar cu cheia reală (cea de test, 1x0000…, e doar pentru dezvoltare).
+  // --reports: doar după ce /api/report/act (worker/act-report.ts) și migrația 0008 sunt publicate pe destraja.ro.
+  turnstile_sitekey: args.includes('--reports') && sitekey && !sitekey.startsWith('1x0000') ? sitekey : null,
   files,
 };
 fs.writeFileSync(path.join(outDir, 'manifest.json'), `${JSON.stringify(manifest, null, 1)}\n`);
 const total = Object.values(files).reduce((n, f) => n + f.bytes, 0);
+// Amprenta conținutului (fără id și oră): --if-changed nu urcă nimic dacă e aceeași cu a ultimei versiuni activate.
+const digest = crypto.createHash('sha256').update(JSON.stringify([Object.entries(files).sort(), manifest.launched, manifest.turnstile_sitekey, manifest.data_schema])).digest('hex');
+const LAST = path.join(REPO, '.cache', 'acte', 'last-release.json');
+const last = (() => {
+  try {
+    return JSON.parse(fs.readFileSync(LAST, 'utf8'));
+  } catch {
+    return null;
+  }
+})();
+if (args.includes('--if-changed') && last?.digest === digest) {
+  console.log(`[release] nimic nou față de ${last.id}; nu urc`);
+  fs.rmSync(outDir, { recursive: true, force: true });
+  process.exit(0);
+}
 console.log(`[release] ${id}: ${Object.keys(files).length} fișiere, ${(total / 1024).toFixed(0)} KB (șablon ${tpl.bytes} B, ${tpl.assets.length} fișiere statice) în ${path.relative(REPO, outDir)}`);
 if (args.includes('--no-push')) process.exit(0);
 
@@ -156,4 +179,11 @@ if (rs.status !== 0) {
 }
 const act = ssh(`activate ${id}`);
 console.log(JSON.stringify(act.json ?? { stdout: act.stdout, stderr: act.stderr }, null, 1));
+if (act.code === 0 && act.json?.ok) {
+  fs.mkdirSync(path.dirname(LAST), { recursive: true });
+  fs.writeFileSync(LAST, `${JSON.stringify({ id, digest, at: new Date().toISOString() })}\n`);
+  // Păstrăm local doar ultimele 5 pachete.
+  const builds = fs.readdirSync(path.join(ACTE, '.build')).filter((d) => d.startsWith('rel-')).map((d) => [d, fs.statSync(path.join(ACTE, '.build', d)).mtimeMs]).sort((a, b) => b[1] - a[1]);
+  for (const [d] of builds.slice(5)) fs.rmSync(path.join(ACTE, '.build', d), { recursive: true, force: true });
+}
 process.exit(act.code ?? 1);

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Container } from '@/components/ui';
 import AdminReports from '@/components/admin/AdminReports';
+import AdminActReports from '@/components/admin/AdminActReports';
 
 // Panoul rapoartelor cititorilor. Pagina e statică și goală: datele vin din /api/admin/*, după Cloudflare Access și
 // verificarea JWT-ului în Worker (worker/access.ts). Nu are link de pe site și nu se indexează.
@@ -15,6 +16,7 @@ export default function AdminReportsPage() {
       <p className="text-xs font-semibold uppercase tracking-[0.12em] text-muted">Administrare</p>
       <h1 className="mt-2 font-display text-[clamp(2rem,4vw,2.8rem)] font-normal leading-[1.08]">Rapoartele cititorilor</h1>
       <AdminReports />
+      <AdminActReports />
     </Container>
   );
 }

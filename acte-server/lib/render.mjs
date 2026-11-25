@@ -143,6 +143,48 @@ function otherEnd(g, r, dir) {
 const unitsText = (r) => (r.units_raw ? ` ${r.units_raw.replace(/^ART\./i, 'art.').replace(/^ANEXA/i, 'anexa')}` : '');
 const dateCell = (r) => html`<span class="w-28 shrink-0 text-sm tabular-nums text-muted">${r.published_on ? dateRo(r.published_on) : 'dată necunoscută'}</span>`;
 
+/** Butonul „semnalează” de lângă o legătură; ascuns fără JavaScript (îl arată acte-report.js). */
+function reportButton(g, r, dir) {
+  if (!SITEKEY) return '';
+  const other = dir === 'in' ? g.byId(r.from_id)?.cite : r.target_ambiguous || r.to_id == null ? r.to_cite : g.byId(r.to_id)?.cite;
+  const label = `${(EFFECT[r.effect] || EFFECT.alta).noun}${other ? `, ${dir === 'in' ? 'de la' : 'spre'} ${other}` : ''}${r.units_raw ? `, ${r.units_raw}` : ''}`;
+  return html`<button type="button" hidden data-report-rel="${r.id}" data-report-label="${label}" class="ml-2 text-xs text-muted underline underline-offset-4 hover:text-ink">semnalează</button>`;
+}
+
+/** Formularul „Raportează o greșeală” (contract §3.5); trimiterea o face /_static/acte-report.js. */
+function reportForm(g, act) {
+  if (!SITEKEY) return '';
+  return html`<details id="raporteaza" class="mt-10 rounded-xl border border-line bg-surface p-4 sm:p-5" data-act="${act.slug}" data-generation="${g.generation}" data-sitekey="${SITEKEY}">
+  <summary class="cursor-pointer text-[15px] font-semibold text-ink">Raportează o greșeală</summary>
+  <form class="mt-4 max-w-2xl space-y-4" novalidate>
+    <p data-report-about class="text-sm text-muted">Despre ${act.cite}.</p>
+    <input type="hidden" name="relation" value="">
+    <label class="block text-sm text-ink">Ce e greșit? <span class="text-muted">(opțional)</span>
+      <select name="type" class="mt-1 block h-11 w-full rounded-lg border border-line-strong bg-surface px-3 text-[15px] text-ink">
+        <option value="">Alege</option>
+        <option value="stare">Starea actului (abrogat, în vigoare)</option>
+        <option value="modificare">O modificare lipsă sau greșită</option>
+        <option value="legatura">O legătură spre alt act</option>
+        <option value="text">Textul</option>
+        <option value="altceva">Altceva</option>
+      </select>
+    </label>
+    <label class="block text-sm text-ink">Descrie pe scurt ce ai găsit
+      <textarea name="comment" rows="4" maxlength="1000" class="mt-1 block w-full rounded-lg border border-line-strong bg-surface px-3 py-2 text-[15px] text-ink"></textarea>
+    </label>
+    <div data-turnstile></div>
+    <div class="flex flex-wrap items-center gap-3">
+      <button type="submit" class="${C.btn}">Trimite raportul</button>
+      <button type="button" data-report-reset class="text-sm text-muted underline underline-offset-4">despre tot actul</button>
+    </div>
+    <p data-report-status role="status" class="text-sm text-body"></p>
+    <noscript><p class="text-sm text-muted">Formularul are nevoie de JavaScript pentru verificarea anti-roboți. Ne poți scrie la contact@destraja.ro.</p></noscript>
+    <p class="text-xs leading-5 text-muted">Nu păstrăm adresa IP. Până verificăm raportul, legătura semnalată nu mai intră în numărătoarea modificărilor.</p>
+  </form>
+</details>
+<script src="/_static/acte-report.js" defer></script>`;
+}
+
 /** O relație confirmată: verb la indicativ („modifică”). */
 function relationRow(g, r, dir) {
   const via = r.via_id ? g.byId(r.via_id) : null;
@@ -153,7 +195,7 @@ function relationRow(g, r, dir) {
     dir === 'in'
       ? html`${otherEnd(g, r, 'in')} ${effectVerb(r.effect)}${scope}${unitsText(r)}${via ? html` (prin ${refLink(g, via.id)})` : ''}`
       : html`${effectVerb(r.effect)}${scope} ${otherEnd(g, r, 'out')}${unitsText(r)}`
-  }</span>
+  }${reportButton(g, r, dir)}</span>
 </li>`;
 }
 
@@ -167,7 +209,7 @@ function unconfirmedRow(g, r, dir) {
   return html`<li class="flex flex-col gap-1 border-b border-dashed border-line py-3 last:border-0 sm:flex-row sm:gap-4">
   ${dateCell(r)}
   <span class="text-[15px] leading-7 text-body">${src.length ? src.join(' și ') : 'O sursă'} ${src.length > 1 ? 'listează' : 'listează'} o legătură de tip „${noun}” ${dir === 'in' ? html`de la ${otherEnd(g, r, 'in')}` : html`spre ${otherEnd(g, r, 'out')}`}${unitsText(r)}.
-  <span class="ml-1 text-sm text-muted">(${CONF_LABEL[conf] || 'neconfirmată'})</span></span>
+  <span class="ml-1 text-sm text-muted">(${CONF_LABEL[conf] || 'neconfirmată'})</span>${reportButton(g, r, dir)}</span>
 </li>`;
 }
 
@@ -314,8 +356,10 @@ function jsonLd(g, act, st) {
 const INDEX_KINDS = new Set(['lege', 'oug', 'og', 'hg', 'decret-lege', 'cod', 'decizie-ccr', 'decizie-iccj', 'decizie-iccj-ril', 'decizie-iccj-hp', 'ordin']);
 // Până la lansare (porțile 0.9), versiunea spune launched: false și nimic nu se indexează.
 let LAUNCHED = false;
-export const configure = ({ launched }) => {
+let SITEKEY = null;
+export const configure = ({ launched, sitekey }) => {
   LAUNCHED = !!launched;
+  if (sitekey !== undefined) SITEKEY = sitekey;
 };
 export const isLaunched = () => LAUNCHED;
 export function robotsFor(act) {
@@ -383,6 +427,7 @@ ${moreAll ? html`<p class="mt-4"><a class="${C.link}" href="${actPath(act, '/mod
 ${pubs.length ? html`<section class="mt-10"><h2 class="${C.h2}">Republicări și rectificări</h2><ul class="mt-4 space-y-1 text-[15px] text-body">${pubs.map((p) => html`<li>${p.kind === 'republicare' ? 'Republicat' : 'Rectificare'}: ${moLine(act, p) || `portal ${p.portal_id}`}</li>`)}</ul></section>` : ''}
 ${mentions.length ? html`<section class="mt-10"><h2 class="${C.h2}">Menționat în</h2><ul class="mt-4 space-y-1 text-[15px]">${mentions.map((m) => html`<li>${refLink(g, m.from_id)}</li>`)}</ul></section>` : ''}
 ${textSection}
+${reportForm(g, act)}
 ${footerNote(g, flags.includes('suspect_consolidation') ? html`<p class="mt-2">Rândul acesta poate fi o formă consolidată listată ca act; nu e verificat încă.</p>` : '')}
 </article>
 </div>`;

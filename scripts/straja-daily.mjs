@@ -72,6 +72,8 @@ const LOCK = path.join(ROOT, 'ops', 'daily.lock');
 const PUBLISH_PAUSE = path.join(ROOT, '.cache', 'publish-paused');
 const ANUNT_FILE = path.join(ROOT, '.cache', 'digest-anunt');
 const AGENDA_VM = path.join(ROOT, '.cache', 'agenda-vm');
+// Pornește pasul paginilor de acte (acte-server/tools/release.mjs); conține opțiunile lui, de exemplu „--reports”.
+const ACTE_RELEASE = path.join(ROOT, '.cache', 'acte-release');
 // Setul de date despre Monitorul Oficial (indexul Portalului Legislativ), citit de scripts/straja-mo.mjs.
 const MO_SAMPLES = path.join(process.env.MO_DIR || path.join(process.env.HOME ?? '', 'work', 'monitorul-oficial'), 'samples');
 // Jobul de la 10 minute care verifică rapoartele cititorilor (scripts/straja-reports-job.mjs); așteptăm să termine.
@@ -605,6 +607,16 @@ async function main() {
       const deploy = build.ok ? await step('Publicare', 'npx', ['wrangler', 'deploy']) : { ok: false };
       if (deploy.ok) summary.push('publicat');
       else fail('NEPUBLICAT');
+      // Paginile actelor (acte.destraja.ro, serverul de pe VM-ul NAS-ului): lista contestată din rapoartele cititorilor
+      // și versiunea serverului din build-ul de azi, doar dacă s-a schimbat ceva. Pornit de .cache/acte-release (opțiunile
+      // lui release.mjs, de exemplu „--reports”); fără fișier pasul lipsește. Un eșec lasă versiunea de ieri pe VM.
+      if (build.ok && fs.existsSync(ACTE_RELEASE)) {
+        const contested = await step('Acte: rapoarte contestate', 'node', ['scripts/acte-contested.mjs'], { timeoutMs: 300_000 });
+        if (!contested.ok) fail('acte: lista contestată n-a fost reînnoită (rămâne cea de ieri)');
+        const opts = fs.readFileSync(ACTE_RELEASE, 'utf8').split(/\s+/).filter((o) => /^--[a-z-]+$/.test(o));
+        const release = await step('Acte: versiunea serverului', 'node', ['acte-server/tools/release.mjs', '--if-changed', ...opts], { timeoutMs: 1_200_000 });
+        if (!release.ok) fail('acte: versiunea nouă a serverului n-a trecut (rămâne cea veche)');
+      }
       // Linkurile din e-mail duc la paginile abia publicate; fără publicare nu trimitem nimic.
       if (deploy.ok) {
         const results = await step('Rezultatele rapoartelor', 'node', ['scripts/straja-reports.mjs', '--notify']);

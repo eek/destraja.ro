@@ -1,5 +1,6 @@
 // Panoul rapoartelor (/admin/rapoarte): rutele /api/admin/*, după requireAdmin din access.ts.
 //
+// GET  /api/admin/act-reports          rapoartele despre acte (act-report.ts); POST /api/admin/act-reports/<id> le schimbă statusul
 // GET  /api/admin/reports              lista, cele mai noi primele; filtre: status, bill, from, to (zile AAAA-LL-ZZ, ora UTC),
 //                                      cursor (din răspunsul anterior); plus numărul de rapoarte pe fiecare status
 // GET  /api/admin/reports/<id>         un raport, cu textul întreg, verificarea automată și nota
@@ -14,6 +15,7 @@
 
 import { json, readSiteJson } from './http';
 import type { AdminUser } from './access';
+import { listActReports, updateActReport } from './act-report';
 
 const STATUSES = ['new', 'review', 'fixed', 'rejected', 'spam'] as const;
 type Status = (typeof STATUSES)[number];
@@ -194,6 +196,9 @@ export async function handleAdmin(request: Request, env: Env, url: URL, user: Ad
     if (request.method === 'POST') return update(request, env, url, m[1], user);
     return new Response(null, { status: 405, headers: { allow: 'GET, POST' } });
   }
+  if (path === '/api/admin/act-reports' && request.method === 'GET') return listActReports(env, url);
+  const am = path.match(/^\/api\/admin\/act-reports\/([0-9a-f-]{36})$/);
+  if (am && request.method === 'POST') return updateActReport(request, env, url, am[1], user.email);
   if (path === '/api/admin/me' && request.method === 'GET') return json({ email: user.email });
   return json({ error: 'not_found' }, 404);
 }

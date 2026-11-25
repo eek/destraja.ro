@@ -491,7 +491,7 @@ export function loadRelease(dir) {
     }
   };
   const manifest = JSON.parse(read('manifest.json', '{}'));
-  R.configure({ launched: manifest.launched === true });
+  R.configure({ launched: manifest.launched === true, sitekey: manifest.turnstile_sitekey || null });
   // Lista contestată (contract §3.5): lipsa ei înseamnă „nimic contestat”, dar un fișier stricat oprește pornirea.
   const contestedRaw = read('contested.json', null);
   const contested = contestedRaw ? JSON.parse(contestedRaw) : { relations: [], acts: [] };
@@ -504,11 +504,12 @@ export function loadRelease(dir) {
   }
   const csp = [
     "default-src 'self'",
-    `script-src 'self'${hashes.length ? ` ${hashes.join(' ')}` : ''}`,
+    `script-src 'self' https://challenges.cloudflare.com${hashes.length ? ` ${hashes.join(' ')}` : ''}`,
+    'frame-src https://challenges.cloudflare.com',
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: https://destraja.ro",
     "font-src 'self'",
-    "connect-src 'self'",
+    "connect-src 'self' https://destraja.ro",
     "form-action 'self'",
     "base-uri 'none'",
     "frame-ancestors 'none'",

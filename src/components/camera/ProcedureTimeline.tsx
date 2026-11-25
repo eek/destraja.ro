@@ -92,7 +92,7 @@ function Summary({ timeline, docs, hasReport }: { timeline: Row[]; docs: Committ
     s.counts.favorabil_cu_amendamente && plural(s.counts.favorabil_cu_amendamente, 'favorabil cu amendamente', 'favorabile cu amendamente'),
     s.counts.negativ && plural(s.counts.negativ, 'negativ', 'negative'),
     s.counts.neclar && plural(s.counts.neclar, 'cu verdict necunoscut', 'cu verdict necunoscut'),
-    s.unread && plural(s.unread, 'încă necitit', 'încă necitite'),
+    s.unread && plural(s.unread, 'primit, încă necitit', 'primite, încă necitite'),
   ].filter(Boolean) as string[];
   // După raport, comisiile care n-au răspuns nu mai sunt așteptate: comisia de raport a putut decide fără ele.
   const waiting = s.waiting.length ? (hasReport ? `${s.waiting.length === 1 ? 'o comisie' : `${s.waiting.length} comisii`} fără aviz până la raport` : plural(s.waiting.length, 'așteptat', 'așteptate')) : null;

@@ -294,7 +294,9 @@ const LUNA = Object.fromEntries(LUNI.map((l, i) => [l, i + 1]));
 /** Propoziția din `text` în jurul pozițiilor [a, b), cel mult ~320 de caractere, pe un rând. */
 function sentenceAround(text, a, b) {
   const before = text.slice(Math.max(0, a - 260), a);
-  const cut = Math.max(before.lastIndexOf('. '), before.lastIndexOf('\n\n'), before.lastIndexOf(';'));
+  // Și înaintea începuturilor obișnuite de frază: unele avize pierd punctul la capăt de rând („… legislative În urma …”).
+  const starts = [...before.matchAll(/\s(?=(În urma|Membrii|Urmare a|În ședința|Comisia a hotărât)\b)/g)].map((m) => m.index);
+  const cut = Math.max(before.lastIndexOf('. '), before.lastIndexOf('\n\n'), before.lastIndexOf(';'), starts.at(-1) ?? -1);
   let from = a - before.length + (cut >= 0 ? cut + 1 : 0);
   const after = text.slice(b, b + 220);
   const end = after.search(/\.(\s|$)|\n\n|;/);

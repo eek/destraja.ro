@@ -104,6 +104,10 @@ const FAQ = [
     a: 'Din documentele oficiale de pe fișa proiectului: punctul de vedere al Guvernului, raportul comisiei care face raportul, avizul Consiliului Legislativ și opinia Consiliului Fiscal. ChatGPT (sau Gemini, dacă ChatGPT nu răspunde) le rezumă: verdictul și una până la trei observații. Păstrăm verdictul și fiecare observație doar dacă citatul lor apare cuvânt cu cuvânt în document; altfel scriem „neclar”. Verdictul raportului îl luăm direct din fișă, fără model.',
   },
   {
+    q: 'Cum citiți avizele comisiilor Camerei?',
+    a: 'În derularea procedurii, fiecare rând „primire aviz de la” are lângă comisie PDF-ul avizului. Îl descărcăm de pe cdep.ro (cel mult o cerere pe minut) și căutăm în cod, fără model, formula comisiei: aviz favorabil, favorabil cu amendamente sau negativ, plus votul, dacă e scris. Lângă verdict arătăm propoziția din document care îl conține. Când nu găsim formula, scriem „necunoscut”; un aviz pe care nu l-am descărcat încă are doar linkul. Avizele sunt consultative: comisia care face raportul ține cont de ele, apoi plenul votează.',
+  },
+  {
     q: 'Ce e „Ce e bine și ce strică”?',
     a: 'Pentru fiecare proiect, Gemini scoate prevederile bune și problemele din text, fiecare cu articolul și cu un citat verificat cuvânt cu cuvânt, plus schimbarea care l-ar face acceptabil. Lista se reface când se schimbă textul proiectului sau scorul lui.',
   },

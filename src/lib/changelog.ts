@@ -47,6 +47,13 @@ export const CHANGELOG: ChangeDay[] = [
         link: { href: '/monitorul-oficial/inainte-de-1990', label: 'Înainte de 1990' },
         shot: { id: '2026-11-25-inainte-de-1990', alt: 'Pagina „Înainte de 1990”: titlul „4.572 de acte păstrate, din 1837 până în decembrie 1989”, trei cifre pe scurt (cel mai vechi act, din 1837; 1.824 de acte din anii ’70; 225 de acte marcate „nepublicat”).' },
       },
+      {
+        kind: 'nou',
+        title: 'Ce aviz a dat fiecare comisie',
+        text: 'În derularea procedurii unui proiect de la Camera Deputaților, rândurile „primire aviz de la” spun acum ce a hotărât comisia: favorabil, favorabil cu amendamente sau negativ, cu votul, dacă e scris, și cu linkul la PDF-ul avizului. „Ce scrie în aviz” arată propoziția din document. Deasupra, un bilanț: câte avize favorabile, câte negative și ce comisii nu au răspuns încă. Avizele sunt consultative: comisia care face raportul decide ce propune, iar plenul votează. Le citim treptat, întâi la proiectele aflate încă în dezbatere.',
+        link: { href: '/camera/plx-697-2026', label: 'Un exemplu: Pl-x 697/2026' },
+        shot: { id: '2026-11-25-avize-comisii', alt: 'Derularea procedurii pentru Pl-x 697/2026: bilanțul avizelor comisiilor deasupra, apoi rândurile cu avize, fiecare cu eticheta Favorabil sau Negativ, votul și linkul la PDF pe cdep.ro.' },
+      },
     ],
   },
   {

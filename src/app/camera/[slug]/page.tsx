@@ -46,7 +46,8 @@ import { getRelatedActs, relatedCount } from '@/lib/related';
 import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
 import BillHappenings from '@/components/bills/BillHappenings';
 import ScoreTrajectory, { ScoreHistory, avizeOpinions } from '@/components/bills/ScoreTrajectory';
-import { getBillAvize } from '@/lib/avize';
+import { getBillAvize, getCommitteeAvize } from '@/lib/avize';
+import ProcedureTimeline from '@/components/camera/ProcedureTimeline';
 import { chamberHappenings, getBillHistory } from '@/lib/istoric';
 
 interface PageProps {
@@ -75,7 +76,7 @@ const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organ
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports, votes, related, avize] = await Promise.all([
+  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports, votes, related, avize, committeeAvize] = await Promise.all([
     getCdepBill(slug),
     getCdepAnalysis(slug),
     getCommittees(),
@@ -88,6 +89,7 @@ export default async function CameraBillPage({ params }: PageProps) {
     getBillVotes(slug),
     getRelatedActs({ camera: slug }),
     getBillAvize(slug),
+    getCommitteeAvize(slug),
   ]);
   const mpPages = amendments || votes ? await getMpPageSlugs() : new Set<string>();
   const comparing = !versions && versionsStatus?.pending.includes(slug);
@@ -444,20 +446,7 @@ export default async function CameraBillPage({ params }: PageProps) {
         )}
 
         {f.timeline.length > 0 && (
-          <section aria-labelledby="procedura" className="mt-12">
-            <h2 id="procedura" className="font-display text-2xl font-normal sm:text-3xl">
-              Derularea procedurii
-            </h2>
-            <ol className="mt-4 divide-y divide-line rounded-2xl border border-line bg-surface">
-              {f.timeline.map((t, i) => (
-                <li key={`${t.data}-${i}`} className="grid gap-1 px-5 py-3 text-sm sm:grid-cols-[7rem_9rem_minmax(0,1fr)] sm:gap-4">
-                  <span className="tabular-nums text-muted">{shortDate(iso(t.data))} {t.data.slice(-4)}</span>
-                  <span className="text-muted">{t.camera ?? ''}</span>
-                  <span className="text-body">{t.actiune}</span>
-                </li>
-              ))}
-            </ol>
-          </section>
+          <ProcedureTimeline timeline={f.timeline} docs={committeeAvize} sheetUrl={bill.url} billId={bill.numar} hasReport={status.hasReport} />
         )}
 
         <p className="mt-10 text-xs leading-5 text-muted">

@@ -1,0 +1,40 @@
+[Unit]
+Description=Paginile actelor destrajă.ro (127.0.0.1:8090, public prin tunelul destraja-search ca acte.destraja.ro)
+After=network.target
+ConditionPathExists=/srv/acte/release/current/server.mjs
+
+[Service]
+User=acte
+Group=acte
+# Calea trece prin legătura release/current: la fiecare repornire rulează versiunea activă.
+ExecStart=/opt/node/bin/node --disable-warning=ExperimentalWarning --max-old-space-size=640 /srv/acte/release/current/server.mjs --root /srv/acte --port 8090 --host 127.0.0.1
+# Serverul iese singur când vede o versiune nouă; systemd îl pornește din nou.
+Restart=always
+RestartSec=2
+Environment=NODE_ENV=production UV_THREADPOOL_SIZE=2
+StateDirectory=acte
+StateDirectoryMode=0700
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+RestrictNamespaces=yes
+LockPersonality=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+ReadOnlyPaths=/srv/acte
+# VM-ul e comun cu API-ul de căutare (cauta.destraja.ro): limite fixe, iar la lipsă de memorie pleacă întâi acesta.
+MemoryHigh=850M
+MemoryMax=1G
+CPUQuota=150%
+TasksMax=64
+LimitNOFILE=4096
+OOMScoreAdjust=300
+Nice=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,1119 @@
+{
+ "generatedAt": "2026-11-25T07:28:44.795Z",
+ "from": "data/mo.sqlite on the NAS (bin/acte-fixtures.mjs)",
+ "note": "Expected facts as the database holds them at generation time; texts in samples are cut to 1,500 characters.",
+ "cases": [
+  {
+   "case": "law-republished",
+   "about": "Law 95/2006 (health reform): base act, republished, many consolidated forms; snapshot ids point to it",
+   "ids": [
+    71139,
+    84137,
+    100118
+   ],
+   "sample": "samples/law-republished.json",
+   "expect": [
+    {
+     "portalId": 71139,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 95,
+     "year": 2006,
+     "designation": "LEGE nr. 95 din 14 aprilie 2006",
+     "mo": {
+      "part": "Partea I",
+      "number": 372,
+      "date": "2006-04-28"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 209,
+     "relationships": 1290
+    },
+    {
+     "portalId": 84137,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 95,
+     "year": 2006,
+     "designation": "Legea 95/2006",
+     "mo": {
+      "part": null,
+      "number": 372,
+      "date": "2006-04-28"
+     },
+     "consolidationOf": 71139,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 168
+    },
+    {
+     "portalId": 100118,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 95,
+     "year": 2006,
+     "designation": "Legea 95/2006",
+     "mo": {
+      "part": null,
+      "number": 372,
+      "date": "2006-04-28"
+     },
+     "consolidationOf": 71139,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "codul-fiscal",
+   "about": "Codul fiscal (Law 227/2015): a code with many consolidated versions",
+   "ids": [
+    171280
+   ],
+   "sample": "samples/codul-fiscal.json",
+   "expect": [
+    {
+     "portalId": 171280,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 227,
+     "year": 2015,
+     "designation": "LEGE nr. 227 din 8 septembrie 2015",
+     "mo": {
+      "part": "Partea I",
+      "number": 688,
+      "date": "2015-09-10"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 156,
+     "relationships": 420
+    }
+   ]
+  },
+  {
+   "case": "joint-order",
+   "about": "A joint order the portal files once per issuer, two ids and two numbers in one MO issue",
+   "ids": [
+    306515,
+    306516
+   ],
+   "sample": "samples/joint-order.json",
+   "expect": [
+    {
+     "portalId": 306515,
+     "inActs": true,
+     "type": "ORDIN",
+     "number": 12,
+     "year": 2026,
+     "designation": "ORDIN nr. 12 din 9 ianuarie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 38,
+      "date": "2026-01-20"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    },
+    {
+     "portalId": 306516,
+     "inActs": true,
+     "type": "ORDIN",
+     "number": 1,
+     "year": 2026,
+     "designation": "ORDIN nr. 1 din 9 ianuarie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 38,
+      "date": "2026-01-20"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "oug-and-approval-law",
+   "about": "OUG 109/2024 and Law 3/2026 approving it",
+   "ids": [
+    288278,
+    306261
+   ],
+   "sample": "samples/oug-and-approval-law.json",
+   "expect": [
+    {
+     "portalId": 288278,
+     "inActs": true,
+     "type": "ORD DE URGENTA",
+     "number": 109,
+     "year": 2024,
+     "designation": "ORDONANȚĂ DE URGENȚĂ nr. 109 din 11 septembrie 2024",
+     "mo": {
+      "part": "Partea I",
+      "number": 921,
+      "date": "2024-09-12"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 1,
+     "relationships": 4
+    },
+    {
+     "portalId": 306261,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 3,
+     "year": 2026,
+     "designation": "LEGE nr. 3 din 5 ianuarie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 3,
+      "date": "2026-01-05"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 1
+    }
+   ]
+  },
+  {
+   "case": "ccr-decision",
+   "about": "A Constitutional Court decision",
+   "ids": [
+    315708
+   ],
+   "sample": "samples/ccr-decision.json",
+   "expect": [
+    {
+     "portalId": 315708,
+     "inActs": true,
+     "type": "DECIZIE",
+     "number": 14,
+     "year": 2026,
+     "designation": "DECIZIA nr. 14 din 15 ianuarie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 891,
+      "date": "2026-10-23"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "rectification",
+   "about": "Rectifications published as their own items",
+   "ids": [
+    311910,
+    306553
+   ],
+   "sample": "samples/rectification.json",
+   "expect": [
+    {
+     "portalId": 311910,
+     "inActs": true,
+     "type": "RECTIFICARE",
+     "number": null,
+     "year": 2023,
+     "designation": "RECTIFICARE din 21 aprilie 2023",
+     "mo": {
+      "part": "Partea I",
+      "number": 533,
+      "date": "2026-06-29"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    },
+    {
+     "portalId": 306553,
+     "inActs": true,
+     "type": "RECTIFICARE",
+     "number": null,
+     "year": 2020,
+     "designation": "RECTIFICARE MSC.474(102) din 11 noiembrie 2020",
+     "mo": {
+      "part": "Partea I",
+      "number": 48,
+      "date": "2026-01-22"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "consolidation-snapshot",
+   "about": "An id that is a consolidated form of another act (consolidation_of), not a publication",
+   "ids": [
+    31657,
+    20415
+   ],
+   "sample": "samples/consolidation-snapshot.json",
+   "expect": [
+    {
+     "portalId": 31657,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 203,
+     "year": 1999,
+     "designation": "Legea 203/1999",
+     "mo": {
+      "part": null,
+      "number": 544,
+      "date": "2004-06-17"
+     },
+     "consolidationOf": 20415,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 1
+    },
+    {
+     "portalId": 20415,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 203,
+     "year": 1999,
+     "designation": "Legea 203/1999",
+     "mo": {
+      "part": null,
+      "number": 544,
+      "date": "2004-06-17"
+     },
+     "consolidationOf": null,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 6,
+     "relationships": 27
+    }
+   ]
+  },
+  {
+   "case": "bo-pre-1990",
+   "about": "A Buletinul Oficial act (republished decree, 1971)",
+   "ids": [
+    248
+   ],
+   "sample": "samples/bo-pre-1990.json",
+   "expect": [
+    {
+     "portalId": 248,
+     "inActs": true,
+     "type": "DECRET",
+     "number": null,
+     "year": null,
+     "designation": "DECRET nr. 24 din 31 ianuarie 1970 *** Republicat",
+     "mo": {
+      "part": "Buletinul Oficial",
+      "number": 116,
+      "date": "1971-10-01"
+     },
+     "consolidationOf": null,
+     "source": "old-search",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 1
+    }
+   ]
+  },
+  {
+   "case": "brosura",
+   "about": "An act published in a Broşură",
+   "ids": [
+    19565
+   ],
+   "sample": "samples/brosura.json",
+   "expect": [
+    {
+     "portalId": 19565,
+     "inActs": true,
+     "type": "DECLARATIE",
+     "number": null,
+     "year": 1942,
+     "designation": "DECLARAȚIE din 1 ianuarie 1942",
+     "mo": {
+      "part": "Broşură",
+      "number": null,
+      "date": "1946-05-10"
+     },
+     "consolidationOf": null,
+     "source": "old-search",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "too-large",
+   "about": "The 2026 state budget law: page over the 10 MB cap, no text stored (text_failures: too large)",
+   "ids": [
+    308865
+   ],
+   "sample": "samples/too-large.json",
+   "expect": [
+    {
+     "portalId": 308865,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 43,
+     "year": 2026,
+     "designation": "LEGEA nr. 43 din 27 martie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 242,
+      "date": "2026-03-27"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": true,
+     "versionsListed": 0,
+     "relationships": 4
+    }
+   ]
+  },
+  {
+   "case": "law-48-2026",
+   "about": "Law 48/2026: on no search route, found by id (source id-seed), MO 282 of 7 April 2026",
+   "ids": [
+    309449
+   ],
+   "sample": "samples/law-48-2026.json",
+   "expect": [
+    {
+     "portalId": 309449,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 48,
+     "year": 2026,
+     "designation": "LEGE nr. 48 din 7 aprilie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 282,
+      "date": "2026-04-07"
+     },
+     "consolidationOf": null,
+     "source": "id-seed",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 1
+    }
+   ]
+  },
+  {
+   "case": "law-5-2026",
+   "about": "Law 5/2026: missed by the day lists, found through SOAP by number",
+   "ids": [
+    306328
+   ],
+   "sample": "samples/law-5-2026.json",
+   "expect": [
+    {
+     "portalId": 306328,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 5,
+     "year": 2026,
+     "designation": "LEGE nr. 5 din 9 ianuarie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 10,
+      "date": "2026-01-09"
+     },
+     "consolidationOf": null,
+     "source": "numbering-gap-soap",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 42
+    }
+   ]
+  },
+  {
+   "case": "post-scriptogre-2026",
+   "about": "Law 210/2026 and its promulgation decree 838/2026, after the scriptogre coverage (Nov 2026)",
+   "ids": [
+    316189,
+    316190
+   ],
+   "sample": "samples/post-scriptogre-2026.json",
+   "expect": [
+    {
+     "portalId": 316189,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 210,
+     "year": 2026,
+     "designation": "LEGE nr. 210 din 12 noiembrie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 945,
+      "date": "2026-11-12"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    },
+    {
+     "portalId": 316190,
+     "inActs": true,
+     "type": "DECRET",
+     "number": 838,
+     "year": 2026,
+     "designation": "DECRET nr. 838 din 11 noiembrie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 945,
+      "date": "2026-11-12"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "repealed-act",
+   "about": "Law 1/2011 (national education), target of repeal operations",
+   "ids": [
+    125150
+   ],
+   "sample": "samples/repealed-act.json",
+   "expect": [
+    {
+     "portalId": 125150,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 1,
+     "year": 2011,
+     "designation": "LEGEA educației naționale nr. 1 din 5 ianuarie 2011",
+     "mo": {
+      "part": "Partea I",
+      "number": 18,
+      "date": "2011-01-10"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 120,
+     "relationships": 896
+    }
+   ]
+  },
+  {
+   "case": "issue-gap",
+   "about": "An act found only by issue number (source issue-gap)",
+   "ids": [
+    285949
+   ],
+   "sample": "samples/issue-gap.json",
+   "expect": [
+    {
+     "portalId": 285949,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 73,
+     "year": 1993,
+     "designation": "LEGEA nr. 73 din 3 noiembrie 1993",
+     "mo": {
+      "part": "Partea I",
+      "number": 727,
+      "date": "2024-07-25"
+     },
+     "consolidationOf": null,
+     "source": "issue-gap",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "not-in-gazette",
+   "about": "An item the portal files under \"Monitorul Oficial nr. 0\" (not in the gazette)",
+   "ids": [
+    334
+   ],
+   "sample": "samples/not-in-gazette.json",
+   "expect": [
+    {
+     "portalId": 334,
+     "inActs": true,
+     "type": "HOTARARE",
+     "number": 1312,
+     "year": 1973,
+     "designation": "HOTĂRÎRE nr. 1312 din 6 octombrie 1973",
+     "mo": {
+      "part": "Buletinul Oficial",
+      "number": 0,
+      "date": "1973-10-06"
+     },
+     "consolidationOf": null,
+     "source": "old-search",
+     "notInGazette": true,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "partea-v",
+   "about": "A Partea a V-a item (collective agreement addendum)",
+   "ids": [
+    159088
+   ],
+   "sample": "samples/partea-v.json",
+   "expect": [
+    {
+     "portalId": 159088,
+     "inActs": true,
+     "type": "ACT ADITIONAL",
+     "number": 440,
+     "year": 2014,
+     "designation": "ACT ADIȚIONAL nr. 440 din 14 aprilie 2014",
+     "mo": null,
+     "consolidationOf": null,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "law-46-2003-snapshots",
+   "about": "Law 46/2003: snapshot ids known, base id 41483 still queued (not in acts yet)",
+   "ids": [
+    177185,
+    216290
+   ],
+   "sample": "samples/law-46-2003-snapshots.json",
+   "expect": [
+    {
+     "portalId": 177185,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 46,
+     "year": 2003,
+     "designation": "Legea 46/2003",
+     "mo": {
+      "part": null,
+      "number": 247,
+      "date": "2016-04-04"
+     },
+     "consolidationOf": 41483,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 3
+    },
+    {
+     "portalId": 216290,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 46,
+     "year": 2003,
+     "designation": "Legea 46/2003",
+     "mo": {
+      "part": null,
+      "number": 51,
+      "date": "2003-01-29"
+     },
+     "consolidationOf": 41483,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "suspect-consolidation",
+   "about": "A \"(*actualizat*)\" row not yet checked on its page (suspectConsolidation in exports)",
+   "ids": [
+    81
+   ],
+   "sample": "samples/suspect-consolidation.json",
+   "expect": [
+    {
+     "portalId": 81,
+     "inActs": true,
+     "type": "CODUL",
+     "number": null,
+     "year": 1953,
+     "designation": "Codul din 1953-01-04",
+     "mo": null,
+     "consolidationOf": null,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "code-wrapper",
+   "about": "Law 331/2024 approves Codul silvic: short wrapper text; the code body is document 305535",
+   "ids": [
+    293197,
+    305535
+   ],
+   "sample": "samples/code-wrapper.json",
+   "expect": [
+    {
+     "portalId": 293197,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 331,
+     "year": 2024,
+     "designation": "LEGE nr. 331 din 20 decembrie 2024",
+     "mo": {
+      "part": "Partea I",
+      "number": 7,
+      "date": "2025-01-09"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 7,
+     "relationships": 6
+    },
+    {
+     "portalId": 305535,
+     "inActs": false,
+     "type": null,
+     "number": null,
+     "year": null,
+     "designation": null,
+     "mo": null,
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "low-quality-text",
+   "about": "An imported text with a low quality score (OCR candidate)",
+   "ids": [
+    2258
+   ],
+   "sample": "samples/low-quality-text.json",
+   "expect": [
+    {
+     "portalId": 2258,
+     "inActs": true,
+     "type": "HOTARARE",
+     "number": 50,
+     "year": 1992,
+     "designation": "Hotărîre 50/1992",
+     "mo": {
+      "part": null,
+      "number": 99,
+      "date": "1992-05-21"
+     },
+     "consolidationOf": null,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 1
+    }
+   ]
+  },
+  {
+   "case": "version-confirmed",
+   "about": "A fetched consolidated version naming the amending acts it integrates",
+   "ids": [
+    188150
+   ],
+   "sample": "samples/version-confirmed.json",
+   "expect": [
+    {
+     "portalId": 188150,
+     "inActs": true,
+     "type": "CODUL",
+     "number": null,
+     "year": 2015,
+     "designation": "Codul din 2015-09-08",
+     "mo": {
+      "part": null,
+      "number": 688,
+      "date": "2015-09-10"
+     },
+     "consolidationOf": null,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 93,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "omnibus",
+   "about": "OUG 7/2026, amending dozens of base acts",
+   "ids": [
+    307573
+   ],
+   "sample": "samples/omnibus.json",
+   "expect": [
+    {
+     "portalId": 307573,
+     "inActs": true,
+     "type": "ORD DE URGENTA",
+     "number": 7,
+     "year": 2026,
+     "designation": "ORDONANȚĂ DE URGENȚĂ nr. 7 din 24 februarie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 146,
+      "date": "2026-02-25"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 132
+    }
+   ]
+  },
+  {
+   "case": "old-search-1989",
+   "about": "A 1989 act found through the pre-1990 search (Buletinul Oficial)",
+   "ids": [
+    47041
+   ],
+   "sample": "samples/old-search-1989.json",
+   "expect": [
+    {
+     "portalId": 47041,
+     "inActs": true,
+     "type": "HOTARARE",
+     "number": 1,
+     "year": 1989,
+     "designation": "HOTĂRÂRE nr. 1 din 17 aprilie 1989",
+     "mo": {
+      "part": "Buletinul Oficial",
+      "number": 13,
+      "date": "1989-04-18"
+     },
+     "consolidationOf": null,
+     "source": "old-search",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "decree-law-1990",
+   "about": "A 1990 decree-law with incomplete facts (data quality case)",
+   "ids": [
+    136287
+   ],
+   "sample": "samples/decree-law-1990.json",
+   "expect": [
+    {
+     "portalId": 136287,
+     "inActs": true,
+     "type": "DECRET-LEGE",
+     "number": null,
+     "year": 1990,
+     "designation": "Decretul-lege din 1990-03-14",
+     "mo": null,
+     "consolidationOf": null,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": false,
+     "textOrigin": null,
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "imported-text",
+   "about": "An act whose text as published comes from the scriptogre import",
+   "ids": [
+    31734
+   ],
+   "sample": "samples/imported-text.json",
+   "expect": [
+    {
+     "portalId": 31734,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 265,
+     "year": 2005,
+     "designation": "Legea 265/2005",
+     "mo": {
+      "part": null,
+      "number": 920,
+      "date": "2005-10-14"
+     },
+     "consolidationOf": null,
+     "source": "scriptogre-2026-11-23",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 8
+    }
+   ]
+  },
+  {
+   "case": "in-force-later",
+   "about": "Law 213/2026 (Codul fiscal change): in force later than publication + 3 days",
+   "ids": [
+    316193
+   ],
+   "sample": "samples/in-force-later.json",
+   "expect": [
+    {
+     "portalId": 316193,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 213,
+     "year": 2026,
+     "designation": "LEGE nr. 213 din 12 noiembrie 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 945,
+      "date": "2026-11-12"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "day-relist",
+   "about": "An act added by re-listing a day at 50 per page",
+   "ids": [
+    101316
+   ],
+   "sample": "samples/day-relist.json",
+   "expect": [
+    {
+     "portalId": 101316,
+     "inActs": true,
+     "type": "DECIZIE",
+     "number": 1224,
+     "year": 2008,
+     "designation": "DECIZIE nr. 1.224 din 18 noiembrie 2008",
+     "mo": {
+      "part": "Partea I",
+      "number": 893,
+      "date": "2008-12-30"
+     },
+     "consolidationOf": null,
+     "source": "day-relist",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "induced-actions",
+   "about": "Law 180/2026: relations from the portal \"Acțiuni induse\" (after the scriptogre coverage)",
+   "ids": [
+    313868
+   ],
+   "sample": "samples/induced-actions.json",
+   "expect": [
+    {
+     "portalId": 313868,
+     "inActs": true,
+     "type": "LEGE",
+     "number": 180,
+     "year": 2026,
+     "designation": "LEGE nr. 180 din 28 august 2026",
+     "mo": {
+      "part": "Partea I",
+      "number": 725,
+      "date": "2026-08-28"
+     },
+     "consolidationOf": null,
+     "source": null,
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "portal",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  },
+  {
+   "case": "old-act-1862",
+   "about": "An act from before 1900 (scriptogre / old search)",
+   "ids": [
+    26604
+   ],
+   "sample": "samples/old-act-1862.json",
+   "expect": [
+    {
+     "portalId": 26604,
+     "inActs": true,
+     "type": "CIRCULARA",
+     "number": 1481,
+     "year": 1837,
+     "designation": "CIRCULARA nr. 1.481 din 7 decembrie 1837",
+     "mo": {
+      "part": "Buletinul Oficial",
+      "number": 60,
+      "date": "1837-12-07"
+     },
+     "consolidationOf": null,
+     "source": "old-search",
+     "notInGazette": false,
+     "hasText": true,
+     "textOrigin": "scriptogre-2026-11-23",
+     "tooLarge": false,
+     "versionsListed": 0,
+     "relationships": 0
+    }
+   ]
+  }
+ ]
+}

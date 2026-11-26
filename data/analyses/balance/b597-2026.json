@@ -1,176 +1,273 @@
 {
   "slug": "b597-2026",
   "billId": "B597/2026",
-  "schema": 1,
-  "model": "agy",
-  "modelId": "gemini-4-neon-high",
-  "updatedAt": "2026-11-20T09:30:05.473Z",
-  "inputHash": "0a66b4774c3b",
+  "schema": 2,
+  "model": "codex",
+  "modelId": "gpt-6.1-sol",
+  "updatedAt": "2026-11-26T12:17:48.667Z",
+  "inputHash": "b2fcfe8954f8",
   "riskScore": 7.3,
-  "summary": "Un scop legitim de siguranță AI, dar construit printr-un regim național de autorizare disproporționat, extrateritorial și greu compatibil cu dreptul UE.",
+  "input": {
+    "textChars": 123965,
+    "memoChars": 60000,
+    "baseline": {
+      "file": "data/baseline/b597-2026.json",
+      "key": "c2ff0568cfbd0c4a",
+      "articlesShown": 1,
+      "truncated": false
+    }
+  },
+  "summary": "O lege cu garanții reale pentru oameni, dar cu probleme structurale de autorizare, costuri, răspundere și sancțiuni, care necesită rescriere amplă.",
   "good": [
     {
-      "text": "Interzice proiectarea AI capabile să înșele evaluatorii, să reziste opririi, să se copieze singure sau să se auto-îmbunătățească, prevenind pierderea controlului uman.",
-      "article": "art. 15 alin. (1)",
-      "quote": "Este interzisă antrenarea, ajustarea sau proiectarea unui sistem de inteligență artificială, indiferent de volumul de calcul, în scopul sau cu efectul de a-i conferi ori de a-i dezvolta capacitatea:",
+      "text": "Persoanele afectate pot cere reexaminarea efectivă de către un om. Contestațiile privind serviciile esențiale și exprimarea sunt gratuite, urgente și accesibile la instanța de la domiciliu.",
+      "article": "art. 18 alin. (2)–(3), art. 26 alin. (1)–(2) și (5)–(6), art. 27 alin. (5)",
+      "quote": "Nu constituie reexaminare confirmarea deciziei fără examinarea efectivă a situației persoanei.",
       "weight": 3
     },
     {
-      "text": "Impune un buton tehnic real de oprire la nivel de infrastructură și rețea, care nu depinde de cooperarea AI, asigurând oprirea efectivă în caz de pericol.",
-      "article": "art. 14 alin. (5)",
-      "quote": "se asigură prin cel puțin un mijloc tehnic care acționează asupra infrastructurii de calcul și a rețelelor de comunicații electronice pe care sistemul rulează și a cărui funcționare nu depinde de cooperarea sistemului",
+      "text": "Folosirea forței letale cere intervenția unui om informat, capabil să împiedice fiecare decizie; statului îi sunt interzise armele care selectează și atacă autonom oameni.",
+      "article": "art. 24",
+      "quote": "fără intervenția, pentru fiecare decizie în parte, a unei persoane fizice identificate",
       "weight": 3
     },
     {
-      "text": "Blochează lansarea sistemelor care manifestă capabilități de pierdere a controlului până la eliminarea lor verificată independent, protejând siguranța publică.",
-      "article": "art. 5 alin. (4)",
-      "quote": "Sistemele de categoria a III-a nu pot fi puse în exploatare și nu pot fi dezvoltate în continuare până la eliminarea capabilității critice, constată prin evaluare independentă",
+      "text": "Victima nu trebuie să dovedească vina firmei; beneficiază de răspundere solidară, acces la probe, termene de 10/30 de ani și acțiune directă împotriva asigurătorului sau garantului.",
+      "article": "art. 35–36",
+      "quote": "iar dacă dezvoltatorul ori exploatantul nu prezintă jurnalele pe care avea obligația de a le păstra, legătura cauzală se prezumă până la proba contrară.",
       "weight": 3
     },
     {
-      "text": "Creează o structură internă de siguranță independentă de conducerea comercială, al cărei șef poate opri proiectul și nu poate fi demis fără motive obiective.",
-      "article": "art. 13 alin. (1)",
-      "quote": "Dezvoltatorul organizează funcția de evaluare a siguranței ca structură distinctă, al cărei conducător nu poate fi subordonat persoanelor responsabile de dezvoltarea comercială, de punerea în exploatare sau de rezultatele financiare",
-      "weight": 2
+      "text": "Planul de siguranță impune verificări și opriri în timpul antrenării; evaluarea independentă înaintea autorizării și monitorizarea ulterioară pot depista riscurile înainte să producă pagube.",
+      "article": "art. 7–10",
+      "quote": "Atingerea unui nivel de suspendare obligă dezvoltatorul să înceteze de îndată antrenarea și să notifice Autoritatea în termen de 24 de ore.",
+      "weight": 3
     },
     {
-      "text": "Cere jurnalizarea inteligibilă a comunicării dintre agenții AI și suspendarea funcțiilor autonome dacă oamenii nu mai înțeleg ce fac sistemele, prevenind acțiunile ascunse.",
-      "article": "art. 16 alin. (3) și (5)",
-      "quote": "Comunicarea dintre componentele, instanțele sau agenții unui sistem de vârf, precum și comunicarea dintre acesta și alte sisteme de inteligență artificială, se jurnalizează integral și se păstrează potrivit alin. (2).",
-      "weight": 2
+      "text": "Calea printr-un om și alternativa fără identificare ori plată digitală protejează persoanele excluse digital; obligațiile legale de identificare și securitate a plăților se păstrează.",
+      "article": "art. 26 alin. (2)–(4) și (7)",
+      "quote": "asigură în toate cazurile obținerea serviciului sau exercitarea dreptului și pe o cale care nu depinde de un sistem de inteligență artificială",
+      "weight": 3
     },
     {
-      "text": "Obligă marcarea clară a imaginilor, clipurilor și sunetelor generate cu AI care par reale și interzice instituțiilor publice să difuzeze conținut AI nemarcat, reducând dezinformarea.",
-      "article": "art. 17 alin. (1) și (4)",
-      "quote": "Autoritățile și instituțiile publice nu pot difuza, în comunicarea publică, materiale generate ori modificate prin mijloace de inteligență artificială fără marcajul prevăzut la alin. (1) și fără mențiunea expresă a acestui fapt în cuprinsul comunicării.",
-      "weight": 2
+      "text": "Restrângerea exprimării prin IA trebuie comunicată și poate fi contestată. Monitorizarea individualizată de către stat, bazată pe exprimarea publică, cere temei penal expres și autorizarea judecătorului.",
+      "article": "art. 27",
+      "quote": "cu excepția cazurilor prevăzute expres de lege, în legătură cu fapte prevăzute de legea penală și cu autorizarea prealabilă a judecătorului.",
+      "weight": 3
     },
     {
-      "text": "Obligă dezvoltatorii să stabilească dinainte praguri de oprire a antrenării și să oprească imediat procesul dacă apar capabilități periculoase, fără a le putea relaxa unilateral.",
-      "article": "art. 8 alin. (1)–(3)",
-      "quote": "Planul de siguranță nu poate fi modificat în cursul antrenării în sensul relaxării nivelurilor de suspendare decât cu aprobarea prealabilă a Autorității.",
-      "weight": 2
+      "text": "Utilizatorii finali, personali sau profesionali, nu răspund pentru neconformitatea serviciului și pot ocoli blocarea fără sancțiuni; garanția nu acoperă oferirea IA altora ca serviciu propriu.",
+      "article": "art. 3 alin. (1) lit. h) și z), art. 40 alin. (1), art. 43",
+      "quote": "De garanția prevăzută la alin. (1) beneficiază și utilizatorul final profesional care nu este exploatant și nu pune serviciul la dispoziția altor persoane.",
+      "weight": 3
     },
     {
-      "text": "Impune publicarea deciziilor de autorizare sau revocare și a rezumatului evaluării pe site-ul Autorității, asigurând transparență publică fără a divulga secrete periculoase.",
-      "article": "art. 11 alin. (1)",
-      "quote": "Deciziile de autorizare, de condiționare, de suspendare și de revocare se publică pe pagina de internet a Autorității, împreună cu un rezumat al evaluării",
-      "weight": 2
+      "text": "Oprirea trebuie să funcționeze independent de cooperarea IA și să fie testată periodic. Ordinele adresate centrelor de calcul trebuie să izoleze sarcina vizată, protejând ceilalți clienți.",
+      "article": "art. 14, art. 22, art. 28",
+      "quote": "Transmiterea către sistem a unei instrucțiuni de oprire nu constituie, prin ea însăși, capacitate de oprire în sensul prezentei legi.",
+      "weight": 3
     },
     {
-      "text": "Scutește cetățenii care folosesc AI în scop personal și cercetarea științifică fundamentală (fără antrenare de sisteme de vârf) de regimul birocratic de autorizare.",
-      "article": "art. 4 alin. (3) și (5)",
-      "quote": "Persoana fizică ce utilizează un sistem de inteligență artificială în scop personal nu are obligații în temeiul prezentei legi, cu excepția interdicției prevăzute la art. 17 alin. (3).",
-      "weight": 1
-    },
-    {
-      "text": "Protejează cercetarea de siguranță în mediu izolat și nu sancționează apariția neintenționată a unei capabilități periculoase dacă dezvoltatorul oprește și remediază problema.",
-      "article": "art. 15 alin. (2)–(3)",
+      "text": "Sistemele care se sustrag controlului nu pot continua exploatarea până la remediere. Cercetarea de siguranță rămâne permisă în condiții controlate, iar apariția neintenționată nu este singură o încălcare.",
+      "article": "art. 5 alin. (2)–(4), art. 15, art. 29",
       "quote": "Apariția neintenționată a uneia dintre capacitățile prevăzute la alin. (1), constatată în evaluare sau în exploatare, obligă la suspendare potrivit art. 20 alin. (2) și la remediere, dar nu constituie, singură, încălcarea interdicției.",
-      "weight": 1
+      "weight": 3
     },
     {
-      "text": "Exclude arta, satira și editarea asistată de la marcarea strictă și evită dublarea regulilor europene pentru firmele care respectă deja obligațiile de transparență din AI Act.",
-      "article": "art. 17 alin. (5)–(6)",
-      "quote": "materialelor care fac parte dintr-o operă cu caracter vădit artistic, satiric, de ficțiune ori analog, caz în care este suficientă menționarea existenței materialului generat, într-o formă care nu împiedică receptarea operei",
-      "weight": 1
+      "text": "Avertizorii primesc canal anonim, protecție împotriva represaliilor și posibilitatea de a transmite probe securizat; contractele nu le pot cumpăra tăcerea, iar represaliile devin infracțiune.",
+      "article": "art. 12 alin. (2), art. 21, art. 41 alin. (3)",
+      "quote": "Este nulă de drept orice clauză contractuală, inclusiv de confidențialitate, de nedenigrare sau de renunțare la drepturi, care ar împiedica sau ar descuraja o semnalare",
+      "weight": 3
+    },
+    {
+      "text": "Nici apărarea sau securitatea națională nu pot elimina controlul uman, oprirea, protecția avertizorilor și garanțiile capitolului V; contractele contrare nu pot ocoli aceste protecții.",
+      "article": "art. 23, art. 30",
+      "quote": "nu pot înlătura controlul uman semnificativ, capacitatea de oprire, interdicțiile prevăzute la art. 15, protecția avertizorilor prevăzută la art. 21",
+      "weight": 3
+    },
+    {
+      "text": "IA nu poate deveni proprietar sau paravan juridic pentru decidenți. Administrarea banilor și resurselor cere un mandat verificabil, iar controlul efectiv al unei firme nu poate fi cedat sistemului.",
+      "article": "art. 3 alin. (1) lit. cc), art. 25",
+      "quote": "Administrarea ori dispunerea de asemenea resurse sau de resurse de calcul prin intermediul unui sistem de inteligență artificială este permisă numai în limitele unui mandat de operare",
+      "weight": 2
+    },
+    {
+      "text": "Incidentele trebuie raportate rapid, inclusiv persoanei ale cărei sisteme sau date au fost accesate ilegal. Raportarea de bună-credință atenuează sancțiunea, iar notificarea victimei are protecție penală probatorie.",
+      "article": "art. 20",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Evaluarea internă a siguranței este separată de interesele comerciale, poate opri activitatea și raportează direct conducerii; refuzul remedierilor trebuie documentat și comunicat Autorității.",
+      "article": "art. 11 alin. (3), art. 13",
+      "quote": "al cărei conducător nu poate fi subordonat persoanelor responsabile de dezvoltarea comercială, de punerea în exploatare sau de rezultatele financiare",
+      "weight": 2
+    },
+    {
+      "text": "Protejarea ponderilor și jurnalele inteligibile ajută la prevenirea furtului și stabilirea răspunderii; datele personale nerelevante trebuie eliminate sau anonimizate, iar accesul este urmărit.",
+      "article": "art. 9 alin. (3), art. 12, art. 16",
+      "quote": "accesul la jurnale este limitat, jurnalizat și verificabil, iar probele aferente unui incident sau unui litigiu se conservă pe durata necesară soluționării acestuia.",
+      "weight": 2
+    },
+    {
+      "text": "Legea aplică obligațiile europene de marcare și cere transparență în comunicarea oficială; utilizatorii află când interacționează cu IA și cine răspunde pentru deciziile care îi afectează.",
+      "article": "art. 17–18",
+      "quote": "obligațiile prevăzute la alin. (1) lit. a) și b) și la alin. (2) se consideră îndeplinite prin respectarea art. 50 alin. (2) și (4) din regulament",
+      "weight": 2
+    },
+    {
+      "text": "Deciziile trebuie motivate și pot fi contestate, inspecția domiciliului cere judecător, iar răspunderea penală este individualizată; simpla funcție de conducere sau o estimare declarată incertă nu sunt suficiente.",
+      "article": "art. 2 lit. b), art. 9 alin. (4), art. 11, art. 32 alin. (3), art. 39 alin. (5),",
+      "quote": "având obligația juridică și posibilitatea efectivă de a le împiedica, au tolerat cu știință săvârșirea lor",
+      "weight": 2
+    },
+    {
+      "text": "Mandatul unic, incompatibilitățile, concursurile publice și separarea evaluării de sancționare reduc conflictele de interese; amenzile nu finanțează Autoritatea, iar opiniile științifice divergente se publică.",
+      "article": "art. 31–34",
+      "quote": "Amenzile aplicate potrivit prezentei legi se fac venit la bugetul de stat și nu pot determina resursele Autorității.",
+      "weight": 2
+    },
+    {
+      "text": "DIICOT își extinde competența la noile infracțiuni IA, păstrând ancheta obligatorie de către procuror; oprirea și sigilarea urgente cer confirmarea judecătorului în 48 de ore.",
+      "article": "art. 45 alin. (1)–(3)",
+      "quote": "cu confirmarea judecătorului de drepturi și libertăți în termen de 48 de ore, sub sancțiunea încetării de drept a măsurii.",
+      "lawQuote": "Procurorii specializați din cadrul Direcției de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism efectuează în mod obligatoriu urmărirea penală pentru infracțiunile prevăzute la alin. (1).",
+      "weight": 2
+    },
+    {
+      "text": "Evaluările pot fi recunoscute reciproc între state, iar legea este verificată la doi ani pentru costuri, acces și efecte nedorite; standardele sunt publice, iar normele trec prin consultare.",
+      "article": "art. 46 alin. (3), art. 47, art. 49 alin. (2)",
+      "quote": "Raportul evaluează, pe baza unei metodologii publicate, eficacitatea protecției, incidentele, costurile, accesul la servicii, efectele nedorite și proporționalitatea fiecărei măsuri",
+      "weight": 2
     }
   ],
   "bad": [
     {
-      "text": "Impune autorizare națională prealabilă și predarea ponderilor la ANCOM, inclusiv pentru sisteme conforme cu AI Act din UE, riscând conflict cu dreptul UE și retragerea serviciilor AI din România.",
-      "article": "art. 9 alin. (1), (3) și (7)",
-      "quote": "Niciun sistem de vârf nu poate fi pus în exploatare fără autorizația prealabilă a Autorității.",
+      "text": "Autorizarea accesului, inclusiv pentru modele furnizate legal în UE, poate adăuga bariere într-un domeniu deja armonizat; declarația că legea nu condiționează piața UE și recunoașterea simplificată nu elimină suprapunerea.",
+      "article": "art. 1 alin. (3)–(4), art. 3 alin. (1) lit. i), art. 4, art. 9, art. 12",
+      "quote": "Autoritatea verifică exclusiv îndeplinirea condițiilor prevăzute de prezenta lege care exced Regulamentului privind IA.",
       "weight": 3
     },
     {
-      "text": "Orice firmă românească ce integrează un model AI de vârf (ex. prin API) într-un produs propriu devine «exploatant» și primește obligații imposibile (oprire pe infrastructură, jurnale pe 10 ani).",
-      "article": "art. 3 alin. (1) lit. h) și z)",
-      "quote": "exploatant – persoana fizică sau juridică care pune în exploatare sau exploatează un sistem de vârf pe teritoriul României ori care oferă accesul la un asemenea sistem persoanelor aflate pe teritoriul României",
+      "text": "Firmele care integrează un model de vârf într-un serviciu propriu oferit altora devin exploatanți; cerința opririi la nivel de infrastructură poate fi imposibilă pentru un simplu client API.",
+      "article": "art. 3 alin. (1) lit. h), i) și z), art. 9 alin. (2), art. 14 alin. (5), art. 28",
+      "quote": "fără a-l pune la dispoziția altor persoane ca serviciu propriu",
       "weight": 3
     },
     {
-      "text": "Firmele cu o simplă filială în România răspund pentru toate modelele de vârf dezvoltate oriunde în lume, iar ANCOM le poate interzice antrenarea în străinătate, alungând investitorii.",
-      "article": "art. 4 alin. (1) lit. a)",
-      "quote": "dezvoltatorilor cu sediul, cu o unitate operațională sau cu infrastructură de calcul pe teritoriul României, pentru toate sistemele de vârf pe care le dezvoltă, indiferent de locul antrenării",
+      "text": "Asigurarea sau garanția de 100 mil./1 mld. euro pe eveniment, cu plafon anual cel puțin dublu, poate exclude IMM-urile; reducerea condiționată până la o cincime lasă praguri de 20/200 mil. euro.",
+      "article": "art. 9 alin. (2), art. 36",
+      "quote": "100 milioane euro pentru sistemele de categoria I și a 1 miliard euro pentru sistemele de categoria a II-a, pentru fiecare eveniment",
       "weight": 3
     },
     {
-      "text": "Impune protejarea ponderilor la standard «strict secret» și interzice publicarea modelelor fără autorizare, blocând practic startup-urile, cercetarea deschisă și ecosistemul open-source.",
+      "text": "Pragurile schimbate prin HG și clasificarea administrativă influențează existența unor infracțiuni și pedepse. Limitele puse standardelor nu elimină riscul ca elemente esențiale ale legii penale să fie decise administrativ.",
+      "article": "art. 5 alin. (1) lit. c) și alin. (2), art. 6 alin. (2), art. 32 alin. (1) lit. ",
+      "quote": "nivelurile de semnificație de la care aptitudinea sistemului constituie capabilitate critică se stabilesc prin normele metodologice",
+      "weight": 3
+    },
+    {
+      "text": "Serviciile neconforme pot fi blocate în 48 de ore, înaintea controlului judecătoresc, afectând și utilizatorii corecți. Furnizarea continuată atrage 100.000–10 mil. euro/lună, cu plafon total de 5% din cifra anuală mondială.",
+      "article": "art. 19 alin. (7), art. 38–39",
+      "quote": "cu amendă de la echivalentul în lei al sumei de 100.000 euro la echivalentul în lei al sumei de 10.000.000 euro pentru fiecare lună de continuare a furnizării",
+      "weight": 3
+    },
+    {
+      "text": "Amenzile de 1–10% din cifra mondială a grupului, inclusiv 5–10% pentru art. 26–27 fără IA de vârf, pot fi excesive. Plata redusă dispare; prescripția de 5 ani, confiscarea și interdicția activității agravează regimul.",
+      "article": "art. 4 alin. (2), art. 37",
+      "quote": "Cifra de afaceri mondială este cea realizată în exercițiul financiar precedent de contravenient și, atunci când acesta face parte dintr-un grup, de grupul în ansamblul său.",
+      "weight": 3
+    },
+    {
+      "text": "Lipsa autorizației atrage 2–7 ani, transmiterea fără drept a ponderilor 5–15 ani, iar pierderea temporară a controlului 7–15 ani; gravitatea minimă a acestei pierderi nu este definită, favorizând pedepse excesive.",
+      "article": "art. 40–42",
+      "quote": "Dacă urmarea constă într-un prejudiciu patrimonial deosebit de grav ori într-o pierdere temporară a controlului uman",
+      "weight": 3
+    },
+    {
+      "text": "Un dezvoltator sau exploatant poate datora integral daunele produse inclusiv prin abuzul unui terț ori furtul ponderilor, chiar fără culpă; împărțirea după contribuție intervine doar între cei răspunzători.",
+      "article": "art. 35 alin. (1)–(3)",
+      "quote": "Nu constituie forță majoră comportamentul imprevizibil al sistemului, eroarea de evaluare, fapta unui terț care a obținut acces la sistem ori la ponderi",
+      "weight": 3
+    },
+    {
+      "text": "O simplă unitate operațională în România supune toate dezvoltările firmei, oriunde sunt antrenate, controlului național; posibilitatea interzicerii antrenării din străinătate poate încuraja închiderea birourilor locale.",
+      "article": "art. 3 alin. (1) lit. g), art. 4 alin. (1) lit. a), art. 7 alin. (4)",
+      "quote": "pentru toate sistemele de vârf pe care le dezvoltă, indiferent de locul antrenării",
+      "weight": 3
+    },
+    {
+      "text": "Standardul echivalent «strict secret» se aplică și modelelor fără capabilități critice, iar publicarea ponderilor lor cere aprobare; cercetarea deschisă și startup-urile suportă bariere majore.",
       "article": "art. 12 alin. (1)–(2)",
-      "quote": "Ponderile sistemelor de vârf constituie informații de interes pentru securitatea națională și se protejează la un standard cel puțin echivalent celui aplicabil informațiilor clasificate secret de stat, nivel „strict secret”",
-      "weight": 3
-    },
-    {
-      "text": "Lasă Guvernul și Autoritatea să modifice pragul de calcul, să definească prin HG nivelul «capabilității critice» și să desemneze discreționar sisteme de vârf, afectând previzibilitatea legii.",
-      "article": "art. 5 alin. (1) lit. c) și alin. (2), art. 6 alin. (2)",
-      "quote": "nivelurile de semnificație de la care aptitudinea sistemului constituie capabilitate critică se stabilesc prin normele metodologice, în limitele prezentului alineat, fără a putea adăuga alte categorii de rezultate.",
-      "weight": 3
-    },
-    {
-      "text": "Susține formal că nu condiționează piața UE, dar cere autorizare chiar și pentru conectarea la sisteme externe sau utilizări interne, creând o barieră națională contrară pieței unice europene.",
-      "article": "art. 1 alin. (4) și art. 3 alin. (1) lit. i)",
-      "quote": "orice acțiune prin care un sistem de vârf este pus la dispoziția unor persoane din afara echipei de dezvoltare și evaluare, este conectat la sisteme externe sau primește capacitatea de a acționa în mediul digital ori fizic",
+      "quote": "Ponderile sistemelor de categoria I pot fi publicate numai cu autorizarea prealabilă a Autorității, după o evaluare distinctă a riscului de utilizare abuzivă",
       "weight": 2
     },
     {
-      "text": "Elimină aprobarea tacită și permite întârzieri de până la 150 de zile (sau procese în instanță) pentru autorizare, care oricum expiră în maximum 2 ani, blocând lansarea produselor.",
-      "article": "art. 9 alin. (4) și art. 10 alin. (1)",
-      "quote": "lipsa răspunsului Autorității în termen nu echivalează cu autorizarea tacită; solicitantul poate cere însă instanței prevăzute la art. 39 alin. (5) obligarea Autorității la pronunțare, în procedura de urgență.",
+      "text": "Chiar fără un pericol grav demonstrat, dobândirea autonomă de informații peste sarcina alocată poate interzice sistemul; aprobările repetate și izolarea fără instrumente externe pot frâna cercetarea legitimă.",
+      "article": "art. 3 alin. (1) lit. bb) și alin. (2) lit. g), art. 5 alin. (2)–(4), art. 15, a",
+      "quote": "obținerea de către un sistem de vârf, prin acțiuni autonome, a unor resurse de calcul, financiare, de acces, de informații sau de influență care depășesc pe cele alocate expres pentru sarcina în curs",
       "weight": 2
     },
     {
-      "text": "Contradicție internă: art. 4 limitează capitolul IV la sistemele de vârf, dar art. 15 interzice fapte asupra oricărui AI «indiferent de volumul de calcul», creând incertitudine.",
-      "article": "art. 4 alin. (2) și art. 15 alin. (1)",
-      "quote": "Dispozițiile cap. II, III și IV, cu excepția art. 17–19, precum și ale art. 35 și 36 se aplică numai sistemelor de vârf.",
+      "text": "Căile umane și fără identificare ori plată digitală sunt obligatorii pentru toate serviciile esențiale, inclusiv fintech. Lipsesc adaptări la costuri și excepții clare de siguranță pentru menținerea provizorie a accesului.",
+      "article": "art. 26 alin. (2)–(4) și (7)",
+      "quote": "persoanei i se asigură în toate cazurile o alternativă de acces care nu implică asemenea mijloace.",
       "weight": 2
     },
     {
-      "text": "Impută firmelor care fac ajustare fină (fine-tuning) întregul volum de calcul al modelului de bază, transformându-le în dezvoltatori de sisteme de vârf cu obligații disproporționate.",
-      "article": "art. 6 alin. (3)",
-      "quote": "Persoanei care efectuează o ajustare fină a unui model pus la dispoziție de altul i se impută volumul de calcul al modelului de bază, astfel cum a fost comunicat de dezvoltatorul acestuia ori este public",
+      "text": "Chiar cu eliminarea datelor nerelevante, păstrarea conversațiilor relevante minimum 3 ani, uneori 10, și accesul la jurnale, ponderi și decriptare concentrează informații sensibile și cresc riscul de abuz ori breșe.",
+      "article": "art. 3 alin. (1) lit. r), art. 9 alin. (3), art. 16, art. 32 alin. (1) lit. b)",
+      "quote": "Prezentul alineat nu interzice criptarea comunicării, cu condiția ca dezvoltatorul să dețină și să pună la dispoziție, potrivit alin. (2), mijloacele de decriptare.",
       "weight": 2
     },
     {
-      "text": "Autorizația poate fi suspendată oricând pe simple «indicii», iar ordinul de oprire se execută imediat fără suspendare prin contestație, creând risc de blocaje abuzive și pierderi mari.",
-      "article": "art. 9 alin. (6) și art. 14 alin. (4)",
-      "quote": "Executarea unui ordin de oprire sau de retragere emis de Autoritate se face de îndată și nu poate fi condiționată de exercitarea căilor de atac",
+      "text": "Interdicția moderării automate a exprimărilor legale poate afecta regulile editoriale și combaterea dezinformării; clauza de compatibilitate cu normele UE nu delimitează clar ce rămâne permis.",
+      "article": "art. 27 alin. (1)–(2) și (6)",
+      "quote": "exclusiv pe baza unei decizii, evaluări sau clasificări produse de sistem, dacă exprimarea nu este interzisă de lege.",
       "weight": 2
     },
     {
-      "text": "Obligă centrele de date din România să raporteze clienții care folosesc peste 10% din pragul de calcul, introducând supraveghere comercială intruzivă și descurajând investițiile.",
-      "article": "art. 7 alin. (3)",
-      "quote": "Furnizorul infrastructurii de calcul de mare capacitate notifică Autorității, trimestrial, identitatea și datele de contact ale clienților care au utilizat un volum de calcul agregat superior unei zecimi din pragul de calcul",
+      "text": "Evaluările la cel mult 24 de luni, notificarea cu 60 de zile înainte, structurile de siguranță și comitetul ori expertul extern cresc costurile fixe; micii dezvoltatori nu au un regim general simplificat.",
+      "article": "art. 7–10, art. 13, art. 19, art. 33 alin. (5)",
+      "quote": "Autorizația are o durată de cel mult 24 de luni și se reînnoiește în urma unei noi evaluări independente.",
       "weight": 2
     },
     {
-      "text": "Cere stocarea integrală a jurnalelor 3 ani pentru interacțiunile utilizatorilor și 10 ani pentru restul operațiunilor, cu costuri mari și riscuri pentru viața privată.",
-      "article": "art. 16 alin. (1)",
-      "quote": "pentru o perioadă de cel puțin 10 ani în privința antrenării, evaluării, acțiunilor autonome, incidentelor grave și a comunicării prevăzute la alin. (3), și de cel puțin 3 ani în privința celorlalte interacțiuni ale utilizatorilor.",
+      "text": "Apărarea, ordinea publică și securitatea națională sunt scutite de autorizare, evaluarea din art. 9 și răspunderea/asigurarea speciale; victimele depind de dreptul comun, cu protecție financiară mai slabă.",
+      "article": "art. 23 alin. (1)–(2)",
+      "quote": "În domeniul apărării, ordinii publice și securității naționale, dispozițiile art. 7–11, 35 și 36 nu se aplică",
       "weight": 2
     },
     {
-      "text": "Obligă dezvoltatorii mici fără consiliu neexecutiv să angajeze un expert independent dintr-un registru al statului, cu onorariu fixat prin norme, adăugând birocrație și costuri.",
-      "article": "art. 13 alin. (6)",
-      "quote": "Dezvoltatorul care nu îndeplinește această condiție, precum și dezvoltatorul persoană fizică ori entitatea fără personalitate juridică, încredințează atribuțiile comitetului, prin actul organului de conducere ori, în lipsa acestuia, al persoanei care exercită conducerea activității, unui expert independent",
-      "weight": 1
+      "text": "Noua autoritate, salariile raportate la sectorul privat și cercetarea sunt finanțate inițial de ANCOM, fără buget total sau număr de posturi în lege; efectul asupra resurselor existente rămâne neprecizat.",
+      "article": "art. 32 alin. (1) lit. j), art. 33 alin. (3)–(5)",
+      "quote": "Bugetul inițial al Autorității, inclusiv personalul și infrastructura necesare, se asigură de ANCOM înainte de încasarea taxelor.",
+      "weight": 2
     },
     {
-      "text": "Clasifică automat ca «incident grav» orice test trimestrial în care oprirea durează peste 15 minute, chiar dacă întârzierea provine dintr-o simplă eroare tehnică de rețea, nu din vina AI.",
-      "article": "art. 14 alin. (6)–(7)",
-      "quote": "Proba în care oprirea nu s-a produs de îndată constituie incident grav și se raportează potrivit art. 20 alin. (1).",
-      "weight": 1
+      "text": "Interdicția de a elimina ori ascunde marcajul se aplică și folosirii strict personale, fără publicare sau înșelarea cuiva; poate sancționa editări private, cu amenzi de până la 200.000 lei.",
+      "article": "art. 4 alin. (3), art. 17 alin. (3), art. 37 alin. (1) lit. e) și alin. (2)",
+      "quote": "Este interzisă înlăturarea, alterarea, ascunderea ori falsificarea marcajului de proveniență",
+      "weight": 2
     },
     {
-      "text": "Solicită deja polița de asigurare sau garanția financiară obligatorie (art. 36) chiar la depunerea cererii de autorizare, creând o barieră financiară înainte ca produsul să poată fi aprobat.",
-      "article": "art. 9 alin. (2)",
-      "quote": "dovada securității ponderilor; descrierea capacității de oprire și a mecanismelor de supraveghere umană; polița de asigurare ori dovada garanției financiare prevăzute la art. 36",
-      "weight": 1
+      "text": "Lansările noi pot rămâne blocate înaintea normelor și a pregătirii instituției; prelungirea pentru întârzierile statului protejează explicit sistemele existente, fără o soluție echivalentă pentru cele noi.",
+      "article": "art. 9, art. 48 alin. (1)–(5), art. 49–50",
+      "quote": "Sistemele notificate pot fi menținute în exploatare până la decizia Autorității",
+      "weight": 2
+    },
+    {
+      "text": "Sfera art. 15 și 18 nu este corelată clar cu art. 4; la art. 15 neclaritatea are efect penal. Competența Autorității pentru IA obișnuită și cele două reguli de conducere interimară sunt, de asemenea, necorelate.",
+      "article": "art. 4 alin. (2), art. 15 alin. (1), art. 18 alin. (2), art. 31 alin. (2) și (5)",
+      "quote": "Este interzisă antrenarea, ajustarea sau proiectarea unui sistem de inteligență artificială, indiferent de volumul de calcul",
+      "weight": 2
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 26,
-    "verified": 26
+    "checked": 40,
+    "verified": 39,
+    "lawChecked": 1,
+    "lawVerified": 1
   }
 }

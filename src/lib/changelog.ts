@@ -28,6 +28,21 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-26',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Proiectele care stau pe loc o spun pe pagina lor',
+        text: 'Pe pagina unui proiect aflat la Camera Deputaților care n-a mai avut niciun pas procedural de peste șase luni scrie acum, chiar sub stadiu, de când stă pe loc și când am verificat ultima dată fișa pe cdep.ro: de exemplu „Blocat la comisii: niciun pas din 24 februarie 2025”. În cardul „Unde e acum” apar și cât timp a trecut, ce a mai apărut în fișă fără să miște proiectul (avize, puncte de vedere), termenul pentru raport care a trecut și legătura spre fișa oficială. Așa se vede că datele noastre sunt la zi și că Parlamentul nu l-a mai mișcat. Pașii se numără la fel ca pe pagina proiectelor uitate: avizele, termenele și înscrierile pe ordinea de zi nu sunt pași. Cam patru din cinci proiecte aflate la Cameră stau așa.',
+        link: { href: '/uitate', label: 'Proiectele uitate' },
+        shot: {
+          id: '2026-11-26-proiecte-blocate',
+          alt: 'Cardul „Unde e acum” pentru PL-x 57/2025, la comisiile Camerei: o bandă prună spune „Niciun pas procedural din 24 februarie 2025: de 1 an și 9 luni”, că de atunci în fișă apar doar avize și puncte de vedere, că termenul pentru raport a trecut pe 18 martie 2025, când a fost verificată fișa pe cdep.ro și legătura „Vezi toate proiectele uitate”.',
+        },
+      },
+    ],
+  },
+  {
     date: '2026-11-25',
     items: [
       {

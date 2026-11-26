@@ -31,6 +31,16 @@ export const CHANGELOG: ChangeDay[] = [
     date: '2026-11-26',
     items: [
       {
+        kind: 'schimbat',
+        title: '„Ce e bine și ce strică” citește tot proiectul și legea în vigoare',
+        text: 'Lista cu ce e bine și ce strică într-un proiect se face acum din tot textul lui, cu expunerea de motive și cu legea pe care o modifică, așa cum e în vigoare azi. Când proiectul abrogă sau schimbă un alineat, lista spune ce conține alineatul acela acum, iar la „ce scrie în lege”, sub citatul din proiect, apare „Legea în vigoare acum:” cu textul de azi. De exemplu, Pl-x 714/2026, despre microîntreprinderi, abrogă art. 54 alin. (4) din Codul fiscal; lista arată că alineatul acela pomenește expres restaurantele, unitățile mobile de alimentație și alte servicii de alimentație (codurile CAEN 5611, 5612 și 5622) și că, fără el, regula se poate interpreta diferit. Punctele sunt grupate pe idei. Listele se refac treptat, întâi la proiectele cu risc ridicat; până atunci, pagina arată lista veche, cu nota că se actualizează.',
+        link: { href: '/camera/plx-714-2026#bine-rau', label: 'Un exemplu: Pl-x 714/2026' },
+        shot: {
+          id: '2026-11-26-legea-in-vigoare',
+          alt: 'Secțiunea „Ce e bine și ce strică” pentru Pl-x 714/2026, cu punctul despre art. 54 alin. (4) deschis: citatul din proiect, „La articolul 54, alineatele (3) și (4) se abrogă”, iar sub el „Legea în vigoare acum:” cu textul despre codurile CAEN 5611, 5612 și 5622.',
+        },
+      },
+      {
         kind: 'nou',
         title: 'Textul exact al articolelor pomenite',
         text: 'Pe pagina unui proiect, articolele legii pe care o modifică („art. 54 alin. (3)”, „articolul 47, litera c)”) sunt acum subliniate discret cu puncte. Treci cu mouse-ul peste ele sau atinge-le pe telefon și vezi textul exact al alineatului sau al literei, așa cum e în vigoare, cu legea și data formei consolidate din care l-am luat și cu linkuri spre acte.destraja.ro și spre legislatie.just.ro. Merge în analize, în „Ce e bine și ce strică”, în citatele din proiect, în observațiile instituțiilor, în amendamente și în comparația formelor. Trimiterile la proiect („art. I pct. 3”) arată punctul din proiect și, alături, ce scrie acum în articolul pe care îl schimbă. Când nu e limpede despre ce lege e vorba (de exemplu un articol din Constituție), lăsăm textul simplu.',
@@ -50,11 +60,69 @@ export const CHANGELOG: ChangeDay[] = [
           alt: 'Cardul „Unde e acum” pentru PL-x 57/2025, la comisiile Camerei: o bandă prună spune „Niciun pas procedural din 24 februarie 2025: de 1 an și 9 luni”, că de atunci în fișă apar doar avize și puncte de vedere, că termenul pentru raport a trecut pe 18 martie 2025, când a fost verificată fișa pe cdep.ro și legătura „Vezi toate proiectele uitate”.',
         },
       },
+      {
+        kind: 'nou',
+        title: 'Sub titlu scrie cât de proaspătă e analiza',
+        text: 'Pe pagina fiecărui proiect, sub eticheta de risc, un rând spune acum din ce e făcută analiza pe care o citești. „Analizat pe 26 noiembrie 2026, cu tot textul și legea în vigoare” înseamnă că totul e la zi. „Se actualizează: ce e bine și ce strică (din analiza anterioară)” înseamnă că o parte a paginii vine încă dintr-o analiză mai veche; legătura duce la acea secțiune, care rămâne la vedere, cu o notă. „Analiza din … se reface” apare când s-a schimbat de atunci textul proiectului sau legea pe care o modifică. Refacem acum, cu legea în vigoare, comparațiile dintre forme și listele cu ce e bine și ce strică, așa că în zilele următoare cele mai multe pagini vor arăta „Se actualizează”. Preferăm să spunem asta decât să dăm o parte veche drept nouă.',
+        link: { href: '/camera/plx-10-2026', label: 'Un exemplu: PL-x 10/2026' },
+        shot: {
+          id: '2026-11-26-prospetime',
+          alt: 'Antetul proiectului PL-x 10/2026: sub eticheta „Risc redus 3,7”, rândul „Se actualizează: comparația dintre forme și ce e bine și ce strică (din analiza anterioară)”, cu legături la cele două secțiuni, apoi titlul proiectului.',
+        },
+      },
+      {
+        kind: 'schimbat',
+        title: 'Căutarea pune întâi cuvântul pe care l-ai scris',
+        text: 'La o căutare scurtă, de un cuvânt sau două, proiectele care au acel cuvânt în titlu, în orice formă, vin acum primele. Cuvintele se potrivesc după rădăcină, nu după primele litere: „comunism” găsește „comunismului”, „comuniste” și „anticomuniste”, dar nu și „comunicările”. Până acum, la „comunism” ieșea primul proiectul despre căsuța poștală digitală, iar cel despre Ziua Rezistenței Anticomuniste abia al doilea. În pasajul de sub fiecare proiect sunt evidențiate doar cuvintele care se potrivesc cu adevărat. Pe 50 de căutări scurte de probă, proiectul potrivit iese acum primul în 46 de cazuri, față de 29 înainte.',
+        link: { href: '/cauta?q=comunism', label: 'Caută „comunism”' },
+        shot: {
+          id: '2026-11-26-cautare-cuvinte',
+          alt: 'Pagina Caută pentru „comunism”: primul rezultat e PL-x 319/2026, Ziua Națională a Rezistenței Anticomuniste, cu „comunismului”, „comunist” și „anticomunistă” evidențiate în pasaj, apoi Pl-x 262/2026, despre ideile și simbolurile comuniste; în dreapta, articole de presă.',
+        },
+      },
+      {
+        kind: 'schimbat',
+        title: '„Ce spun cele trei modele”, mai ușor de citit pe telefon',
+        text: 'Pe telefon, scorul comun și rândul de sub el stau acum la mijloc. Dedesubt e o singură scală de la 0 la 10, cu punctul mare al mediei și, deasupra, semnul fiecărui model la scorul lui: Gemini un pătrat, Claude un inel, ChatGPT o bară scurtă. Sub scală, o legendă spune cine ce a dat, de pildă „■ Gemini 6,0 · ○ Claude 5,0 · ▮ ChatGPT 7,0 · ◉ Media 6,0”, iar semnele nu se mai suprapun nici când scorurile sunt apropiate. Verdictele modelelor sunt rânduri unul sub altul, nu carduri înghesuite într-un card. Explicațiile de lângă scor și de la etichete precum „Aviz negativ CES” se deschid într-o foaie jos, pe toată lățimea ecranului, iar pagina nu mai derulează pe sub ea.',
+        link: { href: '/camera/plx-772-2026#modele', label: 'Un exemplu: Pl-x 772/2026' },
+        shot: {
+          id: '2026-11-26-modele-telefon',
+          alt: '„Ce spun cele trei modele” pentru Pl-x 772/2026, pe un telefon de 390 px: scorul 6,0 din 10 centrat, „Risc moderat · acord parțial”, scala cu semnele modelelor deasupra, legenda „Gemini 6,0 · Claude 5,0 · ChatGPT 7,0 · Media 6,0” și primul verdict, al lui Gemini, pe un rând.',
+        },
+      },
+      {
+        kind: 'nou',
+        title: 'O imagine pentru fiecare pagină, când trimiți linkul',
+        text: 'Până acum, doar proiectele și paginile principale aveau o imagine a lor când le trimiteai pe WhatsApp, Facebook sau în alt mesaj. Acum o are fiecare pagină publică. Pagina unui parlamentar arată numele, grupul, câte proiecte a semnat, câte am analizat, câte au risc ridicat, moderat sau redus și scorul mediu. Monitorul Oficial arată zidul zilelor din 1990 încoace, Înainte de 1990 actele pe decenii, Proiectele uitate de cât timp n-au mai avut niciun pas, iar Ce e nou ultimele trei schimbări. Au imaginea lor și Caută, pagina pentru asistenții AI și Mulțumiri.',
+        shot: {
+          id: '2026-11-26-imagini',
+          alt: 'Patru imagini de previzualizare: pagina deputatului Merka Adrian-Miroslav (65 de proiecte semnate, 38 analizate, scor mediu 4,1, cu un pătrățel colorat pentru fiecare proiect), Monitorul Oficial în cifre (zidul zilelor din 1990), Proiecte uitate (1.530 de proiecte fără niciun pas de peste un an) și Ce e nou (ultimele trei schimbări).',
+        },
+      },
+      {
+        kind: 'corectat',
+        title: 'Proiectele noi de la Senat apar în aceeași zi',
+        text: 'Un proiect nou de la Senat apare acum pe site în ziua în care îl găsim pe senat.ro, chiar dacă alte verificări din acea zi durează mai mult sau se opresc. Pe 25 noiembrie nu a fost așa: B660/2026, despre accesul la informațiile publice, a fost găsit dimineața, dar a ajuns pe site abia a doua zi, pentru că proiectele zilei se salvau abia la sfârșit, după ce recitisem fișele vechi. Acum fiecare proiect se salvează imediat ce e citit.',
+        link: { href: '/legi/b660-2026', label: 'B660/2026' },
+        shot: {
+          id: '2026-11-26-senat-aceeasi-zi',
+          alt: 'Pagina proiectului B660/2026 de la Senat, cu risc ridicat 7,7: „Primăriile și instituțiile vor putea refuza sau taxa mai ușor cererile de informații publice”, cu termenul de consultare, 24 decembrie 2026.',
+        },
+      },
     ],
   },
   {
     date: '2026-11-25',
     items: [
+      {
+        kind: 'schimbat',
+        title: 'Un antet nou, cu meniuri',
+        text: 'Sus pe fiecare pagină nu mai sunt opt legături pe un rând, ci patru meniuri: Parlament (Senat, Camera, Agenda, Parlamentari și Proiecte uitate), Monitorul Oficial, Date (Presă și date și pagina pentru asistenții AI) și Despre (Metodologie, Ce e nou și Contributori). Fiecare pagină din meniu are un rând despre ce găsești acolo, iar meniul paginii în care ești e subliniat. Monitorul Oficial are acum locul lui în antet, iar Proiectele uitate, pagina pentru asistenții AI și Ce e nou se găsesc din orice pagină. În dreapta e un câmp de căutare, pe care îl deschizi de oriunde și cu tasta „/”, și butonul Alerte, pentru abonarea pe e-mail. Pe telefon, meniul are căutarea sus, aceleași grupuri și Alerte jos.',
+        shot: {
+          id: '2026-11-25-antet',
+          alt: 'Antetul nou pe prima pagină, cu meniul Parlament deschis: Senat, Camera, Agenda, Parlamentari și Proiecte uitate, fiecare cu un rând despre ce găsești acolo; alături, Monitorul Oficial, Date și Despre, iar în dreapta câmpul de căutare cu tasta „/” și butonul Alerte.',
+        },
+      },
       {
         kind: 'nou',
         title: 'Toate proiectele semnate de un parlamentar',
@@ -78,6 +146,16 @@ export const CHANGELOG: ChangeDay[] = [
         text: 'În derularea procedurii unui proiect de la Camera Deputaților, rândurile „primire aviz de la” spun acum ce a hotărât comisia: favorabil, favorabil cu amendamente sau negativ, cu votul, dacă e scris, și cu linkul la PDF-ul avizului. „Ce scrie în aviz” arată propoziția din document. Deasupra, un bilanț: câte avize favorabile, câte negative și ce comisii nu au răspuns încă. Avizele sunt consultative: comisia care face raportul decide ce propune, iar plenul votează. Le citim treptat, întâi la proiectele aflate încă în dezbatere.',
         link: { href: '/camera/plx-697-2026', label: 'Un exemplu: Pl-x 697/2026' },
         shot: { id: '2026-11-25-avize-comisii', alt: 'Derularea procedurii pentru Pl-x 697/2026: bilanțul avizelor comisiilor deasupra, apoi rândurile cu avize, fiecare cu eticheta Favorabil sau Negativ, votul și linkul la PDF pe cdep.ro.' },
+      },
+      {
+        kind: 'corectat',
+        title: 'Monitorul Oficial: anii 1990–1997, mult mai compleți',
+        text: 'Pe pagina Monitorului Oficial, primii ani de după 1990 aveau goluri mari: pentru 1991 găseam doar 5 legi, iar pentru 1994, doar 6. Am completat numerele legilor și datele din Monitor pentru acei ani: acum găsim 68 de legi din 1991 și 132 din 1994, în total încă 615 legi, peste 3.100 de hotărâri ale Guvernului și aproape 4.300 de acte în plus pentru 1990–1997. Anul 1997 e acum complet. Anii 1990–1996 rămân marcați ca incompleți, iar tabelul „Anii, unul câte unul” de la final arată, an de an, câte legi și câte hotărâri ale Guvernului am găsit din câte au fost numerotate.',
+        link: { href: '/monitorul-oficial', label: 'Monitorul Oficial, în cifre' },
+        shot: {
+          id: '2026-11-25-mo-1990-1997',
+          alt: 'Tabelul „Anii, unul câte unul” de pe pagina Monitorului Oficial: 1990–1996 marcați „incomplet în index”, cu legile găsite din cele numerotate (de pildă 68 / 82 în 1991 și 132 / 146 în 1994), iar 1997 și anii de după, „complet”.',
+        },
       },
     ],
   },

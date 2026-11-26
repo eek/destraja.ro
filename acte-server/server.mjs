@@ -3,6 +3,8 @@
 //   node release/current/server.mjs --root /srv/acte --port 8090 --host 127.0.0.1
 // Local, cu datele de test:
 //   node acte-server/server.mjs --data acte-server/.fixture/data --release <dir cu template.html> --port 8090
+// Imaginile de previzualizare, local: --resvg <binar> --og-assets <dir cu fonturile și logo.svg> [--og-cache <dir>]
+// (în versiune sunt bin/resvg și og/, puse de tools/release.mjs).
 // --root R înseamnă --data R/data, --release <directorul acestui fișier>, cu urmărirea lui R/release/current.
 
 import path from 'node:path';
@@ -28,6 +30,9 @@ const s = createActeServer({
   releasesRoot: root ? path.join(root, 'release') : null,
   watchRelease: !!root && !args.includes('--no-watch-release'),
   cacheBytes: Number(opt('--cache-mb', 128)) * 1024 * 1024,
+  resvg: opt('--resvg') ? path.resolve(opt('--resvg')) : undefined,
+  ogAssetsDir: opt('--og-assets') ? path.resolve(opt('--og-assets')) : undefined,
+  ogCacheDir: opt('--og-cache') ? path.resolve(opt('--og-cache')) : undefined,
 });
 s.server.listen(port, host, () => console.error(`[acte] ascult pe http://${host}:${port} (versiunea ${s.release.id}, date: ${dataDir})`));
 for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, () => s.drain(sig));

@@ -118,19 +118,20 @@ export default function CiteRef({ src, target, label, children }: { src: string;
         aria-labelledby={`${id}-t`}
         onPointerEnter={(e) => e.pointerType === 'mouse' && clear()}
         onPointerLeave={leave}
-        className="cite-pop fixed inset-auto m-0 max-h-[min(34rem,calc(100dvh-2rem))] w-[27rem] max-w-[calc(100vw-2rem)] flex-col overflow-hidden [&:popover-open]:flex rounded-2xl border border-line bg-surface text-left text-sm font-normal leading-6 text-body shadow-[var(--shadow-lift)]"
+        // Pe telefon, aceeași foaie ca PopoverSheet (mobil): lipită jos, fundal întunecat, titlul fix sus.
+        className="cite-pop fixed inset-auto m-0 max-h-[min(34rem,calc(100dvh-2rem))] w-[27rem] max-w-[calc(100vw-2rem)] flex-col overflow-hidden rounded-2xl border border-line bg-surface text-left text-sm font-normal leading-6 text-body shadow-[var(--shadow-lift)] [&:popover-open]:flex max-sm:inset-x-0 max-sm:top-auto max-sm:bottom-0 max-sm:max-h-[85dvh] max-sm:w-auto max-sm:max-w-none max-sm:rounded-b-none max-sm:border-x-0 max-sm:border-b-0 max-sm:pb-[env(safe-area-inset-bottom)] max-sm:backdrop:bg-black/50"
       >
-        <span className="flex items-start justify-between gap-3 px-5 pb-2 pt-4">
-          <span id={`${id}-t`} className="block text-[15px] font-semibold leading-6 text-ink">
+        <span className="flex shrink-0 items-start justify-between gap-3 px-5 pb-2 pt-4 max-sm:mb-2 max-sm:min-h-14 max-sm:items-center max-sm:border-b max-sm:border-line max-sm:py-1.5 max-sm:pr-2">
+          <span id={`${id}-t`} className="block text-[15px] font-semibold leading-6 text-ink max-sm:text-base">
             {title}
           </span>
           <button
             type="button"
             onClick={() => hide()}
             aria-label="Închide"
-            className="-mr-2 -mt-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-muted hover:bg-sunken hover:text-ink"
+            className="-mr-2 -mt-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-muted hover:bg-sunken hover:text-ink max-sm:m-0 max-sm:h-11 max-sm:w-11"
           >
-            <X className="h-4 w-4" aria-hidden />
+            <X className="h-4 w-4 max-sm:h-5 max-sm:w-5" aria-hidden />
           </button>
         </span>
         {open && <Body file={file} target={target} />}

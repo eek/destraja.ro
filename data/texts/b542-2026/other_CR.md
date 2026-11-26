@@ -1,0 +1,45 @@
+Comisia pentru buget, finanțe, activitate bancară și piață de capital Nr. XXII/762/17.11.2026 Comisia economică, industrii, servicii, turism și antreprenoriat Nr. XX/767/24.11.2026
+
+## RAPORT COMUN
+
+asupra propunerii legislative pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici
+
+\-L637/2026-
+
+În conformitate cu prevederile art.70 și art.77 din Regulamentul Senatului, republicat, în vigoare, Comisia economică, industrii, servicii, turism și antreprenoriat și Comisia pentru buget, finanțe, activitate bancară și piață de capital, prin adresa nr.L637/2026, au fost sesizate de către Biroul permanent al Senatului, în vederea dezbaterii și elaborării raportului comun asupra propunerii legislative pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici, inițiată de: Bică Andra - senator PSD; Federovici Doina-Elena - senator PSD; Mihai Daniela - senator PSD; Presură Alexandra - senator PSD; Tănăsescu Alina-Elena - senator PSD; Câciu Adrian - deputat PSD; Cotea (Geamănu) Aurora-Adela - deputat PSD; Marinescu Radu - deputat PSD; Neacșu Marian - deputat PSD; Peța-Ștefănescu Eliza-Mădălina - deputat PSD; Stoenică Irina-Florentina - deputat PSD.
+
+Propunerea legislativă are ca obiect de reglementare modificarea și completarea Ordonanței de urgență a Guvernului nr. 60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele masuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici, aprobată prin Legea nr. 222/2019, cu modificările și completările ulterioare, în scopul extinderii mecanismului de stingere a creanțelor fiscale și bugetare datorate de operatorii economici eligibili, prin trecerea unor active funcționale ale acestora în proprietatea publică a statului, inclusiv asupra creanțelor bugetare rezultate din finanțările, garanțiile, contragaranțiile și asigurările acordate în numele și în contul statului, indiferent de instituția publică care administrează sau recuperează aceste creanțe.
+
+Consiliul Legislativ a avizat favorabil propunerea legislativă.
+
+Consiliul Economic și Social a avizat favorabil propunerea legislativă.
+
+Consiliul Concurenței a transmis punctul de vedere prin adresa nr. 16579/12.11.2026.
+
+Comisia juridică, de numiri, disciplină, imunități și validări a transmis aviz favorabil.
+
+Comisia pentru energie, infrastructură energetică și resurse minerale a transmis aviz negativ.
+
+În ședințe separate, membrii Comisiei pentru buget, finanțe, activitate bancară și piață de capital și cei ai Comisiei economice, industrii, servicii, turism și antreprenoriat au analizat propunerea legislativă, avizele, punctele de vedere exprimate și au hotărât cu majoritate de voturi să adopte un raport comun de admitere, fără amendamente.
+
+Comisia pentru buget, finanțe, activitate bancară și piață de capital și Comisia economică, industrii, servicii, turism și antreprenoriat supun spre dezbatere și adoptare, Plenului Senatului, raportul comun de admitere, fără amendamente și propunerea legislativă.
+
+În raport cu obiectul de reglementare, propunerea legislativă face parte din categoria legilor ordinare și urmează a fi supusă votului în conformitate cu prevederile art.76 alin.(2) din Constituția României, republicată.
+
+Potrivit prevederilor art.75 alin.(1) din Constituția României, republicată, și ale art.92 alin.(7) pct.1 din Regulamentul Senatului, republicat, în vigoare, Senatul este prima Cameră sesizată.
+
+PREȘEDINTE,
+
+Senator Sorin VLAȘIN
+
+PREȘEDINTE,
+
+Senator conf. univ. dr. HORGA Maria-Gabriela
+
+SECRETAR,
+
+Senator Cătălin SILEGEANU
+
+SECRETAR,
+
+Senator Eugen-Remus NEGOI

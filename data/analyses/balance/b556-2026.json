@@ -2,66 +2,70 @@
   "slug": "b556-2026",
   "billId": "B556/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-03T07:33:06.727Z",
-  "inputHash": "63a08431151f",
-  "riskScore": 1.5,
-  "summary": "O lege punctuală și utilă, fără prevederi care să o strice, dar formulată vag: nu spune ce sunt limbile rare și nici după ce criterii se dau banii.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-26T11:33:30.453Z",
+  "inputHash": "ca8bd433dcf9",
+  "riskScore": 2.3,
+  "summary": "O inițiativă utilă pentru protejarea specializărilor cu puțini studenți, dar scrisă vag și grăbită printr-o intrare în vigoare în 3 zile.",
   "good": [
     {
-      "text": "Ministerul poate plăti din bani publici programele universitare de limbi rare care altfel s-ar închide. Așa se păstrează profesorii și expertiza greu de refăcut.",
+      "text": "Creează o bază legală clară ca ministerul să salveze programele universitare de limbi rare atunci când numărul mic de studenți nu le acoperă costurile.",
       "article": "art. I (art. 149 alin. (3¹))",
       "quote": "Ministerul Educației și Cercetării poate asigura finanțarea programelor de studii universitare destinate formării de specialiști în domeniul limbilor rare",
       "weight": 3
     },
     {
-      "text": "Banii se dau doar programelor care nu se pot susține din finanțarea normală, din cauza numărului mic de studenți. Ajutorul este țintit, nu general.",
+      "text": "Folosește un fond deja existent și lasă finanțarea opțională („poate asigura”), deci nu obligă statul la cheltuieli bugetare noi.",
       "article": "art. I (art. 149 alin. (3¹))",
-      "quote": "în situațiile în care numărul redus de studenți nu permite asigurarea sustenabilității programului prin mecanismele finanțării de bază",
+      "quote": "Din fondurile pentru situații speciale prevăzute la alin. (3) lit. e), Ministerul Educației și Cercetării poate asigura finanțarea",
       "weight": 2
     },
     {
-      "text": "Banii vin dintr-un fond care există deja. Legea nu creează o cheltuială nouă și nu cere bani în plus de la buget.",
+      "text": "Condiționează sprijinul de imposibilitatea autofinanțării din bugetul de bază, evitând acordarea banilor către programe care se descurcă singure.",
       "article": "art. I (art. 149 alin. (3¹))",
-      "quote": "Din fondurile pentru situații speciale prevăzute la alin. (3) lit. e)",
+      "quote": "în situațiile în care numărul redus de studenți nu permite asigurarea sustenabilității programului prin mecanismele finanțării de bază",
       "weight": 2
     }
   ],
   "bad": [
     {
-      "text": "Legea nu spune ce înseamnă „limbă rară” și nici cine decide asta. Ministerul poate interpreta după bunul plac ce programe intră la finanțare.",
+      "text": "Nu definește ce sunt „limbi rare”, permițând interpretări arbitrare; expunerea de motive include inclusiv limbi precum maghiara sau rusa.",
       "article": "art. I (art. 149 alin. (3¹))",
-      "quote": "programelor de studii universitare destinate formării de specialiști în domeniul limbilor rare",
+      "quote": "finanțarea programelor de studii universitare destinate formării de specialiști în domeniul limbilor rare",
       "weight": 2
     },
     {
-      "text": "Finanțarea este doar o posibilitate („poate”), fără criterii, sume, durată sau procedură transparentă. Riscă să fie aplicată selectiv sau deloc.",
+      "text": "Nu stabilește pragul de studenți, ce înseamnă program nesustenabil, durata sprijinului sau criterii publice de selecție, creând risc de favoritism.",
       "article": "art. I (art. 149 alin. (3¹))",
-      "quote": "Ministerul Educației și Cercetării poate asigura finanțarea programelor de studii universitare",
+      "quote": "în situațiile în care numărul redus de studenți nu permite asigurarea sustenabilității programului prin mecanismele finanțării de bază",
       "weight": 2
     },
     {
-      "text": "Nu se precizează când un program e considerat nesustenabil, nici câți studenți înseamnă „număr redus”. Decizia rămâne neclară și greu de verificat.",
-      "article": "art. I (art. 149 alin. (3¹))",
-      "quote": "numărul redus de studenți nu permite asigurarea sustenabilității programului prin mecanismele finanțării de bază",
-      "weight": 1
-    },
-    {
-      "text": "Fondul pentru situații speciale nu crește. Banii dați limbilor rare pot lipsi altor nevoi urgente acoperite din același fond.",
-      "article": "art. I (art. 149 alin. (3¹))",
-      "quote": "Din fondurile pentru situații speciale prevăzute la alin. (3) lit. e)",
-      "weight": 1
-    },
-    {
-      "text": "Legea intră în vigoare după doar 3 zile, ocolind regula generală din legea învățământului. Universitățile au mai puțină predictibilitate.",
+      "text": "Ocolește termenul normal din legea educației și impune intrarea în vigoare în 3 zile de la publicare, fără a dovedi o urgență reală.",
       "article": "art. II",
-      "quote": "dispozițiile Art. I intră în vigoare la 3 zile de la data publicării prezentei legi",
+      "quote": "Prin derogare de la prevederile art. 260 alin.(16) din Legea învățământului superior nr. 199/2023, cu modificările și completările ulterioare, dispozițiile Art. I intră în vigoare la 3 zile de la data publicării",
+      "weight": 2
+    },
+    {
+      "text": "Adaugă o nouă destinație pentru fondul de situații speciale fără a estima costurile, putând reduce banii disponibili pentru alte urgențe universitare.",
+      "article": "art. I (art. 149 alin. (3¹))",
+      "quote": "Din fondurile pentru situații speciale prevăzute la alin. (3) lit. e), Ministerul Educației și Cercetării poate asigura finanțarea programelor de studii universitare",
       "weight": 1
     }
   ],
-  "fix": null,
+  "fix": {
+    "text": "Definirea clară a „limbilor rare” și a criteriilor obiective de alocare în art. I, împreună cu eliminarea derogării de 3 zile din art. II, ar elimina riscurile de arbitrar.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.8
+  },
   "quotes": {
-    "checked": 8,
-    "verified": 8
+    "checked": 7,
+    "verified": 7
   }
 }

@@ -1,8 +1,30 @@
 {
   "slug": "plx-595-2026",
   "billId": "PL-x 595/2026",
-  "updatedAt": "2026-10-30T09:47:42.480Z",
+  "updatedAt": "2026-11-26T10:27:11.256Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L557FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Firmele (SRL/SA) care cresc porci pot primi și ele ajutorul de stat pentru criza din Orientul Mijlociu",
+      "summaryTlDr": "Este o corectură tehnică utilă: repară o scăpare care excludea din schemă tocmai majoritatea fermelor de porci. Riscul real nu este abuzul, ci inutilitatea practică. Termenul de depunere a cererilor pare expirat, iar bugetul schemei rămâne același.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 2,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,31 +55,189 @@
         "agy": 2,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul redeschide depunerea cererilor până la 15 octombrie și modifică și schema pentru bovine",
+      "summary": "Acum termenul de depunere este redeschis până la 15 octombrie 2026, ca noii beneficiari să poată cere efectiv ajutorul. Proiectul modifică și schema pentru bovine (efectiv raportat la 1 martie, verificare SNIIA de către APIA), dar scutește firmele în faliment sau lichidare de o condiție.",
+      "changes": [
+        {
+          "title": "Termen redeschis pentru cererile crescătorilor de porci",
+          "text": "Art. I pct. 3 redeschide depunerea cererilor până la 15 octombrie 2026. Inițial nu exista un termen nou, iar societățile adăugate ca beneficiari nu mai puteau depune.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 3",
+          "before": null,
+          "after": "Perioada de depunere a cererilor de solicitare a ajutorului de stat pentru sectorul suin și a documentelor justificative prevăzute la art.6 alin.(1) este cuprinsă între data intrării în vigoare a prezentei legi și data de 15 octombrie 2026, inclusiv.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Firmele în faliment sau lichidare, scutite de o condiție",
+          "text": "Art. II pct. 1 lit. c) scutește de condiția celor 75% din efectiv și firmele în faliment sau lichidare. Ajutorul ar putea ajunge la întreprinderi în dificultate, contrar regulilor UE.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 1",
+          "before": null,
+          "after": "cu excepția celor care s-au aflat în una dintre următoarele situații: faliment, lichidare, forță majoră sau dețin exploatații supuse restricțiilor sanitare veterinare privind mișcarea animalelor",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ajutorul pentru bovine, calculat după efectivul de la 1 martie",
+          "text": "Art. II pct. 1, 2 și 5 leagă eligibilitatea și numărul maxim de animale de efectivul deținut la 1 martie 2026. Din cerere se elimină efectivul „la data solicitării”.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II pct. 2",
+          "before": null,
+          "after": "(3) Beneficiarul poate solicita ajutor de stat pentru un număr maxim de animale echivalent cu efectivul de animale deținut la 1 martie 2026.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termen nou de depunere și pentru crescătorii de bovine",
+          "text": "Art. II pct. 4 stabilește că cererile pentru bovine se depun de a doua zi după intrarea în vigoare a legii până la 15 octombrie 2026.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II pct. 4",
+          "before": null,
+          "after": "(3) Perioada de depunere a cererilor de solicitare a ajutorului de stat și a documentelor justificative prevăzute la alin.(1) este cuprinsă între ziua următoare intrării în vigoare a prezentei legi și 15 octombrie 2026, inclusiv.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "APIA verifică singură efectivul în SNIIA",
+          "text": "Art. II pct. 3 și 6: dacă fermierul nu are extrasul din SNIIA, APIA interoghează sistemul la depunerea cererii. Fermierul are mai puține acte de adus.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II pct. 3",
+          "before": null,
+          "after": "în lipsa acestuia, reprezentanții centrelor județene/locale APIA, respectiv al municipiului București, interoghează SNIIA, la data depunerii cererii de solicitare a ajutorului",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Bugetul pentru suine rămâne același deși intră multe societăți; reducerile nu sunt reglementate",
+            "major": true,
+            "article": "art. 5 alin. (3) din Legea nr. 175/2026"
+          },
+          {
+            "text": "Condiția de activitate până la 31 decembrie nu poate fi verificată la depunere",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Firmele în faliment sau lichidare, scutite de condiția de 75%: risc de ajutor ilegal",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Termene formulate diferit la suine și bovine; „prezenta lege” poate trimite la legea de bază",
+            "major": false,
+            "article": "art. I pct. 3, art. II pct. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "Societățile din Legea nr. 31/1990 devin beneficiari, în acord cu anexa nr. 1",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Dispare factura de livrare la abator, cerință incoerentă cu sprijinul pe loc de cazare",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Efectivul de bovine se raportează unitar la 1 martie 2026",
+            "major": true,
+            "article": "art. II pct. 1, 2, 5"
+          },
+          {
+            "text": "În zona montană sunt suficiente minimum 5 capete bovine sau bubaline",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Forța majoră și restricțiile sanitar-veterinare scutesc de condiția menținerii efectivului",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Termene de depunere redeschise până la 15 octombrie 2026 pentru suine și bovine",
+            "major": false,
+            "article": "art. I pct. 3, art. II pct. 4"
+          },
+          {
+            "text": "APIA interoghează SNIIA dacă fermierul nu are extrasul",
+            "major": false,
+            "article": "art. II pct. 3, 6"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 26,
+        "removed": 4,
+        "same": 0.16
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-26T10:26:25.793Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_riscant",
-      "headline": "Societățile comerciale primesc ajutor la suine, dar au doar 10 zile lucrătoare să depună cererea",
-      "summary": "Acum societățile comerciale primesc ajutorul la suine printr-un articol separat, cu doar 10 zile lucrătoare pentru cerere. Au dispărut prelungirea termenelor până la 15 octombrie și schimbările condițiilor la bovine. Au apărut două interpretări noi: exploatația și rolul APIA în SNIIA.",
+      "headline": "Firmele (SRL, SA) primesc ajutor pentru porci, dar au doar 10 zile lucrătoare să depună cererea",
+      "summary": "Acum firmele sunt incluse la porci printr-un articol separat, cu un termen scurt de 10 zile lucrătoare. Prelungirile de termen și modificările condițiilor la bovine au dispărut. Au apărut în schimb interpretări ale legii care pot schimba cine primește bani și cât.",
       "changes": [
         {
-          "title": "Societățile comerciale incluse la suine, dar în afara legii de bază",
-          "text": "Inițial art. 3 din Legea 175/2026 era modificat ca să includă firmele după Legea 31/1990. Acum art. II le dă ajutorul separat, iar art. 3 rămâne neschimbat. A dispărut și condiția de activitate 1 martie-31 decembrie 2026.",
+          "title": "Firmele primesc ajutor la porci, prin articol separat",
+          "text": "Inițial, firmele erau trecute direct în art. 3 din Legea 175/2026. Acum art. II le dă ajutorul la cerere, în condițiile art. 4, dar art. 3 rămâne neschimbat.",
           "effect": "neutru",
           "major": true,
           "article": "art. II",
           "before": "sau persoane juridice constituite potrivit Legii societăților nr.31/1990, republicată, cu modificările și completările ulterioare, care desfășoară activitate de îngrâșare și/sau reproducție a suinelor",
-          "after": "beneficiază, la cerere și persoanele juridice constituite potrivit Legii societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, în condițiile prevăzute la art. 4 din Legea nr. 175/2026",
+          "after": "beneficiază, la cerere și persoanele juridice constituite potrivit Legii societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, în condițiile prevăzute la art. 4 din Legea nr. 175/2026, cu modificările aduse prin prezenta lege.",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
-          "title": "Termen scurt pentru firme, fără prelungire la 15 octombrie",
-          "text": "Inițial cererile la suine și bovine se puteau depune până la 15 octombrie 2026. Acum prelungirile au dispărut, iar firmele au doar 10 zile lucrătoare de la intrarea în vigoare (art. II).",
+          "title": "Firmele în faliment nu mai sunt scutite la bovine",
+          "text": "Inițial, beneficiarii aflați în faliment sau lichidare erau scutiți de condiția de a păstra 75% din efectiv. Prevederea a fost scoasă, iar asta reduce riscul de a plăti firme în dificultate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": null,
+          "before": "cu excepția celor care s-au aflat în una dintre următoarele situații: faliment, lichidare, forță majoră sau dețin exploatații supuse restricțiilor sanitare veterinare privind mișcarea animalelor",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Toate fermele unui crescător de vaci contează ca una",
+          "text": "Art. III nou spune cum se interpretează art. 2 lit. e) din Legea 176/2026: toate amenajările cu coduri ANSVSA ale aceleiași persoane formează o singură exploatație. Asta poate schimba eligibilitatea sau sumele.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. III",
+          "before": null,
+          "after": "a unei persoane fizice/juridice cuprinde toate amenajările, toate construcțiile sau, în cazul creșterii în aer liber, orice mediu în care animalele sunt deținute",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nu se mai prelungește termenul la porci",
+          "text": "Inițial, toți crescătorii de porci puteau depune cereri până la 15 octombrie 2026. Acum termenul de 10 zile lucrătoare (art. II) se aplică doar firmelor nou incluse.",
           "effect": "mai_rau",
           "major": false,
           "article": "art. II",
@@ -65,34 +247,23 @@
           "afterAbsent": false
         },
         {
-          "title": "Au dispărut schimbările condițiilor de eligibilitate la bovine",
-          "text": "Au fost scoase modificările la art. 4 din Legea 176/2026: pragurile de 10/5 capete, păstrarea a 75% din efectiv cu excepțiile pentru faliment, lichidare și forță majoră, și plafonul la efectivul de la 1 martie.",
-          "effect": "neutru",
-          "major": true,
-          "article": "art. 4 L176/2026",
-          "before": "existența, la data de 5 octombrie 2026, a cel puțin 75% din efectivul de bovine sau bubaline solicitat în cerere, cu vârsta de minimum 22 de luni la această dată, cu excepția celor care s-au aflat în una dintre următoarele situații: faliment, lichidare, forță majoră",
+          "title": "Dispar termenul nou și condițiile noi la bovine",
+          "text": "Au fost scoase prelungirea termenului până la 15 octombrie 2026 și modificările la art. 4 alin. (1) lit. a), art. 4 alin. (3) și art. 6 din Legea 176/2026, care priveau efectivul deținut la 1 martie 2026.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": null,
+          "before": "(3) Perioada de depunere a cererilor de solicitare a ajutorului de stat și a documentelor justificative prevăzute la alin.(1) este cuprinsă între ziua următoare intrării în vigoare a prezentei legi și 15 octombrie 2026, inclusiv.",
           "after": null,
           "beforeAbsent": false,
           "afterAbsent": true
         },
         {
-          "title": "Toate codurile ANSVSA ale unui crescător formează o exploatație",
-          "text": "Art. III nou interpretează art. 2 lit. e) din Legea 176/2026: toate amenajările cu cod/coduri ANSVSA ale aceleiași persoane formează o singură exploatație. Asta poate schimba eligibilitatea sau sumele.",
-          "effect": "neutru",
-          "major": true,
-          "article": "art. III",
-          "before": null,
-          "after": "se interpretează în sensul că noțiunea de „exploatație în sectorul zootehnic” a unei persoane fizice/juridice cuprinde toate amenajările, toate construcțiile sau, în cazul creșterii în aer liber, orice mediu în care animalele sunt deținute",
-          "beforeAbsent": true,
-          "afterAbsent": false
-        },
-        {
-          "title": "APIA verifică SNIIA pe baza unui protocol",
-          "text": "Inițial legea spunea direct că APIA interoghează SNIIA dacă lipsește extrasul. Acum art. IV o declară utilizator SNIIA în baza unui protocol cu operatorul sistemului.",
+          "title": "APIA verifică SNIIA în baza unui protocol",
+          "text": "Inițial, anexa spunea direct că APIA interoghează SNIIA. Acum art. IV o consideră pe APIA utilizator SNIIA în baza unui protocol cu operatorul sistemului.",
           "effect": "neutru",
           "major": false,
           "article": "art. IV",
-          "before": "reprezentanții centrelor județene/locale APIA, respectiv al municipiului București, interoghează SNIIA, la data depunerii cererii de solicitare a ajutorului",
+          "before": "reprezentanții centrelor județene/locale APIA, respectiv al municipiului București, bifează căsuța în sensul că aceștia au interogat SNIIA",
           "after": "se înțelege și Agenția de Plăți și Intervenție pentru Agricultură în baza protocolului încheiat cu operatorul SNIIA.",
           "beforeAbsent": false,
           "afterAbsent": false
@@ -101,22 +272,22 @@
       "remaining": {
         "problems": [
           {
-            "text": "Firmele au doar 10 zile lucrătoare pentru cererea de ajutor la suine",
-            "major": true,
-            "article": "art. II"
-          },
-          {
-            "text": "Agregarea codurilor ANSVSA poate schimba eligibilitatea sau sumele la bovine",
+            "text": "Comasarea codurilor ANSVSA poate schimba retroactiv eligibilitatea sau sumele la bovine",
             "major": true,
             "article": "art. III"
           },
           {
-            "text": "Art. 3 din Legea 175/2026 rămâne nemodificat; beneficiul firmelor stă în afara legii",
+            "text": "Firmele au doar 10 zile lucrătoare, jumătate față de beneficiarii inițiali",
             "major": false,
             "article": "art. II"
           },
           {
-            "text": "Nu se spune ce se întâmplă cu dosarele respinse pentru lipsa facturii",
+            "text": "Art. 3 din Legea 175/2026 rămâne neschimbat, deci firmele lipsesc din textul de bază",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu dosarele respinse pe motivul facturii către abator",
             "major": false,
             "article": "art. I"
           },
@@ -128,17 +299,17 @@
         ],
         "good": [
           {
-            "text": "Societățile comerciale crescătoare de suine pot primi ajutorul de stat",
+            "text": "Firmele constituite după Legea 31/1990 pot primi ajutorul pentru porci",
             "major": true,
             "article": "art. II"
           },
           {
-            "text": "Nu mai e cerută factura de livrare la abator, coerent cu plata pe loc",
+            "text": "Factura de livrare către abator nu mai este necesară la decontare",
             "major": false,
             "article": "art. I"
           },
           {
-            "text": "APIA poate verifica direct SNIIA, deci mai puține acte pentru fermieri",
+            "text": "APIA poate verifica direct datele din SNIIA, cu mai puține acte pentru fermieri",
             "major": false,
             "article": "art. IV"
           }
@@ -147,12 +318,12 @@
       },
       "diff": {
         "added": 8,
-        "removed": 23,
+        "removed": 31,
         "same": 0
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:45:48.423Z"
+      "schema": 4,
+      "updatedAt": "2026-11-26T10:27:11.256Z"
     }
   ]
 }

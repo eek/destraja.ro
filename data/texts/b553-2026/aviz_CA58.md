@@ -1,0 +1,29 @@
+# Parlamentul României
+
+Senat
+
+Comisia pentru comunicații, tehnologia informației și inteligență artificială Nr. LXIX/316/24.11.2026
+
+## AVIZ
+
+la Propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și a Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală
+
+Comisia pentru comunicații, tehnologia informației și inteligență artificială a fost sesizată cu adresa L649/2026, pentru dezbaterea și Propunerea legislativă pentru modificarea și completarea Legii nr.227/2015 privind Codul fiscal și a Legii nr.208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală, inițiată de: Alecu Robert - deputat Neafiliat.
+
+În ședința din data de 24.11.2026, membrii Comisiei au analizat propunerea legislativă și au hotărât, cu unanimitate de voturi, să adopte aviz negativ.
+
+PREȘEDINTE
+
+SECRETAR
+
+Senator,
+
+Vasile-Ciprian RUS
+
+Senator,
+
+Grigore-Adrian PEIU
+
+Domnului senator Ion-Cristinel RUJAN - Președintele Comisiei juridice, de numiri, disciplină, imunități și validări
+
+Domnului senator Kăroly Zsolt CSASZAR - Președintele Comisiei pentru administrație publică

@@ -1,0 +1,89 @@
+{
+  "slug": "b664-2026",
+  "billId": "B664/2026",
+  "schema": 1,
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-26T11:21:13.286Z",
+  "inputHash": "221f22a80ea8",
+  "riskScore": 5.3,
+  "summary": "O idee utilă de relaxare fiscală pentru orele suplimentare, dar redactată neglijent, cu portițe de abuz și o eroare majoră la contribuția de sănătate.",
+  "good": [
+    {
+      "text": "Scutește de impozitul pe venit plata pentru până la 32 de ore suplimentare pe lună, crescând banii în mână ai angajaților din privat și stimulând declararea legală.",
+      "article": "art. I pct. 1",
+      "quote": "venituri din salarii aferente orelor suplimentare prestate, în limita a maximum 32 de ore lunar, pentru contractele de muncă cu normă întreagă",
+      "weight": 3
+    },
+    {
+      "text": "Păstrează plata contribuției la pensie pentru orele suplimentare, astfel încât salariații câștigă mai mult acum fără să piardă la viitoarea pensie.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Scutirea de sănătate e scrisă greșit: exceptează persoana, nu doar orele suplimentare, putând scuti de contribuție chiar și salariul de bază sau alte venituri.",
+      "article": "art. I pct. 2",
+      "quote": "persoanele fizice care realizează venituri din salarii aferente orelor suplimentare prestate, în limita a maximum 32 de ore lunar",
+      "weight": 3
+    },
+    {
+      "text": "Nu pune o limită de bani sau procent pentru spor, deci firmele pot masca bonusuri mari ca ore suplimentare pentru a evita impozitul și contribuția la sănătate.",
+      "article": "art. I pct. 1 și 2",
+      "quote": "venituri din salarii aferente orelor suplimentare prestate, în limita a maximum 32 de ore lunar, pentru contractele de muncă cu normă întreagă",
+      "weight": 3
+    },
+    {
+      "text": "Lipsește calculul de impact bugetar, iar banii în plus la pensii nu pot acoperi găurile create în bugetele locale și în fondul de sănătate.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Nu definește personalul plătit parțial din fonduri publice, riscând să excludă firme private cu subvenții pentru angajări, fonduri europene sau contracte cu CNAS.",
+      "article": "art. I pct. 1 și 2",
+      "quote": "pentru contractele de muncă cu normă întreagă, cu excepția personalului plătit integral sau parțial din fonduri publice",
+      "weight": 2
+    },
+    {
+      "text": "Deși motivarea promite limita la același angajator, legea nu o scrie, permițând cuiva cu două norme întregi să adune scutiri peste cele 32 de ore pe lună.",
+      "article": "art. I pct. 1 și 2",
+      "quote": "în limita a maximum 32 de ore lunar, pentru contractele de muncă cu normă întreagă",
+      "weight": 2
+    },
+    {
+      "text": "Data aplicării din anul următor publicării e neclară și poate încălca regula Codului fiscal care cere cel puțin șase luni între adoptare și intrarea în vigoare.",
+      "article": "art. II",
+      "quote": "Prevederile prezentei legi intră în vigoare începând cu anul următor publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 2
+    },
+    {
+      "text": "Nu prevede reguli de aplicare sau raportare separată la Fisc, ceea ce face foarte dificilă verificarea dacă orele suplimentare chiar au fost lucrate.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Articolul despre sănătate omite alineatul corect, scrie greșit «Categori» și trimite la o inexistentă «litera §)» în loc de «ș)», creând confuzie juridică.",
+      "article": "art. I pct. 2",
+      "quote": "La articolul 154 „Categori de persoane fizice exceptate de la plata contribuției de asigurări sociale de sănătate” după litera §) se introduce",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Limitarea expresă a scutirii de sănătate doar la sumele din ore suplimentare, corectarea trimiterilor și introducerea unui plafon valoric pentru spor ar elimina riscurile majore.",
+    "removes": [
+      0,
+      1,
+      7
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3.2
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

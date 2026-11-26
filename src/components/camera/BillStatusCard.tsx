@@ -4,14 +4,17 @@ import { dayDiff } from '@/lib/cdep-text';
 import { formatDateRo } from '@/lib/format';
 import LiveDayCount from './LiveDayCount';
 import { panel } from '@/components/ui';
+import type { Stillness } from '@/lib/uitate';
+import { StuckBand } from './StuckNote';
 
 const KIND = { procedural: 'termen de procedură', programat: 'programat, se poate schimba' } as const;
 
 /**
  * „Unde e acum”: stadiul dovedit de fișa Camerei, ultimul pas cu data, ce urmează și termenele, fiecare cu felul lui.
- * Nu promite când va fi adoptat proiectul: pentru asta nu există, de regulă, o dată.
+ * Nu promite când va fi adoptat proiectul: pentru asta nu există, de regulă, o dată. Un proiect care stă pe loc de peste
+ * șase luni (`still`) primește banda „Niciun pas procedural din …”, cu termenul trecut și data verificării fișei în ea.
  */
-export default function BillStatusCard({ status, readAt, builtOn }: { status: BillStatus; readAt: string; builtOn: string }) {
+export default function BillStatusCard({ status, readAt, builtOn, still = null }: { status: BillStatus; readAt: string; builtOn: string; still?: Stillness | null }) {
   return (
     <section aria-labelledby="unde-e-acum" className={`${panel} mt-6 p-6 sm:p-8`}>
       <p id="unde-e-acum" className="text-xs font-semibold uppercase tracking-[0.08em] text-muted">
@@ -26,6 +29,7 @@ export default function BillStatusCard({ status, readAt, builtOn }: { status: Bi
           {status.next}
         </p>
       )}
+      {still && <StuckBand still={still} overdue={status.overdue} />}
       {status.deadlines.length > 0 && (
         <ul className="mt-4 grid gap-2 border-t border-line pt-4">
           {status.deadlines.map((d) => (
@@ -42,7 +46,7 @@ export default function BillStatusCard({ status, readAt, builtOn }: { status: Bi
           ))}
         </ul>
       )}
-      {status.overdue && (
+      {status.overdue && !still && (
         <p className="mt-4 flex gap-2 text-sm leading-6 text-body">
           <CircleAlert className="mt-0.5 h-4 w-4 shrink-0 text-muted" aria-hidden />
           {status.overdue}
@@ -55,8 +59,8 @@ export default function BillStatusCard({ status, readAt, builtOn }: { status: Bi
         </p>
       )}
       <p className="mt-5 text-xs text-muted">
-        Din fișa Camerei Deputaților, citită pe {formatDateRo(readAt.slice(0, 10))}. Pașii care nu apar încă în fișă nu înseamnă că nu
-        s-au întâmplat.
+        {!still && `Din fișa Camerei Deputaților, citită pe ${formatDateRo(readAt.slice(0, 10))}. `}Pașii care nu apar încă în fișă nu
+        înseamnă că nu s-au întâmplat.
       </p>
     </section>
   );

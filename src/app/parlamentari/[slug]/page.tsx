@@ -40,10 +40,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { mp } = await load((await params).slug);
   if (!mp) return { title: 'Parlamentar negăsit' };
-  return {
-    title: `${mp.name} (${mp.party})`,
-    description: `${mp.name}${mp.role ? `, ${mp.role}` : ''} ${mp.party}, a semnat ${countWord(mp.billsCount, 'proiect analizat', 'proiecte analizate')} de noi la Senat și la Camera Deputaților: ${mp.redCount} cu risc ridicat, ${mp.yellowCount} moderat și ${mp.greenCount} redus.`,
-  };
+  const title = `${mp.name} (${mp.party})`;
+  const description = `${mp.name}${mp.role ? `, ${mp.role}` : ''} ${mp.party}, a semnat ${countWord(mp.billsCount, 'proiect analizat', 'proiecte analizate')} de noi la Senat și la Camera Deputaților: ${mp.redCount} cu risc ridicat, ${mp.yellowCount} moderat și ${mp.greenCount} redus.`;
+  return { title, description, openGraph: { title: `${title} · destrajă.ro`, description } };
 }
 
 export default async function MpPage({ params }: PageProps) {

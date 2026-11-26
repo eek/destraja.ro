@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Caută',
   description: 'Caută un proiect de lege după număr, un senator sau un deputat după nume ori, cu vorbele tale, ce te interesează, în proiectele de la Senat și de la Camera Deputaților.',
   alternates: { canonical: '/cauta' },
+  openGraph: { title: 'Caută · destrajă.ro', description: 'Un proiect de lege după număr, un senator sau un deputat după nume ori, cu vorbele tale, ce te interesează.' },
 };
 
 // Pagina e statică; întrebarea vine din adresă (?q=) și se citește în browser (SearchResults).

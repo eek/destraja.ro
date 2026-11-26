@@ -1,0 +1,35 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+# Comisia pentru constituționalitate
+
+NR. LXVIII/6228/03.11.2026
+
+Către
+
+Biroul permanent al Senatului,
+
+În temeiul prevederilor art. 35 alin. (1) lit. e) a doua liniuță din Regulamentul Senatului, Comisia pentru constituționalitate, prin adresa nr. B518 din 12 octombrie 2026, a fost sesizată, în vederea stabilirii competenței de dezbatere ca primă Cameră sesizată, cu Propunerea legislativă pentru modificarea și completarea Legii nr.80/1995 privind statutul cadrelor militare și a Legii nr.367/2022 privind dialogul social (B518/2026), inițiator: Peia Ninel - senator PACE.
+
+Propunerea legislativă are ca obiect de reglementare modificarea Legii nr. 80/1995 privind statutul cadrelor militare și a Legii nr. 367/2022 privind dialogul social, în sensul instituirii posibilității suspendării calității de cadru militar în activitate - prin introducerea unei a patra categorii de militari pe langă cele existente: în activitate, în retragere și în rezervă - în vederea candidaturii la funcții elective și a recunoașterii dreptului cadrelor militare în activitate de a constitui și de a adera la organizații sindicale, cu stabilirea unor limite determinate de specificul serviciului militar.
+
+Având în vedere că, prin conținutul său normativ, propunerea legislativă face parte din categoria legilor organice,
+
+luând în considerare competența partajată dată de faptul că inițiativa modifică și completează prevederi ale actului normativ referitoare la statutul cadrelor militare, și de faptul că aceste dispoziții se vor aplica, precum și regimul general privind sindicatele,
+
+având în vedere avizul Consiliului Legislativ, membrii Comisiei au reținut că:
+
+\- în ceea ce privește intervențiile legislative asupra Legii nr. 80/1995 privind statutul cadrelor militare, sunt incidente prevederile art.118 alin. (2) din Constituția României, republicată, competența luării în dezbatere a acestora, în calitate de primă Cameră sesizată, potrivit dispozițiilor art.75 alin.(1) din Legea fundamentală, îi revine Camerei Deputaților;
+
+\- în ceea ce privește intervențiile legislative asupra Legii nr. 367/2022 privind dialogul social, sunt incidente prevederile art.73 alin.(3) lit.j) din Constituție, iar, în aplicarea dispozițiilor art.75 alin.(1) din Legea fundamentală, prima Cameră sesizată este Senatul.
+
+Comisia pentru constituționalitate, în ședința din 3 noiembrie 2026, a hotărât, cu unanimitate de voturi, să propună Biroului permanent trimiterea inițiativei legislative la Camera Deputaților în vederea adoptării acesteia în calitate de primă Cameră sesizată, cu mențiunea că devin aplicabile dispozițiile art.75 alin. (5) din Legea fundamentală, în cazul în care Senatul va adopta modificări ale prevederilor referitoare la regimul general privind sindicatele, care cad sub incidența art.73 alin.(3) lit.p) din Constituție, legea se va întoarce, numai pentru prevederile respective, la Camera Deputaților care va decide definitiv în procedură de urgență.
+
+În consecință, Comisia pentru constituționalitate propune Biroului permanent să transmită Camerei Deputaților, în conformitate cu prevederile art.35 alin.(1) lit.e) a doua liniuță din Regulamentul Senatului, republicat, cu modificările și completările ulterioare, propunerea legislativă menționată (B518/2026) în vederea luării în dezbatere a acesteia, în calitate de primă Cameră sesizată.
+
+Președinte,
+
+Secretar,
+
+Senator Nadia-Cosmina CERVA
+
+Senator Corneliu NEGRU

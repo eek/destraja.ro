@@ -1,142 +1,201 @@
 {
   "slug": "b535-2026",
   "billId": "B535/2026",
-  "schema": 1,
-  "model": "agy",
-  "modelId": "gemini-4-neon-high",
-  "updatedAt": "2026-11-20T09:39:11.773Z",
-  "inputHash": "9f32dd5978f5",
+  "schema": 2,
+  "model": "codex",
+  "modelId": "gpt-6.1-sol",
+  "updatedAt": "2026-11-26T12:07:40.557Z",
+  "inputHash": "21f0d9e4dab6",
   "riskScore": 3,
-  "summary": "O lege utilă și bine gândită pentru protejarea bisericilor de lemn, dar cu lacune la sancțiuni, delegări excesive către Guvern și erori de redactare.",
+  "input": {
+    "textChars": 67827,
+    "memoChars": 31140,
+    "baseline": "no-acts"
+  },
+  "summary": "O lege cu protecții concrete pentru oameni și patrimoniu, dar cu mai multe probleme corectabile de aplicare, finanțare și claritate, fără o singură prevedere care să compromită întregul proiect.",
   "good": [
     {
-      "text": "Evaluările de risc, reevaluările, Fișa și Planul de protecție sunt plătite de stat, nu de parohii, protejând comunitățile sărace de costuri pe care nu le-ar putea suporta.",
-      "article": "art. 39 alin. (4), art. 12 alin. (9), art. 15 alin. (7)",
-      "quote": "Proprietarul, titularul dreptului de administrare sau unitatea de cult care are în folosință biserica de lemn nu suportă costurile evaluărilor dispuse din inițiativa autorităților publice în cadrul programului național",
+      "text": "Salvarea oamenilor și siguranța echipelor au prioritate față de patrimoniu; recuperarea bunurilor nu justifică punerea în pericol a persoanelor.",
+      "article": "art. 19 alin. (3), art. 32–33 și art. 34 alin. (7)",
+      "quote": "În desfășurarea intervenției, protejarea vieții și integrității persoanelor, inclusiv a personalului de intervenție, precum și înlăturarea pericolului imediat au prioritate.",
       "weight": 3
     },
     {
-      "text": "Lipsa banilor proprii sau a documentațiilor tehnice nu poate bloca finanțarea bisericilor cu risc critic ori ridicat, iar statul poate acoperi integral intervențiile și studiile necesare.",
-      "article": "art. 40 alin. (2)–(5), art. 41 alin. (1) și (3)",
-      "quote": "Lipsa capacității financiare a unei comunități locale sau unități de cult nu poate constitui singurul motiv pentru excluderea de la finanțare a unei biserici de lemn cu valoare culturală semnificativă aflate în risc critic.",
-      "weight": 3
-    },
-    {
-      "text": "Creează o rezervă financiară anuală pentru intervenții imediate după incendii sau calamități, iar statul preia lucrările urgente dacă parohia nu are bani sau mijloace tehnice.",
-      "article": "art. 39 alin. (8), art. 35 alin. (1), (9) și (11)",
-      "quote": "În cadrul Programului se constituie anual o rezervă financiară pentru intervenții urgente, destinată finanțării măsurilor de punere în siguranță și intervenție imediată",
-      "weight": 3
-    },
-    {
-      "text": "Impune măsuri concrete adaptate lemnului: paratrăsnete, interzicerea improvizațiilor electrice, detectoare cu alarmare la distanță pentru biserici izolate și surse de apă prioritare.",
-      "article": "art. 16–20",
+      "text": "Impune verificări tehnice, protecție la trăsnet, alarmare pentru riscurile mari și reguli privind focul, accesul și întreținerea; reduce riscul incendiilor și al degradărilor costisitoare.",
+      "article": "art. 16–23 și art. 48–51",
       "quote": "Sunt interzise improvizațiile electrice, utilizarea conductoarelor deteriorate și alimentarea instalațiilor neconforme.",
       "weight": 3
     },
     {
-      "text": "Creează un registru electronic conectat cu sistemele ISU și planuri individuale de protecție cu surse de apă, căi de acces și priorități de salvare pentru fiecare biserică.",
-      "article": "art. 8–9, art. 13–15",
-      "quote": "Registrul se realizează în format electronic și este interoperabil, în condițiile legii, cu bazele de date privind monumentele istorice și cu sistemele informaționale relevante pentru managementul situațiilor de urgență.",
+      "text": "Evaluările, reevaluările, Fișele și Planurile obligatorii sunt plătite prin Program, scutind inclusiv parohiile sărace de aceste costuri.",
+      "article": "art. 11 alin. (5), art. 12 alin. (8)–(9), art. 14 alin. (4), art. 15 alin. (7) ș",
+      "quote": "nu se realizează pe cheltuiala proprietarului, a titularului dreptului de administrare sau a unității de cult, costurile acestora fiind suportate prin Program.",
+      "weight": 3
+    },
+    {
+      "text": "Lipsa documentațiilor nu poate elimina prioritatea dată de risc, iar lipsa banilor proprii nu justifică singură excluderea obiectivelor vulnerabile; documentațiile necesare pot fi finanțate.",
+      "article": "art. 40 alin. (2)–(5), art. 41 alin. (3) și art. 52 alin. (4)",
+      "quote": "lipsa acestora nu poate constitui, prin ea însăși, motiv de excludere de la finanțare sau de diminuare a priorității",
+      "weight": 3
+    },
+    {
+      "text": "După dezastru, Comisia se constituie în maximum 72 de ore, există o rezervă financiară, iar autoritățile asigură măsurile urgente când titularul nu le poate realiza din motive obiective.",
+      "article": "art. 35 alin. (1) și (8)–(11), art. 39 alin. (8)–(9) și art. 56",
+      "quote": "autoritățile și instituțiile competente asigură, în condițiile prezentei legi, realizarea acestora prin Program, direct sau prin contractarea unor operatori și specialiști autorizați ori atestați potrivit legii.",
+      "weight": 3
+    },
+    {
+      "text": "Registrul comun și evaluările multidisciplinare identifică pericolele, iar reevaluările periodice sau după dezastre permit urmărirea schimbărilor și prioritizarea protecției.",
+      "article": "art. 8–14 și art. 49",
+      "quote": "obligatoriu după incendiu, trăsnet, cutremur, inundație, intervenție structurală sau alt eveniment susceptibil să modifice nivelul de risc.",
+      "weight": 3
+    },
+    {
+      "text": "Planul fiecărei biserici pregătește accesul, alarmarea, evacuarea, salvarea bunurilor și primele 72 de ore după dezastru; informațiile operative ajung la pompieri.",
+      "article": "art. 15 alin. (1)–(6) și art. 34 alin. (8)–(9)",
+      "quote": "Planul individual de protecție stabilește, în funcție de nivelul de risc, măsurile de prevenire, conservare, protecție și intervenție, ordinea de prioritate a acestora",
+      "weight": 3
+    },
+    {
+      "text": "Intervențiile pe monumente păstrează avizele și specialiștii ceruți de lege; sunt protejate materialul istoric și peisajul, iar titularii nu pot fi obligați să execute singuri lucrări specializate.",
+      "article": "art. 2 alin. (2), art. 12 alin. (5), art. 18 alin. (3), art. 23, art. 50 alin. (",
+      "quote": "nu le poate fi impusă, în temeiul prezentului articol, efectuarea fără personal de specialitate a unor lucrări",
+      "weight": 3
+    },
+    {
+      "text": "Fragmentele istorice nu pot fi aruncate înaintea evaluării; restaurarea trebuie fundamentată științific și folosește prioritar elementele originale recuperabile.",
+      "article": "art. 34 alin. (1)–(3) și art. 37",
+      "quote": "Elementele recuperabile se inventariază, etichetează, fotografiază și depozitează în condiții adecvate.",
+      "weight": 3
+    },
+    {
+      "text": "Finanțarea urmărește riscul și valoarea culturală, permite cofinanțarea și respectă bugetele aprobate; investițiile pot fi orientate spre nevoile cele mai urgente.",
+      "article": "art. 39 alin. (6)–(7), art. 40 alin. (1) și (6), art. 41 și art. 60 alin. (2)",
+      "quote": "La stabilirea priorităților de finanțare se acordă prioritate bisericilor de lemn încadrate în nivelul de risc critic",
       "weight": 2
     },
     {
-      "text": "Pompierii primesc instruire specifică pentru structurile istorice din lemn, iar resturile cu valoare culturală după un incendiu nu pot fi aruncate ca deșeuri înainte de evaluare.",
-      "article": "art. 33–34",
-      "quote": "Personalul serviciilor profesioniste pentru situații de urgență care poate participa la intervenții asupra bisericilor de lemn beneficiază de instruire specifică privind particularitățile constructive și comportarea structurală a construcțiilor istorice din lemn",
+      "text": "O linie distinctă finanțează prevenția și mentenanța înaintea dezastrului, separat de rezerva pentru urgențe; sprijinul public poate evita reparații mult mai scumpe.",
+      "article": "art. 52 alin. (1)–(3) și (5)",
+      "quote": "se instituie o linie distinctă de finanțare destinată prevenției și mentenanței, accesibilă înainte de apariția unei situații de urgență.",
       "weight": 2
     },
     {
-      "text": "Finanțează dosare digitale cu relevee, fotografii și scanări 3D păstrate în arhive separate, astfel încât informația despre bisericile valoroase să nu dispară ireversibil într-un incendiu.",
+      "text": "Dosarele digitale și copiile păstrate în infrastructuri distincte protejează informația despre clădiri și bunuri; documentarea nu autorizează automat reconstruirea unui monument distrus.",
       "article": "art. 24–25",
-      "quote": "Cheltuielile aferente realizării documentației digitale prevăzute la alin. (3), atunci când aceasta nu există, precum și actualizării sale sunt eligibile pentru finanțare prin Programul național prevăzut la art. 39.",
+      "quote": "Copii de siguranță ale documentațiilor se păstrează în infrastructuri distincte.",
       "weight": 2
     },
     {
-      "text": "Clarifică faptul că înscrierea în Registru a unei biserici neclasate nu o transformă automat în monument istoric, prevenind extinderea pe ușa din dos a restricțiilor din Legea 422/2001.",
-      "article": "art. 10 alin. (8)",
-      "quote": "Identificarea valorii culturale în condițiile art. 2 alin. (1) lit. e) și înscrierea în Registru au ca efect exclusiv includerea bisericii de lemn în domeniul de aplicare al prezentei legi și nu echivalează cu clasarea acesteia ca monument istoric",
+      "text": "Legea se aplică indiferent de cult sau proprietar, cere consultarea titularilor și protejează autonomia religioasă; măsurile privind practicile de cult trebuie corelate cu securitatea.",
+      "article": "art. 1 alin. (4), art. 15 alin. (2), art. 22 alin. (3), art. 27 și art. 57 alin.",
+      "quote": "Autoritățile statului nu pot interveni, în temeiul prezentei legi, în organizarea internă, doctrina, disciplina, activitatea liturgică ori raporturile canonice ale cultelor",
       "weight": 2
     },
     {
-      "text": "Obligă Ministerul Culturii să publice anual date despre riscuri, controale, incidente și banii cheltuiți, fără a divulga detalii tehnice care ar ajuta hoții sau incendiatorii.",
-      "article": "art. 47",
+      "text": "Înscrierea în Registru nu transformă bisericile neclasate în monumente istorice; dacă apar motive pentru clasare, autoritățile trebuie să urmeze procedura separată.",
+      "article": "art. 10 alin. (7)–(8)",
+      "quote": "nu echivalează cu clasarea acesteia ca monument istoric și nici nu atrag aplicarea regimului juridic al monumentelor istorice",
+      "weight": 2
+    },
+    {
+      "text": "Sancțiunile sunt graduale; pentru verificările omise se cer notificare și termen de remediere. Se ține cont de pericol și conduită, iar dubla sancționare a aceleiași fapte este exclusă.",
+      "article": "art. 44 și art. 45 alin. (2)–(3)",
+      "quote": "neefectuarea verificărilor tehnice obligatorii după notificarea și expirarea termenului de remediere;",
+      "weight": 2
+    },
+    {
+      "text": "Împarte coordonarea între Cultură și structurile de urgență, implică autoritățile locale și cere verificări coordonate la riscurile mari, reducând suprapunerile controalelor.",
+      "article": "art. 5–7, art. 28–31 și art. 43",
+      "quote": "Pentru obiectivele de nivel I și II se efectuează acțiuni periodice de verificare coordonată, în condițiile stabilite prin normele metodologice, evitându-se suprapunerea nejustificată a controalelor.",
+      "weight": 2
+    },
+    {
+      "text": "Pompierii și persoanele care folosesc bisericile primesc instruire adaptată riscurilor; exercițiile pregătesc evacuarea și intervenția fără manipularea inutilă a bunurilor originale.",
+      "article": "art. 34 alin. (4)–(6), art. 46 și art. 53",
+      "quote": "Pentru monumentele de importanță deosebită exercițiile pot include simularea evacuării bunurilor culturale mobile, fără manipularea nejustificată a originalelor.",
+      "weight": 2
+    },
+    {
+      "text": "Un raport public anual prezintă riscurile, controalele, incidentele, investițiile și banii utilizați, oferind un instrument de verificare a rezultatelor autorităților.",
+      "article": "art. 47 alin. (1)–(2)",
       "quote": "Până la data de 30 iunie a fiecărui an, Ministerul Culturii publică raportul privind starea Sistemului național în anul precedent.",
       "weight": 2
-    },
-    {
-      "text": "Protejează autonomia cultelor, interzicând statului să intervină în doctrină, organizare internă sau slujbe, în afara măsurilor stricte de siguranță și protejare a patrimoniului.",
-      "article": "art. 27 alin. (3), art. 22 alin. (3)",
-      "quote": "Autoritățile statului nu pot interveni, în temeiul prezentei legi, în organizarea internă, doctrina, disciplina, activitatea liturgică ori raporturile canonice ale cultelor",
-      "weight": 1
-    },
-    {
-      "text": "Prevede verificări coordonate pentru bisericile cu risc critic sau ridicat, evitând controalele suprapuse, și exerciții periodice de evacuare fără a pune în pericol obiectele originale.",
-      "article": "art. 43, art. 46",
-      "quote": "Pentru obiectivele de nivel I și II se efectuează acțiuni periodice de verificare coordonată, în condițiile stabilite prin normele metodologice, evitându-se suprapunerea nejustificată a controalelor.",
-      "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Nu spune concret ce instituție aplică fiecare amendă (1.000–50.000 lei), folosind formula vagă „personalul autorităților competente”, ceea ce face sancțiunile ușor de anulat sau aplicat abuziv.",
-      "article": "art. 45 alin. (1), art. 42",
+      "text": "Pentru cele șase contravenții, cu amenzi de 1.000–50.000 lei, legea nu desemnează precis personalul constatator și nu repartizează faptele între autorități; competența sancționării rămâne neclară.",
+      "article": "art. 42, art. 44 și art. 45 alin. (1)",
       "quote": "Constatarea contravențiilor și aplicarea sancțiunilor se realizează de personalul autorităților competente, potrivit atribuțiilor stabilite prin lege.",
       "weight": 3
     },
     {
-      "text": "Impune obligații și amenzi asupra bisericilor neclasate pe baza unei evaluări preliminare ale cărei reguli sunt lăsate complet în seama Guvernului, fără o cale de contestare în lege.",
-      "article": "art. 2 alin. (1) lit. e), art. 10 alin. (6) și (9)",
-      "quote": "În cazul bisericilor de lemn neclasate prevăzute la art. 2 alin. (1) lit. e), înscrierea în Registru se realizează în baza unei evaluări culturale preliminare, efectuate potrivit metodologiei stabilite prin normele metodologice de aplicare a prezentei legi.",
+      "text": "Art. 50–51 intră în vigoare după 30 de zile, înaintea cadrului general de 90 de zile; art. 51 folosește un Plan încă neinstituit, iar normele pot veni la încă 180 de zile după cadrul general.",
+      "article": "art. 15, art. 50–51, art. 57 alin. (1) și art. 60 alin. (1)",
+      "quote": "cu excepția art. 50 și 51, care intră în vigoare la 30 de zile de la publicare.",
+      "weight": 3
+    },
+    {
+      "text": "Verificările și remedierile sunt obligatorii, dar finanțarea lor este doar posibilă și limitată de buget; legea nu corelează termenele impuse titularilor cu acordarea efectivă a sprijinului.",
+      "article": "art. 26 lit. c)–e), art. 39 alin. (6), art. 44 alin. (1) lit. c), art. 49, art. ",
+      "quote": "Programul poate asigura finanțarea integrală sau, după caz, cofinanțarea, în funcție de nivelul de risc",
+      "weight": 3
+    },
+    {
+      "text": "Comisia impune măsuri prin proces-verbal, iar autoritățile pot restrânge accesul; nu sunt clarificate actul contestabil, autoritatea răspunzătoare și reexaminarea restricțiilor, deși neexecutarea poate fi amendată.",
+      "article": "art. 35 alin. (5)–(7), art. 36 și art. 44 alin. (1) lit. e)",
+      "quote": "sunt obligatorii pentru persoanele și entitățile cărora le revin potrivit procesului-verbal prevăzut la alin. (5).",
       "weight": 2
     },
     {
-      "text": "Amenzi de 5.000–20.000 lei sancționează nerespectarea măsurilor dispuse pentru un „risc iminent”, fără a preciza ce autoritate le emite, prin ce act, pe ce termen și cum pot fi contestate.",
-      "article": "art. 44 alin. (1) lit. e), art. 36",
-      "quote": "nerespectarea măsurilor obligatorii dispuse pentru înlăturarea unui risc iminent;",
+      "text": "Metodele de includere a bisericilor neclasate, pragurile de risc și regulile concrete de finanțare sunt lăsate Guvernului; legea nu prevede o procedură clară de informare și revizuire a încadrării pentru titular.",
+      "article": "art. 2 alin. (1) lit. e), art. 10 alin. (6)–(9), art. 13 alin. (2), art. 39 alin",
+      "quote": "Criteriile de încadrare se aprobă prin normele metodologice.",
       "weight": 2
     },
     {
-      "text": "Comisia post-dezastru, un grup fără personalitate juridică, impune măsuri obligatorii printr-un simplu proces-verbal, fără ca legea să clarifice natura juridică a actului ori calea de atac.",
-      "article": "art. 35 alin. (5)–(6)",
-      "quote": "Măsurile urgente stabilite potrivit alin. (4), în limitele competențelor legale ale autorităților și instituțiilor reprezentate în Comisie, sunt obligatorii pentru persoanele și entitățile cărora le revin potrivit procesului-verbal prevăzut la alin. (5).",
+      "text": "Programul, rezerva și mentenanța presupun cheltuieli recurente fără estimare financiară în fundamentare; sursele sunt indicate, dar costul total și resursele necesare implementării nu sunt demonstrate.",
+      "article": "art. 8, art. 39, art. 52 și art. 60 alin. (2); expunerea de motive",
+      "quote": "Programul se finanțează din sume alocate anual de la bugetul de stat, prin bugetul Ministerului Culturii",
       "weight": 2
     },
     {
-      "text": "Lasă integral la latitudinea Guvernului plafoanele de cheltuieli, cotele de cofinanțare și procedura simplificată pentru rezerva de urgență, creând risc de alocări discreționare din bani publici.",
-      "article": "art. 39 alin. (9) și (11), art. 35 alin. (10), art. 40 alin. (7)",
-      "quote": "Criteriile de evaluare și prioritizare, modalitatea de apreciere a capacității financiare a beneficiarului, precum și condițiile de finanțare a documentațiilor tehnice se stabilesc prin normele metodologice de aplicare a prezentei legi.",
+      "text": "Planul stabilește termene recomandate, deși titularul trebuie să execute măsurile care îi revin; legea nu clarifică aprobarea și comunicarea Planului ori când termenele devin obligatorii.",
+      "article": "art. 15 alin. (2) și (4), art. 39 alin. (5) lit. f) și art. 49 alin. (1)–(2)",
+      "quote": "termenele recomandate pentru realizare și responsabilitățile care revin autorităților publice și titularului bisericii.",
       "weight": 2
     },
     {
-      "text": "Statul acoperă evaluările inițiale, dar finanțarea instalațiilor e opțională („poate asigura”), iar verificările tehnice anuale obligatorii rămân în sarcina parohiilor sub amenințarea amenzii.",
-      "article": "art. 39 alin. (4) și (6), art. 16 alin. (3), art. 44 alin. (1) lit. c)",
-      "quote": "Programul poate asigura finanțarea integrală sau, după caz, cofinanțarea, în funcție de nivelul de risc, valoarea culturală a obiectivului, natura lucrărilor și capacitatea financiară a beneficiarului, potrivit criteriilor stabilite prin normele metodologice.",
+      "text": "Nu sunt fixate termene pentru finalizarea Planului după evaluare, realizarea dosarului digital sau evaluarea fragmentelor post-dezastru; protecția poate întârzia, iar îndepărtarea fragmentelor rămâne blocată.",
+      "article": "art. 15 alin. (1), art. 24, art. 34 alin. (1) și art. 35 alin. (1)–(5)",
+      "quote": "nicio operațiune de îndepărtare definitivă a elementelor istorice rezultate din distrugere nu se realizează înainte de evaluarea acestora de specialiștii competenți",
       "weight": 2
     },
     {
-      "text": "Capitolul XVII conține două articole diferite numerotate „Art. 48”, iar alte articole fac trimiteri greșite la alineate, erori tehnice care creează confuzie la aplicarea și citarea legii.",
-      "article": "art. 48 (dublat), art. 12 alin. (4), art. 14 alin. (4)",
+      "text": "Registrul adună vulnerabilități, sisteme de alarmare și informații despre bunuri, fără niveluri clare de acces; interdicția expresă de divulgare a informațiilor sensibile privește raportul anual.",
+      "article": "art. 8–10, art. 24 și art. 47 alin. (3)",
+      "quote": "Nu se publică informații tehnice a căror divulgare ar putea vulnerabiliza securitatea obiectivelor.",
+      "weight": 2
+    },
+    {
+      "text": "Raportarea anuală nu cere identificarea beneficiarilor, sumelor pe proiect și motivelor selecției; legea oferă astfel o transparență limitată pentru verificarea distribuirii fondurilor.",
+      "article": "art. 28 lit. b), art. 39 alin. (11), art. 40 și art. 47 alin. (2)",
       "quote": null,
-      "weight": 1
+      "weight": 2
     },
     {
-      "text": "Art. 14 fixează în lege intervalele de reevaluare (1–5 ani), dar art. 12 lasă stabilirea periodicității pe seama normelor de guvern, creând o contradicție internă.",
-      "article": "art. 12 alin. (11), art. 14 alin. (1)",
-      "quote": "Periodicitatea reevaluării, componența minimă a echipelor de specialitate, criteriile de desemnare a membrilor acestora, procedura de întocmire, verificare și actualizare a Fișei, precum și metodologia de evaluare se stabilesc prin normele metodologice de aplicare a prezentei legi.",
+      "text": "Numerotarea dublează art. 48 și cap. XVII, unele trimiteri interne sunt greșite, iar normele primesc stabilirea periodicității reevaluării deși legea o fixează deja; aplicarea devine mai dificilă.",
+      "article": "cele două art. 48 și cap. XVII; art. 12 alin. (4) și (11); art. 14 alin. (1) și ",
+      "quote": null,
       "weight": 1
     }
   ],
-  "fix": {
-    "text": "Nominalizarea exactă în art. 45 a agenților constatatori pentru fiecare contravenție și stabilirea în lege a criteriilor și căii de contestare pentru includerea bisericilor neclasate ar elimina principalele riscuri de abuz.",
-    "removes": [
-      0,
-      1
-    ],
-    "levelAfter": "green",
-    "scoreAfter": 1.5
-  },
+  "fix": null,
   "quotes": {
-    "checked": 18,
-    "verified": 18
+    "checked": 27,
+    "verified": 27,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

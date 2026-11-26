@@ -296,6 +296,9 @@ async function buildBill(slug) {
       const at = locate(texts[f], str);
       if (at >= 0) scopes.push({ form: f, billAct: actAt(parsed[f].sections, at) });
     }
+    // Citatele din legea în vigoare (lawQuote): actul în al cărui text din baseline apar, dacă e unul singur.
+    const lawHits = acts.flatMap((x, i) => (Object.values(x._baseline).some((b) => locate(b.text, str) >= 0) ? [i] : []));
+    if (lawHits.length === 1) scopes.push({ form: null, billAct: lawHits[0] });
     for (const sc of scopes) for (const x of resolve(str, index, sc)) if (x.target.t === 'act') used[x.target.act].add(x.target.ids[0].split('/')[0]);
   }
   for (const units of Object.values(ownOut)) for (const u of Object.values(units)) for (const r of u.refs ?? []) used[r.act].add(r.ids[0].split('/')[0]);

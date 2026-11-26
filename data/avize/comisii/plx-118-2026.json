@@ -2,7 +2,7 @@
  "slug": "plx-118-2026",
  "billId": "PL-x 118/2026",
  "schema": 1,
- "updatedAt": "2026-11-25T13:23:04.609Z",
+ "updatedAt": "2026-11-26T11:12:27.021Z",
  "documents": [
   {
    "kind": "comisie",
@@ -18,11 +18,22 @@
    "docUrl": "https://www.cdep.ro/comisii/drepturile_omului/doc/2026/av118.docx",
    "source": "cdep.ro",
    "receivedAt": "2026-03-12",
-   "verdict": null,
-   "verdictQuote": null,
-   "verdictFrom": null,
-   "date": null,
-   "observations": []
+   "verdict": "negativ",
+   "verdictQuote": "În ședința din 11 martie 2026, membrii comisiei au examinat inițiativa legislativă în conformitate cu prevederile art.62 și ale art.133 din Regulamentul Camerei Deputaților și, în urma dezbaterilor, au hotărât, cu majoritate de voturi, să îi acorde aviz negativ.",
+   "verdictFrom": "regex",
+   "vote": {
+    "statement": "cu majoritate de voturi",
+    "pentru": null,
+    "contra": null,
+    "abtineri": null,
+    "quote": "cu majoritate de voturi"
+   },
+   "date": "2026-03-11",
+   "observations": [],
+   "textHash": "1231a26a0449eb0fae47af36cb4ace931ae24f2c",
+   "textMethod": "text",
+   "extractVersion": 4,
+   "checkedAt": "2026-11-26T10:50:08.438Z"
   },
   {
    "kind": "comisie",
@@ -38,11 +49,54 @@
    "docUrl": "https://www.cdep.ro/comisii/munca/doc/2026/av118.doc",
    "source": "cdep.ro",
    "receivedAt": "2026-03-20",
-   "verdict": null,
-   "verdictQuote": null,
-   "verdictFrom": null,
-   "date": null,
-   "observations": []
+   "verdict": "favorabil",
+   "verdictQuote": "În urma finalizării dezbaterilor, membrii comisiei au hotărât, cu unanimitate de voturi, avizarea favorabilă a proiectului de lege.",
+   "verdictFrom": "regex",
+   "vote": {
+    "statement": "cu unanimitate de voturi",
+    "pentru": null,
+    "contra": null,
+    "abtineri": null,
+    "quote": "cu unanimitate de voturi",
+    "unanimous": true
+   },
+   "date": "2026-03-11",
+   "observations": [],
+   "textHash": "5da3132d1ad26209e6fac15fe8404e755da08241",
+   "textMethod": "text",
+   "extractVersion": 4,
+   "checkedAt": "2026-11-26T11:00:25.714Z"
+  },
+  {
+   "kind": "comisie",
+   "institution": "Comisia pentru politică economică, reformă și privatizare",
+   "committees": [
+    {
+     "idc": 1,
+     "nume": "Comisia pentru politică economică, reformă și privatizare"
+    }
+   ],
+   "docType": "aviz",
+   "pdfUrl": "https://www.cdep.ro/comisii/economica/pdf/2026/av118.pdf",
+   "docUrl": "https://www.cdep.ro/comisii/economica/doc/2026/av118.doc",
+   "source": "cdep.ro",
+   "receivedAt": "2026-11-25",
+   "verdict": "favorabil",
+   "verdictQuote": "În urma dezbaterilor, Comisia pentru politică economică, reformă și privatizare a hotărât, cu majoritate de voturi (2 abțineri), avizarea favorabilă a proiectului de Lege privind modificarea și completarea Legii nr.227/2015 privind Codul fiscal, în forma adoptată de Senat.",
+   "verdictFrom": "regex",
+   "vote": {
+    "statement": "cu majoritate de voturi",
+    "pentru": null,
+    "contra": null,
+    "abtineri": null,
+    "quote": "cu majoritate de voturi"
+   },
+   "date": "2026-11-23",
+   "observations": [],
+   "textHash": "7ade9873709d92fe3224235909dfdaf8bd64a8ea",
+   "textMethod": "text",
+   "extractVersion": 4,
+   "checkedAt": "2026-11-26T11:12:27.020Z"
   }
  ]
 }

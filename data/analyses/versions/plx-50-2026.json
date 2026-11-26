@@ -1,0 +1,171 @@
+{
+  "slug": "plx-50-2026",
+  "billId": "PL-x 50/2026",
+  "updatedAt": "2026-11-26T10:34:05.520Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L639FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul plătește datoria veche din 1992 pentru bumbacul importat din SUA",
+      "summaryTlDr": "Este o lege tehnică și necesară: statul achită o datorie suverană restantă din 1992, pe care o tot amână de peste 25 de ani. Problema serioasă este dosarul, nu fondul: textul publicat ca „formă a inițiatorului” este un alt proiect, despre incompatibilitățile aleșilor locali, și nu are legătură cu titlul.",
+      "scores": {
+        "agy": 9,
+        "claude": 3,
+        "codex": 8
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/50/0/se20.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește în sfârșit datoria de 6,8 milioane de dolari către SUA pentru bumbacul importat în 1992",
+      "summaryTlDr": "Este o lege tehnică și necesară: autorizează plata unei datorii publice vechi de peste 30 de ani, care crește zilnic prin penalități și afectează relația cu SUA. Riscul real este întârzierea. Proiectul încă stă la Camera la finalul lui 2026, iar textul leagă plata strict de bugetul pe 2026.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Amnistia pentru incompatibilități a dispărut; legea reglementează acum plata datoriei CCC de 6,79 mil. USD",
+      "summary": "Inițial, textul atașat modifica Legea 161/2003 și ierta incompatibilitățile și conflictele de interese. Acum legea prevede doar plata datoriei de 6,79 mil. USD pentru bumbacul din SUA, plus penalitățile și costurile bancare până la plată.",
+      "changes": [
+        {
+          "title": "Dispare iertarea incompatibilităților și conflictelor de interese",
+          "text": "Inițial, art. II scotea de sub răspundere incompatibilitățile și conflictele de interese apărute după Legea 180/2026. Prevederea nu mai există acum.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II",
+          "before": "nu constituie incompatibilități sau conflicte de interese și nu atrag răspunderea juridică aferentă acestora.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Nu se mai abrogă reguli de integritate",
+          "text": "Inițial, art. I abroga art. 88 alin. (1) lit. i)-k) și art. 93¹ din Legea 161/2003, adică motive de incompatibilitate. Abrogările au fost scoase.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I",
+          "before": "1. La articolul 88 alineatul (1), literele i) – k) se abrogă.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Statul plătește datoria de 6,79 milioane USD",
+          "text": "Art. 1 este nou. Datoria de 6.793.115,54 USD (capital, dobânzi și penalități) se plătește din bugetul MEDAT pe 2026, de la o poziție bugetară distinctă.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 1",
+          "before": null,
+          "after": "în cuantum de 6.793.115,54 USD înregistrată la data de 30.06.2025, reprezentând rate de capital 4.890.152,09 USD, dobânzi 821.066,45 USD și penalități de întârziere 1.081.897,00 USD",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Penalități și costuri bancare fără plafon",
+          "text": "Art. 2 este nou. Bugetul acoperă și penalitățile curse până la plată, calculate după dobânda comunicată de USDA, plus „alte costuri” bancare. Nu există nicio limită.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2",
+          "before": null,
+          "after": "includ penalitățile de întârziere datorate până la data plății effective, în raport de dobânda zilnică de întârziere comunicată de Departamentul Agriculturii al SUA, precum și alte costuri asociate de transfer bancar.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare regula pentru funcționarii cu raport suspendat",
+          "text": "Inițial, art. I pct. 3 aplica art. 94 alin. (2) lit. a), c) și d) și funcționarilor publici cu raportul de serviciu suspendat. Textul a fost scos.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I",
+          "before": "3. La articolul 94, alineatul (2⁴) va avea următorul cuprins: „(2⁴) Prevederile alin. (2) lit.a), c) și d) se aplică și în situația în care raportul de serviciu al funcționarului public este suspendat conform legii.”",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plata e legată doar de bugetul 2026, fără soluție pentru anii următori",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Penalitățile până la plată sunt nelimitate și stabilite prin comunicarea USDA",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Penalitățile din întârzieri reprezintă deja aproape 16% din datorie",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Formula „alte costuri asociate de transfer bancar” este vagă",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Eroare de redactare: „effective” în loc de „efective”",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Expunerea de motive dă două valori ale capitalului, diferență neexplicată de 347 USD",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Suma totală este corectă aritmetic și defalcată pe capital, dobânzi, penalități",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Plata pune capăt acumulării de penalități de aproximativ 34 USD pe zi",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Banii vin de la o poziție bugetară distinctă, ușor de urmărit",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 12,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-26T10:34:05.520Z"
+    }
+  ]
+}

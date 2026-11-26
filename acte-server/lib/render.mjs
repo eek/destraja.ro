@@ -34,7 +34,8 @@ const unitHref = (id) => `#${encodeURIComponent(id).replace(/%2F/g, '/')}`;
 // ---------------------------------------------------------------- șablonul
 
 /** Pune capul și conținutul în șablon. tpl conține <!--ACT:HEAD--> și <!--ACT:MAIN-->. */
-export function layout(tpl, { title, description, canonical, robots, jsonld, main, ogType = 'article' }) {
+export function layout(tpl, { title, description, canonical, robots, jsonld, main, ogType = 'article', image = null }) {
+  const img = image || OG_FALLBACK;
   const head = html`<title>${title}</title>
 <meta name="description" content="${description || ''}">
 ${canonical ? html`<link rel="canonical" href="${canonical}">` : ''}
@@ -45,6 +46,14 @@ ${description ? html`<meta property="og:description" content="${description}">` 
 <meta property="og:locale" content="ro_RO">
 <meta property="og:site_name" content="destrajă.ro">
 ${canonical ? html`<meta property="og:url" content="${canonical}">` : ''}
+<meta property="og:image" content="${img.url}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${img.alt}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${img.url}">
+<meta name="twitter:image:alt" content="${img.alt}">
 ${jsonld ? html`<script type="application/ld+json">${jsonForScript(jsonld)}</script>` : ''}`;
   return tpl.replace('<!--ACT:HEAD-->', () => String(head)).replace('<!--ACT:MAIN-->', () => String(main));
 }
@@ -390,10 +399,22 @@ const INDEX_KINDS = new Set(['lege', 'oug', 'og', 'hg', 'decret-lege', 'cod', 'd
 // Până la lansare (porțile 0.9), versiunea spune launched: false și nimic nu se indexează.
 let LAUNCHED = false;
 let SITEKEY = null;
-export const configure = ({ launched, sitekey }) => {
-  LAUNCHED = !!launched;
+// Imaginile de previzualizare (lib/og.mjs): adresa lor doar când serverul le poate desena; altfel, cea de rezervă.
+let OG_IMAGES = null;
+export const configure = ({ launched, sitekey, og }) => {
+  if (launched !== undefined) LAUNCHED = !!launched;
   if (sitekey !== undefined) SITEKEY = sitekey;
+  if (og !== undefined) OG_IMAGES = og;
 };
+/** Imaginea de rezervă: cea a paginii „Monitorul Oficial, în cifre” de pe destraja.ro. */
+export const OG_FALLBACK = { url: `${SITE}/monitorul-oficial/opengraph-image`, alt: 'Monitorul Oficial, în cifre, pe destrajă.ro' };
+/** og:image pentru un act (sau pentru pagina de start, fără act); generația și versiunea desenului schimbă adresa. */
+export function ogImage(g, act = null) {
+  if (!OG_IMAGES || !g) return OG_FALLBACK;
+  const v = `?v=${g.generation}-${OG_IMAGES.version}`;
+  if (!act) return { url: `${ORIGIN}/imagine.png${v}`, alt: 'Actele din Monitorul Oficial, pe acte.destraja.ro' };
+  return { url: `${actUrl(act, '/imagine.png')}${v}`, alt: `${act.cite}${act.text_policy === 'show' && act.title ? ` ${shorten(act.title, 140)}` : ''}, pe acte.destraja.ro` };
+}
 export const isLaunched = () => LAUNCHED;
 export function robotsFor(act) {
   return LAUNCHED && act.indexable && act.text_policy === 'show' && !(act.flags || []).length && INDEX_KINDS.has(act.kind) ? 'index, follow' : 'noindex, follow';
@@ -471,6 +492,7 @@ ${footerNote(g, flags.includes('suspect_consolidation') ? html`<p class="mt-2">R
     canonical: actUrl(act),
     robots: robotsFor(act),
     jsonld: jsonLd(g, act, st),
+    image: ogImage(g, act),
     main,
   });
 }
@@ -518,6 +540,7 @@ ${footerNote(g)}
     description: `Textul ${act.cite} așa cum a fost publicat în Monitorul Oficial, după Portalul Legislativ.`,
     canonical: actUrl(act, `/text${page > 1 ? `?pagina=${page}` : ''}`),
     robots: robotsFor(act),
+    image: ogImage(g, act),
     main,
   });
 }
@@ -553,6 +576,7 @@ ${footerNote(g)}
     description: `Lista legăturilor ${act.cite} din Portalul Legislativ, cu cele confirmate separat de cele neconfirmate.`,
     canonical: actUrl(act, `/modificari${page > 1 ? `?pagina=${page}` : ''}`),
     robots: robotsFor(act),
+    image: ogImage(g, act),
     main,
   });
 }
@@ -590,6 +614,7 @@ ${footerNote(g)}
     description: `Forma consolidată informativă a Portalului Legislativ pentru ${act.cite}, datată ${dateRo(form.valid_from)}.`,
     canonical: actUrl(act, `/forma/${form.valid_from}`),
     robots: 'noindex, follow',
+    image: ogImage(g, act),
     main,
   });
 }
@@ -626,6 +651,7 @@ ${footerNote(g)}
     canonical: `${ORIGIN}/`,
     robots: LAUNCHED ? 'index, follow' : 'noindex, follow',
     ogType: 'website',
+    image: ogImage(g),
     main,
   });
 }

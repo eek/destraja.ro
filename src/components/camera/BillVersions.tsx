@@ -9,6 +9,7 @@ import { EFFECT, Mark } from './effect';
 import { AmendmentCredit } from './BillAmendments';
 import Cited from '@/components/cite/Cited';
 import type { CiteForm } from '@/lib/citari-text';
+import StaleNote from '@/components/bills/StaleNote';
 
 type Key = BillVersion['key'];
 type Effect = VersionItem['effect'];
@@ -263,7 +264,8 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
   // Scorul și comparația pot spune lucruri diferite: scorul privește toată legea, comparația doar ce s-a schimbat.
   // Sub 0,3 puncte nu e o contradicție de explicat (și s-ar vedea aceeași cifră de două ori).
   const delta = Math.round((to.riskScore - from.riskScore) * 10) / 10;
-  const mismatch = (improving && delta >= 0.3) || (worsening && delta <= -0.3);
+  // Cu o comparație din analiza anterioară, scorurile formelor vin din analize diferite: nu le explicăm diferența.
+  const mismatch = !data.stale && ((improving && delta >= 0.3) || (worsening && delta <= -0.3));
   const quoted = main.changes.some(hasQuotes);
   // Formele citite cu aceeași metodă și același Gemini: diferența de scor e a textului. null = comparații mai vechi, fără metodă.
   const readAlike = versions.every((v) => v.method) ? versions.every((v) => v.method === versions[0].method && (v.agyModel ?? null) === (versions[0].agyModel ?? null)) : null;
@@ -273,6 +275,7 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
       <h2 id="versiuni" className="text-base font-semibold text-ink">
         {updated ? 'Cum s-a schimbat textul' : 'Cum s-a schimbat pe drum'}
       </h2>
+      {data.stale && <StaleNote what="Comparația formelor" />}
 
       <p className="mt-3 font-display text-2xl leading-snug text-ink [text-wrap:balance] sm:text-[1.7rem]">
         {improving || worsening ? (

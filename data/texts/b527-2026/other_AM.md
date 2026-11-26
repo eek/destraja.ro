@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI
+
+# SENAT
+
+PREȘEDINTE
+
+București, 23 noiembrie 2026 Nr.L604/2026, L619/2026, L626/2026.
+
+## Domnului SORIN-MIHAI GRINDEANU PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+În conformitate cu prevederile articolului 75 din Constituția României, republicată, și ale articolului 151 din Regulamentul Senatului, republicat, vă trimitem, alăturat, spre dezbatere și adoptare, următoarele propuneri legislative:
+
+\- propunerea legislativă pentru modificarea art.7 din Ordonanța de urgență a Guvernului nr.111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor (L604/2026- procedură de urgență);
+
+\- propunerea legislativă pentru modificarea și completarea Ordonanței Guvernului nr.1/2000 privind organizarea activității și funcționarea instituțiilor de medicină legală (L619/2026);
+
+\- propunerea legislativă privind instituirea zilei de 26 septembrie ca „Ziua Munților Carpați” (L626/2026).
+
+Aceste propuneri legislative au fost adoptate de Senat în ședința din 23 noiembrie 2026.
+
+Totodată, vă facem cunoscut că, potrivit articolului 75 alineatele (1) și (3) din Constituția României, republicată, cu privire la propunerile legislative menționate, Camera Deputaților este Cameră decizională.
+
+PRESED INTELE SENATULUI
+
+MIRCEA LABRUDEAN:

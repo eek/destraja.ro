@@ -261,7 +261,8 @@ export function senateReportCommittees(timeline: { action: string }[]): ReportCo
   const names = new Map<string, string>();
   let deadline: string | null = null;
   for (const t of timeline) {
-    const m = t.action.match(/trimis pentru raport (?:suplimentar )?la (comisia .+?)\s*(?:\(termen:\s*(\d{1,2})[/.](\d{1,2})[/.](\d{4})\))?\s*$/i);
+    // După termen poate urma o notă („adresa de resesizare a comisiei pentru raport suplimentar”, B582/2026): nu e parte din nume.
+    const m = t.action.match(/trimis pentru raport (?:suplimentar )?la (comisia .+?)\s*(?:\(termen:\s*(\d{1,2})[/.](\d{1,2})[/.](\d{4})\)(?:\s.*)?)?\s*$/i);
     if (!m) continue;
     const name = m[1].replace(/^c/, 'C').replace(/ş/g, 'ș').replace(/ţ/g, 'ț');
     const key = fold(name).replace(/\s+/g, ' ').trim();

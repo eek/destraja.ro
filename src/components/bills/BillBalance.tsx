@@ -6,6 +6,7 @@ import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { modelFullName } from '@/lib/site';
 import Cited from '@/components/cite/Cited';
+import StaleNote from './StaleNote';
 
 const SHOWN = 3;
 
@@ -21,15 +22,25 @@ function Item({ item, kind, slug }: { item: BalanceItem; kind: 'good' | 'bad'; s
         <p className={`text-[15.5px] leading-relaxed text-ink ${item.weight === 3 ? 'font-semibold' : ''}`}>
           <Cited slug={slug} text={item.text} role="balance" />
         </p>
-        {item.quote ? (
+        {item.quote || item.lawQuote ? (
           <details className="group mt-1">
             <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-[13px] text-muted underline decoration-line-strong underline-offset-4 hover:text-ink [&::-webkit-details-marker]:hidden">
               {item.article ?? 'În text'} · <span className="group-open:hidden">ce scrie în lege</span>
               <span className="hidden group-open:inline">ascunde</span>
             </summary>
-            <blockquote className="mt-2 border-l-2 border-line-strong pl-3 text-sm leading-relaxed text-body">
-              „<Cited slug={slug} text={item.quote} role="balance" quote />”
-            </blockquote>
+            {item.quote && (
+              <blockquote className="mt-2 border-l-2 border-line-strong pl-3 text-sm leading-relaxed text-body">
+                „<Cited slug={slug} text={item.quote} role="balance" quote />”
+              </blockquote>
+            )}
+            {item.lawQuote && (
+              <div className="mt-2">
+                <p className="text-[12.5px] text-muted">Legea în vigoare acum:</p>
+                <blockquote className="mt-1 border-l-2 border-line pl-3 text-sm leading-relaxed text-muted">
+                  „<Cited slug={slug} text={item.lawQuote} role="balance" law />”
+                </blockquote>
+              </div>
+            )}
           </details>
         ) : (
           item.article && (
@@ -79,7 +90,8 @@ function Column({ items, kind, slug }: { items: BalanceItem[]; kind: 'good' | 'b
 }
 
 // Ce e bine și ce strică tot: toate prevederile, primele trei la vedere, plus schimbarea care ar face proiectul acceptabil.
-export default function BillBalance({ data, level }: { data: Balance; level: RiskLevel }) {
+// stale: făcută din altă analiză, alt text sau fără legea în vigoare (src/lib/fresh.ts); rămâne vizibilă, cu notă.
+export default function BillBalance({ data, level, stale = false }: { data: Balance; level: RiskLevel; stale?: boolean }) {
   const after = data.fix?.levelAfter;
   const sum = summarize(data);
   return (
@@ -94,6 +106,7 @@ export default function BillBalance({ data, level }: { data: Balance; level: Ris
           <span className="text-risk-red-text">{data.bad.length === 1 ? '1 problemă' : `${data.bad.length} probleme`}</span>
         </p>
       </div>
+      {stale && <StaleNote className="mt-1" />}
       <p className="mt-3 text-lg font-bold text-ink">{balanceVerdict(sum, level)}</p>
       <BalanceBar b={sum} />
       {data.summary && <p className="mt-3 max-w-[70ch] text-base leading-relaxed text-body">{data.summary}</p>}

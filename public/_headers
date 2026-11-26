@@ -12,7 +12,9 @@
   Content-Type: image/png
   Cache-Control: public, max-age=3600
 
-/legi/:slug/opengraph-image
+# Două segmente: /legi/…, /camera/… (fără regula asta plecau fără Content-Type), /parlamentari/…,
+# /monitorul-oficial/inainte-de-1990.
+/:section/:slug/opengraph-image
   Content-Type: image/png
   Cache-Control: public, max-age=3600
 

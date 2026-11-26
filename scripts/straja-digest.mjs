@@ -159,7 +159,9 @@ function loadBills() {
       level: c.riskLevel,
       score: c.riskScore,
       title: c.plainTitle,
-      oneLiner: c.citizenOneLiner ?? oneLiners[raw.slug] ?? c.summaryTlDr,
+      // Frazele scrise de mână la lansare sunt ale analizelor de atunci; ca pe site (src/lib/bills.ts), nu le punem lângă
+      // o analiză refăcută cu tot textul (are coverage).
+      oneLiner: c.citizenOneLiner ?? (analysis.coverage ? null : oneLiners[raw.slug]) ?? c.summaryTlDr,
       corrections: analysis.corrections ?? [],
       articles: news.articles ?? [],
     });

@@ -107,6 +107,14 @@ export function Frame({ logo, kicker, url, children }: { logo: string; kicker: s
   );
 }
 
+/** Pasul (latura + spațiul) și coloanele unei grile de `n` pătrățele care încape în w × h; `max` oprește pătrățelele prea mari. */
+export function fitGrid(n: number, w: number, h: number, max = 34) {
+  const count = Math.max(1, n);
+  let pitch = Math.min(max, Math.floor(Math.sqrt((w * h) / count)));
+  while (pitch > 4 && Math.ceil(count / Math.floor(w / pitch)) * pitch > h) pitch--;
+  return { pitch, cols: Math.min(count, Math.floor(w / pitch)) };
+}
+
 /** Câte un pătrățel pentru fiecare proiect, de la cel mai riscant la cel mai puțin riscant, ca pe /camera. */
 export function Waffle({ counts, cols, cell, gap = 3 }: { counts: Counts; cols: number; cell: number; gap?: number }) {
   const cells = LEVELS.flatMap((l) => Array.from({ length: counts[l] }, () => l));

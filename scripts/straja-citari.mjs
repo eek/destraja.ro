@@ -3,7 +3,7 @@
 //
 // Pentru fiecare proiect: actele pe care le modifică (data/baseline), cu textul articolelor pomenite în analize, în
 // „Ce e bine și ce strică”, în avize, amendamente și comparații, așa cum erau în forma consolidată pe care a citit-o
-// analiza (ziua din baseline); articolele care lipsesc din baseline vin din API-ul acte.destraja.ro, la aceeași zi. Dacă
+// analiza (ziua din baseline); articolele care lipsesc din baseline vin din API-ul actelor (destraja.ro/acte), la aceeași zi. Dacă
 // actul are între timp o formă mai nouă, o notăm și spunem, pentru fiecare articol, dacă s-a schimbat. Plus unitățile
 // proiectului pomenite („Art. I pct. 3”), din forma analizată și din celelalte.
 //
@@ -27,7 +27,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
 const OUT = path.join(DATA, 'citari');
 const CACHE = path.join(ROOT, '.cache', 'citari');
-const API = process.env.ACTE_API ?? 'https://acte.destraja.ro';
+const API = process.env.ACTE_API ?? 'https://destraja.ro/acte';
 const FORM_FILES = { initiator: 'forma_initiatorului', senat: 'forma_senat', camera: 'forma_camera' };
 const OWN_MAX = 2400;
 const UNIT_MAX = 60000;
@@ -71,7 +71,11 @@ async function api(url, { head = false } = {}) {
     lastCall = Date.now();
     calls++;
     try {
-      const res = await fetch(`${API}${url}`, { redirect: 'manual', headers: { 'user-agent': 'destraja-citari/1' } });
+      let res = await fetch(`${API}${url}`, { redirect: 'manual', headers: { 'user-agent': 'destraja-citari/1' } });
+      // Cât durează mutarea de pe acte.destraja.ro: până se publică site-ul cu /acte, regula veche trimite /acte/* acolo.
+      // Urmăm doar redirecționarea asta; restul (de ex. /p/<id> → slug) rămân de citit mai jos.
+      const moved = res.headers.get('location');
+      if (res.status === 301 && moved?.startsWith('https://acte.destraja.ro/')) res = await fetch(moved, { redirect: 'manual', headers: { 'user-agent': 'destraja-citari/1' } });
       let body;
       if (res.status === 429) {
         const after = Number(res.headers.get('retry-after')) || 30 * (attempt + 1);
@@ -100,7 +104,7 @@ async function api(url, { head = false } = {}) {
 const KIND = { LEGE: 'lege', 'ORDONANȚĂ DE URGENȚĂ': 'oug', ORDONANȚĂ: 'og', HOTĂRÂRE: 'hg', 'DECRET-LEGE': 'decret-lege' };
 
 /**
- * Slugul de pe acte.destraja.ro al unui act din baseline, cu numele codului: întâi după id-ul de pe portal (/p/<id>
+ * Slugul de pe destraja.ro/acte al unui act din baseline, cu numele codului: întâi după id-ul de pe portal (/p/<id>
  * redirecționează), apoi, dacă portalul a dat alt document al aceluiași act (o republicare), după citare, doar când
  * există un singur rezultat exact de același tip.
  */
@@ -109,7 +113,8 @@ async function acteAct(portalId, act) {
   if (actMeta.has(portalId)) return actMeta.get(portalId);
   let meta = null;
   const r = await api(`/p/${portalId}`, { head: true });
-  let slug = r?.status === 301 && r.location ? r.location.replace(/^https?:\/\/[^/]+/, '').replace(/^\//, '').split(/[/?#]/)[0] : null;
+  // Adresa poate veni cu prefixul /acte (destraja.ro/acte) sau fără (de pe acte.destraja.ro, din cache-ul vechi).
+  let slug = r?.status === 301 && r.location ? r.location.replace(/^https?:\/\/[^/]+/, '').replace(/^\/acte(?=\/)/, '').replace(/^\//, '').split(/[/?#]/)[0] : null;
   if (!slug && r) {
     const found = await api(`/api/cauta?q=${encodeURIComponent(citeOf(act))}&limit=10`);
     const exact = (found?.results ?? []).filter((x) => x.match === 'exact' && x.kind === KIND[act.tipAct]);
@@ -244,7 +249,7 @@ async function buildBill(slug) {
         a.units[id] = { label: u.label, ...(c.title && { title: c.title }), text: capped.text, src: 'acte', ...(capped.cut && { cut: true }) };
       }
     }
-    // O formă mai nouă: o spunem, și pentru fiecare articol dacă textul lui s-a schimbat (comparat tot pe acte.destraja.ro).
+    // O formă mai nouă: o spunem, și pentru fiecare articol dacă textul lui s-a schimbat (comparat tot pe destraja.ro/acte).
     if (a._latest && a.formFrom && a._latest > a.formFrom) {
       a.newerFrom = a._latest;
       const have = Object.keys(a.units);

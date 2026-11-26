@@ -13,7 +13,7 @@ const CITE = {
 };
 export const citeOf = (act) => `${CITE[act.tipAct] ?? act.tipAct} nr. ${act.numar}/${act.an}`;
 
-/** „Codul fiscal” → [„Codul fiscal”]; numele altor coduri vin de pe acte.destraja.ro (code_name). */
+/** „Codul fiscal” → [„Codul fiscal”]; numele altor coduri vin de pe destraja.ro/acte (code_name). */
 export const aliasesOf = (name) => (name && /^Cod(ul)?\s/i.test(name) ? [name.replace(/^Cod\s/i, 'Codul ')] : []);
 
 const NOTE_START = /^\(la \d{2}-\d{2}-\d{4},?/;
@@ -22,7 +22,7 @@ const MARK = /^(?:\(\d+(?:\^\d+)?\)|[a-z](?:\^\d+)?\)|\d+(?:\^\d+)?\.)\s/;
 /**
  * Textul unui articol fără notele portalului: blocurile „(la 25-02-2026, … a fost modificat de …)”, „Notă …” cu
  * paragraful ei și rândurile „...”. Primul rând („Articolul 54”) e eticheta, al doilea, dacă nu e un alineat sau o
- * literă, e denumirea marginală. Textul de pe acte.destraja.ro n-are eticheta, deci `label` o spune pe cea așteptată.
+ * literă, e denumirea marginală. Textul de pe destraja.ro/acte n-are eticheta, deci `label` o spune pe cea așteptată.
  * @returns {{ title?: string, text: string }}
  */
 export function cleanUnit(raw, label) {

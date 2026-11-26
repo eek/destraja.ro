@@ -604,7 +604,7 @@ async function main() {
     }
 
     // Textul articolelor pomenite pe paginile proiectelor (data/citari): după analize, avize, amendamente și „Ce e bine și
-    // ce strică”, din care vin trimiterile. Răspunsurile acte.destraja.ro stau 7 zile în cache.
+    // ce strică”, din care vin trimiterile. Răspunsurile de la destraja.ro/acte stau 7 zile în cache.
     const citari = await step('Textul articolelor pomenite', 'node', ['scripts/straja-citari.mjs'], { timeoutMs: 2_700_000 });
     if (!citari.ok) fail('textul articolelor pomenite a eșuat');
 

@@ -198,8 +198,8 @@ function ActBody({ file, act, ids, nested = false }: { file: CiteFile; act: Cite
   if (!r) return null;
   const { unit, top, text, why } = r;
   const deep = file.deepAnchors && !why && ids.length === 1;
-  const form = act.acte && act.asOf ? `https://acte.destraja.ro/${act.acte}/forma/${act.asOf}${anchorFor(deep ? ids[0] : top, deep)}` : null;
-  const newer = act.acte && act.newerFrom ? `https://acte.destraja.ro/${act.acte}/forma/${act.newerFrom}${anchorFor(top, false)}` : null;
+  const form = act.acte && act.asOf ? `/acte/${act.acte}/forma/${act.asOf}${anchorFor(deep ? ids[0] : top, deep)}` : null;
+  const newer = act.acte && act.newerFrom ? `/acte/${act.acte}/forma/${act.newerFrom}${anchorFor(top, false)}` : null;
   const what = idLabel(ids[0].split('/').slice(0, 2).join('/'));
   return (
     <>
@@ -234,7 +234,7 @@ function ActBody({ file, act, ids, nested = false }: { file: CiteFile; act: Cite
         <span className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
           {form && (
             <a href={form} target="_blank" rel="noopener noreferrer" className={linkCls}>
-              Pe acte.destraja.ro
+              Legea pe destrajă.ro
               <ExternalLink className="h-3.5 w-3.5" aria-hidden />
               <span className="sr-only">(se deschide într-o filă nouă)</span>
             </a>

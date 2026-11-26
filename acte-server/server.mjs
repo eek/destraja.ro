@@ -6,6 +6,8 @@
 // Imaginile de previzualizare, local: --resvg <binar> --og-assets <dir cu fonturile și logo.svg> [--og-cache <dir>]
 // (în versiune sunt bin/resvg și og/, puse de tools/release.mjs).
 // --root R înseamnă --data R/data, --release <directorul acestui fișier>, cu urmărirea lui R/release/current.
+// Din mediu (pe VM, /etc/acte/origin.env prin systemd): ACTE_ORIGIN_KEY (una sau mai multe chei, cu virgulă: cererile
+// venite prin Cloudflare au nevoie de una, în X-Acte-Key) și ACTE_OPEN_HOSTS (gazde care răspund și fără cheie).
 
 import path from 'node:path';
 import fs from 'node:fs';
@@ -33,6 +35,8 @@ const s = createActeServer({
   resvg: opt('--resvg') ? path.resolve(opt('--resvg')) : undefined,
   ogAssetsDir: opt('--og-assets') ? path.resolve(opt('--og-assets')) : undefined,
   ogCacheDir: opt('--og-cache') ? path.resolve(opt('--og-cache')) : undefined,
+  originKeys: (process.env.ACTE_ORIGIN_KEY || '').split(',').map((k) => k.trim()).filter(Boolean),
+  openHosts: (process.env.ACTE_OPEN_HOSTS || '').split(',').map((h) => h.trim()).filter(Boolean),
 });
-s.server.listen(port, host, () => console.error(`[acte] ascult pe http://${host}:${port} (versiunea ${s.release.id}, date: ${dataDir})`));
+s.server.listen(port, host, () => console.error(`[acte] ascult pe http://${host}:${port} (versiunea ${s.release.id}, date: ${dataDir}, cheie de origine: ${process.env.ACTE_ORIGIN_KEY ? 'da' : 'nu'})`));
 for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, () => s.drain(sig));

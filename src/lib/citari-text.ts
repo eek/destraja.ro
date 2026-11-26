@@ -18,7 +18,7 @@ export interface CiteUnit {
   title?: string;
   /** Textul, rând cu rând: „(1) …”, „a) …”. Notele portalului sunt scoase. */
   text: string;
-  /** De unde e textul: din baza analizei (data/baseline) sau din API-ul acte.destraja.ro, la aceeași dată. */
+  /** De unde e textul: din baza analizei (data/baseline) sau din API-ul destraja.ro/acte, la aceeași dată. */
   src: 'baseline' | 'acte';
   /** Articolul arată altfel în forma cea mai nouă (doar când există una mai nouă și am comparat-o). */
   changed?: boolean;
@@ -35,15 +35,15 @@ export interface CiteAct {
   name?: string;
   /** Formele flexionate ale numelui, pentru recunoașterea în text („Codul fiscal”, „Codului fiscal”). */
   aliases?: string[];
-  /** Actul are text la noi (pe portal și pe acte.destraja.ro). */
+  /** Actul are text la noi (pe portal și pe destraja.ro/acte). */
   available: boolean;
   portalId?: number;
   portalUrl?: string;
-  /** Slugul de pe acte.destraja.ro („cod-fiscal-2015”). */
+  /** Slugul de pe destraja.ro/acte („cod-fiscal-2015”). */
   acte?: string;
   /** Ziua formei folosite (AAAA-LL-ZZ): când a citit analiza textul consolidat. */
   asOf?: string;
-  /** De când e în vigoare forma de la `asOf`, după acte.destraja.ro. */
+  /** De când e în vigoare forma de la `asOf`, după destraja.ro/acte. */
   formFrom?: string;
   /** De când e în vigoare cea mai nouă formă, dacă e mai nouă decât cea folosită. */
   newerFrom?: string;
@@ -71,7 +71,7 @@ export interface CiteFile {
   approval: boolean;
   /** Formele analizate: a analizei (și a „Ce e bine și ce strică”) și cea primită de Cameră (avize, raport). */
   forms: { analysis: CiteForm | null; balance: CiteForm | null; review: CiteForm | null };
-  /** Legăturile spre acte.destraja.ro pot ținti alineatul și litera (altfel doar articolul). */
+  /** Legăturile spre destraja.ro/acte pot ținti alineatul și litera (altfel doar articolul). */
   deepAnchors: boolean;
   acts: CiteAct[];
   own: Partial<Record<CiteForm, Record<string, OwnUnit>>>;
@@ -186,7 +186,7 @@ export function idLabel(id: string): string {
     .join(' ');
 }
 
-/** Ancora de pe acte.destraja.ro: doar articolul, dacă serverul n-are încă ancore pentru alineate. */
+/** Ancora de pe destraja.ro/acte: doar articolul, dacă serverul n-are încă ancore pentru alineate. */
 export function anchorFor(id: string, deep: boolean) {
   const target = deep ? id : id.split('/')[0];
   return `#${encodeURIComponent(target).replace(/%2F/g, '/').replace(/%5E/g, '^')}`;

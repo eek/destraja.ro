@@ -342,7 +342,7 @@ function Subject({ act }: { act: MoOldAct }) {
 }
 
 function ActLink({ act }: { act: MoOldAct }) {
-  // TODO: pagina actului pe acte.destraja.ro, când devine publică; până atunci, pagina din Portalul Legislativ.
+  // TODO: pagina actului pe destraja.ro/acte (/acte/p/<id>), la lansare; până atunci, pagina din Portalul Legislativ.
   return (
     <a
       href={portalUrl(act.id)}

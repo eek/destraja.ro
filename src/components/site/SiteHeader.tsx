@@ -50,8 +50,8 @@ const GROUPS: NavGroup[] = [
     label: 'Monitorul Oficial',
     items: [
       { href: '/monitorul-oficial', label: 'Monitorul Oficial, în cifre', desc: 'Actele publicate zi de zi, din 1990', icon: ChartColumn, match: starts('/monitorul-oficial') },
-      // „Actele” (acte.destraja.ro) vine aici când se lansează; cu al doilea element, grupul devine meniu singur:
-      // { href: 'https://acte.destraja.ro', label: 'Actele', desc: '…', icon: ScrollText, match: () => false },
+      // „Actele” (destraja.ro/acte) vine aici când se lansează; cu al doilea element, grupul devine meniu singur:
+      // { href: '/acte', label: 'Actele', desc: '…', icon: ScrollText, match: starts('/acte') },
     ],
   },
   {

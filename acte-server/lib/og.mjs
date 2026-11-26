@@ -16,7 +16,7 @@ import { dateRo, agree, countWord, STATUS } from './format.mjs';
 export const OG_W = 1200;
 export const OG_H = 630;
 /** Schimbă-l când se schimbă desenul: intră în cheia cache-ului de pe disc și în adresa imaginii. */
-export const OG_VERSION = 1;
+export const OG_VERSION = 2;
 
 // Tema deschisă a site-ului (src/og/og.tsx: OG).
 const C = { bg: '#fffefb', ink: '#121a2b', body: '#2c3546', muted: '#5b6475', line: '#e0dbcf', brand: '#172c54', chip: '#efece4' };
@@ -94,7 +94,7 @@ ${kick ? `<text x="${OG_W - PAD}" y="90" text-anchor="end" font-family="${FF.san
 ${body}
 <line x1="${PAD}" y1="512" x2="${OG_W - PAD}" y2="512" stroke="${C.line}" stroke-width="2"/>
 ${footLeft}
-<text x="${OG_W - PAD}" y="562" text-anchor="end" font-family="${FF.serif}" font-weight="600" font-size="30" fill="${C.brand}">acte.destraja.ro</text>
+<text x="${OG_W - PAD}" y="562" text-anchor="end" font-family="${FF.serif}" font-weight="600" font-size="30" fill="${C.brand}">destraja.ro/acte</text>
 <rect y="${OG_H - 10}" width="${OG_W}" height="10" fill="${C.brand}"/>
 </svg>`;
 }
@@ -174,7 +174,7 @@ export function actCard(a, g, act) {
   const foot = gz ? wrap(M.sans400, gz, { size: 23, width: INNER - 290, maxLines: 1 })[0] : '';
   const footLeft = foot ? `<text x="${PAD}" y="561" font-family="${FF.sans}" font-weight="400" font-size="23" fill="${C.body}">${xml(foot)}</text>` : '';
   const alt = [head, title, gz, ...facts].filter(Boolean).join('. ');
-  return { svg: frame(a, { kicker, body, footLeft }), alt: `${alt.slice(0, 280)}. Pe acte.destraja.ro` };
+  return { svg: frame(a, { kicker, body, footLeft }), alt: `${alt.slice(0, 280)}. Pe destrajă.ro` };
 }
 
 /** Imaginea paginii de start a actelor. */
@@ -187,7 +187,7 @@ export function landingCard(a, g) {
   const count = `${countWord(n, 'act', 'acte')}`;
   const figure = `<text x="${PAD}" y="440" font-family="${FF.serif}" font-weight="600" font-size="52" fill="${C.ink}">${xml(count.replace(/ .*/, ''))}</text><text x="${PAD + textWidth(M.serif600, count.replace(/ .*/, ''), 52) + 14}" y="440" font-family="${FF.sans}" font-weight="400" font-size="26" fill="${C.body}">${xml(count.replace(/^\S+ /, ''))}, cu cine le-a modificat și când</text>`;
   const footLeft = `<text x="${PAD}" y="560" font-family="${FF.sans}" font-weight="400" font-size="22" fill="${C.body}">Copie informativă, după Portalul Legislativ</text>`;
-  return { svg: frame(a, { kicker: 'Acte', body: body + figure, footLeft }), alt: `Actele din Monitorul Oficial pe acte.destraja.ro: ${count}, cu modificările lor și textul publicat` };
+  return { svg: frame(a, { kicker: 'Acte', body: body + figure, footLeft }), alt: `Actele din Monitorul Oficial pe destrajă.ro: ${count}, cu modificările lor și textul publicat` };
 }
 
 // ---------------------------------------------------------------- desenarea (resvg)

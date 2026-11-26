@@ -604,7 +604,7 @@ async function main() {
     }
 
     // Textul articolelor pomenite pe paginile proiectelor (data/citari): după analize, avize, amendamente și „Ce e bine și
-    // ce strică”, din care vin trimiterile. Răspunsurile acte.destraja.ro stau 7 zile în cache.
+    // ce strică”, din care vin trimiterile. Răspunsurile de la destraja.ro/acte stau 7 zile în cache.
     const citari = await step('Textul articolelor pomenite', 'node', ['scripts/straja-citari.mjs'], { timeoutMs: 2_700_000 });
     if (!citari.ok) fail('textul articolelor pomenite a eșuat');
 
@@ -675,7 +675,7 @@ async function main() {
       const deploy = build.ok ? await step('Publicare', 'npx', ['wrangler', 'deploy']) : { ok: false };
       if (deploy.ok) summary.push('publicat');
       else fail('NEPUBLICAT');
-      // Paginile actelor (acte.destraja.ro, serverul de pe VM-ul NAS-ului): lista contestată din rapoartele cititorilor
+      // Paginile actelor (destraja.ro/acte, serverul de pe VM-ul NAS-ului): lista contestată din rapoartele cititorilor
       // și versiunea serverului din build-ul de azi, doar dacă s-a schimbat ceva. Pornit de .cache/acte-release (opțiunile
       // lui release.mjs, de exemplu „--reports”); fără fișier pasul lipsește. Un eșec lasă versiunea de ieri pe VM.
       if (build.ok && fs.existsSync(ACTE_RELEASE)) {

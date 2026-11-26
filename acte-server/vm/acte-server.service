@@ -1,5 +1,5 @@
 [Unit]
-Description=Paginile actelor destrajă.ro (127.0.0.1:8090, public prin tunelul destraja-search ca acte.destraja.ro)
+Description=Paginile actelor destrajă.ro (127.0.0.1:8090; publice ca destraja.ro/acte, prin Worker-ul site-ului și tunelul destraja-search)
 After=network.target
 ConditionPathExists=/srv/acte/release/current/server.mjs
 
@@ -12,6 +12,9 @@ ExecStart=/opt/node/bin/node --disable-warning=ExperimentalWarning --max-old-spa
 Restart=always
 RestartSec=2
 Environment=NODE_ENV=production UV_THREADPOOL_SIZE=2
+# ACTE_ORIGIN_KEY (cheia Worker-ului) și ACTE_OPEN_HOSTS (gazde fără cheie, doar cât durează mutarea), scrise de
+# vm/origin-key.sh; root:acte 0640. Lipsa fișierului lasă serverul deschis (ca înainte).
+EnvironmentFile=-/etc/acte/origin.env
 StateDirectory=acte
 StateDirectoryMode=0700
 NoNewPrivileges=yes

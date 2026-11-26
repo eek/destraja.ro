@@ -1,9 +1,11 @@
-// Worker-ul din fața site-ului static. Răspunde doar la /api/* (vezi run_worker_first în
+// Worker-ul din fața site-ului static. Răspunde doar la /api/*, /admin* și /acte* (vezi run_worker_first în
 // wrangler.jsonc); orice altă cerere ajunge direct la fișierele din out/.
+//
+// /acte, /acte/*              paginile actelor și API-ul lor (/acte/api/…), de la serverul de pe VM, cu cache (acte.ts)
 //
 // /api/report                 rapoartele cititorilor despre greșeli în analize (report.ts)
 // /api/report/result          rezultatul verificării, pe e-mail, doar cu DIGEST_TOKEN (report.ts)
-// /api/report/act             rapoartele despre acte și legături, de pe acte.destraja.ro (CORS doar de acolo; act-report.ts)
+// /api/report/act             rapoartele despre acte și legături, din formularul paginilor /acte (act-report.ts)
 // /api/subscribe, /api/confirm, /api/preferences, /api/unsubscribe   alertele pe e-mail (subscribe.ts)
 // /api/digest, /api/digest/stats   trimiterea ediției zilnice, doar cu DIGEST_TOKEN (digest.ts)
 // /api/mail/events            anunțurile Resend despre adrese care resping mesajele, semnate (mail.ts)
@@ -17,6 +19,7 @@
 import { requireAdmin } from './access';
 import { handleAdmin } from './admin';
 import { handleActReport } from './act-report';
+import { handleActe, isActePath } from './acte';
 import { handleDigest, handleDigestStats } from './digest';
 import { json, logError } from './http';
 import { handleMailEvents } from './mail';
@@ -54,9 +57,10 @@ const POST_ROUTES: Record<string, Handler> = {
 };
 
 export default {
-  async fetch(request, env): Promise<Response> {
+  async fetch(request, env, ctx): Promise<Response> {
     const url = new URL(request.url);
     try {
+      if (isActePath(url.pathname)) return await handleActe(request, env, ctx, url);
       if (isAdminPage(url.pathname)) return await adminPage(request, env, url);
       if (url.pathname === '/api/admin' || url.pathname.startsWith('/api/admin/')) {
         const user = await requireAdmin(request, env, url);

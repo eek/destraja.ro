@@ -143,7 +143,10 @@ if (resvg) {
 // 4. Ce cere proba: adrese pe datele de test (cu text așteptat) și pe datele active (doar starea).
 const smoke = {
   fixture: [
-    { path: '/', contains: ['Actele din Monitorul Oficial', '/_static/'] },
+    { path: '/', contains: ['Actele din Monitorul Oficial', '/acte/_static/'] },
+    // Cu prefixul, cum cere Worker-ul site-ului (destraja.ro/acte): adresa canonică și legăturile poartă /acte.
+    { path: '/acte/lege-95-2006', contains: ['<link rel="canonical" href="https://destraja.ro/acte/lege-95-2006">'] },
+    { path: '/acte/', status: [301] },
     { path: '/lege-95-2006', contains: ['Legea nr. 95/2006', 'application/ld+json', 'Copie informativă'] },
     { path: '/lege-1-2011', contains: ['Abrogat'] },
     { path: '/codul-fiscal', status: [301] },
@@ -156,6 +159,7 @@ const smoke = {
   live: [
     { path: '/', status: [200] },
     { path: '/api/sanatate', contains: ['"ok":true'] },
+    { path: '/acte/api/sanatate', contains: ['"ok":true'] },
     { path: '/lege-95-2006', status: [200] },
     { path: '/codul-fiscal', status: [200, 301] },
     { path: '/cauta?q=legea+95%2F2006', status: [200] },

@@ -23,27 +23,33 @@ const ZONES = {
   // destrajă.ro, cu ă, ca în siglă; zona apare în Cloudflare sub forma punycode.
   'xn--destraj-f4a.ro': { hosts: ['xn--destraj-f4a.ro', 'www.xn--destraj-f4a.ro'] },
 };
-// Paginile actelor stau pe acte.destraja.ro (serverul de pe NAS, design §3): destraja.ro/acte și /acte/* trimit
-// acolo, cu restul căii și query-ul. wildcard_replace merge pe planul Free.
-const ACTE_REF = 'destraja_acte_redirect';
+// Paginile actelor stau pe destraja.ro/acte (Worker-ul site-ului, worker/acte.ts). Fosta lor adresă, acte.destraja.ro,
+// trimite 301 la aceeași cale sub destraja.ro/acte, cu tot cu query. Regula veche (destraja.ro/acte/* → acte.destraja.ro,
+// ref destraja_acte_redirect) se șterge la orice rulare: ar trimite /acte înapoi pe subdomeniu, înaintea Worker-ului.
+//   --no-acte-host   doar pentru mutare: șterge regula veche fără s-o pună pe cea nouă (acte.destraja.ro mai
+//                    servește pagini până se publică site-ul cu /acte; vezi acte-server/README.md, „Mutarea”)
+const OLD_ACTE_REF = 'destraja_acte_redirect';
+const ACTE_HOST_REF = 'destraja_acte_host_redirect';
+const ACTE_HOST_ROOT_REF = 'destraja_acte_host_root_redirect';
+const ACTE_HOST = '(http.host eq "acte.destraja.ro")';
+const acteHostRule = (ref, description, expression, target) => ({
+  ref,
+  description,
+  expression,
+  action: 'redirect',
+  action_parameters: { from_value: { status_code: 301, target_url: target, preserve_query_string: true } },
+});
 const EXTRA = {
-  'destraja.ro': [
-    {
-      ref: ACTE_REF,
-      description: 'destraja.ro/acte/* → acte.destraja.ro/*',
-      expression: '(http.host eq "destraja.ro") and (http.request.uri.path eq "/acte" or starts_with(http.request.uri.path, "/acte/"))',
-      action: 'redirect',
-      action_parameters: {
-        from_value: {
-          status_code: 301,
-          target_url: { expression: 'wildcard_replace(http.request.full_uri, "https://destraja.ro/acte*", "https://acte.destraja.ro${1}")' },
-          preserve_query_string: false,
-        },
-      },
-    },
-  ],
+  'destraja.ro': process.argv.includes('--no-acte-host')
+    ? []
+    : [
+        acteHostRule(ACTE_HOST_ROOT_REF, 'acte.destraja.ro/ → destraja.ro/acte', `${ACTE_HOST} and (http.request.uri.path eq "/")`, { value: 'https://destraja.ro/acte' }),
+        acteHostRule(ACTE_HOST_REF, 'acte.destraja.ro/* → destraja.ro/acte/*', `${ACTE_HOST} and (http.request.uri.path ne "/")`, {
+          expression: 'concat("https://destraja.ro/acte", http.request.uri.path)',
+        }),
+      ],
 };
-const OUR_REFS = new Set([REF, ACTE_REF]);
+const OUR_REFS = new Set([REF, OLD_ACTE_REF, ACTE_HOST_REF, ACTE_HOST_ROOT_REF]);
 const APPLY = process.argv.includes('--apply');
 
 const env = Object.fromEntries(

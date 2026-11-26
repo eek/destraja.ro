@@ -114,7 +114,7 @@ const FAQ = [
   {
     id: 'citari',
     q: 'De unde vine textul articolelor din popover?',
-    a: 'Pe pagina unui proiect, trimiterile la articolele legii modificate („art. 54 alin. (3)”) se deschid cu textul exact al alineatului sau al literei, iar trimiterile la proiect („art. I pct. 3”) cu textul proiectului, din forma numită acolo. Textul legii e forma consolidată de pe legislatie.just.ro (Portalul Legislativ al Ministerului Justiției) din ziua în care analiza a citit legea; articolele pe care analiza nu le-a citit le luăm de pe acte.destraja.ro, tot pentru acea zi. Dacă legea are între timp o formă mai nouă, o spunem. Formele consolidate ale portalului sunt informative; textul oficial e cel publicat în Monitorul Oficial. Legăm o trimitere de o lege doar când e limpede care e (o spune textul sau proiectul modifică o singură lege); altfel rămâne text simplu.',
+    a: 'Pe pagina unui proiect, trimiterile la articolele legii modificate („art. 54 alin. (3)”) se deschid cu textul exact al alineatului sau al literei, iar trimiterile la proiect („art. I pct. 3”) cu textul proiectului, din forma numită acolo. Textul legii e forma consolidată de pe legislatie.just.ro (Portalul Legislativ al Ministerului Justiției) din ziua în care analiza a citit legea; articolele pe care analiza nu le-a citit le luăm din paginile de acte ale site-ului (destraja.ro/acte), tot pentru acea zi. Dacă legea are între timp o formă mai nouă, o spunem. Formele consolidate ale portalului sunt informative; textul oficial e cel publicat în Monitorul Oficial. Legăm o trimitere de o lege doar când e limpede care e (o spune textul sau proiectul modifică o singură lege); altfel rămâne text simplu.',
   },
   {
     q: 'Cum găsiți proiectele care modifică aceeași lege?',

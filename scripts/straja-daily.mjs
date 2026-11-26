@@ -425,9 +425,12 @@ async function main() {
     if (!sync.ok && sync.seconds < 300 && NET_DOWN.test(sync.tail) && (await waitForNetwork(10))) {
       sync = await step('Senat', 'node', ['scripts/straja-sync.mjs'], { timeoutMs: 3 * 3_600_000 });
     }
-    const after = readBills().length;
-    if (sync.ok) summary.push(`${after - before >= 0 ? after - before : 0} proiecte noi`);
-    else fail('sincronizarea a eșuat');
+    // straja-sync.mjs salvează după fiecare proiect și lista în consultare înainte de recitiri: și oprit la limită lasă
+    // proiectele noi în fișier, iar analizele și publicarea de mai jos le iau (25 noiembrie 2026: B660/2026 citit
+    // dimineața și pierdut, pentru că fișierul se scria doar la sfârșit).
+    const added = Math.max(0, readBills().length - before);
+    if (sync.ok) summary.push(`${added} proiecte noi`);
+    else fail(`sincronizarea a eșuat${added ? ` (${added} proiecte noi salvate înainte de oprire)` : ''}`);
 
     // Textul în vigoare al articolelor pe care le modifică proiectele (straja-baseline → data/baseline), înaintea
     // analizelor: proiectele noi de la Senat, cele de la Cameră cu textul sau forma schimbată de ieri încoace, și cele cu

@@ -299,6 +299,17 @@ export default async function MethodPage() {
           <div className="mt-12">
             <MorningLine facts={facts} />
           </div>
+          <p id="documente" className="mt-14 max-w-3xl scroll-mt-24 text-[15px] leading-7 text-body">
+            <strong className="font-semibold text-ink">Copiile documentelor.</strong> Păstrăm o copie a fiecărui PDF citit de pe senat.ro
+            și cdep.ro, cu linkul „copie destrajă.ro” lângă documentul oficial. O dată pe săptămână descărcăm din nou documentele
+            proiectelor aflate încă în dezbatere și le comparăm cu copia. Dacă unul s-a schimbat, originalul rămâne la adresa lui, iar
+            versiunea nouă primește alta, cu o notă pe pagina proiectului. Ca să verifici o copie, descarc-o și compară amprenta ei
+            (<code className="font-mono text-[13px]">shasum -a 256 fișier.pdf</code>) cu cea din{' '}
+            <a href="/documente/amprente.json" className="font-semibold text-link underline underline-offset-4">
+              lista amprentelor
+            </a>
+            .
+          </p>
         </Container>
       </section>
 

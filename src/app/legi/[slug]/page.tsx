@@ -38,6 +38,8 @@ import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
 import BillHappenings from '@/components/bills/BillHappenings';
 import ScoreTrajectory, { ScoreHistory, senateOpinions } from '@/components/bills/ScoreTrajectory';
 import BillVersions from '@/components/camera/BillVersions';
+import { ChangedDocs, CopyLink } from '@/components/bills/DocumentCopies';
+import { getDocumentCopies } from '@/lib/documente';
 import { getBillVersions } from '@/lib/cdep';
 import { isStale, staleness } from '@/lib/fresh';
 import StaleNote from '@/components/bills/StaleNote';
@@ -84,6 +86,8 @@ export default async function BillDetailPage({ params }: PageProps) {
   const votes = await getBillVotes(slug);
   const mpPages = votes ? await getMpPageSlugs() : new Set<string>();
   const related = await getRelatedActs({ senat: slug });
+  // Copiile noastre ale PDF-urilor de pe senat.ro (data/documente/manifest.jsonl, servite din R2 la /documente/…).
+  const copies = await getDocumentCopies(slug);
   // Forma inițială și cea actualizată a inițiatorului, citite la fel și comparate (straja-council.mjs --versions --senat).
   const versions = await getBillVersions(slug);
   const manual = manualCorrections(bill.analysis.corrections, reports);
@@ -246,19 +250,30 @@ export default async function BillDetailPage({ params }: PageProps) {
         <div className="mt-6 flex flex-wrap items-center justify-between gap-3 text-sm">
           <div className="flex flex-wrap items-center gap-2">
             <span className="text-muted">Documente oficiale:</span>
-            {bill.pdfs.map((pdf) => (
-              <a
-                key={pdf.url}
-                href={pdf.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'pdf', doc: pdf.label })}
-                className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
-              >
-                <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
-                {pdf.label}
-              </a>
-            ))}
+            {bill.pdfs.map((pdf) => {
+              const copy = copies.get(pdf.url);
+              return (
+                <span key={pdf.url} className="inline-flex flex-wrap items-center gap-x-2">
+                  <a
+                    href={pdf.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'pdf', doc: pdf.label })}
+                    className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
+                  >
+                    <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
+                    {pdf.label}
+                  </a>
+                  {copy && <CopyLink copy={copy} billId={bill.id} doc={pdf.label} />}
+                </span>
+              );
+            })}
+            <ChangedDocs
+              items={bill.pdfs.flatMap((pdf) => (copies.has(pdf.url) ? [{ label: pdf.label, copy: copies.get(pdf.url)! }] : []))}
+              site="senat.ro"
+              analyzedAt={bill.analysis.updatedAt}
+              billId={bill.id}
+            />
           </div>
           {!isStale(fresh.docx) && <a
             href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}

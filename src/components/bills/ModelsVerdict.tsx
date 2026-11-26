@@ -66,7 +66,7 @@ function Scale({ rows, score, level }: { rows: ScaleRow[]; score: number; level:
           </span>
         ))}
       </div>
-      <div className="relative h-[18px]">
+      <div className="relative mt-[3px] h-[18px]">
         <div className="absolute inset-x-0 top-1/2 flex h-2.5 -translate-y-1/2 overflow-hidden rounded-full">
           <span className="w-[38%] bg-risk-green/30" />
           <span className="w-[30%] bg-risk-amber/30" />

@@ -29,6 +29,8 @@ import { RISK } from '@/lib/risk';
 import { formatDateRo, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import { Container, PartyTag, RiskChip, btnPrimary, linkCls, panel } from '@/components/ui';
+import OtherChamberPage from '@/components/bills/OtherChamberPage';
+import { canonicalPath, nonCanonicalPair } from '@/lib/cross-chamber';
 import { RouteSteps, type RouteStep } from '@/components/bills/BillRoute';
 import WriteCommittee from '@/components/camera/WriteCommittee';
 import BillVersions from '@/components/camera/BillVersions';
@@ -73,8 +75,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const [bill, analysis] = await Promise.all([getCdepBill(slug), getCdepAnalysis(slug)]);
   if (!bill) return { title: 'Proiect negăsit' };
   const title = `${bill.numar}: ${analysis?.consensus.plainTitle ?? bill.titlu.replace(/^(Proiect de Lege|Propunere legislativă) /i, '')}`;
-  const description = analysis?.consensus.summaryTlDr ?? bill.fisa.obiect ?? bill.titlu;
-  return { title, description, openGraph: { title, description } };
+  // Fișa are uneori obiectul gol („”), nu lipsă: cu ?? descrierea ieșea goală.
+  const description = analysis?.consensus.summaryTlDr || bill.fisa.obiect || bill.titlu;
+  return { title, description, alternates: { canonical: await canonicalPath(`/camera/${slug}`) }, openGraph: { title, description } };
 }
 
 // „26.10.2026” → „2026-10-26”.
@@ -100,6 +103,7 @@ export default async function CameraBillPage({ params }: PageProps) {
     getCommitteeAvize(slug),
   ]);
   const mpPages = amendments || votes ? await getMpPageSlugs() : new Set<string>();
+  const otherChamber = await nonCanonicalPair(`/camera/${slug}`);
   // Copiile noastre ale PDF-urilor de pe cdep.ro (data/documente/manifest.jsonl, servite din R2 la /documente/…).
   const copies = await getDocumentCopies(slug);
   const comparing = !versions && versionsStatus?.pending.includes(slug);
@@ -209,6 +213,8 @@ export default async function CameraBillPage({ params }: PageProps) {
           Fișa {bill.numar} pe cdep.ro <ExternalLink className="h-3.5 w-3.5" aria-hidden />
         </a>
       </div>
+
+      {otherChamber && <OtherChamberPage pair={otherChamber} here="camera" />}
 
       <article className="mt-4">
         <header className={`${panel} overflow-hidden shadow-[var(--shadow-card)]`}>

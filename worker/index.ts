@@ -1,5 +1,5 @@
 // Worker-ul din fața site-ului static. Răspunde doar la /api/*, /admin*, /acte* și /documente/* (vezi run_worker_first în
-// wrangler.jsonc); orice altă cerere ajunge direct la fișierele din out/.
+// wrangler.jsonc); orice altă cerere ajunge direct la fișierele din out/, iar cele fără fișier vin tot aici (missing.ts).
 //
 // /acte, /acte/*              paginile actelor și API-ul lor (/acte/api/…), de la serverul de pe VM, cu cache (acte.ts)
 // /documente/*                copiile noastre ale PDF-urilor parlamentare, din R2 (documente.ts); amprente.json e static
@@ -14,6 +14,7 @@
 // /api/mcp                    MCP-ul public, doar citire, fără cont (mcp.ts); orice metodă, nu doar POST
 // /api/run                    actualizarea zilnică anunță că a pornit și că a terminat, doar cu DIGEST_TOKEN (watch.ts)
 // /admin*, /api/admin/*       panoul rapoartelor, doar după Cloudflare Access și verificarea JWT-ului lui (access.ts, admin.ts)
+// orice adresă fără fișier     301 spre pagina bună pentru adresele greșite cunoscute, altfel 404 (missing.ts)
 // cron la 15 minute           confirmările rămase la coadă (subscribe.ts, sendQueued) și supravegherea actualizării
 //                             zilnice: un e-mail când rularea zilei lipsește sau nu se termină (watch.ts, watchRun)
 
@@ -26,6 +27,7 @@ import { handleDocumente, isDocumentePath } from './documente';
 import { json, logError } from './http';
 import { handleMailEvents } from './mail';
 import { handleMcp } from './mcp';
+import { redirectMissing } from './missing';
 import { handleReport, handleReportResult } from './report';
 import { handleSearchLog } from './search';
 import { handleConfirm, handlePreferences, handleSubscribe, handleUnsubscribe, sendQueued } from './subscribe';
@@ -83,7 +85,8 @@ export default {
       return json({ error: 'server' }, 500);
     }
     if (url.pathname.startsWith('/api/')) return json({ error: 'not_found' }, 404);
-    return env.ASSETS.fetch(request);
+    // Aici ajung doar cererile fără fișier în out/ (restul le servește Cloudflare direct): 404, sau 301 dacă știm adresa bună.
+    return redirectMissing(request, env, url, await env.ASSETS.fetch(request));
   },
   // La 15 minute: confirmările rămase la coadă când trimiterea n-a mers din motive care nu țin de adresă (subscribe.ts)
   // și rularea zilei, dacă lipsește sau nu s-a terminat (watch.ts).

@@ -5,6 +5,7 @@ import PressClient from '@/components/data/PressClient';
 import type { CoverageItem } from '@/components/data/PressCoverage';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/presa' },
   title: 'Camera de presă',
   description: 'Partidele inițiatorilor, coalițiile, avizele negative CES, ce scrie presa și tabelul complet al proiectelor din consultare, cu rezumat de presă și export CSV.',
 };

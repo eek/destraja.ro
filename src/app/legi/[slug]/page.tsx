@@ -1,3 +1,5 @@
+import { existsSync } from 'node:fs';
+import path from 'node:path';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -27,6 +29,8 @@ import { getMpPageSlugs } from '@/lib/mp-pages';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, PartyTag, RiskChip, panel } from '@/components/ui';
+import OtherChamberPage from '@/components/bills/OtherChamberPage';
+import { canonicalPath, nonCanonicalPair } from '@/lib/cross-chamber';
 import RiskInfo from '@/components/bills/RiskInfo';
 import { Flags } from '@/components/bills/Flags';
 import CiteBill from '@/components/bills/CiteBill';
@@ -66,6 +70,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${bill.id}: ${bill.analysis.consensus.plainTitle}`,
     description,
+    alternates: { canonical: await canonicalPath(`/legi/${slug}`) },
     openGraph: { title: `${bill.id}: ${bill.analysis.consensus.plainTitle}`, description },
   };
 }
@@ -86,6 +91,7 @@ export default async function BillDetailPage({ params }: PageProps) {
   const votes = await getBillVotes(slug);
   const mpPages = votes ? await getMpPageSlugs() : new Set<string>();
   const related = await getRelatedActs({ senat: slug });
+  const otherChamber = await nonCanonicalPair(`/legi/${slug}`);
   // Copiile noastre ale PDF-urilor de pe senat.ro (data/documente/manifest.jsonl, servite din R2 la /documente/…).
   const copies = await getDocumentCopies(slug);
   // Forma inițială și cea actualizată a inițiatorului, citite la fel și comparate (straja-council.mjs --versions --senat).
@@ -102,6 +108,10 @@ export default async function BillDetailPage({ params }: PageProps) {
   const c = bill.analysis.consensus;
   // Ce e din analiza anterioară (src/lib/fresh.ts): apare cu notă sau, memoriul static, deloc până se reface.
   const fresh = staleness(slug);
+  // Memoriile din public/docs se scriu separat (straja-docx.mjs): un proiect nou poate să nu-l aibă încă, iar unul învechit
+  // nu se arată până se reface. Fără el, butonul din kit face memoriul în browser.
+  const memoFile = `Punct_de_vedere_${slug.toUpperCase()}.docx`;
+  const memoHref = !isStale(fresh.docx) && existsSync(path.join(process.cwd(), 'public', 'docs', memoFile)) ? `/docs/${memoFile}` : null;
   const history = await getBillHistory(slug);
   // Ce s-a întâmplat de la analiză încoace; analiza e pe forma inițiatorului.
   const analysedOn = bill.analysis.updatedAt?.slice(0, 10) ?? builtOn;
@@ -148,6 +158,8 @@ export default async function BillDetailPage({ params }: PageProps) {
           </a>
         </div>
       </div>
+
+      {otherChamber && <OtherChamberPage pair={otherChamber} here="senat" />}
 
       <article className="mt-4">
         <header className={`${panel} overflow-hidden shadow-[var(--shadow-card)]`}>
@@ -275,21 +287,23 @@ export default async function BillDetailPage({ params }: PageProps) {
               billId={bill.id}
             />
           </div>
-          {!isStale(fresh.docx) && <a
-            href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}
-            download
-            {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'header' })}
-            className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-strong bg-surface px-3 text-xs font-semibold text-ink hover:bg-sunken"
-          >
-            <FileDown className="h-3.5 w-3.5" aria-hidden />
-            Memoriu complet (.docx)
-          </a>}
+          {memoHref && (
+            <a
+              href={memoHref}
+              download
+              {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'header' })}
+              className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-strong bg-surface px-3 text-xs font-semibold text-ink hover:bg-sunken"
+            >
+              <FileDown className="h-3.5 w-3.5" aria-hidden />
+              Memoriu complet (.docx)
+            </a>
+          )}
         </div>
 
         <div className="mt-12">
           <ActionKitClient
             bill={bill}
-            docxStale={isStale(fresh.docx)}
+            memoHref={memoHref}
             press={
               <>
                 {bill.positions && <BillPositions billId={bill.id} data={bill.positions} summary={lite.positions} />}

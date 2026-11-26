@@ -9,6 +9,7 @@ import ChangeJournal from '@/components/site/ChangeJournal';
 import { getJournal } from '@/lib/jurnal';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/noutati' },
   title: 'Ce e nou',
   description: 'Ce am adăugat, schimbat și corectat pe destrajă.ro, pe înțelesul tuturor, cel mai nou întâi.',
   openGraph: { title: 'Ce e nou · destrajă.ro', description: 'Ce am adăugat, schimbat și corectat pe destrajă.ro, pe înțelesul tuturor, cel mai nou întâi.' },

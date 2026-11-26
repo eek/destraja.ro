@@ -710,6 +710,8 @@ async function main() {
       if (anunt) await step('Imaginile anunțului', 'node', ['scripts/straja-digest.mjs', `--anunt=${anunt}`, '--images']);
       const migrate = await step('Migrații D1', 'npx', ['wrangler', 'd1', 'migrations', 'apply', 'lastraja', '--remote']);
       const build = migrate.ok ? await step('Build', 'npx', ['next', 'build']) : { ok: false };
+      // Canonical, sitemap, linkuri moarte (scripts/check-seo.mjs): doar semnalează, nu oprește publicarea.
+      if (build.ok && !(await step('Verificare SEO', 'node', ['scripts/check-seo.mjs'], { timeoutMs: 300_000 })).ok) fail('verificarea SEO a găsit erori (node scripts/check-seo.mjs)');
       const deploy = build.ok ? await step('Publicare', 'npx', ['wrangler', 'deploy']) : { ok: false };
       if (deploy.ok) summary.push('publicat');
       else fail('NEPUBLICAT');

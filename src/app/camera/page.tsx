@@ -6,6 +6,7 @@ import { Container } from '@/components/ui';
 import CameraExplorer from '@/components/camera/CameraExplorer';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/camera' },
   title: 'La Camera Deputaților',
   description:
     'Proiectele de lege aflate acum la Camera Deputaților: comisia care face raportul, termenul pentru amendamente și unde a ajuns fiecare. Camera decide la final pentru majoritatea legilor.',

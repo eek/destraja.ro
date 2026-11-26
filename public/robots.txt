@@ -1,0 +1,9 @@
+# destrajă.ro. Cloudflare pune în fața acestui fișier semnalele de conținut ale zonei (robots.txt administrat).
+# /api/ e pentru formulare, alerte și MCP, nu pentru căutare; /admin e panoul intern. /cauta și /acte-shell nu sunt blocate
+# aici: au noindex în pagină, iar Google trebuie să le poată citi ca să-l vadă.
+User-agent: *
+Disallow: /api/
+Disallow: /admin
+Allow: /
+
+Sitemap: https://destraja.ro/sitemap.xml

@@ -5,6 +5,7 @@ import { Container } from '@/components/ui';
 import AgendaCalendar from '@/components/agenda/AgendaCalendar';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/agenda' },
   title: 'Agenda Parlamentului',
   description:
     'Calendarul ședințelor comisiilor și ale plenului din Senat și din Camera Deputaților în care se discută proiecte urmărite pe destrajă.ro: ziua, ora, sala, ordinea de zi oficială și, pentru zilele trecute, ce s-a hotărât.',

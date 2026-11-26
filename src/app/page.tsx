@@ -4,7 +4,11 @@ import { STAGES } from '@/lib/cdep-text';
 import { computeMpStats } from '@/lib/stats';
 import { formatDateRo, todayISO } from '@/lib/format';
 import type { RiskLevel } from '@/lib/types';
+import type { Metadata } from 'next';
 import HomeClient, { type HomeCamItem, type HomePress } from '@/components/home/HomeClient';
+
+// Titlul și descrierea vin din layout; adresa canonică o punem aici, nu în layout, unde ar moșteni-o toate paginile.
+export const metadata: Metadata = { alternates: { canonical: '/' } };
 
 const AT_CHAMBER = new Set(STAGES.filter((s) => s.atChamber).map((s) => s.key));
 

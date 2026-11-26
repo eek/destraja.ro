@@ -9,6 +9,7 @@ import { ro, Swatch } from '@/components/mo/charts';
 import { DecadeLedger, yearBinLabels, YEAR_BINS } from '@/components/mo/pre1990';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/monitorul-oficial/inainte-de-1990' },
   title: 'Înainte de 1990: actele din Buletinul Oficial și din vechiul Monitor',
   description:
     'Ce mai păstrează Portalul Legislativ din anii de dinainte de 1990: actele pe decenii, cine le semna, de la Parlament și rege la Consiliul de Stat, cele mai vechi și cele încă citate de actele de azi.',

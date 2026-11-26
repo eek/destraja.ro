@@ -7,7 +7,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { CURRENT_LEG, linkSigners } from '../../scripts/lib/semnaturi.mjs';
 import { getAllBills } from './bills';
-import { getBillVersions, getCdepAnalysis, getCdepBill, getCdepIndex, type CdepRow } from './cdep';
+import { getBillVersions, getCdepAnalysis, getCdepBill, getCdepIndex, getCdepSlugs, type CdepRow } from './cdep';
 import { resolveStatus } from './bill-status';
 import { isoDate } from './bill-ids';
 import { plausibleLink } from './open-data-stage';
@@ -90,6 +90,7 @@ async function load() {
     .catch(() => ({ legislaturi: {}, mandate: {} }));
   const index = await getCdepIndex();
   const senate = await getAllBills();
+  const pages = new Set(await getCdepSlugs());
   const today = todayISO();
 
   const rows = new Map<string, SignedRow>();
@@ -153,7 +154,7 @@ async function load() {
       const c = (await getCdepAnalysis(r.slug))?.consensus;
       const last = c ? (await getBillVersions(r.slug))?.changes.at(-1) : undefined;
       const textChange = last && last.direction !== 'la_fel' && last.to !== 'initiator' && last.to !== 'actualizata' ? { direction: last.direction, after: last.to } : null;
-      rows.set(r.slug, { ...rowOf(r, status.chip, outcome, c ? { title: c.plainTitle, level: c.riskLevel, score: c.riskScore } : null), textChange });
+      rows.set(r.slug, { ...rowOf(r, pages.has(r.slug), status.chip, outcome, c ? { title: c.plainTitle, level: c.riskLevel, score: c.riskScore } : null), textChange });
     }
     const s = side.legislaturi[r.slug];
     for (const i of bill.fisa.initiatori) {
@@ -200,11 +201,13 @@ async function load() {
   return { byMp: sorted, summary };
 }
 
-function rowOf(r: CdepRow, stage: string, outcome: SignedOutcome, a: { title: string; level: RiskLevel; score: number } | null): SignedRow {
+function rowOf(r: CdepRow, hasPage: boolean, stage: string, outcome: SignedOutcome, a: { title: string; level: RiskLevel; score: number } | null): SignedRow {
   return {
     key: r.slug,
     id: r.numar,
-    href: `/camera/${r.slug}`,
+    // Un rând legat de Senat cu o legătură neplauzibilă (Pl-x 182/2026 → B549) n-are pagină pe site (getCdepSlugs):
+    // trimitem la fișa de pe cdep.ro, nu la un 404.
+    href: hasPage ? `/camera/${r.slug}` : r.url,
     title: a?.title ?? r.titlu,
     analysed: !!a,
     registered: r.inregistrat,

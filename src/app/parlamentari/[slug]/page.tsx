@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!mp) return { title: 'Parlamentar negăsit' };
   const title = `${mp.name} (${mp.party})`;
   const description = `${mp.name}${mp.role ? `, ${mp.role}` : ''} ${mp.party}, a semnat ${countWord(mp.billsCount, 'proiect analizat', 'proiecte analizate')} de noi la Senat și la Camera Deputaților: ${mp.redCount} cu risc ridicat, ${mp.yellowCount} moderat și ${mp.greenCount} redus.`;
-  return { title, description, openGraph: { title: `${title} · destrajă.ro`, description } };
+  return { title, description, alternates: { canonical: `/parlamentari/${mp.slug}` }, openGraph: { title: `${title} · destrajă.ro`, description } };
 }
 
 export default async function MpPage({ params }: PageProps) {
@@ -220,7 +220,8 @@ function WentWell({ amended, green, passed, improved }: { amended: (Pick & { bet
             <p className="mt-1 text-sm text-muted">{t.note}</p>
             <ul className="mt-3 space-y-1.5 border-t border-line pt-3">
               {t.items.slice(0, 3).map((b, i) => (
-                <li key={`${b.href}-${i}`}>
+                // Cheia ajunge în datele React din HTML; „/camera/plx-122-2026-0” arăta ca o adresă și Google o încerca (404).
+                <li key={i}>
                   <Link href={b.href} className="line-clamp-2 text-sm font-semibold leading-snug text-ink underline-offset-4 hover:underline">
                     {b.title}
                   </Link>

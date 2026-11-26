@@ -21,3 +21,11 @@
 /:page/opengraph-image
   Content-Type: image/png
   Cache-Control: public, max-age=3600
+
+# Datele React ale fiecărei pagini (/legi/b517-2026.txt etc.), cerute de navigarea din site; nu sunt pagini de căutat.
+/*.txt
+  X-Robots-Tag: noindex
+
+# Citările fiecărui proiect (/citari/<slug>.json), citite de pagina lui în browser; nici ele nu sunt de căutat.
+/citari/*
+  X-Robots-Tag: noindex

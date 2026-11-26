@@ -149,7 +149,7 @@ function everyDays(sheet, today) {
   const age = DAY.test(sheet.inregistrat ?? '') ? daysBetween(sheet.inregistrat, today) : Infinity;
   if (age < NEW_DAYS) return 4 + spread(sheet.slug, 2);
   if (age < 365) return 18 + spread(sheet.slug, 7);
-  return 42 + spread(sheet.slug, 15);
+  return 26 + spread(sheet.slug, 8); // proiectele de peste un an: o dată la 26–33 de zile, ca „verificată pe…” de pe pagină să rămână recentă
 }
 
 /**

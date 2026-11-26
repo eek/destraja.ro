@@ -31,7 +31,16 @@ export function useAnchoredPopover<T extends HTMLElement = HTMLElement>() {
     const w = p.offsetWidth;
     const h = p.offsetHeight;
     const left = Math.min(Math.max(EDGE, b.left), vw - EDGE - w);
-    const top = b.bottom + GAP + h > vh - EDGE && b.top - GAP - h > EDGE ? b.top - GAP - h : b.bottom + GAP;
+    const below = vh - EDGE - (b.bottom + GAP);
+    const above = b.top - GAP - EDGE;
+    let top = b.bottom + GAP;
+    if (h > below && h <= above) top = b.top - GAP - h;
+    else if (h > below) {
+      // Nu încape nici sub, nici deasupra: pe partea mai largă, cu înălțimea tăiată (conținutul derulează înăuntru).
+      const room = Math.max(below, above);
+      p.style.maxHeight = `${room}px`;
+      top = above > below ? b.top - GAP - Math.min(h, room) : b.bottom + GAP;
+    }
     Object.assign(p.style, { left: `${left}px`, top: `${top}px`, right: 'auto', bottom: 'auto' });
   }, []);
 
@@ -51,14 +60,19 @@ export function useAnchoredPopover<T extends HTMLElement = HTMLElement>() {
       };
     };
     const onScroll = () => place();
+    // Conținutul care se încarcă după deschidere (textul unei trimiteri) schimbă înălțimea: îl repoziționăm.
+    const sized = typeof ResizeObserver === 'undefined' ? null : new ResizeObserver(() => place());
     const onToggle = (e: Event) => {
       if ((e as ToggleEvent).newState === 'open') {
+        p.style.maxHeight = '';
         place();
         lock();
+        sized?.observe(p);
         window.addEventListener('scroll', onScroll, { passive: true });
         window.addEventListener('resize', onScroll);
       } else {
         unlock?.();
+        sized?.disconnect();
         window.removeEventListener('scroll', onScroll);
         window.removeEventListener('resize', onScroll);
       }
@@ -66,6 +80,7 @@ export function useAnchoredPopover<T extends HTMLElement = HTMLElement>() {
     p.addEventListener('toggle', onToggle);
     return () => {
       unlock?.();
+      sized?.disconnect();
       p.removeEventListener('toggle', onToggle);
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onScroll);

@@ -158,6 +158,41 @@ test('lista contestată ascunde starea și scoate relația din contor', () => {
   }
 });
 
+test('ancorele alineatelor și literelor, ca id-urile din contract (§4.3)', () => {
+  const blocks = [
+    { t: 'p', text: 'Definiția microîntreprinderii' },
+    { t: 'p', text: '(1) În sensul prezentului titlu:' },
+    { t: 'p', text: 'a) Abrogată.' },
+    { t: 'p', text: 'c) a realizat venituri;' },
+    { t: 'p', text: '(la 25-02-2026, Litera c) a fost modificată)' },
+    { t: 'p', text: '(1^1) Persoana juridică este legată dacă:' },
+    { t: 'p', text: 'c) o a treia persoană;' },
+    { t: 'note', text: '(2) o notă nu e alineat' },
+    { t: 'p', text: '(2) Al doilea.' },
+    { t: 'p', text: '(2) Repetat.' },
+  ];
+  assert.deepEqual(R.blockAnchors('art-47', blocks), [
+    null,
+    'art-47/alin-1',
+    'art-47/alin-1/lit-a',
+    'art-47/alin-1/lit-c',
+    null,
+    'art-47/alin-1^1',
+    'art-47/alin-1^1/lit-c',
+    null,
+    'art-47/alin-2',
+    null,
+  ]);
+  assert.deepEqual(R.blockAnchors('art-5', [{ t: 'p', text: 'a) fără alineat;' }]), ['art-5/lit-a']);
+  // Pe paginile actelor din datele de test, paragrafele „(1) …” ale articolelor au id-ul alineatului.
+  const pages = g.db
+    .prepare("SELECT slug FROM acts WHERE flags IS NULL OR flags NOT LIKE '%fixture_stub%'")
+    .all()
+    .map(({ slug }) => R.actPage(tpl, g, g.bySlug(slug)))
+    .join('\n');
+  assert.match(pages, /<p id="art-[0-9a-z^]+\/alin-1" class="mt-2 scroll-mt-24/);
+});
+
 test('textul lung se împarte în pagini și se randează repede', () => {
   const a = g.bySlug('cod-fiscal-2015');
   const t0 = performance.now();

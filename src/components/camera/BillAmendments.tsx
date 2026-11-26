@@ -4,6 +4,7 @@ import type { Amendment, AmendmentAuthor, BillAmendments as Data } from '@/lib/t
 import { mpKey } from '@/lib/stats';
 import { panel } from '@/components/ui';
 import { EFFECT, Mark } from './effect';
+import Cited from '@/components/cite/Cited';
 
 const SHOWN_AUTHORS = 3;
 
@@ -63,7 +64,7 @@ export function AmendmentCredit({ list, pages }: { list: Amendment[]; pages: Set
   );
 }
 
-function Item({ a, pages }: { a: Amendment; pages: Set<string> }) {
+function Item({ a, pages, slug }: { a: Amendment; pages: Set<string>; slug: string }) {
   // Un amendament admis poate face textul și mai bun, și mai rău; arătăm direcția doar când e una singură.
   const effect = a.status === 'admis' && a.effects?.length === 1 ? a.effects[0] : null;
   return (
@@ -72,10 +73,17 @@ function Item({ a, pages }: { a: Amendment; pages: Set<string> }) {
       <div className="min-w-0 flex-1">
         <p className="text-xs text-muted">
           <span className={`font-semibold ${a.status === 'admis' ? 'text-ink' : ''}`}>{a.status === 'admis' ? 'Admis' : 'Respins'}</span>
-          {a.article && ` · ${a.article}`}
+          {a.article && (
+            <>
+              {' · '}
+              <Cited slug={slug} text={a.article} role="review" />
+            </>
+          )}
           {effect && effect !== 'neutru' && <span className={`font-semibold ${EFFECT[effect].text}`}> · textul a ieșit {EFFECT[effect].label}</span>}
         </p>
-        <p className="mt-0.5 text-[15px] leading-6 text-ink">{a.summary}</p>
+        <p className="mt-0.5 text-[15px] leading-6 text-ink">
+          <Cited slug={slug} text={a.summary} role="review" />
+        </p>
         <p className="mt-0.5 text-sm leading-6 text-body">
           Propus de <Byline list={[a]} pages={pages} />
         </p>
@@ -105,7 +113,7 @@ export default function BillAmendments({ data, pages }: { data: Data; pages: Set
       {admitted.length > 0 && (
         <ul className="mt-3 divide-y divide-line">
           {admitted.map((a, i) => (
-            <Item key={`${a.nr}-${i}`} a={a} pages={pages} />
+            <Item key={`${a.nr}-${i}`} a={a} pages={pages} slug={data.slug} />
           ))}
         </ul>
       )}
@@ -117,7 +125,7 @@ export default function BillAmendments({ data, pages }: { data: Data; pages: Set
           </summary>
           <ul className="divide-y divide-line">
             {rejected.map((a, i) => (
-              <Item key={`${a.nr}-${i}`} a={a} pages={pages} />
+              <Item key={`${a.nr}-${i}`} a={a} pages={pages} slug={data.slug} />
             ))}
           </ul>
         </details>

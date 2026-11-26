@@ -43,6 +43,7 @@ import { isStale, staleness } from '@/lib/fresh';
 import StaleNote from '@/components/bills/StaleNote';
 import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeaderStatus';
 import { getBillHistory, senateHappenings, withdrawn } from '@/lib/istoric';
+import Cited from '@/components/cite/Cited';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -198,7 +199,7 @@ export default async function BillDetailPage({ params }: PageProps) {
 
         <BillHappenings items={happenings} note={happeningsNote} builtOn={builtOn} billId={bill.id} />
 
-        <ModelsVerdict score={c.riskScore} level={c.riskLevel} summary={c.summaryTlDr} council={bill.analysis.council}>
+        <ModelsVerdict score={c.riskScore} level={c.riskLevel} summary={c.summaryTlDr} council={bill.analysis.council} slug={slug}>
           {corrected && (
             <a href="#greseli" className="mt-4 block rounded-lg bg-brand-soft px-3 py-2 text-sm leading-6 text-ink">
               <strong className="font-semibold">Corectat după raportul unui cititor,</strong> confirmat în textul oficial.{' '}
@@ -228,11 +229,15 @@ export default async function BillDetailPage({ params }: PageProps) {
           </h2>
           <div className="rounded-2xl bg-sunken p-6">
             <h3 className="text-sm font-semibold text-ink">Ce promit inițiatorii</h3>
-            <p className="mt-2 text-[15px] leading-7 text-body">{c.initiatorClaim}</p>
+            <p className="mt-2 text-[15px] leading-7 text-body">
+              <Cited slug={slug} text={c.initiatorClaim} />
+            </p>
           </div>
           <div className={`rounded-2xl p-6 ${c.riskLevel === 'red' ? 'bg-risk-red-soft' : c.riskLevel === 'yellow' ? 'bg-risk-amber-soft' : 'bg-risk-green-soft'}`}>
             <h3 className={`text-sm font-semibold ${RISK[c.riskLevel].text}`}>Ce face legea în realitate</h3>
-            <p className="mt-2 text-[15px] leading-7 text-ink">{c.realityCheck}</p>
+            <p className="mt-2 text-[15px] leading-7 text-ink">
+              <Cited slug={slug} text={c.realityCheck} />
+            </p>
           </div>
         </section>
 
@@ -289,15 +294,21 @@ export default async function BillDetailPage({ params }: PageProps) {
                 <div key={idx} className="p-5 sm:p-6">
                   {/* Întâi ce schimbă, pe înțeles; referința juridică dedesubt (o sugestie a unui cititor). */}
                   <h3 className="text-base font-semibold text-ink sm:text-lg">{item.title}</h3>
-                  <p className={`mt-1 text-sm tabular-nums ${RISK[item.severity]?.text ?? 'text-muted'}`}>{item.article}</p>
+                  <p className={`mt-1 text-sm tabular-nums ${RISK[item.severity]?.text ?? 'text-muted'}`}>
+                    <Cited slug={slug} text={item.article} />
+                  </p>
                   <div className="mt-3 grid gap-4 text-[15px] leading-7 md:grid-cols-2">
                     <div>
                       <p className="mb-1 text-xs font-semibold text-muted">Ce scrie în lege</p>
-                      <p className="text-body">{item.whatChanges}</p>
+                      <p className="text-body">
+                        <Cited slug={slug} text={item.whatChanges} />
+                      </p>
                     </div>
                     <div>
                       <p className={`mb-1 text-xs font-semibold ${RISK[item.severity]?.text ?? 'text-muted'}`}>Ce înseamnă în viața reală</p>
-                      <p className="text-ink">{item.realWorldImpact}</p>
+                      <p className="text-ink">
+                        <Cited slug={slug} text={item.realWorldImpact} />
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -326,7 +337,9 @@ export default async function BillDetailPage({ params }: PageProps) {
                       <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${tone}`}>{label}</span>
                       <h3 className="text-base font-semibold text-ink">{mf.claim}</h3>
                     </div>
-                    <p className="mt-2 text-[15px] leading-7 text-body prose-measure">{mf.explanation}</p>
+                    <p className="mt-2 text-[15px] leading-7 text-body prose-measure">
+                      <Cited slug={slug} text={mf.explanation} />
+                    </p>
                   </div>
                 );
               })}

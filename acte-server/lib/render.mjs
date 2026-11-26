@@ -248,8 +248,32 @@ function unconfirmedSection(g, act, inc, out, more = null) {
 
 // ---------------------------------------------------------------- textul
 
-function renderBlocks(blocks) {
+/**
+ * Ancorele alineatelor și literelor dintr-un articol fără subunități (convertorul la nivel de articol, contract §4.2):
+ * paragraful „(3) …” primește id-ul `art-54/alin-3`, litera „b) …” de sub el `art-54/alin-3/lit-b` (sau `art-54/lit-b`,
+ * fără alineat), adică id-urile din contract (§4.3) pe care le va da și convertorul complet. Un id deja folosit nu se
+ * repetă. Paginile proiectelor de pe destraja.ro trimit aici, la alineatul citat.
+ */
+export function blockAnchors(unitId, blocks) {
+  const seen = new Set();
+  let alin = null;
   return (blocks || []).map((b) => {
+    if (b.t && b.t !== 'p') return null;
+    const t = String(b.text ?? '').trimStart();
+    let m;
+    let id = null;
+    if ((m = /^\((\d+(?:\^\d+)?)\)\s/.exec(t))) {
+      alin = `alin-${m[1]}`;
+      id = `${unitId}/${alin}`;
+    } else if ((m = /^([a-z](?:\^\d+)?)\)\s/.exec(t))) id = `${unitId}/${alin ? `${alin}/` : ''}lit-${m[1]}`;
+    if (!id || seen.has(id)) return null;
+    seen.add(id);
+    return id;
+  });
+}
+
+function renderBlocks(blocks, anchors = []) {
+  return (blocks || []).map((b, i) => {
     if (b.t === 'table' && Array.isArray(b.rows)) {
       const head = Math.max(0, Math.min(b.head || 0, b.rows.length));
       return html`<div class="my-3 overflow-x-auto"><table class="min-w-full border-collapse text-sm">
@@ -258,7 +282,9 @@ ${head ? html`<thead>${b.rows.slice(0, head).map((row) => html`<tr>${row.map((c)
     }
     if (b.t === 'note') return html`<p class="mt-2 rounded-lg bg-sunken px-3 py-2 text-sm leading-6 text-muted">${richText(b.text)}</p>`;
     if (b.t === 'missing') return html`<p class="mt-2 rounded-lg bg-risk-amber-soft px-3 py-2 text-sm leading-6 text-risk-amber-text">Lipsește din copia noastră (${b.what || 'conținut'}): ${b.text || 'vezi Portalul Legislativ'}.</p>`;
-    return html`<p class="mt-2 text-[15px] leading-7 text-body">${richText(b.text ?? '')}</p>`;
+    return anchors[i]
+      ? html`<p id="${anchors[i]}" class="mt-2 scroll-mt-24 text-[15px] leading-7 text-body">${richText(b.text ?? '')}</p>`
+      : html`<p class="mt-2 text-[15px] leading-7 text-body">${richText(b.text ?? '')}</p>`;
   });
 }
 
@@ -267,7 +293,7 @@ function renderUnit(u, depth = 0) {
   const top = depth === 0;
   return html`<section id="${u.id}" class="${top ? 'scroll-mt-24 border-t border-line pt-5 mt-5 first:border-0 first:mt-0 first:pt-0' : 'mt-2 pl-4'}">
 ${top ? html`<h3 class="text-base font-semibold text-ink"><a href="${unitHref(u.id)}" class="hover:underline">${richText(u.label || u.id)}</a>${u.title ? html`<span class="mt-1 block font-normal text-body">${richText(u.title)}</span>` : ''}</h3>` : u.label ? html`<span class="font-semibold text-ink">${richText(u.label)}</span>` : ''}
-${renderBlocks(u.blocks)}
+${renderBlocks(u.blocks, top && /^art-/.test(u.id) && !u.children?.length ? blockAnchors(u.id, u.blocks) : [])}
 ${(u.children || []).map((c) => renderUnit(c, depth + 1))}
 ${(u.notes || []).map((n) => html`<p class="mt-2 text-xs leading-5 text-muted">${richText(n.text)}</p>`)}
 </section>`;

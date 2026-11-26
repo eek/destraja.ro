@@ -5,6 +5,7 @@ import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { Glyph } from '@/components/ui';
 import RiskInfo from './RiskInfo';
+import Cited from '@/components/cite/Cited';
 
 type Council = Partial<Record<(typeof MODELS)[number]['key'], Pick<AiVerdict, 'status' | 'riskScore' | 'riskLevel' | 'verdictShort'> | undefined>>;
 
@@ -112,6 +113,7 @@ export default function ModelsVerdict({
   level,
   summary,
   council,
+  slug,
   children,
 }: {
   score: number;
@@ -119,6 +121,8 @@ export default function ModelsVerdict({
   /** Rezumatul comun; lipsește când pagina îl arată deja sub titlu. */
   summary?: string;
   council: Council;
+  /** Proiectul: trimiterile la articole din verdicte devin legături spre textul lor. */
+  slug?: string;
   children?: ReactNode;
 }) {
   const rows = MODELS.flatMap((m) => {
@@ -164,7 +168,9 @@ export default function ModelsVerdict({
       {rows.length > 1 && <Scale rows={rows} score={score} level={level} />}
 
       {/* Rezumatul comun e de obicei chiar verdictul unuia dintre modele, deja în cardul lui de mai jos: nu-l repetăm. */}
-      {summary && !rows.some((r) => r.verdict === summary) && <p className="mt-5 max-w-[72ch] text-[15.5px] leading-7 text-body">{summary}</p>}
+      {summary && !rows.some((r) => r.verdict === summary) && (
+        <p className="mt-5 max-w-[72ch] text-[15.5px] leading-7 text-body">{slug ? <Cited slug={slug} text={summary} /> : summary}</p>
+      )}
 
       {/* Pe telefon, trei carduri gri în card se citesc greu: un rând sub altul, despărțite de linii. De la md, cardurile. */}
       <ul className="mt-5 grid border-t border-line md:grid-cols-3 md:gap-3 md:border-t-0">
@@ -178,7 +184,7 @@ export default function ModelsVerdict({
               </p>
             </div>
             <p className="mt-0.5 text-xs text-muted">{r.role}</p>
-            <p className="mt-2.5 text-sm leading-6 text-body">{r.verdict}</p>
+            <p className="mt-2.5 text-sm leading-6 text-body">{slug ? <Cited slug={slug} text={r.verdict} /> : r.verdict}</p>
           </li>
         ))}
       </ul>

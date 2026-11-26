@@ -21,7 +21,8 @@
 //    termen zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână; cel mult 16 proiecte pe zi
 // 5. datele de contact oficiale ale parlamentarilor (straja-mps): în fiecare zi inițiatorii noi, apoi cel mult 15 fișe
 //    de deputați mai vechi de 3 săptămâni, în pauza comună a cdep.ro
-// 6. rapoartele cititorilor din D1 (straja-reports)
+// 6. textul articolelor pomenite pe paginile proiectelor (straja-citari → data/citari), apoi rapoartele cititorilor din
+//    D1 (straja-reports)
 // 7. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
 // 8. Monitorul Oficial: publicarea legilor proiectelor noastre și cifrele de pe /monitorul-oficial, din setul de date
 //    ~/work/monitorul-oficial (straja-mo, fără rețea; fără setul de date pasul lipsește), apoi verificări, migrațiile D1,
@@ -601,6 +602,11 @@ async function main() {
       const mps = await step('Parlamentari', 'node', ['scripts/straja-mps.mjs', '--max-age=21', '--cdep-max=15'], { timeoutMs: 1_800_000 });
       if (!mps.ok) fail('contactele parlamentarilor au eșuat');
     }
+
+    // Textul articolelor pomenite pe paginile proiectelor (data/citari): după analize, avize, amendamente și „Ce e bine și
+    // ce strică”, din care vin trimiterile. Răspunsurile acte.destraja.ro stau 7 zile în cache.
+    const citari = await step('Textul articolelor pomenite', 'node', ['scripts/straja-citari.mjs'], { timeoutMs: 2_700_000 });
+    if (!citari.ok) fail('textul articolelor pomenite a eșuat');
 
     // Rezultatele pe e-mail pleacă după publicare, ca pagina să le arate deja.
     // Jurnalul complet de pe /noutati: câte un rând în română pentru fiecare schimbare nouă din cod (Gemini).

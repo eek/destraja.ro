@@ -32,6 +32,16 @@ export const CHANGELOG: ChangeDay[] = [
     items: [
       {
         kind: 'nou',
+        title: 'Textul exact al articolelor pomenite',
+        text: 'Pe pagina unui proiect, articolele legii pe care o modifică („art. 54 alin. (3)”, „articolul 47, litera c)”) sunt acum subliniate discret cu puncte. Treci cu mouse-ul peste ele sau atinge-le pe telefon și vezi textul exact al alineatului sau al literei, așa cum e în vigoare, cu legea și data formei consolidate din care l-am luat și cu linkuri spre acte.destraja.ro și spre legislatie.just.ro. Merge în analize, în „Ce e bine și ce strică”, în citatele din proiect, în observațiile instituțiilor, în amendamente și în comparația formelor. Trimiterile la proiect („art. I pct. 3”) arată punctul din proiect și, alături, ce scrie acum în articolul pe care îl schimbă. Când nu e limpede despre ce lege e vorba (de exemplu un articol din Constituție), lăsăm textul simplu.',
+        link: { href: '/camera/plx-714-2026', label: 'Un exemplu: Pl-x 714/2026' },
+        shot: {
+          id: '2026-11-26-textul-articolelor',
+          alt: 'Pagina Pl-x 714/2026, la „Ce e bine și ce strică”: lângă citatul „3. La articolul 54, alineatele (3) și (4) se abrogă.” e deschisă o fereastră cu titlul „Articolul 54, alineatele (3) și (4)”, textul celor două alineate din Codul fiscal, așa cum sunt în vigoare, și sursa: Legea nr. 227/2015, forma consolidată la 19 noiembrie 2026, după legislatie.just.ro.',
+        },
+      },
+      {
+        kind: 'nou',
         title: 'Proiectele care stau pe loc o spun pe pagina lor',
         text: 'Pe pagina unui proiect aflat la Camera Deputaților care n-a mai avut niciun pas procedural de peste șase luni scrie acum, chiar sub stadiu, de când stă pe loc și când am verificat ultima dată fișa pe cdep.ro: de exemplu „Blocat la comisii: niciun pas din 24 februarie 2025”. În cardul „Unde e acum” apar și cât timp a trecut, ce a mai apărut în fișă fără să miște proiectul (avize, puncte de vedere), termenul pentru raport care a trecut și legătura spre fișa oficială. Așa se vede că datele noastre sunt la zi și că Parlamentul nu l-a mai mișcat. Pașii se numără la fel ca pe pagina proiectelor uitate: avizele, termenele și înscrierile pe ordinea de zi nu sunt pași. Cam patru din cinci proiecte aflate la Cameră stau așa.',
         link: { href: '/uitate', label: 'Proiectele uitate' },

@@ -150,7 +150,7 @@ export default async function BillDetailPage({ params }: PageProps) {
             </div>
             <ScoreTrajectory analysis={bill.analysis} versions={versions} opinions={senateOpinions(bill.timeline)} />
             <h1 className="font-display mt-5 text-[clamp(1.9rem,4.2vw,3rem)] font-normal leading-[1.1]">{c.plainTitle}</h1>
-            <p className="mt-4 text-lg leading-8 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>
+            <p className="mt-4 text-[17px] leading-7 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>
             <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.officialTitle}</p>
 
             <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm">

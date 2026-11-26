@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import type { AiVerdict, RiskLevel } from '@/lib/types';
-import { MODELS } from '@/lib/site';
+import { MODELS, type ModelKey } from '@/lib/site';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { Glyph } from '@/components/ui';
@@ -25,35 +25,59 @@ function plainAgreement(rows: { name: string; level: RiskLevel; score: number }[
   );
 }
 
-/** Pe scala 0–10, cu zonele de risc: unde a pus proiectul fiecare model. Numele apropiate stau unul peste altul. */
-function Scale({ rows, score, level }: { rows: { name: string; level: RiskLevel; score: number }[]; score: number; level: RiskLevel }) {
+type ScaleRow = { key: ModelKey; name: string; level: RiskLevel; score: number };
+
+// Fiecare model are semnul lui, aceeași formă pe scală și în legenda de sub ea: pătrat, inel, bară. Nu triunghi, romb sau
+// disc plin: acelea spun deja nivelul de risc (Glyph). Culoarea e a nivelului de risc din verdictul modelului.
+const RING: Record<RiskLevel, string> = { red: 'border-risk-red', yellow: 'border-risk-amber', green: 'border-risk-green' };
+function Mark({ k, level }: { k: ModelKey; level: RiskLevel }) {
+  const cls =
+    k === 'agy' ? `h-2.5 w-2.5 rounded-[2px] ${RISK[level].fill}` : k === 'claude' ? `h-2.5 w-2.5 rounded-full border-[2.5px] ${RING[level]}` : `h-3 w-[5px] rounded-full ${RISK[level].fill}`;
+  return <span aria-hidden className={`inline-block shrink-0 ${cls}`} />;
+}
+
+/**
+ * Pe scala 0–10, cu zonele de risc: media cu punctul mare, iar deasupra semnul fiecărui model la scorul lui. Cine ce scor a
+ * dat se citește din legenda de dedesubt, după semn; nicio etichetă nu plutește deasupra scalei, deci nimic nu se
+ * suprapune când scorurile sunt apropiate. Scorurile egale (sau la mai puțin de 0,6) își pun semnele unul lângă altul.
+ */
+function Scale({ rows, score, level }: { rows: ScaleRow[]; score: number; level: RiskLevel }) {
   const sorted = [...rows].sort((x, y) => x.score - y.score);
-  const tier = new Map(sorted.map((r, i) => [r.name, sorted.slice(0, i).filter((o) => r.score - o.score < 0.9).length]));
-  const lift = Math.max(...tier.values());
+  const groups: ScaleRow[][] = [];
+  for (const r of sorted) {
+    const g = groups.at(-1);
+    if (g && r.score - g[0].score < 0.6) g.push(r);
+    else groups.push([r]);
+  }
+  // Scorurile egale stau centrate în jurul valorii lor, la 13 px unul de altul. Apoi, cu max() și min() din CSS, fiecare semn
+  // stă la cel puțin 13 px de vecinul lui și nu iese din scală cu mai mult de 5 px, la orice lățime a ei.
+  const order = groups.flatMap((g) => g.map((r, i) => ({ r, own: `calc(${r.score * 10}% + ${(i - (g.length - 1) / 2) * 13}px)` })));
+  const fwd: string[] = [];
+  order.forEach(({ own }, i) => fwd.push(i ? `max(${own}, calc(${fwd[i - 1]} + 13px))` : `max(${own}, -5px)`));
+  const pos: string[] = [];
+  for (let i = order.length - 1; i >= 0; i--) pos[i] = i === order.length - 1 ? `min(${fwd[i]}, calc(100% + 5px))` : `min(${fwd[i]}, calc(${pos[i + 1]} - 13px))`;
+  const left = new Map(order.map(({ r }, i) => [r.key, pos[i]]));
   return (
-    <div className="relative mb-2" style={{ marginTop: `${34 + lift * 15}px` }} aria-hidden>
-      <div className="flex h-2.5 overflow-hidden rounded-full">
-        <span className="w-[38%] bg-risk-green/30" />
-        <span className="w-[30%] bg-risk-amber/30" />
-        <span className="w-[32%] bg-risk-red/30" />
+    <div className="mt-6 mb-2" aria-hidden>
+      <div className="relative h-3">
+        {rows.map((r) => (
+          <span key={r.key} className="absolute bottom-0 flex -translate-x-1/2" style={{ left: left.get(r.key) }}>
+            <Mark k={r.key} level={r.level} />
+          </span>
+        ))}
       </div>
-      {rows.map((r) => (
+      <div className="relative h-[18px]">
+        <div className="absolute inset-x-0 top-1/2 flex h-2.5 -translate-y-1/2 overflow-hidden rounded-full">
+          <span className="w-[38%] bg-risk-green/30" />
+          <span className="w-[30%] bg-risk-amber/30" />
+          <span className="w-[32%] bg-risk-red/30" />
+        </div>
         <span
-          key={r.name}
-          className="absolute -translate-x-1/2 whitespace-nowrap text-[11px] font-semibold text-muted"
-          style={{ left: `${Math.min(96, Math.max(4, r.score * 10))}%`, top: `${-26 - tier.get(r.name)! * 15}px` }}
-        >
-          {r.name} {fmt(r.score)}
-        </span>
-      ))}
-      {rows.map((r) => (
-        <span key={r.name} className={`absolute top-1/2 h-4 w-0.5 -translate-x-1/2 -translate-y-1/2 rounded ${RISK[r.level].fill}`} style={{ left: `${r.score * 10}%` }} />
-      ))}
-      <span
-        className={`absolute top-1/2 h-[18px] w-[18px] -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-surface shadow-[0_0_0_1.5px_var(--ink)] ${RISK[level].fill}`}
-        style={{ left: `${score * 10}%` }}
-      />
-      <div className="mt-2 flex justify-between text-[11px] tabular-nums text-muted">
+          className={`absolute top-1/2 h-[18px] w-[18px] -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-surface shadow-[0_0_0_1.5px_var(--ink)] ${RISK[level].fill}`}
+          style={{ left: `${score * 10}%` }}
+        />
+      </div>
+      <div className="mt-1 flex justify-between text-[11px] tabular-nums text-muted">
         <span>
           0<span className="hidden sm:inline">, fără risc</span>
         </span>
@@ -61,6 +85,22 @@ function Scale({ rows, score, level }: { rows: { name: string; level: RiskLevel;
           10<span className="hidden sm:inline">, risc maxim</span>
         </span>
       </div>
+      <p className="mt-2.5 flex flex-wrap items-center justify-center gap-x-3.5 gap-y-1.5 text-xs text-muted">
+        {rows.map((r) => (
+          <span key={r.key} className="inline-flex items-center gap-1.5 whitespace-nowrap">
+            <Mark k={r.key} level={r.level} />
+            <span>
+              {r.name} <span className={`font-semibold tabular-nums ${RISK[r.level].text}`}>{fmt(r.score)}</span>
+            </span>
+          </span>
+        ))}
+        <span className="inline-flex items-center gap-1.5 whitespace-nowrap font-semibold text-ink">
+          <span className={`inline-block h-3 w-3 shrink-0 rounded-full border-2 border-surface shadow-[0_0_0_1px_var(--ink)] ${RISK[level].fill}`} />
+          <span>
+            Media <span className="tabular-nums">{fmt(score)}</span>
+          </span>
+        </span>
+      </p>
     </div>
   );
 }
@@ -91,44 +131,45 @@ export default function ModelsVerdict({
   const missing = MODELS.filter((m) => council[m.key]?.status !== 'ok').map((m) => m.name);
 
   return (
-    <section id="modele" aria-labelledby="modele-titlu" className="mt-6 scroll-mt-20 rounded-2xl border border-line bg-surface p-6 sm:p-8">
-      <div className="flex flex-wrap items-start justify-between gap-x-6 gap-y-3">
-        <div className="min-w-0">
-          <h2 id="modele-titlu" className="font-display text-2xl font-semibold text-ink sm:text-[1.75rem]">
-            Ce spun cele trei modele
-          </h2>
-          {rows.length > 0 && (
-            <p className="mt-1.5 max-w-[60ch] text-base leading-relaxed text-body">
-              {plainAgreement(rows)}
-              {missing.length > 0 &&
-                (rows.length === 1
-                  ? ` Scorul e al unui singur model: ${list(missing)} n-au dat încă un răspuns.`
-                  : ` ${list(missing)} n-a dat încă un răspuns, deci scorul e media celorlalte două.`)}
-            </p>
-          )}
-        </div>
-        <div className="text-right">
-          <div className="flex items-start justify-end gap-1">
-            <p className="font-display text-5xl font-semibold leading-none tabular-nums text-ink">
-              {fmt(score)}
-              <span className="font-sans text-lg font-normal text-muted">/10</span>
-            </p>
-            <RiskInfo />
-          </div>
-          <p className={`mt-2 inline-flex items-center gap-1.5 text-sm font-semibold ${RISK[level].text}`}>
-            <Glyph level={level} />
-            {RISK[level].label} · <span className="text-muted">{agree.toLowerCase()}</span>
+    <section id="modele" aria-labelledby="modele-titlu" className="mt-6 scroll-mt-20 rounded-2xl border border-line bg-surface p-5 sm:p-8">
+      <h2 id="modele-titlu" className="font-display text-2xl font-semibold text-ink sm:text-[1.75rem]">
+        Ce spun cele trei modele
+      </h2>
+      {rows.length > 0 && (
+        <p className="mt-1.5 max-w-[60ch] text-[15px] leading-relaxed text-body sm:text-base">
+          {plainAgreement(rows)}
+          {missing.length > 0 &&
+            (rows.length === 1
+              ? ` Scorul e al unui singur model: ${list(missing)} n-au dat încă un răspuns.`
+              : ` ${list(missing)} n-a dat încă un răspuns, deci scorul e media celorlalte două.`)}
+        </p>
+      )}
+      {/* Scorul comun și linia de sub el stau centrate, la orice lățime. Golul din stânga are lățimea semnului de întrebare,
+          ca cifra să fie chiar la mijloc. */}
+      <div className="mt-5 flex flex-col items-center text-center">
+        <div className="flex items-start gap-1">
+          <span className="w-7 shrink-0" aria-hidden />
+          <p className="font-display text-5xl font-semibold leading-none tabular-nums text-ink">
+            {fmt(score)}
+            <span className="font-sans text-lg font-normal text-muted">/10</span>
           </p>
+          <RiskInfo />
         </div>
+        <p className={`mt-2 inline-flex flex-wrap items-center justify-center gap-x-1.5 text-sm font-semibold ${RISK[level].text}`}>
+          <Glyph level={level} />
+          {RISK[level].label} · <span className="text-muted">{agree.toLowerCase()}</span>
+        </p>
       </div>
 
       {rows.length > 1 && <Scale rows={rows} score={score} level={level} />}
 
-      {summary && <p className="mt-5 max-w-[72ch] text-[15.5px] leading-7 text-body">{summary}</p>}
+      {/* Rezumatul comun e de obicei chiar verdictul unuia dintre modele, deja în cardul lui de mai jos: nu-l repetăm. */}
+      {summary && !rows.some((r) => r.verdict === summary) && <p className="mt-5 max-w-[72ch] text-[15.5px] leading-7 text-body">{summary}</p>}
 
-      <ul className="mt-5 grid gap-3 md:grid-cols-3">
+      {/* Pe telefon, trei carduri gri în card se citesc greu: un rând sub altul, despărțite de linii. De la md, cardurile. */}
+      <ul className="mt-5 grid border-t border-line md:grid-cols-3 md:gap-3 md:border-t-0">
         {rows.map((r) => (
-          <li key={r.key} className="rounded-xl bg-sunken p-4">
+          <li key={r.key} className="border-b border-line py-4 last:border-b-0 last:pb-0 md:rounded-xl md:border-b-0 md:bg-sunken md:p-4 md:last:pb-4">
             <div className="flex items-center justify-between gap-2">
               <p className="font-semibold text-ink">{r.name}</p>
               <p className={`inline-flex items-center gap-1.5 text-sm font-semibold tabular-nums ${RISK[r.level].text}`}>

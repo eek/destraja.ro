@@ -13,11 +13,15 @@ import {
   AlignmentType,
   BorderStyle,
 } from 'docx';
+import { DOCX_VERSION, docxDigest } from './lib/fresh.mjs';
 
 const ROOT = process.cwd();
 const ANALYSES_DIR = path.join(ROOT, 'data', 'analyses');
 const BILLS_FILE = path.join(ROOT, 'data', 'senat-bills.json');
 const OUT_DIR = path.join(ROOT, 'public', 'docs');
+// Din ce analiză e făcut fiecare memoriu (scripts/lib/fresh.mjs): un memoriu al altei analize e învechit, se reface
+// în rularea zilnică, iar până atunci pagina nu-l oferă.
+const BASIS_FILE = path.join(ROOT, 'data', 'docs-basis.json');
 
 async function generateDocxForBill(bill, analysis) {
   const c = analysis.consensus;
@@ -282,6 +286,7 @@ async function main() {
   const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
   const bills = only.length ? all.filter((b) => only.includes(b.slug)) : all;
   let count = 0;
+  const basis = JSON.parse(await fs.readFile(BASIS_FILE, 'utf8').catch(() => '{}'));
 
   for (const bill of bills) {
     const analysisPath = path.join(ANALYSES_DIR, `${bill.slug}.json`);
@@ -295,8 +300,11 @@ async function main() {
     const buf = await generateDocxForBill(bill, analysis);
     const fileName = `Punct_de_vedere_${bill.slug.toUpperCase()}.docx`;
     await fs.writeFile(path.join(OUT_DIR, fileName), buf);
+    basis[bill.slug] = { analysis: docxDigest(bill, analysis), prompt: DOCX_VERSION, at: new Date().toISOString() };
     count++;
   }
+  const sorted = Object.fromEntries(Object.entries(basis).sort(([a], [b]) => a.localeCompare(b, 'ro', { numeric: true })));
+  await fs.writeFile(BASIS_FILE, `${JSON.stringify(sorted, null, 1)}\n`);
 
   console.log(`✅ Generat ${count} fișiere Word (.docx) în ${OUT_DIR}`);
 }

@@ -20,6 +20,7 @@ import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
 import { CdepBlocked, fetchCdep, fetchCdepFile, parseSheet } from './lib/cdep.mjs';
 import { readUntrustedPdf } from './lib/pdf-untrusted.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
+import { AMENDMENTS_SCHEMA, changesDigest, chamberChanges as changesOf } from './lib/fresh.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -29,7 +30,8 @@ const HTML = path.join(ROOT, '.cache', 'cdep-html');
 // 3: pe raport (fișier, sha256, rânduri), fără texte tăiate, verificare lângă rând, completitudine salvată.
 // 2: fiecare amendament are și textul în vigoare, textul de dinainte, textul propus și motivarea (16 noiembrie 2026),
 // ca întrebările despre amendamente să poată compara înainte și după.
-const SCHEMA = 3;
+// Versiunea e în lib/fresh.mjs (AMENDMENTS_SCHEMA): o schemă nouă face amendamentele vechi învechite.
+const SCHEMA = AMENDMENTS_SCHEMA;
 const ANNEX_CHARS = 90_000;
 
 const args = process.argv.slice(2);
@@ -49,14 +51,8 @@ const readJson = (file) => {
 };
 
 /** Schimbările făcute de Cameră, din comparația formelor, fiecare cu un id stabil („2:0” = schimbarea 2, punctul 0). */
-function chamberChanges(slug) {
-  const v = readJson(path.join(DATA, 'analyses', 'versions', `${slug}.json`));
-  return (v?.changes ?? []).flatMap((c, ci) =>
-    c.to === 'camera'
-      ? (c.changes ?? []).map((x, ii) => ({ id: `${ci}:${ii}`, article: x.article, title: x.title, effect: x.effect, after: x.after, before: x.before }))
-      : [],
-  );
-}
+// Aceeași funcție o folosește verificarea prospețimii (lib/fresh.mjs): legăturile țin doar cât țin schimbările.
+const chamberChanges = (slug) => changesOf(readJson(path.join(DATA, 'analyses', 'versions', `${slug}.json`)));
 
 // Înainte de vot: un proiect încă deschis, cu raport de comisie care are amendamente admise, se citește fără să așteptăm
 // forma adoptată de Cameră (amendamentul Fritz, iulie 2026, a trecut de la raport la vot în câteva zile). Primele sunt cele
@@ -286,7 +282,12 @@ async function process1(slug) {
   }
   const inputHash = crypto.createHash('sha256').update(`${SCHEMA}\n${reports.map((r) => r.annex).join('\n')}\n${JSON.stringify(changes)}`).digest('hex').slice(0, 12);
   const old = readJson(path.join(OUT, `${slug}.json`));
-  if (!force && old?.inputHash === inputHash) return { slug, skipped: true };
+  // basis: din ce schimbări sunt făcute legăturile (lib/fresh.mjs); celor de dinainte de 26 noiembrie 2026 li se adaugă aici.
+  const basis = { changes: changesDigest(changes), prompt: SCHEMA };
+  if (!force && old?.inputHash === inputHash) {
+    if (!old.basis) writeFileAtomic(path.join(OUT, `${slug}.json`), JSON.stringify({ ...old, basis }, null, 1) + '\n');
+    return { slug, skipped: true };
+  }
 
   // Fără anexă: comisia a propus textul neschimbat sau raportul n-are tabel; nu cerem nimic modelului.
   const amendments = [];
@@ -340,7 +341,7 @@ async function process1(slug) {
   if (problems.length) console.log(`  ⚠️ ${slug}: ${problems.join('; ')}`);
   writeFileAtomic(
     path.join(OUT, `${slug}.json`),
-    JSON.stringify({ slug, billId: sheet?.numar ?? slug, schema: SCHEMA, model, updatedAt: new Date().toISOString(), inputHash, reports: urls, perReport, completeness, problems, counts, amendments, matches }, null, 1) + '\n',
+    JSON.stringify({ slug, billId: sheet?.numar ?? slug, schema: SCHEMA, model, updatedAt: new Date().toISOString(), inputHash, basis, reports: urls, perReport, completeness, problems, counts, amendments, matches }, null, 1) + '\n',
   );
   return { slug, counts, matched: matches.length, changes: changes.length, named: amendments.filter((a) => a.authors.length).length };
 }

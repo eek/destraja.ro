@@ -39,6 +39,9 @@ import BillHappenings from '@/components/bills/BillHappenings';
 import ScoreTrajectory, { ScoreHistory, senateOpinions } from '@/components/bills/ScoreTrajectory';
 import BillVersions from '@/components/camera/BillVersions';
 import { getBillVersions } from '@/lib/cdep';
+import { isStale, staleness } from '@/lib/fresh';
+import StaleNote from '@/components/bills/StaleNote';
+import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeaderStatus';
 import { getBillHistory, senateHappenings, withdrawn } from '@/lib/istoric';
 
 interface PageProps {
@@ -92,6 +95,8 @@ export default async function BillDetailPage({ params }: PageProps) {
   const still = await stillnessOfNumber(bill.camera?.numar, builtOn);
   const lite = toLite(bill);
   const c = bill.analysis.consensus;
+  // Ce e din analiza anterioară (src/lib/fresh.ts): apare cu notă sau, memoriul static, deloc până se reface.
+  const fresh = staleness(slug);
   const history = await getBillHistory(slug);
   // Ce s-a întâmplat de la analiză încoace; analiza e pe forma inițiatorului.
   const analysedOn = bill.analysis.updatedAt?.slice(0, 10) ?? builtOn;
@@ -152,7 +157,11 @@ export default async function BillDetailPage({ params }: PageProps) {
                 {bill.id} · cod Senat {bill.cod}
               </span>
             </div>
-            {still && <StuckLine still={still} href="#traseu" />}
+            {/* Starea proiectului, sub insignă: întâi „niciun pas din …” (StuckLine), apoi prospețimea analizei. */}
+            <BillHeaderStatus>
+              {still && <StuckLine still={still} href="#traseu" />}
+              <FreshnessStatus analysis={bill.analysis} fresh={fresh} has={{ versions: Boolean(versions), balance: Boolean(balance) }} />
+            </BillHeaderStatus>
             <ScoreTrajectory analysis={bill.analysis} versions={versions} opinions={senateOpinions(bill.timeline)} />
             <h1 className="font-display mt-5 text-[clamp(1.9rem,4.2vw,3rem)] font-normal leading-[1.1]">{c.plainTitle}</h1>
             <p className="mt-4 text-[17px] leading-7 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>
@@ -201,11 +210,12 @@ export default async function BillDetailPage({ params }: PageProps) {
             <ChevronDown className="h-4 w-4" aria-hidden />
           </a>
           <ScoreHistory analysis={bill.analysis} versions={versions} />
+          {isStale(fresh.analysis) && <StaleNote text="Legea modificată sau textul proiectului s-a schimbat de la această analiză; se actualizează." />}
         </ModelsVerdict>
         <BillReports reports={reports} manual={manual} />
         {versions && <BillVersions data={versions} />}
         <BillAvize slug={slug} />
-        {balance && <BillBalance data={balance} level={c.riskLevel} />}
+        {balance && <BillBalance data={balance} level={c.riskLevel} stale={isStale(fresh.balance)} />}
 
         <BillRoute bill={bill} still={still} />
         {mo && <MoPublication law={mo.law} readOn={mo.readOn} />}
@@ -245,7 +255,7 @@ export default async function BillDetailPage({ params }: PageProps) {
               </a>
             ))}
           </div>
-          <a
+          {!isStale(fresh.docx) && <a
             href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}
             download
             {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'header' })}
@@ -253,12 +263,13 @@ export default async function BillDetailPage({ params }: PageProps) {
           >
             <FileDown className="h-3.5 w-3.5" aria-hidden />
             Memoriu complet (.docx)
-          </a>
+          </a>}
         </div>
 
         <div className="mt-12">
           <ActionKitClient
             bill={bill}
+            docxStale={isStale(fresh.docx)}
             press={
               <>
                 {bill.positions && <BillPositions billId={bill.id} data={bill.positions} summary={lite.positions} />}

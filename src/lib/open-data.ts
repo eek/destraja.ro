@@ -7,6 +7,7 @@ import { resolveStatus } from './bill-status';
 import { AT_CHAMBER_STAGES, daysBetween, lastProceduralStep } from './uitate';
 import { CONTENT_LICENSE, SITE_URL } from './site';
 import { todayISO } from './format';
+import { isStale, staleness } from './fresh';
 import { isoDate, normalizeId } from './bill-ids';
 import { chamberStage, plausibleLink, senateReportCommittees, senateStage, type ReportCommittees, type Chamber, type Deadline, type Phase, type Stage, type SubmissionWindow } from './open-data-stage';
 
@@ -152,6 +153,8 @@ async function readJson<T>(file: string): Promise<T | null> {
 
 async function memoUrl(id: string): Promise<string | null> {
   const file = `Punct_de_vedere_${id.replace(/\//g, '-')}.docx`;
+  // Un memoriu făcut din altă analiză decât cea de acum (src/lib/fresh.ts) nu se oferă până se reface.
+  if (isStale(staleness(id.replace(/\//g, '-').toLowerCase()).docx)) return null;
   try {
     await fs.access(path.join(ROOT, 'public', 'docs', file));
     return `${SITE_URL}/docs/${encodeURIComponent(file)}`;

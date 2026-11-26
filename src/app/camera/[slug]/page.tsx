@@ -15,6 +15,9 @@ import {
   initiatorLabel,
   registeredYear,
 } from '@/lib/cdep';
+import { isStale, staleness } from '@/lib/fresh';
+import StaleNote from '@/components/bills/StaleNote';
+import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeaderStatus';
 import { dayDiff, shortCommittee, shortDate } from '@/lib/cdep-text';
 import { resolveStatus } from '@/lib/bill-status';
 import BillStatusCard from '@/components/camera/BillStatusCard';
@@ -99,6 +102,8 @@ export default async function CameraBillPage({ params }: PageProps) {
 
   const f = bill.fisa;
   const c = analysis?.consensus;
+  // Ce e din analiza anterioară (src/lib/fresh.ts): apare cu notă; legăturile amendamentelor cu schimbările, deloc.
+  const fresh = staleness(slug);
   const builtOn = todayISO();
   // Ce s-a întâmplat de la analiză încoace (pașii din fișă, forma nouă comparată, anunțurile din presă); la proiectele încă
   // neanalizate, în ultimele 30 de zile.
@@ -220,7 +225,13 @@ export default async function CameraBillPage({ params }: PageProps) {
                 {older && ` · înregistrat în ${year}`}
               </span>
             </div>
-            {still && <StuckLine still={still} href="#unde-e-acum" />}
+            {/* Starea proiectului, sub insignă: întâi „niciun pas din …” (StuckLine), apoi prospețimea analizei. */}
+            {(still || analysis) && (
+              <BillHeaderStatus>
+                {still && <StuckLine still={still} href="#unde-e-acum" />}
+                {analysis && <FreshnessStatus analysis={analysis} fresh={fresh} has={{ versions: Boolean(versions), balance: Boolean(balance) }} />}
+              </BillHeaderStatus>
+            )}
             {analysis && <ScoreTrajectory analysis={analysis} versions={versions} opinions={avizeOpinions(avize?.documents ?? [])} />}
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
             {c && <p className="mt-4 text-[17px] leading-7 text-ink sm:text-lg sm:leading-8">{c.summaryTlDr}</p>}
@@ -280,12 +291,13 @@ export default async function CameraBillPage({ params }: PageProps) {
         {c && analysis && (
           <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council}>
             <ScoreHistory analysis={analysis} versions={versions} />
+            {isStale(fresh.analysis) && <StaleNote text="Legea modificată sau textul proiectului s-a schimbat de la această analiză; se actualizează." />}
             <ReportIssue billId={bill.numar} target="consensus" />
           </ModelsVerdict>
         )}
         <BillReports reports={reports} manual={manualCorrections(analysis?.corrections, reports)} />
         <BillAvize slug={slug} />
-        {c && balance && <BillBalance data={balance} level={c.riskLevel} />}
+        {c && balance && <BillBalance data={balance} level={c.riskLevel} stale={isStale(fresh.balance)} />}
 
         <section aria-labelledby="traseu" className={`${panel} mt-6 p-6 sm:p-8`}>
           <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -311,7 +323,7 @@ export default async function CameraBillPage({ params }: PageProps) {
         <BillAgenda items={agenda} billId={bill.numar} />
         <BillVotes data={votes} pages={mpPages} billId={bill.numar} />
 
-        {versions && <BillVersions data={versions} amendments={amendments} pages={mpPages} />}
+        {versions && <BillVersions data={versions} amendments={isStale(fresh.amendments) ? null : amendments} pages={mpPages} />}
         {amendments && <BillAmendments data={amendments} pages={mpPages} />}
         {comparing && (
           <section aria-labelledby="versiuni" role="note" className={`${panel} mt-6 p-6 sm:p-7`}>

@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { BalanceSummary, BillBalance } from './types';
 import { summarize } from './balance-summary';
+import { isStale, staleness } from './fresh';
 
 const DIR = path.join(process.cwd(), 'data', 'analyses', 'balance');
 
@@ -14,8 +15,12 @@ export async function getBalance(slug: string): Promise<BillBalance | null> {
   }
 }
 
-/** Doar cât intră pe o casetă din listă: greutățile punctelor, problema cea mai gravă și reparația. */
+/**
+ * Doar cât intră pe o casetă din listă: greutățile punctelor, problema cea mai gravă și reparația. O listă învechită
+ * (făcută din altă analiză, alt text sau fără legea în vigoare) nu apare pe casetă: acolo n-are loc nota.
+ */
 export async function getBalanceSummary(slug: string): Promise<BalanceSummary> {
+  if (isStale(staleness(slug).balance)) return null;
   const b = await getBalance(slug);
   return b ? summarize(b) : null;
 }

@@ -5,6 +5,12 @@
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor: scanările citite cu MinerU și verificate pagină cu
 //    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs); apoi textul în vigoare al articolelor modificate, de pe
 //    legislatie.just.ro, pentru proiectele noi sau schimbate și pentru legile cu textul schimbat (straja-baseline)
+//    Apoi prospețimea (scripts/check-fresh.mjs, lib/fresh.mjs): câte rezultate derivate sunt făcute din altă analiză,
+//    alt text, altă lege în vigoare sau altă versiune a instrucțiunilor (rândul „Prospețime” din jurnal); pașii care le
+//    fac își iau coada de acolo, cele mai riscante întâi, în bugetul lor zilnic: analizele învechite (--stale, 3, doar cu
+//    toate trei modelele), formele și comparațiile (--versions --refresh, 3), amendamentele (10), „ce e bine și ce
+//    strică” (30), memoriile .docx (toate). Se verifică din nou înainte de build; site-ul arată ce a rămas învechit cu nota
+//    „din analiza anterioară, se actualizează”.
 // 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces);
 //    la Cameră, și amendamentele din rapoartele comisiilor, cu autorii lor (straja-amendments), apoi voturile nominale din
 //    plen ale fișelor noi sau schimbate, la Cameră și la Senat (straja-votes), apoi avizele comisiilor Camerei, cu
@@ -348,6 +354,20 @@ async function sendDigest(anunt, summary, fail) {
   else if (sent) summary.push(`${sent.sent} e-mailuri`);
 }
 
+// Coada unui pas din verificarea prospețimii (scripts/check-fresh.mjs, lib/fresh.mjs): rezultatele învechite, apoi cele
+// lipsă, cele mai riscante întâi. Goală dacă verificarea nu merge: pasul rulează atunci cum rula înainte.
+const freshQueue = (type, max) =>
+  (spawnSync('node', ['scripts/check-fresh.mjs', `--queue=${type}`, `--max=${max}`], { cwd: ROOT, encoding: 'utf8' }).stdout ?? '').split('\n').filter(Boolean);
+
+/** Rândul „Prospețime” în jurnal: câte rezultate derivate sunt învechite, pe tipuri. */
+async function freshness(name) {
+  const r = await step(name, 'node', ['scripts/check-fresh.mjs'], { timeoutMs: 300_000 });
+  const line = r.tail.match(/Prospețime: ([^\n]*)/)?.[1];
+  if (line) log(`Prospețime: ${line}`);
+  const counts = r.tail.match(/✅ prospețime: (\{.*\})/);
+  return counts ? JSON.parse(counts[1]) : null;
+}
+
 const readBills = () => JSON.parse(fs.readFileSync(path.join(DATA, 'senat-bills.json'), 'utf8'));
 const analysisPath = (slug) => path.join(DATA, 'analyses', `${slug}.json`);
 const mtimes = () => Object.fromEntries(fs.readdirSync(path.join(DATA, 'analyses')).map((f) => [f, fs.statSync(path.join(DATA, 'analyses', f)).mtimeMs]));
@@ -445,11 +465,23 @@ async function main() {
       log(`Textul în vigoare: ${b.written} proiecte refăcute din ${b.due} de văzut, ${b.actsChanged} legi schimbate din ${b.actsRefreshed} recitite, ${b.requests} cereri`);
     }
 
+    // Ce e învechit față de textele și legile de azi, înaintea pașilor care fac rezultatele: fiecare își ia coada de aici.
+    // Pe 24 noiembrie 2026 analizele au fost refăcute, iar „ce e bine și ce strică” și scorurile pe forme au rămas vechi.
+    const freshAtStart = await freshness('Prospețime');
+    if (freshAtStart) {
+      const stale = Object.entries(freshAtStart).filter(([, c]) => c.stale > 0);
+      if (stale.length) summary.push(`învechite: ${stale.map(([t, c]) => `${t} ${c.stale}`).join(', ')}`);
+    }
+
     const missing = readBills().filter((b) => !fs.existsSync(analysisPath(b.slug)));
     // Cele trei modele rulează în paralel, fiecare cu limita lui de 30 de minute (straja-council.mjs).
     for (const b of missing) await step(`Analiză ${b.id}`, 'node', ['scripts/straja-council.mjs', b.slug], { timeoutMs: 40 * 60_000 });
     const stillMissing = readBills().filter((b) => !fs.existsSync(analysisPath(b.slug)));
     if (stillMissing.length) fail(`${stillMissing.length} fără analiză`);
+    // Analizele al căror text sau text în vigoare s-a schimbat de la analiză (o lege modificată între timp): cel mult 3 pe
+    // zi, cele mai riscante întâi, publicate doar cu toate trei modelele; până atunci pagina spune că se actualizează.
+    const staleAnalyses = await step('Analize învechite', 'node', ['scripts/straja-council.mjs', '--stale', '--max=3'], { timeoutMs: 7_200_000 });
+    if (!staleAnalyses.ok) fail(staleAnalyses.code === 3 && !staleAnalyses.timedOut ? 'reanalizele așteaptă: un model e la limita de utilizare' : 'reanalizele analizelor învechite au eșuat');
 
     // La o cerere pe minut (cdep.ro, 5 noiembrie), legătura cu Camera are nevoie de 20–40 de minute: listele și fișele
     // proiectelor de la Senat ajunse acolo. Cu 15 minute era oprită înainte să termine (5 și 6 noiembrie).
@@ -487,6 +519,17 @@ async function main() {
       const forms = await step('Camera: forme noi', 'node', ['scripts/straja-council.mjs', '--versions', '--max=5'], { timeoutMs: 5_400_000 });
       // Codul 3: Claude, care face comparația, e la limita de utilizare (QUOTA_EXIT în straja-council.mjs).
       if (!forms.ok) fail(forms.code === 3 && !forms.timedOut ? 'comparațiile formelor așteaptă: Claude e la limita de utilizare' : 'comparațiile formelor au eșuat');
+      // Formele și comparațiile învechite (altă analiză principală, alt text, altă lege în vigoare, altă metodă): cel mult
+      // 3 proiecte pe zi, cele mai riscante întâi; o formă refăcută se publică doar cu toate trei modelele.
+      // .cache/versions-refresh-paused: o refacere pe etape rulează pe altă ramură (de exemplu fresh-versions, 26–30
+      // noiembrie 2026); până se unește, pasul ar reface aceleași proiecte și ar da conflicte la unire.
+      if (freshQueue('versions', 1).length && !fs.existsSync(path.join(ROOT, '.cache', 'versions-refresh-paused'))) {
+        const refresh = await step('Camera: forme învechite', 'node', ['scripts/straja-council.mjs', '--versions', '--refresh', '--max=3'], { timeoutMs: 5_400_000 });
+        if (!refresh.ok) fail(refresh.code === 3 && !refresh.timedOut ? 'formele învechite așteaptă: un model e la limita de utilizare' : 'formele învechite au eșuat');
+      }
+      // Amendamentele legate de schimbări care s-au refăcut între timp: întâi ele (cel mult 10), apoi coada obișnuită.
+      const staleAmendments = freshQueue('amendments', 10);
+      if (staleAmendments.length) await step('Camera: amendamente învechite', 'node', ['scripts/straja-amendments.mjs', ...staleAmendments], { timeoutMs: 3_600_000 });
       // Amendamentele din rapoartele comisiilor, cu autorii lor; doar proiectele cu raport sau comparație nouă ajung la model.
       const amendments = await step('Camera: amendamente', 'node', ['scripts/straja-amendments.mjs', '--max=30'], { timeoutMs: 7_200_000 });
       if (!amendments.ok) fail('amendamentele Camerei au eșuat');
@@ -510,8 +553,13 @@ async function main() {
     const committeeAvize = await step('Avize comisii', 'node', ['scripts/straja-avize.mjs', '--comisii', '--max=25', '--minute=30', '--yield-to=nimic'], { timeoutMs: 2_700_000 });
     if (!committeeAvize.ok) fail('avizele comisiilor au eșuat');
     // Ce e bine și ce strică, pentru proiectele noi și cele cu textul sau scorul schimbat.
-    const balance = await step('Ce e bine și ce strică', 'node', ['scripts/straja-balance.mjs', '--risc=toate', '--max=30', '--limita=1800'], { timeoutMs: 3_600_000 });
-    if (!balance.ok) fail('„ce e bine și ce strică” a eșuat');
+    // Coada vine din verificarea prospețimii: întâi listele învechite (alt text, alt scor, altă lege în vigoare, altă
+    // schemă), apoi proiectele fără listă, cele mai riscante întâi; --force, ca pasul să refacă exact coada.
+    const balanceQueue = freshQueue('balance', 30);
+    if (balanceQueue.length) {
+      const balance = await step('Ce e bine și ce strică', 'node', ['scripts/straja-balance.mjs', '--force', '--max=30', '--limita=1800', ...balanceQueue], { timeoutMs: 3_600_000 });
+      if (!balance.ok) fail('„ce e bine și ce strică” a eșuat');
+    }
 
     if (!args.has('--skip-news')) {
       // În fiecare zi, articolele din indexul de știri (VM-ul de căutare, cele 103 feed-uri ale celor 72 de publicații,
@@ -572,7 +620,9 @@ async function main() {
       .map(([f]) => f.replace(/\.json$/, ''))
       // Proiectele de la Cameră n-au memoriu pentru formularul Senatului.
       .filter((slug) => !slug.startsWith('plx-'));
-    if (changed.length) await step('Memorii .docx', 'node', ['scripts/straja-docx.mjs', ...changed]);
+    // Și memoriile învechite (altă analiză decât cea din care sunt făcute, lib/fresh.mjs): se fac din date, fără modele.
+    const docs = [...new Set([...changed, ...freshQueue('docx', 500)])];
+    if (docs.length) await step('Memorii .docx', 'node', ['scripts/straja-docx.mjs', ...docs]);
 
     if (fs.existsSync(AGENDA_VM)) {
       // Dosarul se înlocuiește doar după ce arhiva a venit întreagă și s-a dezarhivat.
@@ -600,6 +650,9 @@ async function main() {
       const mo = await step('Monitorul Oficial', 'node', ['scripts/straja-mo.mjs'], { timeoutMs: 600_000 });
       if (!mo.ok) fail('cifrele din Monitorul Oficial au rămas de ieri');
     }
+
+    // Ce rămâne învechit la publicare: site-ul le arată cu nota „din analiza anterioară, se actualizează” (src/lib/fresh.ts).
+    await freshness('Prospețime la publicare');
 
     const counts = checkData();
     log(`Date verificate: ${counts.analysed}/${counts.bills} proiecte cu analiză`);

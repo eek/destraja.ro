@@ -5,6 +5,7 @@ import { BalanceBar, balanceVerdict } from './BalanceBlock';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { modelFullName } from '@/lib/site';
+import StaleNote from './StaleNote';
 
 const SHOWN = 3;
 
@@ -76,7 +77,8 @@ function Column({ items, kind }: { items: BalanceItem[]; kind: 'good' | 'bad' })
 }
 
 // Ce e bine și ce strică tot: toate prevederile, primele trei la vedere, plus schimbarea care ar face proiectul acceptabil.
-export default function BillBalance({ data, level }: { data: Balance; level: RiskLevel }) {
+// stale: făcută din altă analiză, alt text sau fără legea în vigoare (src/lib/fresh.ts); rămâne vizibilă, cu notă.
+export default function BillBalance({ data, level, stale = false }: { data: Balance; level: RiskLevel; stale?: boolean }) {
   const after = data.fix?.levelAfter;
   const sum = summarize(data);
   return (
@@ -91,6 +93,7 @@ export default function BillBalance({ data, level }: { data: Balance; level: Ris
           <span className="text-risk-red-text">{data.bad.length === 1 ? '1 problemă' : `${data.bad.length} probleme`}</span>
         </p>
       </div>
+      {stale && <StaleNote className="mt-1" />}
       <p className="mt-3 text-lg font-bold text-ink">{balanceVerdict(sum, level)}</p>
       <BalanceBar b={sum} />
       {data.summary && <p className="mt-3 max-w-[70ch] text-base leading-relaxed text-body">{data.summary}</p>}

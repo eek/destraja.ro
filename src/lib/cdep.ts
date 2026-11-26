@@ -4,7 +4,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { type ListMove, listMove } from './score-history';
-import type { Amendment, BalanceSummary, BillAmendments, BillAnalysis, BillVersions, CdepSigned } from './types';
+import type { Amendment, BalanceSummary, BillAmendments, BillAnalysis, BillVersion, BillVersions, CdepSigned } from './types';
+import { isStale, staleness } from './fresh';
 import { getBalanceSummary } from './balance';
 import { getMpContacts } from './mp-contacts';
 import { slugify, todayISO } from './format';
@@ -135,7 +136,16 @@ export async function getCdepAnalysis(slug: string): Promise<BillAnalysis | null
 /** Formele textului și comparațiile lor, dacă proiectul are cel puțin două forme analizate. */
 export async function getBillVersions(slug: string): Promise<BillVersions | null> {
   const v = await readJson<BillVersions>(path.join(ANALYSES_DIR, 'versions', `${slug}.json`));
-  return v && v.versions.length >= 2 ? v : null;
+  if (!v || v.versions.length < 2) return null;
+  // Forma analizei principale are scorul analizei de acum, ca pagina să nu arate două scoruri pentru același text; până
+  // se reface comparația, restul e din analiza anterioară (stale).
+  const main = await readJson<BillAnalysis>(path.join(ANALYSES_DIR, `${slug}.json`));
+  const mainKey = /^b\d/.test(slug) ? 'actualizata' : main?.version;
+  const scores = (a: BillAnalysis) => Object.fromEntries((['agy', 'claude', 'codex'] as const).map((k) => [k, a.council[k]?.status === 'ok' ? a.council[k].riskScore : null]));
+  const versions = v.versions.map((x) =>
+    main && x.key === mainKey ? { ...x, riskScore: main.consensus.riskScore, riskLevel: main.consensus.riskLevel, scores: scores(main) as BillVersion['scores'], method: main.coverage?.method ?? x.method, agyModel: main.council.agy?.status === 'ok' ? (main.council.agy.modelId ?? x.agyModel) : null } : x,
+  );
+  return { ...v, versions, stale: isStale(staleness(slug).versions) };
 }
 
 /** Amendamentele din rapoartele comisiilor, cu autorii lor (data/cdep/amendamente, scris de straja-amendments.mjs). */
@@ -200,7 +210,8 @@ export async function getCdepList(): Promise<CdepListItem[]> {
       const analysis = row.senat ? null : await getCdepAnalysis(row.slug);
       const versions = row.senat ? null : await getBillVersions(row.slug);
       const c = analysis?.consensus;
-      const last = versions?.changes.at(-1);
+      // Direcția schimbării doar dintr-o comparație la zi; una din analiza anterioară nu intră pe card și în statistici.
+      const last = versions?.stale ? undefined : versions?.changes.at(-1);
       return {
         ...row,
         an: registeredYear(row),
@@ -254,7 +265,8 @@ async function loadSigned(): Promise<CdepSigned[]> {
       const [bill, analysis, versions] = await Promise.all([getCdepBill(row.slug), getCdepAnalysis(row.slug), getBillVersions(row.slug)]);
       if (!bill || !analysis || !bill.fisa.initiatori.length) return null;
       const c = analysis.consensus;
-      const last = versions?.changes.at(-1);
+      // Direcția schimbării doar dintr-o comparație la zi; una din analiza anterioară nu intră pe card și în statistici.
+      const last = versions?.stale ? undefined : versions?.changes.at(-1);
       return {
         id: row.numar,
         slug: row.slug,

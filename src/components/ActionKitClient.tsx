@@ -20,9 +20,11 @@ interface ActionKitClientProps {
   bill: EnrichedBill;
   // Secțiunea „În presă”, randată pe server: stă între kit și auditul AI.
   press?: React.ReactNode;
+  // Memoriul static (public/docs) e al altei analize și se reface la rularea zilnică: până atunci rămâne doar cel făcut în pagină.
+  docxStale?: boolean;
 }
 
-export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
+export default function ActionKitClient({ bill, press, docxStale = false }: ActionKitClientProps) {
   const c = bill.analysis.consensus;
 
   // Active tab in the 60-second action kit
@@ -260,7 +262,7 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
                   </p>
                 </div>
 
-                <a
+                {!docxStale && <a
                   href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}
                   download
                   {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'kit' })}
@@ -268,7 +270,7 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
                 >
                   <FileDown className="w-4 h-4" />
                   <span>Descarcă Punct_de_vedere.docx</span>
-                </a>
+                </a>}
               </div>
 
               {/* Optional Name Personalization tucked cleanly in a native <details> */}

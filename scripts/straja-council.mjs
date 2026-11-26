@@ -10,7 +10,8 @@ import { AT_CHAMBER, readCdepIndex } from './lib/cdep-index.mjs';
 import { articleDiff } from './lib/article-diff.mjs';
 import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
-import { baselineForAnalysis, formText } from './lib/baseline.mjs';
+import { baselineForAnalysis } from './lib/baseline.mjs';
+import { COMPARE_SCHEMA, COUNCIL_METHOD, Inputs, baselineFormOf, basisReasons, checkAnalysis, checkForm, checkVersions, compareBasisFrom, compareFindings, freshness, mainFormKey, withOrdinance } from './lib/fresh.mjs';
 import { FIRST_CHARS_METHOD, agyModelOf, nextHistory } from './lib/score-history.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -93,7 +94,8 @@ const senateForm = (texts) => (texts.forma_initiatorului_initiala ? 'actualizata
 // (art. XIV, „amendamentul Fritz”, din Pl-x 530/2026, citit 14%). Acum primesc tot textul normativ; expunerea, care doar
 // explică, până la EXPUNERE_MAX caractere, cu o notă când e tăiată. Codul de la finalul textului îl copiază fiecare model
 // în răspuns: dovedește că finalul a ajuns la el. Designul: destraja-eval/council-fix (Carbon și Sol).
-export const WHOLE_TEXT_METHOD = 'whole-text-v1';
+// Versiunea e în lib/fresh.mjs (COUNCIL_METHOD), lângă celelalte: o schimbare a promptului face analizele vechi învechite.
+export const WHOLE_TEXT_METHOD = COUNCIL_METHOD;
 const EXPUNERE_MAX = 60_000;
 function councilInput(bill, texts, version) {
   // La legile de aprobare a unei ordonanțe, legea are un articol, iar conținutul e în ordonanță: le dăm pe amândouă.
@@ -114,11 +116,17 @@ function councilInput(bill, texts, version) {
 // în vigoare, analizele au câștigat 48 din 60 de judecăți). COUNCIL_BASELINE=0 îl oprește, pentru comparații.
 const USE_BASELINE = process.env.COUNCIL_BASELINE !== '0';
 
-/** Baza pentru forma analizată, sau null fără COUNCIL_BASELINE ori fără textul formei. */
+/**
+ * Baza pentru forma analizată, sau null fără COUNCIL_BASELINE ori fără textul formei. Textul e chiar cel din prompt
+ * (councilInput): la Senat, forma inițială înlocuită de una actualizată are baza ei („initiala”); până pe 26 noiembrie
+ * 2026 primea baza formei actualizate.
+ */
 async function councilBaseline(bill, texts, version, wanted) {
   if (!USE_BASELINE) return null;
-  const form = formText(texts, bill.chamber ? (version ?? latestVersion(texts)) : 'initiator');
-  if (!form) return null;
+  const textFile = councilInput(bill, texts, version).form.text;
+  const main = texts[textFile] ?? '';
+  if (!main.trim()) return null;
+  const form = { form: baselineFormOf(textFile), textFile, text: withOrdinance(main, texts.forma_ordonanta ?? '') };
   return baselineForAnalysis({ billId: bill.id, slug: bill.slug, ...form }, { version: Boolean(wanted) });
 }
 
@@ -270,7 +278,11 @@ const daysSince = (day) => Math.round((Date.parse(`${bucharestDay()}T12:00:00Z`)
 const okCount = (an) => ['agy', 'claude', 'codex'].filter((m) => an?.council?.[m]?.status === 'ok').length;
 
 // texts, version și outFile servesc comparațiilor (--versions): o formă anume a textului, scrisă în alt fișier.
-async function analyzeBillWithCouncil(bill, force = false, { texts: given, version: wanted, outFile = path.join(ANALYSES_DIR, `${bill.slug}.json`) } = {}) {
+// partial: o formă învechită refăcută (--versions): la limita unui model, răspunsurile celorlalte se păstrează în
+// .cache/council-pending și pasul se oprește cu eroarea de limită, ca la reluare să nu le cerem din nou.
+// refresh: o reanaliză a unei analize învechite (--stale). Se publică doar cu toate cele trei modele; până atunci
+// răspunsurile stau în .cache/council-pending, iar pe site rămâne analiza de acum, cu nota că se actualizează.
+async function analyzeBillWithCouncil(bill, force = false, { texts: given, version: wanted, outFile = path.join(ANALYSES_DIR, `${bill.slug}.json`), refresh = false, partial = false } = {}) {
   console.log(`\n🤖 Consiliul AI (AGY + Claude + Codex) analizează ${bill.id}${wanted ? ` (${(bill.chamber ? VERSION_LABEL : SENATE_LABEL)[wanted]})` : ''}: ${bill.officialTitle.slice(0, 80)}...`);
   let existing = null;
   if (!force && fs.existsSync(outFile)) {
@@ -299,7 +311,7 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
   const isNew = !fs.existsSync(outFile);
   const pendingFile = path.join(PENDING_DIR, path.relative(ANALYSES_DIR, outFile));
   const promptKey = crypto.createHash('sha256').update(prompt).digest('hex').slice(0, 16);
-  const pending = isNew ? readJsonFile(pendingFile) : null;
+  const pending = isNew || refresh || partial ? readJsonFile(pendingFile) : null;
   const kept = pending?.promptKey === promptKey ? pending.council : null;
 
   const verdict = (model) =>
@@ -327,6 +339,19 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
     throw new Error(`Toate cele 3 modele au dat eroare pentru ${bill.id}`);
   }
   const all = [agyRes, claudeRes, codexRes];
+  const limited = all.find((r) => r.status === 'error' && QUOTA.test(r.error ?? ''));
+  if (partial && limited) {
+    fs.mkdirSync(path.dirname(pendingFile), { recursive: true });
+    writeFileAtomic(pendingFile, JSON.stringify({ billId: bill.id, slug: bill.slug, since: bucharestDay(), promptKey, council: { agy: agyRes, claude: claudeRes, codex: codexRes } }, null, 2));
+    throw new Error(`${limited.model}: ${limited.error}`);
+  }
+  if (refresh && valid.length < 3) {
+    const since = /^\d{4}-\d{2}-\d{2}$/.test(pending?.since ?? '') ? pending.since : bucharestDay();
+    fs.mkdirSync(path.dirname(pendingFile), { recursive: true });
+    writeFileAtomic(pendingFile, JSON.stringify({ billId: bill.id, slug: bill.slug, since, promptKey, refresh: true, council: { agy: agyRes, claude: claudeRes, codex: codexRes } }, null, 2));
+    const missing = all.filter((r) => r.status !== 'ok').map((r) => r.model);
+    throw new AnalysisHeld(`reanaliza așteaptă ${missing.join(', ')} (din ${since}); răspunsurile primite sunt păstrate, pe site rămâne analiza de acum`);
+  }
   if (isNew && valid.length === 1 && all.some((r) => r.status === 'error')) {
     const since = /^\d{4}-\d{2}-\d{2}$/.test(pending?.since ?? '') ? pending.since : bucharestDay();
     const day = daysSince(since);
@@ -391,8 +416,57 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
   if (history?.length) analysis.history = history;
 
   writeFileAtomic(outFile, JSON.stringify(analysis, null, 2));
-  if (pending) fs.rmSync(pendingFile, { force: true });
+  if (pending || partial || refresh) fs.rmSync(pendingFile, { force: true });
   return analysis;
+}
+
+// ─── Analizele învechite ────────────────────────────────────────────────────────────────────────────────────────
+// node scripts/straja-council.mjs --stale [slug] [--max=3]
+// Analizele principale al căror text sau text în vigoare s-a schimbat de la analiză (lib/fresh.mjs, checkAnalysis), cele
+// mai riscante întâi. Textele se iau din data/texts, cum le compară verificarea. O reanaliză se publică doar cu toate
+// cele trei modele (refresh); cu un model la limită, răspunsurile celorlalte așteaptă în .cache/council-pending.
+function billForSlug(slug) {
+  if (/^b\d/.test(slug)) return senateBills().find((b) => b.slug === slug) ?? null;
+  if (slug.startsWith('guv-')) {
+    const p = readJsonFile(path.join(DATA_DIR, 'guvern', 'index.json'))?.proiecte?.find((x) => x.slug === slug);
+    return p ? guvernBill(p) : null;
+  }
+  const sheet = readJsonFile(path.join(CDEP_DIR, 'proiecte', `${slug}.json`));
+  return sheet ? chamberBill(sheet) : null;
+}
+
+async function mainStale(args) {
+  const slug = args.find((a) => !a.startsWith('--'));
+  const max = Number(args.find((a) => a.startsWith('--max='))?.split('=')[1] ?? 3);
+  const stale = slug ? [{ slug, reasons: ['cerut'] }] : freshness('analysis', new Inputs(ROOT_DIR)).stale;
+  console.log(`♻️  Analize învechite: ${stale.length}${stale.length ? `; refac cel mult ${max}` : ''}`);
+  let done = 0;
+  let held = 0;
+  for (const { slug: s, reasons } of stale) {
+    if (done + held >= max) break;
+    const bill = billForSlug(s);
+    if (!bill) {
+      console.log(`⏭️  ${s}: proiectul nu mai e în date`);
+      continue;
+    }
+    console.log(`♻️  ${bill.id}: ${reasons.join(', ')}`);
+    try {
+      await analyzeBillWithCouncil(bill, true, { texts: textsOnDisk(s), refresh: true });
+      done++;
+    } catch (err) {
+      if (err instanceof AnalysisHeld) {
+        console.log(`⏳ ${bill.id}: ${err.message}`);
+        held++;
+        continue;
+      }
+      console.log(`⚠️  ${bill.id}: ${err.message}`);
+      if (QUOTA.test(err.message)) {
+        process.exitCode = QUOTA_EXIT;
+        break;
+      }
+    }
+  }
+  console.log(`♻️  Gata: ${done} reanalizate, ${held} așteaptă toate modelele`);
 }
 
 // ─── Camera Deputaților ─────────────────────────────────────────────────────────────────────────────────────────
@@ -651,7 +725,8 @@ const readJsonFile = (file) => {
 // e doar al începutului textului. 4 (10 noiembrie 2026): diferențele vin pe articole, din ambele forme citite întregi
 // (lib/article-diff.mjs); înainte, când textul părea rescris, modelul primea doar primele 9.000 de caractere din forma
 // veche, iar diferențele se opreau la 20.000. O comparație cu altă versiune se reface la --recompare.
-const COMPARE_SCHEMA = 4;
+// COMPARE_SCHEMA e în lib/fresh.mjs. Fiecare comparație ține minte din ce a fost făcută (basis: cele două texte,
+// constatările primite, schema), ca o constatare schimbată sau un text nou să o facă învechită (26 noiembrie 2026).
 // Cât din forma nouă primește modelul pentru inventar (caractere).
 const INVENTORY_CHARS = 40_000;
 // Cât pot ocupa diferențele dintre forme; peste atât, fiecare articol schimbat primește o parte egală (diff.cut).
@@ -677,11 +752,7 @@ async function compareVersions(bill, a, b, texts, analyses, { forms = FORMS, lab
   const ta = texts[forms[a.key].text];
   const tb = texts[forms[b.key].text];
   const diff = articleDiff(ta, tb, { max: DIFF_CHARS });
-  const findings = (an) =>
-    (an.council?.claude?.keyFindings ?? Object.values(an.council ?? {}).find((r) => r?.status === 'ok')?.keyFindings ?? [])
-      .slice(0, 4)
-      .map((f) => `- ${f}`)
-      .join('\n');
+  const findings = compareFindings;
   const [A, B] = [analyses[a.key], analyses[b.key]];
   // Diferențele vin pe articole, din ambele forme întregi: un articol rescris apare cu textul vechi și cu cel nou, unul
   // neschimbat nu apare deloc. Forma B vine oricum mai jos, pentru inventar.
@@ -789,8 +860,19 @@ Returnează EXCLUSIV un obiect JSON valid:
     diff: { added: diff.added, removed: diff.removed, same: diff.same, ...(diff.cut && { cut: diff.cut, of: diff.articles.changed + diff.articles.added + diff.articles.removed }) },
     model: 'claude',
     schema: COMPARE_SCHEMA,
+    basis: compareBasisFrom(ta, tb, A, B),
     updatedAt: new Date().toISOString(),
   };
+}
+
+/**
+ * O comparație de refăcut: lipsește, a fost făcută din alte texte sau alte constatări (basis, din 26 noiembrie 2026) ori,
+ * la cele mai vechi, cu altă schemă sau înaintea analizei unei forme.
+ */
+function compareStale(old, ta, tb, A, B) {
+  if (!old) return true;
+  if (old.basis) return basisReasons(old.basis, compareBasisFrom(ta, tb, A, B)).length > 0;
+  return old.schema !== COMPARE_SCHEMA || [A, B].some((an) => an.updatedAt > old.updatedAt);
 }
 
 /** Modelele cerute de COUNCIL_MODELS care n-au încă un răspuns bun în analiza unei forme (fără COUNCIL_MODELS: niciunul). */
@@ -814,10 +896,19 @@ async function versionsForBill(sheet, force, recompare = false) {
   // Analizele vechi n-au „version”: atunci era forma adoptată de Senat, dacă exista, altfel a inițiatorului.
   const mainVersion = main?.version ?? (texts.forma_senat ? 'senat' : 'initiator');
   const analyses = {};
+  // Ce e învechit se citește de pe disc, din fișierele de acum (lib/fresh.mjs): textul, textul în vigoare și metoda.
+  const inp = new Inputs(ROOT_DIR);
   for (const v of withText) {
     const file = path.join(dir, `${v.key}.json`);
     const saved = !force && fs.existsSync(file) ? readJsonFile(file) : null;
-    if (saved && !missingModels(saved)) analyses[v.key] = saved;
+    // Forma analizei principale e o copie a ei: o luăm de acolo de fiecare dată când analiza s-a schimbat. Până pe 26
+    // noiembrie 2026 copia rămânea cea veche (365 de forme după reanaliza din 24 noiembrie), cu alt scor decât pagina.
+    const isMain = Boolean(main) && mainVersion === v.key && !missingModels(main);
+    const stale = saved && !isMain && (checkForm(inp, sheet.slug, v.key) ?? []).length > 0;
+    if (isMain && !force) {
+      analyses[v.key] = { ...main, version: v.key };
+      if (saved?.updatedAt !== main.updatedAt) writeFileAtomic(file, JSON.stringify(analyses[v.key], null, 2));
+    } else if (saved && !stale && !missingModels(saved)) analyses[v.key] = saved;
     else {
       if (!force && main && mainVersion === v.key && (!saved || !missingModels(main))) {
         analyses[v.key] = { ...main, version: v.key };
@@ -826,7 +917,10 @@ async function versionsForBill(sheet, force, recompare = false) {
       // Cu COUNCIL_MODELS, și analiza principală poate fi fără modelul cerut: îl completăm în fișierul formei, nu o
       // luăm așa (pe 11 noiembrie 2026 forma Senatului rămânea fără Claude, iar comparația se făcea fără constatările lui).
       if (!analyses[v.key] || missingModels(analyses[v.key])) {
-        analyses[v.key] = await analyzeBillWithCouncil(bill, force, { texts, version: v.key, outFile: file });
+        // O formă învechită se reface de la capăt (cu modelele din COUNCIL_MODELS); una doar incompletă își primește
+        // doar modelele lipsă.
+        if (stale) console.log(`   ♻️ ${bill.id}: ${VERSION_LABEL[v.key]} e învechită (${checkForm(inp, sheet.slug, v.key).join(', ')}); o refac`);
+        analyses[v.key] = await analyzeBillWithCouncil(bill, force || stale, { texts, version: v.key, outFile: file, partial: stale || Boolean(ONLY_MODELS) });
       }
     }
   }
@@ -842,7 +936,7 @@ async function versionsForBill(sheet, force, recompare = false) {
   for (let i = 1; i < withText.length; i++) {
     const [a, b] = [withText[i - 1], withText[i]];
     const old = previous?.changes?.find((c) => c.from === a.key && c.to === b.key);
-    const stale = !old || [analyses[a.key], analyses[b.key]].some((an) => an.updatedAt > old.updatedAt);
+    const stale = compareStale(old, texts[FORMS[a.key].text], texts[FORMS[b.key].text], analyses[a.key], analyses[b.key]);
     const outdated = recompare && old?.schema !== COMPARE_SCHEMA;
     // Comparația o face Claude, din constatările lui: fără el (COUNCIL_MODELS=agy,codex) le păstrăm pe cele făcute.
     if (!canRun('claude')) {
@@ -943,14 +1037,19 @@ async function senateVersionsForBill(bill, force = false, recompare = false) {
   const initFile = path.join(dir, 'initiator.json');
   const init = !force ? readJsonFile(initFile) : null;
   const sameMethod = init && init.coverage?.method === main.coverage?.method && agyModelOf(init) === agyModelOf(main);
-  analyses.initiator = sameMethod && !missingModels(init) ? init : await analyzeBillWithCouncil(bill, force || Boolean(init), { texts, version: 'initiator', outFile: initFile });
+  const initStale = init && (checkForm(new Inputs(ROOT_DIR), bill.slug, 'initiator') ?? []).length > 0;
+  // Învechită (alt text, altă bază, altă metodă): se reface de la capăt; incompletă: doar modelele lipsă.
+  analyses.initiator =
+    sameMethod && !initStale && !missingModels(init)
+      ? init
+      : await analyzeBillWithCouncil(bill, force || (Boolean(init) && (!sameMethod || initStale)), { texts, version: 'initiator', outFile: initFile, partial: Boolean(initStale) });
   if (agyModelOf(analyses.initiator) !== agyModelOf(main)) console.log(`   ⚠️ ${bill.id}: Gemini diferă între forme (${agyModelOf(analyses.initiator)} / ${agyModelOf(main)}); rulează cu AGY_MODEL=${agyModelOf(main)}`);
 
   const summaryFile = path.join(VERSIONS_DIR, `${bill.slug}.json`);
   const previous = readJsonFile(summaryFile);
   const [a, b] = plan;
   const old = previous?.changes?.find((c) => c.from === a.key && c.to === b.key);
-  const stale = !old || force || recompare || [analyses.initiator, analyses.actualizata].some((an) => an.updatedAt > old.updatedAt);
+  const stale = force || recompare || compareStale(old, texts[SENATE_FORMS.initiator.text], texts[SENATE_FORMS.actualizata.text], analyses.initiator, analyses.actualizata);
   if (stale && !canRun('claude')) return false;
   const change = stale ? await compareVersions(bill, a, b, texts, analyses, { forms: SENATE_FORMS, labels: SENATE_LABEL, note: UPDATED_FORM_NOTE }) : old;
   const scores = (an) => Object.fromEntries(['agy', 'claude', 'codex'].map((k) => [k, an.council?.[k]?.status === 'ok' ? an.council[k].riskScore : null]));
@@ -1017,7 +1116,85 @@ function writeVersionsStatus(index, read) {
   return status;
 }
 
+// node scripts/straja-council.mjs --versions --refresh [slug] [--parallel=4] [--max=N] [--wait-on-limit] [--prepare]
+// Comparațiile învechite sau cu forme incomplete (lib/fresh.mjs, checkVersions; incomplete = fără un model din
+// COUNCIL_MODELS), cele mai riscante întâi, în --parallel proiecte deodată (fiecare cu cel mult un apel pe model).
+// --wait-on-limit: la limita unui model pasul așteaptă 15 minute și reia proiectul, în loc să se oprească.
+// --prepare: doar textul în vigoare al formelor de refăcut (legislatie.just.ro, cu pauza portalului), fără modele.
+const LIMIT_WAIT_MS = 15 * 60_000;
+async function refreshVersions(args) {
+  const slug = args.find((a) => !a.startsWith('--'));
+  const opt = (k, d) => args.find((a) => a.startsWith(`--${k}=`))?.split('=')[1] ?? d;
+  const parallel = Math.max(1, Number(opt('parallel', 1)));
+  const max = Number(opt('max', Infinity));
+  const wait = args.includes('--wait-on-limit');
+  const inp = new Inputs(ROOT_DIR);
+  const incomplete = (s) => {
+    const dir = path.join(VERSIONS_DIR, s);
+    return fs.existsSync(dir) && fs.readdirSync(dir).some((f) => missingModels(readJsonFile(path.join(dir, f))));
+  };
+  const all = slug ? [slug] : fs.readdirSync(VERSIONS_DIR).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5));
+  const todo = all
+    .filter((s) => slug || (checkVersions(inp, s) ?? []).length > 0 || incomplete(s))
+    .sort((a, b) => inp.risk(b) - inp.risk(a) || a.localeCompare(b, 'ro', { numeric: true }))
+    .slice(0, max);
+  console.log(`📜 De refăcut: ${todo.length} proiecte cu forme (din ${all.length}), ${parallel} în paralel${ONLY_MODELS ? `, modelele ${ONLY_MODELS.join(', ')}` : ''}`);
+
+  if (args.includes('--prepare')) {
+    let built = 0;
+    for (const s of todo) {
+      const bill = billForSlug(s);
+      if (!bill) continue;
+      const texts = textsOnDisk(s);
+      for (const key of fs.existsSync(path.join(VERSIONS_DIR, s)) ? fs.readdirSync(path.join(VERSIONS_DIR, s)).map((f) => f.slice(0, -5)) : []) {
+        if (key === mainFormKey(s, readJsonFile(path.join(ANALYSES_DIR, `${s}.json`)))) continue;
+        const b = await councilBaseline(bill, texts, key, key);
+        built++;
+        console.log(`📚 ${bill.id} ${key}: ${b ? (b.meta.included ? `${b.meta.articlesShown} articole` : b.meta.reason) : 'fără text'}`);
+      }
+    }
+    return console.log(`📚 Gata: ${built} forme cu textul în vigoare pregătit`);
+  }
+
+  const queue = [...todo];
+  let done = 0;
+  let failed = 0;
+  let stop = false;
+  async function worker() {
+    for (let s = queue.shift(); s && !stop; s = queue.shift()) {
+      for (;;) {
+        try {
+          const ok = /^b\d/.test(s)
+            ? await senateVersionsForBill(senateBills().find((b) => b.slug === s), false)
+            : await versionsForBill(readJsonFile(path.join(CDEP_DIR, 'proiecte', `${s}.json`)), false);
+          if (ok) done++;
+          console.log(`📜 [${done + failed}/${todo.length}] ${s}${ok ? '' : ': nimic de făcut'}`);
+          break;
+        } catch (err) {
+          if (QUOTA.test(err.message) && wait && !stop) {
+            console.log(`⏸️  ${s}: ${err.message}; aștept ${LIMIT_WAIT_MS / 60_000} minute și reiau`);
+            await new Promise((r) => setTimeout(r, LIMIT_WAIT_MS));
+            continue;
+          }
+          if (QUOTA.test(err.message)) {
+            console.log(`⏸️  ${s}: ${err.message}; mă opresc`);
+            process.exitCode = QUOTA_EXIT;
+            stop = true;
+            break;
+          }
+          console.log(`⚠️  ${s}: ${err.message}`);
+          failed++;
+          break;
+        }
+      }
+    }
+  }
+  await Promise.all(Array.from({ length: parallel }, worker));
+  console.log(`📜 Refăcute: ${done} proiecte${failed ? `, ${failed} cu erori` : ''}; rămase învechite: ${freshness('versions', new Inputs(ROOT_DIR)).stale.length}`);
+}
+
 async function mainVersions(args) {
+  if (args.includes('--refresh')) return refreshVersions(args);
   const slug = args.find((a) => !a.startsWith('--'));
   const max = Number(args.find((a) => a.startsWith('--max='))?.split('=')[1] ?? 10);
   const force = args.includes('--force');
@@ -1172,6 +1349,7 @@ async function main() {
   const args = process.argv.slice(2);
   // --status singur e tot raportul comparațiilor: fără asta pornea modul implicit și rescria analizele Senatului.
   if (args.includes('--versions') || args.includes('--status')) return mainVersions(args);
+  if (args.includes('--stale')) return mainStale(args);
   if (args.includes('--camera')) return mainChamber(args);
   if (args.includes('--guvern')) return mainGuvern(args);
   const extractOnly = args.includes('--extract-texts');

@@ -1,11 +1,24 @@
 #!/usr/bin/env node
+// Sincronizarea cu Senatul (pasul „Senat” al rulării zilnice): lista proiectelor în consultare, fișa, opiniile și PDF-urile
+// fiecăruia, cu textul lor; apoi fișele proiectelor ieșite din consultare (mersul în lib/senat-sync.mjs).
+//
+//   node scripts/straja-sync.mjs [b660]       lista întreagă (sau doar proiectul cerut)
+//   node scripts/straja-sync.mjs --texte      textele documentelor noi ale proiectelor recitite (pasul următor)
+//   node scripts/straja-sync.mjs --restore B517/2026=27956 …
+//
+//   --recitiri-minute=N  după N minute de lucru nu mai începe alte recitiri (implicit 90)
+//   --minute=N           la --texte: după N minute de lucru nu mai începe alt proiect (implicit 45)
+//
+// Recitirile aduc fișa și PDF-urile noi, dar textul lor (MinerU, ~7 s pe pagină) îl citește --texte, cu bugetul lui:
+// pasul Senatului rămâne scurt, iar un document lung nu mai amână fișele celorlalte proiecte.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { dropSuperseded, writeBillTexts } from './lib/pdf-text.mjs';
+import { dropSuperseded, textName, writeBillTexts } from './lib/pdf-text.mjs';
 import { todayBucharest } from './lib/web.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
-import { syncBills } from './lib/senat-sync.mjs';
+import { queueTexts, readQueuedTexts, syncBills } from './lib/senat-sync.mjs';
+import { awakeClock } from './lib/awake-clock.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -15,12 +28,16 @@ const TEXT_DIR = path.join(DATA_DIR, 'texts');
 const BILLS_FILE = path.join(DATA_DIR, 'senat-bills.json');
 // Ziua ultimei sincronizări reușite a întregii liste: fără ea de azi, straja-digest.mjs nu trimite alertele.
 const SYNC_DAY_FILE = path.join(ROOT_DIR, '.cache', 'senat-sync-day');
-// Recitirea fișelor proiectelor ieșite din consultare e întreținere: după atâtea minute de la pornirea pasului nu mai
-// începe alta (ce rămâne vine mâine, cele mai vechi întâi). Rularea zilnică dă pasului 180 de minute, pe ceasul de
-// perete: pe 25 noiembrie 2026 Mac-ul a adormit în timpul recitirilor, pasul a fost oprit la limită imediat după trezire
-// și proiectele noi citite dimineața n-au fost salvate. --recitiri-minute=N.
+// Recitirea fișelor proiectelor ieșite din consultare e întreținere: după atâtea minute de lucru nu mai începe alta (ce
+// rămâne vine mâine, cele mai vechi întâi). Minutele se numără pe timpul treaz (lib/awake-clock.mjs): pe 25 noiembrie
+// 2026 Mac-ul a dormit trei ore cu capacul închis în timpul recitirilor. --recitiri-minute=N.
 const REREAD_MINUTES = 90;
-const STARTED = Date.now();
+// Textele documentelor noi ale proiectelor recitite (--texte): după atâtea minute de lucru nu mai începe alt proiect.
+const TEXTS_MINUTES = 45;
+const TEXTS_QUEUE = path.join(ROOT_DIR, '.cache', 'senat-texte.json');
+const clock = awakeClock();
+// Ceasul treaz trebuie citit des: un interval care nu ține procesul în viață.
+setInterval(() => clock.sample(), 5000).unref();
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 fs.mkdirSync(PDF_DIR, { recursive: true });
@@ -319,32 +336,73 @@ async function parsePublicOpinions(bill) {
   }
 }
 
-async function downloadPdfsAndExtractText(bill, shouldDownload = false) {
+function readTextsQueue() {
+  try {
+    return JSON.parse(fs.readFileSync(TEXTS_QUEUE, 'utf8'));
+  } catch {
+    return {};
+  }
+}
+const saveTextsQueue = (queue) => writeFileAtomic(TEXTS_QUEUE, JSON.stringify(queue, null, 2) + '\n');
+
+async function loadPdfParse() {
+  try {
+    const mod = await import('pdf-parse/lib/pdf-parse.js');
+    return mod.default || mod;
+  } catch {
+    return null;
+  }
+}
+
+/** Textele PDF-urilor unui proiect (writeBillTexts), cu `reread` textele de citit din nou. */
+async function readTexts(slug, reread = []) {
+  const pdfParse = await loadPdfParse();
+  if (!pdfParse) return {};
+  return writeBillTexts(path.join(PDF_DIR, slug), path.join(TEXT_DIR, slug), { pdfParse, cacheDir: path.join(ROOT_DIR, '.cache', 'ocr'), reread });
+}
+
+/**
+ * Descarcă PDF-urile noi ale proiectului. Cu `texts` le citește și textul acum (proiectele din lista în consultare, pe
+ * care le analizăm azi); fără, proiectul intră în coada lui --texte, dacă a venit ceva nou.
+ */
+async function downloadPdfsAndExtractText(bill, shouldDownload = false, { texts = true } = {}) {
   if (!shouldDownload) return {};
   const billPdfDir = path.join(PDF_DIR, bill.slug);
   fs.mkdirSync(billPdfDir, { recursive: true });
 
+  let added = 0;
   for (const pdf of bill.pdfs || []) {
     const filePath = path.join(billPdfDir, `${pdf.type}_${path.basename(pdf.url)}`);
     if (fs.existsSync(filePath)) continue;
     try {
       const res = await fetch(pdf.url, { signal: AbortSignal.timeout(180_000) });
-      if (res.ok) writeFileAtomic(filePath, Buffer.from(await res.arrayBuffer()));
+      if (res.ok) {
+        writeFileAtomic(filePath, Buffer.from(await res.arrayBuffer()));
+        added++;
+      }
     } catch (err) {
       console.warn(`⚠️ Eroare PDF ${pdf.url}:`, err.message);
     }
   }
   // După numărul L fișa trimite la alte fișiere (26L622ES.PDF în loc de 26b523ES.PDF): rămân doar cele din fișa de azi.
   const reread = dropSuperseded(billPdfDir, (bill.pdfs || []).map((pdf) => `${pdf.type}_${path.basename(pdf.url)}`));
+  if (texts) return readTexts(bill.slug, reread);
+  // Coada se scrie pe loc: o oprire a pasului după descărcare nu pierde ce e de citit (fișierul PDF există deja, deci
+  // rularea următoare nu l-ar mai vedea ca nou). Intră și proiectele cu un PDF încă fără text (o citire căzută ieri),
+  // cum le găsea până acum recitirea, care le citea pe loc.
+  if (added || reread.length || withoutText(bill.slug)) saveTextsQueue(queueTexts(readTextsQueue(), bill.slug, reread));
+  return {};
+}
 
-  let pdfParse = null;
+/** Are proiectul un PDF fără text notat în _meta.json? */
+function withoutText(slug) {
+  let meta = {};
   try {
-    const mod = await import('pdf-parse/lib/pdf-parse.js');
-    pdfParse = mod.default || mod;
+    meta = JSON.parse(fs.readFileSync(path.join(TEXT_DIR, slug, '_meta.json'), 'utf8'));
   } catch {
-    return {};
+    // fără meta: niciun text
   }
-  return writeBillTexts(billPdfDir, path.join(TEXT_DIR, bill.slug), { pdfParse, cacheDir: path.join(ROOT_DIR, '.cache', 'ocr'), reread });
+  return fs.readdirSync(path.join(PDF_DIR, slug)).some((f) => /\.pdf$/i.test(f) && !meta[textName(f)]);
 }
 
 function addDays(iso, n) {
@@ -379,7 +437,7 @@ async function rereadBill(b) {
     details.pdfs.length !== (b.pdfs?.length ?? 0) && `${details.pdfs.length - (b.pdfs?.length ?? 0)} documente noi`,
   ].filter(Boolean);
   const next = { ...b, ...details, syncedAt: new Date().toISOString() };
-  await downloadPdfsAndExtractText(next, true);
+  await downloadPdfsAndExtractText(next, true, { texts: false });
   return { next, news };
 }
 
@@ -443,11 +501,27 @@ async function restoreBills(pairs) {
   console.log(`\n🎉 Salvat ${previous.size} proiecte în ${BILLS_FILE}`);
 }
 
+/** --texte: textele documentelor noi ale proiectelor recitite, din coada lăsată de recitiri. */
+async function readQueue(minutes) {
+  const queue = readTextsQueue();
+  const stats = await readQueuedTexts(queue, {
+    read: async (slug, reread) => {
+      if (!fs.existsSync(path.join(PDF_DIR, slug))) return;
+      await readTexts(slug, reread);
+    },
+    save: saveTextsQueue,
+    stop: () => clock.awakeMs() >= minutes * 60_000,
+  });
+  console.log(`✅ texte: ${JSON.stringify(stats)}`);
+}
+
 async function main() {
   const args = process.argv.slice(2);
+  const opt = (name, def) => Number(args.find((a) => a.startsWith(`--${name}=`))?.split('=')[1] ?? def);
   if (args.includes('--restore')) return restoreBills(args.filter((a) => !a.startsWith('--')));
+  if (args.includes('--texte')) return readQueue(opt('minute', TEXTS_MINUTES));
   const targetFilter = args.find((a) => !a.startsWith('--'));
-  const rereadMinutes = Number(args.find((a) => a.startsWith('--recitiri-minute='))?.split('=')[1] ?? REREAD_MINUTES);
+  const rereadMinutes = opt('recitiri-minute', REREAD_MINUTES);
 
   const list = await parseConsultationList();
   // O listă aproape goală înseamnă o pagină stricată, nu proiecte închise: nu marcăm nimic pe baza ei.
@@ -470,7 +544,7 @@ async function main() {
       console.log(`💾 Lista în consultare e salvată în ${BILLS_FILE}`);
     },
     today: todayBucharest(),
-    rereadUntil: STARTED + rereadMinutes * 60_000,
+    rereadStop: () => clock.awakeMs() >= rereadMinutes * 60_000,
   });
   console.log(`\n🎉 Salvat ${bills.length} proiecte în ${BILLS_FILE}`);
 }

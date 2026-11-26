@@ -8,8 +8,12 @@
 //     mult proiectul în lucru;
 //   - lista în consultare (proiectele noi) se salvează întreagă înainte de recitiri, iar pașii de după (analize,
 //     publicare) o găsesc chiar dacă pasul Senatului e oprit;
-//   - recitirea fișelor vechi e întreținere: are un termen (`rereadUntil`), după care nu mai începe altele. Ce rămâne
-//     vine a doua zi, cele mai vechi întâi, ca aceleași proiecte să nu rămână mereu la coadă.
+//   - recitirea fișelor vechi e întreținere: are un termen (`rereadStop`, pe timpul treaz), după care nu mai începe altele.
+//     Ce rămâne vine a doua zi, cele mai vechi întâi, ca aceleași proiecte să nu rămână mereu la coadă;
+//   - recitirea aduce fișa și PDF-urile noi, dar nu le mai citește textul: documentele noi ale proiectelor ieșite din
+//     consultare intră într-o coadă (`queueTexts`), citită de pasul următor, cu bugetul lui (`readQueuedTexts`). Pe 26
+//     noiembrie MinerU a ținut 31 din cele 45 de minute ale pasului, iar un aviz de 39 de pagini (B576, 10 minute) amâna
+//     fișele tuturor proiectelor de după el.
 import { senatRereadDays } from './senat-votes.mjs';
 
 const DAY_MS = 24 * 3_600_000;
@@ -38,10 +42,11 @@ export function rereadQueue(kept, now = Date.now()) {
 }
 
 /**
- * Recitește fișele proiectelor păstrate, câte una, și salvează după fiecare. După `until` (ms, ceasul de perete) nu mai
- * începe alta. `reread(b)` întoarce { next, news } sau aruncă o eroare (atunci rămân datele de ieri).
+ * Recitește fișele proiectelor păstrate, câte una, și salvează după fiecare. Când `stop()` spune că timpul s-a terminat
+ * (straja-sync.mjs îl numără pe timpul treaz, lib/awake-clock.mjs) nu mai începe alta; fără `stop`, termenul e `until`
+ * (ms, pe ceasul `now`). `reread(b)` întoarce { next, news } sau aruncă o eroare (atunci rămân datele de ieri).
  */
-export async function rereadKept(kept, { reread, save = () => {}, until = Infinity, now = Date.now, log = console.log, pause = 1000 }) {
+export async function rereadKept(kept, { reread, save = () => {}, until = Infinity, stop = null, now = Date.now, log = console.log, pause = 1000 }) {
   const due = rereadQueue(kept, now());
   if (!due.length) return { due: 0, done: 0, changed: 0, failed: 0, left: 0 };
   log(`🔁 Recitesc ${due.length} din ${kept.length} fișe ale proiectelor ieșite din consultare.`);
@@ -49,7 +54,7 @@ export async function rereadKept(kept, { reread, save = () => {}, until = Infini
   let failed = 0;
   let done = 0;
   for (const b of due) {
-    if (now() >= until) break;
+    if (stop ? stop() : now() >= until) break;
     try {
       const { next, news } = await reread(b);
       Object.assign(b, next);
@@ -91,6 +96,7 @@ export async function syncBills({
   onListSaved = () => {},
   today,
   rereadUntil = Infinity,
+  rereadStop = null,
   now = Date.now,
   log = console.log,
   write = (s) => process.stdout.write(s),
@@ -155,8 +161,51 @@ export async function syncBills({
   saveNow();
   onListSaved();
 
-  const stats = await rereadKept(kept, { reread, save: saveNow, until: rereadUntil, now, log, pause });
+  const stats = await rereadKept(kept, { reread, save: saveNow, until: rereadUntil, stop: rereadStop, now, log, pause });
   const bills = snapshot();
   save(bills);
   return { bills, reread: stats };
+}
+
+// ── Textele documentelor noi ale proiectelor recitite ──
+// Coada: { slug: { since, reread } }. `reread` sunt textele de citit din nou chiar dacă există (PDF-ul a fost înlocuit de
+// altul, dropSuperseded din lib/pdf-text.mjs); documentele fără text le găsește oricum writeBillTexts.
+
+/** Pune proiectul în coadă (sau îi adaugă textele de recitit), păstrând locul pe care îl avea. */
+export function queueTexts(queue, slug, reread = [], at = new Date().toISOString()) {
+  const cur = queue[slug];
+  queue[slug] = { since: cur?.since ?? at, reread: [...new Set([...(cur?.reread ?? []), ...reread])] };
+  return queue;
+}
+
+/**
+ * Citește textele proiectelor din coadă, cele intrate de cel mai mult timp întâi, și salvează coada după fiecare. Când
+ * `stop()` spune că timpul s-a terminat nu mai începe altul; ce rămâne vine a doua zi, tot primele. `read(slug, reread)`
+ * citește textele (writeBillTexts); dacă aruncă, proiectul trece la coada cozii, ca să nu le blocheze pe celelalte.
+ */
+export async function readQueuedTexts(queue, { read, save = () => {}, stop = () => false, log = console.log, at = () => new Date().toISOString() }) {
+  const slugs = Object.keys(queue).sort((a, b) => queue[a].since.localeCompare(queue[b].since) || a.localeCompare(b));
+  if (!slugs.length) {
+    log('📄 Niciun document nou de citit la proiectele recitite.');
+    return { due: 0, done: 0, failed: 0, left: 0 };
+  }
+  log(`📄 Citesc documentele noi pentru ${slugs.length} proiecte recitite.`);
+  let done = 0;
+  let failed = 0;
+  for (const slug of slugs) {
+    if (stop()) break;
+    try {
+      await read(slug, queue[slug].reread);
+      delete queue[slug];
+    } catch (err) {
+      failed++;
+      queue[slug].since = at();
+      log(`   ${slug}: EROARE: ${err.message} (rămâne pentru mâine)`);
+    }
+    done++;
+    save(queue);
+  }
+  const left = slugs.length - done;
+  log(`📄 ${done - failed} proiecte cu documentele citite${failed ? `, ${failed} cu erori` : ''}${left ? `; ${left} rămase pentru mâine (timpul pasului s-a terminat)` : ''}.`);
+  return { due: slugs.length, done, failed, left };
 }

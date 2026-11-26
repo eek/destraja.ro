@@ -3,7 +3,8 @@
 // `npm run straja:daily`.
 //
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor: scanările citite cu MinerU și verificate pagină cu
-//    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs); apoi textul în vigoare al articolelor modificate, de pe
+//    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs); documentele noi ale proiectelor ieșite din consultare
+//    se citesc într-un pas separat, cu bugetul lui (straja-sync --texte); apoi textul în vigoare al articolelor modificate, de pe
 //    legislatie.just.ro, pentru proiectele noi sau schimbate și pentru legile cu textul schimbat (straja-baseline)
 //    Apoi prospețimea (scripts/check-fresh.mjs, lib/fresh.mjs): câte rezultate derivate sunt făcute din altă analiză,
 //    alt text, altă lege în vigoare sau altă versiune a instrucțiunilor (rândul „Prospețime” din jurnal); pașii care le
@@ -38,6 +39,8 @@
 //
 // Un pas care eșuează nu oprește restul, cu excepția verificărilor: fără date valide nu publicăm.
 // Limita de timp a unui pas îl oprește cu tot ce a pornit el (modele, MinerU, ssh), nu doar procesul lui.
+// Limita se numără pe timpul treaz al Mac-ului (scripts/lib/awake-clock.mjs): cu capacul închis pasul așteaptă, nu e oprit
+// la trezire. Cât rulează, caffeinate oprește somnul din inactivitate.
 // La pornire așteptăm cel mult 15 minute să apară rețeaua: după drum, Mac-ul pornește uneori rularea fără ea.
 // Jurnalul: ops/logs/AAAA-LL-ZZ.log. La final apare o notificare macOS cu rezumatul.
 // Supravegherea: rularea anunță site-ul când pornește și când termină, cu rezumatul și cu pașii eșuați (POST /api/run,
@@ -73,6 +76,8 @@ import path from 'node:path';
 import dns from 'node:dns/promises';
 import { spawn, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { awakeClock, formatSleep } from './lib/awake-clock.mjs';
+import { runStep, signalAll, tree } from './lib/step-runner.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -112,28 +117,6 @@ const log = (line) => {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-/** Un proces cu tot ce a pornit el. Îi căutăm înainte să-l oprim: copiii unui părinte oprit nu mai pot fi găsiți după el. */
-function tree(pid) {
-  const kids = new Map();
-  for (const line of (spawnSync('ps', ['-axo', 'pid=,ppid='], { encoding: 'utf8' }).stdout ?? '').split('\n')) {
-    const [child, parent] = line.trim().split(/\s+/).map(Number);
-    if (child) kids.set(parent, [...(kids.get(parent) ?? []), child]);
-  }
-  const all = [pid];
-  for (let i = 0; i < all.length; i++) all.push(...(kids.get(all[i]) ?? []));
-  return all;
-}
-
-function signalAll(pids, signal) {
-  for (const pid of pids) {
-    try {
-      process.kill(pid, signal);
-    } catch {
-      // s-a terminat între timp
-    }
-  }
-}
-
 // Pasul în lucru, ca un semnal primit de rulare să-l oprească și pe el.
 let running = null;
 let locked = false;
@@ -141,48 +124,31 @@ let locked = false;
 async function step(name, cmd, argv, { timeoutMs = 3_600_000 } = {}) {
   await announceStart();
   log(`▶ ${name}: ${cmd} ${argv.join(' ')}`);
-  const start = Date.now();
-  return new Promise((resolve) => {
-    const child = spawn(cmd, argv, { cwd: ROOT, env: process.env, stdio: ['ignore', 'pipe', 'pipe'] });
-    running = child;
-    const out = fs.createWriteStream(logFile, { flags: 'a' });
-    let tail = '';
-    let timedOut = false;
-    let done = false;
-    const keep = (c) => {
+  const out = fs.createWriteStream(logFile, { flags: 'a' });
+  let tail = '';
+  // timeoutMs: 0 înseamnă fără limită (pasul se termină singur; fiecare apel la model are limita lui). Limita se numără pe
+  // timpul treaz (lib/step-runner.mjs): somnul Mac-ului lungește pasul, dar nu-l mai oprește.
+  const res = await runStep(cmd, argv, {
+    cwd: ROOT,
+    timeoutMs,
+    onSpawn: (child) => (running = child),
+    onOutput: (c) => {
       out.write(c);
       tail = (tail + c).slice(-2000);
-    };
-    child.stdout.on('data', keep);
-    child.stderr.on('data', keep);
-    // timeoutMs: 0 înseamnă fără limită (pasul se termină singur; fiecare apel la model are limita lui).
-    // La limită oprim pasul cu tot ce a pornit: modelele și MinerU rulează în grupuri de procese proprii și un SIGTERM
-    // dat doar pasului le lăsa în urmă, cu memoria și cu cererile lor. Ce nu iese în 10 secunde e oprit forțat.
-    const timer = timeoutMs
-      ? setTimeout(() => {
-          timedOut = true;
-          const pids = tree(child.pid);
-          signalAll(pids, 'SIGTERM');
-          setTimeout(() => signalAll(pids, 'SIGKILL'), 10_000);
-        }, timeoutMs)
-      : null;
-    const finish = (code, error) => {
-      if (done) return;
-      done = true;
-      clearTimeout(timer);
-      if (running === child) running = null;
-      if (error) keep(`${error.message}\n`);
-      out.end();
-      const ok = code === 0 && !timedOut;
-      const seconds = Math.round((Date.now() - start) / 1000);
-      const why = timedOut ? `, oprit la limita de ${Math.round(timeoutMs / 60_000)} min` : error ? ', n-a pornit' : `, cod ${code}`;
-      log(`${ok ? '✓' : '✗'} ${name} (${seconds}s${ok ? '' : why})`);
-      resolve({ ok, code, tail, timedOut, seconds });
-    };
-    // Fără ascultătorul de „error”, o comandă care nu poate porni ar opri toată rularea.
-    child.on('error', (err) => finish(null, err));
-    child.on('close', (code) => finish(code));
+    },
   });
+  running = null;
+  if (res.error) {
+    out.write(`${res.error.message}\n`);
+    tail = (tail + `${res.error.message}\n`).slice(-2000);
+  }
+  out.end();
+  const ok = res.code === 0 && !res.timedOut;
+  const why = res.timedOut ? `, oprit la limita de ${Math.round(timeoutMs / 60_000)} min de lucru` : res.error ? ', n-a pornit' : `, cod ${res.code}`;
+  // Somnul se vede în jurnal: un pas lung pentru că Mac-ul a dormit nu e un pas lent.
+  const slept = res.sleptSeconds >= 60 ? `; Mac-ul a dormit ${formatSleep(res.sleptSeconds * 1000)}` : '';
+  log(`${ok ? '✓' : '✗'} ${name} (${res.seconds}s${ok ? '' : why}${slept})`);
+  return { ok, code: res.code, tail, timedOut: res.timedOut, seconds: res.seconds, awakeSeconds: res.awakeSeconds };
 }
 
 // Oprită de un semnal (kill, închiderea sesiunii), rularea ia cu ea pasul în lucru și lasă lacătul liber.
@@ -195,6 +161,17 @@ for (const signal of ['SIGTERM', 'SIGINT', 'SIGHUP']) {
   });
 }
 
+// Cât rulează, Mac-ul nu adoarme singur: pe baterie somnul vine după un minut fără activitate (pmset -b sleep 1), iar
+// până acum îl ținea treaz doar aplicația Caffeine, dacă era pornită. `caffeinate -i` oprește somnul din inactivitate,
+// `-s` și somnul sistemului, dar doar în priză; `-w` îl încheie odată cu rularea. Capacul închis adoarme Mac-ul oricum
+// (fără monitor extern, și în priză: 26 noiembrie, 12:50); pentru el limitele pașilor se numără pe timpul treaz.
+function keepAwake() {
+  if (process.platform !== 'darwin') return;
+  const child = spawn('caffeinate', ['-i', '-s', '-w', String(process.pid)], { stdio: 'ignore' });
+  child.on('error', () => {});
+  child.unref();
+}
+
 function notify(message) {
   const safe = message.replace(/["\\]/g, '');
   spawn('osascript', ['-e', `display notification "${safe}" with title "destrajă.ro"`], { stdio: 'ignore' });
@@ -202,15 +179,17 @@ function notify(message) {
 
 // După drum, Mac-ul pornește uneori rularea înainte să aibă rețea: pe 10 noiembrie primul pas a căzut pe loc
 // („getaddrinfo ENOTFOUND www.senat.ro”) și proiectele noi de la Senat au rămas neluate.
+// Minutele se numără pe timpul treaz: pornită într-o trezire scurtă, cu capacul închis (24 noiembrie, 09:36), rularea ar
+// fi consumat așteptarea dormind.
 async function waitForNetwork(minutes = 15) {
-  const until = Date.now() + minutes * 60_000;
+  const clock = awakeClock({ tickMs: 15_000, maxGapMs: 45_000 });
   for (let tries = 0; ; tries++) {
     try {
       await dns.lookup('www.senat.ro');
       if (tries) log('Rețeaua a apărut');
       return true;
     } catch (err) {
-      if (Date.now() >= until) return false;
+      if (clock.awakeMs() >= minutes * 60_000) return false;
       if (!tries) log(`Fără rețea (${err.code ?? err.message}); aștept cel mult ${minutes} minute`);
       await sleep(15_000);
     }
@@ -417,6 +396,7 @@ async function main() {
   }
   fs.writeFileSync(LOCK, String(process.pid));
   locked = true;
+  keepAwake();
   // Jobul rapoartelor poate fi la jumătatea unei publicări; îl lăsăm să termine (cel mult 30 de minute).
   for (let i = 0; i < 60 && fs.existsSync(REPORTS_LOCK); i++) {
     try {
@@ -454,7 +434,7 @@ async function main() {
     // MinerU citește ~7 s pe pagină: o zi cu multe proiecte noi poate trece de o oră.
     let sync = await step('Senat', 'node', ['scripts/straja-sync.mjs'], { timeoutMs: 3 * 3_600_000 });
     // Căzut în primele minute pentru că rețeaua a dispărut chiar atunci: încă o dată, după ce revine.
-    if (!sync.ok && sync.seconds < 300 && NET_DOWN.test(sync.tail) && (await waitForNetwork(10))) {
+    if (!sync.ok && sync.awakeSeconds < 300 && NET_DOWN.test(sync.tail) && (await waitForNetwork(10))) {
       sync = await step('Senat', 'node', ['scripts/straja-sync.mjs'], { timeoutMs: 3 * 3_600_000 });
     }
     // straja-sync.mjs salvează după fiecare proiect și lista în consultare înainte de recitiri: și oprit la limită lasă
@@ -463,6 +443,19 @@ async function main() {
     const added = Math.max(0, readBills().length - before);
     if (sync.ok) summary.push(`${added} proiecte noi`);
     else fail(`sincronizarea a eșuat${added ? ` (${added} proiecte noi salvate înainte de oprire)` : ''}`);
+
+    // Textele documentelor noi ale proiectelor recitite (straja-sync --texte): recitirile de mai sus aduc doar fișele și
+    // PDF-urile, iar MinerU (~7 s pe pagină) le citește aici, cu bugetul lui: după 45 de minute de lucru nu mai începe alt
+    // proiect, iar ce rămâne vine mâine, primul. Pe 26 noiembrie MinerU a ținut 31 din cele 45 de minute ale pasului
+    // Senatului. Înaintea tabelelor de semnături, care citesc expunerile recitite.
+    const senatTexts = await step('Senat: documentele noi', 'node', ['scripts/straja-sync.mjs', '--texte', '--minute=45'], { timeoutMs: 75 * 60_000 });
+    const textStats = senatTexts.tail.match(/✅ texte: (\{.*\})/);
+    if (textStats) {
+      const t = JSON.parse(textStats[1]);
+      if (t.due) log(`Senat, documentele noi: ${t.done - t.failed} proiecte citite din ${t.due}${t.left ? `, ${t.left} rămase pentru mâine` : ''}`);
+      if (t.left) summary.push(`documentele noi de la Senat: ${t.left} proiecte rămase pentru mâine`);
+    }
+    if (!senatTexts.ok) summary.push('documentele noi de la Senat: eroare, rămân pentru mâine');
 
     // Tabelele de semnături din expunerile noi sau recitite: pagina fiecărui tabel în PDF și rândurile scrise de mână pe
     // care textul recunoscut nu le lămurește, citite de Gemini pe imagine (un apel pe pagină, din cota comună Mac + VM;

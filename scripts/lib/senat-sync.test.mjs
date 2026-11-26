@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { rereadQueue, rereadKept, syncBills } from './senat-sync.mjs';
+import { queueTexts, readQueuedTexts, rereadQueue, rereadKept, syncBills } from './senat-sync.mjs';
+import { awakeClock } from './awake-clock.mjs';
 
 // Ziua de 25 noiembrie 2026, în mic: lista în consultare are un proiect vechi și unul nou (B660), iar fișierul mai are
 // două proiecte ieșite din consultare, de recitit azi.
@@ -171,4 +172,83 @@ test('syncBills: un proiect ieșit din listă înainte de termen e închis cu o 
   });
   const b = bills.find((x) => x.id === 'B588/2026');
   assert.deepEqual([b.leftListAt, b.announcedDeadline, b.consultationDeadline], ['2026-11-25', '10-12-2026', '24-11-2026']);
+});
+
+test('rereadKept cu stop pe timpul treaz: trei ore de somn în timpul unei recitiri nu termină bugetul', async () => {
+  // Ceasul fals al pasului: fiecare recitire lucrează 20 de minute (ceasul înaintează în pași de 5 s), iar în timpul celei
+  // de-a doua Mac-ul doarme trei ore, ca pe 25 noiembrie. Bugetul: 90 de minute de lucru.
+  let t = 0;
+  const clock = awakeClock({ now: () => t });
+  const work = (min) => {
+    for (let i = 0; i < (min * 60) / 5; i++) {
+      t += 5000;
+      clock.sample();
+    }
+  };
+  const bills = [kept(581, 1), kept(582, 2), kept(583, 3), kept(584, 4), kept(585, 5), kept(586, 6)];
+  const order = [];
+  const reread = async (b) => {
+    order.push(b.id);
+    work(10);
+    if (order.length === 2) t += 3 * 3_600_000;
+    work(10);
+    return { next: { syncedAt: new Date(NOW).toISOString() }, news: [] };
+  };
+  const r = await rereadKept(bills, { reread, stop: () => clock.awakeMs() >= 90 * 60_000, now: () => NOW, ...quiet });
+  // 0, 20, 40, 60, 80 de minute de lucru la pornirea fiecăreia: cinci încap, a șasea ar începe la 100.
+  assert.equal(r.done, 5);
+  assert.equal(r.left, 1);
+});
+
+test('queueTexts: un proiect pus din nou în coadă își păstrează locul și adună textele de recitit', () => {
+  const q = {};
+  queueTexts(q, 'b576-2026', [], '2026-11-25T08:00:00Z');
+  queueTexts(q, 'b544-2026', ['aviz_LG'], '2026-11-25T08:01:00Z');
+  queueTexts(q, 'b576-2026', ['aviz_ES'], '2026-11-26T08:00:00Z');
+  queueTexts(q, 'b544-2026', ['aviz_LG', 'aviz_CL'], '2026-11-26T08:01:00Z');
+  assert.deepEqual(q, {
+    'b576-2026': { since: '2026-11-25T08:00:00Z', reread: ['aviz_ES'] },
+    'b544-2026': { since: '2026-11-25T08:01:00Z', reread: ['aviz_LG', 'aviz_CL'] },
+  });
+});
+
+test('readQueuedTexts: cele mai vechi întâi, coada salvată după fiecare, iar după buget restul rămâne pentru mâine', async () => {
+  const q = {};
+  queueTexts(q, 'b583-2026', [], '2026-11-26T08:03:00Z');
+  queueTexts(q, 'b576-2026', ['aviz_ES'], '2026-11-25T08:00:00Z');
+  queueTexts(q, 'b544-2026', [], '2026-11-26T08:01:00Z');
+  const read = [];
+  const saves = [];
+  let minutes = 0;
+  const r = await readQueuedTexts(q, {
+    read: async (slug, reread) => {
+      read.push([slug, reread]);
+      minutes += slug === 'b576-2026' ? 40 : 10; // avizul de 39 de pagini al lui B576
+    },
+    save: (queue) => saves.push(Object.keys(queue)),
+    stop: () => minutes >= 45,
+    log: () => {},
+  });
+  assert.deepEqual(read, [
+    ['b576-2026', ['aviz_ES']],
+    ['b544-2026', []],
+  ]);
+  assert.deepEqual(saves, [['b583-2026', 'b544-2026'], ['b583-2026']]);
+  assert.deepEqual(r, { due: 3, done: 2, failed: 0, left: 1 });
+  assert.deepEqual(Object.keys(q), ['b583-2026']);
+});
+
+test('readQueuedTexts: un proiect cu eroare trece la coada cozii și nu le blochează pe celelalte', async () => {
+  const q = {};
+  queueTexts(q, 'b576-2026', [], '2026-11-25T08:00:00Z');
+  queueTexts(q, 'b544-2026', [], '2026-11-26T08:01:00Z');
+  const r = await readQueuedTexts(q, {
+    read: async (slug) => {
+      if (slug === 'b576-2026') throw new Error('MinerU a căzut');
+    },
+    log: () => {},
+    at: () => '2026-11-26T09:00:00Z',
+  });
+  assert.deepEqual(r, { due: 2, done: 2, failed: 1, left: 0 });
+  assert.deepEqual(q, { 'b576-2026': { since: '2026-11-26T09:00:00Z', reread: [] } });
 });

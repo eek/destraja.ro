@@ -1,0 +1,10 @@
+[Unit]
+Description=destrajă.ro: Senatul la 07:30 (gata înainte de rularea Mac-ului de la 09:30) și la 12:30 (proiectele înregistrate dimineața)
+
+[Timer]
+OnCalendar=*-*-* 07:30:00
+OnCalendar=*-*-* 12:30:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

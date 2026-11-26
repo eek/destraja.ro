@@ -301,6 +301,7 @@ async function worker(index) {
       await sleep(Math.min(pausedUntil - Date.now(), 60_000));
       continue;
     }
+    if (!queue.length) return;
     // Firele în plus așteaptă cât rulează straja-daily.
     if (dailyParallel != null && index >= dailyParallel && dailyRunning()) {
       await sleep(120_000);

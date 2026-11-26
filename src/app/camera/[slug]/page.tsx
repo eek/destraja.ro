@@ -49,6 +49,7 @@ import ScoreTrajectory, { ScoreHistory, avizeOpinions } from '@/components/bills
 import { getBillAvize, getCommitteeAvize } from '@/lib/avize';
 import ProcedureTimeline from '@/components/camera/ProcedureTimeline';
 import { chamberHappenings, getBillHistory } from '@/lib/istoric';
+import Cited from '@/components/cite/Cited';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -218,7 +219,11 @@ export default async function CameraBillPage({ params }: PageProps) {
             </div>
             {analysis && <ScoreTrajectory analysis={analysis} versions={versions} opinions={avizeOpinions(avize?.documents ?? [])} />}
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
-            {c && <p className="mt-4 text-lg leading-8 text-ink">{c.summaryTlDr}</p>}
+            {c && (
+              <p className="mt-4 text-lg leading-8 text-ink">
+                <Cited slug={slug} text={c.summaryTlDr} />
+              </p>
+            )}
             {c && <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.titlu}</p>}
             {related.length > 0 && (
               <div className="mt-2">
@@ -273,7 +278,7 @@ export default async function CameraBillPage({ params }: PageProps) {
         <BillHappenings items={happenings} note={happeningsNote} builtOn={builtOn} billId={bill.numar} />
 
         {c && analysis && (
-          <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council}>
+          <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council} slug={slug}>
             <ScoreHistory analysis={analysis} versions={versions} />
             <ReportIssue billId={bill.numar} target="consensus" />
           </ModelsVerdict>
@@ -372,11 +377,15 @@ export default async function CameraBillPage({ params }: PageProps) {
               </h2>
               <div className="rounded-2xl bg-sunken p-6">
                 <h3 className="text-sm font-semibold text-ink">Ce promit inițiatorii</h3>
-                <p className="mt-2 text-[15px] leading-7 text-body">{c.initiatorClaim}</p>
+                <p className="mt-2 text-[15px] leading-7 text-body">
+                  <Cited slug={slug} text={c.initiatorClaim} />
+                </p>
               </div>
               <div className={`rounded-2xl p-6 ${c.riskLevel === 'red' ? 'bg-risk-red-soft' : c.riskLevel === 'yellow' ? 'bg-risk-amber-soft' : 'bg-risk-green-soft'}`}>
                 <h3 className={`text-sm font-semibold ${RISK[c.riskLevel].text}`}>Ce face legea în realitate</h3>
-                <p className="mt-2 text-[15px] leading-7 text-ink">{c.realityCheck}</p>
+                <p className="mt-2 text-[15px] leading-7 text-ink">
+                  <Cited slug={slug} text={c.realityCheck} />
+                </p>
               </div>
             </section>
           </>

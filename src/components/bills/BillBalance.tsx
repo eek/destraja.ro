@@ -5,10 +5,11 @@ import { BalanceBar, balanceVerdict } from './BalanceBlock';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { modelFullName } from '@/lib/site';
+import Cited from '@/components/cite/Cited';
 
 const SHOWN = 3;
 
-function Item({ item, kind }: { item: BalanceItem; kind: 'good' | 'bad' }) {
+function Item({ item, kind, slug }: { item: BalanceItem; kind: 'good' | 'bad'; slug: string }) {
   return (
     <li className="grid grid-cols-[20px_minmax(0,1fr)] gap-2.5 py-3">
       {kind === 'good' ? (
@@ -17,24 +18,32 @@ function Item({ item, kind }: { item: BalanceItem; kind: 'good' | 'bad' }) {
         <X className="mt-1 h-4 w-4 text-risk-red-text" strokeWidth={3} aria-label="Problemă" />
       )}
       <div className="min-w-0">
-        <p className={`text-[15.5px] leading-relaxed text-ink ${item.weight === 3 ? 'font-semibold' : ''}`}>{item.text}</p>
+        <p className={`text-[15.5px] leading-relaxed text-ink ${item.weight === 3 ? 'font-semibold' : ''}`}>
+          <Cited slug={slug} text={item.text} role="balance" />
+        </p>
         {item.quote ? (
           <details className="group mt-1">
             <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-[13px] text-muted underline decoration-line-strong underline-offset-4 hover:text-ink [&::-webkit-details-marker]:hidden">
               {item.article ?? 'În text'} · <span className="group-open:hidden">ce scrie în lege</span>
               <span className="hidden group-open:inline">ascunde</span>
             </summary>
-            <blockquote className="mt-2 border-l-2 border-line-strong pl-3 text-sm leading-relaxed text-body">„{item.quote}”</blockquote>
+            <blockquote className="mt-2 border-l-2 border-line-strong pl-3 text-sm leading-relaxed text-body">
+              „<Cited slug={slug} text={item.quote} role="balance" quote />”
+            </blockquote>
           </details>
         ) : (
-          item.article && <p className="mt-1 text-[13px] text-muted">{item.article}</p>
+          item.article && (
+            <p className="mt-1 text-[13px] text-muted">
+              <Cited slug={slug} text={item.article} role="balance" />
+            </p>
+          )
         )}
       </div>
     </li>
   );
 }
 
-function Column({ items, kind }: { items: BalanceItem[]; kind: 'good' | 'bad' }) {
+function Column({ items, kind, slug }: { items: BalanceItem[]; kind: 'good' | 'bad'; slug: string }) {
   const title = kind === 'good' ? 'Ce e bine' : 'Ce strică';
   return (
     <div className={`border-t-[3px] pt-3 ${kind === 'good' ? 'border-risk-green' : 'border-risk-red'}`}>
@@ -45,7 +54,7 @@ function Column({ items, kind }: { items: BalanceItem[]; kind: 'good' | 'bad' })
         <>
           <ul className="divide-y divide-line">
             {items.slice(0, SHOWN).map((it, i) => (
-              <Item key={i} item={it} kind={kind} />
+              <Item key={i} item={it} kind={kind} slug={slug} />
             ))}
           </ul>
           {items.length > SHOWN && (
@@ -56,7 +65,7 @@ function Column({ items, kind }: { items: BalanceItem[]; kind: 'good' | 'bad' })
               </summary>
               <ul className="divide-y divide-line border-t border-line">
                 {items.slice(SHOWN).map((it, i) => (
-                  <Item key={i} item={it} kind={kind} />
+                  <Item key={i} item={it} kind={kind} slug={slug} />
                 ))}
               </ul>
             </details>
@@ -89,13 +98,15 @@ export default function BillBalance({ data, level }: { data: Balance; level: Ris
       <BalanceBar b={sum} />
       {data.summary && <p className="mt-3 max-w-[70ch] text-base leading-relaxed text-body">{data.summary}</p>}
       <div className="mt-5 grid gap-6 md:grid-cols-2 md:gap-8">
-        <Column items={data.good} kind="good" />
-        <Column items={data.bad} kind="bad" />
+        <Column items={data.good} kind="good" slug={data.slug} />
+        <Column items={data.bad} kind="bad" slug={data.slug} />
       </div>
       {data.fix && (
         <div className="mt-6 rounded-2xl bg-band p-5 text-on-band sm:p-6">
           <h3 className="font-display text-lg font-semibold text-on-band">O schimbare care l-ar face acceptabil</h3>
-          <p className="mt-2 text-[15.5px] leading-relaxed">{data.fix.text}</p>
+          <p className="mt-2 text-[15.5px] leading-relaxed">
+            <Cited slug={data.slug} text={data.fix.text} role="balance" />
+          </p>
           {after && (
             <p className="mt-2 text-sm text-on-band-muted">
               Ce ar rămâne: {RISK[after].label.toLowerCase()}

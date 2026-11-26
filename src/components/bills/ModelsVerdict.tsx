@@ -5,6 +5,7 @@ import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { Glyph } from '@/components/ui';
 import RiskInfo from './RiskInfo';
+import Cited from '@/components/cite/Cited';
 
 type Council = Partial<Record<(typeof MODELS)[number]['key'], Pick<AiVerdict, 'status' | 'riskScore' | 'riskLevel' | 'verdictShort'> | undefined>>;
 
@@ -72,6 +73,7 @@ export default function ModelsVerdict({
   level,
   summary,
   council,
+  slug,
   children,
 }: {
   score: number;
@@ -79,6 +81,8 @@ export default function ModelsVerdict({
   /** Rezumatul comun; lipsește când pagina îl arată deja sub titlu. */
   summary?: string;
   council: Council;
+  /** Proiectul: trimiterile la articole din verdicte devin legături spre textul lor. */
+  slug?: string;
   children?: ReactNode;
 }) {
   const rows = MODELS.flatMap((m) => {
@@ -124,7 +128,7 @@ export default function ModelsVerdict({
 
       {rows.length > 1 && <Scale rows={rows} score={score} level={level} />}
 
-      {summary && <p className="mt-5 max-w-[72ch] text-[15.5px] leading-7 text-body">{summary}</p>}
+      {summary && <p className="mt-5 max-w-[72ch] text-[15.5px] leading-7 text-body">{slug ? <Cited slug={slug} text={summary} /> : summary}</p>}
 
       <ul className="mt-5 grid gap-3 md:grid-cols-3">
         {rows.map((r) => (
@@ -137,7 +141,7 @@ export default function ModelsVerdict({
               </p>
             </div>
             <p className="mt-0.5 text-xs text-muted">{r.role}</p>
-            <p className="mt-2.5 text-sm leading-6 text-body">{r.verdict}</p>
+            <p className="mt-2.5 text-sm leading-6 text-body">{slug ? <Cited slug={slug} text={r.verdict} /> : r.verdict}</p>
           </li>
         ))}
       </ul>

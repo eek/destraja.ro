@@ -27,6 +27,8 @@ import { getMpPageSlugs } from '@/lib/mp-pages';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, PartyTag, RiskChip, panel } from '@/components/ui';
+import OtherChamberPage from '@/components/bills/OtherChamberPage';
+import { canonicalPath, nonCanonicalPair } from '@/lib/cross-chamber';
 import RiskInfo from '@/components/bills/RiskInfo';
 import { Flags } from '@/components/bills/Flags';
 import CiteBill from '@/components/bills/CiteBill';
@@ -60,7 +62,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${bill.id}: ${bill.analysis.consensus.plainTitle}`,
     description,
-    alternates: { canonical: `/legi/${slug}` },
+    alternates: { canonical: await canonicalPath(`/legi/${slug}`) },
     openGraph: { title: `${bill.id}: ${bill.analysis.consensus.plainTitle}`, description },
   };
 }
@@ -81,6 +83,7 @@ export default async function BillDetailPage({ params }: PageProps) {
   const votes = await getBillVotes(slug);
   const mpPages = votes ? await getMpPageSlugs() : new Set<string>();
   const related = await getRelatedActs({ senat: slug });
+  const otherChamber = await nonCanonicalPair(`/legi/${slug}`);
   // Memoriile din public/docs se scriu separat (straja-docx.mjs); un proiect nou poate să nu-l aibă încă.
   const memoFile = `Punct_de_vedere_${slug.toUpperCase()}.docx`;
   const memoHref = existsSync(path.join(process.cwd(), 'public', 'docs', memoFile)) ? `/docs/${memoFile}` : null;
@@ -140,6 +143,8 @@ export default async function BillDetailPage({ params }: PageProps) {
           </a>
         </div>
       </div>
+
+      {otherChamber && <OtherChamberPage pair={otherChamber} here="senat" />}
 
       <article className="mt-4">
         <header className={`${panel} overflow-hidden shadow-[var(--shadow-card)]`}>

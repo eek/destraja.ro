@@ -30,9 +30,9 @@ const ANALYTICS_COOKIES = [
 ];
 
 const MEASURED = [
-  'Paginile deschise și site-ul de pe care ai ajuns aici.',
+  'Paginile deschise și site-ul de pe care ai ajuns aici. Linkurile trimise cu butonul „Trimite” al unui proiect au eticheta „share” (utm_source), care nu spune cine le-a trimis.',
   'Tipul dispozitivului, sistemul de operare, browserul, limba și, aproximativ, țara și orașul.',
-  'Ce funcții folosești, fără conținutul lor: deschiderea formularului Senatului, copierea unui text, descărcarea documentului .docx, alegerea unui filtru, a unui partid sau a temei.',
+  'Ce funcții folosești, fără conținutul lor: deschiderea formularului Senatului, copierea unui text, descărcarea documentului .docx, trimiterea unui proiect (pe ce cale, nu cui), alegerea unui filtru, a unui partid sau a temei.',
 ];
 
 const NOT_SENT = [

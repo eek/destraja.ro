@@ -50,6 +50,9 @@ import StaleNote from '@/components/bills/StaleNote';
 import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeaderStatus';
 import { getBillHistory, senateHappenings, withdrawn } from '@/lib/istoric';
 import Cited from '@/components/cite/Cited';
+import ShareBill, { ShareBillButtons } from '@/components/bills/ShareBill';
+import type { ShareInput } from '@/lib/share';
+import { SITE_URL } from '@/lib/site';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -124,6 +127,16 @@ export default async function BillDetailPage({ params }: PageProps) {
     textMoved ? 'Între timp au apărut documente oficiale despre text, mai jos.' : 'Textul oficial nu s-a schimbat de atunci.'
   }`;
   const gone = withdrawn(bill, history);
+  // Mesajul pentru „Trimite” (src/lib/share.ts); consultarea scoasă înainte de termen nu mai e deschisă.
+  const share: ShareInput = {
+    title: c.plainTitle,
+    number: bill.id,
+    url: `${SITE_URL}/legi/${slug}`,
+    risk: { level: c.riskLevel, score: c.riskScore },
+    stale: isStale(fresh.analysis),
+    consultationEnd: bill.leftListAt ? null : bill.consultationDeadline.split('-').reverse().join('-'),
+    canAct: true,
+  };
 
   const byParty: Record<string, typeof bill.initiators> = {};
   for (const init of bill.initiators) {
@@ -139,7 +152,8 @@ export default async function BillDetailPage({ params }: PageProps) {
           <ArrowLeft className="h-4 w-4" aria-hidden />
           Toate proiectele
         </Link>
-        <div className="flex flex-wrap items-center gap-x-4 text-muted">
+        <ShareBillButtons share={share} billId={bill.id} builtOn={builtOn} className="flex sm:hidden" />
+        <div className="flex w-full flex-wrap items-center gap-x-4 text-muted sm:w-auto">
           <a
             href={bill.sheetUrl}
             target="_blank"
@@ -173,6 +187,7 @@ export default async function BillDetailPage({ params }: PageProps) {
               <span className="tabular-nums text-muted">
                 {bill.id} · cod Senat {bill.cod}
               </span>
+              <ShareBillButtons share={share} billId={bill.id} builtOn={builtOn} className="hidden sm:flex" />
             </div>
             {/* Starea proiectului, sub insignă: întâi „niciun pas din …” (StuckLine), apoi prospețimea analizei. */}
             <BillHeaderStatus>
@@ -375,6 +390,8 @@ export default async function BillDetailPage({ params }: PageProps) {
             </div>
           </section>
         )}
+
+        <ShareBill share={share} billId={bill.id} builtOn={builtOn} />
 
         <RelatedActs acts={related} className="mt-14" />
 

@@ -59,6 +59,9 @@ import { getBillAvize, getCommitteeAvize } from '@/lib/avize';
 import ProcedureTimeline from '@/components/camera/ProcedureTimeline';
 import { chamberHappenings, getBillHistory } from '@/lib/istoric';
 import Cited from '@/components/cite/Cited';
+import ShareBill, { ShareBillButtons } from '@/components/bills/ShareBill';
+import type { ShareInput } from '@/lib/share';
+import { SITE_URL } from '@/lib/site';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -195,6 +198,17 @@ export default async function CameraBillPage({ params }: PageProps) {
     'Vă rog să o luați în considerare la întocmirea raportului.',
     'Cu stimă,\n[Numele și prenumele]\n[Localitatea]',
   ].join('\n\n');
+  // Mesajul pentru „Trimite” (src/lib/share.ts): fără analiză, titlul oficial și stadiul.
+  const share: ShareInput = {
+    title: c?.plainTitle ?? bill.titlu,
+    number: bill.numar,
+    url: `${SITE_URL}/camera/${slug}`,
+    risk: c ? { level: c.riskLevel, score: c.riskScore } : null,
+    stale: isStale(fresh.analysis),
+    stage: status.title,
+    consultationEnd: f.consultare?.termen ?? null,
+    canAct: atChamber && report.length > 0,
+  };
 
   return (
     <Container className="max-w-[920px] py-8 sm:py-12">
@@ -203,12 +217,13 @@ export default async function CameraBillPage({ params }: PageProps) {
           <ArrowLeft className="h-4 w-4" aria-hidden />
           Toate proiectele de la Cameră
         </Link>
+        <ShareBillButtons share={share} billId={bill.numar} builtOn={builtOn} className="flex sm:hidden" />
         <a
           href={bill.url}
           target="_blank"
           rel="noopener noreferrer"
           {...trackAttrs('official_source_open', { bill_id: bill.numar, source: 'cdep_sheet' })}
-          className="inline-flex min-h-11 items-center gap-1 text-muted underline underline-offset-4 hover:text-ink"
+          className="inline-flex min-h-11 w-full items-center gap-1 text-muted underline underline-offset-4 hover:text-ink sm:w-auto"
         >
           Fișa {bill.numar} pe cdep.ro <ExternalLink className="h-3.5 w-3.5" aria-hidden />
         </a>
@@ -235,6 +250,7 @@ export default async function CameraBillPage({ params }: PageProps) {
                 {f.numarSenat && ` · ${f.numarSenat} la Senat`}
                 {older && ` · înregistrat în ${year}`}
               </span>
+              <ShareBillButtons share={share} billId={bill.numar} builtOn={builtOn} className="hidden sm:flex" />
             </div>
             {/* Starea proiectului, sub insignă: întâi „niciun pas din …” (StuckLine), apoi prospețimea analizei. */}
             {(still || analysis) && (
@@ -415,6 +431,7 @@ export default async function CameraBillPage({ params }: PageProps) {
                 </p>
               </div>
             </section>
+            <ShareBill share={share} billId={bill.numar} builtOn={builtOn} className="mt-10" />
           </>
         )}
 

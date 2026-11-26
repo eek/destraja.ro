@@ -13,6 +13,8 @@ import ModelsVerdict from '@/components/bills/ModelsVerdict';
 import { getBalance } from '@/lib/balance';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillRoute from '@/components/bills/BillRoute';
+import { StuckLine } from '@/components/camera/StuckNote';
+import { stillnessOfNumber } from '@/lib/uitate';
 import MoPublication from '@/components/mo/MoPublication';
 import { getMoLaw } from '@/lib/mo';
 import BillAgenda from '@/components/bills/BillAgenda';
@@ -86,6 +88,8 @@ export default async function BillDetailPage({ params }: PageProps) {
   const builtOn = todayISO();
   // Legea publicată, prin fișa de la Cameră a proiectului (data/mo/legi.json).
   const mo = await getMoLaw(slug);
+  // Ajuns la Cameră și fără niciun pas acolo de peste șase luni (aceeași socoteală ca /uitate).
+  const still = await stillnessOfNumber(bill.camera?.numar, builtOn);
   const lite = toLite(bill);
   const c = bill.analysis.consensus;
   const history = await getBillHistory(slug);
@@ -148,6 +152,7 @@ export default async function BillDetailPage({ params }: PageProps) {
                 {bill.id} · cod Senat {bill.cod}
               </span>
             </div>
+            {still && <StuckLine still={still} href="#traseu" />}
             <ScoreTrajectory analysis={bill.analysis} versions={versions} opinions={senateOpinions(bill.timeline)} />
             <h1 className="font-display mt-5 text-[clamp(1.9rem,4.2vw,3rem)] font-normal leading-[1.1]">{c.plainTitle}</h1>
             <p className="mt-4 text-lg leading-8 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>
@@ -202,7 +207,7 @@ export default async function BillDetailPage({ params }: PageProps) {
         <BillAvize slug={slug} />
         {balance && <BillBalance data={balance} level={c.riskLevel} />}
 
-        <BillRoute bill={bill} />
+        <BillRoute bill={bill} still={still} />
         {mo && <MoPublication law={mo.law} readOn={mo.readOn} />}
         <BillAgenda items={agenda} billId={bill.id} />
         <BillVotes data={votes} pages={mpPages} billId={bill.id} />

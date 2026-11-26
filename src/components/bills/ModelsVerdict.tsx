@@ -1,6 +1,6 @@
-import { Fragment, type ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import type { AiVerdict, RiskLevel } from '@/lib/types';
-import { MODELS } from '@/lib/site';
+import { MODELS, type ModelKey } from '@/lib/site';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { Glyph } from '@/components/ui';
@@ -25,65 +25,75 @@ function plainAgreement(rows: { name: string; level: RiskLevel; score: number }[
   );
 }
 
-// Clasele întregi, ca Tailwind să le găsească în sursă: zonele de risc, mai șterse pe rândurile modelelor.
-const ZONES = {
-  faint: ['bg-risk-green/20', 'bg-risk-amber/20', 'bg-risk-red/20'],
-  soft: ['bg-risk-green/30', 'bg-risk-amber/30', 'bg-risk-red/30'],
-};
-const Zones = ({ tone }: { tone: keyof typeof ZONES }) => (
-  <>
-    {['w-[38%]', 'w-[30%]', 'w-[32%]'].map((w, i) => (
-      <span key={w} className={`${w} ${ZONES[tone][i]}`} />
-    ))}
-  </>
-);
+type ScaleRow = { key: ModelKey; name: string; level: RiskLevel; score: number };
+
+// Fiecare model are semnul lui, aceeași formă pe scală și în legenda de sub ea: pătrat, inel, bară. Nu triunghi, romb sau
+// disc plin: acelea spun deja nivelul de risc (Glyph). Culoarea e a nivelului de risc din verdictul modelului.
+const RING: Record<RiskLevel, string> = { red: 'border-risk-red', yellow: 'border-risk-amber', green: 'border-risk-green' };
+function Mark({ k, level }: { k: ModelKey; level: RiskLevel }) {
+  const cls =
+    k === 'agy' ? `h-2.5 w-2.5 rounded-[2px] ${RISK[level].fill}` : k === 'claude' ? `h-2.5 w-2.5 rounded-full border-[2.5px] ${RING[level]}` : `h-3 w-[5px] rounded-full ${RISK[level].fill}`;
+  return <span aria-hidden className={`inline-block shrink-0 ${cls}`} />;
+}
 
 /**
- * Pe scala 0–10, cu zonele de risc: un rând pentru fiecare model, cu numele și scorul lui în stânga și punctul lui pe
- * scală, iar dedesubt media, cu punctul mare. Etichetele plutitoare de deasupra unei singure scale se suprapuneau când
- * scorurile erau apropiate (6, 7, 8 pe un telefon) și nu se mai vedea cine ce scor a dat; pe rânduri, fiecare punct are
- * eticheta lui, și la scoruri egale, și la capetele scalei.
+ * Pe scala 0–10, cu zonele de risc: media cu punctul mare, iar deasupra semnul fiecărui model la scorul lui. Cine ce scor a
+ * dat se citește din legenda de dedesubt, după semn; nicio etichetă nu plutește deasupra scalei, deci nimic nu se
+ * suprapune când scorurile sunt apropiate. Scorurile egale (sau la mai puțin de 0,4) își pun semnele unul lângă altul.
  */
-function Scale({ rows, score, level }: { rows: { name: string; level: RiskLevel; score: number }[]; score: number; level: RiskLevel }) {
+function Scale({ rows, score, level }: { rows: ScaleRow[]; score: number; level: RiskLevel }) {
+  const sorted = [...rows].sort((x, y) => x.score - y.score);
+  const groups: ScaleRow[][] = [];
+  for (const r of sorted) {
+    const g = groups.at(-1);
+    if (g && r.score - g[0].score < 0.4) g.push(r);
+    else groups.push([r]);
+  }
+  const offset = new Map(groups.flatMap((g) => g.map((r, i) => [r.key, (i - (g.length - 1) / 2) * 13] as const)));
   return (
-    <div className="mt-6 mb-2 grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-4 gap-y-2.5" aria-hidden>
-      {rows.map((r) => (
-        <Fragment key={r.name}>
-          <span className="whitespace-nowrap text-xs text-muted">
-            {r.name} <span className={`font-semibold tabular-nums ${RISK[r.level].text}`}>{fmt(r.score)}</span>
+    <div className="mt-6 mb-2" aria-hidden>
+      <div className="relative h-3">
+        {rows.map((r) => (
+          <span key={r.key} className="absolute bottom-0 flex -translate-x-1/2" style={{ left: `calc(${r.score * 10}% + ${offset.get(r.key)}px)` }}>
+            <Mark k={r.key} level={r.level} />
           </span>
-          <span className="relative h-3">
-            <span className="absolute inset-x-0 top-1/2 flex h-1 -translate-y-1/2 overflow-hidden rounded-full">
-              <Zones tone="faint" />
-            </span>
-            <span
-              className={`absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-surface ${RISK[r.level].fill}`}
-              style={{ left: `${r.score * 10}%` }}
-            />
-          </span>
-        </Fragment>
-      ))}
-      <span className="whitespace-nowrap text-xs font-semibold text-ink">
-        Media <span className="tabular-nums">{fmt(score)}</span>
-      </span>
-      <span className="relative h-[18px]">
-        <span className="absolute inset-x-0 top-1/2 flex h-2.5 -translate-y-1/2 overflow-hidden rounded-full">
-          <Zones tone="soft" />
-        </span>
+        ))}
+      </div>
+      <div className="relative h-[18px]">
+        <div className="absolute inset-x-0 top-1/2 flex h-2.5 -translate-y-1/2 overflow-hidden rounded-full">
+          <span className="w-[38%] bg-risk-green/30" />
+          <span className="w-[30%] bg-risk-amber/30" />
+          <span className="w-[32%] bg-risk-red/30" />
+        </div>
         <span
           className={`absolute top-1/2 h-[18px] w-[18px] -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-surface shadow-[0_0_0_1.5px_var(--ink)] ${RISK[level].fill}`}
           style={{ left: `${score * 10}%` }}
         />
-      </span>
-      <span />
-      <span className="-mt-1 flex justify-between text-[11px] tabular-nums text-muted">
+      </div>
+      <div className="mt-1 flex justify-between text-[11px] tabular-nums text-muted">
         <span>
           0<span className="hidden sm:inline">, fără risc</span>
         </span>
         <span>
           10<span className="hidden sm:inline">, risc maxim</span>
         </span>
-      </span>
+      </div>
+      <p className="mt-2.5 flex flex-wrap items-center justify-center gap-x-3.5 gap-y-1.5 text-xs text-muted">
+        {rows.map((r) => (
+          <span key={r.key} className="inline-flex items-center gap-1.5 whitespace-nowrap">
+            <Mark k={r.key} level={r.level} />
+            <span>
+              {r.name} <span className={`font-semibold tabular-nums ${RISK[r.level].text}`}>{fmt(r.score)}</span>
+            </span>
+          </span>
+        ))}
+        <span className="inline-flex items-center gap-1.5 whitespace-nowrap font-semibold text-ink">
+          <span className={`inline-block h-3 w-3 shrink-0 rounded-full border-2 border-surface shadow-[0_0_0_1px_var(--ink)] ${RISK[level].fill}`} />
+          <span>
+            Media <span className="tabular-nums">{fmt(score)}</span>
+          </span>
+        </span>
+      </p>
     </div>
   );
 }

@@ -32,6 +32,8 @@ import { Container, PartyTag, RiskChip, btnPrimary, linkCls, panel } from '@/com
 import { RouteSteps, type RouteStep } from '@/components/bills/BillRoute';
 import WriteCommittee from '@/components/camera/WriteCommittee';
 import BillVersions from '@/components/camera/BillVersions';
+import { ChangedDocs, CopyLink } from '@/components/bills/DocumentCopies';
+import { getDocumentCopies } from '@/lib/documente';
 import BillAmendments from '@/components/camera/BillAmendments';
 import { getMpPageSlugs } from '@/lib/mp-pages';
 import BillBalance from '@/components/bills/BillBalance';
@@ -98,6 +100,8 @@ export default async function CameraBillPage({ params }: PageProps) {
     getCommitteeAvize(slug),
   ]);
   const mpPages = amendments || votes ? await getMpPageSlugs() : new Set<string>();
+  // Copiile noastre ale PDF-urilor de pe cdep.ro (data/documente/manifest.jsonl, servite din R2 la /documente/…).
+  const copies = await getDocumentCopies(slug);
   const comparing = !versions && versionsStatus?.pending.includes(slug);
   if (!bill) notFound();
 
@@ -454,20 +458,31 @@ export default async function CameraBillPage({ params }: PageProps) {
               Documente oficiale
             </h2>
             <div className="mt-4 flex flex-wrap gap-2">
-              {f.documente!.map((d) => (
-                <a
-                  key={d.url}
-                  href={d.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  {...trackAttrs('official_source_open', { bill_id: bill.numar, source: 'cdep_pdf', doc: d.eticheta })}
-                  className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
-                >
-                  <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
-                  {d.eticheta}
-                </a>
-              ))}
+              {f.documente!.map((d) => {
+                const copy = copies.get(d.url);
+                return (
+                  <span key={d.url} className="inline-flex flex-wrap items-center gap-x-2">
+                    <a
+                      href={d.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      {...trackAttrs('official_source_open', { bill_id: bill.numar, source: 'cdep_pdf', doc: d.eticheta })}
+                      className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
+                    >
+                      <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
+                      {d.eticheta}
+                    </a>
+                    {copy && <CopyLink copy={copy} billId={bill.numar} doc={d.eticheta} />}
+                  </span>
+                );
+              })}
             </div>
+            <ChangedDocs
+              items={f.documente!.flatMap((d) => (copies.has(d.url) ? [{ label: d.eticheta, copy: copies.get(d.url)! }] : []))}
+              site="cdep.ro"
+              analyzedAt={analysis?.updatedAt}
+              billId={bill.numar}
+            />
           </section>
         )}
 

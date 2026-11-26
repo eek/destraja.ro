@@ -1,7 +1,8 @@
-// Worker-ul din fața site-ului static. Răspunde doar la /api/*, /admin* și /acte* (vezi run_worker_first în
+// Worker-ul din fața site-ului static. Răspunde doar la /api/*, /admin*, /acte* și /documente/* (vezi run_worker_first în
 // wrangler.jsonc); orice altă cerere ajunge direct la fișierele din out/.
 //
 // /acte, /acte/*              paginile actelor și API-ul lor (/acte/api/…), de la serverul de pe VM, cu cache (acte.ts)
+// /documente/*                copiile noastre ale PDF-urilor parlamentare, din R2 (documente.ts); amprente.json e static
 //
 // /api/report                 rapoartele cititorilor despre greșeli în analize (report.ts)
 // /api/report/result          rezultatul verificării, pe e-mail, doar cu DIGEST_TOKEN (report.ts)
@@ -21,6 +22,7 @@ import { handleAdmin } from './admin';
 import { handleActReport } from './act-report';
 import { handleActe, isActePath } from './acte';
 import { handleDigest, handleDigestStats } from './digest';
+import { handleDocumente, isDocumentePath } from './documente';
 import { json, logError } from './http';
 import { handleMailEvents } from './mail';
 import { handleMcp } from './mcp';
@@ -61,6 +63,7 @@ export default {
     const url = new URL(request.url);
     try {
       if (isActePath(url.pathname)) return await handleActe(request, env, ctx, url);
+      if (isDocumentePath(url.pathname)) return await handleDocumente(request, env, url);
       if (isAdminPage(url.pathname)) return await adminPage(request, env, url);
       if (url.pathname === '/api/admin' || url.pathname.startsWith('/api/admin/')) {
         const user = await requireAdmin(request, env, url);

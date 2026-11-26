@@ -1,8 +1,9 @@
 {
   // `npm run build` produce site-ul static în out/. Worker-ul din worker/index.ts răspunde doar
   // la /api/* (rapoartele de erori și alertele pe e-mail), la /admin* (panoul rapoartelor, care verifică
-  // JWT-ul Cloudflare Access înainte să servească pagina) și la /acte* (paginile actelor, de la serverul de pe VM,
-  // worker/acte.ts); restul cererilor vin direct din out/.
+  // JWT-ul Cloudflare Access înainte să servească pagina), la /acte* (paginile actelor, de la serverul de pe VM,
+  // worker/acte.ts) și la /documente/* (copiile noastre ale PDF-urilor parlamentare, din R2, worker/documente.ts); restul
+  // cererilor vin direct din out/.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "lastraja",
   "main": "worker/index.ts",
@@ -12,8 +13,10 @@
     "binding": "ASSETS",
     "not_found_handling": "404-page",
     "html_handling": "auto-trailing-slash",
-    "run_worker_first": ["/api/*", "/admin", "/admin/*", "/acte", "/acte/*"]
+    "run_worker_first": ["/api/*", "/admin", "/admin/*", "/acte", "/acte/*", "/documente/*"]
   },
+  // Copiile documentelor parlamentare (data/pdfs), urcate de scripts/straja-documente.mjs --arhiva; NAS-ul e arhiva principală.
+  "r2_buckets": [{ "binding": "DOCUMENTE", "bucket_name": "destraja-documente" }],
   "d1_databases": [{ "binding": "DB", "database_name": "lastraja", "database_id": "44d27d60-fce7-485b-ab48-b632623c36ef", "migrations_dir": "migrations" }],
   // Cel mult 5 rapoarte pe minut de la aceeași adresă, în fiecare locație Cloudflare.
   "ratelimits": [

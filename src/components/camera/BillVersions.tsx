@@ -7,6 +7,9 @@ import { fmt } from '@/lib/format';
 import { RiskChip, panel } from '@/components/ui';
 import { EFFECT, Mark } from './effect';
 import { AmendmentCredit } from './BillAmendments';
+import Cited from '@/components/cite/Cited';
+import type { CiteForm } from '@/lib/citari-text';
+import StaleNote from '@/components/bills/StaleNote';
 
 type Key = BillVersion['key'];
 type Effect = VersionItem['effect'];
@@ -56,14 +59,16 @@ function EffectCounts({ items }: { items: { effect: Effect }[] }) {
 }
 
 /** Textul de dinainte și de după, cum apare în cele două forme oficiale. */
-function Quotes({ item, from, to, latest, form: FORM }: { item: VersionItem } & Where) {
+function Quotes({ item, from, to, latest, form: FORM, slug }: { item: VersionItem } & Where) {
   const side = (label: string, form: Key, quote: string | null | undefined, absent: boolean | undefined, missing: string, strong: boolean) => (
     <figure className="rounded-lg bg-sunken p-3">
       <figcaption className="text-xs font-semibold text-muted">
         {label} · {FORM[form]}
       </figcaption>
       {quote ? (
-        <blockquote className={`mt-1 text-sm leading-6 ${strong ? 'text-ink' : 'text-body'}`}>„{quote}”</blockquote>
+        <blockquote className={`mt-1 text-sm leading-6 ${strong ? 'text-ink' : 'text-body'}`}>
+          „<Cited slug={slug} text={quote} form={textForm(form)} quote />”
+        </blockquote>
       ) : (
         // „Nu exista” doar când comparația a spus-o; un citat care n-a trecut verificarea nu dovedește nimic.
         <p className="mt-1 text-sm italic leading-6 text-muted">{absent ? missing : 'Nu am găsit citatul cuvânt cu cuvânt în text.'}</p>
@@ -82,7 +87,9 @@ const hasQuotes = (i: VersionItem) => Boolean(i.before || i.after);
 const summaryCls =
   'inline-flex min-h-8 cursor-pointer list-none items-center gap-1 text-sm font-semibold text-link underline decoration-1 underline-offset-4 hover:decoration-2 [&::-webkit-details-marker]:hidden';
 
-type Where = { from: Key; to: Key; latest: Key; form: Record<Key, string> };
+type Where = { from: Key; to: Key; latest: Key; form: Record<Key, string>; slug: string };
+/** Forma cu text în data/texts („actualizata” n-are). */
+const textForm = (k: Key): CiteForm | null => (k === 'initiator' || k === 'senat' || k === 'camera' ? k : null);
 
 /** O schimbare majoră: titlul, explicația și, la prima, citatele deschise. */
 function MajorChange({ item, where, open, credit }: { item: VersionItem; where: Where; open: boolean; credit?: ReactNode }) {
@@ -94,10 +101,19 @@ function MajorChange({ item, where, open, credit }: { item: VersionItem; where: 
       <div className="min-w-0 flex-1">
         <p className={`text-xs font-semibold ${EFFECT[item.effect].text}`}>
           {EFFECT[item.effect].label}
-          {item.article && <span className="font-normal text-muted"> · {item.article}</span>}
+          {item.article && (
+            <span className="font-normal text-muted">
+              {' · '}
+              <Cited slug={where.slug} text={item.article} form={textForm(where.to)} />
+            </span>
+          )}
         </p>
         <h4 className="mt-0.5 text-[15px] font-semibold leading-6 text-ink">{item.title || item.text}</h4>
-        {item.title && <p className="mt-1 text-[15px] leading-7 text-body">{item.text}</p>}
+        {item.title && (
+          <p className="mt-1 text-[15px] leading-7 text-body">
+            <Cited slug={where.slug} text={item.text} form={textForm(where.to)} />
+          </p>
+        )}
         {credit}
         {hasQuotes(item) &&
           (open ? (
@@ -131,14 +147,18 @@ function MinorChange({ item, where, credit }: { item: VersionItem; where: Where;
             {label} {item.title || item.text}
             <ChevronDown className="ml-1 inline h-3.5 w-3.5 text-muted transition-transform group-open:rotate-180" aria-hidden />
           </summary>
-          {item.title && <p className="mt-1 text-sm leading-6 text-body">{item.text}</p>}
+          {item.title && (
+            <p className="mt-1 text-sm leading-6 text-body">
+              <Cited slug={where.slug} text={item.text} form={textForm(where.to)} />
+            </p>
+          )}
           {credit}
           {hasQuotes(item) && <Quotes item={item} {...where} />}
         </details>
       ) : (
         <div className="min-w-0 flex-1">
           <p className="text-[15px] leading-6 text-ink">
-            {label} {item.text}
+            {label} <Cited slug={where.slug} text={item.text} form={textForm(where.to)} />
           </p>
           {credit}
         </div>
@@ -147,7 +167,21 @@ function MinorChange({ item, where, credit }: { item: VersionItem; where: Where;
   );
 }
 
-function RemainingList({ items, effect, title, empty }: { items: RemainingItem[]; effect: Effect; title: string; empty: string }) {
+function RemainingList({
+  items,
+  effect,
+  title,
+  empty,
+  slug,
+  form,
+}: {
+  items: RemainingItem[];
+  effect: Effect;
+  title: string;
+  empty: string;
+  slug: string;
+  form: CiteForm | null;
+}) {
   return (
     <div>
       <p className={`flex items-center gap-2 text-sm font-semibold ${EFFECT[effect].text}`}>
@@ -158,8 +192,13 @@ function RemainingList({ items, effect, title, empty }: { items: RemainingItem[]
         <ul className="mt-2 space-y-1.5 border-l border-line pl-3 text-sm leading-6 text-body">
           {items.map((r, i) => (
             <li key={i}>
-              {r.text}
-              {r.article && <span className="text-muted"> · {r.article}</span>}
+              <Cited slug={slug} text={r.text} form={form} />
+              {r.article && (
+                <span className="text-muted">
+                  {' · '}
+                  <Cited slug={slug} text={r.article} form={form} />
+                </span>
+              )}
             </li>
           ))}
         </ul>
@@ -205,7 +244,7 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
   const latest = versions.at(-1)!;
   const updated = versions.some((v) => v.key === 'actualizata');
   const { form: FORM, step: STEP } = names(updated);
-  const where = (c: VersionChange): Where => ({ from: c.from, to: c.to, latest: latest.key, form: FORM });
+  const where = (c: VersionChange): Where => ({ from: c.from, to: c.to, latest: latest.key, form: FORM, slug: data.slug });
 
   // Comparațiile vechi (schema 1) n-au importanța schimbărilor: atunci le arătăm pe toate ca majore.
   const weighted = main.changes.some((c) => c.major !== undefined);
@@ -225,7 +264,8 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
   // Scorul și comparația pot spune lucruri diferite: scorul privește toată legea, comparația doar ce s-a schimbat.
   // Sub 0,3 puncte nu e o contradicție de explicat (și s-ar vedea aceeași cifră de două ori).
   const delta = Math.round((to.riskScore - from.riskScore) * 10) / 10;
-  const mismatch = (improving && delta >= 0.3) || (worsening && delta <= -0.3);
+  // Cu o comparație din analiza anterioară, scorurile formelor vin din analize diferite: nu le explicăm diferența.
+  const mismatch = !data.stale && ((improving && delta >= 0.3) || (worsening && delta <= -0.3));
   const quoted = main.changes.some(hasQuotes);
   // Formele citite cu aceeași metodă și același Gemini: diferența de scor e a textului. null = comparații mai vechi, fără metodă.
   const readAlike = versions.every((v) => v.method) ? versions.every((v) => v.method === versions[0].method && (v.agyModel ?? null) === (versions[0].agyModel ?? null)) : null;
@@ -235,6 +275,7 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
       <h2 id="versiuni" className="text-base font-semibold text-ink">
         {updated ? 'Cum s-a schimbat textul' : 'Cum s-a schimbat pe drum'}
       </h2>
+      {data.stale && <StaleNote what="Comparația formelor" />}
 
       <p className="mt-3 font-display text-2xl leading-snug text-ink [text-wrap:balance] sm:text-[1.7rem]">
         {improving || worsening ? (
@@ -376,8 +417,8 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
           <h3 className="text-sm font-semibold text-ink">Ce rămâne în lege</h3>
           {remaining.partial && <p className="mt-1 text-sm text-muted">Textul e lung: lista de mai jos privește doar prima lui parte.</p>}
           <div className="mt-3 grid gap-5 sm:grid-cols-2">
-            <RemainingList items={pm} effect="mai_rau" title="Probleme majore" empty="Nicio problemă majoră." />
-            <RemainingList items={gm} effect="mai_bine" title="Părți bune majore" empty="Nicio parte bună majoră." />
+            <RemainingList items={pm} effect="mai_rau" title="Probleme majore" empty="Nicio problemă majoră." slug={data.slug} form={textForm(latest.key)} />
+            <RemainingList items={gm} effect="mai_bine" title="Părți bune majore" empty="Nicio parte bună majoră." slug={data.slug} form={textForm(latest.key)} />
           </div>
           {minorProblems + minorGood > 0 && (
             <details className="group mt-3">
@@ -388,8 +429,8 @@ export default function BillVersions({ data, amendments = null, pages = new Set(
                 <ChevronDown className="h-3.5 w-3.5 transition-transform group-open:rotate-180" aria-hidden />
               </summary>
               <div className="mt-3 grid gap-5 sm:grid-cols-2">
-                {minorProblems > 0 && <RemainingList items={remaining.problems.filter((r) => !r.major)} effect="mai_rau" title="Probleme minore" empty="" />}
-                {minorGood > 0 && <RemainingList items={remaining.good.filter((r) => !r.major)} effect="mai_bine" title="Părți bune minore" empty="" />}
+                {minorProblems > 0 && <RemainingList items={remaining.problems.filter((r) => !r.major)} effect="mai_rau" title="Probleme minore" empty="" slug={data.slug} form={textForm(latest.key)} />}
+                {minorGood > 0 && <RemainingList items={remaining.good.filter((r) => !r.major)} effect="mai_bine" title="Părți bune minore" empty="" slug={data.slug} form={textForm(latest.key)} />}
               </div>
             </details>
           )}

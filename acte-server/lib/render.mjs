@@ -4,8 +4,11 @@
 import { html, raw, esc, jsonForScript, richText, safeUrl } from './html.mjs';
 import { dateRo, countWord, moLine, agree, EFFECT, effectVerb, STATUS, FOOTER_NOTE, portalUrl } from './format.mjs';
 
-export const ORIGIN = 'https://acte.destraja.ro';
+// Paginile stau pe destraja.ro/acte: Worker-ul site-ului le cere de la acest server (worker/acte.ts). Legăturile,
+// adresele canonice și imaginile poartă prefixul; serverul primește cererile și cu el, și fără el (lib/server.mjs).
 export const SITE = 'https://destraja.ro';
+export const BASE = '/acte';
+export const ORIGIN = `${SITE}${BASE}`;
 const PAGE_CHARS = 300_000; // peste atât, textul se împarte în pagini
 const CHANGES_ON_PAGE = 10;
 
@@ -28,13 +31,14 @@ const C = {
 };
 
 export const actUrl = (a, sub = '') => `${ORIGIN}/${a.slug}${sub}`;
-const actPath = (a, sub = '') => `/${a.slug}${sub}`;
+const actPath = (a, sub = '') => `${BASE}/${a.slug}${sub}`;
 const unitHref = (id) => `#${encodeURIComponent(id).replace(/%2F/g, '/')}`;
 
 // ---------------------------------------------------------------- șablonul
 
 /** Pune capul și conținutul în șablon. tpl conține <!--ACT:HEAD--> și <!--ACT:MAIN-->. */
-export function layout(tpl, { title, description, canonical, robots, jsonld, main, ogType = 'article' }) {
+export function layout(tpl, { title, description, canonical, robots, jsonld, main, ogType = 'article', image = null }) {
+  const img = image || OG_FALLBACK;
   const head = html`<title>${title}</title>
 <meta name="description" content="${description || ''}">
 ${canonical ? html`<link rel="canonical" href="${canonical}">` : ''}
@@ -45,6 +49,14 @@ ${description ? html`<meta property="og:description" content="${description}">` 
 <meta property="og:locale" content="ro_RO">
 <meta property="og:site_name" content="destrajă.ro">
 ${canonical ? html`<meta property="og:url" content="${canonical}">` : ''}
+<meta property="og:image" content="${img.url}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${img.alt}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${img.url}">
+<meta name="twitter:image:alt" content="${img.alt}">
 ${jsonld ? html`<script type="application/ld+json">${jsonForScript(jsonld)}</script>` : ''}`;
   return tpl.replace('<!--ACT:HEAD-->', () => String(head)).replace('<!--ACT:MAIN-->', () => String(main));
 }
@@ -67,12 +79,12 @@ function footerNote(g, extra = null) {
   return html`<aside class="mt-12 border-t border-line pt-6 ${C.muted}">
   <p>${FOOTER_NOTE}</p>
   ${extra}
-  <p class="mt-2">Date actualizate pe ${dateRo(g.dataDate)} (generația ${g.generation}). Ai găsit o greșeală? <a class="${C.quiet}" href="mailto:contact@destraja.ro?subject=${encodeURIComponent('Greșeală pe acte.destraja.ro')}">Scrie-ne la contact@destraja.ro</a>.</p>
+  <p class="mt-2">Date actualizate pe ${dateRo(g.dataDate)} (generația ${g.generation}). Ai găsit o greșeală? <a class="${C.quiet}" href="mailto:contact@destraja.ro?subject=${encodeURIComponent('Greșeală pe destrajă.ro')}">Scrie-ne la contact@destraja.ro</a>.</p>
 </aside>`;
 }
 
 function searchForm(q = '', all = false, autofocus = false) {
-  return html`<form action="/cauta" method="get" role="search" class="flex flex-col gap-3 sm:flex-row">
+  return html`<form action="${BASE}/cauta" method="get" role="search" class="flex flex-col gap-3 sm:flex-row">
   <label for="q" class="sr-only">Caută un act</label>
   <input id="q" name="q" type="search" value="${q}" maxlength="200" placeholder="„OUG 34/2024”, „Legea 198/2023”, „codul fiscal”, „permise de muncă”" class="${C.input}"${autofocus ? raw(' autofocus') : ''}>
   <button type="submit" class="${C.btn}">Caută</button>
@@ -189,7 +201,7 @@ function reportForm(g, act) {
     <p class="text-xs leading-5 text-muted">Nu păstrăm adresa IP. Până verificăm raportul, legătura semnalată nu mai intră în numărătoarea modificărilor.</p>
   </form>
 </details>
-<script src="/_static/acte-report.js" defer></script>`;
+<script src="${BASE}/_static/acte-report.js?v=${RELEASE}" defer></script>`;
 }
 
 /** O relație confirmată: verb la indicativ („modifică”). */
@@ -239,8 +251,32 @@ function unconfirmedSection(g, act, inc, out, more = null) {
 
 // ---------------------------------------------------------------- textul
 
-function renderBlocks(blocks) {
+/**
+ * Ancorele alineatelor și literelor dintr-un articol fără subunități (convertorul la nivel de articol, contract §4.2):
+ * paragraful „(3) …” primește id-ul `art-54/alin-3`, litera „b) …” de sub el `art-54/alin-3/lit-b` (sau `art-54/lit-b`,
+ * fără alineat), adică id-urile din contract (§4.3) pe care le va da și convertorul complet. Un id deja folosit nu se
+ * repetă. Paginile proiectelor de pe destraja.ro trimit aici, la alineatul citat.
+ */
+export function blockAnchors(unitId, blocks) {
+  const seen = new Set();
+  let alin = null;
   return (blocks || []).map((b) => {
+    if (b.t && b.t !== 'p') return null;
+    const t = String(b.text ?? '').trimStart();
+    let m;
+    let id = null;
+    if ((m = /^\((\d+(?:\^\d+)?)\)\s/.exec(t))) {
+      alin = `alin-${m[1]}`;
+      id = `${unitId}/${alin}`;
+    } else if ((m = /^([a-z](?:\^\d+)?)\)\s/.exec(t))) id = `${unitId}/${alin ? `${alin}/` : ''}lit-${m[1]}`;
+    if (!id || seen.has(id)) return null;
+    seen.add(id);
+    return id;
+  });
+}
+
+function renderBlocks(blocks, anchors = []) {
+  return (blocks || []).map((b, i) => {
     if (b.t === 'table' && Array.isArray(b.rows)) {
       const head = Math.max(0, Math.min(b.head || 0, b.rows.length));
       return html`<div class="my-3 overflow-x-auto"><table class="min-w-full border-collapse text-sm">
@@ -249,7 +285,9 @@ ${head ? html`<thead>${b.rows.slice(0, head).map((row) => html`<tr>${row.map((c)
     }
     if (b.t === 'note') return html`<p class="mt-2 rounded-lg bg-sunken px-3 py-2 text-sm leading-6 text-muted">${richText(b.text)}</p>`;
     if (b.t === 'missing') return html`<p class="mt-2 rounded-lg bg-risk-amber-soft px-3 py-2 text-sm leading-6 text-risk-amber-text">Lipsește din copia noastră (${b.what || 'conținut'}): ${b.text || 'vezi Portalul Legislativ'}.</p>`;
-    return html`<p class="mt-2 text-[15px] leading-7 text-body">${richText(b.text ?? '')}</p>`;
+    return anchors[i]
+      ? html`<p id="${anchors[i]}" class="mt-2 scroll-mt-24 text-[15px] leading-7 text-body">${richText(b.text ?? '')}</p>`
+      : html`<p class="mt-2 text-[15px] leading-7 text-body">${richText(b.text ?? '')}</p>`;
   });
 }
 
@@ -258,7 +296,7 @@ function renderUnit(u, depth = 0) {
   const top = depth === 0;
   return html`<section id="${u.id}" class="${top ? 'scroll-mt-24 border-t border-line pt-5 mt-5 first:border-0 first:mt-0 first:pt-0' : 'mt-2 pl-4'}">
 ${top ? html`<h3 class="text-base font-semibold text-ink"><a href="${unitHref(u.id)}" class="hover:underline">${richText(u.label || u.id)}</a>${u.title ? html`<span class="mt-1 block font-normal text-body">${richText(u.title)}</span>` : ''}</h3>` : u.label ? html`<span class="font-semibold text-ink">${richText(u.label)}</span>` : ''}
-${renderBlocks(u.blocks)}
+${renderBlocks(u.blocks, top && /^art-/.test(u.id) && !u.children?.length ? blockAnchors(u.id, u.blocks) : [])}
 ${(u.children || []).map((c) => renderUnit(c, depth + 1))}
 ${(u.notes || []).map((n) => html`<p class="mt-2 text-xs leading-5 text-muted">${richText(n.text)}</p>`)}
 </section>`;
@@ -364,10 +402,25 @@ const INDEX_KINDS = new Set(['lege', 'oug', 'og', 'hg', 'decret-lege', 'cod', 'd
 // Până la lansare (porțile 0.9), versiunea spune launched: false și nimic nu se indexează.
 let LAUNCHED = false;
 let SITEKEY = null;
-export const configure = ({ launched, sitekey }) => {
-  LAUNCHED = !!launched;
+// Imaginile de previzualizare (lib/og.mjs): adresa lor doar când serverul le poate desena; altfel, cea de rezervă.
+let OG_IMAGES = null;
+// Id-ul versiunii, în adresa scripturilor din /_static care n-au amprentă în nume (acte-report.js).
+let RELEASE = 'dev';
+export const configure = ({ launched, sitekey, og, release }) => {
+  if (release !== undefined) RELEASE = String(release).slice(0, 12);
+  if (launched !== undefined) LAUNCHED = !!launched;
   if (sitekey !== undefined) SITEKEY = sitekey;
+  if (og !== undefined) OG_IMAGES = og;
 };
+/** Imaginea de rezervă: cea a paginii „Monitorul Oficial, în cifre” de pe destraja.ro. */
+export const OG_FALLBACK = { url: `${SITE}/monitorul-oficial/opengraph-image`, alt: 'Monitorul Oficial, în cifre, pe destrajă.ro' };
+/** og:image pentru un act (sau pentru pagina de start, fără act); generația și versiunea desenului schimbă adresa. */
+export function ogImage(g, act = null) {
+  if (!OG_IMAGES || !g) return OG_FALLBACK;
+  const v = `?v=${g.generation}-${OG_IMAGES.version}`;
+  if (!act) return { url: `${ORIGIN}/imagine.png${v}`, alt: 'Actele din Monitorul Oficial, pe destrajă.ro' };
+  return { url: `${actUrl(act, '/imagine.png')}${v}`, alt: `${act.cite}${act.text_policy === 'show' && act.title ? ` ${shorten(act.title, 140)}` : ''}, pe destrajă.ro` };
+}
 export const isLaunched = () => LAUNCHED;
 export function robotsFor(act) {
   return LAUNCHED && act.indexable && act.text_policy === 'show' && !(act.flags || []).length && INDEX_KINDS.has(act.kind) ? 'index, follow' : 'noindex, follow';
@@ -416,7 +469,7 @@ export function actPage(tpl, g, act) {
   const textSection = renderTextSection(g, act, { base: actPath(act) });
 
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [act.cite, null]])}
+${breadcrumb([['Acte', BASE], [act.cite, null]])}
 <article>
 ${actHeader(g, act)}
 <section aria-labelledby="modificari" class="mt-10">
@@ -445,6 +498,7 @@ ${footerNote(g, flags.includes('suspect_consolidation') ? html`<p class="mt-2">R
     canonical: actUrl(act),
     robots: robotsFor(act),
     jsonld: jsonLd(g, act, st),
+    image: ogImage(g, act),
     main,
   });
 }
@@ -482,7 +536,7 @@ ${page == null && long ? html`<p class="mt-3 text-[15px] text-body">Textul are $
 /** /<slug>/text: textul publicat, pe pagini. */
 export function textPage(tpl, g, act, page) {
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [act.cite, actPath(act)], ['Textul', null]])}
+${breadcrumb([['Acte', BASE], [act.cite, actPath(act)], ['Textul', null]])}
 ${actHeader(g, act, { sub: 'Textul publicat' })}
 ${renderTextSection(g, act, { base: actPath(act, '/text'), page })}
 ${footerNote(g)}
@@ -492,6 +546,7 @@ ${footerNote(g)}
     description: `Textul ${act.cite} așa cum a fost publicat în Monitorul Oficial, după Portalul Legislativ.`,
     canonical: actUrl(act, `/text${page > 1 ? `?pagina=${page}` : ''}`),
     robots: robotsFor(act),
+    image: ogImage(g, act),
     main,
   });
 }
@@ -511,7 +566,7 @@ export function changesPage(tpl, g, act, page, perPage = 100) {
         )}</nav>`
       : '';
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [act.cite, actPath(act)], ['Modificări', null]])}
+${breadcrumb([['Acte', BASE], [act.cite, actPath(act)], ['Modificări', null]])}
 ${actHeader(g, act, { sub: 'Toate modificările și legăturile' })}
 <section class="mt-10"><h2 class="${C.h2}">Modificări confirmate</h2>
 <p class="mt-3 text-lg leading-8 text-ink">${counterSentence(g, act, st)}</p>
@@ -527,6 +582,7 @@ ${footerNote(g)}
     description: `Lista legăturilor ${act.cite} din Portalul Legislativ, cu cele confirmate separat de cele neconfirmate.`,
     canonical: actUrl(act, `/modificari${page > 1 ? `?pagina=${page}` : ''}`),
     robots: robotsFor(act),
+    image: ogImage(g, act),
     main,
   });
 }
@@ -541,7 +597,7 @@ export function formPage(tpl, g, act, form, { asked = null } = {}) {
       ? html`<p class="mt-3 text-[15px] text-body">La ${dateRo(asked)} se aplica forma datată ${dateRo(form.valid_from)}${act.in_force_from && asked < act.in_force_from ? html`; actul nu intrase încă în vigoare la această dată` : ''}.</p>`
       : '';
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [act.cite, actPath(act)], [`Forma din ${dateRo(form.valid_from)}`, null]])}
+${breadcrumb([['Acte', BASE], [act.cite, actPath(act)], [`Forma din ${dateRo(form.valid_from)}`, null]])}
 ${actHeader(g, act, { sub: `Formă consolidată informativă a Portalului Legislativ, datată ${dateRo(form.valid_from)}` })}
 <section class="mt-8">
 ${intro}
@@ -564,6 +620,7 @@ ${footerNote(g)}
     description: `Forma consolidată informativă a Portalului Legislativ pentru ${act.cite}, datată ${dateRo(form.valid_from)}.`,
     canonical: actUrl(act, `/forma/${form.valid_from}`),
     robots: 'noindex, follow',
+    image: ogImage(g, act),
     main,
   });
 }
@@ -574,6 +631,62 @@ function actListItem(a, extra = null) {
   const name = a.kind === 'cod' && a.code_name ? a.code_name : a.cite;
   const title = a.title && a.title !== name ? a.title : null;
   return html`<li class="border-b border-line py-3 last:border-0"><a class="${C.quiet} text-[15px]" href="${actPath(a)}">${name}</a>${title ? html` <span class="text-[15px] text-body">${shorten(title, 140)}</span>` : ''}${extra ? html`<span class="block text-sm text-muted">${extra}</span>` : ''}</li>`;
+}
+
+// ---------------------------------------------------------------- codurile de pe pagina de start
+
+// Titlul care e chiar citarea actului de adoptare („Legea nr. 286/2009”, „Ordonanța nr. 29/1997 privind Codul aerian”).
+const CITE_TITLE = /^(Legea|Ordonanța|Ordonanţa|Decretul|Decret-lege|Hotărârea|Decizia)\b/;
+// Edițiile aceluiași cod se recunosc după nume doar la codurile țării (Parlamentul, Guvernul, Marea Adunare Națională):
+// „Codul de etică” sau „Codul de reglementare” sunt nume comune pentru coduri diferite ale unor instituții diferite.
+const NATIONAL_ISSUERS = ['parlamentul', 'guvernul', 'man', 'man-2'];
+const newerEditions = new WeakMap();
+/** Anul celei mai noi ediții a fiecărui cod al țării (după code_name), dintre codurile indexabile ale generației. */
+function newestByName(g) {
+  if (!newerEditions.has(g)) {
+    const m = new Map();
+    const sql = `SELECT code_name, max(year) AS y FROM acts WHERE kind = 'cod' AND indexable = 1 AND code_name IS NOT NULL AND issuer_key IN (${NATIONAL_ISSUERS.map(() => '?').join(',')}) GROUP BY code_name`;
+    for (const r of g.db.prepare(sql).all(...NATIONAL_ISSUERS)) m.set(r.code_name, r.y);
+    newerEditions.set(g, m);
+  }
+  return newerEditions.get(g);
+}
+
+/**
+ * Un cod în listă: numele cu anul („Codul penal (2009)”), o etichetă de stare doar când o știm (în vigoare, abrogat în
+ * <an>, sau ediție veche când există una mai nouă cu același nume; „necunoscut” rămâne fără etichetă, ca pe pagina
+ * actului), iar dedesubt actul de adoptare, când îl avem.
+ */
+export function codeRow(g, a) {
+  const newest = a.code_name && NATIONAL_ISSUERS.includes(a.issuer_key) ? newestByName(g).get(a.code_name) : null;
+  const newer = newest != null && a.year != null && newest > a.year ? newest : null;
+  const repealed = a.status === 'abrogat';
+  const by = repealed && a.status_by ? g.byId(a.status_by)?.cite : null;
+  const chip = a.status === 'in_vigoare'
+    ? { tone: 'green', text: 'în vigoare' }
+    : repealed
+      ? { tone: 'red', text: `abrogat${a.status_from ? ` în ${a.status_from.slice(0, 4)}` : ''}`, title: by ? `Abrogat de ${by}` : null }
+      : newer
+        ? { tone: 'muted', text: 'ediție mai veche', title: `Există și ediția din ${newer}` }
+        : null;
+  const enact = a.title && CITE_TITLE.test(a.title) ? a.title : a.code_of ? g.byId(a.code_of)?.cite || null : null;
+  const issued = [(a.issuers || []).join(', '), a.act_date ? dateRo(a.act_date) : null].filter(Boolean).join(', ');
+  const sub = enact || (a.title && a.title !== a.code_name ? a.title : null) || moLine(a) || issued || null;
+  const name = a.code_name ? `${a.code_name}${a.year ? ` (${a.year})` : ''}` : a.cite;
+  return {
+    historic: repealed || !!newer,
+    name,
+    year: a.year || 0,
+    html: html`<li class="border-b border-line py-3 last:border-0"><span class="flex flex-wrap items-center gap-x-2 gap-y-1"><a class="${C.quiet} text-[15px]" href="${actPath(a)}">${name}</a>${chip ? html`<span class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold ${C.chip[chip.tone]}"${chip.title ? html` title="${chip.title}"` : ''}>${chip.text}</span>` : ''}</span>${sub ? html`<span class="mt-0.5 block text-sm text-muted">${shorten(sub, 140)}</span>` : ''}</li>`,
+  };
+}
+
+/** Codurile: întâi cele actuale (alfabetic), apoi „Coduri istorice” (abrogate sau cu o ediție mai nouă), cele noi primele. */
+function codesSection(g, codes) {
+  const rows = codes.filter(Boolean).map((a) => codeRow(g, a));
+  const current = rows.filter((r) => !r.historic).sort((x, y) => x.name.localeCompare(y.name, 'ro'));
+  const old = rows.filter((r) => r.historic).sort((x, y) => y.year - x.year || x.name.localeCompare(y.name, 'ro'));
+  return html`<section><h2 class="${C.h2}">Coduri</h2><ul class="mt-4">${current.map((r) => r.html)}</ul>${old.length ? html`<h3 class="mt-8 text-base font-semibold text-ink">Coduri istorice</h3><ul class="mt-2">${old.map((r) => r.html)}</ul>` : ''}</section>`;
 }
 
 export function landingPage(tpl, g) {
@@ -588,7 +701,7 @@ ${breadcrumb([['Acte', null]])}
 </header>
 <div class="mt-8 max-w-3xl">${searchFormSimple('')}</div>
 <div class="mt-12 grid gap-10 lg:grid-cols-3">
-  <section><h2 class="${C.h2}">Coduri</h2><ul class="mt-4">${codes.map((a) => actListItem(a))}</ul></section>
+  ${codesSection(g, codes)}
   ${g.hasConfidence ? html`<section><h2 class="${C.h2}">Cele mai modificate</h2><ul class="mt-4">${amended.map((a) => [a, g.confirmedStats(a.id)]).filter(([, st]) => st.changes).map(([a, st]) => actListItem(a, `${countWord(st.changes, 'modificare confirmată', 'modificări confirmate')}`))}</ul></section>` : ''}
   <section><h2 class="${C.h2}">Publicate recent</h2><ul class="mt-4">${recent.map((a) => actListItem(a, a.mo_date ? dateRo(a.mo_date) : null))}</ul></section>
 </div>
@@ -597,15 +710,16 @@ ${footerNote(g)}
   return layout(tpl, {
     title: 'Actele din Monitorul Oficial: legi, ordonanțe, hotărâri | destrajă.ro',
     description: 'Caută o lege, o ordonanță sau o hotărâre după număr sau titlu și vezi cine a modificat-o și când, cu textul publicat, după Portalul Legislativ.',
-    canonical: `${ORIGIN}/`,
+    canonical: ORIGIN,
     robots: LAUNCHED ? 'index, follow' : 'noindex, follow',
     ogType: 'website',
+    image: ogImage(g),
     main,
   });
 }
 
 function searchFormSimple(q, all = false) {
-  return html`<form action="/cauta" method="get" role="search">
+  return html`<form action="${BASE}/cauta" method="get" role="search">
   <label for="q" class="mb-2 block text-sm font-semibold text-ink">Caută după număr sau titlu</label>
   <div class="flex flex-col gap-3 sm:flex-row">
     <input id="q" name="q" type="search" value="${q}" maxlength="200" placeholder="OUG 34/2024, Legea 198/2023, codul fiscal" class="${C.input}">
@@ -619,7 +733,7 @@ void searchForm;
 export function searchPage(tpl, g, q, result, all) {
   const r = result;
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], ['Căutare', null]])}
+${breadcrumb([['Acte', BASE], ['Căutare', null]])}
 <h1 class="font-display mt-6 text-4xl font-normal text-ink">Caută un act</h1>
 <div class="mt-6 max-w-3xl">${searchFormSimple(q, all)}</div>
 ${q ? html`<section class="mt-8 max-w-3xl" aria-live="polite">
@@ -640,7 +754,7 @@ ${footerNote(g)}
 
 export function messagePage(tpl, g, { status, title, text }) {
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [title, null]])}
+${breadcrumb([['Acte', BASE], [title, null]])}
 <div class="mt-10 max-w-2xl">
   <p class="text-sm font-semibold tabular-nums text-muted">${status}</p>
   <h1 class="font-display mt-2 text-4xl font-normal text-ink">${title}</h1>

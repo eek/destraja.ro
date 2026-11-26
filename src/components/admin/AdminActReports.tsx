@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { RefreshCw } from 'lucide-react';
 import { btnSecondary, linkCls, panel } from '@/components/ui';
 
-// Rapoartele despre acte și legăturile lor, de pe acte.destraja.ro (worker/act-report.ts). Un raport deschis (nou,
+// Rapoartele despre acte și legăturile lor, de pe destraja.ro/acte (worker/act-report.ts). Un raport deschis (nou,
 // contestat, în lucru) scoate legătura din contoarele și starea paginii actului până la reverificare
 // (scripts/acte-contested.mjs). Textul e scris de necunoscuți: doar text, fără HTML.
 
@@ -69,7 +69,7 @@ export default function AdminActReports() {
     <section className="mt-14" aria-labelledby="acte-rapoarte">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h2 id="acte-rapoarte" className="font-display text-2xl font-normal">
-          Acte și legături (acte.destraja.ro)
+          Acte și legături (destraja.ro/acte)
         </h2>
         <div className="flex items-center gap-2 text-sm">
           {(['open', 'closed', 'all'] as const).map((g) => (
@@ -93,7 +93,7 @@ export default function AdminActReports() {
           <li key={r.id} className={`${panel} p-4`}>
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
               <span className="rounded-full bg-sunken px-2 py-0.5 text-xs font-semibold">{LABEL[r.status]}</span>
-              <a className={linkCls} href={`https://acte.destraja.ro/${r.act_slug}`} target="_blank" rel="noopener noreferrer">
+              <a className={linkCls} href={`/acte/${r.act_slug}`} target="_blank" rel="noopener noreferrer">
                 {r.act_slug}
               </a>
               {r.kind === 'relatie' && <span className="font-mono text-xs text-muted">legătura {r.relation_id}</span>}

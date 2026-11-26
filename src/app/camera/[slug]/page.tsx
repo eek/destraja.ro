@@ -15,9 +15,14 @@ import {
   initiatorLabel,
   registeredYear,
 } from '@/lib/cdep';
+import { isStale, staleness } from '@/lib/fresh';
+import StaleNote from '@/components/bills/StaleNote';
+import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeaderStatus';
 import { dayDiff, shortCommittee, shortDate } from '@/lib/cdep-text';
 import { resolveStatus } from '@/lib/bill-status';
 import BillStatusCard from '@/components/camera/BillStatusCard';
+import { StuckLine } from '@/components/camera/StuckNote';
+import { stillness } from '@/lib/uitate';
 import MoPublication from '@/components/mo/MoPublication';
 import { getMoLaw } from '@/lib/mo';
 import { RISK } from '@/lib/risk';
@@ -29,6 +34,8 @@ import { canonicalPath, nonCanonicalPair } from '@/lib/cross-chamber';
 import { RouteSteps, type RouteStep } from '@/components/bills/BillRoute';
 import WriteCommittee from '@/components/camera/WriteCommittee';
 import BillVersions from '@/components/camera/BillVersions';
+import { ChangedDocs, CopyLink } from '@/components/bills/DocumentCopies';
+import { getDocumentCopies } from '@/lib/documente';
 import BillAmendments from '@/components/camera/BillAmendments';
 import { getMpPageSlugs } from '@/lib/mp-pages';
 import BillBalance from '@/components/bills/BillBalance';
@@ -51,6 +58,7 @@ import ScoreTrajectory, { ScoreHistory, avizeOpinions } from '@/components/bills
 import { getBillAvize, getCommitteeAvize } from '@/lib/avize';
 import ProcedureTimeline from '@/components/camera/ProcedureTimeline';
 import { chamberHappenings, getBillHistory } from '@/lib/istoric';
+import Cited from '@/components/cite/Cited';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -96,11 +104,15 @@ export default async function CameraBillPage({ params }: PageProps) {
   ]);
   const mpPages = amendments || votes ? await getMpPageSlugs() : new Set<string>();
   const otherChamber = await nonCanonicalPair(`/camera/${slug}`);
+  // Copiile noastre ale PDF-urilor de pe cdep.ro (data/documente/manifest.jsonl, servite din R2 la /documente/…).
+  const copies = await getDocumentCopies(slug);
   const comparing = !versions && versionsStatus?.pending.includes(slug);
   if (!bill) notFound();
 
   const f = bill.fisa;
   const c = analysis?.consensus;
+  // Ce e din analiza anterioară (src/lib/fresh.ts): apare cu notă; legăturile amendamentelor cu schimbările, deloc.
+  const fresh = staleness(slug);
   const builtOn = todayISO();
   // Ce s-a întâmplat de la analiză încoace (pașii din fișă, forma nouă comparată, anunțurile din presă); la proiectele încă
   // neanalizate, în ultimele 30 de zile.
@@ -114,6 +126,8 @@ export default async function CameraBillPage({ params }: PageProps) {
   const mo = await getMoLaw(slug);
   const status = mo && (resolved.key === 'lege' || resolved.key === 'promulgat') ? { ...resolved, nextLabel: null, next: null } : resolved;
   const stage = status.stage;
+  // Fără niciun pas procedural de peste șase luni, cu aceeași socoteală ca /uitate: rândul din cap și banda din card.
+  const still = stillness(bill, builtOn, resolved);
   const atChamber = ['comisii', 'raport', 'plen', 'altele'].includes(stage);
   // Proiectele din anii trecuți încă în dezbatere (scripts/straja-cdep-vechi.mjs): anul înregistrării se vede lângă număr.
   const year = registeredYear(bill);
@@ -222,9 +236,20 @@ export default async function CameraBillPage({ params }: PageProps) {
                 {older && ` · înregistrat în ${year}`}
               </span>
             </div>
+            {/* Starea proiectului, sub insignă: întâi „niciun pas din …” (StuckLine), apoi prospețimea analizei. */}
+            {(still || analysis) && (
+              <BillHeaderStatus>
+                {still && <StuckLine still={still} href="#unde-e-acum" />}
+                {analysis && <FreshnessStatus analysis={analysis} fresh={fresh} has={{ versions: Boolean(versions), balance: Boolean(balance) }} />}
+              </BillHeaderStatus>
+            )}
             {analysis && <ScoreTrajectory analysis={analysis} versions={versions} opinions={avizeOpinions(avize?.documents ?? [])} />}
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
-            {c && <p className="mt-4 text-lg leading-8 text-ink">{c.summaryTlDr}</p>}
+            {c && (
+              <p className="mt-4 text-[17px] leading-7 text-ink sm:text-lg sm:leading-8">
+                <Cited slug={slug} text={c.summaryTlDr} />
+              </p>
+            )}
             {c && <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.titlu}</p>}
             {related.length > 0 && (
               <div className="mt-2">
@@ -269,7 +294,7 @@ export default async function CameraBillPage({ params }: PageProps) {
           </div>
         </header>
 
-        <BillStatusCard status={status} readAt={bill.cititLa} builtOn={builtOn} />
+        <BillStatusCard status={status} readAt={bill.cititLa} builtOn={builtOn} still={still} />
         {mo && <MoPublication law={mo.law} readOn={mo.readOn} />}
 
         {f.consultare && (
@@ -279,14 +304,15 @@ export default async function CameraBillPage({ params }: PageProps) {
         <BillHappenings items={happenings} note={happeningsNote} builtOn={builtOn} billId={bill.numar} />
 
         {c && analysis && (
-          <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council}>
+          <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council} slug={slug}>
             <ScoreHistory analysis={analysis} versions={versions} />
+            {isStale(fresh.analysis) && <StaleNote text="Legea modificată sau textul proiectului s-a schimbat de la această analiză; se actualizează." />}
             <ReportIssue billId={bill.numar} target="consensus" />
           </ModelsVerdict>
         )}
         <BillReports reports={reports} manual={manualCorrections(analysis?.corrections, reports)} />
         <BillAvize slug={slug} />
-        {c && balance && <BillBalance data={balance} level={c.riskLevel} />}
+        {c && balance && <BillBalance data={balance} level={c.riskLevel} stale={isStale(fresh.balance)} />}
 
         <section aria-labelledby="traseu" className={`${panel} mt-6 p-6 sm:p-8`}>
           <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -312,7 +338,7 @@ export default async function CameraBillPage({ params }: PageProps) {
         <BillAgenda items={agenda} billId={bill.numar} />
         <BillVotes data={votes} pages={mpPages} billId={bill.numar} />
 
-        {versions && <BillVersions data={versions} amendments={amendments} pages={mpPages} />}
+        {versions && <BillVersions data={versions} amendments={isStale(fresh.amendments) ? null : amendments} pages={mpPages} />}
         {amendments && <BillAmendments data={amendments} pages={mpPages} />}
         {comparing && (
           <section aria-labelledby="versiuni" role="note" className={`${panel} mt-6 p-6 sm:p-7`}>
@@ -378,11 +404,15 @@ export default async function CameraBillPage({ params }: PageProps) {
               </h2>
               <div className="rounded-2xl bg-sunken p-6">
                 <h3 className="text-sm font-semibold text-ink">Ce promit inițiatorii</h3>
-                <p className="mt-2 text-[15px] leading-7 text-body">{c.initiatorClaim}</p>
+                <p className="mt-2 text-[15px] leading-7 text-body">
+                  <Cited slug={slug} text={c.initiatorClaim} />
+                </p>
               </div>
               <div className={`rounded-2xl p-6 ${c.riskLevel === 'red' ? 'bg-risk-red-soft' : c.riskLevel === 'yellow' ? 'bg-risk-amber-soft' : 'bg-risk-green-soft'}`}>
                 <h3 className={`text-sm font-semibold ${RISK[c.riskLevel].text}`}>Ce face legea în realitate</h3>
-                <p className="mt-2 text-[15px] leading-7 text-ink">{c.realityCheck}</p>
+                <p className="mt-2 text-[15px] leading-7 text-ink">
+                  <Cited slug={slug} text={c.realityCheck} />
+                </p>
               </div>
             </section>
           </>
@@ -434,20 +464,31 @@ export default async function CameraBillPage({ params }: PageProps) {
               Documente oficiale
             </h2>
             <div className="mt-4 flex flex-wrap gap-2">
-              {f.documente!.map((d) => (
-                <a
-                  key={d.url}
-                  href={d.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  {...trackAttrs('official_source_open', { bill_id: bill.numar, source: 'cdep_pdf', doc: d.eticheta })}
-                  className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
-                >
-                  <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
-                  {d.eticheta}
-                </a>
-              ))}
+              {f.documente!.map((d) => {
+                const copy = copies.get(d.url);
+                return (
+                  <span key={d.url} className="inline-flex flex-wrap items-center gap-x-2">
+                    <a
+                      href={d.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      {...trackAttrs('official_source_open', { bill_id: bill.numar, source: 'cdep_pdf', doc: d.eticheta })}
+                      className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
+                    >
+                      <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
+                      {d.eticheta}
+                    </a>
+                    {copy && <CopyLink copy={copy} billId={bill.numar} doc={d.eticheta} />}
+                  </span>
+                );
+              })}
             </div>
+            <ChangedDocs
+              items={f.documente!.flatMap((d) => (copies.has(d.url) ? [{ label: d.eticheta, copy: copies.get(d.url)! }] : []))}
+              site="cdep.ro"
+              analyzedAt={analysis?.updatedAt}
+              billId={bill.numar}
+            />
           </section>
         )}
 

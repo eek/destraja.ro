@@ -20,7 +20,8 @@ interface ActionKitClientProps {
   bill: EnrichedBill;
   // Secțiunea „În presă”, randată pe server: stă între kit și auditul AI.
   press?: React.ReactNode;
-  // Memoriul gata făcut din public/docs, dacă există; altfel îl facem în browser, ca linkul să nu ducă la 404.
+  // Memoriul gata făcut din public/docs, dacă există și e la zi (src/lib/fresh.ts); altfel îl facem în browser, ca linkul să
+  // nu ducă la un 404 sau la memoriul altei analize.
   memoHref?: string | null;
 }
 

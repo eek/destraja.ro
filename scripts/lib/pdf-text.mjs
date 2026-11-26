@@ -19,7 +19,7 @@ import os from 'node:os';
 import path from 'node:path';
 import zlib from 'node:zlib';
 import crypto from 'node:crypto';
-import { spawn } from 'node:child_process';
+import { spawn, spawnSync } from 'node:child_process';
 import { writeFileAtomic } from './atomic.mjs';
 
 const OCR_HOME = process.env.LASTRAJA_OCR_HOME || path.join(os.homedir(), '.local', 'share', 'lastraja-ocr');
@@ -647,14 +647,31 @@ function fromTesseract(tess) {
 
 const children = new Set();
 const workDirs = new Set();
-function killChildren() {
-  for (const c of children) {
-    try {
-      process.kill(-c.pid, 'SIGKILL');
-    } catch {
-      // deja oprit
+/**
+ * Oprește o unealtă cu tot ce a pornit: grupul ei de procese și, căutați după părinte, urmașii mutați în alt grup sau
+ * în altă sesiune (un nepot pornit cu setsid nu e în grup și ține deschise pipe-urile unealtei). Urmașii se caută
+ * înainte de oprire: după ea ajung la launchd și nu mai pot fi legați de unealtă.
+ */
+function killTree(pid) {
+  const kids = new Map();
+  for (const line of (spawnSync('ps', ['-axo', 'pid=,ppid='], { encoding: 'utf8' }).stdout ?? '').split('\n')) {
+    const [p, parent] = line.trim().split(/\s+/).map(Number);
+    if (p) kids.set(parent, [...(kids.get(parent) ?? []), p]);
+  }
+  const all = [pid];
+  for (let i = 0; i < all.length; i++) all.push(...(kids.get(all[i]) ?? []));
+  for (const p of all) {
+    for (const target of [-p, p]) {
+      try {
+        process.kill(target, 'SIGKILL');
+      } catch {
+        // deja oprit sau nu e conducător de grup
+      }
     }
   }
+}
+function killChildren() {
+  for (const c of children) killTree(c.pid);
   for (const d of workDirs) fs.rmSync(d, { recursive: true, force: true });
 }
 /** Un folder de lucru în cache, șters la final sau dacă procesul e oprit. */
@@ -680,13 +697,20 @@ function hookExit() {
   }
 }
 
+// Cât așteptăm după ieșirea unealtei (sau după ce am oprit-o) să se închidă și pipe-urile ei. Un nepot rămas în viață
+// le poate ține deschise oricât; după acest timp le închidem noi și ne întoarcem cu ce avem.
+const PIPE_GRACE_MS = 3000;
+
 /**
  * Rulează o unealtă externă cu limită de timp; o oprește cu tot cu procesele ei la timeout sau la ieșirea noastră.
  * `steps` e pentru o unealtă care lucrează pe rând mai multe fișiere: [{ done, ms }], unde `done` e fișierul care apare
  * când pasul s-a terminat, iar `ms` limita lui. Ceasul repornește la fiecare pas, deci limita e pe fișier, nu pe rulare,
  * și numără doar timpul în care am fost treji: un Mac adormit cu unealta pornită nu face din document unul blocat.
+ * La limită promisiunea se încheie cel târziu după PIPE_GRACE_MS, fără să mai aștepte „close”: un nepot pornit în altă
+ * sesiune, care ținea pipe-urile deschise, ar fi ținut-o altfel până la ieșirea lui (o probă: 20 s în loc de 1).
+ * `pollMs` e cât de des se uită ceasul pe pași (mai mic doar în teste).
  */
-function runTool(cmd, args, { env = process.env, timeoutMs = 60_000, steps = null } = {}) {
+export function runTool(cmd, args, { env = process.env, timeoutMs = 60_000, steps = null, pollMs = 2000 } = {}) {
   hookExit();
   return new Promise((resolve, reject) => {
     const child = spawn(cmd, args, { env, stdio: ['ignore', 'pipe', 'pipe'], detached: true });
@@ -694,16 +718,10 @@ function runTool(cmd, args, { env = process.env, timeoutMs = 60_000, steps = nul
     let out = '';
     let err = '';
     let timedOut = null;
+    let settled = false;
+    let grace = null;
     child.stdout.on('data', (c) => (out = (out + c).slice(-256 * 1024)));
     child.stderr.on('data', (c) => (err = (err + c).slice(-32 * 1024)));
-    const stop = (why) => {
-      timedOut = why;
-      try {
-        process.kill(-child.pid, 'SIGKILL');
-      } catch {
-        // deja oprit
-      }
-    };
     const mins = (ms) => Math.max(1, Math.round(ms / 60_000));
     let step = 0;
     let ran = 0;
@@ -718,21 +736,41 @@ function runTool(cmd, args, { env = process.env, timeoutMs = 60_000, steps = nul
             ran = 0;
           }
           if (!timedOut && ran > steps[step].ms) stop(`oprit după ${mins(steps[step].ms)} min${steps.length > 1 ? ` la documentul ${step + 1} din ${steps.length}` : ''}`);
-        }, 2000)
+        }, pollMs)
       : setTimeout(() => stop(`oprit după ${mins(timeoutMs)} min`), timeoutMs);
     const clear = () => (steps ? clearInterval(timer) : clearTimeout(timer));
-    child.on('error', (e) => {
+    const settle = (code) => {
+      if (settled) return;
+      settled = true;
       clear();
+      clearTimeout(grace);
+      children.delete(child);
+      // Pipe-urile ținute de un nepot nu mai țin procesul nostru în viață.
+      child.stdout.destroy();
+      child.stderr.destroy();
+      if (code === 0 && !timedOut) return resolve({ stdout: out, stderr: err });
+      const lastLine = err.split('\n').map((l) => l.trim()).filter((l) => l && !/it\/s\]|s\/it\]/.test(l)).at(-1) ?? '';
+      reject(Object.assign(new Error(timedOut ? `${path.basename(cmd)}: ${timedOut}` : `${path.basename(cmd)} cod ${code}: ${lastLine.slice(0, 300)}`), { stderr: err, timedOut: Boolean(timedOut) }));
+    };
+    function stop(why) {
+      timedOut = why;
+      clear();
+      killTree(child.pid);
+      grace ??= setTimeout(() => settle(null), PIPE_GRACE_MS);
+    }
+    child.on('error', (e) => {
+      if (settled) return;
+      settled = true;
+      clear();
+      clearTimeout(grace);
       children.delete(child);
       reject(e);
     });
-    child.on('close', (code) => {
-      clear();
-      children.delete(child);
-      if (code === 0 && !timedOut) return resolve({ stdout: out, stderr: err });
-      const last = err.split('\n').map((l) => l.trim()).filter((l) => l && !/it\/s\]|s\/it\]/.test(l)).at(-1) ?? '';
-      reject(Object.assign(new Error(timedOut ? `${path.basename(cmd)}: ${timedOut}` : `${path.basename(cmd)} cod ${code}: ${last.slice(0, 300)}`), { stderr: err, timedOut: Boolean(timedOut) }));
+    // Unealta a ieșit, dar pipe-urile pot rămâne deschise la un nepot: „close” îl așteptăm doar puțin.
+    child.on('exit', (code) => {
+      if (!settled) grace ??= setTimeout(() => settle(code), PIPE_GRACE_MS);
     });
+    child.on('close', (code) => settle(code));
   });
 }
 
@@ -1047,9 +1085,10 @@ function noteMineruFailure(cacheDir, doc, tool, error, pages) {
 /**
  * Rulează MinerU o dată pe mai multe PDF-uri (modelele se încarcă o singură dată) și pune paginile fiecăruia în cache.
  * `docs`: [{ pdfPath, hash, pages }]. Întoarce numărul de documente citite. Fiecare document are limita lui de timp
- * (mineruTimeout, cel mult `maxMs`); cel la care MinerU s-a oprit e ținut minte (mineruFailed).
+ * (mineruTimeout, cel mult `maxMs`); cel la care MinerU s-a oprit e ținut minte (mineruFailed). Exportat pentru teste
+ * (`pollMs` ca la runTool).
  */
-async function runMineru(docs, { cacheDir, tool, label, maxMs }) {
+export async function runMineru(docs, { cacheDir, tool, label, maxMs, pollMs }) {
   if (!docs.length) return 0;
   return withMineruLock(() => withMineruSlot(async () => {
     const work = workDir(cacheDir, 'mineru-');
@@ -1070,7 +1109,7 @@ async function runMineru(docs, { cacheDir, tool, label, maxMs }) {
       try {
         // mineru-kit citește documentele pe rând și scrie rezultatul fiecăruia când l-a terminat.
         const steps = docs.map((d, i) => ({ done: outOf(i), ms: mineruTimeout(counts[i], maxMs) }));
-        await runTool(MINERU_BIN, ['parse', ...inputs, '-o', out, ...MINERU_ARGS, '-f', 'middle_json'], { env: MINERU_ENV, steps });
+        await runTool(MINERU_BIN, ['parse', ...inputs, '-o', out, ...MINERU_ARGS, '-f', 'middle_json'], { env: MINERU_ENV, steps, pollMs });
       } catch (err) {
         error = err;
       }

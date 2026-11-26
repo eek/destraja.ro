@@ -15,6 +15,8 @@ import ModelsVerdict from '@/components/bills/ModelsVerdict';
 import { getBalance } from '@/lib/balance';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillRoute from '@/components/bills/BillRoute';
+import { StuckLine } from '@/components/camera/StuckNote';
+import { stillnessOfNumber } from '@/lib/uitate';
 import MoPublication from '@/components/mo/MoPublication';
 import { getMoLaw } from '@/lib/mo';
 import BillAgenda from '@/components/bills/BillAgenda';
@@ -40,8 +42,14 @@ import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
 import BillHappenings from '@/components/bills/BillHappenings';
 import ScoreTrajectory, { ScoreHistory, senateOpinions } from '@/components/bills/ScoreTrajectory';
 import BillVersions from '@/components/camera/BillVersions';
+import { ChangedDocs, CopyLink } from '@/components/bills/DocumentCopies';
+import { getDocumentCopies } from '@/lib/documente';
 import { getBillVersions } from '@/lib/cdep';
+import { isStale, staleness } from '@/lib/fresh';
+import StaleNote from '@/components/bills/StaleNote';
+import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeaderStatus';
 import { getBillHistory, senateHappenings, withdrawn } from '@/lib/istoric';
+import Cited from '@/components/cite/Cited';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -84,9 +92,8 @@ export default async function BillDetailPage({ params }: PageProps) {
   const mpPages = votes ? await getMpPageSlugs() : new Set<string>();
   const related = await getRelatedActs({ senat: slug });
   const otherChamber = await nonCanonicalPair(`/legi/${slug}`);
-  // Memoriile din public/docs se scriu separat (straja-docx.mjs); un proiect nou poate să nu-l aibă încă.
-  const memoFile = `Punct_de_vedere_${slug.toUpperCase()}.docx`;
-  const memoHref = existsSync(path.join(process.cwd(), 'public', 'docs', memoFile)) ? `/docs/${memoFile}` : null;
+  // Copiile noastre ale PDF-urilor de pe senat.ro (data/documente/manifest.jsonl, servite din R2 la /documente/…).
+  const copies = await getDocumentCopies(slug);
   // Forma inițială și cea actualizată a inițiatorului, citite la fel și comparate (straja-council.mjs --versions --senat).
   const versions = await getBillVersions(slug);
   const manual = manualCorrections(bill.analysis.corrections, reports);
@@ -95,8 +102,16 @@ export default async function BillDetailPage({ params }: PageProps) {
   const builtOn = todayISO();
   // Legea publicată, prin fișa de la Cameră a proiectului (data/mo/legi.json).
   const mo = await getMoLaw(slug);
+  // Ajuns la Cameră și fără niciun pas acolo de peste șase luni (aceeași socoteală ca /uitate).
+  const still = await stillnessOfNumber(bill.camera?.numar, builtOn);
   const lite = toLite(bill);
   const c = bill.analysis.consensus;
+  // Ce e din analiza anterioară (src/lib/fresh.ts): apare cu notă sau, memoriul static, deloc până se reface.
+  const fresh = staleness(slug);
+  // Memoriile din public/docs se scriu separat (straja-docx.mjs): un proiect nou poate să nu-l aibă încă, iar unul învechit
+  // nu se arată până se reface. Fără el, butonul din kit face memoriul în browser.
+  const memoFile = `Punct_de_vedere_${slug.toUpperCase()}.docx`;
+  const memoHref = !isStale(fresh.docx) && existsSync(path.join(process.cwd(), 'public', 'docs', memoFile)) ? `/docs/${memoFile}` : null;
   const history = await getBillHistory(slug);
   // Ce s-a întâmplat de la analiză încoace; analiza e pe forma inițiatorului.
   const analysedOn = bill.analysis.updatedAt?.slice(0, 10) ?? builtOn;
@@ -159,9 +174,14 @@ export default async function BillDetailPage({ params }: PageProps) {
                 {bill.id} · cod Senat {bill.cod}
               </span>
             </div>
+            {/* Starea proiectului, sub insignă: întâi „niciun pas din …” (StuckLine), apoi prospețimea analizei. */}
+            <BillHeaderStatus>
+              {still && <StuckLine still={still} href="#traseu" />}
+              <FreshnessStatus analysis={bill.analysis} fresh={fresh} has={{ versions: Boolean(versions), balance: Boolean(balance) }} />
+            </BillHeaderStatus>
             <ScoreTrajectory analysis={bill.analysis} versions={versions} opinions={senateOpinions(bill.timeline)} />
             <h1 className="font-display mt-5 text-[clamp(1.9rem,4.2vw,3rem)] font-normal leading-[1.1]">{c.plainTitle}</h1>
-            <p className="mt-4 text-lg leading-8 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>
+            <p className="mt-4 text-[17px] leading-7 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>
             <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.officialTitle}</p>
 
             <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm">
@@ -195,7 +215,7 @@ export default async function BillDetailPage({ params }: PageProps) {
 
         <BillHappenings items={happenings} note={happeningsNote} builtOn={builtOn} billId={bill.id} />
 
-        <ModelsVerdict score={c.riskScore} level={c.riskLevel} summary={c.summaryTlDr} council={bill.analysis.council}>
+        <ModelsVerdict score={c.riskScore} level={c.riskLevel} summary={c.summaryTlDr} council={bill.analysis.council} slug={slug}>
           {corrected && (
             <a href="#greseli" className="mt-4 block rounded-lg bg-brand-soft px-3 py-2 text-sm leading-6 text-ink">
               <strong className="font-semibold">Corectat după raportul unui cititor,</strong> confirmat în textul oficial.{' '}
@@ -207,13 +227,14 @@ export default async function BillDetailPage({ params }: PageProps) {
             <ChevronDown className="h-4 w-4" aria-hidden />
           </a>
           <ScoreHistory analysis={bill.analysis} versions={versions} />
+          {isStale(fresh.analysis) && <StaleNote text="Legea modificată sau textul proiectului s-a schimbat de la această analiză; se actualizează." />}
         </ModelsVerdict>
         <BillReports reports={reports} manual={manual} />
         {versions && <BillVersions data={versions} />}
         <BillAvize slug={slug} />
-        {balance && <BillBalance data={balance} level={c.riskLevel} />}
+        {balance && <BillBalance data={balance} level={c.riskLevel} stale={isStale(fresh.balance)} />}
 
-        <BillRoute bill={bill} />
+        <BillRoute bill={bill} still={still} />
         {mo && <MoPublication law={mo.law} readOn={mo.readOn} />}
         <BillAgenda items={agenda} billId={bill.id} />
         <BillVotes data={votes} pages={mpPages} billId={bill.id} />
@@ -224,11 +245,15 @@ export default async function BillDetailPage({ params }: PageProps) {
           </h2>
           <div className="rounded-2xl bg-sunken p-6">
             <h3 className="text-sm font-semibold text-ink">Ce promit inițiatorii</h3>
-            <p className="mt-2 text-[15px] leading-7 text-body">{c.initiatorClaim}</p>
+            <p className="mt-2 text-[15px] leading-7 text-body">
+              <Cited slug={slug} text={c.initiatorClaim} />
+            </p>
           </div>
           <div className={`rounded-2xl p-6 ${c.riskLevel === 'red' ? 'bg-risk-red-soft' : c.riskLevel === 'yellow' ? 'bg-risk-amber-soft' : 'bg-risk-green-soft'}`}>
             <h3 className={`text-sm font-semibold ${RISK[c.riskLevel].text}`}>Ce face legea în realitate</h3>
-            <p className="mt-2 text-[15px] leading-7 text-ink">{c.realityCheck}</p>
+            <p className="mt-2 text-[15px] leading-7 text-ink">
+              <Cited slug={slug} text={c.realityCheck} />
+            </p>
           </div>
         </section>
 
@@ -237,19 +262,30 @@ export default async function BillDetailPage({ params }: PageProps) {
         <div className="mt-6 flex flex-wrap items-center justify-between gap-3 text-sm">
           <div className="flex flex-wrap items-center gap-2">
             <span className="text-muted">Documente oficiale:</span>
-            {bill.pdfs.map((pdf) => (
-              <a
-                key={pdf.url}
-                href={pdf.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'pdf', doc: pdf.label })}
-                className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
-              >
-                <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
-                {pdf.label}
-              </a>
-            ))}
+            {bill.pdfs.map((pdf) => {
+              const copy = copies.get(pdf.url);
+              return (
+                <span key={pdf.url} className="inline-flex flex-wrap items-center gap-x-2">
+                  <a
+                    href={pdf.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'pdf', doc: pdf.label })}
+                    className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
+                  >
+                    <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
+                    {pdf.label}
+                  </a>
+                  {copy && <CopyLink copy={copy} billId={bill.id} doc={pdf.label} />}
+                </span>
+              );
+            })}
+            <ChangedDocs
+              items={bill.pdfs.flatMap((pdf) => (copies.has(pdf.url) ? [{ label: pdf.label, copy: copies.get(pdf.url)! }] : []))}
+              site="senat.ro"
+              analyzedAt={bill.analysis.updatedAt}
+              billId={bill.id}
+            />
           </div>
           {memoHref && (
             <a
@@ -287,15 +323,21 @@ export default async function BillDetailPage({ params }: PageProps) {
                 <div key={idx} className="p-5 sm:p-6">
                   {/* Întâi ce schimbă, pe înțeles; referința juridică dedesubt (o sugestie a unui cititor). */}
                   <h3 className="text-base font-semibold text-ink sm:text-lg">{item.title}</h3>
-                  <p className={`mt-1 text-sm tabular-nums ${RISK[item.severity]?.text ?? 'text-muted'}`}>{item.article}</p>
+                  <p className={`mt-1 text-sm tabular-nums ${RISK[item.severity]?.text ?? 'text-muted'}`}>
+                    <Cited slug={slug} text={item.article} />
+                  </p>
                   <div className="mt-3 grid gap-4 text-[15px] leading-7 md:grid-cols-2">
                     <div>
                       <p className="mb-1 text-xs font-semibold text-muted">Ce scrie în lege</p>
-                      <p className="text-body">{item.whatChanges}</p>
+                      <p className="text-body">
+                        <Cited slug={slug} text={item.whatChanges} />
+                      </p>
                     </div>
                     <div>
                       <p className={`mb-1 text-xs font-semibold ${RISK[item.severity]?.text ?? 'text-muted'}`}>Ce înseamnă în viața reală</p>
-                      <p className="text-ink">{item.realWorldImpact}</p>
+                      <p className="text-ink">
+                        <Cited slug={slug} text={item.realWorldImpact} />
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -324,7 +366,9 @@ export default async function BillDetailPage({ params }: PageProps) {
                       <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${tone}`}>{label}</span>
                       <h3 className="text-base font-semibold text-ink">{mf.claim}</h3>
                     </div>
-                    <p className="mt-2 text-[15px] leading-7 text-body prose-measure">{mf.explanation}</p>
+                    <p className="mt-2 text-[15px] leading-7 text-body prose-measure">
+                      <Cited slug={slug} text={mf.explanation} />
+                    </p>
                   </div>
                 );
               })}
@@ -445,7 +489,7 @@ export default async function BillDetailPage({ params }: PageProps) {
                     {doc.ocr && <p className="mt-1 text-xs text-muted">Text recunoscut automat din documentul scanat; pot exista mici greșeli. Sursa e PDF-ul oficial.</p>}
                     {doc.markdown ? (
                       <div className="mt-2 max-h-96 overflow-y-auto break-words rounded-xl bg-sunken p-4 text-[13px] leading-relaxed text-body">
-                        <DocumentText markdown={doc.markdown} names={bill.initiators} />
+                        <DocumentText markdown={doc.markdown} names={bill.initiators} signatures={doc.signatures} />
                       </div>
                     ) : (
                       <div className="mt-2 max-h-96 overflow-y-auto whitespace-pre-line break-words rounded-xl bg-sunken p-4 text-[13px] leading-relaxed text-body">

@@ -17,7 +17,7 @@ const today = arg('azi', new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bu
 
 const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'uitate-')), 'uitate.mjs');
 await build({
-  stdin: { contents: "export * from './src/lib/uitate.ts'; export * from './src/lib/uitate-list.ts';", resolveDir: ROOT, loader: 'ts' },
+  stdin: { contents: "export * from './src/lib/uitate.ts'; export * from './src/lib/uitate-list.ts'; export { getCdepBill } from './src/lib/cdep.ts';", resolveDir: ROOT, loader: 'ts' },
   bundle: true,
   platform: 'node',
   format: 'esm',
@@ -90,6 +90,16 @@ check('retrimiterea pentru raport suplimentar repornește ceasul', () => {
   assert.equal(last.kind, 'retrimis');
 });
 
+check('pagina proiectului: lunile și anii fără pas („1 an și 9 luni”), cu sfârșitul de lună', () => {
+  assert.equal(U.addMonths('2025-08-31', 6), '2026-02-28');
+  assert.equal(U.addMonths('2025-02-24', 6), '2025-08-24');
+  assert.equal(U.spanRo('2025-02-24', '2026-11-26'), '1 an și 9 luni');
+  assert.equal(U.spanRo('2025-02-24', '2026-11-23'), '1 an și 8 luni');
+  assert.equal(U.spanRo('2024-11-26', '2026-11-26'), '2 ani');
+  assert.equal(U.spanRo('2026-04-01', '2026-11-26'), '7 luni');
+  assert.equal(U.spanRo('2005-01-01', '2026-02-01'), '21 de ani și 1 lună');
+});
+
 // ─── Sumele, pe datele de azi ──────────────────────────────────────────────────────────────────────────────────────
 const d = await U.getUitate(today);
 assert.ok(d, 'lipsesc datele Camerei');
@@ -138,8 +148,21 @@ check('adresa filtrelor (#proiecte?…) se citește înapoi la fel', () => {
   const f = { ...U.EMPTY, etapa: 'comisii', comisie: 'Juridică, de disciplină și imunități', an: '2021', tacit: true, q: 'vânătorii', ordine: 'vechi', pe: 20, pag: 3 };
   assert.deepEqual(U.fromHash(U.toHash(f)), f);
 });
+// Pagina fiecărui proiect (stillness) spune același lucru ca /uitate: aceeași dată a ultimului pas, aceleași zile, același stadiu.
+const pages = d.all.filter((b) => b.href === `/camera/${b.slug}`);
+let shownOnPages = 0;
+const disagree = [];
+for (const b of pages) {
+  const bill = await U.getCdepBill(b.slug);
+  const s = bill && U.stillness(bill, today);
+  const expected = !!b.last && today > U.addMonths(b.last.date, U.STILL_MONTHS);
+  if (s) shownOnPages++;
+  if (!!s !== expected || (s && (s.days !== b.days || s.last.date !== b.last.date || s.wait !== b.wait))) disagree.push(b.numar);
+}
+check(`pagina proiectului și /uitate: același ultim pas și aceleași zile (${pages.length} pagini)`, () => assert.deepEqual(disagree, []));
 
 const n = (x) => x.toLocaleString('ro-RO');
+console.log(`Pe pagina proiectului, fără pas de peste ${U.STILL_MONTHS} luni: ${n(shownOnPages)} din ${n(pages.length)} pagini de la Cameră`);
 console.log(`\nLa ${today}: ${n(d.total)} proiecte la Cameră; fără pas de peste 1 an: ${n(d.over1)}, 2 ani: ${n(d.over2)}, 4 ani: ${n(d.over4)}`);
 console.log(`Benzi: ${d.bands.map((b) => `${b.key} ${b.count}`).join(', ')}`);
 console.log(`Cel mai vechi: ${d.oldest?.numar}, ${d.oldest?.days} zile de la „${d.oldest?.last?.label}” (${d.oldest?.last?.date})`);

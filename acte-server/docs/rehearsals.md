@@ -22,9 +22,10 @@ acoperite de testele locale (`node --test acte-server/test/*.test.mjs`, 19 teste
 
 Ce **nu** s-a repetat, și de ce:
 - O repornire a întregului VM și tăierea legăturii de internet a biroului: VM-ul ține și `cauta.destraja.ro`.
-  Ce s-ar întâmpla e cunoscut din design §3: tunelul cade, Cloudflare arată pagina 1033 pentru `acte.destraja.ro`,
-  restul site-ului (pe Cloudflare) merge; la revenire `cloudflared` și `acte-server` pornesc singure (ambele `enabled`).
-  Fără regula de cache (Q4) nu avem copii vechi la margine.
+  Ce s-ar întâmpla e cunoscut din design §3: tunelul cade, restul site-ului (pe Cloudflare) merge; la revenire
+  `cloudflared` și `acte-server` pornesc singure (ambele `enabled`). Din 26 noiembrie paginile sunt pe destraja.ro/acte,
+  prin Worker (worker/acte.ts): cât tunelul e jos, Worker-ul servește copia din cache (până la 7 zile) sau pagina 503 a
+  site-ului (`/acte-indisponibil`), nu pagina 1033 a Cloudflare.
 - Un rollback real de date pe VM: cere două generații păstrate; se poate face după următoarea activare (gen 4),
   dar ar întoarce paginile la date mai vechi cât timp NAS-ul lucrează, deci doar la cererea voastră.
 

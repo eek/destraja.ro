@@ -2,86 +2,91 @@
   "slug": "b574-2026",
   "billId": "B574/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T17:34:56.692Z",
-  "inputHash": "f90f39d9c02e",
-  "riskScore": 6.5,
-  "summary": "O lege mai degrabă rea: singurul câștig real, evitarea plății duble din bani publici, e umbrit de reducerea despăgubirilor pentru salariații suspendați pe nedrept și de excluderea dobânzilor.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-26T11:27:39.525Z",
+  "inputHash": "a5682afd4bdc",
+  "riskScore": 5.3,
+  "summary": "Scop legitim de evitare a dublei plăți la stat, dar toate cele patru alineate au erori grave, inechități și neclarități.",
   "good": [
     {
-      "text": "La funcționarii publici, statul nu mai plătește de două ori pentru aceeași perioadă: dacă omul a lucrat între timp tot la stat, salariul primit se scade din sumele restante.",
-      "article": "art. II (art. 513 alin. (5) Cod administrativ)",
-      "quote": "la aceeași sau la o altă autoritate ori instituție publică, drepturile salariale aferente perioadei de suspendare, acordate în condițiile alin.(4), se diminuează",
+      "text": "Actualizarea explicită cu rata inflației protejează puterea de cumpărare a sumelor restante primite de salariați și funcționari după procese lungi.",
+      "article": "Art. I (art. 52 alin. (2²)) și Art. II (art. 513 alin. (6))",
+      "quote": "Despăgubirea acordată potrivit alin.(2), astfel cum a fost, după caz, diminuată în condițiile alin.(2¹), se actualizează exclusiv cu indicele prețurilor de consum comunicat de Institutul Național de Statistică la data plății.",
       "weight": 2
     },
     {
-      "text": "Scăderea privește doar banii câștigați în aceeași perioadă cu suspendarea, nu venituri din alte intervale. Asta limitează abuzurile la calcul.",
-      "article": "art. I (art. 52 alin. (2¹) Codul muncii); art. II (art. 513 alin. (5))",
-      "quote": "se diminuează cu salariile și celelalte drepturi de natură salarială încasate pentru aceeași perioadă",
-      "weight": 1
+      "text": "Împiedică plata dublă din bani publici pentru aceeași perioadă atunci când un funcționar public suspendat a lucrat între timp tot la o instituție de stat.",
+      "article": "Art. II (art. 513 alin. (5))",
+      "quote": "În situația în care funcționarul public a fost încadrat în muncă, pe perioada suspendării raportului de serviciu, la aceeași sau la o altă autoritate ori instituție publică",
+      "weight": 2
     },
     {
-      "text": "Legea spune clar că sumele restante se actualizează cu inflația până la plată, așa că banii plătiți târziu nu se mai pierd din cauza scumpirilor.",
-      "article": "art. I (art. 52 alin. (2²)); art. II (art. 513 alin. (6))",
-      "quote": "Drepturile salariale aferente perioadei de suspendare, acordate în condițiile alin.(4), astfel cum au fost, după caz, diminuate potrivit alin.(5), se actualizează exclusiv",
+      "text": "Limitează explicit deducerea doar la veniturile încasate pentru aceeași perioadă, evitând scăderea banilor câștigați înainte sau după suspendare.",
+      "article": "Art. I (art. 52 alin. (2¹)) și Art. II (art. 513 alin. (5))",
+      "quote": "despăgubirea acordată în condițiile alin.(2) se diminuează cu salariile și celelalte drepturi de natură salarială încasate pentru aceeași perioadă.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "În privat, salariatul suspendat și apoi achitat primește mai puțin dacă s-a angajat în altă parte ca să trăiască. Angajatorul plătește mai puțin datorită muncii omului, iar cine a stat degeaba nu pierde nimic.",
-      "article": "art. I (art. 52 alin. (2¹) Codul muncii)",
+      "text": "Cuvântul «exclusiv» taie dobânda legală de întârziere, reducând reparația persoanei nevinovate doar la inflație, fără compensarea lipsei de folosință a banilor.",
+      "article": "Art. I (art. 52 alin. (2²)) și Art. II (art. 513 alin. (6))",
+      "quote": "se actualizează exclusiv cu indicele prețurilor de consum comunicat de Institutul Național de Statistică la data plății.",
+      "weight": 3
+    },
+    {
+      "text": "Creează discriminare: funcționarii care lucrează în privat pe durata suspendării păstrează toată despăgubirea, dar salariaților li se scade orice salariu.",
+      "article": "Art. I (art. 52 alin. (2¹)) și Art. II (art. 513 alin. (5))",
+      "quote": "funcționarul public a fost încadrat în muncă, pe perioada suspendării raportului de serviciu, la aceeași sau la o altă autoritate ori instituție publică",
+      "weight": 3
+    },
+    {
+      "text": "Descurajează munca: cine stă fără venituri primește despăgubirea integrală, dar cine muncește ca să se întrețină își pierde despăgubirea, chiar până la zero.",
+      "article": "Art. I (art. 52 alin. (2¹)) și Art. II (art. 513 alin. (5))",
+      "quote": "despăgubirea acordată în condițiile alin.(2) se diminuează cu salariile și celelalte drepturi de natură salarială încasate pentru aceeași perioadă.",
+      "weight": 3
+    },
+    {
+      "text": "Nu exceptează un al doilea loc de muncă avut deja înainte de suspendare, tăind nedrept din despăgubire venituri care nu înlocuiesc salariul pierdut.",
+      "article": "Art. I (art. 52 alin. (2¹)) și Art. II (art. 513 alin. (5))",
       "quote": "În situația în care salariatul a fost încadrat în muncă pe perioada suspendării contractului individual de muncă, despăgubirea acordată în condițiile alin.(2) se diminuează",
-      "weight": 3
+      "weight": 2
     },
     {
-      "text": "Cuvântul „exclusiv” poate fi folosit ca să nu se mai acorde dobânda legală și alte daune pentru întârziere. Pentru procesele care durează ani, reparația scade simțitor.",
-      "article": "art. I (art. 52 alin. (2²)); art. II (art. 513 alin. (6))",
-      "quote": "se actualizează exclusiv cu indicele prețurilor de consum comunicat de Institutul Național de Statistică la data plății",
-      "weight": 3
+      "text": "Nu clarifică dacă scăderea se face la brut sau la net și lasă în aer impactul asupra contribuțiilor sociale (CAS/CASS) și stagiului de pensie.",
+      "article": "Art. I (art. 52 alin. (2¹)) și Art. II (art. 513 alin. (5))",
+      "quote": "drepturile salariale aferente perioadei de suspendare, acordate în condițiile alin.(4), se diminuează cu salariile și celelalte drepturi de natură salarială încasate pentru aceeași perioadă.",
+      "weight": 2
     },
     {
-      "text": "Legea nu are reguli de tranziție. Nu e clar dacă se aplică și suspendărilor sau proceselor aflate deja în curs, deci există riscul unei aplicări retroactive, interzise de art. 15 din Constituție.",
-      "article": "art. I și art. II (lipsa dispozițiilor tranzitorii)",
+      "text": "Formula «comunicat la data plății» nu stabilește perioada de calcul a inflației (lunar sau global), ceea ce va genera calcule diferite și noi procese.",
+      "article": "Art. I (art. 52 alin. (2²)) și Art. II (art. 513 alin. (6))",
+      "quote": "diminuate potrivit alin.(5), se actualizează exclusiv cu indicele prețurilor de consum comunicat de Institutul Național de Statistică la data plății.",
+      "weight": 2
+    },
+    {
+      "text": "Lipsesc normele tranzitorii, fiind neclar dacă tăierile și eliminarea dobânzii se aplică și proceselor ori suspendărilor începute înainte de intrarea în vigoare.",
+      "article": "Întregul proiect",
       "quote": null,
       "weight": 2
     },
     {
-      "text": "Formula „încadrat în muncă pe perioada suspendării” ar putea permite scăderea și a salariului de la un al doilea job pe care omul îl avea deja dinainte, deci bani pe care i-ar fi câștigat oricum.",
-      "article": "art. I (art. 52 alin. (2¹)); art. II (art. 513 alin. (5))",
-      "quote": "În situația în care funcționarul public a fost încadrat în muncă, pe perioada suspendării raportului de serviciu",
-      "weight": 2
-    },
-    {
-      "text": "Regulile diferă după cum ai lucrat: la salariații din privat se scade orice salariu, la funcționari doar cel de la stat, iar veniturile ca PFA nu se scad deloc. Tratamentul e inegal, deși legea pretinde că egalizează.",
-      "article": "art. I (art. 52 alin. (2¹)) comparat cu art. II (art. 513 alin. (5))",
-      "quote": "la aceeași sau la o altă autoritate ori instituție publică",
-      "weight": 2
-    },
-    {
-      "text": "Nu e clar cum se calculează actualizarea „la data plății”: de la ce lună, cu ce indice și pentru fiecare lună restantă sau global. Asta poate duce la calcule diferite de la o instanță la alta.",
-      "article": "art. I (art. 52 alin. (2²)); art. II (art. 513 alin. (6))",
-      "quote": null,
+      "text": "Tăierea vizează doar salariile din contracte de muncă, astfel încât cei care câștigă prin PFA, firmă sau contracte civile păstrează întreaga despăgubire.",
+      "article": "Art. I (art. 52 alin. (2¹)) și Art. II (art. 513 alin. (5))",
+      "quote": "se diminuează cu salariile și celelalte drepturi de natură salarială încasate pentru aceeași perioadă.",
       "weight": 1
     },
     {
-      "text": "Expresia „celelalte drepturi de natură salarială” e vagă: nu se știe dacă include bonusuri, tichete sau indemnizații de concediu, așa că se pot scădea mai mulți bani decât e corect.",
-      "article": "art. I (art. 52 alin. (2¹)); art. II (art. 513 alin. (5))",
-      "quote": null,
+      "text": "Completează art. 52 din Codul muncii fără să îl coreleze cu deciziile CCR din 2015 și 2016, lăsând o regulă cu aplicare foarte îngustă și confuză.",
+      "article": "Art. I (art. 52 alin. (2¹))",
+      "quote": "După alineatul (2) al articolului 52 din Legea nr.53/2003 - Codul muncii, republicată în Monitorul Oficial al României, Partea I, nr.345 din 18 mai 2011",
       "weight": 1
     }
   ],
-  "fix": {
-    "text": "Trebuie scoasă scăderea veniturilor din Codul muncii (alin. 2¹) și cuvântul „exclusiv”, astfel încât actualizarea cu inflația să se adauge la dobânda legală, nu să o înlocuiască. Se păstrează doar evitarea plății duble din bani publici.",
-    "removes": [
-      0,
-      1
-    ],
-    "levelAfter": "yellow",
-    "scoreAfter": 3.5
-  },
+  "fix": null,
   "quotes": {
-    "checked": 7,
-    "verified": 7
+    "checked": 11,
+    "verified": 11
   }
 }

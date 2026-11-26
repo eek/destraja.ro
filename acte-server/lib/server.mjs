@@ -12,13 +12,17 @@ import { Generation } from './data.mjs';
 import * as R from './render.mjs';
 import { search, actJson, relationsJson, ApiError } from './api.mjs';
 import { isIsoDate } from './format.mjs';
+import { OgRenderer, loadOgAssets, actCard, landingCard, OG_VERSION } from './og.mjs';
 
 const gzip = promisify(zlib.gzip);
 const PAGE_CC = 'public, max-age=300, stale-while-revalidate=86400, stale-if-error=604800';
 const API_CC = 'public, max-age=60, stale-if-error=86400';
 const STATIC_CC = 'public, max-age=31536000, immutable';
 const SHORT_CC = 'public, max-age=60';
+// Adresa imaginii se schimbă cu generația (?v=), deci poate sta o săptămână în cache-ul Cloudflare.
+const IMG_CC = 'public, max-age=604800, stale-while-revalidate=86400';
 const TYPES = { '.css': 'text/css; charset=utf-8', '.woff2': 'font/woff2', '.woff': 'font/woff', '.svg': 'image/svg+xml', '.png': 'image/png', '.js': 'text/javascript; charset=utf-8', '.ico': 'image/x-icon', '.webp': 'image/webp' };
+const LOOPBACK = new Set(['127.0.0.1', 'localhost', '[::1]', '::1']);
 const SITEMAP_SIZE = 45000;
 const DEFAULT_SITEMAP_KINDS = ['lege', 'oug', 'og', 'cod', 'decret-lege'];
 
@@ -34,10 +38,19 @@ export function createActeServer(opts) {
     queueMax: opts.queueMax ?? 64,
     queueWaitMs: opts.queueWaitMs ?? 2000,
     log: opts.log || ((...a) => console.error(...a)),
+    originKeys: (opts.originKeys || []).filter((k) => typeof k === 'string' && k.length >= 32),
+    openHosts: (opts.openHosts || []).map((h) => h.toLowerCase()),
+    // Imaginile de previzualizare: fonturile și logo-ul (og/), binarul resvg (bin/resvg), ambele din versiune;
+    // cache-ul de pe disc în directorul de stare al serviciului (systemd StateDirectory), dacă există.
+    ogAssetsDir: opts.ogAssetsDir || path.join(opts.releaseDir, 'og'),
+    resvg: opts.resvg || path.join(opts.releaseDir, 'bin', 'resvg'),
+    ogCacheDir: opts.ogCacheDir !== undefined ? opts.ogCacheDir : process.env.STATE_DIRECTORY ? path.join(process.env.STATE_DIRECTORY.split(':')[0], 'og-cache') : null,
   };
 
   // ---- versiunea (cod + șablon)
   const release = loadRelease(o.releaseDir);
+  const og = setupOg(o);
+  R.configure({ og: og ? { version: OG_VERSION } : null });
   const releaseLink = o.releasesRoot ? path.join(o.releasesRoot, 'current') : null;
   const releaseTarget = releaseLink ? safeReadlink(releaseLink) : null;
 
@@ -129,6 +142,27 @@ export function createActeServer(opts) {
     setImmediate(pump);
   }
 
+  // ---- cine poate cere: pe 127.0.0.1 oricine (operatorul, probele versiunii); prin Cloudflare (orice altă gazdă),
+  // doar Worker-ul site-ului, cu cheia din X-Acte-Key (secretul ACTE_ORIGIN_KEY, de ambele părți). Gazdele din
+  // openHosts (acte.destraja.ro, cât durează mutarea) răspund și fără cheie. Fără chei configurate, totul e deschis.
+  const keyHashes = o.originKeys.map((k) => crypto.createHash('sha256').update(k).digest());
+  function checkAccess(req) {
+    const host = String(req.headers.host || '').toLowerCase().replace(/:\d+$/, '');
+    const fwd = String(req.headers['cf-connecting-ip'] || '');
+    if (LOOPBACK.has(host) && !fwd) return { ok: true, clientIp: req.socket.remoteAddress || '' };
+    const given = req.headers['x-acte-key'];
+    if (typeof given === 'string' && given && keyHashes.length) {
+      const h = crypto.createHash('sha256').update(given).digest();
+      if (keyHashes.some((k) => crypto.timingSafeEqual(k, h))) {
+        const ip = String(req.headers['x-acte-client-ip'] || '');
+        return { ok: true, clientIp: /^[0-9a-f.:]{2,45}$/i.test(ip) ? ip : fwd };
+      }
+    }
+    if (!keyHashes.length || o.openHosts.includes(host)) return { ok: true, clientIp: fwd || req.socket.remoteAddress || '' };
+    return { ok: false };
+  }
+  const clientIp = (req) => String(req.acteClientIp || req.headers['cf-connecting-ip'] || req.socket.remoteAddress || '');
+
   // ---- răspunsuri
   const baseHeaders = {
     'X-Content-Type-Options': 'nosniff',
@@ -139,7 +173,8 @@ export function createActeServer(opts) {
   function send(req, res, r) {
     const headers = { ...baseHeaders, ...r.headers };
     if (r.etag) headers.ETag = r.etag;
-    if (r.etag && req.headers['if-none-match'] === r.etag) {
+    // Comparație slabă: Cloudflare poate trimite ETag-ul înapoi cu W/ în față.
+    if (r.etag && String(req.headers['if-none-match'] || '').replace(/^W\//, '') === r.etag) {
       res.writeHead(304, pick(headers, ['ETag', 'Cache-Control', 'Vary']));
       return res.end();
     }
@@ -205,13 +240,13 @@ export function createActeServer(opts) {
     }
     if ((m = /^\/p\/(\d{1,9})$/.exec(p))) {
       const a = g.byPortalId(Number(m[1]));
-      return a ? redirect(`/${a.slug}`) : notFound(g, 'Nu cunoaștem actul cu acest număr de pe Portalul Legislativ.');
+      return a ? redirect(`${R.BASE}/${a.slug}`) : notFound(g, 'Nu cunoaștem actul cu acest număr de pe Portalul Legislativ.');
     }
     if ((m = /^\/([a-z0-9-]{1,120})(\/.*)?$/.exec(p))) {
       const [, slug, rest = ''] = m;
       const r = g.resolve(slug);
       if (!r) return notFound(g);
-      if (!r.canonical) return redirect(`/${r.act.slug}${rest}${url.search}`);
+      if (!r.canonical) return redirect(`${R.BASE}/${r.act.slug}${rest}${url.search}`);
       return actRoute(g, r.act, rest, qp);
     }
     return notFound(g);
@@ -230,7 +265,7 @@ export function createActeServer(opts) {
       return htmlR(200, R.textPage(tpl, g, act, page), robotsHeader(act));
     }
     if (rest === '/forma') {
-      if (qp.la && isIsoDate(qp.la)) return redirect(`/${act.slug}/forma/${qp.la}`, 302);
+      if (qp.la && isIsoDate(qp.la)) return redirect(`${R.BASE}/${act.slug}/forma/${qp.la}`, 302);
       return notFound(g);
     }
     let m;
@@ -288,11 +323,15 @@ export function createActeServer(opts) {
       ok: !!gen, generation: gen?.generation ?? null, data_date: gen?.dataDate ?? null, schema: gen?.schema ?? null, release: release.id, started_at: started,
       launched: release.launched, relation_confidence: gen?.hasConfidence ?? null, contested: { relations: release.contested.relations?.length || 0, acts: release.contested.acts?.length || 0 },
       pending_error: pendingError, cache: { entries: cache.size, bytes: cache.bytes }, stats,
+      og: og ? { enabled: true, disk_cache: !!og.renderer.cacheDir, ...og.renderer.stats } : { enabled: false },
     };
   }
 
   function robotsTxt() {
-    return ['User-agent: *', 'Disallow: /api/', 'Disallow: /cauta', 'Disallow: /*/forma', 'Disallow: /*/automat/', 'Allow: /', '', `Sitemap: ${R.ORIGIN}/sitemap.xml`, ''].join('\n');
+    // Doar informativ: roboții citesc /robots.txt de la rădăcina lui destraja.ro, nu pe acesta. La lansare, regulile și
+    // sitemap-ul trec acolo (sau în Search Console).
+    const b = R.BASE;
+    return ['User-agent: *', `Disallow: ${b}/api/`, `Disallow: ${b}/cauta`, `Disallow: ${b}/*/forma`, `Disallow: ${b}/*/automat/`, `Allow: ${b}/`, '', `Sitemap: ${R.ORIGIN}/sitemap.xml`, ''].join('\n');
   }
 
   const sitemapStmts = new WeakMap();
@@ -317,7 +356,7 @@ export function createActeServer(opts) {
     if (n < 1 || !release.launched) return null;
     const rows = sitemapQuery(g).page(n);
     if (!rows.length && n > 1) return null;
-    const urls = [`<url><loc>${R.ORIGIN}/</loc></url>`, ...rows.map((r) => `<url><loc>${R.ORIGIN}/${r.slug}</loc>${r.updated_at ? `<lastmod>${r.updated_at.slice(0, 10)}</lastmod>` : ''}</url>`)];
+    const urls = [`<url><loc>${R.ORIGIN}</loc></url>`, ...rows.map((r) => `<url><loc>${R.ORIGIN}/${r.slug}</loc>${r.updated_at ? `<lastmod>${r.updated_at.slice(0, 10)}</lastmod>` : ''}</url>`)];
     return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${(n === 1 ? urls : urls.slice(1)).join('\n')}\n</urlset>\n`;
   }
 
@@ -349,6 +388,13 @@ export function createActeServer(opts) {
       res.writeHead(414, { 'Content-Type': 'text/plain; charset=utf-8' });
       return res.end('Adresă prea lungă.\n');
     }
+    const access = checkAccess(req);
+    if (!access.ok) {
+      // X-Acte-Denied: Worker-ul o ia drept cădere a originii (cheie greșită), nu drept pagină lipsă.
+      res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex', 'X-Acte-Denied': '1' });
+      return res.end('Nu există.\n');
+    }
+    req.acteClientIp = access.clientIp;
     let url;
     try {
       url = new URL(req.url, 'http://acte.local');
@@ -356,10 +402,14 @@ export function createActeServer(opts) {
       res.writeHead(400);
       return res.end();
     }
-    const p = url.pathname;
+    // Prefixul /acte (destraja.ro/acte, prin Worker) e opțional: aceleași rute răspund și fără el (127.0.0.1, gazda veche).
+    const full = url.pathname;
+    const prefixed = full === R.BASE || full.startsWith(`${R.BASE}/`);
+    const p = prefixed ? full.slice(R.BASE.length) || '/' : full;
+    if (prefixed) url.pathname = p;
     // Adrese canonice: fără „/” la final, cu litere mici.
-    if (!p.startsWith('/_static/') && ((p.length > 1 && p.endsWith('/')) || /[A-Z]/.test(p))) {
-      const clean = p.replace(/\/+$/, '').toLowerCase() || '/';
+    if (!p.startsWith('/_static/') && ((full.length > 1 && full.endsWith('/')) || /[A-Z]/.test(full))) {
+      const clean = full.replace(/\/+$/, '').toLowerCase() || '/';
       return send(req, res, await finish(redirect(clean + url.search)));
     }
 
@@ -380,6 +430,8 @@ export function createActeServer(opts) {
       const body = p.startsWith('/api/') ? JSON.stringify(err(null, 'unavailable', 'Datele despre acte nu se pot citi acum; încearcă mai târziu.')) : R.messagePage(tpl, null, { status: 503, title: 'Datele nu sunt disponibile', text: 'Serverul actelor pornește sau nu are încă date. Încearcă din nou peste câteva minute.' });
       return send(req, res, await finish({ status: 503, body, headers: { 'Content-Type': p.startsWith('/api/') ? 'application/json; charset=utf-8' : 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'Retry-After': '120' } }));
     }
+    const img = p === '/imagine.png' ? '' : /^\/([a-z0-9-]{1,120})\/imagine\.png$/.exec(p)?.[1];
+    if (img !== undefined) return sendImage(req, res, g, img, url);
     if (p === '/date/site-export.ndjson.gz') return sendFile(req, res, path.join(g.dir, 'site-export.ndjson.gz'), 'application/gzip', etagFor(g, p));
 
     // Doar parametrii documentați intră în cheia cache-ului.
@@ -392,7 +444,7 @@ export function createActeServer(opts) {
         return send(req, res, hit.r);
       }
     }
-    const ip = String(req.headers['cf-connecting-ip'] || req.socket.remoteAddress || '');
+    const ip = clientIp(req);
     if (!allow(ip)) {
       stats.limited++;
       const body = p.startsWith('/api/') ? JSON.stringify(err(g, 'rate_limited', 'Prea multe cereri; încearcă peste un minut.')) : 'Prea multe cereri; încearcă peste un minut.\n';
@@ -421,6 +473,49 @@ export function createActeServer(opts) {
     const r = await finish(out.value);
     if (r.status === 200 || r.status === 404 || r.status === 301) r.etag = r.status === 200 ? etag : undefined;
     if (r.status < 500 && r.status !== 429 && p !== '/api/sanatate') cache.set(key, { gen: g.generation, r }, r.body.length + (r.gz?.length || 0) + key.length + 200);
+    return send(req, res, r);
+  }
+
+  // ---- imaginile de previzualizare (în afara cozii de randare: resvg rulează într-un proces separat, cu coada lui)
+  async function sendImage(req, res, g, slug, url) {
+    const reply = async (r) => send(req, res, await finish(r));
+    if (!og) return reply(redirect(R.OG_FALLBACK.url, 302));
+    let act = null;
+    if (slug) {
+      const r = g.resolve(slug);
+      if (!r) return reply({ status: 404, body: 'Actul nu există.\n', headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': SHORT_CC }, compress: false });
+      if (!r.canonical) return reply(redirect(`${R.BASE}/${r.act.slug}/imagine.png${url.search}`));
+      act = r.act;
+    }
+    const key = `img:${url.pathname}`;
+    const hit = cache.get(key);
+    if (hit && hit.gen === g.generation) {
+      stats.hits++;
+      return send(req, res, hit.r);
+    }
+    const ip = clientIp(req);
+    if (!allow(ip)) {
+      stats.limited++;
+      return reply({ status: 429, body: 'Prea multe cereri; încearcă peste un minut.\n', headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Retry-After': '60', 'Cache-Control': 'no-store' }, compress: false });
+    }
+    g.acquire();
+    let out;
+    try {
+      const card = act ? actCard(og.assets, g, act) : landingCard(og.assets, g);
+      out = await og.renderer.render(card.svg);
+    } catch (e) {
+      stats.errors++;
+      o.log(`[acte] imaginea ${url.pathname} nu s-a desenat: ${e.message}`);
+      return reply(redirect(R.OG_FALLBACK.url, 302));
+    } finally {
+      g.release();
+    }
+    if (out.shed) {
+      stats.shed++;
+      return reply({ status: 503, body: 'Serverul e ocupat; încearcă din nou.\n', headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Retry-After': '5', 'Cache-Control': 'no-store' }, compress: false });
+    }
+    const r = await finish({ status: 200, body: out.png, headers: { 'Content-Type': 'image/png', 'Cache-Control': IMG_CC }, etag: `"og-${out.key}"`, compress: false });
+    cache.set(key, { gen: g.generation, r }, r.body.length + key.length + 200);
     return send(req, res, r);
   }
 
@@ -482,6 +577,17 @@ export function createActeServer(opts) {
 
 // ---------------------------------------------------------------- ajutoare
 
+/** Imaginile de previzualizare, dacă versiunea are fonturile, logo-ul și binarul resvg; altfel null (imaginea de rezervă). */
+function setupOg(o) {
+  if (!fs.existsSync(o.resvg)) return null;
+  const assets = loadOgAssets(o.ogAssetsDir);
+  if (!assets) {
+    o.log(`[acte] ${o.ogAssetsDir}: fonturile sau logo-ul imaginilor lipsesc; folosesc imaginea de rezervă`);
+    return null;
+  }
+  return { assets, renderer: new OgRenderer({ binary: o.resvg, fontFiles: assets.fontFiles, cacheDir: o.ogCacheDir, log: o.log }) };
+}
+
 export function loadRelease(dir) {
   const read = (f, dflt = null) => {
     try {
@@ -491,7 +597,7 @@ export function loadRelease(dir) {
     }
   };
   const manifest = JSON.parse(read('manifest.json', '{}'));
-  R.configure({ launched: manifest.launched === true, sitekey: manifest.turnstile_sitekey || null });
+  R.configure({ launched: manifest.launched === true, sitekey: manifest.turnstile_sitekey || null, release: manifest.id || 'dev' });
   // Lista contestată (contract §3.5): lipsa ei înseamnă „nimic contestat”, dar un fișier stricat oprește pornirea.
   const contestedRaw = read('contested.json', null);
   const contested = contestedRaw ? JSON.parse(contestedRaw) : { relations: [], acts: [] };

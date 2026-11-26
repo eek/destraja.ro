@@ -1,0 +1,41 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# LEGE
+
+# pentru completarea Ordonanței de urgență nr. 195/2002 privind circulația pe drumurile publice
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I. – Ordonanța de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, republicată în Monitorul Oficial, Partea I, nr. 670 din 3 august 2006, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 25, după alin. (3) se introduc patru noi alineate, alin. (4), (5) și (6) și cu următorul cuprins:
+
+„(4) Conducătorii de autovehicule din categoria B care au o vechime mai mică de doi ani de la obținerea permisului de conducere nu pot conduce autovehicule al căror raport putere/ masă depășește 0,075 kW/kg.
+
+(5) Prin raport putere/ masă se înțelege valoarea obținută prin împărțirea puterii nominale a motorului, exprimată în kilowați, la masa proprie a autovehiculului, exprimată în kilograme, astfel cum aceasta este definită în certificatul de înmatriculare și documentele de omologare.
+
+(6) Prin derogare de la prevederile alin. (4), în primii doi ani de la obținerea permisului de conducere pentru categoria B, conducătorii de vehicule pot conduce autovehicule al căror raport putere/masă depășește 0,075 kW/kg doar dacă, în același vehicul, se află un titular al unui permis valabil pentru aceeași categorie cu o vechime de cel puțin 10 ani sau dacă autovehiculul este utilizat exclusiv în scop profesional, în baza unui contract individual de muncă, în cadrul programului de lucru, iar conducătorul poate face dovada necesității folosirii autovehiculului cu un raport putere/masa ce depășește 0,075 kW/kg, ca parte a atribuțiilor sale de serviciu. ”
+
+2\. La articolul 102, după pct. 41 de la alin. (1), se introduce un nou punct, pct. 42, cu următorul conținut:
+
+„42. conducerea de către conducătorii de autovehicule din categoria B care au o vechime mai mică de doi ani de la obținerea permisului de conducere a unui autovehicul al cărui raport putere/masă depășește limita legală prevăzută la art. 25 alin. (4), cu cel mult 0,007 kW/kg, fără a fi incidente excepțiile prevăzute la art. 25 alin. (6).”
+
+3\. La articolul 102, după litera h) de la alin. (3), se introduce o nouă literă, lit. i), cu următorul conținut:
+
+„i) neîndeplinirea de către conducătorii de autovehicule din categoria B care au o vechime mai mică de doi ani de la obținerea permisului de conducere a obligatiilor prevăzute la articolul 25, alin. (4) și (6).”
+
+Art. II. – Prezenta lege intră în vigoare în termen de 6 luni de la data publicării în Monitorul Oficial al României, Partea I. În termen de 60 de zile de la data intrării în vigoare a prezentei legi, se modifică și se completează, în conformitate cu prevederile acesteia, prin hotărâre a Guvernului Regulamentul din 4 octombrie 2006 de aplicare a Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, aprobat prin Hotărârea Guvernului nr. 1391/2006, publicat în Monitorul Oficial al României, Partea I, nr. 876 din 26 octombrie 2006, cu modificările și completările ulterioare.
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Președintele Senatului,
+
+Sorin-Mihai GRINDEANU
+
+Mircea ABRUDEAN

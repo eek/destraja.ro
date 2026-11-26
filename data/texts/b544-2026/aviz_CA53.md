@@ -1,0 +1,31 @@
+Parlamentul României
+
+Senat
+
+Comisia pentru sănătate
+
+Nr.XXXII/584/24.11.2026
+
+## AVIZ
+
+# la Propunerea legislativă pentru modificarea și completarea Legii nr.143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art.271 din Legea nr.86/2006 privind Codul vamal al României
+
+Comisia pentru sănătate, prin adresa nr. L643/2026 din data de 16.11.2026, a fost sesizată, în vederea întocmirii avizului cu Propunerea legislativă pentru modificarea și completarea Legii nr.143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art.271 din Legea nr.86/2006 privind Codul vamal al României, inițiatori: Ghinea Cristian - senator USR; Stoiciu Victoria - senator Neafiliat.
+
+În ședința din 24.11.2026, membrii Comisiei pentru sănătate au analizat propunerea legislativă și au hotărât, cu unanimitate de voturi, să adopte aviz negativ.
+
+Președinte,
+
+Senator Prof. Univ. Dr., Adrian Streinu-Cercel
+
+Secretar,
+
+Senator Ruxandra Cibu Deaconu
+
+Doamnei senator Horga Maria-Gabriela
+
+Președintele Comisiei pentru buget, finanțe, activitate bancară și piață de capital
+
+Domnului senator Rujan Ion-Cristinel
+
+Președintele Comisiei juridice, de numiri, disciplină, imunități și validări

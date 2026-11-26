@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: 'Înainte de 1990: actele din Buletinul Oficial și din vechiul Monitor',
   description:
     'Ce mai păstrează Portalul Legislativ din anii de dinainte de 1990: actele pe decenii, cine le semna, de la Parlament și rege la Consiliul de Stat, cele mai vechi și cele încă citate de actele de azi.',
+  openGraph: { title: 'Înainte de 1990: actele din Buletinul Oficial și din vechiul Monitor · destrajă.ro', description: 'Actele de dinainte de 1990 păstrate în Portalul Legislativ, pe decenii, cu cele mai vechi și cele încă citate azi.' },
 };
 
 /** „393 de acte”, „1 act”, cu cifra scrisă românește (1.203). */
@@ -342,7 +343,7 @@ function Subject({ act }: { act: MoOldAct }) {
 }
 
 function ActLink({ act }: { act: MoOldAct }) {
-  // TODO: pagina actului pe acte.destraja.ro, când devine publică; până atunci, pagina din Portalul Legislativ.
+  // TODO: pagina actului pe destraja.ro/acte (/acte/p/<id>), la lansare; până atunci, pagina din Portalul Legislativ.
   return (
     <a
       href={portalUrl(act.id)}

@@ -1,7 +1,9 @@
 {
   // `npm run build` produce site-ul static în out/. Worker-ul din worker/index.ts răspunde doar
-  // la /api/* (rapoartele de erori și alertele pe e-mail) și la /admin* (panoul rapoartelor, care verifică
-  // JWT-ul Cloudflare Access înainte să servească pagina); restul cererilor vin direct din out/.
+  // la /api/* (rapoartele de erori și alertele pe e-mail), la /admin* (panoul rapoartelor, care verifică
+  // JWT-ul Cloudflare Access înainte să servească pagina), la /acte* (paginile actelor, de la serverul de pe VM,
+  // worker/acte.ts) și la /documente/* (copiile noastre ale PDF-urilor parlamentare, din R2, worker/documente.ts); restul
+  // cererilor vin direct din out/.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "lastraja",
   "main": "worker/index.ts",
@@ -11,8 +13,10 @@
     "binding": "ASSETS",
     "not_found_handling": "404-page",
     "html_handling": "auto-trailing-slash",
-    "run_worker_first": ["/api/*", "/admin", "/admin/*"]
+    "run_worker_first": ["/api/*", "/admin", "/admin/*", "/acte", "/acte/*", "/documente/*"]
   },
+  // Copiile documentelor parlamentare (data/pdfs), urcate de scripts/straja-documente.mjs --arhiva; NAS-ul e arhiva principală.
+  "r2_buckets": [{ "binding": "DOCUMENTE", "bucket_name": "destraja-documente" }],
   "d1_databases": [{ "binding": "DB", "database_name": "lastraja", "database_id": "44d27d60-fce7-485b-ab48-b632623c36ef", "migrations_dir": "migrations" }],
   // Cel mult 5 rapoarte pe minut de la aceeași adresă, în fiecare locație Cloudflare.
   "ratelimits": [
@@ -29,6 +33,9 @@
   // E-mailurile pleacă prin Resend (worker/mail.ts), cu secretele RESEND_API_KEY și RESEND_WEBHOOK_SECRET puse cu
   // `wrangler secret put`; nu au nevoie de nimic aici. La fel panoul /admin (worker/access.ts, ADMIN-SETUP.md):
   // ACCESS_TEAM_DOMAIN, ACCESS_AUD și ADMIN_EMAILS sunt secrete, ca adresa să nu stea în repo.
+  // Originea paginilor de acte: tunelul destraja-search spre acte-server (127.0.0.1:8090 pe VM). Răspunde doar cererilor
+  // cu secretul ACTE_ORIGIN_KEY în X-Acte-Key (acte-server/vm/origin-key.sh îl pune de ambele părți); altfel 404.
+  "vars": { "ACTE_ORIGIN": "https://acte-origin.destraja.ro" },
   "observability": { "enabled": true, "head_sampling_rate": 1 },
   // Confirmările de abonare rămase la coadă când trimiterea n-a mers din motive care nu țin de adresă (worker/subscribe.ts).
   "triggers": { "crons": ["*/15 * * * *"] },

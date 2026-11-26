@@ -2,116 +2,84 @@
   "slug": "b572-2026",
   "billId": "B572/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-03T07:35:13.363Z",
-  "inputHash": "f4fbfd8e924b",
-  "riskScore": 1.7,
-  "summary": "O lege bună și bine țintită, care leagă dreptul la locuință socială de situația reală a victimei, cu câteva formulări prea largi sau neclare care trebuie strânse.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-26T11:26:07.287Z",
+  "inputHash": "6420382f4b90",
+  "riskScore": 2.3,
+  "summary": "O lege bună pentru protejarea victimelor violenței domestice, cu câteva neclarități de redactare ușor de corectat.",
   "good": [
     {
-      "text": "Victima violenței domestice poate primi locuință socială dacă, după despărțirea de agresor, nu are de fapt unde locui, chiar dacă pe hârtie deține o parte dintr-o casă.",
-      "article": "art. I pct. 1 (art. 48 alin. (2))",
+      "text": "Elimină pierderea automată a locuinței sociale la finalul partajului și leagă sprijinul de nevoia reală: dacă victima și copiii au efectiv unde sta.",
+      "article": "art. I pct. 1",
       "quote": "pot beneficia de locuințe sociale victimele violenței domestice care, în urma separării de agresor, nu beneficiază în mod efectiv de folosința unei locuințe",
       "weight": 3
     },
     {
-      "text": "Încheierea partajului, o cotă-parte dintr-o casă sau vânzarea casei la partaj nu mai duc automat la pierderea dreptului la locuință socială.",
-      "article": "art. I pct. 2 (art. 48 alin. (2¹))",
-      "quote": "finalizarea procedurii de partaj, deținerea unei cote-părți din dreptul de proprietate asupra unei locuințe sau înstrăinarea unei locuințe în cadrul procedurii de partaj nu constituie motive de excludere de la accesul la o locuință socială",
-      "weight": 3
-    },
-    {
-      "text": "Victimele care stau deja în locuințe sociale nu mai sunt scoase din casă doar pentru că s-a terminat partajul, dacă tot nu au altă locuință.",
+      "text": "Protejează victimele care au deja un contract de locuință socială, oprind încetarea automată a închirierii după partaj dacă tot nu au o locuință utilizabilă.",
       "article": "art. II",
       "quote": "Contractele de închiriere pentru locuințele sociale încheiate anterior intrării în vigoare a prezentei legi, în beneficiul victimelor violenței domestice, nu încetează ca urmare a finalizării procedurii de partaj",
       "weight": 3
     },
     {
-      "text": "Protecția se acordă doar celor care dovedesc că nu au de fapt o locuință, ceea ce păstrează locuințele sociale pentru cei care chiar au nevoie.",
-      "article": "art. I pct. 2 (art. 48 alin. (2¹))",
-      "quote": "în măsura în care persoana în cauză dovedește că nu beneficiază în mod efectiv de folosința unei locuințe",
+      "text": "Clarifică faptul că o cotă-parte pe hârtie sau vânzarea casei comune în partaj nu blochează accesul la locuință socială dacă victima nu are efectiv unde locui.",
+      "article": "art. I pct. 2",
+      "quote": "finalizarea procedurii de partaj, deținerea unei cote-părți din dreptul de proprietate asupra unei locuințe sau înstrăinarea unei locuințe în cadrul procedurii de partaj nu constituie motive de excludere",
       "weight": 2
     },
     {
-      "text": "Nevoia de locuință se judecă și pentru copiii aflați în întreținerea victimei, nu doar pentru adult.",
-      "article": "art. I pct. 1 și 2; art. II",
-      "quote": "nu beneficiază în mod efectiv de folosința unei locuințe pentru sine și, după caz, pentru copiii aflați în întreținere",
-      "weight": 2
-    },
-    {
-      "text": "Guvernul trebuie să schimbe normele de aplicare care azi limitează contractul până la partaj, ca regula nouă să funcționeze și în practică.",
-      "article": "art. III",
-      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul, va modifica și completa, în mod corespunzător, Normele metodologice de aplicare",
-      "weight": 2
-    },
-    {
-      "text": "Primăriile trebuie să-și adapteze regulile locale de acordare a locuințelor sociale, ca victimele să nu fie respinse pe criterii vechi.",
-      "article": "art. IV",
-      "quote": "autoritățile administrației publice locale vor proceda, după caz, la modificarea regulamentelor și criteriilor aplicabile acordării locuințelor sociale",
+      "text": "Fixează termene clare pentru actualizarea normelor de aplicare (30 de zile) și a regulamentelor locale (60 de zile), ca legea să nu rămână blocată.",
+      "article": "art. III și art. IV",
+      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi, autoritățile administrației publice locale vor proceda, după caz, la modificarea regulamentelor și criteriilor aplicabile",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Nu se spune ce înseamnă „nu beneficiază în mod efectiv” de o locuință și nici cu ce acte se dovedește, deci fiecare primărie poate decide altfel.",
-      "article": "art. I pct. 1 și 2; art. II",
-      "quote": "dovedește că nu beneficiază în mod efectiv de folosința unei locuințe pentru sine",
+      "text": "Nu stabilește ce dovezi probează lipsa folosinței efective și nici cine sau cât de des o verifică, riscând reguli și practici diferite de la o primărie la alta.",
+      "article": "art. I pct. 2",
+      "quote": "în măsura în care persoana în cauză dovedește că nu beneficiază în mod efectiv de folosința unei locuințe pentru sine și, după caz, pentru copiii aflați în întreținere",
       "weight": 2
     },
     {
-      "text": "Excepția acoperă orice casă deținută sau vândută după 1990, nu doar cea comună cu agresorul; cine are alt apartament închiriat altora ar putea pretinde că nu îl „folosește”.",
-      "article": "art. I pct. 1 (art. 48 alin. (2))",
-      "quote": "Prin excepție de la prevederile alin. (1) lit. a) și b), pot beneficia de locuințe sociale victimele violenței domestice",
+      "text": "Excepția de la interdicția vânzării unei locuințe după 1990 nu este limitată la partaj în alin. (2), putând acoperi și vânzări mai vechi fără legătură cu abuzul.",
+      "article": "art. I pct. 1",
+      "quote": "Prin excepție de la prevederile alin. (1) lit. a) și b), pot beneficia de locuințe sociale victimele violenței domestice care, în urma separării de agresor",
       "weight": 2
     },
     {
-      "text": "Banii primiți la partaj (preț sau sultă) nu contează deloc, așa că cineva cu o sumă mare din vânzare poate păstra locuința socială în fața altor solicitanți.",
-      "article": "art. I pct. 2 (art. 48 alin. (2¹))",
+      "text": "Textul nu precizează lipsa folosinței unei „alte” locuințe; la verificarea contractelor în curs, însăși locuința socială ocupată ar putea fi interpretată contradictoriu.",
+      "article": "art. II",
+      "quote": "dacă beneficiarul dovedește că nu beneficiază în mod efectiv de folosința unei locuințe pentru sine și, după caz, pentru copiii aflați în întreținere",
+      "weight": 2
+    },
+    {
+      "text": "Alin. (2) și alin. (2¹) se suprapun neclar: primul scoate general interdicția vânzării, al doilea o limitează la partaj și doar el cere explicit dovada lipsei folosinței.",
+      "article": "art. I pct. 1 și pct. 2",
       "quote": "înstrăinarea unei locuințe în cadrul procedurii de partaj nu constituie motive de excludere de la accesul la o locuință socială",
-      "weight": 2
-    },
-    {
-      "text": "Nu se spune cum se dovedește calitatea de victimă (ordin de protecție, hotărâre, plângere) și nici ce înseamnă „separarea de agresor”.",
-      "article": "art. I pct. 1 (art. 48 alin. (2))",
-      "quote": "victimele violenței domestice care, în urma separării de agresor",
-      "weight": 2
-    },
-    {
-      "text": "Proiectul nu spune cât costă și de unde vin banii; locuințele sociale sunt puține, iar alte categorii aflate pe liste vor aștepta mai mult.",
-      "article": "întregul proiect",
-      "quote": null,
       "weight": 1
     },
     {
-      "text": "Pentru contractele vechi nu se spune cât timp și cât de des se verifică dacă victima tot nu are unde locui.",
-      "article": "art. II",
-      "quote": "nu încetează ca urmare a finalizării procedurii de partaj, dacă beneficiarul dovedește că nu beneficiază în mod efectiv de folosința unei locuințe",
-      "weight": 1
-    },
-    {
-      "text": "Victimele care și-au pierdut deja locuința socială după partaj, înainte de lege, nu sunt acoperite de regula de tranziție.",
-      "article": "art. II",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Termenele de 30 și 60 de zile nu au nicio sancțiune dacă nu sunt respectate, iar „după caz” lasă primăriile să decidă dacă își schimbă regulile.",
-      "article": "art. III; art. IV",
-      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi, autoritățile administrației publice locale vor proceda, după caz",
+      "text": "Condiția nouă „în urma separării de agresor” nu este definită în lege, ceea ce poate duce la cerințe birocratice abuzive (de exemplu, dovada divorțului definitiv).",
+      "article": "art. I pct. 1",
+      "quote": "victimele violenței domestice care, în urma separării de agresor, nu beneficiază în mod efectiv de folosința unei locuințe pentru sine",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Excepția ar trebui limitată la locuința deținută împreună cu agresorul sau pierdută la partaj, iar banii primiți la partaj ar trebui luați în calcul la stabilirea nevoii.",
+    "text": "Art. I și art. II ar trebui unificate și clarificate pentru a preciza că lipsa folosinței privește o altă locuință, a limita derogarea de la vânzare la partaj sau separare și a stabili în lege modul de dovedire și verificare.",
     "removes": [
+      0,
       1,
-      2
+      2,
+      3,
+      4
     ],
     "levelAfter": "green",
-    "scoreAfter": 1
+    "scoreAfter": 0.8
   },
   "quotes": {
-    "checked": 13,
-    "verified": 13
+    "checked": 9,
+    "verified": 9
   }
 }

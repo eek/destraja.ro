@@ -3,12 +3,14 @@
 // Runtime types generated with workerd@1.20261023.1 2026-10-13
 interface __BaseEnv_Env {
 	DB: D1Database;
+	DOCUMENTE: R2Bucket;
 	REPORT_LIMIT: RateLimit;
 	SUBSCRIBE_LIMIT: RateLimit;
 	SEARCH_LIMIT: RateLimit;
 	MCP_LIMIT: RateLimit;
 	MCP_SEARCH_LIMIT: RateLimit;
 	ASSETS: Fetcher;
+	ACTE_ORIGIN: "https://acte-origin.destraja.ro";
 	TURNSTILE_SECRET: string;
 	SUBSCRIBE_KEY: string;
 	DIGEST_TOKEN: string;
@@ -18,6 +20,7 @@ interface __BaseEnv_Env {
 	ACCESS_AUD: string;
 	ADMIN_EMAILS: string;
 	ADMIN_DEV_BYPASS: string;
+	ACTE_ORIGIN_KEY: string;
 }
 declare namespace Cloudflare {
 	interface GlobalProps {
@@ -30,7 +33,7 @@ type StringifyValues<EnvType extends Record<string, unknown>> = {
 	[Binding in keyof EnvType]: EnvType[Binding] extends string ? EnvType[Binding] : string;
 };
 declare namespace NodeJS {
-	interface ProcessEnv extends StringifyValues<Pick<Cloudflare.Env, "TURNSTILE_SECRET" | "SUBSCRIBE_KEY" | "DIGEST_TOKEN" | "RESEND_API_KEY" | "RESEND_WEBHOOK_SECRET" | "ACCESS_TEAM_DOMAIN" | "ACCESS_AUD" | "ADMIN_EMAILS" | "ADMIN_DEV_BYPASS">> {}
+	interface ProcessEnv extends StringifyValues<Pick<Cloudflare.Env, "TURNSTILE_SECRET" | "SUBSCRIBE_KEY" | "DIGEST_TOKEN" | "RESEND_API_KEY" | "RESEND_WEBHOOK_SECRET" | "ACCESS_TEAM_DOMAIN" | "ACCESS_AUD" | "ADMIN_EMAILS" | "ADMIN_DEV_BYPASS" | "ACTE_ORIGIN" | "ACTE_ORIGIN_KEY">> {}
 }
 declare module "*.txt" {
 	const value: string;

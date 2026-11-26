@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og';
 import { countWord } from '@/lib/format';
-import { Frame, OG, OG_SIZE, RiskMix, Waffle, logoSrc, ogFonts, parliamentNow } from '@/og/og';
+import { Frame, OG, OG_SIZE, RiskMix, Waffle, fitGrid, logoSrc, ogFonts, parliamentNow } from '@/og/og';
 
 export const dynamic = 'force-static';
 export const alt = 'La Camera Deputaților: proiectele de lege în dezbatere, câte un pătrățel pentru fiecare, colorat după risc, pe destrajă.ro';
@@ -11,6 +11,8 @@ export default async function Image() {
   const [{ camera }, fonts, logo] = await Promise.all([parliamentNow(), ogFonts(), logoSrc()]);
   const n = camera.list.length;
   const share = n ? Math.round((camera.counts.red / n) * 100) : 0;
+  // Grila crește cu numărul de proiecte: o potrivim în spațiul de lângă text, ca să nu urce peste antet.
+  const grid = fitGrid(n, 540, 380, 20);
 
   return new ImageResponse(
     (
@@ -25,7 +27,7 @@ export default async function Image() {
               <RiskMix counts={camera.counts} fontSize={22} />
             </div>
           </div>
-          <Waffle counts={camera.counts} cols={27} cell={17} gap={3} />
+          <Waffle counts={camera.counts} cols={grid.cols} cell={grid.pitch - 3} gap={3} />
         </div>
       </Frame>
     ),

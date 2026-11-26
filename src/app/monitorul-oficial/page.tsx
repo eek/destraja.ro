@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: 'Monitorul Oficial, în cifre',
   description:
     'Câte acte apar în Monitorul Oficial, Partea I, în fiecare zi din 1990 încoace, câte legi aprobă ordonanțe ale Guvernului și cât durează de la votul final la publicare. Din indexul Portalului Legislativ, cu golurile la vedere.',
+  openGraph: { title: 'Monitorul Oficial, în cifre · destrajă.ro', description: 'Câte acte apar în Monitorul Oficial în fiecare zi din 1990 încoace, cine le dă și cât durează de la vot la publicare.' },
 };
 
 const CAT_LABEL: Record<MoCategory, string> = {

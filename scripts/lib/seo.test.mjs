@@ -36,4 +36,7 @@ test('candidates (worker/missing.ts): cheile React lipite de adresă și majuscu
   assert.deepEqual(candidates('/camera/PLX-1-2026-2'), ['/camera/plx-1-2026-2', '/camera/plx-1-2026']);
   assert.deepEqual(candidates('/metodologie'), []);
   assert.deepEqual(candidates('/Agenda'), []);
+  // /acte și /documente le servește Worker-ul înaintea fallback-ului; oricum nu le atinge.
+  assert.deepEqual(candidates('/acte/lege-1-2026-2'), []);
+  assert.deepEqual(candidates('/Documente/x-1'), []);
 });

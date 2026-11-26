@@ -3,6 +3,8 @@ import { type AvizDoc, getBillAvize } from '@/lib/avize';
 import { formatDateRo } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import { panel } from '@/components/ui';
+import Cited from '@/components/cite/Cited';
+import type { CiteWhere } from '@/lib/citari-data';
 
 const label = 'text-xs font-semibold text-muted';
 
@@ -89,11 +91,18 @@ function voteText(v: NonNullable<AvizDoc['vote']>) {
   return [v.statement, counts.length ? `(${counts.join(', ')})` : null].filter(Boolean).join(' ');
 }
 
-function Quote({ text }: { text: string }) {
-  return <blockquote className="mt-1 border-l-2 border-line-strong pl-3 text-sm leading-relaxed text-body">„{bare(text)}”</blockquote>;
+function Quote({ text, slug, where }: { text: string; slug?: string; where?: CiteWhere }) {
+  return (
+    <blockquote className="mt-1 border-l-2 border-line-strong pl-3 text-sm leading-relaxed text-body">
+      „{slug ? <Cited slug={slug} text={bare(text)} {...where} /> : bare(text)}”
+    </blockquote>
+  );
 }
 
-function Row({ d, billId }: { d: AvizDoc; billId: string }) {
+// Avizele și punctul de vedere al Guvernului privesc forma inițiatorului; raportul comisiei, forma primită de Cameră.
+const whereOf = (d: AvizDoc): CiteWhere => (d.kind === 'raport' ? { role: 'review' } : { form: 'initiator' });
+
+function Row({ d, billId, slug }: { d: AvizDoc; billId: string; slug: string }) {
   const w = who(d);
   const date = when(d);
   const unclear = d.verdict === 'neclar';
@@ -144,7 +153,7 @@ function Row({ d, billId }: { d: AvizDoc; billId: string }) {
         )}
         {(n > 0 || d.verdictQuote) && (
           <details className="group mt-2">
-            <summary className="inline-flex min-h-10 cursor-pointer list-none items-center gap-1 text-sm font-semibold text-link underline decoration-1 underline-offset-4 hover:decoration-2 [&::-webkit-details-marker]:hidden">
+            <summary className="inline-flex min-h-11 cursor-pointer list-none items-center gap-1 text-sm font-semibold text-link underline decoration-1 underline-offset-4 hover:decoration-2 [&::-webkit-details-marker]:hidden">
               {n > 0 ? (n === 1 ? 'O observație, cu citat' : `${n} observații, cu citate`) : 'Ce scrie în document'}
               <ChevronDown className="h-4 w-4 transition-transform group-open:rotate-180" aria-hidden />
             </summary>
@@ -153,8 +162,10 @@ function Row({ d, billId }: { d: AvizDoc; billId: string }) {
                 <ul className="space-y-4">
                   {d.observations.map((o) => (
                     <li key={o.quote}>
-                      <p className="text-[15px] leading-relaxed text-ink">{o.text}</p>
-                      <Quote text={o.quote} />
+                      <p className="text-[15px] leading-relaxed text-ink">
+                        <Cited slug={slug} text={o.text} {...whereOf(d)} />
+                      </p>
+                      <Quote text={o.quote} slug={slug} where={whereOf(d)} />
                     </li>
                   ))}
                 </ul>
@@ -203,17 +214,17 @@ export default async function BillAvize({ slug }: { slug: string }) {
   const docs = data.documents;
   const fromSheet = docs.some((d) => d.verdictFrom === 'fisa');
   return (
-    <section id="institutii" aria-labelledby="institutii-titlu" className={`${panel} mt-6 scroll-mt-20 p-6 sm:p-8`}>
+    <section id="institutii" aria-labelledby="institutii-titlu" className={`${panel} mt-6 scroll-mt-20 p-5 sm:p-8`}>
       <h2 id="institutii-titlu" className="font-display text-2xl font-semibold text-ink sm:text-[1.75rem]">
         Ce spun instituțiile
       </h2>
-      <p className="mt-1.5 max-w-[62ch] text-base leading-relaxed text-body">
+      <p className="mt-1.5 max-w-[62ch] text-[15px] leading-relaxed text-body sm:text-base">
         Ce {docs.length > 1 ? 'spun' : 'spune'} despre proiect {list(docs.map((d) => NAMES[d.kind]))}, pe scurt, din {docs.length > 1 ? 'documentele lor oficiale' : 'documentul oficial'}.
         Fiecare observație are citatul ei din document.
       </p>
       <ul className="mt-6 divide-y divide-line border-t border-line pt-5">
         {docs.map((d) => (
-          <Row key={d.kind} d={d} billId={data.billId} />
+          <Row key={d.kind} d={d} billId={data.billId} slug={slug} />
         ))}
       </ul>
       <p className="mt-5 border-t border-line pt-4 text-xs leading-5 text-muted">

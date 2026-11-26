@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { dropSuperseded, writeBillTexts } from './lib/pdf-text.mjs';
 import { todayBucharest } from './lib/web.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
-import { senatRereadDays } from './lib/senat-votes.mjs';
+import { syncBills } from './lib/senat-sync.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -15,6 +15,12 @@ const TEXT_DIR = path.join(DATA_DIR, 'texts');
 const BILLS_FILE = path.join(DATA_DIR, 'senat-bills.json');
 // Ziua ultimei sincronizări reușite a întregii liste: fără ea de azi, straja-digest.mjs nu trimite alertele.
 const SYNC_DAY_FILE = path.join(ROOT_DIR, '.cache', 'senat-sync-day');
+// Recitirea fișelor proiectelor ieșite din consultare e întreținere: după atâtea minute de la pornirea pasului nu mai
+// începe alta (ce rămâne vine mâine, cele mai vechi întâi). Rularea zilnică dă pasului 180 de minute, pe ceasul de
+// perete: pe 25 noiembrie 2026 Mac-ul a adormit în timpul recitirilor, pasul a fost oprit la limită imediat după trezire
+// și proiectele noi citite dimineața n-au fost salvate. --recitiri-minute=N.
+const REREAD_MINUTES = 90;
+const STARTED = Date.now();
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 fs.mkdirSync(PDF_DIR, { recursive: true });
@@ -361,51 +367,31 @@ function sheetProblem(details, prev) {
   return null;
 }
 
-// ── Proiectele ieșite din consultare ──
-// Senatul le scoate din listă când primesc număr L, dar drumul lor abia începe: comisii, avize, raport, vot. Fișa se
-// recitește mai departe (senat.ro n-are limită de cereri): zilnic cât s-a mișcat ceva în ultima lună, apoi tot mai rar.
-// După un stadiu final, săptămânal încă două luni (reexaminări, corecturi), apoi deloc.
-const DAY_MS = 24 * 3_600_000;
-
-function rereadDue(b, now = Date.now()) {
-  if (!b.sheetUrl) return false;
-  const every = senatRereadDays(b, now);
-  // Rularea zilnică nu ajunge la fiecare proiect la aceeași oră: șase ore de joc, ca „zilnic” să nu devină „la două zile”.
-  return now - (b.syncedAt ? Date.parse(b.syncedAt) : 0) >= every * DAY_MS - 6 * 3_600_000;
+/** Recitește fișa unui proiect păstrat; ce vine din listă (termen, opinii) și datele noastre rămân cum erau. */
+async function rereadBill(b) {
+  const details = await parseBillSheet(b);
+  const problem = sheetProblem(details, b);
+  if (problem) throw new Error(problem);
+  const news = [
+    details.stage !== b.stage && `stadiu: ${details.stage}`,
+    details.senatNr && details.senatNr !== b.senatNr && `număr: ${details.senatNr}`,
+    details.timeline.length !== (b.timeline?.length ?? 0) && `${details.timeline.length - (b.timeline?.length ?? 0)} rânduri noi`,
+    details.pdfs.length !== (b.pdfs?.length ?? 0) && `${details.pdfs.length - (b.pdfs?.length ?? 0)} documente noi`,
+  ].filter(Boolean);
+  const next = { ...b, ...details, syncedAt: new Date().toISOString() };
+  await downloadPdfsAndExtractText(next, true);
+  return { next, news };
 }
 
-/** Recitește fișele proiectelor păstrate; ce vine din listă (termen, opinii) și datele noastre rămân cum erau. */
-async function rereadKept(kept) {
-  const due = kept.filter((b) => rereadDue(b));
-  if (!due.length) return;
-  console.log(`🔁 Recitesc ${due.length} din ${kept.length} fișe ale proiectelor ieșite din consultare.`);
-  let changed = 0;
-  let failed = 0;
-  for (const b of due) {
-    try {
-      const details = await parseBillSheet(b);
-      const problem = sheetProblem(details, b);
-      if (problem) throw new Error(problem);
-      const news = [
-        details.stage !== b.stage && `stadiu: ${details.stage}`,
-        details.senatNr && details.senatNr !== b.senatNr && `număr: ${details.senatNr}`,
-        details.timeline.length !== (b.timeline?.length ?? 0) && `${details.timeline.length - (b.timeline?.length ?? 0)} rânduri noi`,
-        details.pdfs.length !== (b.pdfs?.length ?? 0) && `${details.pdfs.length - (b.pdfs?.length ?? 0)} documente noi`,
-      ].filter(Boolean);
-      const next = { ...b, ...details, syncedAt: new Date().toISOString() };
-      await downloadPdfsAndExtractText(next, true);
-      Object.assign(b, next);
-      if (news.length) {
-        changed++;
-        console.log(`   ${b.id}: ${news.join(', ')}`);
-      }
-    } catch (err) {
-      failed++;
-      console.log(`   ${b.id}: EROARE: ${err.message} (păstrez datele anterioare)`);
-    }
-    await new Promise((r) => setTimeout(r, 1000));
-  }
-  console.log(`🔁 ${changed} fișe schimbate, ${due.length - changed - failed} la fel${failed ? `, ${failed} necitite` : ''}.`);
+/** Un proiect din lista în consultare: fișa, opiniile (cele necitite azi rămân cele de ieri) și PDF-urile. */
+async function fetchBill(item, prev) {
+  const details = await parseBillSheet(item);
+  const problem = sheetProblem(details, prev);
+  if (problem) throw new Error(problem);
+  const opinions = (await parsePublicOpinions(item)) ?? prev?.publicOpinions ?? [];
+  const fullBill = { ...item, ...details, publicOpinions: opinions, syncedAt: new Date().toISOString() };
+  await downloadPdfsAndExtractText(fullBill, true);
+  return fullBill;
 }
 
 // ── Proiecte recuperate după cod ──
@@ -460,78 +446,33 @@ async function restoreBills(pairs) {
 async function main() {
   const args = process.argv.slice(2);
   if (args.includes('--restore')) return restoreBills(args.filter((a) => !a.startsWith('--')));
-  const downloadAllPdfs = args.includes('--download-pdfs');
   const targetFilter = args.find((a) => !a.startsWith('--'));
+  const rereadMinutes = Number(args.find((a) => a.startsWith('--recitiri-minute='))?.split('=')[1] ?? REREAD_MINUTES);
 
   const list = await parseConsultationList();
   // O listă aproape goală înseamnă o pagină stricată, nu proiecte închise: nu marcăm nimic pe baza ei.
   if (list.length < 5) throw new Error(`Lista Senatului are doar ${list.length} proiecte; formatul s-a schimbat?`);
-  const enriched = [];
   // Rulează nesupravegheat în fiecare dimineață: nu pierdem niciodată ce aveam deja.
   // Proiectele scoase din lista Senatului rămân (consultare încheiată), iar o fișă care nu se
-  // încarcă azi își păstrează datele de ieri.
-  const previous = new Map(
-    (fs.existsSync(BILLS_FILE) ? JSON.parse(fs.readFileSync(BILLS_FILE, 'utf8')) : []).map((b) => [b.id, b]),
-  );
-
-  for (let i = 0; i < list.length; i++) {
-    const item = list[i];
-    if (targetFilter && !item.id.toLowerCase().includes(targetFilter.toLowerCase()) && !item.slug.includes(targetFilter.toLowerCase())) {
-      continue;
-    }
-    process.stdout.write(`🔍 [${i + 1}/${list.length}] Se extrage fișa pentru ${item.id}... `);
-    try {
-      const details = await parseBillSheet(item);
-      const problem = sheetProblem(details, previous.get(item.id));
-      if (problem) throw new Error(problem);
-      // Opiniile necitite azi rămân cele de ieri.
-      const opinions = (await parsePublicOpinions(item)) ?? previous.get(item.id)?.publicOpinions ?? [];
-      const fullBill = {
-        ...item,
-        ...details,
-        publicOpinions: opinions,
-        syncedAt: new Date().toISOString(),
-      };
-      await downloadPdfsAndExtractText(fullBill, true);
-      enriched.push(fullBill);
-      console.log(`OK (${details.initiators.length} inițiatori, ${details.pdfs.length} PDF-uri, ${opinions.length} opinii)`);
-    } catch (err) {
-      // Un proiect nou fără fișă n-are inițiatori, documente sau parcurs: nu-l publicăm pe jumătate, îl luăm la rularea următoare.
-      console.log(`EROARE: ${err.message}${previous.has(item.id) ? ' (păstrez datele anterioare)' : ' (proiect nou; îl reiau la rularea următoare)'}`);
-      if (previous.has(item.id)) enriched.push(previous.get(item.id));
-    }
-  }
-
-  if (!targetFilter) {
-    const seen = new Set(enriched.map((b) => b.id));
-    const kept = [...previous.values()].filter((b) => !seen.has(b.id));
-    if (kept.length) console.log(`📁 Păstrez ${kept.length} proiecte care nu mai sunt în lista Senatului.`);
-    // Senatul scoate un proiect din consultare când îi dă număr L (sau îl trece „pt. informare”), uneori cu săptămâni
-    // înainte de termenul afișat. Lista e o interogare pe starea proiectului, deci o singură citire validă ajunge.
-    // Păstrăm termenul anunțat și mutăm termenul efectiv în ziua dinainte, ca site-ul să-l arate închis.
-    // Termenele Senatului sunt „ZZ-LL-AAAA”; leftListAt e ISO.
-    const today = todayBucharest();
-    const iso = (ddmmyyyy) => ddmmyyyy.split('-').reverse().join('-');
-    for (const b of kept) {
-      if (b.leftListAt || iso(b.consultationDeadline) <= today) continue;
-      const closed = addDays(today, -1).split('-').reverse().join('-');
-      Object.assign(b, { leftListAt: today, announcedDeadline: b.consultationDeadline, consultationDeadline: closed });
-      console.log(`🔒 ${b.id} a ieșit din consultare pe ${today}, înainte de termenul anunțat (${b.announcedDeadline}).`);
-    }
-    await rereadKept(kept);
-    enriched.push(...kept);
-  } else {
-    // Cu filtru actualizăm doar proiectele cerute, restul rămân neatinse.
-    for (const b of enriched) previous.set(b.id, b);
-    enriched.splice(0, enriched.length, ...previous.values());
-  }
-
-  writeFileAtomic(BILLS_FILE, JSON.stringify(enriched, null, 2));
-  if (!targetFilter) {
-    fs.mkdirSync(path.dirname(SYNC_DAY_FILE), { recursive: true });
-    writeFileAtomic(SYNC_DAY_FILE, todayBucharest() + '\n');
-  }
-  console.log(`\n🎉 Salvat ${enriched.length} proiecte în ${BILLS_FILE}`);
+  // încarcă azi își păstrează datele de ieri. Fișierul se scrie după fiecare proiect (lib/senat-sync.mjs).
+  const previous = fs.existsSync(BILLS_FILE) ? JSON.parse(fs.readFileSync(BILLS_FILE, 'utf8')) : [];
+  const { bills } = await syncBills({
+    list,
+    previous,
+    targetFilter,
+    fetchBill,
+    reread: rereadBill,
+    save: (all) => writeFileAtomic(BILLS_FILE, JSON.stringify(all, null, 2)),
+    onListSaved: () => {
+      // Lista întreagă e citită și salvată: alertele de azi o pot folosi, oricât ar ține recitirile.
+      fs.mkdirSync(path.dirname(SYNC_DAY_FILE), { recursive: true });
+      writeFileAtomic(SYNC_DAY_FILE, todayBucharest() + '\n');
+      console.log(`💾 Lista în consultare e salvată în ${BILLS_FILE}`);
+    },
+    today: todayBucharest(),
+    rereadUntil: STARTED + rereadMinutes * 60_000,
+  });
+  console.log(`\n🎉 Salvat ${bills.length} proiecte în ${BILLS_FILE}`);
 }
 
 main().catch((err) => {

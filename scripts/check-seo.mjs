@@ -22,6 +22,10 @@ const RATE = Number(arg('rate', 3)); // cereri pe secundă, la --live
 const LIMIT = Number(arg('limit', 0)) || Infinity;
 // Secțiunile ale căror adrese apar și în datele React din HTML: acolo căutăm șiruri care arată ca adrese și nu există.
 const SECTIONS = ['legi', 'camera', 'parlamentari', 'agenda', 'presa', 'uitate', 'noutati', 'monitorul-oficial', 'metodologie', 'senat', 'docs', 'date'];
+// Adresele servite de Worker, nu din out/ (run_worker_first în wrangler.jsonc): linkurile spre ele nu se pot verifica aici,
+// iar în sitemap n-au ce căuta (/acte e noindex până la lansare, /documente sunt copiile PDF-urilor, /citari date JSON).
+const WORKER_PATHS = /^\/(api|admin|acte|documente)(\/|$)/;
+const NOT_IN_SITEMAP = /^\/(api|admin|acte|acte-indisponibil|acte-shell|documente|citari|date|docs)(\/|$)/;
 
 const errors = new Map();
 const warnings = new Map();
@@ -105,6 +109,7 @@ function checkOut() {
     inSitemap.add(u);
     if (u !== SITE && !u.startsWith(`${SITE}/`)) err('adresă din sitemap în afara site-ului', u);
     else if (u.endsWith('/')) err('adresă din sitemap cu / la final', u);
+    else if (NOT_IN_SITEMAP.test(u.slice(SITE.length))) err('adresă din sitemap care nu trebuie indexată', u);
   }
 
   const titles = new Map();
@@ -143,10 +148,10 @@ function checkOut() {
     // Linkurile interne și șirurile din datele React care arată ca adrese (Google le încearcă, vezi worker/missing.ts).
     for (const m of html.matchAll(/\shref="(\/[^"#?]*)/g)) {
       const u = decode(m[1]);
-      if (!u.startsWith('//') && !u.startsWith('/_next/') && !u.startsWith('/api/') && !exists(u)) err('link intern spre o pagină care nu există', `${page} → ${u}`);
+      if (!u.startsWith('//') && !u.startsWith('/_next/') && !WORKER_PATHS.test(u) && !exists(u)) err('link intern spre o pagină care nu există', `${page} → ${u}`);
     }
     const ghost = new RegExp(`\\\\"(/(?:${SECTIONS.join('|')})/[^"\\\\#?\\s]*)\\\\"`, 'g');
-    for (const m of html.matchAll(ghost)) if (!exists(m[1])) err('șir în datele React care arată ca o adresă moartă', `${page} → ${m[1]}`);
+    for (const m of html.matchAll(ghost)) if (!WORKER_PATHS.test(m[1]) && !exists(m[1])) err('șir în datele React care arată ca o adresă moartă', `${page} → ${m[1]}`);
   }
   for (const u of inSitemap) err('adresă din sitemap fără pagină în out/', u);
   for (const [page, canonical] of secondary) {

@@ -6,11 +6,11 @@ Camera Deputaților
 
 București
 
-Nr 6b-21 / nr. 210 / 16.05.2026
+Nr 6b-21 / nr. 210 / 16.09.2026
 
-## Câtre
+## Către
 
-## Biroul Permanent al Camerei Deputaților
+Biroul Permanent al Camerei Deputaților
 
 În conformitate cu prevederile art. 74 alin. (1) din Constituția României, Vă înaintăm alăturat Propunerea legislativă pentru completarea alin. (1) al art. 76 din Legea nr. 566/2004
 
@@ -18,4 +18,4 @@ Inițiatori,
 
 Miklos Zoltân, deputat UDMR\_\_\_\_
 
-Tânczos Barna, senator UDMR\_
+Tânczos Barna, senator UDMR\_\_\_\_

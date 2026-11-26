@@ -115,6 +115,18 @@ export function runGolden(db, golden) {
       if (noText) throw new Error(`${noText} acte indexabile fără text`);
       return;
     }
+    if (ch.rule === 'unique_act_key') {
+      // Un singur act pe (tip, număr, an, emitent); codurile pe (numele codului, an, emitent). Excepțiile listate sunt
+      // acte distincte care chiar au aceeași cheie. La fel ca bin/acte-golden.mjs din monitorul-oficial.
+      const kinds = ch.kinds ?? ['lege', 'oug', 'og', 'hg', 'decret', 'decret-lege', 'cod'];
+      const allowed = new Set((ch.exceptions ?? []).map((e) => [...e.slugs].sort().join('|')));
+      const rows = db.prepare(`SELECT kind, COALESCE(number_norm, CASE WHEN kind = 'cod' THEN code_name END) AS n, year, COALESCE(issuer_key, '') AS i,
+          group_concat(slug, '|') AS s, count(*) AS c FROM acts WHERE kind IN (${kinds.map(() => '?').join(',')}) AND year IS NOT NULL
+          AND (number_norm IS NOT NULL OR (kind = 'cod' AND code_name IS NOT NULL)) GROUP BY 1, 2, 3, 4 HAVING c > 1`).all(...kinds);
+      const bad = rows.filter((r) => !allowed.has(r.s.split('|').sort().join('|')));
+      if (bad.length) throw new Error(`${bad.length} chei folosite de mai multe acte: ${bad.slice(0, 5).map((r) => `${r.kind} ${r.n}/${r.year} [${r.s}]`).join('; ')}`);
+      return;
+    }
     throw new Error(`verificare necunoscută: ${JSON.stringify(ch).slice(0, 80)}`);
   }
 }

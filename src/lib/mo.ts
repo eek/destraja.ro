@@ -183,5 +183,5 @@ export async function getMoPre1990(): Promise<MoPre1990 | null> {
 }
 
 /** Pagina actului în Portalul Legislativ. */
-// TODO: când paginile de acte de pe acte.destraja.ro devin publice, legăturile spre actele vechi trec acolo.
+// TODO: când paginile de acte de pe destraja.ro/acte se lansează, legăturile spre actele vechi trec acolo (/acte/p/<id>).
 export const portalUrl = (id: number) => `https://legislatie.just.ro/Public/DetaliiDocument/${id}`;

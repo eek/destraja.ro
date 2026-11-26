@@ -1,9 +1,3 @@
-Cod fiscal: 10464660
-
-E-mail: ces@ces.ro
-
-www.ces.ro
-
 Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
 
 „Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
@@ -16,9 +10,13 @@ Bp.520....1.8:40,2026.
 
 ## AVIZ
 
-## referitor la propunerea legislativă pentru modificarea și completarea Ordonanței Guvernului nr.1/2000 privind organizarea activității și funcționarea instituțiilor de medicină legală (b520/21.09.2026)
+# referitor la propunerea legislativă pentru modificarea și completarea Ordonanței Guvernului nr.1/2000 privind organizarea activității și funcționarea instituțiilor de medicină legală manent al Senatului (b520/21.09.2026)
 
-În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Ordonanței Guvernului nr.1/2000 privind organizarea activității și funcționarea instituțiilor de medicină legală (b520/21.09.2026).
+Biroul permanent al Senatului
+
+619 12.11 2026. In temerul art.
+
+In temeiul art. 2 alin. (1) din Legea, nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Ordonanței Guvernului nr.1/2000 privind organizarea activității și funcționarea instituțiilor de medicină legală (b520/21.09.2026).
 
 ## CONSILIUL ECONOMIC ȘI SOCIAL
 
@@ -30,7 +28,7 @@ Sterică FUDULEA
 
 Digitally signed by Fudulea
 
-Sterica
+Sterică
 
 Date:
 

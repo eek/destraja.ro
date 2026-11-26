@@ -3,8 +3,12 @@
 // care GFM nu le recunoaște și le lasă ca text cu bare verticale). Aici le curățăm înainte de randare:
 // - fixPipeTables: repară Markdown-ul (separatorul lipsă; o celulă pe rând devine paragraf);
 // - rehypeTidyTables: curăță arborele HTML (rânduri și coloane goale, tabele de o coloană, antet, coloane înguste) și,
-//   când primește lista oficială a inițiatorilor, corectează numele din tabelele de semnături (OCR-ul le strică des:
-//   „AUNCA HARIUS” e Dunca Marius-Alexandru).
+//   când primește lista oficială a inițiatorilor, pune numele din tabelele de semnături pe lista aceea (OCR-ul le strică
+//   des: „AUNCA HARIUS” e Dunca Marius-Alexandru; potrivirea e în initiator-match.ts) și grupul din aceeași listă.
+
+import { assignRows, fold, similarity, type KnownName } from './initiator-match';
+
+export type { KnownName };
 
 type Node = { type: string; tagName?: string; value?: string; properties?: Record<string, unknown>; children?: Node[] };
 
@@ -123,103 +127,195 @@ function tidy(table: Node): Node[] | null | undefined {
 }
 
 
-// --- Numele din tabelele de semnături, după lista oficială a inițiatorilor (senat.ro) ---
 
-export type KnownName = { name: string; party?: string | null };
 
-const fold = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/-/g, ' ').replace(/[^a-z\s]/g, ' ').replace(/\s+/g, ' ').trim();
-function lev(a: string, b: string) {
-  const d = Array.from({ length: b.length + 1 }, (_, i) => i);
-  for (let i = 1; i <= a.length; i++) {
-    let prev = d[0];
-    d[0] = i;
-    for (let j = 1; j <= b.length; j++) {
-      const t = d[j];
-      d[j] = Math.min(d[j] + 1, d[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1));
-      prev = t;
-    }
-  }
-  return d[b.length];
-}
-const ratio = (a: string, b: string) => 1 - lev(a, b) / Math.max(a.length, b.length, 1);
-const sortWords = (s: string) => s.split(' ').sort().join(' ');
-/** Formele în care poate apărea un nume în tabel: întreg, numele de familie cu fiecare prenume, în ambele ordini. */
-function forms(name: string) {
-  const w = fold(name.replace(/\([^)]*\)/g, ' ')).split(' ').filter(Boolean);
-  const out = new Set([w.join(' '), [...w].reverse().join(' ')]);
-  for (let i = 1; i < w.length; i++) out.add(`${w[0]} ${w[i]}`).add(`${w[i]} ${w[0]}`);
-  return [...out];
-}
-/** Cât de aproape e celula de un nume: ca atare, cu cuvintele sortate și fără spații (OCR-ul lipește cuvintele). */
-const closeness = (cell: string, vs: string[]) =>
-  Math.max(...vs.map((v) => Math.max(ratio(cell, v), ratio(sortWords(cell), sortWords(v)), ratio(cell.replace(/ /g, ''), v.replace(/ /g, '')))));
-const nameLike = (s: string) => s.length >= 5 && s.length <= 60 && /\p{L}{2}/u.test(s) && !/\d{2}/.test(s);
-const PARTY = /^(PSD|PNL|USR|AUR|UDMR|SOS|POT|PMP|PRO|minorit|neafilia|independent)/i;
+// --- Tabelele de semnături: numele după lista oficială a inițiatorilor (senat.ro), grupul din aceeași listă ---
 
-/** Scorul fiecărei celule față de fiecare nume cunoscut, apoi potrivire lacomă: fiecare inițiator cel mult o dată. */
-function correctNames(table: Node, known: KnownName[]): { fixed: number; unsure: number } | null {
-  const rows = rowsOf(table).map(({ row }) => cellsIn(row)).filter((cells) => cells.every((c) => c.tagName !== 'th'));
-  const width = Math.max(0, ...rows.map((r) => r.length));
-  const variants = known.map((k) => forms(k.name));
-  let fixed = 0, unsure = 0, any = false;
-  for (let col = 0; col < width; col++) {
-    const cells = rows.map((r) => ({ cell: r[col], row: r })).filter((x) => x.cell && nameLike(text(x.cell).trim()));
-    if (cells.length < 3) continue;
-    const scored = cells.map(({ cell, row }) => {
-      const c = fold(text(cell));
-      const party = row.map((x) => text(x).trim()).find((s) => s !== text(cell).trim() && PARTY.test(s));
-      return { cell, party, scores: variants.map((vs) => closeness(c, vs)) };
-    });
-    // O coloană de nume: cel puțin jumătate din celule se potrivesc sigur cu un inițiator.
-    if (scored.filter((s) => Math.max(...s.scores) >= 0.72).length < cells.length / 2) continue;
-    any = true;
-    const pairs = scored.flatMap((s, i) => s.scores.map((score, k) => ({ i, k, score }))).sort((a, b) => b.score - a.score);
-    const usedCell = new Set<number>(), usedName = new Set<number>();
-    for (const { i, k, score } of pairs) {
-      if (usedCell.has(i) || usedName.has(k) || score < 0.6) continue;
-      const s = scored[i];
-      const second = Math.max(0, ...s.scores.filter((_, j) => j !== k && !usedName.has(j)));
-      const partyOk = !s.party || !known[k].party || fold(s.party).startsWith(fold(known[k].party!).slice(0, 3));
-      // Sigur: aproape identic, sau destul de aproape și clar mai aproape decât următorul nume; partidul din rând contează.
-      if (!(score >= 0.72 || score - second >= 0.12) || (!partyOk && score < 0.85)) continue;
-      usedCell.add(i);
-      usedName.add(k);
-      // Numărăm doar numele chiar schimbate (nu „Mazilu Liviu” scris întreg ca „Mazilu Liviu-Lucian”).
-      if (score < 0.97 && !variants[k].includes(fold(text(s.cell)))) fixed++;
-      s.cell.children = [{ type: 'text', value: known[k].name }];
-    }
-    scored.forEach((s, i) => {
-      if (!usedCell.has(i)) {
-        addClass(s.cell, 'unsure');
-        unsure++;
+/** Ce știm din afara textului despre tabelele de semnături ale unui document (scripts/straja-tabel-semnaturi.mjs). */
+export type SignatureInfo = {
+  /** PDF-ul oficial, pentru legătura spre pagina tabelului. */
+  pdfUrl?: string;
+  /** Pagina din PDF a fiecărui tabel de semnături, cu numele recunoscute în el (pliate cu fold). */
+  pages?: { page: number; rows: string[] }[];
+  /** Rândurile citite de un model pe imaginea paginii: textul recunoscut (pliat) → numele oficial. */
+  read?: Record<string, string>;
+};
+
+const nameLike = (s: string) => s.length >= 4 && s.length <= 60 && /\p{L}{2}/u.test(s) && !/\d{2}/.test(s);
+const PARTY_HINT = /ps|pnl|usr|aur|udmr|sos|pot|neaf|minor|pmp|pro/i;
+const STRONG = 0.72;
+
+type SigRow = {
+  name: Node;
+  group?: Node;
+  /** Numărul curent („23”), textul recunoscut al numelui și al grupului, înainte de corectare. */
+  nr: string;
+  ocr: string;
+  ocrGroup: string;
+  /** Inițiatorul ales (indice în lista oficială) și de unde vine alegerea, după correctNames. */
+  k?: number | null;
+  via?: 'text' | 'fixed' | null;
+};
+
+/**
+ * Celulele fiecărui rând pe coloanele lor adevărate: o celulă unită pe verticală (coloana „Semnătura”, cu rowspan pe tot
+ * tabelul) ține locul ei și în rândurile de dedesubt, iar una unită pe orizontală ocupă mai multe coloane.
+ */
+function grid(table: Node): Node[][] {
+  const out: Node[][] = [];
+  const carry: number[] = [];
+  for (const { row } of rowsOf(table)) {
+    const line: Node[] = [];
+    let col = 0;
+    for (const cell of cellsIn(row)) {
+      while (carry[col] > 0) col++;
+      const cs = Math.max(1, Number(cell.properties?.colSpan ?? 1)), rs = Math.max(1, Number(cell.properties?.rowSpan ?? 1));
+      for (let k = 0; k < cs; k++) {
+        line[col + k] = cell;
+        if (rs > 1) carry[col + k] = rs;
       }
-    });
+      col += cs;
+    }
+    for (let c = 0; c < carry.length; c++) if (carry[c] > 0) carry[c]--;
+    out.push(line);
   }
-  return any ? { fixed, unsure } : null;
+  // Rândurile pot ieși cu goluri (sub o celulă unită): golurile rămân undefined.
+  return out;
+}
+type SigTable = { table: Node; parent: Node; rows: SigRow[] };
+
+/** Coloana numelor și a grupului dintr-un tabel de semnături, sau null dacă tabelul nu e unul. */
+function signatureRows(table: Node, known: KnownName[]): SigRow[] | null {
+  const all = grid(table);
+  const head = all.find((cells) => cells.some((c) => c.tagName === 'th'))?.map((c) => fold(text(c))) ?? [];
+  const data = all.filter((cells) => cells.every((c) => c.tagName !== 'th'));
+  const width = Math.max(0, ...data.map((r) => r.length));
+  if (!data.length || width < 2) return null;
+  const best = (s: string) => Math.max(0, ...known.map((k) => similarity(s, k.name)));
+  // Coloana numelor: cea cu „nume” în antet, altfel cea cu cele mai multe celule care arată a nume.
+  let nameCol = head.findIndex((h) => /\bnume/.test(h));
+  const filledIn = (col: number) => data.map((r) => r[col]).filter((c): c is Node => !!c && nameLike(text(c).trim()));
+  if (nameCol < 0) {
+    let most = 0;
+    for (let col = 0; col < width; col++) {
+      const n = filledIn(col).length;
+      if (n > most) [most, nameCol] = [n, col];
+    }
+  }
+  if (nameCol < 0) return null;
+  const names = filledIn(nameCol);
+  if (!names.length) return null;
+  const scores = names.map((c) => best(text(c)));
+  const strong = scores.filter((s) => s >= STRONG).length;
+  // Un tabel de semnături: antetul o spune („Nume și prenume”, „Semnătura”/„Grup”) și măcar un nume seamănă cu un
+  // inițiator, sau cel puțin jumătate din nume (minimum trei) se potrivesc sigur.
+  const headerSays = head.some((h) => /\bnume/.test(h)) && head.some((h) => /semn|grup|partid|formatiun/.test(h));
+  if (!((headerSays && Math.max(...scores) >= 0.55) || (names.length >= 3 && strong >= names.length / 2))) return null;
+  // Coloana grupului: după antet, altfel o coloană scurtă în care apar inițialele partidelor.
+  let groupCol = head.findIndex((h, i) => i !== nameCol && /grup|partid|formatiun|apartenen/.test(h));
+  if (groupCol < 0) {
+    for (let col = 1; col < width && groupCol < 0; col++) {
+      if (col === nameCol) continue;
+      const cells = data.map((r) => text(r[col] ?? { type: 'text', value: '' }).trim()).filter(Boolean);
+      if (cells.length && cells.filter((t) => t.length <= 12 && !/\d/.test(t)).length >= cells.length / 2 && cells.some((t) => PARTY_HINT.test(t))) groupCol = col;
+    }
+  }
+  const nrCol = nameCol > 0 ? 0 : -1;
+  return data
+    .filter((r) => r[nameCol] && nameLike(text(r[nameCol]).trim()))
+    .map((r) => {
+      const group = groupCol >= 0 ? r[groupCol] : undefined;
+      const nr = nrCol >= 0 && r[nrCol] ? text(r[nrCol]).trim().replace(/[.)]$/, '') : '';
+      return { name: r[nameCol], group, nr, ocr: text(r[nameCol]).trim(), ocrGroup: group ? text(group).trim() : '' };
+    });
+}
+
+type SigResult = { total: number; fixed: number; groups: number; byModel: number; unsure: number };
+
+/** Potrivirea pentru toate tabelele de semnături ale documentului deodată: un inițiator apare o singură dată în tot documentul. */
+function correctNames(tables: SigTable[], known: KnownName[], info: SignatureInfo): SigResult {
+  const rows = tables.flatMap((t) => t.rows);
+  const cells = rows.map((r) => text(r.name).trim());
+  const byFold = new Map(known.map((k, i) => [fold(k.name), i]));
+  const fixed = new Map<number, number>();
+  cells.forEach((c, i) => {
+    const official = info.read?.[fold(c)];
+    const k = official ? byFold.get(fold(official)) : undefined;
+    if (k !== undefined) fixed.set(i, k);
+  });
+  const result = assignRows(cells, known, { fixed });
+  const r: SigResult = { total: rows.length, fixed: 0, groups: 0, byModel: 0, unsure: 0 };
+  result.forEach((a, i) => {
+    const row = rows[i];
+    row.k = a.k;
+    row.via = a.via;
+    if (a.k === null) {
+      addClass(row.name, 'unsure');
+      if (row.group && !empty(text(row.group))) addClass(row.group, 'unsure');
+      r.unsure++;
+      return;
+    }
+    const k = known[a.k];
+    // Numărăm doar numele chiar schimbate (nu „Mazilu Liviu” scris întreg ca „Mazilu Liviu-Lucian”).
+    if (similarity(cells[i], k.name) < 0.97) r.fixed++;
+    if (a.via === 'fixed') r.byModel++;
+    row.name.children = [{ type: 'text', value: k.name }];
+    if (row.group) {
+      if (k.party) {
+        if (fold(text(row.group)) !== fold(k.party)) r.groups++;
+        row.group.children = [{ type: 'text', value: k.party }];
+      } else if (!empty(text(row.group))) addClass(row.group, 'unsure');
+    }
+  });
+  return r;
 }
 
 // „22 de nume”, nu „22 nume”: de la 20 în sus, numeralul cere „de” (cu excepția celor terminate în 01–19).
 const deNume = (n: number) => (n % 100 >= 1 && n % 100 <= 19 ? `${n} nume` : `${n} de nume`);
-const note = (r: { fixed: number; unsure: number }): Node => ({
-  type: 'element',
-  tagName: 'p',
-  properties: { className: ['table-note'] },
-  children: [
-    {
-      type: 'text',
-      value: [
-        r.fixed ? 'Numele din tabel sunt scrise după lista oficială a inițiatorilor de pe senat.ro; textul recunoscut din PDF le stricase.' : null,
-        r.unsure === 1
-          ? 'Numele în cursiv nu se potrivește sigur cu niciun inițiator de pe senat.ro și a rămas cum e în PDF.'
-          : r.unsure > 1
-            ? `Cele ${deNume(r.unsure)} în cursiv nu se potrivesc sigur cu niciun inițiator de pe senat.ro și au rămas cum sunt în PDF.`
-            : null,
-      ].filter(Boolean).join(' '),
-    },
-  ],
-});
+const para = (children: Node[]): Node => ({ type: 'element', tagName: 'p', properties: { className: ['table-note'] }, children });
+const t = (value: string): Node => ({ type: 'text', value });
 
-function walk(node: Node, known: KnownName[]) {
+function note(r: SigResult): Node | null {
+  // Scris de mână: textul recunoscut a stricat cel puțin o treime din nume (tabelele tipărite ies aproape curate).
+  const handwritten = r.fixed >= Math.max(2, r.total * 0.3);
+  const parts = [
+    handwritten
+      ? 'Tabelul e completat de mână, iar textul recunoscut automat din scanare îi strică numele. De aceea numele și grupurile sunt scrise după lista oficială a inițiatorilor de pe senat.ro.'
+      : r.fixed || r.groups
+        ? 'Numele din tabel sunt scrise după lista oficială a inițiatorilor de pe senat.ro; textul recunoscut din PDF le stricase.'
+        : null,
+    r.byModel === 1
+      ? 'Un nume pe care textul recunoscut nu-l lămurea l-a citit un model AI (Gemini) pe imaginea paginii, alegând tot din lista oficială.'
+      : r.byModel > 1
+        ? `${deNume(r.byModel)} pe care textul recunoscut nu le lămurea le-a citit un model AI (Gemini) pe imaginea paginii, alegând tot din lista oficială.`.replace(/^./, (c) => c.toUpperCase())
+        : null,
+    r.unsure === 1
+      ? 'Numele în cursiv nu se potrivește sigur cu niciun inițiator de pe senat.ro și a rămas cum e în PDF, cu grupul citit tot de acolo.'
+      : r.unsure > 1
+        ? `Cele ${deNume(r.unsure)} în cursiv nu se potrivesc sigur cu niciun inițiator de pe senat.ro și au rămas cum sunt în PDF, cu grupul citit tot de acolo.`
+        : null,
+  ].filter(Boolean);
+  return parts.length ? para([t(parts.join(' '))]) : null;
+}
+
+/** „Tabelul semnat, în PDF: pagina 10”, cu legătura spre pagina din PDF-ul oficial. */
+function pageLink(sig: SigTable, info: SignatureInfo): Node | null {
+  if (!info.pdfUrl || !info.pages?.length) return null;
+  const names = new Set(sig.rows.map((r) => fold(r.ocr)));
+  let best: { page: number; hits: number } | null = null;
+  for (const p of info.pages) {
+    const hits = p.rows.filter((x) => names.has(x)).length;
+    if (hits && (!best || hits > best.hits)) best = { page: p.page, hits };
+  }
+  if (!best) return null;
+  const href = `${info.pdfUrl.split('#')[0]}#page=${best.page}`;
+  return para([
+    t('Tabelul semnat, în PDF: '),
+    { type: 'element', tagName: 'a', properties: { href, target: '_blank', rel: ['noopener', 'noreferrer'] }, children: [t(`pagina ${best.page}`)] },
+  ]);
+}
+
+function walk(node: Node, known: KnownName[], found: SigTable[]) {
   if (!node.children) return;
   const next: Node[] = [];
   for (const child of node.children) {
@@ -230,17 +326,52 @@ function walk(node: Node, known: KnownName[]) {
         next.push(...r);
         continue;
       }
-      const names = known.length ? correctNames(child, known) : null;
+      const rows = known.length ? signatureRows(child, known) : null;
+      if (rows?.length) found.push({ table: child, parent: node, rows });
       next.push(child);
-      if (names && (names.fixed || names.unsure)) next.push(note(names));
       continue;
-    } else walk(child, known);
+    } else walk(child, known, found);
     next.push(child);
   }
   node.children = next;
 }
 
-/** Pluginul rehype: rulează după sanitize, ca clasele adăugate aici să rămână. */
-export default function rehypeTidyTables(options: { names?: KnownName[] } = {}) {
-  return (tree: Node) => walk(tree, options.names ?? []);
+/** Pune un nod chiar înainte (offset 0) sau chiar după (offset 1) un tabel. */
+const insertAt = (parent: Node, ref: Node, offset: 0 | 1, node: Node) => {
+  const list = parent.children ?? [];
+  const i = list.indexOf(ref);
+  if (i >= 0) list.splice(i + offset, 0, node);
+};
+
+function tidyTree(tree: Node, known: KnownName[], info: SignatureInfo) {
+  const found: SigTable[] = [];
+  walk(tree, known, found);
+  if (!found.length) return [];
+  // Rândurile semnate apar în ordine pe toate paginile, deci le potrivim împreună (eliminarea lucrează pe tot documentul).
+  const r = correctNames(found, known, info);
+  // Pagina din PDF deasupra fiecărui tabel (fiecare pagină are tabelul ei), nota o singură dată, sub ultimul.
+  found.forEach((sig, i) => {
+    const link = pageLink(sig, info);
+    if (link) insertAt(sig.parent, sig.table, 0, link);
+    const n = i === found.length - 1 ? note(r) : null;
+    if (n) insertAt(sig.parent, sig.table, 1, n);
+  });
+  return found;
+}
+
+export type SignatureRow = { nr: string; ocr: string; ocrGroup: string; table: number; k: number | null; via: 'text' | 'fixed' | null };
+
+/**
+ * Rândurile tabelelor de semnături dintr-un arbore HTML (același drum ca pe pagină), cu inițiatorul ales pentru fiecare.
+ * Pentru scripts/straja-tabel-semnaturi.mjs: ce nu se lămurește din text merge la citirea pe imagine. Arborele se schimbă.
+ */
+export function signatureReport(tree: Node, known: KnownName[], info: SignatureInfo = {}): SignatureRow[] {
+  return tidyTree(tree, known, info).flatMap((sig, table) =>
+    sig.rows.map((row) => ({ nr: row.nr, ocr: row.ocr, ocrGroup: row.ocrGroup, table, k: row.k ?? null, via: row.via ?? null })),
+  );
+}
+
+/** Pluginul rehype: rulează după sanitize, ca clasele și legăturile adăugate aici să rămână. */
+export default function rehypeTidyTables(options: { names?: KnownName[]; signatures?: SignatureInfo } = {}) {
+  return (tree: Node) => void tidyTree(tree, options.names ?? [], options.signatures ?? {});
 }

@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+PREȘEDINTE
+
+București, 23 noiembrie 2026 Nr.b393/2026, b516/2026, b588/2026.
+
+Domnului
+
+## SORIN-MIHAI GRINDEANU PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Vă aducem la cunoștință că plenul Senatului, în ședința din 23 noiembrie 2026, a hotărât că următoarele propuneri legislative sunt de competența decizională a Senatului:
+
+\- propunerea legislativă pentru modificarea și completarea Legii nr.51/1991 privind securitatea națională a României (b393/2026);
+
+\- propunerea legislativă pentru modificarea și completarea Legii învățământului preuniversitar nr.198/2023 (b516/2026);
+
+\- propunerea legislativă pentru abrogarea art. 35 lit. e) din Legea apărării naționale a României nr. 45/1994, precum și pentru modificarea și completarea Legii nr.446/2006 privind pregătirea populației pentru apărare (b588/2026).
+
+Prin urmare, vă transmitem alăturat, în original, propunerile legislative menționate, pe care, potrivit articolului 75 alineatul (1) din Constituția României, republicată, Camera Deputaților urmează să le dezbată în calitate de primă Cameră sesizată.
+
+PREȘEDINTELESENATULUI
+
+PAP MIRCEA ABRUDEAN

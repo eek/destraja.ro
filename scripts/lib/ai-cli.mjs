@@ -36,8 +36,10 @@ const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'
 // În interiorul repo-ului, ca agy să găsească agenții din .agents/agents/, dar gol și ignorat de git.
 export const SANDBOX_DIR = path.join(ROOT_DIR, '.cache', 'ai-sandbox');
 const CODEX_HOME = path.join(ROOT_DIR, '.cache', 'codex-home');
+// Modelul GPT al analizelor, implicit pentru codex; codexModel îl schimbă pe un apel (de exemplu gpt-6-luna).
+export const CODEX_MODEL = 'gpt-6.1-sol';
 const CODEX_CONFIG = `# Codex pentru analizele destrajă (scripts/lib/ai-cli.mjs): fără servere MCP, plugin-uri sau memorii.
-model = "gpt-6.1-sol"
+model = "${CODEX_MODEL}"
 model_reasoning_effort = "high"
 
 # Doar text: fără terminal, execuție de cod, sub-agenți, obiective, imagini, aplicații sau browser.

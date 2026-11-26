@@ -2,8 +2,9 @@
 // Actualizarea de dimineață: luni–vineri la 09:30 prin launchd (scripts/launchd/; între 08:10 și 09:10 Mac-ul e pe drum, fără rețea), sau manual cu
 // `npm run straja:daily`.
 //
-// 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor: scanările citite cu MinerU și verificate pagină cu
-//    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs); documentele noi ale proiectelor ieșite din consultare
+// 1. senat.ro → data/senat-bills.json (citit de VM-ul destraja la 07:30 și 12:30, ca proiectele noi să vină și cu Mac-ul
+//    adormit; Mac-ul citește singur doar când lista VM-ului nu e de azi, lib/senat-vm.mjs), cu PDF-urile noi și textul
+//    lor: scanările citite cu MinerU și verificate pagină cu pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs); documentele noi ale proiectelor ieșite din consultare
 //    se citesc într-un pas separat, cu bugetul lui (straja-sync --texte); apoi textul în vigoare al articolelor modificate, de pe
 //    legislatie.just.ro, pentru proiectele noi sau schimbate și pentru legile cu textul schimbat (straja-baseline)
 //    Apoi prospețimea (scripts/check-fresh.mjs, lib/fresh.mjs): câte rezultate derivate sunt făcute din altă analiză,
@@ -78,6 +79,7 @@ import { spawn, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { awakeClock, formatSleep } from './lib/awake-clock.mjs';
 import { runStep, signalAll, tree } from './lib/step-runner.mjs';
+import { sourceLine } from './lib/senat-vm.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -360,6 +362,13 @@ async function freshness(name) {
 }
 
 const readBills = () => JSON.parse(fs.readFileSync(path.join(DATA, 'senat-bills.json'), 'utf8'));
+const readJsonOr = (file, fallback = null) => {
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return fallback;
+  }
+};
 const analysisPath = (slug) => path.join(DATA, 'analyses', `${slug}.json`);
 const mtimes = () => Object.fromEntries(fs.readdirSync(path.join(DATA, 'analyses')).map((f) => [f, fs.statSync(path.join(DATA, 'analyses', f)).mtimeMs]));
 
@@ -432,6 +441,9 @@ async function main() {
     const analysesBefore = mtimes();
 
     // MinerU citește ~7 s pe pagină: o zi cu multe proiecte noi poate trece de o oră.
+    // Pasul ia întâi lista de pe VM-ul destraja (citită acolo la 07:30 și la 12:30, lib/senat-vm.mjs); doar dacă nu e de
+    // azi citește Mac-ul Senatul singur. De unde au venit datele scrie în data/senat-sursa.json.
+    const syncStart = new Date().toISOString();
     let sync = await step('Senat', 'node', ['scripts/straja-sync.mjs'], { timeoutMs: 3 * 3_600_000 });
     // Căzut în primele minute pentru că rețeaua a dispărut chiar atunci: încă o dată, după ce revine.
     if (!sync.ok && sync.awakeSeconds < 300 && NET_DOWN.test(sync.tail) && (await waitForNetwork(10))) {
@@ -443,6 +455,18 @@ async function main() {
     const added = Math.max(0, readBills().length - before);
     if (sync.ok) summary.push(`${added} proiecte noi`);
     else fail(`sincronizarea a eșuat${added ? ` (${added} proiecte noi salvate înainte de oprire)` : ''}`);
+    const source = readJsonOr(path.join(DATA, 'senat-sursa.json'));
+    if (source && source.at >= syncStart) {
+      log(sourceLine(source));
+      summary.push(sourceLine(source));
+      // VM-ul trebuia să aducă lista de azi și n-a adus-o: o notificare separată, ca să nu treacă neobservat.
+      if (source.from === 'mac' && source.vmConfigured) notify(`Senatul de pe VM n-a venit azi (${source.why}); l-a citit Mac-ul.`);
+      // Lista de azi e bună, dar rularea VM-ului s-a oprit după ea (de obicei la recitiri): ce n-a recitit vine la 12:30.
+      if (source.from === 'vm' && source.vm?.ok === false) {
+        log(`VM-ul s-a oprit după listă: ${source.vm.error}`);
+        notify(`Senatul pe VM: lista de azi e bună, dar rularea s-a oprit (${source.vm.error}).`);
+      }
+    }
 
     // Textele documentelor noi ale proiectelor recitite (straja-sync --texte): recitirile de mai sus aduc doar fișele și
     // PDF-urile, iar MinerU (~7 s pe pagină) le citește aici, cu bugetul lui: după 45 de minute de lucru nu mai începe alt

@@ -5,6 +5,13 @@
 //   node scripts/straja-sync.mjs [b660]       lista întreagă (sau doar proiectul cerut)
 //   node scripts/straja-sync.mjs --texte      textele documentelor noi ale proiectelor recitite (pasul următor)
 //   node scripts/straja-sync.mjs --restore B517/2026=27956 …
+//   node scripts/straja-sync.mjs --vm         pe VM-ul destraja: lista, fișele, recitirile și PDF-urile, fără texte
+//                                             (scripts/vm/install-senat-vm.sh; ~/senat-vm/data și status.json)
+//   --fara-vm            pe Mac: citește Senatul singur, fără să întrebe VM-ul
+//
+// Pe Mac, pasul întreabă întâi VM-ul (lib/senat-vm.mjs): dacă lista lui e de azi, aduce de acolo fișierul și PDF-urile
+// care lipsesc, citește doar textele (proiectele din consultare acum, celelalte prin coada lui --texte) și nu mai cere
+// nimic de la senat.ro; altfel citește singur, ca înainte.
 //
 //   --recitiri-minute=N  după N minute de lucru nu mai începe alte recitiri (implicit 90)
 //   --minute=N           la --texte: după N minute de lucru nu mai începe alt proiect (implicit 45)
@@ -19,6 +26,9 @@ import { todayBucharest } from './lib/web.mjs';
 import { writeFileAtomic } from './lib/atomic.mjs';
 import { queueTexts, readQueuedTexts, syncBills } from './lib/senat-sync.mjs';
 import { awakeClock } from './lib/awake-clock.mjs';
+import { bucharestTime, mergeBills, neededPdfs, senatStep, shortError, sourceLine } from './lib/senat-vm.mjs';
+import os from 'node:os';
+import { execFile } from 'node:child_process';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -35,6 +45,21 @@ const REREAD_MINUTES = 90;
 // Textele documentelor noi ale proiectelor recitite (--texte): după atâtea minute de lucru nu mai începe alt proiect.
 const TEXTS_MINUTES = 45;
 const TEXTS_QUEUE = path.join(ROOT_DIR, '.cache', 'senat-texte.json');
+const ARGS = process.argv.slice(2);
+// Pe VM (--vm): doar ce vine de pe senat.ro, fără texte și fără coada lor; starea rulării în data/status.json, iar ce i-a
+// trimis Mac-ul (put-bills) în inbox/mac-bills.json.
+const IS_VM = ARGS.includes('--vm');
+const VM_STATUS_FILE = path.join(DATA_DIR, 'status.json');
+const VM_INBOX = path.join(ROOT_DIR, 'inbox', 'mac-bills.json');
+// Pe Mac: gazda prin care ajungem la VM (ca agendele) și cheia restrânsă a Senatului (doar rsync din ~/senat-vm/data și
+// put-bills, scripts/vm/senat-vm-ssh.sh). Fără una din ele, sau cu --fara-vm, Mac-ul citește singur.
+const JUMP_FILE = path.join(ROOT_DIR, '.cache', 'agenda-vm');
+const VM_KEY = path.join(os.homedir(), '.ssh', 'destraja_senat_vm');
+const VM_HOST = 'destraja@192.168.153.10';
+const VM_STAGE = path.join(ROOT_DIR, '.cache', 'senat-vm');
+// De unde au venit datele azi, pentru /admin/rapoarte (src/components/admin/AdminSenatSource.tsx).
+const SOURCE_FILE = path.join(DATA_DIR, 'senat-sursa.json');
+let pdfsAdded = 0;
 const clock = awakeClock();
 // Ceasul treaz trebuie citit des: un interval care nu ține procesul în viață.
 setInterval(() => clock.sample(), 5000).unref();
@@ -363,9 +388,10 @@ async function readTexts(slug, reread = []) {
 
 /**
  * Descarcă PDF-urile noi ale proiectului. Cu `texts` le citește și textul acum (proiectele din lista în consultare, pe
- * care le analizăm azi); fără, proiectul intră în coada lui --texte, dacă a venit ceva nou.
+ * care le analizăm azi); fără, proiectul intră în coada lui --texte, dacă a venit ceva nou. `pulled`: câte PDF-uri au
+ * venit chiar acum de pe VM (sunt noi, deși fișierul există deja).
  */
-async function downloadPdfsAndExtractText(bill, shouldDownload = false, { texts = true } = {}) {
+async function downloadPdfsAndExtractText(bill, shouldDownload = false, { texts = true, pulled = 0 } = {}) {
   if (!shouldDownload) return {};
   const billPdfDir = path.join(PDF_DIR, bill.slug);
   fs.mkdirSync(billPdfDir, { recursive: true });
@@ -379,6 +405,7 @@ async function downloadPdfsAndExtractText(bill, shouldDownload = false, { texts 
       if (res.ok) {
         writeFileAtomic(filePath, Buffer.from(await res.arrayBuffer()));
         added++;
+        pdfsAdded++;
       }
     } catch (err) {
       console.warn(`⚠️ Eroare PDF ${pdf.url}:`, err.message);
@@ -386,7 +413,10 @@ async function downloadPdfsAndExtractText(bill, shouldDownload = false, { texts 
   }
   // După numărul L fișa trimite la alte fișiere (26L622ES.PDF în loc de 26b523ES.PDF): rămân doar cele din fișa de azi.
   const reread = dropSuperseded(billPdfDir, (bill.pdfs || []).map((pdf) => `${pdf.type}_${path.basename(pdf.url)}`));
+  // Pe VM nu se citesc texte: Mac-ul le citește după ce aduce PDF-urile (syncFromVm).
+  if (IS_VM) return {};
   if (texts) return readTexts(bill.slug, reread);
+  added += pulled;
   // Coada se scrie pe loc: o oprire a pasului după descărcare nu pierde ce e de citit (fișierul PDF există deja, deci
   // rularea următoare nu l-ar mai vedea ca nou). Intră și proiectele cu un PDF încă fără text (o citire căzută ieri),
   // cum le găsea până acum recitirea, care le citea pe loc.
@@ -515,28 +545,262 @@ async function readQueue(minutes) {
   console.log(`✅ texte: ${JSON.stringify(stats)}`);
 }
 
-async function main() {
-  const args = process.argv.slice(2);
-  const opt = (name, def) => Number(args.find((a) => a.startsWith(`--${name}=`))?.split('=')[1] ?? def);
-  if (args.includes('--restore')) return restoreBills(args.filter((a) => !a.startsWith('--')));
-  if (args.includes('--texte')) return readQueue(opt('minute', TEXTS_MINUTES));
-  const targetFilter = args.find((a) => !a.startsWith('--'));
-  const rereadMinutes = opt('recitiri-minute', REREAD_MINUTES);
+// ── VM-ul destraja ──
 
+const readJsonFile = (file, fallback = null) => {
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return fallback;
+  }
+};
+const writeJson = (file, value) => writeFileAtomic(file, JSON.stringify(value, null, 2) + '\n');
+const saveBills = (all) => writeFileAtomic(BILLS_FILE, JSON.stringify(all, null, 2));
+const vmConfigured = () => !IS_VM && fs.existsSync(JUMP_FILE) && fs.existsSync(VM_KEY);
+
+/** ssh spre VM cu cheia restrânsă, prin gazda de salt; fără agent (1Password poate fi blocat). */
+function vmSsh() {
+  const jump = fs.readFileSync(JUMP_FILE, 'utf8').trim();
+  if (!/^[\w@.-]+$/.test(jump)) throw new Error(`.cache/agenda-vm nu e o gazdă: „${jump}”`);
+  return ['ssh', '-o', 'BatchMode=yes', '-o', 'ConnectTimeout=20', '-o', 'ServerAliveInterval=15', '-o', 'IdentitiesOnly=yes', '-o', 'IdentityAgent=none', '-i', VM_KEY, '-J', jump];
+}
+
+function run(cmd, argv, { input = null, timeoutMs = 300_000 } = {}) {
+  return new Promise((resolve, reject) => {
+    const child = execFile(cmd, argv, { timeout: timeoutMs, maxBuffer: 8 * 1024 * 1024 }, (err, stdout, stderr) => {
+      if (err) reject(new Error(`${cmd}: ${shortError(stderr, err.message)}`));
+      else resolve(stdout);
+    });
+    // ssh închis înainte să citească tot (VM-ul nu răspunde): eroarea vine din codul de ieșire, nu din scriere.
+    child.stdin.on('error', () => {});
+    if (input != null) child.stdin.end(input);
+    else child.stdin.end();
+  });
+}
+
+/** Aduce `files` (relative la ~/senat-vm/data pe VM) în .cache/senat-vm; cu `list`, căile vin printr-un fișier. */
+async function vmPull(files, { list = false } = {}) {
+  fs.mkdirSync(VM_STAGE, { recursive: true });
+  const e = vmSsh().map((a) => (/\s/.test(a) ? `'${a}'` : a)).join(' ');
+  const base = ['-a', '--timeout=120', '--exclude=*.tmp', '-e', e];
+  if (!list) return run('rsync', [...base, ...files.map((f, i) => (i ? `:${f}` : `${VM_HOST}:${f}`)), `${VM_STAGE}/`]);
+  const listFile = path.join(VM_STAGE, '.de-adus');
+  fs.writeFileSync(listFile, files.join('\n') + '\n');
+  try {
+    // --ignore-missing-args: un PDF pe care nici VM-ul nu l-a putut descărca îl cere Mac-ul de la senat.ro.
+    return await run('rsync', [...base, '--ignore-missing-args', `--files-from=${listFile}`, `${VM_HOST}:.`, `${VM_STAGE}/`], { timeoutMs: 1_800_000 });
+  } finally {
+    fs.rmSync(listFile, { force: true });
+  }
+}
+
+/** Îi trimite VM-ului fișierul nostru: proiectele știute doar de Mac și citirile mai noi ale Mac-ului ajung și acolo. */
+async function vmPush() {
+  if (!vmConfigured() || !fs.existsSync(BILLS_FILE)) return;
+  try {
+    await run(vmSsh()[0], [...vmSsh().slice(1), VM_HOST, 'put-bills'], { input: fs.readFileSync(BILLS_FILE), timeoutMs: 120_000 });
+  } catch (err) {
+    console.log(`⚠️ Fișierul n-a ajuns pe VM (${err.message}); îl trimit la rularea următoare.`);
+  }
+}
+
+/** Rândul pentru rularea zilnică (scripts/straja-daily.mjs îl pune în rezumat) și data/senat-sursa.json pentru /admin. */
+function reportSource(source) {
+  writeJson(SOURCE_FILE, { day: todayBucharest(), at: new Date().toISOString(), ...source });
+  console.log(`📡 ${sourceLine(source)}`);
+  console.log(`✅ sursa: ${JSON.stringify({ from: source.from, listTime: source.listTime ?? null, why: source.why ?? null, vmConfigured: source.vmConfigured })}`);
+}
+
+/** status.json de pe VM, adus acum; aruncă dacă VM-ul nu răspunde. */
+async function pullVmStatus() {
+  fs.rmSync(path.join(VM_STAGE, 'status.json'), { force: true });
+  await vmPull(['status.json']);
+  return readJsonFile(path.join(VM_STAGE, 'status.json'));
+}
+
+/**
+ * Pasul Senatului din datele VM-ului, a cărui listă e de azi (`status`, adus de pullVmStatus). Întoarce { used: true, … }
+ * după ce a scris fișierul, sau { used: false, why } fără să fi schimbat nimic (Mac-ul citește atunci singur).
+ */
+async function syncFromVm(status) {
+  // Fișierul după stare: VM-ul scrie starea după fișier, deci fișierul adus acum e cel puțin la fel de nou.
+  try {
+    await vmPull(['senat-bills.json']);
+  } catch (err) {
+    return { used: false, why: `fișierul VM-ului n-a venit: ${err.message.slice(0, 160)}` };
+  }
+  const vmBills = readJsonFile(path.join(VM_STAGE, 'senat-bills.json'));
+  if (!Array.isArray(vmBills) || vmBills.length < 5) return { used: false, why: 'fișierul VM-ului e gol sau stricat' };
+
+  const macBills = readJsonFile(BILLS_FILE, []);
+  const macHad = new Set(macBills.map((b) => b.id));
+  const { bills, fromVm, macOnly } = mergeBills(vmBills, macBills);
+  const byId = new Map(bills.map((b) => [b.id, b]));
+  const listIds = (status.listIds ?? []).filter((id) => byId.has(id));
+  const inList = new Set(listIds);
+  console.log(
+    `📥 De pe VM (lista din ${bucharestTime(status.listAt)}, ${status.listCount} proiecte în consultare): ` +
+      `${fromVm.length} proiecte noi sau mai noi${macOnly.length ? `, ${macOnly.length} știute doar de Mac` : ''}.`,
+  );
+
+  // Un proiect nou pentru Mac intră în fișier abia după ce are PDF-urile (și, în consultare, textul), ca la citirea de pe
+  // Mac: oprit la jumătate, pasul nu lasă proiecte fără documente pentru analizele de după.
+  const pending = new Set(fromVm.filter((id) => !macHad.has(id)));
+  const save = () => saveBills(bills.filter((b) => !pending.has(b.id)));
+  save();
+
+  // PDF-urile care lipsesc pe Mac, într-o singură cerere; ce nu are nici VM-ul se cere de la senat.ro mai jos.
+  const exists = (slug, name) => fs.existsSync(path.join(PDF_DIR, slug, name));
+  const want = neededPdfs(bills, [...fromVm, ...listIds], exists);
+  const pulled = new Map();
+  if (want.length) {
+    try {
+      await vmPull(want, { list: true });
+    } catch (err) {
+      console.log(`⚠️ PDF-urile de pe VM n-au venit toate (${err.message}); le cer de la senat.ro.`);
+    }
+    for (const rel of want) {
+      const from = path.join(VM_STAGE, rel);
+      if (!fs.existsSync(from)) continue;
+      const [, slug, name] = rel.split('/');
+      fs.mkdirSync(path.join(PDF_DIR, slug), { recursive: true });
+      fs.renameSync(from, path.join(PDF_DIR, slug, name));
+      pulled.set(slug, (pulled.get(slug) ?? 0) + 1);
+    }
+    console.log(`📥 ${[...pulled.values()].reduce((a, n) => a + n, 0)} din ${want.length} PDF-uri noi aduse de pe VM.`);
+  }
+
+  // Proiectele din consultare acum: textul se citește azi, pentru analize (doar ce lipsește; restul e deja citit).
+  for (const id of listIds) {
+    const b = byId.get(id);
+    process.stdout.write(`📄 ${id}: `);
+    try {
+      await downloadPdfsAndExtractText(b, true, { texts: true, pulled: pulled.get(b.slug) ?? 0 });
+      console.log(`OK (${b.pdfs?.length ?? 0} PDF-uri)`);
+    } catch (err) {
+      console.log(`EROARE la texte: ${err.message}`);
+    }
+    pending.delete(id);
+    save();
+  }
+  // Celelalte, aduse de VM din recitiri: PDF-urile noi intră în coada lui --texte (pasul următor).
+  for (const id of fromVm.filter((x) => !inList.has(x))) {
+    const b = byId.get(id);
+    try {
+      await downloadPdfsAndExtractText(b, true, { texts: false, pulled: pulled.get(b.slug) ?? 0 });
+    } catch (err) {
+      console.log(`⚠️ ${id}: ${err.message}`);
+    }
+    pending.delete(id);
+  }
+  save();
+
+  // Proiectele noi din lista de azi pe care VM-ul nu le-a putut citi: Mac-ul încearcă singur, o dată.
+  for (const item of status.failedNew ?? []) {
+    if (byId.has(item.id) || !item.sheetUrl?.startsWith(SENAT_BASE)) continue;
+    process.stdout.write(`🔍 ${item.id} (necitit de VM): `);
+    try {
+      const bill = await fetchBill(item, undefined);
+      bills.push(bill);
+      byId.set(bill.id, bill);
+      save();
+      console.log('OK');
+    } catch (err) {
+      console.log(`EROARE: ${err.message} (îl reiau la rularea următoare)`);
+    }
+  }
+
+  // Lista în consultare e întreagă, din ziua VM-ului: alertele de azi o pot folosi (straja-digest.mjs).
+  fs.mkdirSync(path.dirname(SYNC_DAY_FILE), { recursive: true });
+  writeFileAtomic(SYNC_DAY_FILE, status.listDay + '\n');
+  return { used: true, fromVm: fromVm.length, pdfs: [...pulled.values()].reduce((a, n) => a + n, 0) };
+}
+
+/** Pe VM: ce i-a trimis Mac-ul (put-bills) se unește cu fișierul VM-ului înainte de citire, o singură dată. */
+function adoptMacBills(previous) {
+  const mac = readJsonFile(VM_INBOX);
+  if (!Array.isArray(mac)) return previous;
+  const { bills, macOnly } = mergeBills(previous, mac.filter((b) => b?.id && b.slug && b.consultationDeadline));
+  fs.renameSync(VM_INBOX, `${VM_INBOX}.folosit`);
+  console.log(`📨 Fișierul Mac-ului: ${mac.length} proiecte${macOnly.length ? `, ${macOnly.length} noi pentru VM` : ''}.`);
+  return bills;
+}
+
+/** Pe VM: rularea întreagă, cu status.json scris după listă și la sfârșit (și la o eroare). */
+async function syncOnVm() {
+  const startedAt = new Date().toISOString();
+  const today = todayBucharest();
+  // Ce știm din rulările de azi rămâne (o rulare de la 12:30 căzută nu șterge lista de la 07:30).
+  const before = readJsonFile(VM_STATUS_FILE, {});
+  let status = { ...(before.listDay === today ? before : {}), startedAt, finishedAt: null, ok: null, error: null };
+  const writeStatus = (patch) => {
+    status = { ...status, ...patch };
+    writeJson(VM_STATUS_FILE, status);
+  };
+  writeStatus({});
+  try {
+    const list = await parseConsultationList();
+    if (list.length < 5) throw new Error(`Lista Senatului are doar ${list.length} proiecte; formatul s-a schimbat?`);
+    const previous = adoptMacBills(readJsonFile(BILLS_FILE, []));
+    const failed = [];
+    const { bills, reread } = await syncBills({
+      list,
+      previous,
+      fetchBill: async (item, prev) => {
+        try {
+          return await fetchBill(item, prev);
+        } catch (err) {
+          failed.push({ item, isNew: !prev, error: err.message });
+          throw err;
+        }
+      },
+      reread: rereadBill,
+      save: saveBills,
+      onListSaved: () =>
+        writeStatus({
+          listDay: today,
+          listAt: new Date().toISOString(),
+          listCount: list.length,
+          listIds: list.map((i) => i.id),
+          failedNew: failed.filter((f) => f.isNew).map((f) => f.item),
+          failedCount: failed.length,
+        }),
+      today,
+      rereadStop: () => clock.awakeMs() >= opt('recitiri-minute', REREAD_MINUTES) * 60_000,
+    });
+    writeStatus({
+      finishedAt: new Date().toISOString(),
+      ok: true,
+      bills: bills.length,
+      pdfsDownloaded: pdfsAdded,
+      reread,
+      durationSec: Math.round((Date.now() - Date.parse(startedAt)) / 1000),
+    });
+    console.log(`\n🎉 Salvat ${bills.length} proiecte, ${pdfsAdded} PDF-uri noi.`);
+  } catch (err) {
+    writeStatus({ finishedAt: new Date().toISOString(), ok: false, error: String(err.message ?? err).slice(0, 300), pdfsDownloaded: pdfsAdded });
+    throw err;
+  }
+}
+
+const opt = (name, def) => Number(ARGS.find((a) => a.startsWith(`--${name}=`))?.split('=')[1] ?? def);
+
+/** Citirea de pe Mac, ca înainte de VM: lista, fișele, recitirile, PDF-urile și textul lor. */
+async function syncOnMac(targetFilter) {
   const list = await parseConsultationList();
   // O listă aproape goală înseamnă o pagină stricată, nu proiecte închise: nu marcăm nimic pe baza ei.
   if (list.length < 5) throw new Error(`Lista Senatului are doar ${list.length} proiecte; formatul s-a schimbat?`);
   // Rulează nesupravegheat în fiecare dimineață: nu pierdem niciodată ce aveam deja.
   // Proiectele scoase din lista Senatului rămân (consultare încheiată), iar o fișă care nu se
   // încarcă azi își păstrează datele de ieri. Fișierul se scrie după fiecare proiect (lib/senat-sync.mjs).
-  const previous = fs.existsSync(BILLS_FILE) ? JSON.parse(fs.readFileSync(BILLS_FILE, 'utf8')) : [];
+  const previous = readJsonFile(BILLS_FILE, []);
   const { bills } = await syncBills({
     list,
     previous,
     targetFilter,
     fetchBill,
     reread: rereadBill,
-    save: (all) => writeFileAtomic(BILLS_FILE, JSON.stringify(all, null, 2)),
+    save: saveBills,
     onListSaved: () => {
       // Lista întreagă e citită și salvată: alertele de azi o pot folosi, oricât ar ține recitirile.
       fs.mkdirSync(path.dirname(SYNC_DAY_FILE), { recursive: true });
@@ -544,9 +808,34 @@ async function main() {
       console.log(`💾 Lista în consultare e salvată în ${BILLS_FILE}`);
     },
     today: todayBucharest(),
-    rereadStop: () => clock.awakeMs() >= rereadMinutes * 60_000,
+    rereadStop: () => clock.awakeMs() >= opt('recitiri-minute', REREAD_MINUTES) * 60_000,
   });
   console.log(`\n🎉 Salvat ${bills.length} proiecte în ${BILLS_FILE}`);
+}
+
+async function main() {
+  if (ARGS.includes('--restore')) {
+    await restoreBills(ARGS.filter((a) => !a.startsWith('--')));
+    return vmPush();
+  }
+  if (ARGS.includes('--texte')) return readQueue(opt('minute', TEXTS_MINUTES));
+  if (IS_VM) return syncOnVm();
+  const targetFilter = ARGS.find((a) => !a.startsWith('--'));
+  if (targetFilter) return syncOnMac(targetFilter);
+
+  const source = await senatStep({
+    vmConfigured: vmConfigured() && !ARGS.includes('--fara-vm'),
+    today: todayBucharest(),
+    pullStatus: pullVmStatus,
+    fromVm: syncFromVm,
+    fromMac: async (why) => {
+      if (why) console.log(`📡 ${why}: citesc Senatul de pe Mac.`);
+      await syncOnMac(null);
+    },
+  });
+  if (!source.vmConfigured && ARGS.includes('--fara-vm')) source.why = 'cu --fara-vm';
+  reportSource(source);
+  await vmPush();
 }
 
 main().catch((err) => {

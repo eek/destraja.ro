@@ -3,6 +3,7 @@ import { Container } from '@/components/ui';
 import AdminReports from '@/components/admin/AdminReports';
 import AdminActReports from '@/components/admin/AdminActReports';
 import AdminFreshness from '@/components/admin/AdminFreshness';
+import AdminSenatSource from '@/components/admin/AdminSenatSource';
 
 // Panoul rapoartelor cititorilor. Pagina e statică și goală: datele vin din /api/admin/*, după Cloudflare Access și
 // verificarea JWT-ului în Worker (worker/access.ts). Nu are link de pe site și nu se indexează.
@@ -19,6 +20,7 @@ export default function AdminReportsPage() {
       <AdminReports />
       <AdminActReports />
       <AdminFreshness />
+      <AdminSenatSource />
     </Container>
   );
 }

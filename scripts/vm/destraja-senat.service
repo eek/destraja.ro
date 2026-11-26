@@ -1,0 +1,18 @@
+[Unit]
+Description=destrajă.ro: citește Senatul (lista în consultare, fișele, recitirile, PDF-urile, fără texte) pentru Mac
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=destraja
+WorkingDirectory=/home/destraja/senat-vm
+ExecStart=/usr/local/bin/node scripts/straja-sync.mjs --vm
+TimeoutStartSec=2h
+MemoryMax=1G
+Nice=5
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/destraja/senat-vm

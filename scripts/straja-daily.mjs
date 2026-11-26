@@ -518,7 +518,9 @@ async function main() {
       if (!forms.ok) fail(forms.code === 3 && !forms.timedOut ? 'comparațiile formelor așteaptă: Claude e la limita de utilizare' : 'comparațiile formelor au eșuat');
       // Formele și comparațiile învechite (altă analiză principală, alt text, altă lege în vigoare, altă metodă): cel mult
       // 3 proiecte pe zi, cele mai riscante întâi; o formă refăcută se publică doar cu toate trei modelele.
-      if (freshQueue('versions', 1).length) {
+      // .cache/versions-refresh-paused: o refacere pe etape rulează pe altă ramură (de exemplu fresh-versions, 26–30
+      // noiembrie 2026); până se unește, pasul ar reface aceleași proiecte și ar da conflicte la unire.
+      if (freshQueue('versions', 1).length && !fs.existsSync(path.join(ROOT, '.cache', 'versions-refresh-paused'))) {
         const refresh = await step('Camera: forme învechite', 'node', ['scripts/straja-council.mjs', '--versions', '--refresh', '--max=3'], { timeoutMs: 5_400_000 });
         if (!refresh.ok) fail(refresh.code === 3 && !refresh.timedOut ? 'formele învechite așteaptă: un model e la limita de utilizare' : 'formele învechite au eșuat');
       }

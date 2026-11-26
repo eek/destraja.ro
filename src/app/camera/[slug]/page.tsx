@@ -218,7 +218,7 @@ export default async function CameraBillPage({ params }: PageProps) {
             </div>
             {analysis && <ScoreTrajectory analysis={analysis} versions={versions} opinions={avizeOpinions(avize?.documents ?? [])} />}
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
-            {c && <p className="mt-4 text-lg leading-8 text-ink">{c.summaryTlDr}</p>}
+            {c && <p className="mt-4 text-[17px] leading-7 text-ink sm:text-lg sm:leading-8">{c.summaryTlDr}</p>}
             {c && <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.titlu}</p>}
             {related.length > 0 && (
               <div className="mt-2">

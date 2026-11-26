@@ -17,6 +17,7 @@ import {
 } from '@/lib/cdep';
 import { isStale, staleness } from '@/lib/fresh';
 import StaleNote from '@/components/bills/StaleNote';
+import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeaderStatus';
 import { dayDiff, shortCommittee, shortDate } from '@/lib/cdep-text';
 import { resolveStatus } from '@/lib/bill-status';
 import BillStatusCard from '@/components/camera/BillStatusCard';
@@ -220,6 +221,12 @@ export default async function CameraBillPage({ params }: PageProps) {
                 {older && ` · înregistrat în ${year}`}
               </span>
             </div>
+            {/* Starea proiectului, sub insignă: prospețimea analizei; alte rânduri (de exemplu ramura limbo) intră alături. */}
+            {analysis && (
+              <BillHeaderStatus>
+                <FreshnessStatus analysis={analysis} fresh={fresh} has={{ versions: Boolean(versions), balance: Boolean(balance) }} />
+              </BillHeaderStatus>
+            )}
             {analysis && <ScoreTrajectory analysis={analysis} versions={versions} opinions={avizeOpinions(avize?.documents ?? [])} />}
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
             {c && <p className="mt-4 text-lg leading-8 text-ink">{c.summaryTlDr}</p>}

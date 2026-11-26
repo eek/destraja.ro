@@ -39,6 +39,7 @@ import BillVersions from '@/components/camera/BillVersions';
 import { getBillVersions } from '@/lib/cdep';
 import { isStale, staleness } from '@/lib/fresh';
 import StaleNote from '@/components/bills/StaleNote';
+import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeaderStatus';
 import { getBillHistory, senateHappenings, withdrawn } from '@/lib/istoric';
 
 interface PageProps {
@@ -152,6 +153,10 @@ export default async function BillDetailPage({ params }: PageProps) {
                 {bill.id} · cod Senat {bill.cod}
               </span>
             </div>
+            {/* Starea proiectului, sub insignă: prospețimea analizei; alte rânduri (de exemplu ramura limbo) intră alături. */}
+            <BillHeaderStatus>
+              <FreshnessStatus analysis={bill.analysis} fresh={fresh} has={{ versions: Boolean(versions), balance: Boolean(balance) }} />
+            </BillHeaderStatus>
             <ScoreTrajectory analysis={bill.analysis} versions={versions} opinions={senateOpinions(bill.timeline)} />
             <h1 className="font-display mt-5 text-[clamp(1.9rem,4.2vw,3rem)] font-normal leading-[1.1]">{c.plainTitle}</h1>
             <p className="mt-4 text-lg leading-8 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>

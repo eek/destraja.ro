@@ -27,7 +27,9 @@ export type BillHit = {
   exact: boolean;
   /** De ce a venit primul: e inițiat de omul căutat sau se referă la legea căutată (lipsește la API-ul vechi). */
   why?: { kind: 'person' | 'law'; label: string } | null;
-  match: { score: number; text: string; where: string } | null;
+  /** `terms`: cuvintele din pasaj (fără diacritice) care se potrivesc cu căutarea, după aceeași regulă ca în API (aceeași
+   *  rădăcină, același cuvânt sau rădăcina lungă în interior: „anticomuniste” la „comunism”); lipsește la API-ul vechi. */
+  match: { score: number; text: string; where: string; terms?: string[] } | null;
 };
 
 /** Un articol de presă găsit de căutare: titlul, publicația, data și linkul, niciodată textul. */

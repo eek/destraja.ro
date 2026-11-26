@@ -42,15 +42,17 @@ const cleanPassage = (text: string) =>
     .trim();
 const readable = (text: string) => (cleanPassage(text).match(/\p{L}/gu)?.length ?? 0) >= 40;
 
-/** Pasajul cu cuvintele căutate evidențiate (comparate fără diacritice, ca început de cuvânt). */
-function Passage({ text, q }: { text: string; q: string }) {
+/** Pasajul cu cuvintele căutate evidențiate: cele pe care API-ul le-a găsit potrivite (`terms`, fără diacritice), ca
+ *  „comunism” să nu mai marcheze „comunicările”; la API-ul vechi, cuvintele care încep ca cele căutate. */
+function Passage({ text, q, terms }: { text: string; q: string; terms?: string[] }) {
   const wanted = highlightWords(q);
+  const exact = terms ? new Set(terms) : null;
   const parts = cleanPassage(text).split(/([\p{L}\p{N}]+)/u);
   return (
     <>
       {parts.map((part, i) => {
         const n = normalize(part);
-        const hit = n.length >= 3 && wanted.some((w) => n.startsWith(w.slice(0, Math.max(3, w.length - 2))));
+        const hit = exact ? exact.has(n) : n.length >= 3 && wanted.some((w) => n.startsWith(w.slice(0, Math.max(3, w.length - 2))));
         return hit ? (
           <mark key={i} className="rounded-sm bg-brand-soft text-ink">
             {part}
@@ -144,7 +146,7 @@ function BillRow({ b, q, onOpen }: { b: BillHit; q: string; onOpen: () => void }
         <div className="mt-3.5 max-w-[68ch] rounded-xl bg-sunken px-4 py-3">
           <p className="text-xs font-semibold text-muted">Din {b.match.where.charAt(0).toLowerCase() + b.match.where.slice(1)}</p>
           <p className="mt-1 line-clamp-4 text-[15px] leading-relaxed text-body">
-            <Passage text={b.match.text} q={q} />
+            <Passage text={b.match.text} q={q} terms={b.match.terms} />
           </p>
         </div>
       )}

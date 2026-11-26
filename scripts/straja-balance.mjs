@@ -288,6 +288,11 @@ let failed = 0;
 let pausedUntil = 0;
 let stopped = false;
 const startedAt = Date.now();
+// --asteapta-limita: trei eșecuri la rând (de obicei fără rețea, de exemplu Mac-ul pe drum) opresc firele 10 minute, iar
+// proiectele eșuate se reiau, de cel mult două ori fiecare; altfel o oră fără rețea ar trece sute de proiecte la eșuate.
+let streak = 0;
+const retries = new Map();
+const OFFLINE_WAIT_MS = 10 * 60_000;
 
 async function worker(index) {
   for (;;) {
@@ -307,6 +312,7 @@ async function worker(index) {
       const out = await balance(b);
       writeFileAtomic(path.join(OUT, `${b.slug}.json`), JSON.stringify(out, null, 2) + '\n');
       done++;
+      streak = 0;
       const q = out.quotes;
       const eta = queue.length ? `, rămân ${queue.length}, ~${Math.round(((Date.now() - startedAt) / done) * queue.length / 60_000)} min` : '';
       console.log(`✓ ${b.id} [${b.analysis.consensus.riskLevel}, ${out.model}]: ${out.good.length} bune, ${out.bad.length} rele, citate ${q.verified}/${q.checked}, din lege ${q.lawVerified}/${q.lawChecked}${out.fix ? `, fără ${out.fix.removes.length} → ${out.fix.levelAfter ?? '?'}` : ''} (${done}/${total}${eta})`);
@@ -319,6 +325,16 @@ async function worker(index) {
         if (Date.now() + wait > pausedUntil) {
           pausedUntil = Date.now() + wait;
           console.log(`⏸  limită de utilizare (${msg}); aștept până la ${new Date(pausedUntil).toLocaleString('ro-RO', { timeZone: 'Europe/Bucharest' })}`);
+        }
+        continue;
+      }
+      if (waitOnQuota && !(err instanceof QuotaError) && (retries.get(b.slug) ?? 0) < 2) {
+        retries.set(b.slug, (retries.get(b.slug) ?? 0) + 1);
+        queue.push(b);
+        console.log(`↻ ${b.id}: ${msg}; îl reiau mai târziu`);
+        if (++streak >= 3 && Date.now() >= pausedUntil) {
+          pausedUntil = Date.now() + OFFLINE_WAIT_MS;
+          console.log(`⏸  ${streak} eșecuri la rând; aștept 10 minute`);
         }
         continue;
       }

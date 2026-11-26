@@ -236,6 +236,10 @@ test('codurile de pe pagina de start: nume cu anul, starea doar când o știm, a
   assert.equal(old.historic, true);
   assert.match(text(old), /^Codul fiscal \(2003\) ediție mai veche Publicat în Monitorul Oficial/);
   assert.ok(String(old.html).includes('title="Există și ediția din 2015"'));
+  // Un nume comun („Codul de etică”) la o instituție oarecare: nu e o ediție a codului țării.
+  assert.equal(R.codeRow(g, { ...fiscal, id: -3, issuer_key: 'ms', year: 2003, status: 'necunoscut' }).historic, false);
+  // Fără act de adoptare, titlu sau Monitor: emitentul și data.
+  assert.match(text(R.codeRow(g, { ...fiscal, id: -4, year: 2015, title: null, code_of: null, mo_part: null, mo_number: null, mo_date: null })), /Parlamentul, 8 septembrie 2015$/);
   const rep = R.codeRow(g, { ...fiscal, id: -2, code_name: 'Codul vechi', year: 1865, status: 'abrogat', status_from: '2012-05-30', status_by: fiscal.id, title: null, code_of: null });
   assert.equal(rep.historic, true);
   assert.match(text(rep), /^Codul vechi \(1865\) abrogat în 2012/);

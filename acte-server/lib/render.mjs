@@ -637,12 +637,16 @@ function actListItem(a, extra = null) {
 
 // Titlul care e chiar citarea actului de adoptare („Legea nr. 286/2009”, „Ordonanța nr. 29/1997 privind Codul aerian”).
 const CITE_TITLE = /^(Legea|Ordonanța|Ordonanţa|Decretul|Decret-lege|Hotărârea|Decizia)\b/;
+// Edițiile aceluiași cod se recunosc după nume doar la codurile țării (Parlamentul, Guvernul, Marea Adunare Națională):
+// „Codul de etică” sau „Codul de reglementare” sunt nume comune pentru coduri diferite ale unor instituții diferite.
+const NATIONAL_ISSUERS = ['parlamentul', 'guvernul', 'man', 'man-2'];
 const newerEditions = new WeakMap();
-/** Anul celei mai noi ediții a fiecărui cod (după code_name), dintre codurile indexabile ale generației. */
+/** Anul celei mai noi ediții a fiecărui cod al țării (după code_name), dintre codurile indexabile ale generației. */
 function newestByName(g) {
   if (!newerEditions.has(g)) {
     const m = new Map();
-    for (const r of g.db.prepare("SELECT code_name, max(year) AS y FROM acts WHERE kind = 'cod' AND indexable = 1 AND code_name IS NOT NULL GROUP BY code_name").all()) m.set(r.code_name, r.y);
+    const sql = `SELECT code_name, max(year) AS y FROM acts WHERE kind = 'cod' AND indexable = 1 AND code_name IS NOT NULL AND issuer_key IN (${NATIONAL_ISSUERS.map(() => '?').join(',')}) GROUP BY code_name`;
+    for (const r of g.db.prepare(sql).all(...NATIONAL_ISSUERS)) m.set(r.code_name, r.y);
     newerEditions.set(g, m);
   }
   return newerEditions.get(g);
@@ -654,7 +658,7 @@ function newestByName(g) {
  * actului), iar dedesubt actul de adoptare, când îl avem.
  */
 export function codeRow(g, a) {
-  const newest = a.code_name ? newestByName(g).get(a.code_name) : null;
+  const newest = a.code_name && NATIONAL_ISSUERS.includes(a.issuer_key) ? newestByName(g).get(a.code_name) : null;
   const newer = newest != null && a.year != null && newest > a.year ? newest : null;
   const repealed = a.status === 'abrogat';
   const by = repealed && a.status_by ? g.byId(a.status_by)?.cite : null;
@@ -666,7 +670,8 @@ export function codeRow(g, a) {
         ? { tone: 'muted', text: 'ediție mai veche', title: `Există și ediția din ${newer}` }
         : null;
   const enact = a.title && CITE_TITLE.test(a.title) ? a.title : a.code_of ? g.byId(a.code_of)?.cite || null : null;
-  const sub = enact || (a.title && a.title !== a.code_name ? a.title : null) || moLine(a);
+  const issued = [(a.issuers || []).join(', '), a.act_date ? dateRo(a.act_date) : null].filter(Boolean).join(', ');
+  const sub = enact || (a.title && a.title !== a.code_name ? a.title : null) || moLine(a) || issued || null;
   const name = a.code_name ? `${a.code_name}${a.year ? ` (${a.year})` : ''}` : a.cite;
   return {
     historic: repealed || !!newer,

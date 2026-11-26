@@ -464,6 +464,12 @@ async function main() {
     if (sync.ok) summary.push(`${added} proiecte noi`);
     else fail(`sincronizarea a eșuat${added ? ` (${added} proiecte noi salvate înainte de oprire)` : ''}`);
 
+    // Tabelele de semnături din expunerile noi sau recitite: pagina fiecărui tabel în PDF și rândurile scrise de mână pe
+    // care textul recunoscut nu le lămurește, citite de Gemini pe imagine (un apel pe pagină, din cota comună Mac + VM;
+    // cel mult 20 pe zi, restul a doua zi). Fără model sau fără cotă, rândurile rămân în cursiv, ca până acum.
+    const signed = await step('Tabelele de semnături', 'node', ['scripts/straja-tabel-semnaturi.mjs', '--due', '--max=20'], { timeoutMs: 1_200_000 });
+    if (!signed.ok) summary.push('tabelele de semnături: eroare');
+
     // Textul în vigoare al articolelor pe care le modifică proiectele (straja-baseline → data/baseline), înaintea
     // analizelor: proiectele noi de la Senat, cele de la Cameră cu textul sau forma schimbată de ieri încoace, și cele cu
     // o lege recitită care s-a schimbat (cel mult 60 de acte pe zi, fiecare o dată pe săptămână). Un act se cere o dată

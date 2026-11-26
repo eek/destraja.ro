@@ -150,7 +150,7 @@ function liveFile(model, label) {
 
 const CODEX_OFF = ['shell_tool', 'unified_exec', 'code_mode_host', 'multi_agent', 'goals', 'apps', 'browser_use', 'browser_use_external', 'computer_use', 'in_app_browser', 'plugins', 'hooks', 'skill_mcp_dependency_install'];
 
-function args(model, mode, codexModel) {
+function args(model, mode, codexModel, agyModel) {
   const web = mode === 'web';
   if (model === 'claude') {
     return [
@@ -186,8 +186,9 @@ function args(model, mode, codexModel) {
   }
   // review: recenzia de cod a pipeline-urilor (review-pipelines.mjs, în afara repo-ului), cu agentul care știe că primește
   // cod de analizat; tot fără unelte.
-  const agent = web ? 'lastraja-web' : mode === 'review' ? 'lastraja-review' : 'lastraja-offline';
-  return ['--disable-slash-commands', '--agent', agent, '--model', AGY_MODEL, '--output-format', 'stream-json'];
+  // vision: agentul care poate deschide doar fișiere (imaginile puse de apelant în SANDBOX_DIR), pentru scrisul de mână.
+  const agent = web ? 'lastraja-web' : mode === 'review' ? 'lastraja-review' : mode === 'vision' ? 'lastraja-vision' : 'lastraja-offline';
+  return ['--disable-slash-commands', '--agent', agent, '--model', agyModel || AGY_MODEL, '--output-format', 'stream-json'];
 }
 
 // Doar ce le trebuie CLI-urilor ca să găsească autentificarea din HOME; nimic din .env.
@@ -406,13 +407,15 @@ export function agyParts(prompt) {
  * @returns {Promise<{ model: string, status: 'ok', data: any, durationMs: number } | { model: string, status: 'error', error: string, durationMs: number }>}
  */
 // text: true întoarce răspunsul ca text (de exemplu o pagină HTML), fără să caute JSON în el.
-export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 300000, codexModel, label, text = false } = {}) {
+// mode: 'vision' (doar agy) lasă modelul să deschidă imaginile din SANDBOX_DIR și rulează mereu aici, unde sunt imaginile.
+// agyModel: alt model Gemini pentru apelul acesta (de exemplu gemini-4-hydrogen-low), ca codexModel pentru GPT.
+export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 300000, codexModel, agyModel, label, text = false } = {}) {
   const start = Date.now();
   const live = liveFile(model, label);
   fs.writeFileSync(live, `# ${model} · ${label ?? path.basename(process.argv[1] ?? '', '.mjs')} · ${new Date(start).toLocaleTimeString('ro-RO')} · limită ${Math.round(timeoutMs / 1000)}s · prompt ${prompt.length} caractere\n`);
   const finish = (status) => fs.appendFileSync(live, `\n# gata: ${status} în ${Math.round((Date.now() - start) / 1000)}s\n`);
   try {
-    const argv = args(model, mode, codexModel);
+    const argv = args(model, mode, codexModel, agyModel);
     // agy primește promptul ca argument; ceilalți îl citesc din stdin. Jurnalul intern al lui agy (cererile HTTP) arată,
     // când un apel durează, dacă modelul încă lucrează sau dacă agy reîncearcă (doar local: pe VM ar rămâne acolo).
     const parts = model === 'agy' ? agyParts(prompt) : null;
@@ -426,7 +429,7 @@ export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 30
           : run(BINS.agy, [...agyArgs, '-p', prompt], null, timeoutMs + 15000, stream)
         : run(BINS[model], argv, prompt, timeoutMs, stream);
     };
-    const vm = vmJump();
+    const vm = mode === 'vision' ? null : vmJump();
     let res;
     try {
       res = await call(vm);

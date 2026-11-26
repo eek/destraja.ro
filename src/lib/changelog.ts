@@ -41,6 +41,16 @@ export const CHANGELOG: ChangeDay[] = [
         },
       },
       {
+        kind: 'corectat',
+        title: 'Semnăturile inițiatorilor, cu numele și grupul corecte',
+        text: 'La sfârșitul expunerii de motive, inițiatorii își scriu de mână numele și grupul într-un tabel, iar textul recunoscut automat din scanare le strica: la B660/2026 ieșea „Dezwateu GuoTeu” în loc de Bejinariu Eugen și „PSA” în loc de PSD. Acum fiecare rând e pus pe lista oficială a inițiatorilor de pe senat.ro, cu grupul din aceeași listă: numele clare se potrivesc direct, iar ce rămâne își alege numele dintre inițiatorii încă nefolosiți. Rândurile pe care textul nu le lămurește le citește Gemini pe imaginea paginii, alegând tot din lista oficială. Sub fiecare tabel apare și pagina lui din PDF-ul oficial („Tabelul semnat, în PDF: pagina 10”), ca semnăturile să poată fi verificate. Un nume care tot nu se potrivește sigur rămâne în cursiv, cum e în PDF.',
+        link: { href: '/legi/b660-2026', label: 'Un exemplu: B660/2026' },
+        shot: {
+          id: '2026-11-26-semnaturi',
+          alt: 'Textul expunerii de motive pentru B660/2026, la tabelul de semnături: rândurile 23–29 cu Bejinariu Eugen, Popa Maricel, Drinceanu Vlad-Florentin, Chilat Crina-Fiorela, Toader Bogdan-Andrei, Sandu Viorica și Furtună Mirela, toți cu grupul PSD, iar sub tabel „Tabelul semnat, în PDF: pagina 10” și nota că tabelul e completat de mână.',
+        },
+      },
+      {
         kind: 'schimbat',
         title: '„Ce e bine și ce strică” citește tot proiectul și legea în vigoare',
         text: 'Lista cu ce e bine și ce strică într-un proiect se face acum din tot textul lui, cu expunerea de motive și cu legea pe care o modifică, așa cum e în vigoare azi. Când proiectul abrogă sau schimbă un alineat, lista spune ce conține alineatul acela acum, iar la „ce scrie în lege”, sub citatul din proiect, apare „Legea în vigoare acum:” cu textul de azi. De exemplu, Pl-x 714/2026, despre microîntreprinderi, abrogă art. 54 alin. (4) din Codul fiscal; lista arată că alineatul acela pomenește expres restaurantele, unitățile mobile de alimentație și alte servicii de alimentație (codurile CAEN 5611, 5612 și 5622) și că, fără el, regula se poate interpreta diferit. Punctele sunt grupate pe idei. Listele se refac treptat, întâi la proiectele cu risc ridicat; până atunci, pagina arată lista veche, cu nota că se actualizează.',

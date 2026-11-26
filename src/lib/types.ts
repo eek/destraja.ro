@@ -410,6 +410,8 @@ export interface BillVersions {
   updatedAt: string;
   versions: BillVersion[];
   changes: VersionChange[];
+  /** Pus la build (src/lib/fresh.ts): comparația sau o formă e din analiza anterioară și se reface. */
+  stale?: boolean;
 }
 
 /** Ce ajunge în browser pe paginile de listă: fără PDF-uri, cronologie, opinii și kitul de acțiune. */

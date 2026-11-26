@@ -38,7 +38,7 @@ if (args.includes('--json')) {
     const why = {};
     for (const s of r.stale) for (const x of s.reasons) why[x] = (why[x] ?? 0) + 1;
     const reasons = Object.entries(why).map(([k, n]) => `${k} ${n}`).join(', ');
-    console.log(`${r.stale.length ? '⚠️ ' : '✓ '} ${TYPE_LABEL[r.type]}: ${r.stale.length} învechite din ${r.total}${reasons ? ` (${reasons})` : ''}${r.missing.length ? `; ${r.missing.length} lipsă` : ''}`);
+    console.log(`${r.stale.length ? '⚠️ ' : '✓ '} ${TYPE_LABEL[r.type]}: ${r.stale.length} învechite din ${r.total}${reasons ? ` (${reasons})` : ''}${r.missing.length ? `; ${r.missing.length} lipsă` : ''}${r.incomplete?.length ? `; ${r.incomplete.length} cu mai puțin de trei modele` : ''}`);
   }
   console.log(`Prospețime: ${summaryLine(reports)}`);
   // Pentru rularea zilnică (straja-daily citește rândul ăsta).

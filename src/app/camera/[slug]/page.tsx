@@ -15,6 +15,8 @@ import {
   initiatorLabel,
   registeredYear,
 } from '@/lib/cdep';
+import { isStale, staleness } from '@/lib/fresh';
+import StaleNote from '@/components/bills/StaleNote';
 import { dayDiff, shortCommittee, shortDate } from '@/lib/cdep-text';
 import { resolveStatus } from '@/lib/bill-status';
 import BillStatusCard from '@/components/camera/BillStatusCard';
@@ -97,6 +99,8 @@ export default async function CameraBillPage({ params }: PageProps) {
 
   const f = bill.fisa;
   const c = analysis?.consensus;
+  // Ce e din analiza anterioară (src/lib/fresh.ts): apare cu notă; legăturile amendamentelor cu schimbările, deloc.
+  const fresh = staleness(slug);
   const builtOn = todayISO();
   // Ce s-a întâmplat de la analiză încoace (pașii din fișă, forma nouă comparată, anunțurile din presă); la proiectele încă
   // neanalizate, în ultimele 30 de zile.
@@ -275,12 +279,13 @@ export default async function CameraBillPage({ params }: PageProps) {
         {c && analysis && (
           <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council}>
             <ScoreHistory analysis={analysis} versions={versions} />
+            {isStale(fresh.analysis) && <StaleNote text="Legea modificată sau textul proiectului s-a schimbat de la această analiză; se actualizează." />}
             <ReportIssue billId={bill.numar} target="consensus" />
           </ModelsVerdict>
         )}
         <BillReports reports={reports} manual={manualCorrections(analysis?.corrections, reports)} />
         <BillAvize slug={slug} />
-        {c && balance && <BillBalance data={balance} level={c.riskLevel} />}
+        {c && balance && <BillBalance data={balance} level={c.riskLevel} stale={isStale(fresh.balance)} />}
 
         <section aria-labelledby="traseu" className={`${panel} mt-6 p-6 sm:p-8`}>
           <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -306,7 +311,7 @@ export default async function CameraBillPage({ params }: PageProps) {
         <BillAgenda items={agenda} billId={bill.numar} />
         <BillVotes data={votes} pages={mpPages} billId={bill.numar} />
 
-        {versions && <BillVersions data={versions} amendments={amendments} pages={mpPages} />}
+        {versions && <BillVersions data={versions} amendments={isStale(fresh.amendments) ? null : amendments} pages={mpPages} />}
         {amendments && <BillAmendments data={amendments} pages={mpPages} />}
         {comparing && (
           <section aria-labelledby="versiuni" role="note" className={`${panel} mt-6 p-6 sm:p-7`}>

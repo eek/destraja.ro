@@ -917,10 +917,11 @@ async function versionsForBill(sheet, force, recompare = false) {
       // Cu COUNCIL_MODELS, și analiza principală poate fi fără modelul cerut: îl completăm în fișierul formei, nu o
       // luăm așa (pe 11 noiembrie 2026 forma Senatului rămânea fără Claude, iar comparația se făcea fără constatările lui).
       if (!analyses[v.key] || missingModels(analyses[v.key])) {
-        // O formă învechită se reface de la capăt (cu modelele din COUNCIL_MODELS); una doar incompletă își primește
-        // doar modelele lipsă.
+        // O formă învechită se reface de la capăt; una doar incompletă își primește doar modelele lipsă. În rularea
+        // zilnică (fără COUNCIL_MODELS) forma refăcută se scrie doar cu toate trei modelele (refresh); într-o rulare pe
+        // etape (COUNCIL_MODELS=claude,codex, apoi agy) se scrie cu modelele cerute, pe o ramură care se unește doar completă.
         if (stale) console.log(`   ♻️ ${bill.id}: ${VERSION_LABEL[v.key]} e învechită (${checkForm(inp, sheet.slug, v.key).join(', ')}); o refac`);
-        analyses[v.key] = await analyzeBillWithCouncil(bill, force || stale, { texts, version: v.key, outFile: file, partial: stale || Boolean(ONLY_MODELS) });
+        analyses[v.key] = await analyzeBillWithCouncil(bill, force || stale, { texts, version: v.key, outFile: file, partial: stale || Boolean(ONLY_MODELS), refresh: stale && !ONLY_MODELS });
       }
     }
   }
@@ -1042,7 +1043,7 @@ async function senateVersionsForBill(bill, force = false, recompare = false) {
   analyses.initiator =
     sameMethod && !initStale && !missingModels(init)
       ? init
-      : await analyzeBillWithCouncil(bill, force || (Boolean(init) && (!sameMethod || initStale)), { texts, version: 'initiator', outFile: initFile, partial: Boolean(initStale) });
+      : await analyzeBillWithCouncil(bill, force || (Boolean(init) && (!sameMethod || initStale)), { texts, version: 'initiator', outFile: initFile, partial: Boolean(initStale), refresh: Boolean(initStale) && !ONLY_MODELS });
   if (agyModelOf(analyses.initiator) !== agyModelOf(main)) console.log(`   ⚠️ ${bill.id}: Gemini diferă între forme (${agyModelOf(analyses.initiator)} / ${agyModelOf(main)}); rulează cu AGY_MODEL=${agyModelOf(main)}`);
 
   const summaryFile = path.join(VERSIONS_DIR, `${bill.slug}.json`);

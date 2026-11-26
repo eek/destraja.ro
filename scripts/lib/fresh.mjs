@@ -350,6 +350,8 @@ function slugsFor(inp, type) {
 export function freshness(type, inp = new Inputs()) {
   const stale = [];
   const missing = [];
+  // La forme: câte au mai puțin de trei modele (o rulare pe etape, înainte de completarea modelului lipsă).
+  const incomplete = [];
   let total = 0;
   for (const slug of slugsFor(inp, type)) {
     if (type === 'forms') {
@@ -357,6 +359,8 @@ export function freshness(type, inp = new Inputs()) {
         const r = checkForm(inp, slug, key);
         if (r === null) continue;
         total++;
+        const an = inp.json('data', 'analyses', 'versions', slug, `${key}.json`);
+        if (['agy', 'claude', 'codex'].some((m) => an.council?.[m]?.status !== 'ok')) incomplete.push({ slug, key });
         if (r.length) stale.push({ slug, key, reasons: r, risk: inp.risk(slug) });
       }
       continue;
@@ -370,7 +374,7 @@ export function freshness(type, inp = new Inputs()) {
     if (r.length) stale.push({ slug, reasons: r, risk: inp.risk(slug) });
   }
   const byRisk = (a, b) => b.risk - a.risk || a.slug.localeCompare(b.slug, 'ro', { numeric: true });
-  return { type, total, stale: stale.sort(byRisk), missing: missing.sort(byRisk) };
+  return { type, total, stale: stale.sort(byRisk), missing: missing.sort(byRisk), ...(type === 'forms' && { incomplete }) };
 }
 
 /** Coada unui pas: întâi rezultatele învechite, apoi cele lipsă, fiecare listă cu cele mai riscante întâi. */
@@ -381,5 +385,7 @@ export function queue(type, max = Infinity, inp = new Inputs()) {
 
 /** Un rând pentru jurnal: „ce e bine și ce strică 799/934 · …”. */
 export function summaryLine(reports) {
-  return reports.map((r) => `${TYPE_LABEL[r.type]} ${r.stale.length}/${r.total}${r.missing.length ? ` (+${r.missing.length} lipsă)` : ''}`).join(' · ');
+  return reports
+    .map((r) => `${TYPE_LABEL[r.type]} ${r.stale.length}/${r.total}${r.missing.length ? ` (+${r.missing.length} lipsă)` : ''}${r.incomplete?.length ? ` (${r.incomplete.length} cu mai puțin de trei modele)` : ''}`)
+    .join(' · ');
 }

@@ -39,22 +39,29 @@ function Mark({ k, level }: { k: ModelKey; level: RiskLevel }) {
 /**
  * Pe scala 0–10, cu zonele de risc: media cu punctul mare, iar deasupra semnul fiecărui model la scorul lui. Cine ce scor a
  * dat se citește din legenda de dedesubt, după semn; nicio etichetă nu plutește deasupra scalei, deci nimic nu se
- * suprapune când scorurile sunt apropiate. Scorurile egale (sau la mai puțin de 0,4) își pun semnele unul lângă altul.
+ * suprapune când scorurile sunt apropiate. Scorurile egale (sau la mai puțin de 0,6) își pun semnele unul lângă altul.
  */
 function Scale({ rows, score, level }: { rows: ScaleRow[]; score: number; level: RiskLevel }) {
   const sorted = [...rows].sort((x, y) => x.score - y.score);
   const groups: ScaleRow[][] = [];
   for (const r of sorted) {
     const g = groups.at(-1);
-    if (g && r.score - g[0].score < 0.4) g.push(r);
+    if (g && r.score - g[0].score < 0.6) g.push(r);
     else groups.push([r]);
   }
-  const offset = new Map(groups.flatMap((g) => g.map((r, i) => [r.key, (i - (g.length - 1) / 2) * 13] as const)));
+  // Scorurile egale stau centrate în jurul valorii lor, la 13 px unul de altul. Apoi, cu max() și min() din CSS, fiecare semn
+  // stă la cel puțin 13 px de vecinul lui și nu iese din scală cu mai mult de 5 px, la orice lățime a ei.
+  const order = groups.flatMap((g) => g.map((r, i) => ({ r, own: `calc(${r.score * 10}% + ${(i - (g.length - 1) / 2) * 13}px)` })));
+  const fwd: string[] = [];
+  order.forEach(({ own }, i) => fwd.push(i ? `max(${own}, calc(${fwd[i - 1]} + 13px))` : `max(${own}, -5px)`));
+  const pos: string[] = [];
+  for (let i = order.length - 1; i >= 0; i--) pos[i] = i === order.length - 1 ? `min(${fwd[i]}, calc(100% + 5px))` : `min(${fwd[i]}, calc(${pos[i + 1]} - 13px))`;
+  const left = new Map(order.map(({ r }, i) => [r.key, pos[i]]));
   return (
     <div className="mt-6 mb-2" aria-hidden>
       <div className="relative h-3">
         {rows.map((r) => (
-          <span key={r.key} className="absolute bottom-0 flex -translate-x-1/2" style={{ left: `calc(${r.score * 10}% + ${offset.get(r.key)}px)` }}>
+          <span key={r.key} className="absolute bottom-0 flex -translate-x-1/2" style={{ left: left.get(r.key) }}>
             <Mark k={r.key} level={r.level} />
           </span>
         ))}

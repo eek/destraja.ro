@@ -25,6 +25,7 @@ const DESCRIPTION =
   'Ce urmărim pe senat.ro și cdep.ro, cum citesc Gemini, Claude și ChatGPT fiecare proiect, ce înseamnă culorile, ce verifică codul înainte să publicăm, unde rulează totul și ce limite au analizele.';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/metodologie' },
   title: 'Metodologie: cum funcționează',
   description: DESCRIPTION,
   openGraph: { title: 'Cum funcționează destrajă.ro', description: DESCRIPTION },

@@ -65,8 +65,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const [bill, analysis] = await Promise.all([getCdepBill(slug), getCdepAnalysis(slug)]);
   if (!bill) return { title: 'Proiect negăsit' };
   const title = `${bill.numar}: ${analysis?.consensus.plainTitle ?? bill.titlu.replace(/^(Proiect de Lege|Propunere legislativă) /i, '')}`;
-  const description = analysis?.consensus.summaryTlDr ?? bill.fisa.obiect ?? bill.titlu;
-  return { title, description, openGraph: { title, description } };
+  // Fișa are uneori obiectul gol („”), nu lipsă: cu ?? descrierea ieșea goală.
+  const description = analysis?.consensus.summaryTlDr || bill.fisa.obiect || bill.titlu;
+  return { title, description, alternates: { canonical: `/camera/${slug}` }, openGraph: { title, description } };
 }
 
 // „26.10.2026” → „2026-10-26”.

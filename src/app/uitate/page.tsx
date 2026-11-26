@@ -11,6 +11,7 @@ const DESCRIPTION =
   'De cât timp așteaptă proiectele de lege aflate la Camera Deputaților, unde s-au oprit și ce s-a întâmplat cu proiectele înregistrate în fiecare an, din 2020 încoace.';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/uitate' },
   title: 'Proiecte uitate',
   description: DESCRIPTION,
   openGraph: { title: 'Proiecte uitate · destrajă.ro', description: DESCRIPTION },

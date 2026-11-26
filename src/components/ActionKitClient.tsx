@@ -20,9 +20,11 @@ interface ActionKitClientProps {
   bill: EnrichedBill;
   // Secțiunea „În presă”, randată pe server: stă între kit și auditul AI.
   press?: React.ReactNode;
+  // Memoriul gata făcut din public/docs, dacă există; altfel îl facem în browser, ca linkul să nu ducă la 404.
+  memoHref?: string | null;
 }
 
-export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
+export default function ActionKitClient({ bill, press, memoHref = null }: ActionKitClientProps) {
   const c = bill.analysis.consensus;
 
   // Active tab in the 60-second action kit
@@ -260,15 +262,28 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
                   </p>
                 </div>
 
-                <a
-                  href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}
-                  download
-                  {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'kit' })}
-                  className="touch-target inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-brand text-on-brand font-semibold text-xs sm:text-sm shrink-0 transition-opacity hover:opacity-90"
-                >
-                  <FileDown className="w-4 h-4" />
-                  <span>Descarcă Punct_de_vedere.docx</span>
-                </a>
+                {memoHref ? (
+                  <a
+                    href={memoHref}
+                    download
+                    {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'kit' })}
+                    className="touch-target inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-brand text-on-brand font-semibold text-xs sm:text-sm shrink-0 transition-opacity hover:opacity-90"
+                  >
+                    <FileDown className="w-4 h-4" />
+                    <span>Descarcă Punct_de_vedere.docx</span>
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={handleCustomDocx}
+                    disabled={isGeneratingDocx}
+                    {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'kit' })}
+                    className="touch-target inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-brand text-on-brand font-semibold text-xs sm:text-sm shrink-0 transition-opacity hover:opacity-90 cursor-pointer"
+                  >
+                    <FileDown className="w-4 h-4" />
+                    <span>{isGeneratingDocx ? 'Se generează...' : 'Descarcă Punct_de_vedere.docx'}</span>
+                  </button>
+                )}
               </div>
 
               {/* Optional Name Personalization tucked cleanly in a native <details> */}

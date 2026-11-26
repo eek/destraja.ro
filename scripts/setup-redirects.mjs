@@ -1,7 +1,7 @@
 // Redirecționările spre destraja.ro, ca reguli Single Redirect pe zonele vechi (nu costă cereri la Worker):
 // lastraja.ro (numele de până pe 28 octombrie 2026), destraja.md (rezervat pentru Moldova), destrajă.ro și www. Fiecare pagină trimite
 // 301 la aceeași cale pe destraja.ro, cu tot cu query. /api/* pe lastraja.ro rămâne la Worker, ca linkurile de
-// dezabonare din e-mailurile deja trimise să meargă în continuare.
+// dezabonare din e-mailurile deja trimise să meargă în continuare. Pe zona destraja.ro, și http:// → https://.
 //
 //   node scripts/setup-redirects.mjs            arată ce ar face
 //   node scripts/setup-redirects.mjs --apply    scrie regulile
@@ -26,8 +26,24 @@ const ZONES = {
 // Paginile actelor stau pe acte.destraja.ro (serverul de pe NAS, design §3): destraja.ro/acte și /acte/* trimit
 // acolo, cu restul căii și query-ul. wildcard_replace merge pe planul Free.
 const ACTE_REF = 'destraja_acte_redirect';
+// http://destraja.ro răspundea cu 200, deci fiecare pagină exista de două ori pentru Google („Duplicate without
+// user-selected canonical”). Zona nu are „Always Use HTTPS” pornit; regula asta face același lucru doar pentru destraja.ro.
+const HTTPS_REF = 'destraja_https_redirect';
 const EXTRA = {
   'destraja.ro': [
+    {
+      ref: HTTPS_REF,
+      description: 'http://destraja.ro/* → https://destraja.ro/*',
+      expression: '(http.host eq "destraja.ro" and not ssl)',
+      action: 'redirect',
+      action_parameters: {
+        from_value: {
+          status_code: 301,
+          target_url: { expression: 'concat("https://destraja.ro", http.request.uri.path)' },
+          preserve_query_string: true,
+        },
+      },
+    },
     {
       ref: ACTE_REF,
       description: 'destraja.ro/acte/* → acte.destraja.ro/*',
@@ -43,7 +59,7 @@ const EXTRA = {
     },
   ],
 };
-const OUR_REFS = new Set([REF, ACTE_REF]);
+const OUR_REFS = new Set([REF, ACTE_REF, HTTPS_REF]);
 const APPLY = process.argv.includes('--apply');
 
 const env = Object.fromEntries(

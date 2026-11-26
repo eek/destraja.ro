@@ -1,6 +1,14 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { TowerIcon } from '@/components/Logo';
 import { Container, btnPrimary, linkCls } from '@/components/ui';
+
+// Fără titlul primei pagini: /404 răspunde și cu 200 (fișierul 404.html), iar Google l-ar lua drept un duplicat al ei.
+// noindex îl pune Next singur pe pagina asta.
+export const metadata: Metadata = {
+  title: 'Pagina nu există',
+  description: 'Adresa nu mai duce la o pagină de pe destrajă.ro.',
+};
 
 export default function NotFound() {
   return (

@@ -1,3 +1,5 @@
+import { existsSync } from 'node:fs';
+import path from 'node:path';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -58,6 +60,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${bill.id}: ${bill.analysis.consensus.plainTitle}`,
     description,
+    alternates: { canonical: `/legi/${slug}` },
     openGraph: { title: `${bill.id}: ${bill.analysis.consensus.plainTitle}`, description },
   };
 }
@@ -78,6 +81,9 @@ export default async function BillDetailPage({ params }: PageProps) {
   const votes = await getBillVotes(slug);
   const mpPages = votes ? await getMpPageSlugs() : new Set<string>();
   const related = await getRelatedActs({ senat: slug });
+  // Memoriile din public/docs se scriu separat (straja-docx.mjs); un proiect nou poate să nu-l aibă încă.
+  const memoFile = `Punct_de_vedere_${slug.toUpperCase()}.docx`;
+  const memoHref = existsSync(path.join(process.cwd(), 'public', 'docs', memoFile)) ? `/docs/${memoFile}` : null;
   // Forma inițială și cea actualizată a inițiatorului, citite la fel și comparate (straja-council.mjs --versions --senat).
   const versions = await getBillVersions(slug);
   const manual = manualCorrections(bill.analysis.corrections, reports);
@@ -240,20 +246,23 @@ export default async function BillDetailPage({ params }: PageProps) {
               </a>
             ))}
           </div>
-          <a
-            href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}
-            download
-            {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'header' })}
-            className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-strong bg-surface px-3 text-xs font-semibold text-ink hover:bg-sunken"
-          >
-            <FileDown className="h-3.5 w-3.5" aria-hidden />
-            Memoriu complet (.docx)
-          </a>
+          {memoHref && (
+            <a
+              href={memoHref}
+              download
+              {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'header' })}
+              className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-strong bg-surface px-3 text-xs font-semibold text-ink hover:bg-sunken"
+            >
+              <FileDown className="h-3.5 w-3.5" aria-hidden />
+              Memoriu complet (.docx)
+            </a>
+          )}
         </div>
 
         <div className="mt-12">
           <ActionKitClient
             bill={bill}
+            memoHref={memoHref}
             press={
               <>
                 {bill.positions && <BillPositions billId={bill.id} data={bill.positions} summary={lite.positions} />}

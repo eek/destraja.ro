@@ -5,7 +5,7 @@ import path from 'node:path';
 import type { BillVotes, PlenaryVote, RiskLevel, VoteChoice } from './types';
 
 export { voteLabel } from './vote-text';
-import { getCdepAnalysis, getCdepIndex } from './cdep';
+import { getCdepAnalysis, getCdepIndex, getCdepSlugs } from './cdep';
 import { getAllBillsLite } from './bills';
 
 const DIR = path.join(process.cwd(), 'data', 'votes');
@@ -38,7 +38,10 @@ let byMp: Promise<Map<string, MpVote[]>> | null = null;
 export function getVotesByMp() {
   byMp ??= (async () => {
     const files = (await fs.readdir(DIR).catch(() => [])).filter((f) => f.endsWith('.json'));
-    const [index, bills] = await Promise.all([getCdepIndex(), getAllBillsLite()]);
+    const [index, bills, chamberPages] = await Promise.all([getCdepIndex(), getAllBillsLite(), getCdepSlugs()]);
+    // data/votes/<slug>.json scrie pagina din ziua citirii; Pl-x 182/2026 și-a pierdut-o după o legătură cu Senatul.
+    // Fără pagină pe site, linkul duce la fișa de pe cdep.ro, nu la un 404.
+    const pages = new Set([...bills.map((b) => `/legi/${b.slug}`), ...chamberPages.map((s) => `/camera/${s}`)]);
     const rows = new Map((index?.proiecte ?? []).map((r) => [r.slug, r]));
     const senat = new Map(bills.map((b) => [b.slug, b]));
     const out = new Map<string, MpVote[]>();
@@ -55,7 +58,7 @@ export function getVotesByMp() {
           const list = out.get(m.mp) ?? [];
           list.push({
             slug: data.slug,
-            href: `${data.page}#voturi`,
+            href: pages.has(data.page) ? `${data.page}#voturi` : (row?.url ?? '/camera'),
             billNumber,
             title,
             risk: c ? { level: c.riskLevel, score: c.riskScore } : null,

@@ -8,6 +8,7 @@ import MpDirectory from '@/components/mps/MpDirectory';
 import { getMpContacts } from '@/lib/mp-contacts';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/parlamentari' },
   title: 'Parlamentari',
   description: 'Caută orice senator sau deputat care a semnat un proiect de lege urmărit la Senat sau la Camera Deputaților și vezi ce a propus, cu nivelul de risc al fiecărui proiect.',
 };

@@ -11,6 +11,7 @@ import { HundredActs, Swatch, VoteStrip, YearColumns, ro, type YearState } from 
 import { DecadeStrip } from '@/components/mo/pre1990';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/monitorul-oficial' },
   title: 'Monitorul Oficial, în cifre',
   description:
     'Câte acte apar în Monitorul Oficial, Partea I, în fiecare zi din 1990 încoace, câte legi aprobă ordonanțe ale Guvernului și cât durează de la votul final la publicare. Din indexul Portalului Legislativ, cu golurile la vedere.',

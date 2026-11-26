@@ -5,6 +5,7 @@ import { Container, linkCls, panel } from '@/components/ui';
 import SubscribeForm from '@/components/alerts/SubscribeForm';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/abonare' },
   title: 'Alerte pe e-mail',
   description:
     'Primește un e-mail în zilele lucrătoare în care un proiect de lege nou intră în consultare la Senat, cu termenele care se apropie. Alegi tu nivelul de risc.',

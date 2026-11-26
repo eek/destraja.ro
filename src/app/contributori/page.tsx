@@ -8,6 +8,7 @@ import { SOURCE_URL } from '@/lib/site';
 const DESCRIPTION = 'Oamenii care au ajutat la destrajă.ro: cod, propuneri și observații. Proiectul e făcut și întreținut de Radu-Sebastian Amarie.';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/contributori' },
   title: 'Mulțumiri',
   description: DESCRIPTION,
   openGraph: { title: 'Mulțumiri · destrajă.ro', description: DESCRIPTION },

@@ -6,6 +6,7 @@ import { formatDateRo } from '@/lib/format';
 import SenatClient from '@/components/senat/SenatClient';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/senat' },
   title: 'La Senat: consultarea publică',
   description:
     'Proiectele de lege aflate în consultare publică la Senat, explicate pe înțelesul tuturor, cu scorul de risc al fiecăruia și textul gata făcut pentru obiecția ta.',

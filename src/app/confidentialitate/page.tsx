@@ -8,6 +8,7 @@ import ClearPreferences from '@/components/site/ClearPreferences';
 import ConsentControls from '@/components/site/ConsentControls';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/confidentialitate' },
   title: 'Confidențialitate și cookies',
   description:
     'Ce date păstrează destrajă.ro despre tine (alerte pe e-mail, rapoarte de greșeli, statistici doar cu acordul tău), cât timp, cine le prelucrează și ce drepturi ai.',

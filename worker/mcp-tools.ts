@@ -446,7 +446,11 @@ async function getBill(ctx: McpContext, args: Json) {
   const a = d.analysis as Analysis | null;
   const sub = (d.submission ?? {}) as { window?: Window };
   const x = afterExpiry(d.phase, d.status_detail, sub.window, ctx.today);
-  const statusDetail = x.status === d.status_detail ? d.status_detail : { ...(d.status_detail as Json), title: x.status };
+  const sd = d.status_detail as Json;
+  // Zilele de la ultimul pas, numărate până azi: dosarul e scris la build.
+  const lastStep = typeof sd?.last_step_on === 'string' ? sd.last_step_on : null;
+  const days = lastStep ? { days_since_last_step: Math.round((Date.parse(`${ctx.today}T00:00:00Z`) - Date.parse(`${lastStep}T00:00:00Z`)) / 864e5) } : {};
+  const statusDetail = x.status === d.status_detail ? { ...sd, ...days } : { ...sd, ...days, title: x.status };
   const base = {
     id: d.id,
     numbers: d.numbers,

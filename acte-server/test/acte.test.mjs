@@ -225,6 +225,27 @@ test('API: căutare, act, unități, relații', () => {
   assert.ok(!r2.items.some((x) => r1.items.some((y) => y.relation_id === x.relation_id)), 'paginile nu se suprapun');
 });
 
+test('codurile de pe pagina de start: nume cu anul, starea doar când o știm, actul de adoptare, cele istorice separat', () => {
+  const text = (r) => String(r.html).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const fiscal = g.bySlug('cod-fiscal-2015');
+  const cur = R.codeRow(g, fiscal);
+  assert.equal(cur.name, 'Codul fiscal (2015)');
+  assert.equal(cur.historic, false);
+  // O ediție mai veche cu același nume: istorică, fără să spunem „abrogat” fără confirmare.
+  const old = R.codeRow(g, { ...fiscal, id: -1, slug: 'cod-fiscal-2003', year: 2003, status: 'necunoscut', status_by: null, title: null, code_of: null, mo_part: 'I', mo_number: 927, mo_date: '2003-12-23' });
+  assert.equal(old.historic, true);
+  assert.match(text(old), /^Codul fiscal \(2003\) ediție mai veche Publicat în Monitorul Oficial/);
+  assert.ok(String(old.html).includes('title="Există și ediția din 2015"'));
+  const rep = R.codeRow(g, { ...fiscal, id: -2, code_name: 'Codul vechi', year: 1865, status: 'abrogat', status_from: '2012-05-30', status_by: fiscal.id, title: null, code_of: null });
+  assert.equal(rep.historic, true);
+  assert.match(text(rep), /^Codul vechi \(1865\) abrogat în 2012/);
+  assert.ok(String(rep.html).includes(`title="Abrogat de ${fiscal.cite}"`));
+  // Necunoscut și fără ediție mai nouă: fără etichetă de stare.
+  assert.ok(!/rounded-full/.test(String(R.codeRow(g, { ...fiscal, status: 'necunoscut' }).html)));
+  const landing = R.landingPage(tpl, g);
+  assert.ok(landing.includes('Codul fiscal (2015)'));
+});
+
 // ---- HTTP
 
 function get(port, p, headers = {}) {

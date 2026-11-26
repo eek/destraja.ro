@@ -633,6 +633,57 @@ function actListItem(a, extra = null) {
   return html`<li class="border-b border-line py-3 last:border-0"><a class="${C.quiet} text-[15px]" href="${actPath(a)}">${name}</a>${title ? html` <span class="text-[15px] text-body">${shorten(title, 140)}</span>` : ''}${extra ? html`<span class="block text-sm text-muted">${extra}</span>` : ''}</li>`;
 }
 
+// ---------------------------------------------------------------- codurile de pe pagina de start
+
+// Titlul care e chiar citarea actului de adoptare („Legea nr. 286/2009”, „Ordonanța nr. 29/1997 privind Codul aerian”).
+const CITE_TITLE = /^(Legea|Ordonanța|Ordonanţa|Decretul|Decret-lege|Hotărârea|Decizia)\b/;
+const newerEditions = new WeakMap();
+/** Anul celei mai noi ediții a fiecărui cod (după code_name), dintre codurile indexabile ale generației. */
+function newestByName(g) {
+  if (!newerEditions.has(g)) {
+    const m = new Map();
+    for (const r of g.db.prepare("SELECT code_name, max(year) AS y FROM acts WHERE kind = 'cod' AND indexable = 1 AND code_name IS NOT NULL GROUP BY code_name").all()) m.set(r.code_name, r.y);
+    newerEditions.set(g, m);
+  }
+  return newerEditions.get(g);
+}
+
+/**
+ * Un cod în listă: numele cu anul („Codul penal (2009)”), o etichetă de stare doar când o știm (în vigoare, abrogat în
+ * <an>, sau ediție veche când există una mai nouă cu același nume; „necunoscut” rămâne fără etichetă, ca pe pagina
+ * actului), iar dedesubt actul de adoptare, când îl avem.
+ */
+export function codeRow(g, a) {
+  const newest = a.code_name ? newestByName(g).get(a.code_name) : null;
+  const newer = newest != null && a.year != null && newest > a.year ? newest : null;
+  const repealed = a.status === 'abrogat';
+  const by = repealed && a.status_by ? g.byId(a.status_by)?.cite : null;
+  const chip = a.status === 'in_vigoare'
+    ? { tone: 'green', text: 'în vigoare' }
+    : repealed
+      ? { tone: 'red', text: `abrogat${a.status_from ? ` în ${a.status_from.slice(0, 4)}` : ''}`, title: by ? `Abrogat de ${by}` : null }
+      : newer
+        ? { tone: 'muted', text: 'ediție mai veche', title: `Există și ediția din ${newer}` }
+        : null;
+  const enact = a.title && CITE_TITLE.test(a.title) ? a.title : a.code_of ? g.byId(a.code_of)?.cite || null : null;
+  const sub = enact || (a.title && a.title !== a.code_name ? a.title : null) || moLine(a);
+  const name = a.code_name ? `${a.code_name}${a.year ? ` (${a.year})` : ''}` : a.cite;
+  return {
+    historic: repealed || !!newer,
+    name,
+    year: a.year || 0,
+    html: html`<li class="border-b border-line py-3 last:border-0"><span class="flex flex-wrap items-center gap-x-2 gap-y-1"><a class="${C.quiet} text-[15px]" href="${actPath(a)}">${name}</a>${chip ? html`<span class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold ${C.chip[chip.tone]}"${chip.title ? html` title="${chip.title}"` : ''}>${chip.text}</span>` : ''}</span>${sub ? html`<span class="mt-0.5 block text-sm text-muted">${shorten(sub, 140)}</span>` : ''}</li>`,
+  };
+}
+
+/** Codurile: întâi cele actuale (alfabetic), apoi „Coduri istorice” (abrogate sau cu o ediție mai nouă), cele noi primele. */
+function codesSection(g, codes) {
+  const rows = codes.filter(Boolean).map((a) => codeRow(g, a));
+  const current = rows.filter((r) => !r.historic).sort((x, y) => x.name.localeCompare(y.name, 'ro'));
+  const old = rows.filter((r) => r.historic).sort((x, y) => y.year - x.year || x.name.localeCompare(y.name, 'ro'));
+  return html`<section><h2 class="${C.h2}">Coduri</h2><ul class="mt-4">${current.map((r) => r.html)}</ul>${old.length ? html`<h3 class="mt-8 text-base font-semibold text-ink">Coduri istorice</h3><ul class="mt-2">${old.map((r) => r.html)}</ul>` : ''}</section>`;
+}
+
 export function landingPage(tpl, g) {
   const codes = g.listIds('codes').map((id) => g.byId(id));
   const amended = g.listIds('mostAmended', 12).map((id) => g.byId(id));
@@ -645,7 +696,7 @@ ${breadcrumb([['Acte', null]])}
 </header>
 <div class="mt-8 max-w-3xl">${searchFormSimple('')}</div>
 <div class="mt-12 grid gap-10 lg:grid-cols-3">
-  <section><h2 class="${C.h2}">Coduri</h2><ul class="mt-4">${codes.map((a) => actListItem(a))}</ul></section>
+  ${codesSection(g, codes)}
   ${g.hasConfidence ? html`<section><h2 class="${C.h2}">Cele mai modificate</h2><ul class="mt-4">${amended.map((a) => [a, g.confirmedStats(a.id)]).filter(([, st]) => st.changes).map(([a, st]) => actListItem(a, `${countWord(st.changes, 'modificare confirmată', 'modificări confirmate')}`))}</ul></section>` : ''}
   <section><h2 class="${C.h2}">Publicate recent</h2><ul class="mt-4">${recent.map((a) => actListItem(a, a.mo_date ? dateRo(a.mo_date) : null))}</ul></section>
 </div>

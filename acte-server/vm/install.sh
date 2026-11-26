@@ -78,6 +78,7 @@ sshd -t
 systemctl reload ssh
 
 # ---- unitatea systemd (pornește când există release/current/server.mjs)
+install -d -m 750 -o root -g acte /etc/acte
 install -m 644 -o root -g root "$SRC/vm/acte-server.service" /etc/systemd/system/acte-server.service
 systemctl daemon-reload
 systemctl enable acte-server.service >/dev/null 2>&1 || true

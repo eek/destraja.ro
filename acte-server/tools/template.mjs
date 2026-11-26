@@ -1,11 +1,14 @@
 // out/acte-shell.html (pagina Next src/app/acte-shell) → template.html pentru serverul actelor, plus copiile
 // CSS-ului și fonturilor pe care le folosește (design §2.3): fără scripturile Next, cu un script mic pentru antet
-// (temă, meniul de pe mobil), cu legături absolute spre destraja.ro și cu /_next/static/ mutat la /_static/.
+// (temă, meniul de pe mobil), cu legături absolute spre destraja.ro și cu /_next/static/ mutat la /acte/_static/ (copiile
+// din versiune: CSS-ul site-ului de sub /_next se schimbă la fiecare publicare a site-ului, versiunea actelor nu).
 
 import fs from 'node:fs';
 import path from 'node:path';
 
 const SITE = 'https://destraja.ro';
+// Fișierele statice ale versiunii, sub prefixul paginilor (lib/render.mjs: BASE).
+const STATIC = '/acte/_static/';
 
 // Iconițele lucide pe care le desenează și React în antet (Sun, Moon, Menu, X), aceleași căi.
 const svg = (cls, body) =>
@@ -53,10 +56,10 @@ export function transformShell(src) {
   const assets = new Set();
   h = h.replace(/(["'(])\/_next\/static\/([A-Za-z0-9._/-]+)/g, (_, q, p) => {
     assets.add(p);
-    return `${q}/_static/${p}`;
+    return `${q}${STATIC}${p}`;
   });
   // Restul legăturilor relative duc pe site.
-  h = h.replace(/\b(href|src)="\/(?!\/|_static\/)/g, `$1="${SITE}/`);
+  h = h.replace(/\b(href|src)="\/(?!\/|acte\/_static\/)/g, `$1="${SITE}/`);
   h = h.replace(/\b(href|src)="\/"/g, `$1="${SITE}/"`);
   // Butoanele temei și ale meniului, pentru scriptul antetului.
   h = h.replace(/<button([^>]*aria-label="Treci la tema (?:întunecată|luminoasă)"[^>]*)>([\s\S]*?)<\/button>/g, (_, a) => `<button data-acte-theme=""${a}>${MOON}</button>`);
@@ -80,7 +83,7 @@ export function transformShell(src) {
   return { html: h, assets: [...assets] };
 }
 
-/** Copiază CSS-ul și fonturile în outStatic; în CSS, /_next/static/ → /_static/, restul adreselor de pe site → destraja.ro. */
+/** Copiază CSS-ul și fonturile în outStatic; în CSS, /_next/static/ → /acte/_static/, restul adreselor de pe site → destraja.ro. */
 export function copyAssets(assets, siteOut, outStatic) {
   const seen = new Set();
   const queue = [...assets];
@@ -96,9 +99,9 @@ export function copyAssets(assets, siteOut, outStatic) {
       let css = fs.readFileSync(src, 'utf8');
       css = css.replace(/url\((["']?)\/_next\/static\/([^)"']+)\1\)/g, (_, q, p) => {
         queue.push(p);
-        return `url(${q}/_static/${p}${q})`;
+        return `url(${q}${STATIC}${p}${q})`;
       });
-      css = css.replace(/url\((["']?)\/(?!_static\/|\/)([^)"']+)\1\)/g, (_, q, p) => `url(${q}${SITE}/${p}${q})`);
+      css = css.replace(/url\((["']?)\/(?!acte\/_static\/|\/)([^)"']+)\1\)/g, (_, q, p) => `url(${q}${SITE}/${p}${q})`);
       fs.writeFileSync(dest, css);
     } else fs.copyFileSync(src, dest);
     copied.push(rel);

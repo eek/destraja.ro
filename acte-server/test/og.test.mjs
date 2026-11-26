@@ -130,11 +130,11 @@ test('meta: og:image și twitter:card pe paginile actelor, imaginea de rezervă 
   try {
     R.configure({ launched: false, og: { version: OG_VERSION } });
     const page = R.actPage(R.FALLBACK_TEMPLATE, g, act);
-    assert.ok(page.includes(`<meta property="og:image" content="https://acte.destraja.ro/lege-95-2006/imagine.png?v=1-${OG_VERSION}">`));
+    assert.ok(page.includes(`<meta property="og:image" content="https://destraja.ro/acte/lege-95-2006/imagine.png?v=1-${OG_VERSION}">`));
     assert.ok(page.includes('<meta name="twitter:card" content="summary_large_image">'));
     assert.ok(page.includes('<meta property="og:image:width" content="1200">'));
     assert.ok(R.textPage(R.FALLBACK_TEMPLATE, g, act, 1).includes('/lege-95-2006/imagine.png?v='));
-    assert.ok(R.landingPage(R.FALLBACK_TEMPLATE, g).includes('content="https://acte.destraja.ro/imagine.png?v='));
+    assert.ok(R.landingPage(R.FALLBACK_TEMPLATE, g).includes('content="https://destraja.ro/acte/imagine.png?v='));
     R.configure({ launched: false, og: null });
     assert.ok(R.actPage(R.FALLBACK_TEMPLATE, g, act).includes('<meta property="og:image" content="https://destraja.ro/monitorul-oficial/opengraph-image">'));
   } finally {

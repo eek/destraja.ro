@@ -4,8 +4,11 @@
 import { html, raw, esc, jsonForScript, richText, safeUrl } from './html.mjs';
 import { dateRo, countWord, moLine, agree, EFFECT, effectVerb, STATUS, FOOTER_NOTE, portalUrl } from './format.mjs';
 
-export const ORIGIN = 'https://acte.destraja.ro';
+// Paginile stau pe destraja.ro/acte: Worker-ul site-ului le cere de la acest server (worker/acte.ts). Legăturile,
+// adresele canonice și imaginile poartă prefixul; serverul primește cererile și cu el, și fără el (lib/server.mjs).
 export const SITE = 'https://destraja.ro';
+export const BASE = '/acte';
+export const ORIGIN = `${SITE}${BASE}`;
 const PAGE_CHARS = 300_000; // peste atât, textul se împarte în pagini
 const CHANGES_ON_PAGE = 10;
 
@@ -28,7 +31,7 @@ const C = {
 };
 
 export const actUrl = (a, sub = '') => `${ORIGIN}/${a.slug}${sub}`;
-const actPath = (a, sub = '') => `/${a.slug}${sub}`;
+const actPath = (a, sub = '') => `${BASE}/${a.slug}${sub}`;
 const unitHref = (id) => `#${encodeURIComponent(id).replace(/%2F/g, '/')}`;
 
 // ---------------------------------------------------------------- șablonul
@@ -76,12 +79,12 @@ function footerNote(g, extra = null) {
   return html`<aside class="mt-12 border-t border-line pt-6 ${C.muted}">
   <p>${FOOTER_NOTE}</p>
   ${extra}
-  <p class="mt-2">Date actualizate pe ${dateRo(g.dataDate)} (generația ${g.generation}). Ai găsit o greșeală? <a class="${C.quiet}" href="mailto:contact@destraja.ro?subject=${encodeURIComponent('Greșeală pe acte.destraja.ro')}">Scrie-ne la contact@destraja.ro</a>.</p>
+  <p class="mt-2">Date actualizate pe ${dateRo(g.dataDate)} (generația ${g.generation}). Ai găsit o greșeală? <a class="${C.quiet}" href="mailto:contact@destraja.ro?subject=${encodeURIComponent('Greșeală pe destrajă.ro')}">Scrie-ne la contact@destraja.ro</a>.</p>
 </aside>`;
 }
 
 function searchForm(q = '', all = false, autofocus = false) {
-  return html`<form action="/cauta" method="get" role="search" class="flex flex-col gap-3 sm:flex-row">
+  return html`<form action="${BASE}/cauta" method="get" role="search" class="flex flex-col gap-3 sm:flex-row">
   <label for="q" class="sr-only">Caută un act</label>
   <input id="q" name="q" type="search" value="${q}" maxlength="200" placeholder="„OUG 34/2024”, „Legea 198/2023”, „codul fiscal”, „permise de muncă”" class="${C.input}"${autofocus ? raw(' autofocus') : ''}>
   <button type="submit" class="${C.btn}">Caută</button>
@@ -198,7 +201,7 @@ function reportForm(g, act) {
     <p class="text-xs leading-5 text-muted">Nu păstrăm adresa IP. Până verificăm raportul, legătura semnalată nu mai intră în numărătoarea modificărilor.</p>
   </form>
 </details>
-<script src="/_static/acte-report.js" defer></script>`;
+<script src="${BASE}/_static/acte-report.js?v=${RELEASE}" defer></script>`;
 }
 
 /** O relație confirmată: verb la indicativ („modifică”). */
@@ -401,7 +404,10 @@ let LAUNCHED = false;
 let SITEKEY = null;
 // Imaginile de previzualizare (lib/og.mjs): adresa lor doar când serverul le poate desena; altfel, cea de rezervă.
 let OG_IMAGES = null;
-export const configure = ({ launched, sitekey, og }) => {
+// Id-ul versiunii, în adresa scripturilor din /_static care n-au amprentă în nume (acte-report.js).
+let RELEASE = 'dev';
+export const configure = ({ launched, sitekey, og, release }) => {
+  if (release !== undefined) RELEASE = String(release).slice(0, 12);
   if (launched !== undefined) LAUNCHED = !!launched;
   if (sitekey !== undefined) SITEKEY = sitekey;
   if (og !== undefined) OG_IMAGES = og;
@@ -412,8 +418,8 @@ export const OG_FALLBACK = { url: `${SITE}/monitorul-oficial/opengraph-image`, a
 export function ogImage(g, act = null) {
   if (!OG_IMAGES || !g) return OG_FALLBACK;
   const v = `?v=${g.generation}-${OG_IMAGES.version}`;
-  if (!act) return { url: `${ORIGIN}/imagine.png${v}`, alt: 'Actele din Monitorul Oficial, pe acte.destraja.ro' };
-  return { url: `${actUrl(act, '/imagine.png')}${v}`, alt: `${act.cite}${act.text_policy === 'show' && act.title ? ` ${shorten(act.title, 140)}` : ''}, pe acte.destraja.ro` };
+  if (!act) return { url: `${ORIGIN}/imagine.png${v}`, alt: 'Actele din Monitorul Oficial, pe destrajă.ro' };
+  return { url: `${actUrl(act, '/imagine.png')}${v}`, alt: `${act.cite}${act.text_policy === 'show' && act.title ? ` ${shorten(act.title, 140)}` : ''}, pe destrajă.ro` };
 }
 export const isLaunched = () => LAUNCHED;
 export function robotsFor(act) {
@@ -463,7 +469,7 @@ export function actPage(tpl, g, act) {
   const textSection = renderTextSection(g, act, { base: actPath(act) });
 
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [act.cite, null]])}
+${breadcrumb([['Acte', BASE], [act.cite, null]])}
 <article>
 ${actHeader(g, act)}
 <section aria-labelledby="modificari" class="mt-10">
@@ -530,7 +536,7 @@ ${page == null && long ? html`<p class="mt-3 text-[15px] text-body">Textul are $
 /** /<slug>/text: textul publicat, pe pagini. */
 export function textPage(tpl, g, act, page) {
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [act.cite, actPath(act)], ['Textul', null]])}
+${breadcrumb([['Acte', BASE], [act.cite, actPath(act)], ['Textul', null]])}
 ${actHeader(g, act, { sub: 'Textul publicat' })}
 ${renderTextSection(g, act, { base: actPath(act, '/text'), page })}
 ${footerNote(g)}
@@ -560,7 +566,7 @@ export function changesPage(tpl, g, act, page, perPage = 100) {
         )}</nav>`
       : '';
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [act.cite, actPath(act)], ['Modificări', null]])}
+${breadcrumb([['Acte', BASE], [act.cite, actPath(act)], ['Modificări', null]])}
 ${actHeader(g, act, { sub: 'Toate modificările și legăturile' })}
 <section class="mt-10"><h2 class="${C.h2}">Modificări confirmate</h2>
 <p class="mt-3 text-lg leading-8 text-ink">${counterSentence(g, act, st)}</p>
@@ -591,7 +597,7 @@ export function formPage(tpl, g, act, form, { asked = null } = {}) {
       ? html`<p class="mt-3 text-[15px] text-body">La ${dateRo(asked)} se aplica forma datată ${dateRo(form.valid_from)}${act.in_force_from && asked < act.in_force_from ? html`; actul nu intrase încă în vigoare la această dată` : ''}.</p>`
       : '';
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [act.cite, actPath(act)], [`Forma din ${dateRo(form.valid_from)}`, null]])}
+${breadcrumb([['Acte', BASE], [act.cite, actPath(act)], [`Forma din ${dateRo(form.valid_from)}`, null]])}
 ${actHeader(g, act, { sub: `Formă consolidată informativă a Portalului Legislativ, datată ${dateRo(form.valid_from)}` })}
 <section class="mt-8">
 ${intro}
@@ -648,7 +654,7 @@ ${footerNote(g)}
   return layout(tpl, {
     title: 'Actele din Monitorul Oficial: legi, ordonanțe, hotărâri | destrajă.ro',
     description: 'Caută o lege, o ordonanță sau o hotărâre după număr sau titlu și vezi cine a modificat-o și când, cu textul publicat, după Portalul Legislativ.',
-    canonical: `${ORIGIN}/`,
+    canonical: ORIGIN,
     robots: LAUNCHED ? 'index, follow' : 'noindex, follow',
     ogType: 'website',
     image: ogImage(g),
@@ -657,7 +663,7 @@ ${footerNote(g)}
 }
 
 function searchFormSimple(q, all = false) {
-  return html`<form action="/cauta" method="get" role="search">
+  return html`<form action="${BASE}/cauta" method="get" role="search">
   <label for="q" class="mb-2 block text-sm font-semibold text-ink">Caută după număr sau titlu</label>
   <div class="flex flex-col gap-3 sm:flex-row">
     <input id="q" name="q" type="search" value="${q}" maxlength="200" placeholder="OUG 34/2024, Legea 198/2023, codul fiscal" class="${C.input}">
@@ -671,7 +677,7 @@ void searchForm;
 export function searchPage(tpl, g, q, result, all) {
   const r = result;
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], ['Căutare', null]])}
+${breadcrumb([['Acte', BASE], ['Căutare', null]])}
 <h1 class="font-display mt-6 text-4xl font-normal text-ink">Caută un act</h1>
 <div class="mt-6 max-w-3xl">${searchFormSimple(q, all)}</div>
 ${q ? html`<section class="mt-8 max-w-3xl" aria-live="polite">
@@ -692,7 +698,7 @@ ${footerNote(g)}
 
 export function messagePage(tpl, g, { status, title, text }) {
   const main = html`<div class="${C.container}">
-${breadcrumb([['Acte', '/'], [title, null]])}
+${breadcrumb([['Acte', BASE], [title, null]])}
 <div class="mt-10 max-w-2xl">
   <p class="text-sm font-semibold tabular-nums text-muted">${status}</p>
   <h1 class="font-display mt-2 text-4xl font-normal text-ink">${title}</h1>

@@ -79,7 +79,7 @@ test('cazurile grele se randează (fiecare act din datele de test)', () => {
     const a = g.bySlug(slug);
     const page = R.actPage(tpl, g, a);
     assert.match(page, /<title>[^<]+<\/title>/, slug);
-    assert.match(page, new RegExp(`<link rel="canonical" href="https://acte.destraja.ro/${slug}">`), slug);
+    assert.match(page, new RegExp(`<link rel="canonical" href="https://destraja.ro/acte/${slug}">`), slug);
     assert.match(page, /application\/ld\+json/, slug);
     assert.ok(page.includes('Copie informativă, după Portalul Legislativ'), slug);
     assert.ok(!/undefined|\[object Object\]|NaN/.test(page.replace(/<script type="application\/ld\+json">.*?<\/script>/s, '')), `${slug}: undefined/NaN în pagină`);
@@ -250,9 +250,9 @@ test('HTTP: rute, 301, 404, ETag/304, gzip, cache, limită pe IP', async () => {
     assert.equal((await get(port, '/')).status, 200);
     const r = await get(port, '/codul-fiscal');
     assert.equal(r.status, 301);
-    assert.equal(r.headers.location, '/cod-fiscal-2015');
+    assert.equal(r.headers.location, '/acte/cod-fiscal-2015');
     assert.equal((await get(port, '/Lege-95-2006/')).headers.location, '/lege-95-2006');
-    assert.equal((await get(port, '/p/306516')).headers.location, '/ordin-anap-12-2026');
+    assert.equal((await get(port, '/p/306516')).headers.location, '/acte/ordin-anap-12-2026');
     assert.equal((await get(port, '/nu-exista-1')).status, 404);
     assert.equal((await get(port, '/lege-95-2006/modificari?pagina=0')).status, 404);
     const page = await get(port, '/lege-95-2006');
@@ -270,8 +270,8 @@ test('HTTP: rute, 301, 404, ETag/304, gzip, cache, limită pe IP', async () => {
     assert.equal(api.generation, 1);
     assert.equal((await get(port, '/api/acte/nu-exista-1')).status, 404);
     assert.equal((await get(port, '/api/cauta?q=')).status, 400);
-    assert.match((await get(port, '/robots.txt')).body.toString(), /Sitemap: https:\/\/acte.destraja.ro\/sitemap.xml/);
-    assert.match((await get(port, '/sitemap-1.xml')).body.toString(), /<loc>https:\/\/acte.destraja.ro\/lege-95-2006<\/loc>/);
+    assert.match((await get(port, '/robots.txt')).body.toString(), /Sitemap: https:\/\/destraja.ro\/acte\/sitemap.xml/);
+    assert.match((await get(port, '/sitemap-1.xml')).body.toString(), /<loc>https:\/\/destraja.ro\/acte\/lege-95-2006<\/loc>/);
     assert.ok(!(await get(port, '/sitemap-1.xml')).body.toString().includes('act-311910'));
     assert.equal((await get(port, '/date/site-export.ndjson.gz')).status, 200);
     assert.equal(page.headers['x-robots-tag'], undefined, 'lansat: fără noindex pe actele indexabile');
@@ -283,6 +283,46 @@ test('HTTP: rute, 301, 404, ETag/304, gzip, cache, limită pe IP', async () => {
   } finally {
     s.server.close();
     R.configure({ launched: false });
+  }
+});
+
+test('HTTP: prefixul /acte (destraja.ro/acte, prin Worker) și cheia originii', async () => {
+  const key = 'k'.repeat(64);
+  const s = createActeServer({ dataDir: fx.dataDir, releaseDir: path.join(tmp, 'norel'), pollMs: 100000, log: () => {}, originKeys: [key], openHosts: ['acte.destraja.ro'] });
+  await new Promise((r) => s.server.listen(0, '127.0.0.1', r));
+  const port = s.server.address().port;
+  const viaWorker = { Host: 'acte-origin.destraja.ro', 'CF-Connecting-IP': '198.51.100.1', 'X-Acte-Key': key };
+  try {
+    // Prin Cloudflare, fără cheie (sau cu una greșită): 404, marcat ca refuz, fără cache.
+    for (const h of [{ Host: 'acte-origin.destraja.ro', 'CF-Connecting-IP': '198.51.100.1' }, { ...viaWorker, 'X-Acte-Key': 'x'.repeat(64) }, { Host: '127.0.0.1', 'CF-Connecting-IP': '198.51.100.1' }]) {
+      const r = await get(port, '/acte/lege-95-2006', h);
+      assert.equal(r.status, 404);
+      assert.equal(r.headers['x-acte-denied'], '1');
+      assert.equal(r.headers['cache-control'], 'no-store');
+    }
+    // Cu cheia: paginile cu prefix, legături și adresa canonică pe destraja.ro/acte.
+    const page = await get(port, '/acte/lege-95-2006', viaWorker);
+    assert.equal(page.status, 200);
+    const body = page.body.toString();
+    assert.ok(body.includes('<link rel="canonical" href="https://destraja.ro/acte/lege-95-2006">'));
+    assert.ok(body.includes('href="/acte/lege-95-2006/modificari"') || body.includes('href="/acte/'), 'legături cu prefix');
+    assert.ok(!/href="\/(?!acte\/|acte"|\/)[a-z]/.test(body), 'nicio legătură relativă fără prefix');
+    assert.equal((await get(port, '/acte', viaWorker)).status, 200);
+    assert.equal((await get(port, '/acte/', viaWorker)).headers.location, '/acte');
+    assert.equal((await get(port, '/acte/codul-fiscal', viaWorker)).headers.location, '/acte/cod-fiscal-2015');
+    assert.equal((await get(port, '/ACTE/Lege-95-2006', viaWorker)).headers.location, '/acte/lege-95-2006');
+    assert.equal(JSON.parse((await get(port, '/acte/api/acte/lege-95-2006', viaWorker)).body).act.url, 'https://destraja.ro/acte/lege-95-2006');
+    // ETag: aceeași pagină cu și fără prefix; W/ în față (Cloudflare) tot 304.
+    assert.equal((await get(port, '/acte/lege-95-2006', { ...viaWorker, 'If-None-Match': `W/${page.headers.etag}` })).status, 304);
+    // Gazda veche, deschisă cât durează mutarea: fără cheie, cu și fără prefix.
+    const old = { Host: 'acte.destraja.ro', 'CF-Connecting-IP': '198.51.100.2' };
+    assert.equal((await get(port, '/lege-95-2006', old)).status, 200);
+    assert.equal((await get(port, '/acte/lege-95-2006', old)).status, 200);
+    // Local (operatorul, probele versiunii): fără cheie.
+    assert.equal((await get(port, '/api/sanatate')).status, 200);
+    assert.equal((await get(port, '/acte/api/sanatate')).status, 200);
+  } finally {
+    s.server.close();
   }
 });
 
@@ -486,7 +526,7 @@ test('șablonul: scripturile Next ies, rămân tema și antetul, legăturile duc
   const shell = `<!DOCTYPE html><html lang="ro"><head><meta charSet="utf-8"/><link rel="stylesheet" href="/_next/static/css/a1.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-1.js"/><title>ACTE_SHELL</title><meta name="description" content="x"/><meta name="robots" content="noindex, nofollow"/><meta property="og:title" content="y"/><script>(function(){try{var t=localStorage.getItem('lastraja-theme')}catch(e){}})();</script><script src="/_next/static/chunks/main.js" async=""></script></head><body><header><a href="/">x</a><a href="/senat">Senat</a><button type="button" aria-label="Treci la tema întunecată" class="c"><span></span></button><button type="button" aria-expanded="false" aria-controls="meniu-mobil" aria-label="Deschide meniul"><svg class="lucide-menu"></svg></button></header><nav id="meniu-mobil" hidden=""></nav><main><div id="act-root"><!--ACT:MAIN--></div></main><div role="radiogroup" aria-label="Tema site-ului"><button type="button" role="radio" aria-checked="true" class="x">Automată</button></div><script>self.__next_f.push([1,"x"])</script></body></html>`;
   const { html: out, assets } = transformShell(shell);
   assert.deepEqual(assets, ['css/a1.css']);
-  assert.ok(out.includes('href="/_static/css/a1.css"'));
+  assert.ok(out.includes('href="/acte/_static/css/a1.css"'));
   assert.ok(out.includes('href="https://destraja.ro/senat"'));
   assert.ok(out.includes('href="https://destraja.ro/"'));
   assert.ok(!out.includes('ACTE_SHELL') && !out.includes('og:title') && !out.includes('__next_f') && !out.includes('main.js'));

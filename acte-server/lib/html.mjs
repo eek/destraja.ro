@@ -44,11 +44,12 @@ export function richText(s) {
   return raw(out);
 }
 
-/** Legături externe doar spre gazde cunoscute, doar pe https. */
-const LINK_HOSTS = new Set(['legislatie.just.ro', 'destraja.ro', 'acte.destraja.ro', 'www.ccr.ro', 'www.scj.ro', 'monitoruloficial.ro']);
+/** Legături externe doar spre gazde cunoscute, doar pe https. Cele spre fosta adresă acte.destraja.ro trec la destraja.ro/acte. */
+const LINK_HOSTS = new Set(['legislatie.just.ro', 'destraja.ro', 'www.ccr.ro', 'www.scj.ro', 'monitoruloficial.ro']);
 export function safeUrl(u) {
   try {
     const x = new URL(u);
+    if (x.protocol === 'https:' && x.hostname === 'acte.destraja.ro') return `https://destraja.ro/acte${x.pathname === '/' ? '' : x.pathname}${x.search}${x.hash}`;
     return x.protocol === 'https:' && LINK_HOSTS.has(x.hostname) ? x.href : null;
   } catch {
     return null;

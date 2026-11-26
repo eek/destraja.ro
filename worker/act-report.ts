@@ -1,11 +1,12 @@
-// POST /api/report/act: raportul unui cititor despre un act sau o legătură de pe acte.destraja.ro (formularul de pe
-// pagina actului). Vine de pe alt domeniu, deci CORS doar pentru https://acte.destraja.ro, cu Turnstile ca la
+// POST /api/report/act: raportul unui cititor despre un act sau o legătură de pe destraja.ro/acte (formularul de pe
+// pagina actului). Vine de pe destraja.ro; cât durează mutarea, și de pe fosta adresă https://acte.destraja.ro (CORS doar
+// pentru ea). Cu Turnstile ca la
 // /api/report. Nu păstrăm IP-ul (merge doar la Turnstile și la limitator). Un raport deschis face legătura
 // „contestată” până la reverificare (scripts/acte-contested.mjs scrie lista citită de serverul actelor).
 
 import { json, verifyTurnstile } from './http';
 
-export const ACTE_ORIGIN = 'https://acte.destraja.ro';
+export const ACTE_ORIGINS = new Set(['https://destraja.ro', 'https://acte.destraja.ro']);
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const RELATION = /^[0-9a-f]{16,64}$/;
 const TYPES = new Set(['stare', 'modificare', 'legatura', 'text', 'altceva']);
@@ -14,9 +15,9 @@ const MAX_COMMENT = 1000;
 const MAX_BODY_BYTES = 8_000;
 const MAX_PENDING = 2000;
 
-function cors(res: Response) {
+function cors(res: Response, origin: string) {
   const out = new Response(res.body, res);
-  out.headers.set('access-control-allow-origin', ACTE_ORIGIN);
+  out.headers.set('access-control-allow-origin', origin);
   out.headers.set('vary', 'Origin');
   return out;
 }
@@ -33,11 +34,11 @@ function cleanComment(raw: string) {
 export async function handleActReport(request: Request, env: Env): Promise<Response> {
   const origin = request.headers.get('origin');
   if (request.method === 'OPTIONS') {
-    if (origin !== ACTE_ORIGIN) return new Response(null, { status: 403 });
+    if (!origin || !ACTE_ORIGINS.has(origin)) return new Response(null, { status: 403 });
     return new Response(null, {
       status: 204,
       headers: {
-        'access-control-allow-origin': ACTE_ORIGIN,
+        'access-control-allow-origin': origin,
         'access-control-allow-methods': 'POST',
         'access-control-allow-headers': 'content-type',
         'access-control-max-age': '86400',
@@ -46,8 +47,8 @@ export async function handleActReport(request: Request, env: Env): Promise<Respo
     });
   }
   if (request.method !== 'POST') return new Response(null, { status: 405, headers: { allow: 'POST, OPTIONS' } });
-  if (origin !== ACTE_ORIGIN) return json({ error: 'origin' }, 403);
-  return cors(await accept(request, env));
+  if (!origin || !ACTE_ORIGINS.has(origin)) return json({ error: 'origin' }, 403);
+  return cors(await accept(request, env), origin);
 }
 
 async function accept(request: Request, env: Env): Promise<Response> {

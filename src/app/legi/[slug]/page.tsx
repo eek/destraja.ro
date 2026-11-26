@@ -460,7 +460,7 @@ export default async function BillDetailPage({ params }: PageProps) {
                     {doc.ocr && <p className="mt-1 text-xs text-muted">Text recunoscut automat din documentul scanat; pot exista mici greșeli. Sursa e PDF-ul oficial.</p>}
                     {doc.markdown ? (
                       <div className="mt-2 max-h-96 overflow-y-auto break-words rounded-xl bg-sunken p-4 text-[13px] leading-relaxed text-body">
-                        <DocumentText markdown={doc.markdown} names={bill.initiators} />
+                        <DocumentText markdown={doc.markdown} names={bill.initiators} signatures={doc.signatures} />
                       </div>
                     ) : (
                       <div className="mt-2 max-h-96 overflow-y-auto whitespace-pre-line break-words rounded-xl bg-sunken p-4 text-[13px] leading-relaxed text-body">

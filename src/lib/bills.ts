@@ -7,6 +7,7 @@ import { getBalanceSummary } from './balance';
 import { recentPress } from './stats';
 import { positionsSummary } from './positions';
 import { pressArticle, stanceCounts, type RawPressItem } from './press';
+import type { SignatureInfo } from './tidy-tables';
 
 const ROOT = process.cwd();
 const SENAT_BILLS_PATH = path.join(ROOT, 'data', 'senat-bills.json');
@@ -267,6 +268,8 @@ export interface BillText {
   markdown: string | null;
   /** Text recunoscut automat din scanare (MinerU, Tesseract sau Apple Vision), nu luat din stratul de text al PDF-ului. */
   ocr: boolean;
+  /** Tabelele de semnături: pagina din PDF și rândurile citite pe imagine (scripts/straja-tabel-semnaturi.mjs). */
+  signatures?: SignatureInfo;
 }
 
 /** Metodele din _meta.json: 'mineru', 'mineru+ocr', 'ocr', 'vision' (OCR) sau 'text' (stratul PDF-ului); textele vechi pot lipsi din meta. */
@@ -289,6 +292,12 @@ export async function getBillExtractedTexts(bill: Pick<EnrichedBill, 'slug' | 'p
   } catch {
     // Texte vechi, fără meta: le arătăm oricum.
   }
+  let signed: Record<string, { pages?: SignatureInfo['pages']; read?: SignatureInfo['read'] }> = {};
+  try {
+    signed = JSON.parse(await fs.readFile(path.join(dir, '_semnaturi.json'), 'utf8'));
+  } catch {
+    // Fără tabele de semnături (sau scriptul n-a rulat încă): numele se potrivesc doar din text.
+  }
   const out: (BillText & { order: number })[] = [];
   for (const pdf of bill.pdfs) {
     const name = textName(pdf);
@@ -296,7 +305,9 @@ export async function getBillExtractedTexts(bill: Pick<EnrichedBill, 'slug' | 'p
       const content = (await fs.readFile(path.join(dir, `${name}.txt`), 'utf8')).trim();
       if (!content) continue;
       const markdown = (await fs.readFile(path.join(dir, `${name}.md`), 'utf8').catch(() => '')).trim() || null;
-      out.push({ label: pdf.label, url: pdf.url, content, markdown, ocr: isOcr(meta[name]), order: TEXT_ORDER.indexOf(pdf.type) });
+      const sig = signed[name];
+      const signatures = sig ? { pdfUrl: pdf.url, pages: sig.pages ?? [], read: sig.read ?? {} } : undefined;
+      out.push({ label: pdf.label, url: pdf.url, content, markdown, ocr: isOcr(meta[name]), signatures, order: TEXT_ORDER.indexOf(pdf.type) });
     } catch {
       // PDF fără text extras (încă nedescărcat sau gol).
     }

@@ -31,6 +31,16 @@ export const CHANGELOG: ChangeDay[] = [
     date: '2026-11-26',
     items: [
       {
+        kind: 'nou',
+        title: 'O copie a fiecărui document oficial, păstrată de noi',
+        text: 'Lângă PDF-urile de pe pagina unui proiect apare „copie destrajă.ro”: copia noastră a documentului, la o adresă care nu se schimbă, chiar dacă senat.ro sau cdep.ro mută ori înlocuiește fișierul. O dată pe săptămână descărcăm din nou documentele proiectelor aflate în dezbatere și le comparăm cu copia. Dacă unul s-a schimbat, pagina proiectului spune în ce zi și arată ambele versiuni, cu cea pe care am analizat-o, iar analiza se reface pe textul nou. Amprenta fiecărei copii e publică, așa că oricine poate verifica faptul că fișierul nu s-a schimbat.',
+        link: { href: '/metodologie#documente', label: 'Cum verifici o copie' },
+        shot: {
+          id: '2026-11-26-copii-documente',
+          alt: 'Pagina proiectului B563/2026, la rândul „Documente oficiale”: fiecare document de pe senat.ro (adresa de înaintare, forma inițiatorului, expunerea de motive, avizele) are lângă el linkul „copie destrajă.ro”.',
+        },
+      },
+      {
         kind: 'schimbat',
         title: '„Ce e bine și ce strică” citește tot proiectul și legea în vigoare',
         text: 'Lista cu ce e bine și ce strică într-un proiect se face acum din tot textul lui, cu expunerea de motive și cu legea pe care o modifică, așa cum e în vigoare azi. Când proiectul abrogă sau schimbă un alineat, lista spune ce conține alineatul acela acum, iar la „ce scrie în lege”, sub citatul din proiect, apare „Legea în vigoare acum:” cu textul de azi. De exemplu, Pl-x 714/2026, despre microîntreprinderi, abrogă art. 54 alin. (4) din Codul fiscal; lista arată că alineatul acela pomenește expres restaurantele, unitățile mobile de alimentație și alte servicii de alimentație (codurile CAEN 5611, 5612 și 5622) și că, fără el, regula se poate interpreta diferit. Punctele sunt grupate pe idei. Listele se refac treptat, întâi la proiectele cu risc ridicat; până atunci, pagina arată lista veche, cu nota că se actualizează.',

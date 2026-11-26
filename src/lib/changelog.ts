@@ -28,6 +28,21 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-26',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Textul exact al articolelor pomenite',
+        text: 'Pe pagina unui proiect, articolele legii pe care o modifică („art. 54 alin. (3)”, „articolul 47, litera c)”) sunt acum subliniate discret cu puncte. Treci cu mouse-ul peste ele sau atinge-le pe telefon și vezi textul exact al alineatului sau al literei, așa cum e în vigoare, cu legea și data formei consolidate din care l-am luat și cu linkuri spre acte.destraja.ro și spre legislatie.just.ro. Merge în analize, în „Ce e bine și ce strică”, în citatele din proiect, în observațiile instituțiilor, în amendamente și în comparația formelor. Trimiterile la proiect („art. I pct. 3”) arată punctul din proiect și, alături, ce scrie acum în articolul pe care îl schimbă. Când nu e limpede despre ce lege e vorba (de exemplu un articol din Constituție), lăsăm textul simplu.',
+        link: { href: '/camera/plx-714-2026', label: 'Un exemplu: Pl-x 714/2026' },
+        shot: {
+          id: '2026-11-26-textul-articolelor',
+          alt: 'Pagina Pl-x 714/2026, la „Ce e bine și ce strică”: lângă citatul „3. La articolul 54, alineatele (3) și (4) se abrogă.” e deschisă o fereastră cu titlul „Articolul 54, alineatele (3) și (4)”, textul celor două alineate din Codul fiscal, așa cum sunt în vigoare, și sursa: Legea nr. 227/2015, forma consolidată la 19 noiembrie 2026, după legislatie.just.ro.',
+        },
+      },
+    ],
+  },
+  {
     date: '2026-11-25',
     items: [
       {

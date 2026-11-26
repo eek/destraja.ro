@@ -21,7 +21,7 @@ import { fileURLToPath } from 'node:url';
 import { aliasesOf, bucharestDay, cap, citeOf, cleanUnit, stable, strings } from './lib/citari.mjs';
 
 register('./lib/ts-resolve.mjs', import.meta.url);
-const { findRefs, findMentions, billSections, refIds, topId, resolve } = await import('../src/lib/citari.ts');
+const { findRefs, findMentions, billSections, refIds, topId, resolve, locate, actAt } = await import('../src/lib/citari.ts');
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -284,6 +284,22 @@ async function buildBill(slug) {
     }
     if (Object.keys(units).length) ownOut[form] = units;
   }
+
+  // Doar articolele la care duce cu adevărat o trimitere de pe pagină: rezolvarea paginii, cu fiecare formă (și, pentru
+  // citatele din proiect, cu articolul de proiect din care vin). Restul, citit „pentru orice eventualitate”, iese.
+  const used = acts.map(() => new Set());
+  index.own = ownOut;
+  const formsWithText = Object.keys(parsed);
+  for (const str of all) {
+    const scopes = [{ form: null }, ...formsWithText.map((f) => ({ form: f }))];
+    for (const f of formsWithText) {
+      const at = locate(texts[f], str);
+      if (at >= 0) scopes.push({ form: f, billAct: actAt(parsed[f].sections, at) });
+    }
+    for (const sc of scopes) for (const x of resolve(str, index, sc)) if (x.target.t === 'act') used[x.target.act].add(x.target.ids[0].split('/')[0]);
+  }
+  for (const units of Object.values(ownOut)) for (const u of Object.values(units)) for (const r of u.refs ?? []) used[r.act].add(r.ids[0].split('/')[0]);
+  for (const [i, a] of acts.entries()) for (const id of Object.keys(a.units)) if (!used[i].has(id)) delete a.units[id];
 
   const cleanActs = acts.map(({ _baseline, _latest, ...a }) => a);
   const hasUnits = cleanActs.some((a) => Object.keys(a.units).length) || Object.keys(ownOut).length;

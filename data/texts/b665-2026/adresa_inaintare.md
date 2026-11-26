@@ -1,0 +1,35 @@
+Biroul permanent al Senatului Bp.665..../25..14..2026
+
+## Către: Biroul Permanent al Senatului
+
+În temeiul prevederilor art. 74 alin. (4) din Constituția României, republicată, și ale art. 92 din Regulamentul Senatului, republicat, vă înaintăm spre dezbatere și adoptare propunerea legislativă Lege pentru modificarea Legii nr. 227/2015 privind Codul fiscal.
+
+În numele inițiatorilor,
+
+Ana-Cynthia-Ioana PĂUN
+
+Eugen-Remus NEGOI
+
+Senator USR
+
+Senator USR
+
+Ion-Narcis MIRCESQU
+
+Victoria-Violeta ALEXANDRUh
+
+Senator USR
+
+Senator USR
+
+Adrian ECHERT
+
+Deputat USR
+
+Sorin-Gheorghe ȘIPOSȘ
+
+Senator USR
+
+Ambrozie-Irineu DARĂU
+
+Senator USR

@@ -2,50 +2,27 @@
   "slug": "b579-2026",
   "billId": "B579/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-02T17:35:55.608Z",
-  "inputHash": "049d1539d38e",
-  "riskScore": 5.1,
-  "summary": "Un scop social bun, dar construit pe obligații nefinanțate și adesea imposibile pentru primării, plus restricții excesive asupra proprietății; problemele țin de mecanismul central, nu de o singură prevedere.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-26T11:25:16.203Z",
+  "inputHash": "d6b100554e07",
+  "riskScore": 7.3,
+  "summary": "O intenție de sprijin pentru prima casă transformată într-un proiect neaplicabil, contradictoriu și periculos pentru bugetele locale și dreptul de proprietate.",
   "good": [
     {
-      "text": "Cine își construiește prima casă primește racordarea gratuită la apă, canalizare, curent, gaze și internet, adică scapă de o cheltuială mare.",
-      "article": "art. 3 alin. (1)",
-      "quote": "Autoritățile administrației publice locale, prin primării sau consilii locale, au obligația de a asigura, în mod gratuit, racordarea beneficiarilor la toate utilitățile esențiale.",
-      "weight": 3
-    },
-    {
-      "text": "Fixează un termen clar pentru racordare, ca oamenii să nu mai aștepte luni sau ani după utilități.",
-      "article": "art. 4 alin. (1)",
-      "quote": "Racordarea la utilitățile esențiale se realizează în termen de maximum 90 de zile calendaristice de la data eliberării autorizației de construire.",
+      "text": "Limitează sprijinul strict la terenurile intravilane, prevenind construirea haotică în extravilan și costurile uriașe pentru rețele izolate.",
+      "article": "art. 3 alin. (2)",
+      "quote": "Obligația prevăzută la alin. (1) se aplică exclusiv construcțiilor situate pe terenuri intravilane.",
       "weight": 2
     },
     {
-      "text": "Ajutorul merge doar la cei care nu au altă locuință, ceea ce îl țintește spre cei care chiar au nevoie.",
-      "article": "art. 2 lit. b)",
-      "quote": "orice cetățean român care construiește prima locuință pe un teren intravilan și care nu deține, la momentul solicitării, o altă locuință în proprietate",
-      "weight": 2
-    },
-    {
-      "text": "Cine nu locuiește efectiv 10 ani în casă trebuie să dea banii înapoi, ceea ce protejează banii publici de abuzuri.",
-      "article": "art. 6 alin. (1) lit. c) și alin. (2)",
+      "text": "Obligă beneficiarul să returneze costul racordării dacă nu folosește casa ca reședință principală 10 ani, protejând banii publici proporțional.",
+      "article": "art. 6 alin. (2)",
       "quote": "Nerespectarea obligației prevăzute la alin. (1) lit. c) atrage obligația beneficiarului de a rambursa integral contravaloarea serviciilor de racordare acordate gratuit.",
       "weight": 2
     },
     {
-      "text": "Se aplică doar în intravilan, deci nu încurajează construcțiile răsfirate pe câmp, departe de rețele.",
-      "article": "art. 3 alin. (2)",
-      "quote": "Obligația prevăzută la alin. (1) se aplică exclusiv construcțiilor situate pe terenuri intravilane.",
-      "weight": 1
-    },
-    {
-      "text": "Gazele sunt cerute doar unde există deja rețea în localitate, o limită realistă.",
-      "article": "art. 2 lit. c)",
-      "quote": "serviciile de apă potabilă, canalizare, energie electrică, gaze naturale (dacă există rețea în localitate) și acces la internet fix.",
-      "weight": 1
-    },
-    {
-      "text": "Lasă 6 luni până la intrarea în vigoare, timp în care autoritățile se pot pregăti.",
+      "text": "Stabilește un termen de 6 luni până la intrarea în vigoare, lăsând teoretic timp autorităților să se pregătească înainte de aplicare.",
       "article": "art. 9",
       "quote": "Prezenta lege intră în vigoare la 6 luni de la data publicării în Monitorul Oficial al României, Partea I.",
       "weight": 1
@@ -53,75 +30,87 @@
   ],
   "bad": [
     {
-      "text": "Costurile cad pe primării fără bani concreți și fără estimare de impact. Fondul național invocat nu e creat de lege, iar Constituția (art. 138 alin. 5) cere sursă de finanțare.",
-      "article": "art. 3 alin. (1), art. 5",
-      "quote": "Autoritățile locale pot solicita sprijin financiar din Fondul Național pentru Dezvoltarea Infrastructurii de Locuire, înființat și administrat de Guvern.",
+      "text": "Obligă primăriile să racordeze gratuit inclusiv la curent, gaze și internet, rețele operate privat și reglementate separat, fără obligații pentru operatori și fără plafon de cost.",
+      "article": "art. 3 alin. (1)",
+      "quote": "Autoritățile administrației publice locale, prin primării sau consilii locale, au obligația de a asigura, în mod gratuit, racordarea beneficiarilor la toate utilitățile esențiale.",
       "weight": 3
     },
     {
-      "text": "Primăriile nu dețin rețelele de curent, gaze și internet. Racordarea o fac operatori privați reglementați de ANRE (Legea 123/2012), deci obligația e greu sau imposibil de executat.",
-      "article": "art. 3 alin. (1), art. 2 lit. c)",
-      "quote": "au obligația de a asigura, în mod gratuit, racordarea beneficiarilor la toate utilitățile esențiale",
-      "weight": 3
-    },
-    {
-      "text": "Interzice 10 ani vânzarea, donarea și chiar închirierea casei, cu excepții foarte înguste. E o limitare excesivă a proprietății (art. 44 Constituție) și poate bloca creditele ipotecare.",
-      "article": "art. 7",
-      "quote": "Locuințele construite în baza acestei legi nu pot fi înstrăinate (vândute, donate sau închiriate) în primii 10 ani de la finalizarea lucrărilor.",
-      "weight": 3
-    },
-    {
-      "text": "Pentru aceeași întârziere există două penalități cumulate (500 euro pe lună plus 1.000 lei pe zi), din bugetul local. Pot falimenta comunele mici pentru întârzieri cauzate de operatori.",
+      "text": "Cumulează 500 euro/lună către beneficiar cu 1.000 lei/zi din bugetul local pentru orice întârziere, indiferent cine e vinovat și fără să spună cine încasează penalitatea zilnică.",
       "article": "art. 4 alin. (2), art. 8 alin. (1)",
       "quote": "Nerespectarea termenului prevăzut la art. 4 alin. (1) atrage aplicarea unei penalități în cuantum de 1.000 lei pentru fiecare zi de întârziere, achitată din bugetul local.",
       "weight": 3
     },
     {
-      "text": "Termenul de 90 de zile curge de la autorizația de construire, chiar dacă pe stradă nu există rețea. Extinderea rețelelor cere proiecte, avize și licitații care durează mult mai mult.",
+      "text": "Trimite la un fond național care nu există și nu e înființat prin lege, fără estimare de costuri sau alocări garantate, încălcând regula constituțională privind sursa de finanțare.",
+      "article": "art. 5 alin. (2)",
+      "quote": "Autoritățile locale pot solicita sprijin financiar din Fondul Național pentru Dezvoltarea Infrastructurii de Locuire, înființat și administrat de Guvern.",
+      "weight": 3
+    },
+    {
+      "text": "Interzice absolut vânzarea, donarea sau închirierea casei timp de 10 ani, măsură disproporționată care blochează inclusiv garantarea unui credit ipotecar pentru construcție.",
+      "article": "art. 7 alin. (1)",
+      "quote": "Locuințele construite în baza acestei legi nu pot fi înstrăinate (vândute, donate sau închiriate) în primii 10 ani de la finalizarea lucrărilor.",
+      "weight": 3
+    },
+    {
+      "text": "Condiția «dacă există rețea în localitate» apare doar la gaze, obligând legal comunele fără apă sau canalizare să facă racordări în 90 de zile chiar fără rețea.",
+      "article": "art. 2 lit. c)",
+      "quote": "Utilități esențiale – serviciile de apă potabilă, canalizare, energie electrică, gaze naturale (dacă există rețea în localitate) și acces la internet fix.",
+      "weight": 3
+    },
+    {
+      "text": "Termenul de 90 de zile curge de la eliberarea autorizației de construire, când imobilul nu există, fără o cerere de racordare și fără obligații tehnice pentru beneficiar.",
       "article": "art. 4 alin. (1)",
-      "quote": "în termen de maximum 90 de zile calendaristice de la data eliberării autorizației de construire",
-      "weight": 2
+      "quote": "Racordarea la utilitățile esențiale se realizează în termen de maximum 90 de zile calendaristice de la data eliberării autorizației de construire.",
+      "weight": 3
     },
     {
-      "text": "Nu există plafon de cost, de distanță, de mărime a casei sau de venit. Și o vilă de lux aflată departe de rețele primește extinderi gratuite din bani publici.",
-      "article": "art. 6 alin. (1)",
-      "quote": "Pot beneficia de prevederile prezentei legi persoanele fizice care îndeplinesc cumulativ următoarele condiții:",
-      "weight": 2
-    },
-    {
-      "text": "Condițiile se contrazic: art. 2 cere să nu ai locuință acum, art. 6 cere să nu fi avut niciodată. Nu e clar cine e eligibil, deci aplicarea poate fi arbitrară.",
+      "text": "Art. 2 cere să nu ai o casă la momentul cererii, dar art. 6 interzice să fi deținut vreodată una anterior; contradicția lasă loc de decizii arbitrare la primării.",
       "article": "art. 2 lit. b), art. 6 alin. (1) lit. a)",
-      "quote": "care nu deține, la momentul solicitării, o altă locuință în proprietate",
+      "quote": "Beneficiar – orice cetățean român care construiește prima locuință pe un teren intravilan și care nu deține, la momentul solicitării, o altă locuință în proprietate;",
       "weight": 2
     },
     {
-      "text": "Doar cetățenii români beneficiază, iar cetățenii UE care locuiesc în România sunt excluși. E o posibilă discriminare interzisă de dreptul UE.",
-      "article": "art. 2 lit. b)",
-      "quote": "orice cetățean român care construiește prima locuință pe un teren intravilan",
+      "text": "Limitează sprijinul exclusiv la cetățenii români, excluzând cetățenii altor state UE care locuiesc legal în România, în conflict cu principiul nediscriminării din dreptul UE.",
+      "article": "art. 1, art. 2 lit. b)",
+      "quote": "Prezenta lege are ca scop sprijinirea cetățenilor români care doresc să își construiască prima locuință, prin garantarea furnizării gratuite și în termen optim a utilităților esențiale, de către autoritățile administrației publice locale.",
       "weight": 2
     },
     {
-      "text": "Nu e clar cum se aplică la soți sau coproprietari, nici dacă fiecare membru al unei familii poate cere separat. Asta deschide calea la beneficii multiple.",
-      "article": "art. 2 lit. a)",
+      "text": "Guvernul aprobă normele de aplicare la 90 de zile după intrarea în vigoare, lăsând primăriile expuse la penalități zilnice timp de 3 luni fără reguli de procedură.",
+      "article": "art. 10",
+      "quote": "În termen de 90 de zile de la data intrării în vigoare, Guvernul României, prin Ministerul Dezvoltării, va elabora și aproba normele metodologice de aplicare a prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Nu pune nicio limită de venit, suprafață sau valoare a racordării, permițând finanțarea din bani publici a unor vile de lux pe loturi intravilane îndepărtate de rețele.",
+      "article": "art. 2 lit. a), art. 6 alin. (1)",
       "quote": "Prima locuință – imobilul construit de o persoană fizică în scopul de a fi utilizat ca reședință principală;",
-      "weight": 1
+      "weight": 2
     },
     {
-      "text": "Nu spune cine verifică și cine recuperează banii, nici cum se notează interdicția în cartea funciară. Încălcarea art. 7 nu are nicio consecință prevăzută.",
-      "article": "art. 6 alin. (2), art. 7",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Primarul și tehnicienii pot răspunde penal vag, „în condițiile legii”, chiar pentru întârzieri pe care nu le controlează, cum sunt cele ale operatorilor de rețea.",
+      "text": "Amenință primarii și angajații tehnici cu răspundere contravențională și penală fără a defini faptele sau sancțiunile, creând insecuritate juridică și risc de abuz.",
       "article": "art. 8 alin. (2)",
       "quote": "Primarul, precum și persoanele cu responsabilități tehnice în cadrul proiectului, pot fi trași la răspundere disciplinară, contravențională sau, după caz, penală, în condițiile legii.",
+      "weight": 2
+    },
+    {
+      "text": "Nu clarifică dacă rambursarea din art. 6 ridică interdicția din art. 7, nici cum se verifică sau sancționează vânzarea ori închirierea, fără notare în cartea funciară.",
+      "article": "art. 6 alin. (2), art. 7",
+      "quote": "Prin excepție, înstrăinarea este permisă în cazuri de forță majoră, precum decesul beneficiarului sau incapacitatea permanentă a acestuia de a locui în respectivul imobil.",
+      "weight": 2
+    },
+    {
+      "text": "Art. 1 vorbește de «furnizarea gratuită» a utilităților (consumul), în timp ce art. 3 obligă doar la «racordarea» gratuită, lăsând loc unor litigii privind ce plătește statul.",
+      "article": "art. 1, art. 3 alin. (1)",
+      "quote": "prin garantarea furnizării gratuite și în termen optim a utilităților esențiale, de către autoritățile administrației publice locale.",
       "weight": 1
     },
     {
-      "text": "Nu are reguli de tranziție: nu e clar dacă legea se aplică și construcțiilor cu autorizații emise înainte de intrarea ei în vigoare.",
-      "article": "art. 9",
-      "quote": null,
+      "text": "Stabilește despăgubirea de 500 euro/lună fără a preciza cursul de schimb folosit, calculul pentru fracțiunile de lună sau procedura de constatare a finalizării lucrărilor.",
+      "article": "art. 4 alin. (2)",
+      "quote": "În cazul depășirii acestui termen, autoritatea locală are obligația de a achita beneficiarului o despăgubire lunară în cuantum de 500 euro, echivalent în lei, până la finalizarea lucrărilor.",
       "weight": 1
     }
   ],

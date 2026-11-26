@@ -1,0 +1,51 @@
+Parlamentul României Senat
+
+PREȘEDINTE
+
+București, 23 noiembrie 2026 Nr. L632/2026
+
+Domnului
+
+# Senator ION-CRISTINEL RUJAN PREȘEDINTELE COMISIEI JURIDICE, DE NUMIRI, DISCIPLINĂ, IMUNITĂȚI ȘI VALIDĂRI
+
+În temeiul articolului 109 din Regulamentul Senatului, republicat, în ședința din 23 noiembrie 2026, plenul Senatului a hotărât trimiterea spre reexaminare a propunerii legislative pentru modificarea art.6 din Legea nr.202/1998 privind organizarea Monitorului Oficial al României (L632/2026), în vederea întocmirii unui raport suplimentar.
+
+În acest sens, vă anexăm extras din stenograma ședinței Senatului din data de 23 noiembrie 2026.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN
+
+# Extras din stenograma ședinței Senatului din 23 noiembrie 2026
+
+(...) Domnul Mircea Abrudean: Dacă există intervenții la ordinea de zi. Vă rog, domnule Șipoș. Domnul Sorin-Gheorghe Șipoș: Mulțumesc, domnule președinte. Solicit retragerea:
+
+(...)
+
+\- L632/2026, poziția 6 – Propunerea legislativă pentru modificarea art.6 din Legea nr.202/1998 privind organizarea Monitorului Oficial al României.
+
+Mulțumesc.
+
+Domnul Mircea Abrudean:
+
+Stimați colegi,
+
+Vă supun votului cele două propuneri ale domnului senator Șipoș pe rând. (...)
+
+Retrimiterea la comisie a L632.
+
+Termen – două săptămâni.
+
+Vă rog să votați.
+
+Domnul Glad-Aurel Varga:
+
+Glad Varga – pentru.
+
+Domnul Mircea Abrudean:
+
+89 pentru, două voturi contra, o abținere.
+
+Aprobat.
+
+(…)

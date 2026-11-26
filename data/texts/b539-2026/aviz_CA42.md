@@ -1,0 +1,29 @@
+# Parlamentul României
+
+Comisia pentru transporturi și infrastructură
+
+Nr. LXXI/501/24.11.2026
+
+## AVIZ
+
+# la Propunerea legislativă pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice
+
+Comisia pentru transporturi și infrastructură, prin adresa nr. L636/2026, a fost sesizată în vederea întocmirii avizului Propunere legislativă pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice, inițiatori: Enachi Raisa - deputat Neafiliat.
+
+În ședința din 24.11.2026, Comisia pentru transporturi și infrastructură a analizat propunerea legislativă și a hotărât, cu majoritate de voturi, să adopte aviz negativ.
+
+Președinte,
+
+Secretar,
+
+Robert-Marius Cazanciuc
+
+Senator Marius BODEA
+
+Domnului Ion-Cristinel RUJAN
+
+Președinte Comisia juridică, de numiri, disciplină, imunități și validări
+
+Domnului Silviu-Iulian COȘA
+
+Președinte Comisia pentru apărare, ordine publică și siguranță națională

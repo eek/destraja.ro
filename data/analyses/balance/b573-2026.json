@@ -3,28 +3,68 @@
   "billId": "B573/2026",
   "schema": 1,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:19:55.263Z",
-  "inputHash": "06ff10a79b14",
-  "riskScore": 7.9,
-  "summary": "Proiect cu un singur articol problematic în întregime, care elimină pragul electoral regional și restrânge reprezentarea parlamentară a comunităților concentrate geografic.",
-  "good": [],
-  "bad": [
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-26T11:26:46.782Z",
+  "inputHash": "abac898fd623",
+  "riskScore": 5.3,
+  "summary": "O lege scurtă care uniformizează pragul electoral la 5%, dar riscă neconstituționalitatea procedurală și restrânge reprezentarea regională în Senat.",
+  "good": [
     {
-      "text": "Elimină pragul alternativ de 20% în 4 circumscripții, restrângând reprezentarea parlamentară a comunităților regionale și a minorităților concentrate geografic.",
+      "text": "Stabilește o regulă unică și clară de 5% la nivel național, tratând egal competitorii cu același număr de voturi, indiferent de județele unde sunt concentrați.",
       "article": "art. unic",
-      "quote": "„a) 5% din totalul voturilor valabil exprimate la nivel național pentru toți competitorii electorali;”",
-      "weight": 3
+      "quote": "5% din totalul voturilor valabil exprimate la nivel național pentru toți competitorii electorali",
+      "weight": 2
     },
     {
-      "text": "Aplicarea pragului de 5% „pentru toți competitorii electorali” creează o contradicție în lege față de pragul de 8–10% pentru alianțe și regulile pentru independenți.",
+      "text": "Modifică strict o singură literă și păstrează neschimbate regulile pentru alianțe, independenți și locurile minorităților la Camera Deputaților, fără a crea blocaje tehnice.",
       "article": "art. unic",
-      "quote": "„a) 5% din totalul voturilor valabil exprimate la nivel național pentru toți competitorii electorali;”",
+      "quote": "La articolul 94 alineatul (2) din Legea nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților",
       "weight": 1
     }
   ],
-  "fix": null,
+  "bad": [
+    {
+      "text": "Formula de adoptare trimite greșit la lege ordinară (art. 76 alin. 2), deși sistemul electoral cere lege organică (art. 76 alin. 1), ceea ce riscă neconstituționalitatea legii.",
+      "article": "formula de atestare",
+      "quote": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.",
+      "weight": 3
+    },
+    {
+      "text": "Eliminarea pragului de 20% în 4 circumscripții poate lăsa fără reprezentare în Senat comunitățile regionale și minoritățile concentrate teritorial, care au loc garantat doar la Deputați.",
+      "article": "art. unic",
+      "quote": "5% din totalul voturilor valabil exprimate la nivel național pentru toți competitorii electorali",
+      "weight": 3
+    },
+    {
+      "text": "Proiectul nu spune de la ce alegeri se aplică; modificarea regulilor electorale cu mai puțin de un an înainte de scrutin încalcă recomandările Comisiei de la Veneția.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Lipsește o analiză pe datele alegerilor trecute care să arate câți votanți ar rămâne nereprezentați și ce efect concret are eliminarea pragului regional asupra pluralismului.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Formularea „pentru toți competitorii electorali” creează o ușoară confuzie, deoarece alianțele au praguri separate de 8–10%, iar independenții și minoritățile urmează reguli distincte.",
+      "article": "art. unic",
+      "quote": "5% din totalul voturilor valabil exprimate la nivel național pentru toți competitorii electorali",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Corectarea formulei finale cu trimitere la art. 76 alin. (1) (lege organică) și adăugarea unei reguli tranzitorii pentru aplicarea abia la scrutinuri aflate la cel puțin un an distanță ar elimina viciile procedurale, deși riscul asupra reprezentării regionale ar rămâne.",
+    "removes": [
+      0,
+      2
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3.5
+  },
   "quotes": {
-    "checked": 2,
-    "verified": 2
+    "checked": 5,
+    "verified": 5
   }
 }

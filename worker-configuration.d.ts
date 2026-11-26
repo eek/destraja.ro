@@ -3,6 +3,7 @@
 // Runtime types generated with workerd@1.20261023.1 2026-10-13
 interface __BaseEnv_Env {
 	DB: D1Database;
+	DOCUMENTE: R2Bucket;
 	REPORT_LIMIT: RateLimit;
 	SUBSCRIBE_LIMIT: RateLimit;
 	SEARCH_LIMIT: RateLimit;

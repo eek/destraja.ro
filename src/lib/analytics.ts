@@ -16,7 +16,8 @@
 // unei poziții a organizațiilor: bill_id, domain, link), position_signatories (lista semnatarilor deschisă),
 // position_more (toate pozițiile unui proiect), news_filter (filtrul de poziție din presa unui proiect: bill_id, stance),
 // tech_details_open (un detaliu pentru programatori deschis pe /metodologie: topic), source_open (un link spre
-// codul de pe GitHub: link = repo, ai_cli, contributing, security, license_data).
+// codul de pe GitHub: link = repo, ai_cli, contributing, security, license_data), bill_share (butonul „Trimite” al unui
+// proiect: bill_id, channel = native, menu, whatsapp, copy; place = header, end; niciodată mesajul sau destinatarul).
 // Niciodată adresa de e-mail.
 
 export const GA_ID = 'G-237KQ8L2FE';

@@ -1162,7 +1162,7 @@ async function refreshVersions(args) {
   let stop = false;
   async function worker() {
     for (let s = queue.shift(); s && !stop; s = queue.shift()) {
-      for (;;) {
+      for (let tries = 1; ; tries++) {
         try {
           const ok = /^b\d/.test(s)
             ? await senateVersionsForBill(senateBills().find((b) => b.slug === s), false)
@@ -1181,6 +1181,12 @@ async function refreshVersions(args) {
             process.exitCode = QUOTA_EXIT;
             stop = true;
             break;
+          }
+          // Fără rețea (Mac-ul pe drum) sau toate modelele cerute căzute deodată: așteptăm și reluăm, de cel mult trei ori.
+          if (wait && tries < 3 && /ENOTFOUND|EAI_AGAIN|ENETUNREACH|ENETDOWN|fetch failed|getaddrinfo|au dat eroare/i.test(err.message)) {
+            console.log(`⏸️  ${s}: ${err.message.slice(0, 160)}; reiau peste 10 minute (${tries} din 3)`);
+            await new Promise((r) => setTimeout(r, 10 * 60_000));
+            continue;
           }
           console.log(`⚠️  ${s}: ${err.message}`);
           failed++;

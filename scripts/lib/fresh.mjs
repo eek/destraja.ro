@@ -309,7 +309,7 @@ export function checkDocx(inp, slug) {
   const bill = (inp.json('data', 'senat-bills.json') ?? []).find((b) => b.slug === slug);
   const a = inp.analysis(slug);
   if (!bill || !a?.consensus) return null;
-  if (!fs.existsSync(inp.file('public', 'docs', `Punct_de_vedere_${bill.id.replace(/\//g, '-')}.docx`))) return null;
+  if (!fs.existsSync(inp.file('public', 'docs', `Punct_de_vedere_${slug.toUpperCase()}.docx`))) return null;
   const stored = inp.json('data', 'docs-basis.json')?.[slug];
   return basisReasons(stored, { analysis: docxDigest(bill, a), prompt: DOCX_VERSION }).map((r) => (r === 'analysis' ? 'analiza' : r === 'prompt' ? 'metoda' : r));
 }
@@ -332,7 +332,8 @@ function slugsFor(inp, type) {
     case 'forms':
       return inp.slugsIn('data', 'analyses', 'versions');
     case 'balance':
-      return [...new Set([...inp.slugsIn('data', 'analyses'), ...inp.slugsIn('data', 'analyses', 'balance')])];
+      // Ca straja-balance: proiectele de la Senat și de la Cameră; ale Guvernului n-au listă.
+      return [...new Set([...inp.slugsIn('data', 'analyses'), ...inp.slugsIn('data', 'analyses', 'balance')])].filter((s) => !s.startsWith('guv-'));
     case 'amendments':
       return inp.slugsIn('data', 'cdep', 'amendamente');
     case 'docx':

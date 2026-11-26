@@ -25,8 +25,9 @@
 //    D1 (straja-reports)
 // 7. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
 // 8. Monitorul Oficial: publicarea legilor proiectelor noastre și cifrele de pe /monitorul-oficial, din setul de date
-//    ~/work/monitorul-oficial (straja-mo, fără rețea; fără setul de date pasul lipsește), apoi verificări, migrațiile D1,
-//    build și publicare pe Cloudflare
+//    ~/work/monitorul-oficial (straja-mo, fără rețea; fără setul de date pasul lipsește); apoi copiile documentelor
+//    (straja-documente: sursele verificate săptămânal, câte o cincime pe zi, apoi arhiva în R2 și pe NAS), verificări,
+//    migrațiile D1, build și publicare pe Cloudflare
 // 9. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită și doar dacă lista Senatului a fost citită
 //    azi (straja-digest --send); o ediție rămasă neterminată dintr-o zi trecută pleacă întâi, iar cea de azi așteaptă
 //    până pleacă aceea toată
@@ -227,6 +228,16 @@ function dotEnv() {
     // fără .env
   }
   return env;
+}
+
+/** Rezumatul JSON de pe ultimul rând „📄 {…}” al unui pas (scripts/straja-documente.mjs), sau null. */
+function lastJson(tail) {
+  const m = [...tail.matchAll(/📄 (\{.*\})/g)].pop();
+  try {
+    return m ? JSON.parse(m[1]) : null;
+  } catch {
+    return null;
+  }
 }
 
 // Semnalele către site (worker/watch.ts). Nimic de aici nu are voie să oprească rularea: o eroare ajunge doar în jurnal.
@@ -655,6 +666,27 @@ async function main() {
     if (fs.existsSync(MO_SAMPLES)) {
       const mo = await step('Monitorul Oficial', 'node', ['scripts/straja-mo.mjs'], { timeoutMs: 600_000 });
       if (!mo.ok) fail('cifrele din Monitorul Oficial au rămas de ieri');
+    }
+
+    // Copiile documentelor parlamentare (scripts/straja-documente.mjs), după toți pașii care descarcă PDF-uri și după cei ai
+    // Camerei, ca cererile la cdep.ro să nu se calce cu ale lor. Întâi sursele: o cincime pe zi din documentele proiectelor
+    // în dezbatere (fiecare o dată pe săptămână), cel mult 30 de cereri la cdep.ro; un document schimbat își păstrează
+    // originalul la adresa lui, iar textul nou face analiza învechită (rândul de prospețime de mai jos îl numără). Apoi
+    // arhiva: manifestul, R2 (destraja.ro/documente/…, înainte de build, ca linkurile din pagini să meargă) și NAS-ul.
+    // Niciunul nu oprește publicarea.
+    const docCheck = await step('Documente: surse', 'node', ['scripts/straja-documente.mjs', '--verifica', '--cdep-max=30', '--minute=40'], { timeoutMs: 50 * 60_000 });
+    const checked = lastJson(docCheck.tail);
+    if (checked?.changed?.length) {
+      const names = checked.changed.map((c) => c.path.replace(/\/.*_/, ' ')).join(', ');
+      summary.push(`${checked.changed.length === 1 ? 'un document schimbat' : `${checked.changed.length} documente schimbate`} la sursă (${names})`);
+    }
+    if (!docCheck.ok) fail('verificarea documentelor la sursă a eșuat');
+    const docArchive = await step('Documente: arhivă', 'node', ['scripts/straja-documente.mjs', '--arhiva'], { timeoutMs: 3_600_000 });
+    const archived = lastJson(docArchive.tail);
+    if (archived?.added) summary.push(`${archived.added} documente noi în arhivă`);
+    if (!docArchive.ok) {
+      const why = archived?.nasError ? 'NAS-ul nu răspunde' : archived?.r2Error ? 'R2 nu primește fișierele' : archived?.nasBad?.length ? `${archived.nasBad.length} fișiere diferite pe NAS` : 'a eșuat';
+      fail(`arhiva documentelor: ${why}`);
     }
 
     // Ce rămâne învechit la publicare: site-ul le arată cu nota „din analiza anterioară, se actualizează” (src/lib/fresh.ts).

@@ -4,7 +4,7 @@
 // primele trei din fiecare și restul la cerere.
 //
 //   node scripts/straja-balance.mjs [slug…] [--risc=red|yellow|green|toate] [--model=agy|codex|claude] [--paralel=4]
-//                                   [--paralel-zilnic=2] [--limita=SECUNDE] [--max=N] [--asteapta-limita] [--force]
+//                                   [--paralel-zilnic=2] [--limita=SECUNDE] [--max=N] [--asteapta-limita] [--force] [--iesire=DOSAR]
 //
 // Fără slug-uri: proiectele de la Senat și de la Cameră cu nivelul cerut (implicit risc ridicat), fără rezultat la zi,
 // cele cu risc ridicat întâi. Rezultatul: data/analyses/balance/<slug>.json. Se refac doar cele al căror text, scor sau
@@ -32,7 +32,10 @@ import { FORMS, baselineFile, baselinePrompt, formText, storedBaseline } from '.
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
-const OUT = path.join(DATA, 'analyses', 'balance');
+// --iesire=DOSAR: în alt dosar, pentru comparații între modele (implicit data/analyses/balance).
+const args = process.argv.slice(2);
+const opt = (name, def) => args.find((a) => a.startsWith(`--${name}=`))?.split('=')[1] ?? def;
+const OUT = path.resolve(opt('iesire', path.join(DATA, 'analyses', 'balance')));
 // 2: tot textul, expunerea până la MEMO_MAX și legea în vigoare; citatele din legea în vigoare separat (lawQuote).
 const SCHEMA = 2;
 // Ca EXPUNERE_MAX din straja-council: expunerea doar explică, textul normativ intră întreg.
@@ -42,8 +45,6 @@ const QUOTA = /limită de utilizare|usage limit|weekly limit|session limit|hour 
 const QUOTA_WAIT_MS = 30 * 60_000;
 const LEVELS = ['red', 'yellow', 'green'];
 
-const args = process.argv.slice(2);
-const opt = (name, def) => args.find((a) => a.startsWith(`--${name}=`))?.split('=')[1] ?? def;
 const slugs = args.filter((a) => !a.startsWith('--'));
 const level = opt('risc', 'red');
 const model = opt('model', 'agy');
@@ -141,8 +142,9 @@ Sarcina ta: o listă completă cu TOT ce e bine și TOT ce e problematic în tex
 Reguli:
 - „bine”: prevederi concrete care ajută oamenii, mediul, bugetul sau statul de drept. Scopul declarat contează doar dacă textul îl pune în practică.
 - „rău”: riscuri concrete pentru drepturi, proprietate, mediu, bani publici, posibilitatea de abuz, neclaritate care permite interpretări, conflict cu Constituția sau cu dreptul UE.
-- Ordonează fiecare listă de la cel mai important la cel mai puțin important. Pune tot ce găsești, fără limită, dar nu repeta același lucru cu alte cuvinte.
-- „text”: o frază scurtă, pe înțelesul oricui, fără jargon (cel mult 240 de caractere). Spune concret ce face prevederea și de ce e bună sau rea.
+- Ordonează fiecare listă de la cel mai important la cel mai puțin important. Acoperă tot ce contează, dar nu repeta același lucru cu alte cuvinte.
+- Un punct = o idee pe care omul o reține. Grupează într-un singur punct prevederile cu același efect sau cu aceeași problemă (de exemplu toate analizele obligatorii, toate amenzile disproporționate, toate delegările către Guvern), cu articolele lor; nu face câte un punct pentru fiecare alineat. La un proiect scurt ajung de obicei 2–8 puncte pe listă, la unul lung cel mult 15–20. Scăpările mărunte de redactare intră într-un singur punct, la final.
+- „text”: o frază scurtă, pe înțelesul oricui, fără jargon (cel mult 240 de caractere). Spune concret ce face prevederea și de ce e bună sau rea. Scrie despre lege, nu despre documentele primite: fără „copia furnizată”, „documentele primite”, „neverificat aici”; dacă textul proiectului e trunchiat sau neclar, spune ce lipsește din proiect.
 - „article”: unde e în proiect (de exemplu „art. 3 alin. (2)” sau „art. unic pct. 1”).
 - „quote”: un fragment copiat EXACT din textul proiectului de mai jos, între 8 și 40 de cuvinte, fără „…” la mijloc. Fără citat dacă nu există unul potrivit (null).
 ${law}

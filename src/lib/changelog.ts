@@ -32,6 +32,16 @@ export const CHANGELOG: ChangeDay[] = [
     items: [
       {
         kind: 'nou',
+        title: 'Trimite un proiect cuiva, cu mesajul gata scris',
+        text: 'Pe pagina fiecărui proiect, de la Senat și de la Cameră, apare „Trimite”: pe telefon, butonul de lângă „Toate proiectele” deschide lista de aplicații a telefonului (WhatsApp, Messenger, e-mail și celelalte), iar pe calculator, în colțul de sus al proiectului, sunt „WhatsApp” și „Copiază linkul”. Mesajul e scris din datele proiectului: titlul pe înțeles, numărul, nivelul de risc și scorul după analiza celor trei modele AI și, cât consultarea publică e deschisă, până când se pot trimite opinii. La un proiect încă neanalizat, mesajul spune doar titlul, numărul și stadiul, iar când analiza se reface, scorul vechi nu apare. Același buton e și la finalul analizei. Butoanele nu încarcă nimic de la Facebook, WhatsApp sau alții până nu apeși.',
+        link: { href: '/legi/b660-2026', label: 'Încearcă pe B660/2026' },
+        shot: {
+          id: '2026-11-26-trimite',
+          alt: 'Antetul proiectului B660/2026 pe calculator: lângă insigna „Risc ridicat 7,7” și numărul proiectului, în dreapta, butoanele „WhatsApp” și „Copiază linkul”.',
+        },
+      },
+      {
+        kind: 'nou',
         title: 'O copie a fiecărui document oficial, păstrată de noi',
         text: 'Lângă PDF-urile de pe pagina unui proiect apare „copie destrajă.ro”: copia noastră a documentului, la o adresă care nu se schimbă, chiar dacă senat.ro sau cdep.ro mută ori înlocuiește fișierul. O dată pe săptămână descărcăm din nou documentele proiectelor aflate în dezbatere și le comparăm cu copia. Dacă unul s-a schimbat, pagina proiectului spune în ce zi și arată ambele versiuni, cu cea pe care am analizat-o, iar analiza se reface pe textul nou. Amprenta fiecărei copii e publică, așa că oricine poate verifica faptul că fișierul nu s-a schimbat.',
         link: { href: '/metodologie#documente', label: 'Cum verifici o copie' },

@@ -86,7 +86,12 @@ export default {
     }
     if (url.pathname.startsWith('/api/')) return json({ error: 'not_found' }, 404);
     // Aici ajung doar cererile fără fișier în out/ (restul le servește Cloudflare direct): 404, sau 301 dacă știm adresa bună.
-    return redirectMissing(request, env, url, await env.ASSETS.fetch(request));
+    const res = await redirectMissing(request, env, url, await env.ASSETS.fetch(request));
+    if (res.status !== 404) return res;
+    // not_found_handling e „none” (altfel Cloudflare servea 404.html fără să mai cheme Worker-ul, deci fără redirecționări):
+    // pagina de 404 o dăm noi, cu statusul 404.
+    const page = await env.ASSETS.fetch(new Request(new URL('/404', url), { method: 'GET' }));
+    return new Response(request.method === 'HEAD' ? null : page.body, { status: 404, headers: page.headers });
   },
   // La 15 minute: confirmările rămase la coadă când trimiterea n-a mers din motive care nu țin de adresă (subscribe.ts)
   // și rularea zilei, dacă lipsește sau nu s-a terminat (watch.ts).

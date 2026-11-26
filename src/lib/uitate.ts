@@ -15,6 +15,7 @@ import path from 'node:path';
 import { getCdepBill, getCdepIndex, getCdepSlugs, registeredYear, type CdepBill, type CdepRow, type CdepSheet } from './cdep';
 import { resolveStatus } from './bill-status';
 import { shortCommittee, stageOf, type StageKey } from './cdep-text';
+import { countWord } from './format';
 
 const plain = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 const isoOf = (ddmmyyyy: string) => ddmmyyyy.split('.').reverse().join('-');
@@ -493,4 +494,89 @@ export async function loadUitateInput(today: string): Promise<UitateInput | null
 export async function getUitate(today: string): Promise<UitateData | null> {
   const input = await loadUitateInput(today);
   return input ? computeUitate(input) : null;
+}
+
+// ─── Pe pagina proiectului ─────────────────────────────────────────────────────────────────────────────────────────
+// Același pas procedural și aceleași zile ca pe /uitate, pentru un singur proiect: pagina lui spune că stă pe loc, că
+// fișa e la zi și când am verificat-o. scripts/check-uitate.mjs verifică că cele două socoteli nu se despart.
+
+/** De la câte luni fără pas procedural arată pagina proiectului că stă pe loc. /uitate numără de la un an; pagina, mai devreme. */
+export const STILL_MONTHS = 6;
+/** De la câte zile spunem „verificată ultima dată pe …”: fișele se recitesc la câteva săptămâni (scripts/lib/cdep-reread.mjs). */
+export const CHECK_OLD_DAYS = 14;
+
+/** Data aflată la `months` luni după `iso`; ziua se oprește la ultima zi a lunii (31 august + 6 luni = 28 februarie). */
+export function addMonths(iso: string, months: number): string {
+  const [y, m, d] = iso.split('-').map(Number);
+  const total = y * 12 + (m - 1) + months;
+  const ty = Math.floor(total / 12);
+  const tm = (total % 12) + 1;
+  const last = new Date(Date.UTC(ty, tm, 0)).getUTCDate();
+  return `${ty}-${String(tm).padStart(2, '0')}-${String(Math.min(d, last)).padStart(2, '0')}`;
+}
+
+/** Ani și luni întregi de la `from` la `to`: „1 an și 9 luni”, „2 ani”, „7 luni”. */
+export function spanRo(from: string, to: string): string {
+  let months = 0;
+  while (addMonths(from, months + 1) <= to) months++;
+  const y = Math.floor(months / 12);
+  const m = months % 12;
+  const parts = [y ? countWord(y, 'an', 'ani') : null, m ? countWord(m, 'lună', 'luni') : null].filter(Boolean);
+  return parts.join(' și ') || 'mai puțin de o lună';
+}
+
+// Rândurile care nu mută proiectul, ca să spunem ce a apărut în fișă după ultimul pas.
+const QUIET_KINDS: { re: RegExp; label: string }[] = [
+  { re: /^(primire (aviz|punct de vedere|hotarare)|solicitare (aviz|punct)|aviz |trimis pentru aviz)/, label: 'avize și puncte de vedere' },
+  { re: /^inscris pe ordinea de zi/, label: 'înscrieri pe ordinea de zi' },
+  { re: /termen/, label: 'termene mutate' },
+];
+
+export interface Stillness {
+  last: LastStep;
+  /** Zile de la ultimul pas procedural, ca pe /uitate. */
+  days: number;
+  /** „1 an și 9 luni”. */
+  span: string;
+  band: BandKey;
+  wait: WaitKey;
+  /** Ce a mai apărut în fișă după ultimul pas, fără să-l mute, și data ultimului astfel de rând; null când nimic. */
+  quiet: { kinds: string[]; lastDate: string } | null;
+  /** Ziua în care am citit ultima dată fișa de pe cdep.ro (YYYY-MM-DD). */
+  checkedOn: string;
+  /** Citirea e mai veche de CHECK_OLD_DAYS. */
+  checkedLongAgo: boolean;
+  url: string;
+}
+
+/**
+ * De cât timp stă pe loc un proiect aflat la Cameră (aceleași stadii ca /uitate), sau null când nu e la Cameră, nu are o
+ * dată sigură sau a avut un pas în ultimele STILL_MONTHS luni.
+ */
+export function stillness(bill: CdepBill, today: string, status: ReturnType<typeof resolveStatus> = resolveStatus(bill, today)): Stillness | null {
+  if (!AT_CHAMBER_STAGES.includes(status.stage)) return null;
+  const last = lastProceduralStep(bill.fisa.timeline, bill.inregistrat);
+  if (!last || today <= addMonths(last.date, STILL_MONTHS)) return null;
+  const after = bill.fisa.timeline.filter((t) => /^\d{2}\.\d{2}\.\d{4}$/.test(t.data) && isoOf(t.data) > last.date);
+  const kinds = QUIET_KINDS.filter((k) => after.some((t) => k.re.test(plain(t.actiune).trim()))).map((k) => k.label);
+  const checkedOn = bill.cititLa.slice(0, 10);
+  return {
+    last,
+    days: daysBetween(last.date, today),
+    span: spanRo(last.date, today),
+    band: bandOf(last.date, today),
+    wait: waitOf(status),
+    quiet: after.length ? { kinds, lastDate: after.map((t) => isoOf(t.data)).sort().at(-1)! } : null,
+    checkedOn,
+    checkedLongAgo: daysBetween(checkedOn, today) > CHECK_OLD_DAYS,
+    url: bill.url,
+  };
+}
+
+/** Același calcul pentru fișa Camerei legată de un proiect al Senatului („PL-x 755/2026” → plx-755-2026). */
+export async function stillnessOfNumber(numar: string | null | undefined, today: string): Promise<Stillness | null> {
+  const m = numar?.match(/^\s*pl-?x\s*(\d+)\/(\d{4})/i);
+  if (!m) return null;
+  const bill = await getCdepBill(`plx-${m[1]}-${m[2]}`);
+  return bill ? stillness(bill, today) : null;
 }

@@ -3,6 +3,8 @@ import type { EnrichedBill } from '@/lib/types';
 import { formatDateRo, formatDeadline } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import { panel } from '@/components/ui';
+import type { Stillness } from '@/lib/uitate';
+import { StuckBand } from '@/components/camera/StuckNote';
 
 type State = 'done' | 'now' | 'next';
 export type RouteStep = { label: string; detail: string };
@@ -13,9 +15,10 @@ const isoFromSenat = (d?: string) => (d ? d.split('-').reverse().join('-') : nul
 /**
  * Unde e proiectul pe drumul lui prin Parlament. Toate proiectele din consultarea Senatului au Senatul ca primă cameră,
  * deci Camera Deputaților decide la final. Etapa curentă vine din termenul consultării și din stadiul oficial al Senatului;
- * nu inventăm date viitoare.
+ * nu inventăm date viitoare. Ajuns la Cameră și fără niciun pas acolo de peste șase luni (`still`, din fișa Camerei),
+ * primește aceeași bandă ca pagina proiectului de la Cameră.
  */
-export default function BillRoute({ bill }: { bill: EnrichedBill }) {
+export default function BillRoute({ bill, still = null }: { bill: EnrichedBill; still?: Stillness | null }) {
   const open = bill.daysRemaining >= 0;
   const registered = isoFromSenat(bill.timeline.find((t) => /Înregistrat la Senat/i.test(t.action))?.date);
   const senateDone = /adoptat|respins|trimis la camer/i.test(bill.stage);
@@ -53,6 +56,7 @@ export default function BillRoute({ bill }: { bill: EnrichedBill }) {
         <p className="text-sm text-muted">Stadiul oficial la Senat: {bill.stage}</p>
       </div>
       <RouteSteps steps={steps} now={now} />
+      {still && <StuckBand still={still} />}
       <p className="mt-6 border-t border-line pt-4 text-sm leading-6 text-body">
         Senatul votează primul, iar {decisional} decide la final.
         {fromDeputies && ' Propunerea vine de la deputați, care au depus-o la Cameră și au trimis-o întâi la Senat.'}

@@ -11,6 +11,7 @@ import { getJournal } from '@/lib/jurnal';
 export const metadata: Metadata = {
   title: 'Ce e nou',
   description: 'Ce am adăugat, schimbat și corectat pe destrajă.ro, pe înțelesul tuturor, cel mai nou întâi.',
+  openGraph: { title: 'Ce e nou · destrajă.ro', description: 'Ce am adăugat, schimbat și corectat pe destrajă.ro, pe înțelesul tuturor, cel mai nou întâi.' },
 };
 
 // Etichete neutre: roșul, galbenul și verdele înseamnă riscul unui proiect, nu felul schimbării.

@@ -12,6 +12,7 @@ lângă API-ul de căutare, public doar prin tunelul Cloudflare `destraja-search
 | `lib/data.mjs` | o generație: `meta.sqlite` și fragmentele de texte, deschise `readOnly` + `immutable=1` |
 | `lib/render.mjs` | paginile HTML din `template.html` (șablonul site-ului); reguli de afișare fail-closed (contract §3.4) |
 | `lib/api.mjs`, `lib/cite.mjs`, `lib/norm.mjs` | căutarea și API-ul JSON (contract §10) |
+| `lib/og.mjs`, `lib/og-font.mjs` | imaginile de previzualizare (`/<act>/imagine.png`, `/imagine.png`): SVG cu rândurile rupte după lățimile fonturilor site-ului, desenat de `bin/resvg` (în versiune), cache pe disc în `$STATE_DIRECTORY/og-cache`; fără binar, paginile trimit spre imaginea de rezervă de pe destraja.ro |
 | `lib/golden.mjs` | cazurile golden rulate la activarea datelor (contract §7.1) |
 | `tools/build-fixture.mjs` | o generație de test din eșantioanele NAS-ului (`test/samples`) |
 | `tools/template.mjs` | `out/acte-shell.html` (pagina Next `src/app/acte-shell`) → `template.html` + CSS și fonturi |
@@ -32,7 +33,7 @@ acte-server/vm/setup-vm.sh                                    # (re)instalează 
 acte-server/vm/tunnel.sh                                      # regula din tunel și DNS-ul (tokenul din .env)
 ```
 
-Opțiuni ale versiunii: `--launch` (indexare și sitemap; până la porțile de lansare totul e `noindex`), `--reports`
+Opțiuni ale versiunii: `--no-og` (fără imaginile de previzualizare: pachetul iese fără `bin/resvg`), `--launch` (indexare și sitemap; până la porțile de lansare totul e `noindex`), `--reports`
 (formularul de raportare; doar după ce `/api/report/act` și migrația 0008 sunt publicate), `--if-changed` (folosit de
 rularea zilnică). Rularea zilnică (`scripts/straja-daily.mjs`) face pasul doar dacă există `.cache/acte-release`,
 cu opțiunile din el.

@@ -60,7 +60,7 @@ function Aviz({ committee, doc, sheetUrl, billId }: { committee: string; doc: Co
         </a>
         {doc?.verdictQuote && (
           <details className="group">
-            <summary className="inline-flex min-h-8 cursor-pointer list-none items-center gap-0.5 font-semibold text-link underline decoration-1 underline-offset-4 hover:decoration-2 [&::-webkit-details-marker]:hidden">
+            <summary className="inline-flex min-h-11 cursor-pointer sm:min-h-8 list-none items-center gap-0.5 font-semibold text-link underline decoration-1 underline-offset-4 hover:decoration-2 [&::-webkit-details-marker]:hidden">
               Ce scrie în aviz
               <ChevronDown className="h-3.5 w-3.5 transition-transform group-open:rotate-180" aria-hidden />
             </summary>

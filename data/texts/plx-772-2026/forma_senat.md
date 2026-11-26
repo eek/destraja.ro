@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru completarea Ordonanței de urgență a Guvernului nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- După articolul 52 din Ordonanța de urgență a Guvernului nr.57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice, publicată în Monitorul Oficial al României, Partea I, nr. 442 din 29 iunie 2007, aprobată cu modificări și completări prin Legea nr.49/2011, cu modificările și completările ulterioare, se introduce un nou articol, art.52¹, cu următorul cuprins:
+
+„Art.52¹.- Nu constituie infracțiune fapta persoanei de rănire sau ucidere a unui animal ca reacție la atacul acestuia.”
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 16 noiembrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+MIHAI COTEȚ,

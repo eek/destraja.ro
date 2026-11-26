@@ -21,6 +21,8 @@ import { BillHeaderStatus, FreshnessStatus } from '@/components/bills/BillHeader
 import { dayDiff, shortCommittee, shortDate } from '@/lib/cdep-text';
 import { resolveStatus } from '@/lib/bill-status';
 import BillStatusCard from '@/components/camera/BillStatusCard';
+import { StuckLine } from '@/components/camera/StuckNote';
+import { stillness } from '@/lib/uitate';
 import MoPublication from '@/components/mo/MoPublication';
 import { getMoLaw } from '@/lib/mo';
 import { RISK } from '@/lib/risk';
@@ -115,6 +117,8 @@ export default async function CameraBillPage({ params }: PageProps) {
   const mo = await getMoLaw(slug);
   const status = mo && (resolved.key === 'lege' || resolved.key === 'promulgat') ? { ...resolved, nextLabel: null, next: null } : resolved;
   const stage = status.stage;
+  // Fără niciun pas procedural de peste șase luni, cu aceeași socoteală ca /uitate: rândul din cap și banda din card.
+  const still = stillness(bill, builtOn, resolved);
   const atChamber = ['comisii', 'raport', 'plen', 'altele'].includes(stage);
   // Proiectele din anii trecuți încă în dezbatere (scripts/straja-cdep-vechi.mjs): anul înregistrării se vede lângă număr.
   const year = registeredYear(bill);
@@ -221,15 +225,16 @@ export default async function CameraBillPage({ params }: PageProps) {
                 {older && ` · înregistrat în ${year}`}
               </span>
             </div>
-            {/* Starea proiectului, sub insignă: prospețimea analizei; alte rânduri (de exemplu ramura limbo) intră alături. */}
-            {analysis && (
+            {/* Starea proiectului, sub insignă: întâi „niciun pas din …” (StuckLine), apoi prospețimea analizei. */}
+            {(still || analysis) && (
               <BillHeaderStatus>
-                <FreshnessStatus analysis={analysis} fresh={fresh} has={{ versions: Boolean(versions), balance: Boolean(balance) }} />
+                {still && <StuckLine still={still} href="#unde-e-acum" />}
+                {analysis && <FreshnessStatus analysis={analysis} fresh={fresh} has={{ versions: Boolean(versions), balance: Boolean(balance) }} />}
               </BillHeaderStatus>
             )}
             {analysis && <ScoreTrajectory analysis={analysis} versions={versions} opinions={avizeOpinions(avize?.documents ?? [])} />}
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
-            {c && <p className="mt-4 text-lg leading-8 text-ink">{c.summaryTlDr}</p>}
+            {c && <p className="mt-4 text-[17px] leading-7 text-ink sm:text-lg sm:leading-8">{c.summaryTlDr}</p>}
             {c && <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.titlu}</p>}
             {related.length > 0 && (
               <div className="mt-2">
@@ -274,7 +279,7 @@ export default async function CameraBillPage({ params }: PageProps) {
           </div>
         </header>
 
-        <BillStatusCard status={status} readAt={bill.cititLa} builtOn={builtOn} />
+        <BillStatusCard status={status} readAt={bill.cititLa} builtOn={builtOn} still={still} />
         {mo && <MoPublication law={mo.law} readOn={mo.readOn} />}
 
         {f.consultare && (

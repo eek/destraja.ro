@@ -1,9 +1,10 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { BillAnalysis, EnrichedBill } from './types';
-import { getAllBills, getBillBySlug } from './bills';
+import { getAllBills, getBillBySlug, getDataSyncedAt } from './bills';
 import { getCdepAnalysis, getCdepBill, getCdepIndex, getCommittees, type CdepBill, type CdepRow } from './cdep';
 import { resolveStatus } from './bill-status';
+import { AT_CHAMBER_STAGES, daysBetween, lastProceduralStep } from './uitate';
 import { CONTENT_LICENSE, SITE_URL } from './site';
 import { todayISO } from './format';
 import { isStale, staleness } from './fresh';
@@ -61,7 +62,19 @@ export interface BillDossier extends BillSummary {
   schema_version: string;
   title_official: string;
   official_url: string;
-  status_detail: { title: string; detail: string | null; next: string | null; note: string | null; overdue: string | null; source: 'senat.ro' | 'cdep.ro' };
+  status_detail: {
+    title: string;
+    detail: string | null;
+    next: string | null;
+    note: string | null;
+    overdue: string | null;
+    source: 'senat.ro' | 'cdep.ro';
+    /** Ultimul pas procedural la Cameră (ca pe /uitate: avizele, termenele și ordinea de zi nu sunt pași), cât e acolo în dezbatere. */
+    last_step_on: string | null;
+    days_since_last_step: number | null;
+    /** Ziua în care am citit ultima dată fișa din `source` (YYYY-MM-DD). */
+    last_checked: string | null;
+  };
   analysis: {
     /** Analiza e generată cu AI: dată de citit, nu verdict juridic. */
     source_kind: 'ai_analysis';
@@ -388,14 +401,30 @@ async function senateDossier(b: EnrichedBill, today: string): Promise<BillDossie
     title_official: b.officialTitle,
     official_url: chamber?.row.url ?? b.sheetUrl,
     status_detail: st
-      ? { title: st.title, detail: st.detail, next: st.next, note: st.note, overdue: st.overdue, source: 'cdep.ro' }
-      : { title: stage.status, detail: `Stadiul oficial la Senat: ${b.stage}`, next: null, note: null, overdue: null, source: 'senat.ro' },
+      ? { title: st.title, detail: st.detail, next: st.next, note: st.note, overdue: st.overdue, source: 'cdep.ro', ...chamberStillness(chamber!.bill, st, today) }
+      : {
+          title: stage.status,
+          detail: `Stadiul oficial la Senat: ${b.stage}`,
+          next: null,
+          note: null,
+          overdue: null,
+          source: 'senat.ro',
+          last_step_on: null,
+          days_since_last_step: null,
+          last_checked: (await getDataSyncedAt())?.slice(0, 10) ?? null,
+        },
     analysis,
     submission: { window: stage.window, how: stage.guidance, recipients, ...(stage.in_debate ? formFields(b.analysis, analysis, outdated) : NO_FORM), memo_url: stage.in_debate ? await memoUrl(b.id) : null },
     links: { page: s.url, official: chamber?.row.url ?? b.sheetUrl, senate: b.sheetUrl, chamber: chamber?.row.url ?? null },
     licence: LICENCE,
     built_at: builtAt,
   };
+}
+
+/** Câmpurile de prospețime din status_detail pentru o fișă a Camerei: ultimul pas (doar cât e la Cameră) și citirea fișei. */
+function chamberStillness(bill: CdepBill, st: ReturnType<typeof resolveStatus>, today: string) {
+  const last = AT_CHAMBER_STAGES.includes(st.stage) ? lastProceduralStep(bill.fisa.timeline, bill.inregistrat) : null;
+  return { last_step_on: last?.date ?? null, days_since_last_step: last ? daysBetween(last.date, today) : null, last_checked: bill.cititLa.slice(0, 10) };
 }
 
 // ─── Camera Deputaților ──────────────────────────────────────────────────────────────────────────────────────────
@@ -434,7 +463,7 @@ async function chamberDossier(bill: CdepBill, a: BillAnalysis | null, today: str
     schema_version: SCHEMA_VERSION,
     title_official: bill.titlu,
     official_url: bill.url,
-    status_detail: { title: st.title, detail: st.detail, next: st.next, note: st.note, overdue: st.overdue, source: 'cdep.ro' },
+    status_detail: { title: st.title, detail: st.detail, next: st.next, note: st.note, overdue: st.overdue, source: 'cdep.ro', ...chamberStillness(bill, st, today) },
     analysis,
     submission: {
       window: stage.window,

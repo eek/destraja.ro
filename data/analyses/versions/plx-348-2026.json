@@ -1,0 +1,140 @@
+{
+  "slug": "plx-348-2026",
+  "billId": "PL-x 348/2026",
+  "updatedAt": "2026-11-26T10:37:30.405Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L194FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Buton de retragere online, reguli noi la credite și asigurări încheiate la distanță și interdicția greenwashing-ului",
+      "summaryTlDr": "Este o transpunere în mare parte fidelă a două directive UE favorabile consumatorilor: buton obligatoriu de retragere online, protecție la serviciile financiare vândute la distanță și interzicerea afirmațiilor ecologice false. Riscurile reale vin din redactare neglijentă, inclusiv în texte sancționate contravențional, și din amenzi modeste pentru sectorul financiar.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/40/8/se382.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Buton obligatoriu de retragere online, reguli noi pentru credite și asigurări cumpărate la distanță și interdicția „spălării verzi” în reclame",
+      "summaryTlDr": "Este o transpunere tehnică, în mare parte fidelă, a două directive UE favorabile consumatorilor, și se aplică deja: OUG e în vigoare din martie 2026. Riscul real vine din redactarea neglijentă, din amenzile mici pentru instituțiile financiare și din motivarea copiată din alte acte, nu din capcane ascunse.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat tacit ordonanța fără modificări; s-a schimbat doar textul legii de aprobare",
+      "summary": "Senatul nu a schimbat nimic de fond: ordonanța a fost aprobată tacit, în forma inițială, prin depășirea termenului. Diferențele sunt doar de formă, în titlu și în legea de aprobare, deci riscurile și beneficiile au rămas aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Interdicția de dark patterns are text trunchiat, deși fapta se amendează",
+            "major": true,
+            "article": "art. 16^5 lit. a) din OUG 34/2014"
+          },
+          {
+            "text": "Excepția privind consumatorul neinformat nu spune explicit ce efect are",
+            "major": true,
+            "article": "art. 16^2 alin. (3) din OUG 34/2014"
+          },
+          {
+            "text": "La vânzarea prin telefon, înainte de contract se dau doar 5 categorii de informații",
+            "major": true,
+            "article": "art. 16^1 alin. (4)–(6) din OUG 34/2014"
+          },
+          {
+            "text": "Amenzile la serviciile financiare sunt sub plafonul general pentru informarea precontractuală",
+            "major": true,
+            "article": "art. 28 alin. (5) lit. aa)–ee) din OUG 34/2014"
+          },
+          {
+            "text": "Firmele, inclusiv IMM-urile, trebuie să-și reeticheteze produsele și să-și revadă marketingul",
+            "major": true,
+            "article": "Anexa 1 pct. 28–39 la Legea 363/2007"
+          },
+          {
+            "text": "Nota de fundamentare contrazice textul privind informarea la vânzarea telefonică",
+            "major": false,
+            "article": "art. 16^1 alin. (4)–(6) din OUG 34/2014"
+          },
+          {
+            "text": "Adoptat tacit de Senat, fără dezbatere și fără amendamente",
+            "major": false,
+            "article": "art. 115 alin. (5) din Constituție"
+          }
+        ],
+        "good": [
+          {
+            "text": "Funcție de retragere online obligatorie pentru toate contractele încheiate pe internet",
+            "major": true,
+            "article": "art. 11^1 din OUG 34/2014"
+          },
+          {
+            "text": "Amendă de 5.000–15.000 lei dacă lipsește funcția de retragere",
+            "major": true,
+            "article": "art. 28 alin. (5) lit. z) din OUG 34/2014"
+          },
+          {
+            "text": "Retragere în 14 zile la servicii financiare, 30 la pensii personale",
+            "major": true,
+            "article": "art. 16^2 din OUG 34/2014"
+          },
+          {
+            "text": "Termenul se prelungește la 12 luni și 14 zile fără informare",
+            "major": true,
+            "article": "art. 16^2 din OUG 34/2014"
+          },
+          {
+            "text": "Nicio plată la retragerea dintr-un contract de asigurare",
+            "major": true,
+            "article": "art. 16^3 alin. (3) din OUG 34/2014"
+          },
+          {
+            "text": "Interzise etichetele eco necertificate și neutralitatea climatică bazată pe compensări",
+            "major": true,
+            "article": "Anexa 1 pct. 28–39 la Legea 363/2007"
+          },
+          {
+            "text": "Confirmarea retragerii vine pe suport durabil, cu data și ora",
+            "major": false,
+            "article": "art. 11^1 din OUG 34/2014"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-26T10:37:30.405Z"
+    }
+  ]
+}

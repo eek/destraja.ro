@@ -2,104 +2,95 @@
   "slug": "b549-2026",
   "billId": "B549/2026",
   "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-03T07:32:43.584Z",
-  "inputHash": "ab54336bc33e",
-  "riskScore": 2,
-  "summary": "O lege bună și utilă pentru cei care au muncit și în străinătate, cu câteva neclarități ușor de corectat.",
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-26T11:31:08.284Z",
+  "inputHash": "2867d2a56a15",
+  "riskScore": 2.3,
+  "summary": "O lege utilă pentru românii care au muncit în străinătate, dar cu câteva scăpări tehnice și termene necorelate ușor de corectat.",
   "good": [
     {
-      "text": "Casa de pensii trebuie să dea o decizie provizorie și să plătească pensia pe baza actelor deja existente, fără să aștepte toate formularele din alte state.",
-      "article": "art. I pct. 1 – art. 93 alin. (1²)",
-      "quote": "casa teritorială de pensii competentă emite o decizie provizorie de admitere și dispune plata drepturilor la pensie astfel stabilite",
+      "text": "Obligă casele de pensii să emită decizii provizorii și să plătească pensia calculabilă din actele existente, ca românii care au muncit în străinătate să nu aștepte ani fără bani.",
+      "article": "art. I pct. 1 (art. 93 alin. (1²))",
+      "quote": "casa teritorială de pensii competentă emite o decizie provizorie de admitere și dispune plata drepturilor la pensie astfel stabilite, ce va avea caracter provizoriu, fără a aștepta primirea tuturor documentelor solicitate instituțiilor competente.",
       "weight": 3
     },
     {
-      "text": "Fixează un termen clar de 45 de zile pentru decizia finală după ce sosesc actele din străinătate. Acoperă și pe cei care locuiesc în România, nu doar diaspora.",
-      "article": "art. I pct. 1 – art. 93 alin. (1¹)",
+      "text": "Fixează un termen clar de 45 de zile de la primirea tuturor actelor din străinătate, astfel încât dosarele complete să nu mai fie ținute pe loc la casele de pensii.",
+      "article": "art. I pct. 1 (art. 93 alin. (1¹))",
       "quote": "decizia de admitere sau de respingere a cererii se emite în termen de 45 de zile de la data primirii de către casa teritorială de pensii competentă a tuturor informațiilor și documentelor necesare",
-      "weight": 3
-    },
-    {
-      "text": "Casele de pensii sunt obligate să insiste periodic la instituțiile străine până primesc actele. Asta reduce dosarele uitate în sertar.",
-      "article": "art. I pct. 4 – art. 124 lit. e¹)",
-      "quote": "asigură, cu respectarea termenelor și periodicității stabilite prin acestea, reiterarea solicitărilor adresate instituțiilor competente din alte state, până la primirea informațiilor și documentelor necesare stabilirii drepturilor de pensie",
       "weight": 2
     },
     {
-      "text": "Casa Națională trebuie să facă reguli comune ca toate casele județene să trateze la fel aceste dosare. Astăzi unele dau decizii provizorii, altele nu.",
-      "article": "art. I pct. 3 – art. 123 lit. k¹)",
-      "quote": "elaborază proceduri pentru aplicarea unitară de către casele territoriale de pensii a prevederilor instrumentelor juridice cu caracter internațional la care România este parte",
+      "text": "Obligă CNPP să facă reguli unitare și casele de pensii să revină periodic cu cereri către instituțiile străine, până când primesc actele necesare stabilirii pensiei.",
+      "article": "art. I pct. 3–4 (art. 123 lit. k¹ și art. 124 lit. e¹)",
+      "quote": "asigură, cu respectarea termenelor și periodicității stabilite prin acestea, reiterarea solicitărilor adresate instituțiilor competente din alte state, până la primirea informațiilor și documentelor necesare stabilirii drepturilor de pensie;",
       "weight": 2
     },
     {
-      "text": "Când vin toate actele, pensia se recalculează. Omul primește astfel suma corectă pentru toată perioada muncită.",
-      "article": "art. I pct. 1 – art. 93 alin. (1²)",
-      "quote": "La primirea tuturor documentelor justificative necesare, acestea se recalculează și se emite decizia potrivit alin. (1).",
-      "weight": 2
-    },
-    {
-      "text": "Procedura de aplicare trebuie emisă în 30 de zile, deci legea nu rămâne blocată pe termen lung din lipsa normelor.",
+      "text": "Stabilește un termen scurt de 30 de zile pentru ca șeful CNPP să emită procedura unitară, prevenind amânarea aplicării legii după intrarea în vigoare.",
       "article": "art. II",
-      "quote": "în termen de 30 zile de la intrarea în vigoare a prezentei legi, președintele Casei Naționale de Pensii Publice emite ordinul",
+      "quote": "în termen de 30 zile de la intrarea în vigoare a prezentei legi, președintele Casei Naționale de Pensii Publice emite ordinul privind procedura pentru aplicarea unitară",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Nu există niciun termen pentru decizia provizorie. Nici condiția „poate fi stabilit dreptul” nu e clară, așa că casa poate tot amâna plata; textul nu spune „imediat”.",
-      "article": "art. I pct. 1 – art. 93 alin. (1²)",
-      "quote": "iar pe baza documentelor existente la dosar poate fi stabilit dreptul la pensie",
-      "weight": 3
-    },
-    {
-      "text": "Termenul de 45 de zile curge abia după ce sosesc toate actele din străinătate. Nu există o limită pentru durata totală, deci dosarul poate dura ani.",
-      "article": "art. I pct. 1 – art. 93 alin. (1¹)",
-      "quote": "solicitate instituțiilor competente ale statului/statelor indicat/indicate de solicitant în cererea de pensionare",
+      "text": "Obligă casele de pensii să emită decizia provizorie și să plătească pensia, dar nu pune niciun termen maxim pentru asta, lăsând loc întârzierilor.",
+      "article": "art. I pct. 1 (art. 93 alin. (1²))",
+      "quote": "casa teritorială de pensii competentă emite o decizie provizorie de admitere și dispune plata drepturilor la pensie astfel stabilite, ce va avea caracter provizoriu, fără a aștepta primirea tuturor documentelor solicitate instituțiilor competente.",
       "weight": 2
     },
     {
-      "text": "Legea nu spune ce se întâmplă dacă pensia provizorie a fost prea mare. Pensionarul poate ajunge să datoreze bani înapoi, fără reguli de protecție.",
-      "article": "art. I pct. 1 – art. 93 alin. (1²)",
-      "quote": "ce va avea caracter provizoriu, fără a aștepta primirea tuturor documentelor solicitate instituțiilor competente",
+      "text": "Trimite decizia finală la termenul din alin. (1), deja expirat când sosesc actele străine, în loc de alin. (1¹), și folosește formularea neclară «acestea se recalculează».",
+      "article": "art. I pct. 1 (art. 93 alin. (1²))",
+      "quote": "La primirea tuturor documentelor justificative necesare, acestea se recalculează și se emite decizia potrivit alin. (1).",
       "weight": 2
     },
     {
-      "text": "Prelungirea cu încă 30 de zile este permisă pentru „operațiuni suplimentare”, o formulare vagă care poate deveni regulă, nu excepție.",
-      "article": "art. I pct. 2 – art. 93 alin. (3)",
-      "quote": "precum și în situația în care, pentru soluționarea cererii, sunt necesare documente și/sau operațiuni suplimentare",
-      "weight": 1
+      "text": "Permite prelungirea cu 30 de zile și după primirea tuturor actelor din străinătate, invocând documente suplimentare, ceea ce poate duce așteptarea la 75 de zile.",
+      "article": "art. I pct. 2 (art. 93 alin. (3))",
+      "quote": "Termenul prevăzut la alin. (1) și alin. (1¹) poate fi prelungit cu 30 de zile",
+      "weight": 2
     },
     {
-      "text": "Noul alineat acoperă toate cererile cu stagiu în străinătate și se suprapune cu alin. (2) existent, pentru cei din diaspora. Nu e clar care termen se aplică.",
-      "article": "art. I pct. 1 – art. 93 alin. (1¹)",
+      "text": "Formularea generală nu exclude expres cererile depuse din străinătate prevăzute la alin. (2), creând neclaritate despre care dintre cele două reguli se aplică.",
+      "article": "art. I pct. 1 (art. 93 alin. (1¹))",
       "quote": "În aplicarea instrumentelor juridice cu caracter internațional la care România este parte, în cazul cererilor de pensionare pentru a căror soluționare este necesară valorificarea perioadelor de asigurare realizate în alte state",
+      "weight": 2
+    },
+    {
+      "text": "Termenul de 45 de zile curge abia după primirea tuturor actelor străine, fără un plafon maxim de așteptare, deci dosarul poate rămâne blocat pe termen nedefinit.",
+      "article": "art. I pct. 1 (art. 93 alin. (1¹))",
+      "quote": "decizia de admitere sau de respingere a cererii se emite în termen de 45 de zile de la data primirii de către casa teritorială de pensii competentă a tuturor informațiilor și documentelor necesare",
       "weight": 1
     },
     {
-      "text": "Cât de des se insistă la instituțiile străine nu e scris în lege. Hotărăște Casa Națională prin ordin, iar nerespectarea nu are nicio sancțiune.",
-      "article": "art. I pct. 3 – art. 123 lit. k¹)",
-      "quote": "prin care se stabilesc termenele și periodicitatea reiterării solicitărilor adresate instituțiilor competente din alte state",
+      "text": "Nu prevede expres publicarea în Monitorul Oficial a ordinului CNPP cu termenele de revenire către instituțiile străine, reducând transparența față de solicitanți.",
+      "article": "art. II",
+      "quote": "președintele Casei Naționale de Pensii Publice emite ordinul privind procedura pentru aplicarea unitară de către casele territoriale de pensii a prevederilor instrumentelor juridice cu caracter internațional la care România este parte.",
       "weight": 1
     },
     {
-      "text": "Textul are greșeli de redactare („territoriale”, „elaborază”) care trebuie corectate înainte de adoptare.",
+      "text": "Conține greșeli de scriere («elaborază», «casele territoriale») care trebuie corectate înainte de adoptare pentru rigoarea textului de lege.",
       "article": "art. I pct. 3 și art. II",
-      "quote": null,
+      "quote": "elaborază proceduri pentru aplicarea unitară de către casele territoriale de pensii a prevederilor instrumentelor juridice cu caracter internațional la care România este parte",
       "weight": 1
     }
   ],
   "fix": {
-    "text": "Introdus un termen scurt (de ex. 45 de zile de la cerere) pentru decizia provizorie și reguli care să protejeze pensionarul de restituiri dacă suma provizorie a fost greșită.",
+    "text": "Fixarea unui termen pentru decizia provizorie, corectarea trimiterii și formulării din alin. (1²), delimitarea față de alin. (2) și eliminarea prelungirii de 30 de zile pentru dosarele deja complete ar rezolva principalele probleme ale proiectului.",
     "removes": [
       0,
-      2
+      1,
+      2,
+      3
     ],
     "levelAfter": "green",
-    "scoreAfter": 1.5
+    "scoreAfter": 0.8
   },
   "quotes": {
-    "checked": 12,
-    "verified": 12
+    "checked": 11,
+    "verified": 11
   }
 }

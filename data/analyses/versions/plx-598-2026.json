@@ -1,8 +1,30 @@
 {
   "slug": "plx-598-2026",
   "billId": "PL-x 598/2026",
-  "updatedAt": "2026-10-30T09:47:48.978Z",
+  "updatedAt": "2026-11-26T10:29:36.392Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L426FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Indemnizație de merit prin lege pentru campionii Steaua '86 și senatori/deputați de la sport în comisia care o acordă",
+      "summaryTlDr": "Este un gest simbolic cu cost bugetar mic, dar scris prost din punct de vedere juridic. Art. 4^2 acordă un beneficiu nominal unui grup închis, ocolind Comisia și criteriile ei. Așa creează un precedent de „indemnizații prin lege” pentru grupuri alese politic.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 4,
         "claude": 4,
         "codex": 4
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,42 +55,96 @@
         "agy": 3,
         "claude": 3,
         "codex": 3
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat neschimbată indemnizația de merit automată pentru echipa Steaua 1986",
+      "summary": "Forma adoptată de Senat diferă doar ca formă: antet, numerotare, diacritice și o greșeală de scriere corectată. Fondul rămâne același: indemnizația se acordă direct prin lege echipei Steaua din 1986, iar cine anume intră în această echipă tot nu este definit.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Personalitățile care au făcut parte din echipa” nu precizează rezerve, antrenori sau staff",
+            "major": true,
+            "article": "art. 4²"
+          },
+          {
+            "text": "Indemnizația se acordă automat, fără evaluarea și criteriile Comisiei naționale",
+            "major": true,
+            "article": "art. 4²"
+          },
+          {
+            "text": "Regim derogatoriu pentru un singur grup, fără corelare cu restul Legii 118/2002",
+            "major": true,
+            "article": "art. 4²"
+          },
+          {
+            "text": "Lipsesc estimarea impactului financiar și sursa de finanțare cerute de Constituție",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Denumiri depășite de ministere, necorelate cu structura actuală a Guvernului",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Costul bugetar este redus, beneficiarii fiind câteva zeci de persoane cel mult",
+            "major": false,
+            "article": "art. 4²"
+          },
+          {
+            "text": "Comisia păstrează în componență președinții comisiilor de sport din Parlament",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Greșeala de scriere „uniunilor de creatorii” a fost corectată",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 6,
+        "same": 0.33
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-26T10:28:55.223Z"
+    },
+    {
       "from": "senat",
       "to": "camera",
       "direction": "mai_putin_riscant",
-      "headline": "Indemnizația de merit nu mai vizează doar Steaua 1986, ci orice echipă românească campioană europeană",
-      "summary": "Inițial, legea dădea automat indemnizația echipei Steaua 1986. Acum se aplică tuturor sportivilor din echipe românești câștigătoare de trofee europene, cu atestare de la federație și în condițiile legii. Regula e mai clară, dar cercul beneficiarilor e mult mai larg.",
+      "headline": "Indemnizația de merit: de la echipa Steaua 1986 la orice club românesc câștigător de trofeu european",
+      "summary": "Inițial, indemnizația mergea automat la membrii echipei Steaua din 1986. Acum o pot primi sportivii oricărui club românesc care a câștigat un trofeu european, în orice sport de echipă, după atestarea federației. Comisia folosește denumiri actualizate.",
       "changes": [
         {
-          "title": "Indemnizație pentru orice echipă campioană europeană",
-          "text": "Art. 4² nu mai numește doar Steaua 1986. Acoperă orice club românesc câștigător al Cupei/Ligii Campionilor sau al Supercupei Europei, în orice sport de echipă și din orice an.",
+          "title": "Indemnizația extinsă la toate cluburile câștigătoare europene",
+          "text": "Art. 4² nu mai numește doar Steaua 1986. Acoperă sportivii oricărui club din România câștigător al CCE, Ligii Campionilor sau Supercupei, în orice sport de echipă și an. Antrenorii și staff-ul rămân pe dinafară.",
           "effect": "neutru",
           "major": true,
           "article": "art. 4²",
           "before": "Indemnizația de merit se acordă personalităților care au făcut parte din echipa de fotbal Steaua București, câștigătoare a Cupei Campionilor Europeni în anul 1986.",
-          "after": "au contribuit la câștigarea Cupei Campionilor Europeni, a Ligii Campionilor Europeni sau a Supercupei Europei, în cadrul competițiilor oficiale intercluburi organize la nivel european pentru sporturile de echipă, indiferent de anul obținerii performanței.",
-          "beforeAbsent": false,
-          "afterAbsent": false
-        },
-        {
-          "title": "Doar sportivii primesc, nu și antrenorii",
-          "text": "Art. 4² înlocuiește vagul „personalități din echipă” cu „sportivii cetățeni români” componenți ai echipei. Antrenorii și staff-ul sunt excluși. Termenul „componenți” rămâne nedefinit.",
-          "effect": "neutru",
-          "major": true,
-          "article": "art. 4²",
-          "before": "personalităților care au făcut parte din echipa de fotbal Steaua București",
-          "after": "sportivii cetățeni români care, în calitate de componenți ai unor echipe de club din România",
+          "after": "Beneficiază de indemnizația de merit, în condițiile prezentei legi, sportivii cetățeni români care, în calitate de componenți ai unor echipe de club din România, au contribuit la câștigarea Cupei Campionilor Europeni, a Ligii Campionilor Europeni sau a Supercupei Europei",
           "beforeAbsent": false,
           "afterAbsent": false
         },
         {
           "title": "Indemnizația nu mai e acordată automat",
-          "text": "Art. 4² trece de la „se acordă” la „beneficiază, în condițiile prezentei legi”. Nu mai e un drept automat, dar textul nu spune clar dacă e un drept, se acordă la cerere sau e doar o eligibilitate.",
+          "text": "Formula „se acordă” e înlocuită cu „beneficiază… în condițiile prezentei legi”. Dreptul e legat de regulile generale ale legii, dar rămâne neclar dacă e automat, la cerere sau doar o eligibilitate.",
           "effect": "mai_bine",
           "major": true,
           "article": "art. 4²",
@@ -76,8 +154,8 @@
           "afterAbsent": false
         },
         {
-          "title": "Federația confirmă cine a făcut parte din echipă",
-          "text": "Art. 4² introduce atestarea calității de component de către federația de specialitate, pe baza documentelor oficiale ale competiției sau clubului.",
+          "title": "Federația atestă cine a făcut parte din echipă",
+          "text": "Noul text din art. 4² cere ca federația de specialitate să ateste calitatea de component și performanța, pe baza documentelor oficiale ale competiției sau ale clubului.",
           "effect": "mai_bine",
           "major": false,
           "article": "art. 4²",
@@ -87,8 +165,8 @@
           "afterAbsent": false
         },
         {
-          "title": "Denumiri actualizate ale membrilor comisiei",
-          "text": "Art. 4 alin. (1) renunță la „ministrul culturii și cultelor” și numește explicit comisiile parlamentare. Componența rămâne practic aceeași.",
+          "title": "Comisia națională, cu denumiri actualizate",
+          "text": "Art. 4 alin. (1) enumeră membrii comisiei pe litere, cu numele exacte ale comisiilor parlamentare și ale ministerelor actuale. Înainte apăreau titulaturi depășite, precum „ministrul culturii și cultelor”.",
           "effect": "mai_bine",
           "major": false,
           "article": "art. 4 alin. (1)",
@@ -98,13 +176,24 @@
           "afterAbsent": false
         },
         {
+          "title": "Cine face propunerile anuale de indemnizație",
+          "text": "Art. 3 este rescris. Propunerile se fac anual și se trimit comisiei de Academia Română, Ministerul Culturii, Ministerul Educației și Cercetării și Agenția Națională pentru Sport.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 3",
+          "before": null,
+          "after": "„Art. 3. - Propunerile pentru acordarea indemnizației de merit se întocmesc anual și se înaintează pentru nominalizare Comisiei naționale pentru acordarea indemnizației de merit, de către:",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
           "title": "Termen de 45 de zile pentru normele de aplicare",
-          "text": "Art. II nou obligă la actualizarea normelor de aplicare și a regulamentului comisiei (HG 859/2003) în 45 de zile.",
+          "text": "Art. II nou obligă la actualizarea, în 45 de zile, a normelor de aplicare și a regulamentului comisiei aprobate prin HG nr. 859/2003.",
           "effect": "mai_bine",
           "major": false,
           "article": "art. II",
           "before": null,
-          "after": "În termen de 45 zile de la data intrării în vigoare a prezentei legi se actualizează în mod corespunzător normele de aplicare a Legii nr. 118/2002",
+          "after": "Art. II. - În termen de 45 zile de la data intrării în vigoare a prezentei legi se actualizează în mod corespunzător normele de aplicare a Legii nr. 118/2002 pentru instituirea indemnizației de merit",
           "beforeAbsent": true,
           "afterAbsent": false
         }
@@ -112,64 +201,59 @@
       "remaining": {
         "problems": [
           {
-            "text": "Textul acoperă orice sport și orice an, mult peste Steaua 1986 din motivare",
+            "text": "Beneficiarii sunt mult mai mulți decât cei din expunerea de motive (doar Steaua 1986)",
             "major": true,
             "article": "art. 4²"
           },
           {
-            "text": "Neclar dacă indemnizația e drept automat, la cerere sau doar eligibilitate",
+            "text": "Neclar dacă dreptul e automat, la cerere sau supus propunerii și nominalizării",
             "major": true,
             "article": "art. 4²"
           },
           {
-            "text": "„Componenți” nedefinit; pot primi și rezerve care n-au jucat niciun minut",
+            "text": "Termenul „componenți” e nedefinit și poate include rezerve care n-au jucat",
             "major": true,
             "article": "art. 4²"
           },
           {
-            "text": "Antrenorii și staff-ul tehnic sunt excluși de la indemnizație",
+            "text": "Antrenorii și staff-ul tehnic sunt excluși, legea vizând doar sportivii",
             "major": true,
             "article": "art. 4²"
           },
           {
-            "text": "Lipsește estimarea costului și sursa de finanțare, deși beneficiarii pot fi mai mulți",
-            "major": true,
-            "article": null
-          },
-          {
-            "text": "Șase parlamentari decid în comisie drepturi individuale plătite de la buget",
+            "text": "Șase parlamentari în comisia care decide drepturi individuale plătite de la buget",
             "major": false,
             "article": "art. 4 alin. (1)"
           }
         ],
         "good": [
           {
-            "text": "Regula e generală, nu mai favorizează nominal o singură echipă",
+            "text": "Criteriu general, nu nominal: tratament egal pentru toate cluburile câștigătoare",
             "major": true,
             "article": "art. 4²"
           },
           {
-            "text": "Dreptul se acordă „în condițiile prezentei legi”, nu necondiționat",
+            "text": "Dreptul e acordat „în condițiile prezentei legi”, nu necondiționat",
+            "major": true,
+            "article": "art. 4²"
+          },
+          {
+            "text": "Performanța și calitatea de component se atestă oficial de federație",
             "major": false,
             "article": "art. 4²"
           },
           {
-            "text": "Federația atestă componența echipei pe baza documentelor oficiale",
-            "major": false,
-            "article": "art. 4²"
-          },
-          {
-            "text": "Propunerile se fac anual de Academie, ministere și Agenția pentru Sport",
-            "major": false,
-            "article": "art. 3"
-          },
-          {
-            "text": "Denumirile instituțiilor din comisie sunt actualizate",
+            "text": "Denumirile ministerelor și comisiilor sunt corelate cu structura actuală",
             "major": false,
             "article": "art. 4 alin. (1)"
           },
           {
-            "text": "Normele de aplicare trebuie actualizate în 45 de zile",
+            "text": "Propunerile anuale vin de la instituții clar enumerate",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Termen clar de 45 de zile pentru actualizarea normelor de aplicare",
             "major": false,
             "article": "art. II"
           }
@@ -177,13 +261,13 @@
         "partial": false
       },
       "diff": {
-        "added": 25,
-        "removed": 5,
-        "same": 0.07
+        "added": 27,
+        "removed": 6,
+        "same": 0.1
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:46:15.116Z"
+      "schema": 4,
+      "updatedAt": "2026-11-26T10:29:36.391Z"
     }
   ]
 }

@@ -5,9 +5,10 @@ import { isStale, type Staleness } from '@/lib/fresh';
 
 // Rândurile de stare din antetul unui proiect (/legi/[slug] și /camera/[slug]), sub insigna de risc, deasupra
 // titlului: se văd pe un telefon de 390 px fără derulare. Fiecare rând e un copil: prospețimea analizei
-// (FreshnessStatus) și, alături, alte semnale despre proiect (de exemplu „niciun pas din …”, ramura limbo).
+// (FreshnessStatus) și, alături, alte semnale despre proiect (StuckLine, „niciun pas din …”, src/components/camera/StuckNote.tsx, care vine primul).
 export function BillHeaderStatus({ children }: { children: ReactNode }) {
-  return <div className="mt-3 flex flex-col gap-1.5 text-[13.5px] leading-5">{children}</div>;
+  // [&>*]:mt-0: rândurile își aduc marginea lor (StuckLine are mt-3); aici distanța o dă gap.
+  return <div className="mt-3 flex flex-col gap-1 text-sm leading-6 [&>*]:mt-0">{children}</div>;
 }
 
 type Analysis = { updatedAt: string; coverage?: { method?: string }; baseline?: { included?: boolean } };
@@ -29,8 +30,8 @@ export function FreshnessStatus({ analysis, fresh, has }: { analysis: Analysis; 
   const day = formatDateRo(analysis.updatedAt);
   if (isStale(fresh.analysis)) {
     return (
-      <p className="flex items-start gap-1.5 font-semibold text-ink">
-        <RefreshCw className="mt-0.5 h-4 w-4 shrink-0 text-risk-amber-text" aria-hidden />
+      <p className="flex items-start gap-2 font-semibold text-ink">
+        <RefreshCw className="mt-1 h-4 w-4 shrink-0 text-risk-amber-text" aria-hidden />
         <span>
           Analiza din {day} se reface: legea modificată sau textul proiectului s-au schimbat de atunci.{' '}
           <a href="#modele" className="font-normal text-link underline underline-offset-4">
@@ -43,8 +44,8 @@ export function FreshnessStatus({ analysis, fresh, has }: { analysis: Analysis; 
   const parts = staleParts(fresh, has);
   if (parts.length) {
     return (
-      <p className="flex items-start gap-1.5 text-body">
-        <RefreshCw className="mt-0.5 h-4 w-4 shrink-0 text-muted" aria-hidden />
+      <p className="flex items-start gap-2 text-body">
+        <RefreshCw className="mt-1 h-4 w-4 shrink-0 text-muted" aria-hidden />
         <span>
           <span className="font-semibold text-ink">Se actualizează:</span>{' '}
           {parts.map((p, i) => (
@@ -63,8 +64,8 @@ export function FreshnessStatus({ analysis, fresh, has }: { analysis: Analysis; 
   const whole = analysis.coverage?.method === 'whole-text-v1';
   const law = analysis.baseline?.included === true;
   return (
-    <p className="flex items-start gap-1.5 text-muted">
-      <CircleCheck className="mt-0.5 h-4 w-4 shrink-0 text-risk-green-text" aria-hidden />
+    <p className="flex items-start gap-2 text-muted">
+      <CircleCheck className="mt-1 h-4 w-4 shrink-0 text-risk-green-text" aria-hidden />
       <span>
         Analizat pe {day}
         {whole ? (law ? ', cu tot textul și legea în vigoare' : ', cu tot textul') : ''}

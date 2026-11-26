@@ -19,13 +19,19 @@ function Item({ item, kind }: { item: BalanceItem; kind: 'good' | 'bad' }) {
       )}
       <div className="min-w-0">
         <p className={`text-[15.5px] leading-relaxed text-ink ${item.weight === 3 ? 'font-semibold' : ''}`}>{item.text}</p>
-        {item.quote ? (
+        {item.quote || item.lawQuote ? (
           <details className="group mt-1">
             <summary className="inline-flex cursor-pointer list-none items-center gap-1 text-[13px] text-muted underline decoration-line-strong underline-offset-4 hover:text-ink [&::-webkit-details-marker]:hidden">
               {item.article ?? 'În text'} · <span className="group-open:hidden">ce scrie în lege</span>
               <span className="hidden group-open:inline">ascunde</span>
             </summary>
-            <blockquote className="mt-2 border-l-2 border-line-strong pl-3 text-sm leading-relaxed text-body">„{item.quote}”</blockquote>
+            {item.quote && <blockquote className="mt-2 border-l-2 border-line-strong pl-3 text-sm leading-relaxed text-body">„{item.quote}”</blockquote>}
+            {item.lawQuote && (
+              <div className="mt-2">
+                <p className="text-[12.5px] text-muted">Legea în vigoare acum:</p>
+                <blockquote className="mt-1 border-l-2 border-line pl-3 text-sm leading-relaxed text-muted">„{item.lawQuote}”</blockquote>
+              </div>
+            )}
           </details>
         ) : (
           item.article && <p className="mt-1 text-[13px] text-muted">{item.article}</p>

@@ -2,12 +2,13 @@
 
 import type { ReactNode } from 'react';
 import Link from 'next/link';
-import { AlertTriangle, ArrowRight, ExternalLink, Flame, Layers, X } from 'lucide-react';
+import { AlertTriangle, ArrowRight, ExternalLink, Flame, Layers } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { formatDateRo } from '@/lib/format';
 import { camps } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
 import { useAnchoredPopover } from '@/components/useAnchoredPopover';
+import { PopoverSheet } from '@/components/PopoverSheet';
 
 /** Eticheta e un buton; explicația se deschide lângă ea (pe telefon, ca o foaie jos) și se închide cu Esc sau click în afară. */
 function FlagInfo({ chip, chipCls, icon: Icon, billId, flag, title, children }: {
@@ -34,31 +35,9 @@ function FlagInfo({ chip, chipCls, icon: Icon, billId, flag, title, children }: 
         <Icon className="h-3.5 w-3.5" aria-hidden />
         {chip}
       </button>
-      <div
-        ref={pop}
-        id={id}
-        popover="auto"
-        role="dialog"
-        aria-labelledby={`${id}-t`}
-        className="fixed inset-auto m-0 max-h-[min(32rem,calc(100dvh-2rem))] w-[22rem] overflow-y-auto rounded-2xl border border-line bg-surface p-5 text-left text-sm leading-6 text-body shadow-[var(--shadow-lift)]"
-      >
-        <div className="flex items-start justify-between gap-3">
-          <p id={`${id}-t`} className="flex items-center gap-2 font-semibold text-ink">
-            <Icon className="h-4 w-4 shrink-0" aria-hidden />
-            {title}
-          </p>
-          <button
-            type="button"
-            popoverTarget={id}
-            popoverTargetAction="hide"
-            aria-label="Închide"
-            className="-m-1.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-muted hover:bg-sunken hover:text-ink"
-          >
-            <X className="h-4 w-4" aria-hidden />
-          </button>
-        </div>
-        <div className="mt-2 space-y-3">{children}</div>
-      </div>
+      <PopoverSheet id={id} pop={pop} title={title} icon={<Icon className="h-4 w-4 shrink-0" aria-hidden />}>
+        <div className="space-y-3">{children}</div>
+      </PopoverSheet>
     </li>
   );
 }
@@ -123,7 +102,7 @@ export function Flags({ bill, linkToBill = false }: { bill: BillLite; linkToBill
                 {ces.reasons.map((r) => (
                   <li key={r.quote}>
                     {r.text}
-                    <q className="mt-1 block text-xs italic leading-5 text-muted">{r.quote}</q>
+                    <q className="mt-1 block text-xs italic leading-5 text-muted max-sm:text-[13px]">{r.quote}</q>
                   </li>
                 ))}
               </ul>

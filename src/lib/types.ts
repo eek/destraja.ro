@@ -449,6 +449,8 @@ export interface BalanceItem {
   text: string;
   article: string | null;
   quote: string | null;
+  /** Fragment din textul în vigoare al legii modificate (de exemplu un alineat abrogat), verificat cuvânt cu cuvânt; din 26 noiembrie 2026. */
+  lawQuote?: string;
   /** 3 = esențial, 2 = important, 1 = mărunt. */
   weight: 1 | 2 | 3;
 }

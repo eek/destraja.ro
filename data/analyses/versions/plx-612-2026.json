@@ -1,8 +1,30 @@
 {
   "slug": "plx-612-2026",
   "billId": "PL-x 612/2026",
-  "updatedAt": "2026-10-30T09:48:10.014Z",
+  "updatedAt": "2026-11-26T10:31:19.417Z",
+  "plan": [
+    "initiator",
+    "senat",
+    "camera"
+  ],
   "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L564FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile mai primesc un an, până la 31 decembrie 2027, să semneze contractele «Anghel Saligny»",
+      "summaryTlDr": "Este o lege tehnică, de un singur articol, care mută un termen administrativ și nu creează obligații, taxe sau sancțiuni noi. Riscul real este politic-bugetar: prorogarea vine fără condiții, deci poate deveni prima dintr-un șir de amânări.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 2
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
     {
       "key": "senat",
       "label": "Forma adoptată de Senat",
@@ -16,7 +38,9 @@
         "agy": 3,
         "claude": 2,
         "codex": 2
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     },
     {
       "key": "camera",
@@ -31,26 +55,91 @@
         "agy": 2,
         "claude": 2,
         "codex": 2
-      }
+      },
+      "method": "first-14k",
+      "agyModel": "gemini-4-argon-high"
     }
   ],
   "changes": [
     {
-      "from": "senat",
-      "to": "camera",
+      "from": "initiator",
+      "to": "senat",
       "direction": "la_fel",
-      "headline": "Nicio schimbare de fond: termenul pentru contractele Anghel Saligny rămâne prorogat până la 31.12.2027",
-      "summary": "Camera a adoptat același articol unic ca Senatul: termenul de încheiere a contractelor din programul Anghel Saligny se prelungește până la 31 decembrie 2027. Diferă doar camera, data ședinței și semnatarul.",
+      "headline": "Doar modificări de redactare: termenul pentru contractele „Anghel Saligny” rămâne prorogat până la 31.12.2027",
+      "summary": "Acum textul diferă doar prin tehnică legislativă: „prevăzut la” în loc de „prevăzut de”, titlul „Articol unic”, data adoptării completată și semnătura mutată. Fondul e identic: termenul de încheiere a contractelor de finanțare se prelungește până la 31 decembrie 2027.",
       "changes": [],
       "remaining": {
         "problems": [
           {
-            "text": "Fișa financiară trece zero credite bugetare pentru 2027–2030, deși vor exista plăți",
+            "text": "Prorogarea nu e condiționată de termene intermediare; riscul unei noi amânări rămâne",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Fișa financiară poartă titlul altui act normativ, eroare de copiere",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Fișa raportează impact de -5,26 mld. lei, dar afirmă lipsa impactului negativ",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Cifrele din expunerea de motive nu se potrivesc: număr contracte și valori anuale",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Necesarul de 11,25 mld. lei nereconciliat cu cele 5,26 mld. lei din fișă",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu introduce obligații, taxe sau sancțiuni noi pentru cetățeni ori firme",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Formulare clară și previzibilă: termen prorogat până la 31 decembrie 2027 inclusiv",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Adoptată înainte de expirarea termenului inițial, fără probleme de retroactivitate",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "updatedAt": "2026-11-26T10:31:04.834Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat același text, cu termenul Anghel Saligny prorogat la 31.12.2027",
+      "summary": "Inițial și acum, textul este identic pe fond. Contractele din programul Anghel Saligny pot fi semnate până la 31 decembrie 2027. Diferă doar camera care l-a adoptat, data ședinței și semnatarul.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fișa trece zero credite bugetare 2027–2030, deși contractele vor genera plăți",
             "major": true,
             "article": null
           },
           {
-            "text": "Prorogare necondiționată, inclusiv pentru 518 obiective fără documentație încărcată",
+            "text": "Prorogarea e necondiționată, inclusiv pentru 518 obiective fără documentație încărcată",
             "major": false,
             "article": "art. unic"
           },
@@ -60,27 +149,22 @@
             "article": "art. unic"
           },
           {
-            "text": "Fișa financiară raportează un impact negativ de 5,26 mld. lei, apoi îl neagă",
+            "text": "Fișa financiară poartă titlul altui proiect de lege",
             "major": false,
             "article": null
           },
           {
-            "text": "Fișa financiară poartă titlul altui act normativ, din eroare de copiere",
+            "text": "Fișa înscrie 5,26 mld. lei credite de angajament și contradictoriu impact negativ",
             "major": false,
             "article": null
           },
           {
-            "text": "Expunerea de motive: 4.599 contracte însumate pe ani față de 4.597 declarate",
+            "text": "Expunerea de motive are cifre care nu se leagă: 4.599 contracte, nu 4.597",
             "major": false,
             "article": null
           },
           {
-            "text": "Valorile pe 2023–2026 diferă între rândurile «valoare cf» și «TOTAL»",
-            "major": false,
-            "article": null
-          },
-          {
-            "text": "Necesarul rămas de 11,25 mld. lei nu e reconciliat cu 5,26 mld. din fișă",
+            "text": "Necesarul de 11,25 mld. lei nu e reconciliat cu cele 5,26 mld. din fișă",
             "major": false,
             "article": null
           }
@@ -97,12 +181,12 @@
             "article": "art. unic"
           },
           {
-            "text": "Prorogă un termen încă în curs, deci fără probleme de retroactivitate",
+            "text": "Termenul inițial e încă în curs, deci prorogarea nu ridică probleme de retroactivitate",
             "major": false,
             "article": "art. unic"
           },
           {
-            "text": "Dă autorităților locale încă un an pentru contractarea obiectivelor rămase",
+            "text": "Text scurt și clar, cu dată limită precisă: 31 decembrie 2027 inclusiv",
             "major": false,
             "article": "art. unic"
           }
@@ -110,13 +194,13 @@
         "partial": false
       },
       "diff": {
-        "added": 4,
+        "added": 3,
         "removed": 3,
-        "same": 0
+        "same": 0.25
       },
       "model": "claude",
-      "schema": 3,
-      "updatedAt": "2026-10-30T08:45:57.602Z"
+      "schema": 4,
+      "updatedAt": "2026-11-26T10:31:19.417Z"
     }
   ]
 }

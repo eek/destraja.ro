@@ -2,13 +2,102 @@
   "slug": "b633-2026",
   "billId": "B633/2026",
   "checkedAt": "2026-11-23T11:28:56.721Z",
-  "indexCheckedAt": "2026-11-13T09:10:31.373Z",
+  "indexCheckedAt": "2026-11-26T11:34:15.991Z",
   "models": {
     "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 10m23s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 10m23s.\",\"status\":\"RESOURCE_EXHAUSTED\",",
     "claude": "ok",
-    "codex": "ok"
+    "codex": "ok",
+    "index": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.ct100.ro/gunoiul-sub-pres-prin-lege-mohammad-murad-si-mugur-mihaescu-aur-cer-secretizarea-imaginilor-din-controalele-autoritatilor",
+      "title": "Gunoiul sub preș prin lege? Mohammad Murad și Mugur Mihăescu, AUR, cer secretizarea imaginilor din controalele autorităților - CT100.ro",
+      "outlet": "Constanța 100%",
+      "domain": "ct100.ro",
+      "publishedAt": "2026-11-25",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Propunerea legislativă, înregistrată la Senat pe 11 noiembrie 2026, cu numărul B633/2026, a stârnit o reacție dură din partea lui Horia Constantinescu, fost președinte al Autorității Naționale pentru Protecția Consumatorilor (ANPC), în prezent comisar-șef adjunct la Comisariatul Județean pentru Protecția Consumatorilor Constanța.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-26",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-26",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.932,
+            "source": "local_news",
+            "sourceP": 0.94,
+            "about": 0.998,
+            "release": 0.01
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.802,
+            "source": "national_news",
+            "sourceP": 0.507,
+            "about": 0.818,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.98,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.stiripesurse.ro/proiect-secretizare-inregistrari-controale-autoritati-b633-2026_3939761",
+      "title": "Se pregătește secretizarea imaginilor din controalele statului: Proiectul a ajuns în Parlament. Fostul șef al Protecției Consumatorilor acuză că e o formă de 'a băga gunoiul sub preș' | DOCUMENTE",
+      "outlet": "Știri pe surse",
+      "domain": "stiripesurse.ro",
+      "publishedAt": "2026-11-25",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Propunerea legislativă B633/2026, intitulată „Lege privind regimul înregistrărilor efectuate cu ocazia controalelor din partea autorităților și instituțiilor publice”, a fost înregistrată la Senat pe 11 noiembrie.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-26",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-26",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "mixed",
+            "stanceP": 0.619,
+            "source": "national_news",
+            "sourceP": 0.864,
+            "about": 0.998,
+            "release": 0.012
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.445,
+            "source": "aggregator",
+            "sourceP": 0.431,
+            "about": 0.852,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.88,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://alba24.ro/inspectorii-ar-putea-avea-interdictie-sa-filmeze-controalele-cu-telefoanele-personale-proiect-depus-la-senat-1167331.html",
       "title": "Inspectorii ar putea avea interdicție să filmeze controalele cu telefoanele personale. Proiect depus la Senat",

@@ -1,0 +1,17 @@
+## AVIZ
+
+# asupra Propunerii legislative privind organizarea și funcționarea Institutului Român pentru Drepturile Omului
+
+Comisia pentru administrație publică, prin adresa nr. L645/2026 din data de 16.11.2026, a fost sesizată în vederea întocmirii avizului asupra Propunerii legislative privind organizarea și funcționarea Institutului Român pentru Drepturile Omului, inițiatori: Anisie Monica-Cristina - senator PNL; Carp Ionel - senator PACE; Cerva Nadia-Cosmina - senator PACE; Chelaru Mircia - senator AUR; Constantinescu Rodica - senator AUR; Cușnir Rodica - senator PACE; Fodoca Liviu-Iulian - senator PNL; Graur Cătălin - senator PSD; Mălăiescu Luca - senator PSD; Mărginean Lucian - senator PSD; Onea Olga - senator AUR; Pintea Paul-Ciprian - senator Neafiliat; Stoica Ciprian-Titi - senator AUR; Vela Gheorghe - senator Neafiliat; Baș Ana-Marcela - deputat SOS; Bordian Alexandru - deputat AUR; Constantinescu Andra-Claudia - deputat AUR; Feodor Silviu - deputat CRLR (minorităti); Macovei Ilie Simona-Elena - deputat SOS; Morar Lucian-Ioan-Titus - deputat PSD; Pascalini Nini-Alexandru - deputat SOS; Păun Nicolae - deputat Pro Europa (minorităti); Simu Aurora-Tasica - deputat Neafiliat; Vidra Vlad-Andrei - deputat SOS
+
+În ședința din 24.11.2026, Comisia pentru administrație publică a analizat propunerea legislativă și a hotărât, cu majoritate voturilor membrilor prezenți, să adopte aviz negativ.
+
+Președinte,
+
+senator CSĂSZĂR Károly/Zsolt
+
+Secretar, senator FLOROIU Ionel
+
+Domnului senator CHELARU Mircia
+
+Președintele Comisiei pentru drepturile omului, egalitate de șanse, culte și minorități

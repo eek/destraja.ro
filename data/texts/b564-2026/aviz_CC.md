@@ -1,0 +1,31 @@
+RG / 17362 / 16.11.2026
+
+## Domnului Secretar General Mario Ovidiu OPREA
+
+## SENATUL ROMÂNIEI
+
+PARLAMENTUL ROMÂNIEI
+
+Calea 13 Septembrie 1-3, București, cod poștal 050711
+
+Biroul permanent al Senatului:
+
+Subiect: Adresa dumneavoastră nr. XXXV 5000/19.10.2026, înregistrată la Consiliul Concurenței cu nr. RG 17362/22.10.2026 (Cazul nr. 2602964)
+
+## Stimate domnule Secretar General,
+
+Ca urmare a adresei dumneavoastră mai sus menționate, prin care solicitați opinia Consiliului Concurenței cu privire la Propunerea legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 133/2021 privind gestionarea financiară a fondurilor europene pentru perioada de programare 2021 – 2027 alocate României din Fondul european de dezvoltare regională, Fondul de coeziune, Fondul social european Plus, Fondul pentru o tranziție justă (b564/14.10.2026), denumită, în continuare, Propunerea legislativă, vă comunicăm următoarele:
+
+Din analiza Propunerii legislative și a Expunerii de motive, reiese faptul că aceasta are ca obiect modificarea și completarea OUG nr. 133/2021, în scopul revizuirii cadrului legal pentru adecvarea mecanismelor de acordare și justificare a prefinanțării la specificul proiectelor finanțate din Fondul Social European Plus (FSE+), prin reducerea birocrației procedurale și prin crearea unor pârghii de flux financiar suplimentar la dispoziția beneficiarilor și adecvarea mecanismelor cererilor de plată, la specificul proiectelor finanțate prin Fondul Social European Plus.
+
+Analizând cuprinsul proiectului de act normativ, Consiliul Concurenței apreciază că acesta nu conține aspecte care să contravină prevederilor Legii concurenței nr. 21/1996, republicată, cu modificările și completările ulterioare sau normelor naționale și europene în domeniul ajutorului de stat.
+
+Asigurându-vă de întreaga noastră colaborare, vă stăm la dispoziție pentru orice alte detalii sau informații suplimentare.
+
+Cu deosebită considerație,
+
+Bogdan M. CHIRITOIU
+
+Președinte
+
+Digitally signed by Boe Marius Chiritoiu Date: 2026.11.16 15:4

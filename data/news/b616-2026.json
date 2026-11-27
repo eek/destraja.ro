@@ -2,7 +2,7 @@
   "slug": "b616-2026",
   "billId": "B616/2026",
   "checkedAt": "2026-11-23T11:08:35.750Z",
-  "indexCheckedAt": "2026-11-26T11:34:29.825Z",
+  "indexCheckedAt": "2026-11-27T09:58:36.126Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
@@ -10,6 +10,50 @@
     "index": "ok"
   },
   "articles": [
+    {
+      "url": "https://specialarad.ro/ong-facilitatile-fiscale-voucherele-de-vacanta",
+      "title": "Peste o mie de ONG-uri cer retragerea proiectului de lege privind facilitățile fiscale pentru voucherele de vacanță &bull; Special Arad · ultimele știri din Arad",
+      "outlet": "Special Arad",
+      "domain": "specialarad.ro",
+      "publishedAt": "2026-11-26",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Potrivit proiectului de lege, companiile ar putea scădea valoarea voucherelor de vacanță direct din impozitul pe profit datorat statului, în limita unui plafon de 20%, aplicabil și sponsorizărilor și actelor de mecenat.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-27",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-27",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.621,
+            "source": "local_news",
+            "sourceP": 0.899,
+            "about": 0.997,
+            "release": 0.015
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.501,
+            "source": "local_news",
+            "sourceP": 0.867,
+            "about": 0.798,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.91,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://www.b1tv.ro/economic/ccir-sustine-acordarea-voucherelor-de-vacanta-salariatilor-din-mediul-privat-cu-deducerea-cheltuielilor-din-impozitul-pe-profit-1754323.html",
       "title": "CCIR susține acordarea voucherelor de vacanță salariaților din mediul privat, cu deducerea cheltuielilor din impozitul pe profit",
@@ -231,6 +275,50 @@
       }
     },
     {
+      "url": "https://jurnalul.ro/special-jurnalul/patronate-ataca-acordare-vouchere-vacanta-mediul-privat-hotelieri-socati-1050366.html",
+      "title": "Cine nu vrea să se acorde vouchere de vacanță în mediul privat. Hotelierii sunt năuciți: Confederația din care fac parte atacă propunerea",
+      "outlet": "Jurnalul",
+      "domain": "jurnalul.ro",
+      "publishedAt": "2026-11-25",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Marea problemă invocată de ONG-uri și de Confederația patronală Concordia, în legătură cu acordarea voucherelor de vacanță în mediul privat , este posibilitatea de a se deduce sumele din impozitul pe profit datorat statului – acest mecanism fiind folosit acum pentru sponsorizări și finanțarea organizațiilor neguvernamentale.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-27",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-27",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "supportive",
+            "stanceP": 0.875,
+            "source": "national_news",
+            "sourceP": 0.745,
+            "about": 0.994,
+            "release": 0.269
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.63,
+            "source": "national_news",
+            "sourceP": 0.395,
+            "about": 0.562,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
       "url": "https://newsweek.ro/social/ccir-sustine-acordarea-voucherelor-de-vacanta-de-pana-la-1600-de-lei-pentru-angajatii-din-privat-din-2027",
       "title": "CCIR susține acordarea voucherelor de vacanță de până la 1.600 de lei pentru angajații din privat, din 2027 • Newsweek România",
       "outlet": "Newsweek România",
@@ -270,6 +358,138 @@
             "sourceP": 0.91,
             "about": 0.99,
             "release": 0.03
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.presshub.ro/concordia-cere-retragerea-proiectului-care-pune-voucherele-de-vacanta-si-sponsorizarile-in-acelasi-plafon-fiscal-425018",
+      "title": "Concordia cere retragerea proiectului care pune voucherele de vacanță și sponsorizările în același plafon fiscal",
+      "outlet": "PressHub",
+      "domain": "presshub.ro",
+      "publishedAt": "2026-11-25",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Confederația Patronală Concordia cere retragerea proiectului care le-ar permite firmelor să scadă din impozitul pe profit vouchere de vacanță de până la 1.600 de lei, în limita plafonului folosit și pentru sponsorizări și mecenat.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-27",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-27",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "critical",
+            "stanceP": 0.946,
+            "source": "national_news",
+            "sourceP": 0.552,
+            "about": 0.997,
+            "release": 0.212
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.865,
+            "source": "national_news",
+            "sourceP": 0.31,
+            "about": 0.818,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.92,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.romaniatv.net/vouchere-de-vacanta-pentru-angajatii-din-mediul-privat-patronatele-propun-ca-firmele-sa-scada-valoarea-acestora-direct-din-impozitul-pe-profit_9941209.html",
+      "title": "Vouchere de vacanță pentru angajații din mediul privat. Patronatele propun ca firmele să scadă valoarea acestora direct din impozitul pe profit",
+      "outlet": "România TV",
+      "domain": "romaniatv.net",
+      "publishedAt": "2026-11-25",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Propunerea legislativă B616/2026 urmărește tocmai acest obiectiv, prin posibilitatea scăderii contravalorii voucherelor de vacanță direct din impozitul pe profit datorat, în limita plafonului fiscal aplicabil sponsorizărilor și actelor de mecenat.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-27",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-27",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "supportive",
+            "stanceP": 0.789,
+            "source": "national_news",
+            "sourceP": 0.659,
+            "about": 0.99,
+            "release": 0.706
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.684,
+            "source": "national_news",
+            "sourceP": 0.497,
+            "about": 0.679,
+            "release": 0.085
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.88,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://stirileprotv.ro/stiri/financiar/disputa-pe-proiectul-voucherelor-de-vacanta-scazute-din-impozitul-pe-profit-in-acelasi-prag-cu-sponsorizarile.html",
+      "title": "Dispută pe proiectul voucherelor de vacanță, scăzute din impozitul pe profit în același prag cu sponsorizările - Știrile ProTV",
+      "outlet": "Știrile ProTV",
+      "domain": "stirileprotv.ro",
+      "publishedAt": "2026-11-25",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "În proiect se propune ca voucherele de vacanță , care ar putea fi folosite doar în România, să poată fi scăzute din impozitul pe profit datorat statului.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-27",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-27",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "mixed",
+            "stanceP": 0.824,
+            "source": "national_news",
+            "sourceP": 0.989,
+            "about": 0.996,
+            "release": 0.006
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.516,
+            "source": "national_news",
+            "sourceP": 0.549,
+            "about": 0.881,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.83,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }
@@ -1863,6 +2083,50 @@
             "sourceP": 0.99,
             "about": 0.99,
             "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.luju.ro/ccir-sustine-voucherele-pentru-privati-camera-de-comert-si-industrie-a-romaniei",
+      "title": "CCIR SUSŢINE VOUCHERELE PENTRU PRIVAŢI – Camera de Comerț și Industrie a României e de acord cu proiectul de lege privind acordarea voucherelor de vacanță salariaților din mediul privat, începând cu 2027. CCIR: „Măsura r",
+      "outlet": "Lumea Justiției",
+      "domain": "luju.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Potrivit proiectului, cheltuielile companiilor cu voucherele de vacanță, utilizabile exclusiv pentru servicii turistice pe teritoriul României, pot fi scăzute din impozitul pe profit datorat, în limita plafonului prevăzut pentru sponsorizări și acte de mecenat, fără depășirea acestuia.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-27",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-27",
+        "text": "trafilatura",
+        "models": {
+          "glide": {
+            "stance": "supportive",
+            "stanceP": 0.67,
+            "source": "trade_press",
+            "sourceP": 0.606,
+            "about": 0.995,
+            "release": 0.608
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.652,
+            "source": "trade_press",
+            "sourceP": 0.67,
+            "about": 0.651,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.98,
+            "source": "aggregator",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.03
           }
         }
       }

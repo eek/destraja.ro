@@ -1,60 +1,85 @@
 {
   "slug": "plx-351-2026",
   "billId": "Pl-x 351/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:38:14.180Z",
-  "inputHash": "ef7f5617b32c",
-  "riskScore": 7.7,
-  "summary": "Problematică de la un capăt la altul: blochează funcționarea primăriilor, introduce modalități inaplicabile de ștergere a datoriilor fiscale, protejează imobilele de lux de executare silită și încalcă direct Constituția.",
-  "good": [],
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:49:53.762Z",
+  "inputHash": "5f0302b7d747",
+  "riskScore": 8,
+  "input": {
+    "textChars": 3014,
+    "memoChars": 4078,
+    "baseline": {
+      "file": "data/baseline/plx-351-2026.json",
+      "key": "5d40b1a1222eb6f0",
+      "articlesShown": 3,
+      "truncated": false
+    }
+  },
+  "summary": "Un proiect problematic de la un capăt la altul: blochează finanțarea primăriilor, creează portițe fiscale, lasă metode neaplicabile și încalcă direct Constituția.",
+  "good": [
+    {
+      "text": "Scutește de executare silită fiscală întreaga locuință declarată ca domiciliu pentru datorii nepenale — mai clar decât actualul „spațiu minim locuit” — și cere acte doveditoare sub sancțiune penală pentru fals.",
+      "article": "art. I, art. 242 alin. (3)",
+      "quote": "nu poate fi supusă executării silite clădirea rezidențială aflată în proprietatea sau coproprietatea sa, aleasă de debitor și familia sa ca domiciliu",
+      "lawQuote": "În cazul debitorului persoană fizică nu poate fi supus executării silite spațiul minim locuit de debitor și familia sa, stabilit în conformitate cu normele legale în vigoare.",
+      "weight": 2
+    }
+  ],
   "bad": [
     {
-      "text": "Interzice folosirea taxelor locale pentru cheltuieli curente sau salarii, permițând doar investițiile, ceea ce blochează funcționarea primăriilor și încalcă Legea finanțelor publice locale.",
-      "article": "art. I (art. 2 alin. (7) și (8))",
+      "text": "Obligă primăriile și județele să folosească impozitele și taxele locale doar pentru investiții, blocând cheltuielile curente și administrative din aceste venituri și contrazicând Legea nr. 273/2006, pe care nu o modifică.",
+      "article": "art. I, art. 2 alin. (7)-(8)",
       "quote": "Impozitele și taxele locale ce constituie venituri la bugetul județean sau la bugetul local se folosesc numai pentru investiții județene și locale.",
+      "lawQuote": "Codul de procedură fiscală reglementează drepturile și obligațiile părților din raporturile juridice fiscale privind administrarea creanțelor fiscale datorate bugetului general consolidat, indiferent de autoritatea care le administrează, cu excepția cazului când prin lege se prevede altfel.",
       "weight": 3
     },
     {
-      "text": "Transformă în infracțiune de deturnare de fonduri orice plată din taxe locale care nu e investiție, deși termenul nu e definit iar sursele de venit nu sunt separate în execuția bugetară.",
-      "article": "art. I (art. 2 alin. (9))",
-      "quote": "Folosirea impozitelor și taxelor, ce constituie venituri la bugetul județean sau la bugetul local, în alt mod decât pentru investiții, constituie deturnare de fonduri",
+      "text": "Încadrează orice altă folosire a taxelor și impozitelor locale drept deturnare de fonduri (art. 307 Cod penal), fără a defini „investițiile”, expunând penal primarii și funcționarii chiar pentru cheltuieli curente aprobate legal.",
+      "article": "art. I, art. 2 alin. (9)",
+      "quote": "Folosirea impozitelor și taxelor, ce constituie venituri la bugetul județean sau la bugetul local, în alt mod decât pentru investiții, constituie deturnare de fonduri sub sancțiunea aplicabilității art.307 din Legea nr.286/ 2009 privind Codul penal",
       "weight": 3
     },
     {
-      "text": "Permite stingerea oricăror datorii fiscale prin muncă în folosul comunității sau cesiune, fără a stabili procedura, tariful orar, beneficiarul muncii sau condițiile de aplicare.",
-      "article": "art. I (art. 22)",
-      "quote": "se sting prin plată, compensare, executare silită, scutire, anulare, prescripție, dare în plată, cesiune, muncă în folosul comunității și prin alte modalități prevăzute expres de lege.",
-      "weight": 3
-    },
-    {
-      "text": "Scutește de executare silită clădirea declarată ca domiciliu fără niciun plafon valoric și chiar dacă datornicul deține și alte imobile, protejând proprietățile de lux ale marilor datornici.",
-      "article": "art. I (art. 242 alin. (3))",
-      "quote": "În cazul debitorului persoană fizică nu poate fi supusă executării silite clădirea rezidențială aflată în proprietatea sau coproprietatea sa, aleasă de debitor și familia sa ca domiciliu",
-      "weight": 3
-    },
-    {
-      "text": "Încalcă Constituția prevăzând intrarea în vigoare la data publicării (fără termenul obligatoriu de 3 zile) și adoptarea ca lege ordinară, deși extinde o infracțiune (domeniu de lege organică).",
+      "text": "Încalcă direct Constituția: adoptă ca lege ordinară o normă penală (care cere lege organică) și impune intrarea în vigoare chiar la publicare, contrar termenului minim de 3 zile din art. 78 și fără perioadă de tranziție.",
       "article": "art. II",
       "quote": "Prezenta lege se adoptă în temeiul art.75(1) și art.76(2) din Constituția României și intră în vigoare la data publicării în Monitorul Oficial al României.",
       "weight": 3
     },
     {
-      "text": "Se suprapune peste alin. (3) deja în vigoare (care protejează spațiul minim locuit) și condiționează protecția de depunerea unei declarații și a unor acte, dezavantajând datornicii vulnerabili.",
-      "article": "art. I (art. 242 alin. (3) lit. a)-c))",
+      "text": "Înlocuiește actualul „spațiu minim locuit” cu scutirea întregii clădiri alese ca domiciliu, fără limită de valoare sau suprafață și fără condiția unicei locuințe, deschizând o portiță pentru datornicii cu imobile de lux.",
+      "article": "art. I, art. 242 alin. (3)",
+      "quote": "nu poate fi supusă executării silite clădirea rezidențială aflată în proprietatea sau coproprietatea sa, aleasă de debitor și familia sa ca domiciliu, sub condiția ca aceasta să fie declarată astfel în evidențele fiscale",
+      "lawQuote": "În cazul debitorului persoană fizică nu poate fi supus executării silite spațiul minim locuit de debitor și familia sa, stabilit în conformitate cu normele legale în vigoare.",
+      "weight": 3
+    },
+    {
+      "text": "Condiționează protecția locuinței de o declarație și acte depuse la Fisc; înlocuind protecția automată actuală a spațiului minim locuit, lasă fără apărare debitorii vulnerabili sau neinformați care nu depun actele.",
+      "article": "art. I, art. 242 alin. (3) lit. a)-b)",
       "quote": "Declarația va fi însoțită de documente doveditoare privind domiciliul și dreptul de proprietate sau coproprietate al clădirii.",
+      "lawQuote": "În cazul debitorului persoană fizică nu poate fi supus executării silite spațiul minim locuit de debitor și familia sa, stabilit în conformitate cu normele legale în vigoare.",
       "weight": 2
     },
     {
-      "text": "Pune reguli despre cheltuirea bugetelor locale în Codul de procedură fiscală (care vizează doar administrarea taxelor), fără corelare cu Legea nr. 273/2006 privind finanțele publice locale.",
-      "article": "art. I (art. 2 alin. (7)-(9))",
-      "quote": "Este interzisă utilizarea impozitelor și taxelor județene și locale pentru suplimentarea fondurilor de salarii, acordarea de premii, sporuri sau cheltuieli administrative.",
+      "text": "Adaugă „cesiunea” și „munca în folosul comunității” ca metode de stingere a datoriilor fără procedură, reguli de echivalare, autoritate competentă sau condiția acordului voluntar; darea în plată există deja în lege.",
+      "article": "art. I, art. 22",
+      "quote": "se sting prin plată, compensare, executare silită, scutire, anulare, prescripție, dare în plată, cesiune, muncă în folosul comunității și prin alte modalități prevăzute expres de lege.",
+      "lawQuote": "Creanțele fiscale se sting prin plată, compensare, executare silită, scutire, anulare, prescripție, dare în plată și prin alte modalități prevăzute expres de lege.",
       "weight": 2
+    },
+    {
+      "text": "Reguli bugetare puse greșit în Codul de procedură fiscală, modificări numite eronat „completări” (art. 22, art. 242), obligația actualizării declarației în 30 de zile fără sancțiune și stângăcii de redactare.",
+      "article": "art. I, art. 2, art. 22 și art. 242 alin. (3) lit. c)",
+      "quote": "În cazul modificării privind domiciliul sau dreptul de proprietate asupra clădirii, contribuabilul are obligația de a depune o nouă declarație în termenul de 30 de zile de la data modificării.",
+      "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 7,
-    "verified": 7
+    "checked": 8,
+    "verified": 8,
+    "lawChecked": 5,
+    "lawVerified": 5
   }
 }

@@ -1,97 +1,88 @@
 {
   "slug": "plx-386-2026",
   "billId": "Pl-x 386/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:41:37.132Z",
-  "inputHash": "bf1929bd1d7b",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:56:50.356Z",
+  "inputHash": "04399a016564",
   "riskScore": 7.7,
-  "summary": "Deși urmărește un scop legitim de intervenție în cazul faptelor grave comise de minori sub 14 ani, legea este neconstituțională și inaplicabilă de la un capăt la altul.",
+  "input": {
+    "textChars": 4125,
+    "memoChars": 6447,
+    "baseline": {
+      "file": "data/baseline/plx-386-2026.json",
+      "key": "a9f2ecec873e4b7d",
+      "articlesShown": 1,
+      "truncated": false
+    }
+  },
+  "summary": "O intenție de protecție scrisă defectuos de la un capăt la altul, cu grave probleme constituționale și riscuri de internare arbitrară a copiilor.",
   "good": [
     {
-      "text": "Prevede că măsurile pentru minorii sub 14 ani se iau doar de instanță, ca ultimă soluție, cu revizuire periodică și încetare imediată când pericolul dispare.",
-      "article": "art. I pct. 2 (art. 113¹ alin. (2) și (3))",
+      "text": "Măsurile pot fi dispuse doar de instanță, pe baza unei expertize medico-legale psihiatrice, sunt revizuite periodic și încetează imediat ce dispare pericolul, ceea ce introduce o minimă protecție contra deciziilor arbitrare.",
+      "article": "Art. I pct. 1-2 (art. 113 alin. (1¹), art. 113¹ alin. (2)) și Art. II pct. 1 (ar",
       "quote": "Măsurile prevăzute la alin. (1) se aplică pe durată determinată, sunt supuse revizuirii periodice de către instanță și încetează imediat ce pericolul care le-a determinat a fost înlăturat.",
       "weight": 2
     },
     {
-      "text": "Include măsuri de recuperare în libertate, precum consilierea psihologică și psihiatrică sub supraveghere, ca alternativă la internarea copilului într-un centru.",
-      "article": "art. I pct. 2 (art. 113¹ alin. (1) lit. b))",
+      "text": "Prevede alternative la internare, precum supravegherea și consilierea psihologică sau psihiatrică, și cere ca măsurile să fie folosite doar ca ultimă soluție, cu scop educativ și de recuperare, nu de pedeapsă.",
+      "article": "Art. I pct. 1-2 (art. 113 alin. (1²), art. 113¹ alin. (1) lit. b) și alin. (3))",
       "quote": "supraveghere judiciară specializată, însoțită de obligația de a urma programe de consiliere psihologică și psihiatrică;",
-      "weight": 1
-    },
-    {
-      "text": "Condiționează intervenția de o evaluare medico-legală psihiatrică complexă a copilului, evitând deciziile bazate doar pe gravitatea faptei.",
-      "article": "art. I pct. 1 (art. 113 alin. (1¹))",
-      "quote": "instanța poate dispune aplicarea unor măsuri de siguranță speciale, dacă expertiza medico-legală psihiatrică complexă constată:",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Prevede că legea intră în vigoare în ziua publicării, încălcând direct art. 78 din Constituție, care impune un termen de minimum 3 zile de la publicare.",
-      "article": "art. III",
-      "quote": "Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al României, Partea I.",
+      "text": "Deși acum copiii sub 14 ani nu răspund penal, proiectul permite internarea lor fără acordul părinților, fără vârstă minimă, durată maximă sau termen de revizuire, riscând rețineri prelungite și abuzive.",
+      "article": "Art. I pct. 1-2 (art. 113 alin. (1¹), art. 113¹ alin. (1) lit. a) și alin. (2)) ",
+      "quote": "instanța penală poate dispune internarea minorului sub 14 ani într-un centru specializat, cu caracter preventiv și terapeutic, independent de consimțământul reprezentantului legal, sub control judecătoresc strict.",
+      "lawQuote": "Minorul care nu a împlinit vârsta de 14 ani nu răspunde penal.",
       "weight": 3
     },
     {
-      "text": "Obligă instanțele și centrele de sănătate mintală să aprobe norme metodologice, încălcând separația puterilor în stat, deoarece judecătorii aplică legea, nu o scriu.",
-      "article": "art. I pct. 2 (art. 113¹ alin. (1) lit. c)) și art. II pct. 1 (art. 56¹ alin. (4",
+      "text": "Lasă procedura și chiar noi măsuri restrictive în seama unor norme făcute de instanțe cu Ministerul Justiției ori clinici; asta încalcă separația puterilor, iar libertatea nu poate fi limitată prin norme inferioare legii.",
+      "article": "Art. I pct. 2 (art. 113¹ alin. (1) lit. c)) și Art. II pct. 1 (art. 56¹ alin. (4",
       "quote": "Procedura, condițiile și monitorizarea măsurii se stabilesc prin norme metodologice comune între instanțe și centrele de sănătate mintală, în conformitate cu prevederile Codului penal.",
       "weight": 3
     },
     {
-      "text": "Permite internarea copilului pe „durată determinată”, dar fără o limită maximă în lege, fără termene de verificare și fără a spune cine constată că pericolul a trecut.",
-      "article": "art. I pct. 2 (art. 113¹ alin. (2)) și art. II pct. 1 (art. 56¹ alin. (2))",
-      "quote": "Măsura se aplică pe durată determinată, cu revizuire periodică de către instanță, și încetează imediat ce pericolul care a determinat măsura a fost înlăturat.",
-      "weight": 3
-    },
-    {
-      "text": "Permite instanței să inventeze „alte măsuri” de siguranță prin norme secundare, încălcând regula din Codul penal că orice măsură de siguranță trebuie prevăzută strict prin lege.",
-      "article": "art. I pct. 2 (art. 113¹ alin. (1) lit. c))",
-      "quote": "alte măsuri cu caracter terapeutic și educativ, stabilite de instanță, în conformitate cu normele metodologice aprobate de Ministerul Justiției și instanțe.",
-      "weight": 3
-    },
-    {
-      "text": "Introduce internarea forțată în Legea sănătății mintale fără a cere existența unei tulburări psihice diagnosticate medical, confundând periculozitatea cu boala psihică.",
-      "article": "art. II pct. 1 (art. 56¹ alin. (1))",
-      "quote": "În cazurile prevăzute la art. 113¹ Cod penal, instanța penală poate dispune internarea minorului sub 14 ani într-un centru specializat, cu caracter preventiv și terapeutic, independent de consimțământul reprezentantului legal, sub control judecătoresc strict.",
-      "weight": 3
-    },
-    {
-      "text": "Lasă deschisă lista faptelor („cum sunt... sau alte infracțiuni”) fără a spune ce lege le prevede și numește „infracțiuni” fapte ale minorilor sub 14 ani, care legal nu răspund penal.",
-      "article": "art. I pct. 1 (art. 113 alin. (1¹))",
+      "text": "Lista faptelor rămâne deschisă („cum sunt...” sau „alte infracțiuni”), iar criteriile sunt vagi: „discernământul funcțional” nu e definit în lege, iar „pericolul social” a fost scos din Codul penal, făcând internarea imprevizibilă.",
+      "article": "Art. I pct. 1 (art. 113 alin. (1¹))",
       "quote": "în cazul săvârșirii de către minorii sub 14 ani a unor infracțiuni deosebit de grave, cum sunt: omor, omor calificat, viol, acte de terorism sau alte infracțiuni expres prevăzute de lege",
       "weight": 3
     },
     {
-      "text": "Folosește termeni inexistenți în lege („discernământ funcțional”) sau abandonați („pericol social”) și îi lasă pe medici să decidă pericolul social, care e o apreciere a judecătorului.",
-      "article": "art. I pct. 1 (art. 113 alin. (1¹) lit. a) și b))",
-      "quote": "dacă expertiza medico-legală psihiatrică complexă constată: a) existența discernământului funcțional al minorului; b) pericol social grav și actual pentru societate.",
+      "text": "Trimite copilul la internare prin legea sănătății mintale fără să ceară o tulburare psihică, ba chiar cere „discernământ funcțional”, riscând să transforme centrele medicale în locuri de detenție fără temei medical.",
+      "article": "Art. I pct. 1 (art. 113 alin. (1¹) lit. a)) și Art. II pct. 1 (art. 56¹ alin. (1",
+      "quote": "instanța poate dispune aplicarea unor măsuri de siguranță speciale, dacă expertiza medico-legală psihiatrică complexă constată:",
       "weight": 3
     },
     {
-      "text": "Nu modifică procedura penală (nu se știe cine sesizează instanța, cum e apărat copilul și ce căi de atac are) și ignoră măsurile deja existente în Legea protecției copilului nr. 272/2004.",
-      "article": "art. I și art. II",
-      "quote": "Procedura, condițiile și monitorizarea măsurii se stabilesc prin norme metodologice comune între instanțe și centrele de sănătate mintală",
+      "text": "Intrarea în vigoare chiar în ziua publicării încalcă direct Constituția (care cere minimum 3 zile) și ar lăsa legea imposibil de aplicat, din lipsa centrelor specializate și a normelor de procedură.",
+      "article": "Art. III",
+      "quote": "Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al României, Partea I.",
       "weight": 3
     },
     {
-      "text": "Articolele se contrazic privind acordul părinților: în Codul penal internarea fără acordul lor e permisă doar „în cazuri excepționale”, dar în Legea 487/2002 această condiție dispare.",
-      "article": "art. I pct. 2 (art. 113¹ alin. (1) lit. a)) și art. II pct. 1 (art. 56¹ alin. (1",
-      "quote": "internarea minorului într-un centru specializat de evaluare și intervenție terapeutică, cu consimțământul reprezentantului legal sau, în cazuri excepționale, independent de acesta, sub control judiciar;",
+      "text": "Creează un blocaj juridic în Codul penal: vorbește de „infracțiuni” comise de copii sub 14 ani și de o „excepție” de la nerăspunderea penală decisă de instanța penală, deși afirmă că măsurile nu au caracter penal.",
+      "article": "Art. I pct. 1 (art. 113 alin. (1¹) și (1²)) și Art. II pct. 1 (art. 56¹ alin. (1",
+      "quote": "Prin excepție de la alin. (1), în cazul săvârșirii de către minorii sub 14 ani a unor infracțiuni deosebit de grave",
+      "lawQuote": "Minorul care nu a împlinit vârsta de 14 ani nu răspunde penal.",
       "weight": 2
     },
     {
-      "text": "Trimite la „centre specializate” și „norme metodologice” fără a stabili un termen-limită pentru adoptarea normelor sau cine înființează și finanțează aceste centre.",
-      "article": "art. I pct. 1 (art. 113 alin. (1²) lit. d))",
-      "quote": "pot include programe educative, consiliere psihologică și psihiatrică, precum și alte măsuri terapeutice, conform normelor metodologice.",
-      "weight": 2
+      "text": "Articolele se contrazic între ele: Codul penal cere întâi acordul părinților, vorbește de „control judiciar” și norme cu Ministerul Justiției, iar Legea sănătății mintale omite acordul și dă normele în grija centrelor medicale.",
+      "article": "Art. I pct. 2 (art. 113¹ alin. (1) lit. a) și c)) și Art. II pct. 1 (art. 56¹ al",
+      "quote": "alte măsuri cu caracter terapeutic și educativ, stabilite de instanță, în conformitate cu normele metodologice aprobate de Ministerul Justiției și instanțe.",
+      "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 13,
-    "verified": 13
+    "checked": 9,
+    "verified": 9,
+    "lawChecked": 2,
+    "lawVerified": 2
   }
 }

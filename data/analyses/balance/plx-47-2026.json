@@ -1,163 +1,123 @@
 {
   "slug": "plx-47-2026",
   "billId": "PL-x 47/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "updatedAt": "2026-10-30T11:19:12.603Z",
-  "inputHash": "89650d57453a",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:54:26.478Z",
+  "inputHash": "0a6d336f0074",
   "riskScore": 7.7,
-  "summary": "Un proiect rescris haotic de la 6 județe la nivel național, plin de contradicții, ajutoare de stat neacoperite, imposibilități matematice și riscuri majore pentru buget și proprietatea publică.",
+  "input": {
+    "textChars": 10433,
+    "memoChars": 10009,
+    "baseline": "no-acts"
+  },
+  "summary": "Un program cu obiective economice legitime, dar rescris haotic la nivel național cu găuri bugetare neplafonate, reguli matematic imposibile, risc de clientelism și fără nicio sancțiune.",
   "good": [
     {
-      "text": "Exclude de la ajutor public firmele aflate în insolvență, concordat, faliment sau cu datorii la buget, protejând banii publici.",
-      "article": "art. 5 lit. c)",
+      "text": "Exclude firmele insolvente, cu datorii la stat sau care își mută activitatea din alt județ și cere plan de formare profesională și reinvestirea locală a 15% din profit.",
+      "article": "art. 5 lit. c), d), f) și g)",
       "quote": "beneficiarul nu se află în insolvență, concordat sau faliment și nu înregistrează obligații fiscale restante;",
       "weight": 2
     },
     {
-      "text": "Interzice acordarea facilităților pentru firmele care doar își mută activitatea dintr-un județ în altul după ce au închis-o în ultimele 12 luni.",
-      "article": "art. 5 lit. d)",
-      "quote": "beneficiarul nu a închis o activitate identică în alt județ în ultimele 12 luni pentru a o reloca în cadrul Programului;",
-      "weight": 2
-    },
-    {
-      "text": "Obligă firmele beneficiare să păstreze activitatea și numărul mediu de angajați cel puțin 18 luni după terminarea facilităților, sub monitorizarea AJOFM.",
-      "article": "art. 5 lit. e)",
-      "quote": "beneficiarul menține numărul mediu de salariați și activitatea la locația eligibilă cel puțin 18 luni după încetarea facilităților;",
-      "weight": 2
-    },
-    {
-      "text": "Cere firmelor să reinvestească local minimum 15% din profitul net în active fixe, digitalizare sau formare în primii 3 ani după încheierea facilităților.",
-      "article": "art. 5 lit. g)",
-      "quote": "beneficiarul reinvestește local cel puțin 15% din profitul net aferent activității eligibile, în primii 3 ani după finalizarea facilităților, în active fixe, digitalizare sau formare profesională.",
-      "weight": 2
-    },
-    {
-      "text": "Interzice cumulul dintre cofinanțarea Băncii de Investiții și Dezvoltare și garanțiile de stat pentru același credit, limitând supra-subvenționarea.",
-      "article": "art. 9 alin. (3)",
-      "quote": "Este interzisă cofinanțarea creditelor pentru care s-au solicitat garanții de stat.",
-      "weight": 2
-    },
-    {
-      "text": "Condiționează sprijinul de existența unui plan concret de formare profesională a angajaților, cu standarde de certificare și calendar.",
-      "article": "art. 5 lit. f)",
-      "quote": "beneficiarul include plan de formare profesională adecvată domeniului, cu ocupațiile vizate, durata, standardele de certificare și calendarul;",
-      "weight": 1
-    },
-    {
-      "text": "Obligă beneficiarii să publice toate posturile vacante prin AJOFM, care trebuie să trimită candidați în cel mult 10 zile lucrătoare.",
-      "article": "art. 7 alin. (1) și (2)",
+      "text": "Obligă firmele beneficiare să publice toate posturile vacante în platforma ANOFM și dă AJOFM rolul de a trimite candidați în 10 zile și de a monitoriza păstrarea locurilor de muncă.",
+      "article": "art. 7",
       "quote": "AJOFM transmite lista candidaților pentru posturile vacante în maximum 10 zile lucrătoare de la data solicitării beneficiarului.",
-      "weight": 1
+      "weight": 2
     },
     {
-      "text": "Impune prezentarea proiectelor locale finanțate într-o anexă distinctă la bugetul de stat, crescând transparența alocărilor.",
-      "article": "art. 11 alin. (2)",
-      "quote": "în cadrul bugetului de stat se introduce o anexă distinctă cu proiectele depuse de unitățile administrativ-teritoriale și finanțate din surse bugetare, inclusiv cele cu finanțare din fonduri europene.",
-      "weight": 1
-    },
-    {
-      "text": "Evită dubla finanțare prin excluderea proiectelor deja incluse în Programul „Anghel Saligny” de la sumele suplimentare din bugetul de stat.",
-      "article": "art. 11 alin. (3)",
-      "quote": "Se exclud din finanțarea suplimentară de la bugetul de stat alocată potrivit alin. (1) proiectele incluse în Programul „Anghel Saligny”, precum și valorile aferente acestora.",
-      "weight": 1
-    },
-    {
-      "text": "Obligă Ministerul Finanțelor să informeze anual Parlamentul despre efectele economice și sociale ale programului.",
-      "article": "art. 2 alin. (2)",
+      "text": "Obligă Ministerul Finanțelor să raporteze anual Parlamentului efectele programului și cere o anexă distinctă în bugetul de stat cu toate proiectele locale finanțate.",
+      "article": "art. 2 alin. (2), art. 11 alin. (2)",
       "quote": "Programul este gestionat și derulat de Ministerul Finanțelor, care are obligația informării anuale a Parlamentului cu privire la efectele Programului asupra dezvoltării economico-sociale la nivel național.",
+      "weight": 2
+    },
+    {
+      "text": "Interzice cofinanțarea prin B.I.D. a creditelor care au deja garanții de stat și exclude proiectele din „Anghel Saligny” de la fondurile suplimentare pentru primării.",
+      "article": "art. 9 alin. (3), art. 11 alin. (3)",
+      "quote": "Este interzisă cofinanțarea creditelor pentru care s-au solicitat garanții de stat.",
+      "weight": 1
+    },
+    {
+      "text": "Scutirile de impozit pe clădiri și terenuri pentru investiții noi se acordă doar prin hotărâre a consiliului local, păstrând decizia comunității asupra veniturilor proprii.",
+      "article": "art. 8 alin. (3)",
+      "quote": "Scutirea prevăzută la alin. (1) se acordă prin hotărâre a consiliului local pe raza căruia se află clădirile și terenurile respective, în temeiul Titlului IX din Legea nr. 227/2015, cu modificările și completările ulterioare.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Obligă alocarea a minimum 20% din fondurile regionale UE pentru fiecare județ; în regiunile cu 6-7 județe asta cere 120%-140% din buget, o imposibilitate matematică.",
+      "text": "Toate primăriile și consiliile județene pot lua credite garantate 100% de stat, cu plafonul de îndatorare urcat la 60% și fără limită valorică, ceea ce împinge direct datoria publică și deficitul în sus.",
+      "article": "art. 13",
+      "quote": "Unitățile administrativ-teritoriale pot accesa credite bancare cu garanție în nume și cont stat în proporție de 100% din valoarea creditului pentru proiectele investiționale nefinanțate din fonduri europene sau venituri proprii în condițiile art. 11.",
+      "weight": 3
+    },
+    {
+      "text": "Impune alocarea a minimum 20% din fondurile europene regionale pentru fiecare județ; cum programul e național, în regiunile cu 6–7 județe rezultă 120%–140% din buget, o regulă imposibil de aplicat și contrară regulilor UE.",
       "article": "art. 11 alin. (5)",
       "quote": "autoritatea de management alocă, din fondurile pentru programele operaționale regionale stabilite pentru regiunile din care fac parte beneficiarii Programului, minimum câte 20% pentru fiecare județ.",
       "weight": 3
     },
     {
-      "text": "Permite primăriilor să ia credite garantate 100% de stat și le dublează plafonul de îndatorare de la 30% la 60%, creând un risc uriaș de insolvență locală și datorie publică.",
-      "article": "art. 13 alin. (1) și (2)",
-      "quote": "Unitățile administrativ-teritoriale pot accesa credite bancare cu garanție în nume și cont stat în proporție de 100% din valoarea creditului pentru proiectele investiționale nefinanțate din fonduri europene sau venituri proprii",
+      "text": "Oferă scutiri fiscale largi, garanții de stat de 70%–90% și cofinanțări prioritare subvenționate la B.I.D. fără plafon bugetar, fără regulă completă de cumul și fără schemă de ajutor de stat pentru majoritatea măsurilor.",
+      "article": "art. 4, art. 6, art. 9, art. 10",
+      "quote": "profitul reinvestit în orice activ corporal prevăzut în Catalogul privind clasificarea și duratele normale de funcționare a mijloacelor fixe",
       "weight": 3
     },
     {
-      "text": "Permite primăriilor să concesioneze terenuri pentru parcuri industriale prin negociere directă, fără licitație publică și fără criterii transparente de selecție.",
+      "text": "Permite primăriilor să concesioneze terenuri pentru parcuri industriale prin negociere directă către „investitori selectați”, ocolind licitația publică și fără să definească cine și după ce criterii îi selectează.",
       "article": "art. 12 alin. (3)",
       "quote": "Pentru terenurile din domeniul privat al unităților administrativ-teritoriale utilizate la parcurile industriale, concesiunea se poate realiza prin negociere directă către investitori selectați, în condițiile legii.",
       "weight": 3
     },
     {
-      "text": "Acordă firmelor scutire de impozit pe venit pentru noii angajați fără limită de timp sau plafon salarial și fără a clarifica dacă banii rămân la salariat sau la patron.",
-      "article": "art. 10 alin. (1) și (2)",
+      "text": "Impune trei termene diferite de menținere a investiției și angajaților (amortizare, 18 luni, 5 ani), dar nu prevede nicio sancțiune și nicio procedură de recuperare a banilor publici dacă firmele încalcă condițiile.",
+      "article": "art. 4 alin. (2), art. 5 lit. e), art. 10 alin. (3)",
+      "quote": "beneficiarul menține numărul mediu de salariați și activitatea la locația eligibilă cel puțin 18 luni după încetarea facilităților;",
+      "weight": 3
+    },
+    {
+      "text": "Acordă „societăților” scutirea de impozit pe venit al noilor angajați, deși impozitul e al salariatului, fără plafon salarial și fără durată; măsura creează ambiguitate și taie din cotele defalcate ale bugetelor locale.",
+      "article": "art. 10",
       "quote": "Societățile din cadrul Programului beneficiază de scutirea de impozit pe venit pentru persoanele angajate în locurile de muncă nou create prin dezvoltarea capacității de producție sau prin investițiile efectuate.",
-      "weight": 3
-    },
-    {
-      "text": "Instituie garanții de stat de 70%-90% și scutiri fiscale majore fără schemă de ajutor de stat și fără notificarea Comisiei Europene, încălcând dreptul UE.",
-      "article": "art. 6 alin. (1) și (2)",
-      "quote": "Pentru creditele luate de către societățile care asigură investiții se acordă garanție în nume și cont stat de maximum 70% din valoarea creditului, excluzând dobânzile și comisioanele aferente.",
-      "weight": 3
-    },
-    {
-      "text": "Expunerea de motive descrie alt proiect (pentru 6 județe, cu 19 articole, credit fiscal și punctaj) și nu evaluează impactul bugetar al extinderii programului la nivel național.",
-      "article": "expunerea de motive",
-      "quote": null,
-      "weight": 3
-    },
-    {
-      "text": "Cere firmelor să aibă deja minimum 9 angajați la depunerea cererii și să mai angajeze 9, excluzând microîntreprinderile și investițiile greenfield pornite de la zero.",
-      "article": "art. 5 lit. a) și b)",
-      "quote": "existența a cel puțin 9 salariați cu normă întreagă la data depunerii cererii; b) angajarea a minimum 9 persoane în maximum 6 luni de la acordarea facilităților;",
       "weight": 2
     },
     {
-      "text": "Promite alocări bugetare suplimentare de „cel puțin 30%, prin raportare la numărul de locuitori”, fără să precizeze baza de calcul la care se aplică procentul.",
-      "article": "art. 11 alin. (1)",
+      "text": "Cere suplimentarea cu cel puțin 30% a fondurilor pentru infrastructură locală, dar nu spune față de ce sumă se calculează procentul și permite finanțarea proiectelor vechi nefinalizate fără criterii clare de prioritizare.",
+      "article": "art. 11 alin. (1) și (4)",
       "quote": "prin bugetul de stat se alocă fonduri suplimentare, cu cel puțin 30%, prin raportare la numărul de locuitori.",
       "weight": 2
     },
     {
-      "text": "Deși art. 1 limitează programul la agricultură și industrie prelucrătoare, art. 4 scutește de impozit profitul reinvestit de orice agent economic în orice activ corporal.",
-      "article": "art. 4 alin. (1)",
-      "quote": "profitul reinvestit în orice activ corporal prevăzut în Catalogul privind clasificarea și duratele normale de funcționare a mijloacelor fixe, puse în funcțiune de agenții economici, societățile care își desfășoară activitatea în județe sau la nivel național",
+      "text": "Forma adoptată extinde programul la toată țara și elimină mecanismele de selecție și sancțiuni din expunerea de motive (scrisă pentru 6 județe), fără fișă financiară și fără indicarea surselor de finanțare.",
+      "article": "art. 1–14",
+      "quote": "Se aprobă Programul pentru investiții și locuri de muncă la nivel național, denumit în continuare Programul.",
       "weight": 2
     },
     {
-      "text": "Nu prevede nicio sancțiune sau obligație de restituire a ajutoarelor dacă firma nu angajează oamenii promiși, își închide activitatea sau nu reinvestește profitul.",
-      "article": "art. 5 și art. 10 alin. (3)",
-      "quote": "Locurile de muncă pentru care se aplică facilitatea prevăzută la alin. (1) se mențin cel puțin 5 ani de la momentul acordării facilității.",
-      "weight": 2
-    },
-    {
-      "text": "Scutește automat pe 5 ani investițiile greenfield de impozite locale, dar trimite simultan la decizia consiliului local, încălcând autonomia financiară a primăriilor.",
-      "article": "art. 8 alin. (1) și (3)",
-      "quote": "Pentru investițiile de tip greenfild aprobate în cadrul Programului, clădirile și terenurile utilizate exclusiv pentru activitatea eligibilă beneficiază de scutire de la impozitul pe clădiri și impozitul pe teren pe o perioadă de 5 ani",
-      "weight": 2
-    },
-    {
-      "text": "Obligă Banca de Investiții și Dezvoltare să finanțeze cu prioritate aceste cereri și cu subvenționarea tuturor costurilor accesorii, afectând analiza bancară de risc.",
-      "article": "art. 9 alin. (2) și (4)",
-      "quote": "Cererile de finanțare se depun de către beneficiari și vor fi analizate și finanțate cu prioritate de B.I.D.",
-      "weight": 2
-    },
-    {
-      "text": "Permite prelungirea programului după cei 5 ani în termeni vagi, fără a stabili cine decide prelungirea, prin ce act normativ și pe baza căror indicatori.",
-      "article": "art. 3 alin. (2)",
+      "text": "Legea nu stabilește cum sunt selectate firmele, cine poate prelungi programul după 5 ani și lasă norme esențiale în sarcina Guvernului în doar 45 de zile, termen nerealist pentru avizarea schemelor de ajutor de stat.",
+      "article": "art. 3 alin. (2), art. 12 alin. (2), art. 14",
       "quote": "Durata de implementare a Programului este de 5 ani de la data intrării în vigoare a prezentei legi, cu posibilitatea de prelungire, dacă obiectivele de convergență și coeziune economico-socială fac necesară o continuare a Programului.",
+      "weight": 2
+    },
+    {
+      "text": "Cere ca firma să aibă deja cel puțin 9 angajați la depunerea cererii, ceea ce blochează accesul microîntreprinderilor, al fermierilor mici și al firmelor nou-înființate pentru investiții de la zero.",
+      "article": "art. 5 lit. a)",
+      "quote": "existența a cel puțin 9 salariați cu normă întreagă la data depunerii cererii;",
       "weight": 1
     },
     {
-      "text": "Definește investiția greenfield doar ca unitate industrială pe teren fără infrastructură, excluzând agricultura și parcurile industriale dotate deja cu utilități.",
-      "article": "art. 3 alin. (1) lit. f)",
+      "text": "Conține greșeli de scriere („greenfild”, „investor”, „opportunități”), expresii rămase din varianta pe 6 județe („în județe sau la nivel național”) și o definiție neclară a investiției greenfield („perfect funcțională”).",
+      "article": "art. 3, art. 4 alin. (1), art. 6 alin. (3), art. 8 alin. (1), art. 10 alin. (2)",
       "quote": "investiția de tip greenfield este o investiție în care un investor pornește de la zero cu un proiect, pe un teren fără infrastructură, iar la final obține o unitate industrială perfect funcțională;",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 24,
-    "verified": 23
+    "checked": 16,
+    "verified": 16,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

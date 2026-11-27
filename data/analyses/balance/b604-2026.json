@@ -1,74 +1,72 @@
 {
   "slug": "b604-2026",
   "billId": "B604/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
   "modelId": "gemini-4-neon-high",
-  "updatedAt": "2026-11-26T11:31:06.686Z",
-  "inputHash": "c417331f9bd8",
+  "updatedAt": "2026-11-27T09:51:54.226Z",
+  "inputHash": "d639d6750520",
   "riskScore": 7.7,
-  "summary": "Un proiect în mare parte problematic, care slăbește sever regulile de integritate din administrația locală și oferă o amnistie retroactivă prea largă, având o singură corecție utilă pentru funcționarii suspendați.",
+  "input": {
+    "textChars": 2062,
+    "memoChars": 16398,
+    "baseline": {
+      "file": "data/baseline/b604-2026.json",
+      "key": "dd09d794cc570ca8",
+      "articlesShown": 3,
+      "truncated": false
+    }
+  },
+  "summary": "O singură corecție rezonabilă pentru funcționarii suspendați, folosită ca paravan pentru slăbirea regulilor de integritate, o abrogare nejustificată și o amnistie retroactivă extinsă.",
   "good": [
     {
-      "text": "Permite funcționarilor publici suspendați din funcție să lucreze în organizații internaționale, păstrând interdicția pentru cei activi, ceea ce încurajează schimbul de experiență.",
-      "article": "Art. I pct. 3",
+      "text": "Funcționarii publici cu raportul de serviciu suspendat pot lucra din nou în organizații internaționale, fără să demisioneze; legea actuală le interzice acest lucru, iar interdicția rămâne valabilă pentru funcționarii activi.",
+      "article": "Art. I pct. 3 (art. 94 alin. (2⁴))",
       "quote": "Prevederile alin. (2) lit.a), c) și d) se aplică și în situația în care raportul de serviciu al funcționarului public este suspendat conform legii.",
+      "lawQuote": "(2^4) Prevederile alin. (2) lit. a) și c)-e) se aplică și în situația în care raportul de serviciu al funcționarului public este suspendat conform legii.",
       "weight": 2
-    },
-    {
-      "text": "Evită obligarea consilierilor aleși în 2024 să renunțe la mijloc de mandat la slujbe deținute legal anterior, cum ar fi posturi tehnice fără decizie din agențiile regionale.",
-      "article": "Art. I pct. 1",
-      "quote": "La articolul 88 alineatul (1), literele i) – k) se abrogă.",
-      "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Scoate complet administratorii publici de sub regulile de incompatibilitate și conflict de interese ale primarilor, deși pot gestiona bugete locale, fără nicio explicație în motivare.",
-      "article": "Art. I pct. 2",
+      "text": "Abrogă fără nicio justificare art. 93¹, care acum supune administratorii publici regulilor de conflict de interese și incompatibilităților primarilor; aceștia pot fi și ordonatori de credite, dar ies complet din acest regim.",
+      "article": "Art. I pct. 2 (art. 93¹)",
       "quote": null,
+      "lawQuote": "Administratorului public i se aplică dispozițiile art. 76 și regimul incompatibilităților prevăzut în prezentul titlu pentru primari și viceprimari.",
       "weight": 3
     },
     {
-      "text": "Șterge retroactiv răspunderea nu doar pentru incompatibilități, ci și pentru conflicte de interese, putând bloca sancționarea unor voturi sau contracte concrete cu interes personal.",
+      "text": "Șterge retroactiv răspunderea de după Legea nr. 180/2026 și pentru conflicte de interese, nu doar incompatibilități, iertând inclusiv cazuri noi și funcționari activi pentru care interdicția de la art. 94 rămâne.",
       "article": "Art. II",
       "quote": "ar fi fost de natură să genereze o stare de incompatibilitate sau un conflict de interese, după caz, nu constituie incompatibilități sau conflicte de interese și nu atrag răspunderea juridică aferentă acestora.",
+      "lawQuote": "în cadrul organizațiilor internaționale, cu excepția situației în care funcționarul public exercită un mandat de reprezentare, pe baza desemnării de către o autoritate sau instituție publică, în condițiile expres prevăzute de actele normative în vigoare.",
       "weight": 3
     },
     {
-      "text": "Permite iar consilierilor locali și județeni să fie consilieri ai primarului, administratori publici ori angajați ai agențiilor cu fonduri UE, slăbind controlul asupra conducerii locale.",
-      "article": "Art. I pct. 1",
+      "text": "Elimină interdicțiile actuale pentru consilierii locali și județeni, permițându-le din nou să fie consilieri personali ai executivului local, administratori publici sau angajați ai ADR care gestionează fonduri europene.",
+      "article": "Art. I pct. 1 (art. 88 alin. (1) lit. i)-k))",
       "quote": "La articolul 88 alineatul (1), literele i) – k) se abrogă.",
+      "lawQuote": "i) calitatea de consilier personal al primarului, în cazul consilierului local, respectiv calitatea de consilier personal al președintelui sau vicepreședintelui consiliului județean, în cazul consilierului județean;",
       "weight": 3
     },
     {
-      "text": "Iartă retroactiv și funcționarii activi care au lucrat ilegal în organizații internaționale, deși legea menține interdicția pentru ei și o ridică doar pentru cei suspendați.",
-      "article": "Art. II",
-      "quote": "care, potrivit art.88 alin.(1) lit.i)-k) și art.94 alin.(2) lit.e) din Legea nr.161/2003",
-      "weight": 3
-    },
-    {
-      "text": "Proiectul este propus spre adoptare ca lege ordinară, deși modifică reguli despre funcționari publici și administrația locală care cer lege organică, riscând respingerea la CCR.",
+      "text": "Formula finală prevede adoptarea ca lege ordinară (art. 76 alin. (2) din Constituție), deși modificarea regimului funcționarilor publici și al administrației publice locale cere lege organică, riscând neconstituționalitatea.",
       "article": "Formula de adoptare",
       "quote": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art.75 și ale art.76 alin.(2) din Constituția României, republicată.",
       "weight": 2
     },
     {
-      "text": "Amnistia nu cere ca funcțiile cumulate să fi existat înainte de legea din 2026, așa că îi scapă de sancțiuni și pe cei care au intrat intenționat în situații interzise ulterior.",
-      "article": "Art. II",
-      "quote": "Situațiile intervenite în perioada cuprinsă între data intrării în vigoare a Legii nr. 180/2026 pentru modificarea și completarea unor acte normative în domeniul integrității și data intrării în vigoare a prezentei legi",
-      "weight": 2
-    },
-    {
-      "text": "Nu scrie clar că funcționarii suspendați pot lucra în organizații internaționale, ci lasă acest lucru de dedus prin eliminarea unei trimiteri, ceea ce poate genera interpretări diferite.",
-      "article": "Art. I pct. 3",
-      "quote": "Prevederile alin. (2) lit.a), c) și d) se aplică și în situația în care raportul de serviciu al funcționarului public este suspendat conform legii.",
+      "text": "Redacția lasă loc de interpretări la art. 94 alin. (2) lit. e), unde nu adaugă o excepție expresă pentru suspendare ca la lit. b), și repetă greșeala de scriere „asigurarea transparente” în loc de „transparenței”.",
+      "article": "Art. I, Art. I pct. 3 și Art. II",
+      "quote": "Legea nr.161/2003 privind unele măsuri pentru asigurarea transparente în exercitarea demnităților publice, a funcțiilor publice și în mediul de afaceri, prevenirea și sancționarea corupției",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 8,
-    "verified": 8
+    "checked": 5,
+    "verified": 5,
+    "lawChecked": 4,
+    "lawVerified": 4
   }
 }

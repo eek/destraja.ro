@@ -1,0 +1,107 @@
+## EXPUNERE DE MOTIVE
+
+Prezenta propunere legislativă urmărește instituirea unui cadru juridic clar, accesibil și funcțional pentru reglementarea situației juridice a terenurilor care nu au făcut obiectul cooperativizării, prin crearea posibilității ca deținătorii acestora sau moștenitorii lor, să poată solicita, la cerere, comisiei județene de fond funciar emiterea titlurilor de proprietate, în condițiile prevăzute de lege.
+
+Totodată, reglementarea urmărește să asigure aplicabilitatea acestui mecanism juridic inclusiv în zonele în care a fost aplicabil regimul instituit prin Decretul-lege nr. 115/1938, în care se regăsesc înscrieri în cărțile funciare vechi privind drepturi de proprietate în favoarea unor persoane fizice/juridice sau a Statului Român.
+
+În acest context, propunerea legislativă are în vedere clarificarea situației juridice a terenurilor pentru care înscrierile existente în cărțile funciare vechi nu reflectă situația actuală, prin instituirea unui mecanism care să permită analizarea evidențelor cadastrale și de carte funciară, precum și a celorlalte mijloace de probă posibile, în vederea emiterii titlurilor de proprietate către persoanele îndreptățite.
+
+În practică, există numeroase situații în care terenurile nu au fost preluate de stat, nu au făcut și nu fac obiectul unor proceduri de retrocedare către alte persoane, iar deținătorii sau moștenitorii acestora au exercitat în mod continuu și netulburat posesia asupra lor. Cu toate acestea, procedura de emitere a titlurilor de proprietate și de înscriere a dreptului de proprietate în cartea funciară este îngreunată de condiționări procedurale excesive, interpretări restrictive ale normelor legale și blocaje administrative.
+
+O parte dintre aceste situații au fost evidențiate cu ocazia efectuării lucrărilor de înregistrare sistematică a imobilelor, în cadrul cărora, în urma interviurilor realizate în teren, au fost identificate persoane care exercită posesia asupra imobilelor, fără a deține însă acte doveditoare ale dreptului de proprietate.
+
+În aceste situații, în unitățile administrativ-teritoriale necooperativizate, în care a fost aplicabil regimul de carte funciară reglementat de Decretul-lege nr. 115/1938, au fost preluate înscrierile din vechile cărți funciare, în măsura în care a fost posibilă identificarea imobilelor și corelarea acestora cu numerele topografice aferente. În cazurile în care această identificare nu a fost posibilă, în cărțile funciare deschise ca urmare a finalizării lucrărilor de înregistrare sistematică a fost înscrisă mențiunea „proprietar neidentificat” sau a fost înscris provizoriu drepu de proprietate în favoarea unității administrativ- teritoriale.
+
+Aceste împrejurări sunt întâlnite în special în comunele care nu au fost supuse cooperativizării, unde evoluția regimului juridic al terenurilor și modalitățile de păstrare și actualizare a evidențelor au fost diferite de cele specifice localităților cooperativizate. Totodată, asemenea situații se regăsesc și în localitățile în care a avut loc cooperativizarea, în cazul terenurilor care nu au făcut obiectul acestui proces și care sunt cunoscute, în terminologia toponimică locală, sub denumirea de „zone de particulari”. În aceste zone, drepturile de proprietate s-au transmis și s-au exercitat în condiții istorice și administrative specifice, iar documentele justificative nu au fost întotdeauna păstrate, actualizate sau correlate între diferitele instituții publice.
+
+Un aspect deosebit de important îl reprezintă caracterul uneori neconcludent al înscrierilor din registrele agricole, în condițiile în care acestea au fost modificate de-a lungul timpului, inclusiv ca urmare a solicitărilor persoanelor interesate și a unor situații economice sau sociale concrete.
+
+Astfel, anterior anului 1990, în anumite sectoare de activitate, inclusiv în industria minieră, persoanele încadrate în muncă solicitau eliberarea unor adeverințe privind suprafețele de teren deținute, în vederea îndeplinirii condițiilor pentru acordarea unor drepturi sau facilități, inclusiv bonuri pentru alimente. În asemenea împrejurări, suprafețele declarate sau evidențiate puteau fi diminuate în raport cu suprafețele deținute în realitate.
+
+După anul 1990, în contextul restructurărilor economice și al disponibilizărilor din sectorul minier, precum și din alte domenii de activitate, au existat situații în care persoanele interesate au solicitat eliberarea unor adeverințe cu suprafețe de teren mai mici, inclusiv pentru îndeplinirea condițiilor necesare acordării indemnizațiilor de șomaj sau a altor drepturi sociale. În aceste condiții, evidențele agricole au putut suferi modificări care nu reflectă în mod fidel situația reală a proprietății.
+
+Prin urmare, existența unei înscrieri în registrul agricol, atât anterior anului 1990, cât și ulterior acestui moment, nu poate reprezenta singurul criteriu pentru stabilirea dreptului de proprietate. În egală măsură, lipsa unei asemenea înscrieri sau neconcordanțele dintre registrele agricole, cadastrale și fiscale nu pot conduce automat la conclusia inexistenței dreptului de proprietate.
+
+Legislația în vigoare reglementează, prin Legea cadastrului și a publicității imobiliare nr. 7/1996, identificarea imobilelor și înscrierea acestora în evidențele cadastrale și de carte funciară, inclusiv în situațiile în care suprafețele măsurate depășesc suprafețele rezultate din actele de proprietate sau în care proprietarul nu poate fi identificat. Aceste reglementări au însă un obiect specific, referitor la evidența tehnică și juridică a imobilelor, și nu instituie, prin ele însele, o procedură suficientă pentru recunoașterea și emiterea titlurilor de proprietate în favoarea foștilor proprietari sau a moștenitorilor acestora.
+
+În consecință, se impune completarea Legii fondului funciar nr. 18/1991, care reprezintă cadrul normativ adecvat pentru stabilirea condițiilor și procedurii de recunoaștere a drepturilor de proprietate asupra terenurilor, în situațiile în care acestea pot fi dovedite, iar terenurile nu au fost preluate de stat și nu fac obiectul unor drepturi legal constituite în favoarea altor persoane.
+
+Prin modificarea propusă se urmărește ca persoanele care au deținut anterior în proprietate terenuri, precum și moștenitorii acestora, să poată solicita emiterea titlurilor de proprietate în condiții procedurale clare și rezonabile, inclusiv pentru terenurile identificate în plus cu ocazia lucrărilor de înregistrare sistematică sau care nu sunt reflectate corespunzător în documentele de fond funciar.
+
+În acest scop, se propune simplificarea documentației necesare prin stabilirea unor documente esențiale pentru identificarea terenului și verificarea pretenției solicitantului, respectiv documentația tehnică de identificare și măsurare a terenului, întocmită de persoane autorizate sau extras de carte funciară dacă imobilul este înscris în sistemul integrat de cadastru și carte funciară, procesul-verbal de vecinătate, avizul oficiului de cadastru și publicitate imobiliară competent, după caz, și declarația pe propria răspundere din care să rezulte deținerea anterioară în proprietate a terenului și exercitarea unei posesii continue și netulburate asupra acestuia.
+
+Totodată, propunerea legislativă stabilește că dovedirea dreptului de proprietate anterior și a posesiei nu trebuie să fie condiționată exclusiv de existența unor înscrieri în registrele agricole, cadastrale sau fiscale. Aceste evidențe vor putea fi utilizate ca mijloace de probă, alături de actele de proprietate, documentele de arhivă, înscrisurile fiscale, documentele care atestă calitatea de moștenitor și orice alte documente relevante pentru stabilirea situației juridice și materiale a terenului.
+
+Se urmărește astfel eliminarea interpretărilor restrictive potrivit cărora lipsa înscrierii în registrul agricol, fie anterior anului 1990, fie ulterior acestuia, ar împiedica în mod automat emiterea titlului de proprietate. O asemenea condiționare ar putea conduce la înlăturarea nejustificată de la procedura legală a unor foști proprietari sau a moștenitorilor acestora, exclusiv ca urmare a unor evidențe administrative incomplete, neactualizate sau care nu reflectă situația reală a dreptului de proprietate.
+
+În același timp, propunerea legislativă urmărește să asigure un echilibru între protejarea drepturilor foștilor proprietari și necesitatea respectării drepturilor de proprietate deja constituite. Astfel, procedura va putea fi aplicată numai în cazul terenurilor care nu au fost preluate de stat prin acte translative de proprietate, nu aparțin domeniului public sau privat al statului ori al unităților administrativ-teritoriale în temeiul unui titlu valabil de dobândire, nu fac obiectul unor cereri concurente de reconstituire sau constituire a dreptului de proprietate și pentru care nu a fost emis anterior un titlu de proprietate.
+
+Pentru prevenirea suprapunerii drepturilor și pentru asigurarea legalității procedurii, comisia locală de fond funciar va avea obligația să verifice situația juridică a terenului, amplasamentul, documentele prezentate, existența unor eventuale drepturi de proprietate concurente și apartenența terenului la domeniul public sau privat al statului ori al unității administrativ-teritoriale. În cazul îndeplinirii condițiilor legale, documentația va fi avizată și înaintată comisiei județene de fond funciar, în vederea validării propunerii și emiterii titlului de proprietate, potrivit competențelor legale.
+
+Prin această reglementare se urmărește, de asemenea, valorificarea rezultatelor lucrărilor de cadastru sistematic și clarificarea situației juridice a terenurilor pentru care, în cadrul acestor lucrări, au fost preluate înscrierile din vechile cărți funciare, a fost înscrisă mențiunea “proprietar neidentificat” sau a fost înscris provizoriu dreptul de proprietate în favoarea unității administrativ territoriale, atunci când există persoane care pot dovedi că acestea le-au aparținut anterior. Înscrierea provizorie, mențiunile din cartea funciară privind rezerva comisiei locale de fond funciar sau nota“proprietar neidentificat” nu trebuie să constituie un impediment absolut pentru recunoașterea dreptului de proprietate, în măsura în care sunt îndeplinite condițiile prevăzute de lege.
+
+De asemenea, finalizarea lucrărilor de înregistrare sistematică a imobilelor și deschiderea noilor cărți funciare nu ar trebui să constituie, prin ele însele, un impediment în calea emiterii titlurilor de proprietate pentru persoanele îndreptățite, în condițiile legii.
+
+Dimpotrivă, finalizarea acestor lucrări contribuie la clarificarea situației tehnice și juridice a imobilelor, prin identificarea amplasamentului, determinarea suprafețelor și stabilirea limitelor acestora, precum și prin evidențierea situației juridice existente la momentul efectuării lucrărilor. Astfel, informațiile tehnice rezultate din înregistrarea sistematică și evidențiate în sistemul integrat de cadastru și carte funciară pot fi valorificate în procedura de emitere a titlurilor de proprietate, fără a mai fi necesară întocmirea unor documentații cadastrale suplimentare pentru imobilele ale căror date tehnice sunt deja determinate și nu necesită modificări sau actualizări.
+
+Propunerea legislativă nu modifică atribuțiile Legii nr. 7/1996 în materia cadastrului și a publicității imobiliare și nu urmărește substituirea procedurilor de înregistrare sistematică. Dimpotrivă, aceasta valorifică rezultatele lucrărilor cadastrale și creează, în cadrul Legii nr. 18/1991, mecanismul juridic necesar pentru clarificarea situației unor terenuri care nu sunt reflectate corespunzător în evidențele existente, dar asupra cărora foștii proprietari sau moștenitorii acestora exercită o posesie continuă și netulburată.
+
+Adoptarea acestei reglementări este necesară pentru reducerea blocajelor administrative, simplificarea procedurii de emitere a titlurilor de proprietate, asigurarea unui tratament juridic echitabil persoanelor îndreptățite și evitarea respingerii cererilor exclusiv din cauza unor deficiențe ale evidențelor administrative. Totodată, prin instituirea unor verificări prealabile și a unei proceduri documentate, se urmărește prevenirea suprapunerii drepturilor de proprietate și protejarea patrimoniului public și privat al statului și al unităților administrativ-teritoriale.
+
+Față de cele prezentate, considerăm că prezenta propunere legislativă este necesară și oportună, întrucât oferă un instrument juridic adecvat pentru soluționarea unor situații concrete întâlnite, în care drepturile foștilor deținătorilor sau ale moștenitorilor acestora nu pot fi valorificate în mod efectiv din cauza unor condiționări procedurale excesive și a unor evidențe administrative incomplete sau neconcordante.
+
+Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă..
+
+Pentru inițiatori,
+
+Vetuța STĂNESCU, deputat PNI4
+
+Florin ROMAN, deputat PNL
+
+TABEL NOMINAL CU INIȚIATORII Propunerii legislative pentru completarea art. 27 din Legea fondului funciar nr. 18/1991
+
+| Nr. crt. | Nume și prenume | Grup Parlamentar |
+| --- | --- | --- |
+| 1. | VEVUTA √TANESCU | PNC |
+| 2. | ROMAN FORIN | PNL |
+| 3. | Vela Ion Marcel | PNL |
+| 4. | STOLCA STEFAH. | PHL |
+| 5. | GABRIEL ANDRONACHS | PNL |
+| 6. | Shidou Gijel | PNL |
+| 7. | MOISEEU ALEXANDRIN | PNL |
+| 8. | CIOBANU ADZIAN | PNL |
+| 9. | CADAR RAZVAAI | PNL |
+| 10. | Cotinescu Aurelian | PNL |
+| 11. | PISTRU-POPA GBANINA | PNL |
+| 12. | MATE' ANETA- | ANC |
+| 13. | NÀCUYA'SORIN | PNL |
+| 14. | AUNA GORGHEU | PNL |
+| 15. | CIOBOTANU DRAGOS | PNL |
+| 16. | Jiauu Fleviu | PNL |
+| 17. | Crusovran Marian | PNL |
+| 18. | MORIN RADU-MARIN | PNL |
+| 19. | MOGBAN IONEL | PNL |
+
+| 20. | COZMA ADRIAN | PNL |
+| --- | --- | --- |
+| 21. | NEACSO ANAREEA - FIRUTA | PNL |
+| 22. | POLYANNA HANGAN | USR |
+| 23. | SIGHIAZTE ROBERT | PNL |
+| 24. | Cimian Jolone | PNL |
+| 25. | Mahan Cola Petu | PNL |
+| 26. | Pbouleju Lefo | PHL |
+| 27. | Rocuai Chului | PHL |
+| 28. | BURDUYA SEBASTIAN-10AN | PUL |
+| 29. |  |  |
+| 30. |  |  |
+| 31. |  |  |
+| 32. |  |  |
+| 33. |  |  |
+| 34. |  |  |
+| 35. |  |  |
+| 36. |  |  |
+| 37. |  |  |
+| 38. |  |  |
+| 39. |  |  |
+| 40. |  |  |
+| 41. |  |  |

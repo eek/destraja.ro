@@ -1,61 +1,73 @@
 {
   "slug": "plx-160-2026",
   "billId": "Pl-x 160/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:33:13.187Z",
-  "inputHash": "8d18f888184a",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:53:31.846Z",
+  "inputHash": "bf1be9afa180",
   "riskScore": 7.7,
-  "summary": "Proiectul restrânge grav transparența publică, permițând șefilor de instituții să secretizeze studii prin ordin intern și să evite răspunsurile scrise prin chemarea cetățenilor la sediu.",
-  "good": [
-    {
-      "text": "Obligă instituțiile să mențină publicate din oficiu informațiile de bază (bugete, bilanțuri, achiziții) pe o perioadă de 5 ani, facilitând accesul direct la datele recente.",
-      "article": "art. I pct. 2 (art. 5 alin. (6))",
-      "quote": "Instituțiile publice au obligația de a publica din oficiu informațiile prevăzute la alin. (1)-(3), în condițiile prevăzute la alin. (4), pentru o perioadă de 5 ani.",
-      "weight": 1
+  "input": {
+    "textChars": 2727,
+    "memoChars": 10921,
+    "baseline": {
+      "file": "data/baseline/plx-160-2026.json",
+      "key": "1a5c7a555489c4b7",
+      "articlesShown": 3,
+      "truncated": false
     }
-  ],
+  },
+  "summary": "Proiect problematic de la un capăt la altul: restrânge accesul la informații publice prin ordine interne ale șefilor de instituții și adaugă portițe de refuz.",
+  "good": [],
   "bad": [
     {
-      "text": "Permite șefului fiecărei instituții să secretizeze prin simplu ordin intern orice studiu sau cercetare (chiar și finalizată) plătită din bani publici, fără criterii clare sau limită de timp.",
-      "article": "art. I pct. 1 (art. 2 lit. d))",
+      "text": "Acum orice persoană are acces la informații publice în condițiile legii; proiectul lasă șeful fiecărei instituții să ascundă informații prin ordin intern, fără durată maximă sau dovada unui prejudiciu.",
+      "article": "Art. I pct. 1, 3 și 4 (art. 2 lit. d, art. 6 alin. 1 și 4 lit. b)",
+      "quote": "Informațiile cu regim special se stabilesc la nivelul fiecărei autorități sau instituții publice, prin ordin al conducătorului autorității/instituției;",
+      "lawQuote": "Orice persoană are dreptul să solicite și să obțină de la autoritățile și instituțiile publice, în condițiile prezentei legi, informațiile de interes public.",
+      "weight": 3
+    },
+    {
+      "text": "Acum orice informație din activitatea instituțiilor e publică; proiectul permite ascunderea cercetărilor finalizate din bani publici, a metodologiilor și chiar a brevetelor, deși acestea sunt publice prin natura lor.",
+      "article": "Art. I pct. 1 (art. 2 lit. d)",
       "quote": "prin informație cu regim special se înțelege orice informație care privește cercetări științifice în curs de derulare sau finalizate, rezultate și metodologii ale cercetărilor științifice, informații privind secrete comerciale, patente.",
+      "lawQuote": "prin informație de interes public se înțelege orice informație care privește activitățile sau rezulta din activitățile unei autorități publice sau instituții publice, indiferent de suportul ori de forma sau de modul de exprimare a informației;",
       "weight": 3
     },
     {
-      "text": "Interzice complet accesul la informațiile cu „regim special”, eliminând regula actuală din lege care protejează secretele comerciale doar dacă divulgarea lor produce un prejudiciu real.",
-      "article": "art. I pct. 3 (art. 6 alin. (1))",
-      "quote": "Orice persoană are dreptul să solicite și să obțină de la autoritățile și instituțiile publice, în condițiile prezentei legi, informații de interes public, cu excepția celor pentru care s-a stabilit un regim special.",
-      "weight": 3
-    },
-    {
-      "text": "Nu precizează că solicitantul alege modul de răspuns, permițând instituțiilor să evite răspunsul scris și să cheme cetățeanul la sediu pentru un răspuns verbal, imposibil de probat în instanță.",
-      "article": "art. I pct. 4 (art. 6 alin. (5))",
-      "quote": "Pentru comunicarea informațiilor de interes public solicitate poate fi folosită una sau mai multe dintre următoarele modalități: a) comunicarea electronică; b) comunicare fizică, pe suport de hârtie; c) comunicare verbală, la sediul autorității/instituției publice.",
-      "weight": 3
-    },
-    {
-      "text": "Introduce un motiv vag și circular de refuz al cererilor (încălcarea alin. 1, care doar enunță dreptul și excepția regimului special), deschizând calea respingerilor abuzive.",
-      "article": "art. I pct. 4 (art. 6 alin. (4) lit. a))",
-      "quote": "Prin excepție de la prevederile alin.(2) și (3), instituțiile publice pot refuza motivat comunicarea informațiilor solicitate, în următoarele situații: a) se constată că cererile sunt formulate cu încălcarea dispozițiilor alin.(1);",
+      "text": "Acum instituțiile sunt obligate să răspundă la cereri; proiectul permite refuzul pentru „încălcarea alin. (1)”, deși acel alineat oferă un drept, nu impune condiții, deschizând ușa refuzurilor arbitrare.",
+      "article": "Art. I pct. 4 (art. 6 alin. 4 lit. a)",
+      "quote": "se constată că cererile sunt formulate cu încălcarea dispozițiilor alin.(1);",
+      "lawQuote": "Autoritățile și instituțiile publice sunt obligate să asigure persoanelor, la cererea acestora, informațiile de interes public solicitate în scris sau verbal.",
       "weight": 2
     },
     {
-      "text": "Expunerea de motive cere ca cetățenii să justifice un interes personal și motivele pentru care solicită informații publice, contrar Constituției și principiului accesului liber și necondiționat.",
-      "article": "Expunerea de motive",
-      "quote": null,
+      "text": "Adaugă răspunsul „verbal, la sediu” fără a spune că solicitantul alege formatul; spre deosebire de regula actuală a răspunsului la adresa cerută, instituția poate chema cetățenii la sediu ca să evite răspunsul scris.",
+      "article": "Art. I pct. 4 (art. 6 alin. 5)",
+      "quote": "Pentru comunicarea informațiilor de interes public solicitate poate fi folosită una sau mai multe dintre următoarele modalități:",
+      "lawQuote": "numele, prenumele și semnătura solicitantului, precum și adresa la care se solicită primirea răspunsului.",
       "weight": 2
     },
     {
-      "text": "Formularea neclară a publicării din oficiu „pentru o perioadă de 5 ani” poate fi interpretată ca un plafon maxim, riscând ștergerea de pe site-urile instituțiilor a arhivelor mai vechi de 5 ani.",
-      "article": "art. I pct. 2 (art. 5 alin. (6))",
+      "text": "Acum publicarea din oficiu a bugetelor, bilanțurilor și rapoartelor este permanentă; noul termen de 5 ani nu spune dacă e durată minimă sau maximă, riscând ștergerea datelor, și omite autoritățile publice.",
+      "article": "Art. I pct. 2 (art. 5 alin. 6)",
       "quote": "Instituțiile publice au obligația de a publica din oficiu informațiile prevăzute la alin. (1)-(3), în condițiile prevăzute la alin. (4), pentru o perioadă de 5 ani.",
+      "lawQuote": "Fiecare autoritate sau instituție publică are obligația să comunice din oficiu următoarele informații de interes public:",
       "weight": 2
+    },
+    {
+      "text": "Scăpări de redactare: derogă fără sens de la art. 6 alin. (3) (care descrie doar elementele cererii scrise), dublează lit. a) și b), omite „autoritățile publice” din textul refuzului și greșește gramatical titlul legii.",
+      "article": "Art. I pct. 4 (art. 6 alin. 4) și titlul legii",
+      "quote": "Prin excepție de la prevederile alin.(2) și (3), instituțiile publice pot refuza motivat comunicarea informațiilor solicitate, în următoarele situații:",
+      "lawQuote": "Solicitarea în scris a informațiilor de interes public cuprinde următoarele elemente:",
+      "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 7,
-    "verified": 6
+    "checked": 6,
+    "verified": 6,
+    "lawChecked": 6,
+    "lawVerified": 6
   }
 }

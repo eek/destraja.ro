@@ -1,46 +1,45 @@
 {
   "slug": "plx-94-2026",
   "billId": "Pl-x 94/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
   "modelId": "gemini-4-neon-high",
-  "updatedAt": "2026-11-23T09:44:41.319Z",
-  "inputHash": "c677ec395594",
+  "updatedAt": "2026-11-27T09:42:22.229Z",
+  "inputHash": "97a7177891b5",
   "riskScore": 9,
-  "summary": "Un scop legitim de susținere a fermierilor locali, dar un proiect problematic în ansamblu, incompatibil cu dreptul UE, cu amenzi disproporționate, termene imposibile și numeroase erori de redactare.",
+  "input": {
+    "textChars": 38147,
+    "memoChars": 20456,
+    "baseline": "no-acts"
+  },
+  "summary": "Un proiect cu un scop bun pe hârtie, dar construit pe restricții contrare dreptului UE, sancțiuni disproporționate și numeroase contradicții care îl fac inaplicabil în forma actuală.",
   "good": [
     {
-      "text": "Verificarea anuală pe teren și interzicerea în piețe a celor care folosesc fals certificatul de producător protejează fermierii reali și ajută cumpărătorii să nu fie înșelați.",
-      "article": "art. 19 alin. (1)-(2) și art. 26 alin. (2)",
-      "quote": "Pentru validarea datelor înscrise în RDPAM, Direcțiile pentru Agricultură Județene, în colaborare cu APIA și, dacă este cazul, ANSVSA, efectuează cel puțin o verificare anuală în teren pentru fiecare operator.",
-      "weight": 2
-    },
-    {
-      "text": "Conectarea sistemului de trasabilitate cu APIA, ANSVSA, SEAP și e-Factura, plus verificarea prin cod QR la livrare, ar reduce frauda și ar arăta clar originea alimentelor.",
-      "article": "art. 11 alin. (2) și art. 22 alin. (2)-(3)",
+      "text": "Creează o platformă digitală integrată cu APIA, ANSVSA, SEAP și e-Factura și certificate cu cod QR, care ajută la urmărirea originii alimentelor și la reducerea fraudei fiscale.",
+      "article": "art. 9, art. 11–12, art. 18, art. 22",
       "quote": "Instituțiile publice vor putea verifica autenticitatea fiecărui certificat în timp real, în momentul recepției mărfurilor, prin scanarea codului unic QR.",
       "weight": 2
     },
     {
-      "text": "Fermierii primesc acces gratuit la platformă, cursuri locale în comune și ajutor la primărie sau în piețe pentru completarea datelor, astfel încât lipsa abilităților IT să nu îi blocheze.",
-      "article": "art. 10 alin. (2), art. 21 alin. (1)-(2) și art. 27 alin. (1)",
+      "text": "Introduce verificări anuale pe teren ale producției reale și exclude din piețe persoanele care folosesc certificate de producător fără să facă agricultură, protejând fermierii corecți.",
+      "article": "art. 19–20, art. 26",
+      "quote": "Pentru validarea datelor înscrise în RDPAM, Direcțiile pentru Agricultură Județene, în colaborare cu APIA și, dacă este cazul, ANSVSA, efectuează cel puțin o verificare anuală în teren pentru fiecare operator.",
+      "weight": 2
+    },
+    {
+      "text": "Oferă fermierilor fără competențe digitale cursuri gratuite, asistență la primărie sau în piețe și echipamente mobile, mutând raportarea în platformă la magazine și administratori.",
+      "article": "art. 10, art. 18 alin. (3), art. 21, art. 24 alin. (1)–(3), art. 25 alin. (1)–(3",
       "quote": "Fermierii care întâmpină dificultăți în utilizarea platformei digitale pot solicita sprijinul autorităților locale (primării), direcțiilor agricole sau cooperativelor partenere pentru completarea și transmiterea datelor.",
       "weight": 2
     },
     {
-      "text": "Semnalizarea vizibilă a produselor din lanțuri scurte la raft, în cataloage și online ajută cumpărătorii să identifice rapid alimentele locale și să aleagă informat.",
-      "article": "art. 29 alin. (1)-(2) și art. 32 alin. (1)",
-      "quote": "Produsele agroalimentare românești provenite din lanțuri scurte trebuie semnalizate vizibil la raft și în pliantele de promovare, cu mențiunea: „PRODUS ROMÂNESC – LANT SCURT”.",
-      "weight": 1
+      "text": "Obligă magazinele să eticheteze clar produsele românești din lanț scurt la raft și online și să publice trimestrial proveniența mărfii, ajutând cumpărătorii să aleagă informat.",
+      "article": "art. 29, art. 32",
+      "quote": "Rețelele comerciale sunt obligate să publice trimestrial, pe site-ul propriu, raportul privind structura provenienței produselor din magazine, defalcat pe grupe alimentare.",
+      "weight": 2
     },
     {
-      "text": "Guvernul poate suspenda temporar cotele în caz de secetă, epidemii sau embargouri, iar alimentele care nu cresc în România sunt excluse din calcul, evitând blocajele absurde.",
-      "article": "art. 8 alin. (1) și art. 37 alin. (1)-(2)",
-      "quote": "În situații excepționale de epidemii zoosanitare, fenomene climatice extreme, embargouri comerciale, Guvernul poate dispune, prin hotărâre, derogări temporare de la cotele prevăzute la art. 3, pe perioade limitate.",
-      "weight": 1
-    },
-    {
-      "text": "Autorizarea parteneriatelor cu state precum Franța, Italia sau Austria pentru schimbul de bune practici poate îmbunătăți funcționarea și compatibilitatea europeană a platformei.",
+      "text": "Autorizează Ministerul Agriculturii să colaboreze cu state UE cu platforme similare (Franța, Italia, Austria) pentru transfer de experiență și interoperabilitate europeană.",
       "article": "art. 15",
       "quote": "Ministerul Agriculturii și Dezvoltării Rurale este autorizat să inițieze parteneriate și proiecte comune cu statele membre care dețin platforme similare (ex: Franța – „Provenance”, Italia – SIAN, Austria – eAMA)",
       "weight": 1
@@ -48,105 +47,83 @@
   ],
   "bad": [
     {
-      "text": "Impune cote de 60-70% produse românești din raza de 200 km și 70% ingrediente românești la procesate, încălcând libera circulație a mărfurilor din UE și atrăgând risc de infringement.",
-      "article": "art. 2 lit. n), art. 3 alin. (1) și (3), art. 7 alin. (2)",
-      "quote": "Rețelele comerciale au obligația ca minimum 60% din volumul produselor agroalimentare proaspete și procesate aflate la vânzare să fie achiziționate prin lanțuri scurte de aprovizionare",
+      "text": "Impune cote obligatorii de 60–70% și minimum 70% ingrediente românești, excluzând firmele și produsele din alte state UE chiar și de la sub 200 km; încalcă piața unică europeană și riscă amenzi UE.",
+      "article": "art. 2 lit. b), g), l), n), art. 3 alin. (1)–(3), art. 5 alin. (2), art. 7 alin.",
+      "quote": "produsele marcate ca fiind de origine `mixtă', `UE/non-UE' sau `fabricat în România din ingrediente din import', precum și cele pentru care nu se poate demonstra proveniența în proporție de minimum 70% din ingrediente de origine românească.",
       "weight": 3
     },
     {
-      "text": "Obligă școlile, spitalele și armata să cumpere exclusiv alimente din raza de 200 km de la firme înregistrate în România, ocolind Legea 98/2016 și excluzând intermediarii, contrar dreptului UE.",
-      "article": "art. 6 alin. (1)-(3) și art. 4 alin. (2)",
-      "quote": "au obligația de a cere și utiliza exclusiv produse agroalimentare provenite din lanțuri scurte de aprovizionare locală, astfel cum sunt definite prin prezenta lege, în măsura în care exista disponibilitate în piață.",
+      "text": "Obligă școlile, spitalele și unitățile militare să cumpere exclusiv produse din raza de 200 km de la firme din România, prin excepție de la legea achizițiilor și fără intermediari, riscând blocaje și încălcarea dreptului UE.",
+      "article": "art. 4 alin. (2), art. 6 alin. (1)–(3)",
+      "quote": "Achiziția altor produse agroalimentare este permisă numai în cazul în care nu există disponibilitate internă documentată și verificată oficial pentru categoriile respective, conform raportului lunar prevazut de art. 3, emis de Ministerul Agriculturii și Dezvoltării Rurale.",
       "weight": 3
     },
     {
-      "text": "Definește «rețeaua comercială» de la doar 100 m² cumulat cu depozitul, inclusiv piețe, obligând micile magazine alimentare IMM să respecte aceleași cote și birocrație ca hipermarketurile.",
-      "article": "art. 2 lit. c)",
+      "text": "Definește „rețeaua comercială” de la doar 100 m² cumulat cu depozitele, inclusiv piețe, obligând magazinele mici de cartier și IMM-urile la cote de 60–70%, raportări pe site și responsabil de conformitate.",
+      "article": "art. 2 lit. c), art. 3 alin. (1) și (3), art. 31 alin. (2), art. 32 alin. (2)",
       "quote": "prin spații comerciale fizice totale, respectiv de vânzare și de depozitare, inclusiv piețe, având suprafață mai mare de 100 m² cumulat la nivel național.",
       "weight": 3
     },
     {
-      "text": "Pentru nerespectarea cotelor prevede amenzi de 500.000–2.000.000 lei la prima abatere, 2–10 milioane lei la recidivă și suspendarea activității până la 30 de zile, falimentând orice magazin mic.",
-      "article": "art. 34 alin. (1)",
+      "text": "Stabilește amenzi uriașe, de 500.000–2.000.000 lei la prima abatere, 2–10 milioane lei la recidivă, 50.000 lei/zi întârziere și închidere până la 30 de zile, fără legătură cu cifra de afaceri, putând falimenta firmele mici.",
+      "article": "art. 24 alin. (5), art. 34 alin. (1)–(2)",
       "quote": "amendă între 2.000.000 și 10.000.000 lei pentru fiecare abatere succesivă celei prevazute la lit. a), într-un interval de 12 luni;",
       "weight": 3
     },
     {
-      "text": "Magazinele trebuie să aplice legea și să interogheze PNLSTA în 120 de zile, deși platforma devine funcțională abia în 12 luni și obligatorie în 18 luni, fiind imposibil de respectat.",
-      "article": "art. 39 alin. (1) raportat la art. 13 alin. (2) și art. 23 alin. (1)",
+      "text": "Conține erori grave în sancțiuni: citează greșit articole din Codul penal (art. 323 e uz de fals, nu fals intelectual), incriminează vag întârzierea unui raport și face trimiteri spre articole fără legătură.",
+      "article": "art. 24 alin. (5), art. 30 alin. (2) lit. b), art. 34 alin. (2), art. 35, art. 3",
+      "quote": "Falsificarea, alterarea sau utilizarea de date false privind trasabilitatea produselor agroalimentare, în scopul obținerii beneficiilor prevăzute de prezenta lege, constituie faptă de natură penală conform art. 323 (fals intelectual) și art. 326 (declarații inexacte) Cod penal în vigoare",
+      "weight": 3
+    },
+    {
+      "text": "Obligă magazinele să contracteze loturi de minim 1,5 tone de culturi exotice adaptate local fără criteriu de preț și plafonează la 15% adaosul intermediarilor logistici, restrângând libertatea contractuală.",
+      "article": "art. 3 alin. (7) lit. c), art. 4 alin. (1) lit. b), art. 8 alin. (4)",
+      "quote": "cu cerința imediată de achiziție a acelui produs, rețeaua comercială are obligatia contractării cu producatorul cu amprentă logistică de carbon redusă.",
+      "weight": 3
+    },
+    {
+      "text": "Termenele se bat cap în cap: magazinele trebuie să aplice legea în 120 de zile, deși platforma digitală obligatorie devine funcțională abia în 12 luni și obligatorie în 18 luni, iar articolul de intrare în vigoare e gol.",
+      "article": "art. 13 alin. (2), art. 16 alin. (2), art. 23 alin. (1), art. 31 alin. (2), art.",
       "quote": "Rețelele comerciale au obligația de a se conforma prevederilor legii în termen de 120 de zile de la intrarea în vigoare.",
       "weight": 3
     },
     {
-      "text": "Obligă comercianții să încheie contracte cu producătorii de culturi neindigene adaptate local dacă există minimum 1,5 tone în platformă, fără referire la preț, încălcând libertatea contractuală.",
-      "article": "art. 8 alin. (4) (prima numerotare)",
-      "quote": "există cantități suficiente unei livrări de minim 1,5 tone și vandabile conform standardelor de calitate pentru produs ale rețelei comerciale cu cerința imediată de achiziție a acelui produs, rețeaua comercială are obligatia contractării",
-      "weight": 3
-    },
-    {
-      "text": "Normele de sancționare trimit la articole greșite (art. 20, art. 4 alin. 2, art. 10), creând pedepse contradictorii și amenzi de 50.000 lei/zi fără bază clară, vulnerabile la abuz și nulitate.",
-      "article": "art. 24 alin. (5), art. 30 alin. (2) lit. b) și art. 34 alin. (2)",
-      "quote": "în cazul în care raportul public de proveniență (art. 4 alin. 2) nu este publicat, se aplică amendă de 50.000 lei pentru fiecare zi de întârziere.",
-      "weight": 3
-    },
-    {
-      "text": "Art. 323 Cod penal e citat greșit ca «fals intelectual» (deși este uz de fals), iar întârzierea publicării raportului MADR devine abuz în serviciu penal fără a defini intenția sau prejudiciul.",
-      "article": "art. 35 alin. (1)-(2) și art. 36 alin. (2)",
-      "quote": "constituie faptă de natură penală conform art. 323 (fals intelectual) și art. 326 (declarații inexacte) Cod penal în vigoare, fără a exclude sancțiunile contravenționale specifice.",
-      "weight": 2
-    },
-    {
-      "text": "Plafonează adaosul distribuitorilor și cooperativelor la 15% din prețul producătorului, afectând libera concurență și riscând să facă nerentabil transportul produselor fermierilor mici.",
-      "article": "art. 4 alin. (1) lit. b) și art. 3 alin. (7) lit. c)",
-      "quote": "are calitatea de asociere/cooperativă de producători sau furnizor logistic independent, fără adaosuri comerciale care depășesc 15% din prețul producătorului.",
-      "weight": 2
-    },
-    {
-      "text": "Nu precizează unitatea și perioada de calcul a cotelor, măsoară 200 km când de la depozit, când de la magazin, iar art. 31 cere cotă de 60% la sezoniere, contrazicând art. 3 care cere 70%.",
-      "article": "art. 3 alin. (1)-(3), art. 6 alin. (3), art. 30 alin. (3) și art. 31 alin. (1)",
+      "text": "Lasă neclare modul de calcul al cotelor, ce înseamnă transport cu emisii ridicate și punctul față de care se măsoară cei 200 km (magazin sau depozit), delegând reguli esențiale către ordine de ministru.",
+      "article": "art. 2 lit. b) și g), art. 3 alin. (1)–(4), art. 5 alin. (3), art. 6 alin. (6), ",
       "quote": "Aplicarea pragului de 60% se realizează, pentru fiecare produs în parte, în măsura în care există ofertă națională certificată ca disponibilă pentru acel produs, conform Ministerului Agriculturii si Dezvoltării Rurale.",
       "weight": 2
     },
     {
-      "text": "Art. 40 despre intrarea în vigoare este complet gol, art. 3 sare peste alin. (5), art. 8 dublează alin. (3)-(4), iar controlul se suprapune neclar între ANPC și MADR.",
-      "article": "art. 40, art. 3, art. 8, art. 30 și art. 33",
-      "quote": null,
+      "text": "Pune pe primării, piețe și instituții sarcini costisitoare (birouri în fiecare piață, POS-uri gratuite, controale anuale la fiecare fermier) fără acoperire în bugetul estimat și pe calcule eronate privind TVA.",
+      "article": "art. 14, art. 19 alin. (1), art. 25 alin. (2)–(4), art. 27 alin. (1)–(2)",
+      "quote": "Primăriile au obligația de a organiza un punct de sprijin digital (oficiu agricol, birou mobil sau terminal electronic) în fiecare piață agroalimentară din subordine",
       "weight": 2
     },
     {
-      "text": "Art. 18 face înregistrarea opțională sub 1 ha, dar art. 25 o impune tuturor celor din piețe; în plus, o abatere de 30% la recoltă atrage suspendarea pe o durată neprecizată.",
-      "article": "art. 18 alin. (4), art. 19 alin. (3)-(4) și art. 25 alin. (1)",
+      "text": "Suprapune controalele MADR și ANPC fără a spune cine aplică amenzile de până la 10 milioane lei sau interdicția din piețe și declară simultan datele fermierilor „de interes public” și protejate GDPR.",
+      "article": "art. 11 alin. (3), art. 26 alin. (2), art. 30 alin. (1), art. 33 alin. (1), art.",
+      "quote": "Datele sunt gestionate în conformitate cu legislația privind protecția datelor cu caracter personal, fiind considerate informații de interes public în condițiile legii.",
+      "weight": 2
+    },
+    {
+      "text": "Se contrazice asupra micilor fermieri sub 1 ha (înregistrare facultativă în art. 18, dar obligatorie în piețe la art. 25) și limitează la 120 de zile pe an derogările în caz de secetă sau epidemii.",
+      "article": "art. 18 alin. (4), art. 25 alin. (1), art. 37 alin. (2)",
       "quote": "Fermierii care vând produse agroalimentare în piețele agroalimentare publice sau private au obligația de a fi înregistrați în RDPAM, dar nu sunt obligați să opereze direct sistemul PNLSTA.",
       "weight": 2
     },
     {
-      "text": "Impune controale anuale la fiecare fermier, birouri digitale în piețe, POS-uri gratuite și raportări în 24 de ore la magazine, fără finanțare prevăzută și cu amenzi mari la neconformare.",
-      "article": "art. 19 alin. (1), art. 24 alin. (2) și (5), art. 25 alin. (3), art. 27 alin. (2",
-      "quote": "Ministerul Agriculturii și Dezvoltării Rurale va implementa, prin APIA și direcțiile agricole, un program național de dotare cu echipamente mobile gratuite (POS, imprimante portabile) pentru fermierii activi în lanțurile scurte.",
-      "weight": 2
-    },
-    {
-      "text": "Chiar și criteriul de departajare după amprenta de carbon mai mică este permis doar firmelor cu activitatea principală în România, excluzând nejustificat producătorii apropiați de peste graniță.",
-      "article": "art. 5 alin. (1)-(2)",
-      "quote": "se acordă prioritate produsului care implică un lanț de aprovizionare cu amprentă de carbon mai redusă, evaluată prin distanța de transport de la locul de producție până la punctul de vânzare și prin documentația de trasabilitate.",
-      "weight": 2
-    },
-    {
-      "text": "Lasă reguli esențiale la ordinele MADR și stabilește termene care se bat cap în cap pentru norme: 60 de zile, 6 luni sau 6 luni după operaționalizarea platformei.",
-      "article": "art. 16 alin. (2), art. 23 alin. (3), art. 28 și art. 39 alin. (2)",
-      "quote": "Normele metodologice de funcționare a platformei, inclusiv ghidurile de utilizare și standardele de calitate și trasabilitate, vor fi aprobate prin hotărâre de Guvern, în termen de 6 luni de la operaționalizarea tehnică a sistemului.",
-      "weight": 1
-    },
-    {
-      "text": "Califică datele din platformă drept «informații de interes public», deși colectează CNP-ul fermierilor și date comerciale, creând riscuri de încălcare a GDPR și a confidențialității.",
-      "article": "art. 11 alin. (3) raportat la art. 18 alin. (2)",
-      "quote": "Datele sunt gestionate în conformitate cu legislația privind protecția datelor cu caracter personal, fiind considerate informații de interes public în condițiile legii.",
+      "text": "Textul are numeroase scăpări de redactare: alineatul 5 din art. 3 lipsește, art. 8 dublează alin. (3)–(4), etichetarea la raft e repetată în două articole, iar frazele au lipsuri și erori de tipar.",
+      "article": "art. 3, art. 5 alin. (1) și (4), art. 8, art. 29, art. 32 alin. (1), art. 33 ali",
+      "quote": "În cazul în care există mai multe oferte egale din punct de vedere al prețului de vânzare la , se acordă prioritate produsului care implică un lanț de aprovizionare cu amprentă de carbon mai redusă",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 21,
-    "verified": 21
+    "checked": 17,
+    "verified": 17,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

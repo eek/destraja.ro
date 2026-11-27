@@ -1,170 +1,194 @@
 {
   "slug": "plx-77-2026",
   "billId": "Pl-x 77/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "modelId": "gemini-4-hydrogen-high",
-  "updatedAt": "2026-11-19T10:25:09.581Z",
-  "inputHash": "04c5a40b6d49",
-  "riskScore": 8.3,
-  "summary": "În textul disponibil (art. 1–45), proiectul aduce garanții procedurale utile pentru cetățeni, dar este afectat de contradicții majore privind legea aplicabilă, excluderi eronate și riscuri de abuz.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:46:12.911Z",
+  "inputHash": "9cc77d891d5c",
+  "riskScore": 8.7,
+  "input": {
+    "textChars": 880674,
+    "memoChars": 60000,
+    "baseline": {
+      "file": "data/baseline/plx-77-2026.json",
+      "key": "0afb06b7374a7fe2",
+      "articlesShown": 0,
+      "truncated": false
+    }
+  },
+  "summary": "Un scop legitim de unificare și modernizare a procedurilor administrative, compromis însă în ansamblu de contradicții interne grave, abrogări vagi, restrângeri de drepturi și erori majore de redactare.",
   "good": [
     {
-      "text": "Obligă autoritățile și instanțele să aplice direct și cu prioritate normele UE obligatorii în caz de conflict cu legea internă, iar cetățenii le pot invoca direct în proceduri.",
-      "article": "art. 24 alin. (1)-(2) și (5)",
-      "quote": "În cazul unui conflict între o normă națională și o normă europeană cu efect direct, autoritatea publică sau instanța de judecată aplică în mod prioritar norma europeană",
+      "text": "Obligă autoritățile să motiveze clar, în fapt și în drept, orice decizie sau refuz și sancționează motivările standard ori evazive ca indiciu de exces de putere, facilitând verificarea legalității de către cetățeni și instanțe.",
+      "article": "art. 55, art. 89, art. 196–199",
+      "quote": "Lipsa motivării sau motivarea vădit formală, contradictorie, evazivă ori realizată prin preluare integrală neadaptată a unui conținut standard atrage:",
       "weight": 3
     },
     {
-      "text": "Garantează accesul oricărei persoane interesate la dosarul administrativ în maximum 10 zile lucrătoare, cu copii digitale gratuite și obligația motivării oricărei restricții.",
-      "article": "art. 39 alin. (2)-(4) și (6)",
-      "quote": "Persoana are dreptul de a accesa și consulta dosarul administrativ aferent procedurii, în orice etapă a acesteia, fără a fi necesară justificarea unui interes personal suplimentar",
+      "text": "Garantează accesul la dosarul administrativ în orice etapă, cu copii digitale gratuite în cel mult 10 zile lucrătoare, și dreptul persoanei de a fi informată și ascultată înainte de emiterea oricărei decizii nefavorabile.",
+      "article": "art. 39–40, art. 188",
+      "quote": "Persoana are dreptul de a accesa și consulta dosarul administrativ aferent procedurii, în orice etapă a acesteia, fără a fi necesară justificarea unui interes personal suplimentar, cu excepția cazurilor în care dispozițiile legale impun restricții.",
       "weight": 3
     },
     {
-      "text": "Asigură dreptul la audiere, prezentare de probe și răspuns motivat la argumentele esențiale înainte de emiterea oricărui act administrativ cu efect negativ.",
-      "article": "art. 40 alin. (1)-(3)",
-      "quote": "Persoana implicată, vizată sau interesată într-o procedură administrativă are dreptul de a fi audiată, cu respectarea unui termen rezonabil și după o informare prealabilă completă",
+      "text": "Protejează persoanele vulnerabile și fără acces digital, păstrând dreptul la ghișeu fizic și hârtie, asigurând gratuit traduceri, formate accesibile (Braille, font mărit) și scutiri de taxe sau avocat din oficiu în instanță.",
+      "article": "art. 32 alin. (2)–(3), art. 43, art. 56 alin. (2), art. 77, art. 114, art. 132, ",
+      "quote": "Utilizarea platformelor digitale nu poate restrânge dreptul persoanei de a opta pentru corespondență fizică sau comunicare directă cu funcționarii publici",
       "weight": 3
     },
     {
-      "text": "Oferă interpretare și traducere gratuită persoanelor care nu vorbesc româna sau au dizabilități de comunicare, sub sancțiunea nulității absolute a actului emis fără acest drept.",
-      "article": "art. 43 alin. (1)-(3)",
-      "quote": "Asistența prevăzută la alin. (1) este asigurată de autoritatea publică în mod gratuit, prin interpreți și traducători calificați sau prin mijloace tehnice omologate",
-      "weight": 3
-    },
-    {
-      "text": "Impune declararea în scris a conflictelor de interese chiar în ziua constatării, înlocuirea imediată a funcționarului și verificarea prealabilă a membrilor comisiilor decizionale.",
-      "article": "art. 35–38",
-      "quote": "Persoana aflată sau care ia cunoștință că se află într-un posibil conflict de interese are obligația de a declara, în scris, această situație superiorului ierarhic sau entității competente",
-      "weight": 3
-    },
-    {
-      "text": "Obligă autoritatea necompetentă să redirecționeze din oficiu cererea către instituția competentă în cel mult 5 zile lucrătoare și să notifice solicitantul.",
-      "article": "art. 33 alin. (3)-(4)",
+      "text": "Obligă instituțiile necompetente să redirecționeze din oficiu cererile, petițiile și plângerile prealabile în cel mult 5 zile lucrătoare către autoritatea competentă și să anunțe cetățeanul, păstrând valabilitatea termenului.",
+      "article": "art. 33 alin. (3), art. 92 alin. (4), art. 95 alin. (1), art. 99, art. 518 alin.",
       "quote": "transmite, din oficiu și în termen de cel mult 5 zile lucrătoare de la primirea cererii, către instituția competentă material și teritorial, notificând simultan solicitantul despre această redirecționare.",
       "weight": 2
     },
     {
-      "text": "Permite persoanelor și ONG-urilor cu interes legitim colectiv să intervină în procedură, să consulte dosarul și să depună observații pe care autoritatea trebuie să le consemneze.",
-      "article": "art. 34 alin. (1), (3) și (5)",
-      "quote": "inclusiv organizațiile neguvernamentale sau asociațiile legal constituite, care dovedește existența unui interes legitim, personal, direct, actual ori colectiv, susceptibil de a fi afectat de actele sau măsurile supuse procedurii administrative",
+      "text": "Consacră răspunderea patrimonială directă a autorităților pentru pagubele produse prin funcționarea defectuoasă a serviciului public, chiar fără identificarea unui vinovat individual, dublată de regresul împotriva funcționarului culpabil.",
+      "article": "art. 288, art. 399–403, art. 406–407",
+      "quote": "Răspunderea patrimonială obiectivă reprezintă obligația autorității publice de a repara prejudiciul cauzat unei persoane, chiar și în lipsa vinovăției directe a personalului său, atunci când prejudiciul este rezultatul unor deficiențe de funcționare a serviciului public",
       "weight": 2
     },
     {
-      "text": "Interzice instituțiilor să ceară cetățenilor documente pe care le pot lua din oficiu din registre oficiale și le obligă să justifice imposibilitatea obținerii lor.",
-      "article": "art. 44 alin. (2)",
-      "quote": "Datele și documentele care nu pot fi obținute de autoritatea publică din oficiu, prin accesarea registrelor sau bazelor de date oficiale, se prezintă de către persoană în termenele comunicate",
+      "text": "Impune publicarea din oficiu a bugetelor, actelor și procedurilor în formate deschise care pot fi căutate automat, plus plan anual de reglementare, arhivarea ședințelor publice și motivarea respingerii propunerilor cetățenilor.",
+      "article": "art. 128–131, art. 148–151, art. 157–159, art. 167",
+      "quote": "evitarea documentelor scanate care nu pot fi căutate sau indexate automat, cu excepția cazurilor în care documentele originale nu permit digitalizarea în formate editabile;",
       "weight": 2
     },
     {
-      "text": "Instituie dreptul la asistență și consultanță administrativă gratuită pentru completarea cererilor și înțelegerea procedurilor, inclusiv prin materiale accesibile persoanelor cu dizabilități.",
-      "article": "art. 41 alin. (1) și art. 42",
-      "quote": "Persoanele au dreptul de a primi, în mod gratuit și fără discriminare, consultanță administrativă din partea autorităților administrației publice, constând în explicații, îndrumări și clarificări",
+      "text": "Permite instanței să inverseze sarcina probei când autoritatea ascunde documente și instituie penalități progresive, amenzi pentru conducători și executare prin substituție când instituțiile refuză să aplice hotărârile definitive.",
+      "article": "art. 538 alin. (2) și (4), art. 621, art. 637, art. 656–657",
+      "quote": "În cazurile în care există un dezechilibru informațional evident între persoana fizică sau juridică și autoritatea publică, instanța poate dispune inversarea sarcinii probei, pentru a asigura echitatea procesului.",
       "weight": 2
     },
     {
-      "text": "Creează dreptul la replică administrativă prin care cetățeanul poate cere corectarea datelor inexacte sau prejudiciabile din evidențe, cu răspuns motivat în 15 zile lucrătoare.",
-      "article": "art. 41 alin. (3)",
+      "text": "Permite firmelor și persoanelor să conteste în instanță clauzele abuzive impuse unilateral de autorități în contractele administrative, instanțele putând elimina sau adapta clauzele și acorda despăgubiri.",
+      "article": "art. 329",
+      "quote": "Clauzele contractuale inserate în contractele administrative pot face obiectul controlului de legalitate exercitat de instanțele de contencios administrativ, în scopul identificării și sancționării caracterului abuziv al acestora",
+      "weight": 2
+    },
+    {
+      "text": "Obligă instituțiile să ceară cetățenilor doar actele pe care nu le pot lua din registrele publice, justificând solicitarea, și recunoaște deplin documentele și semnăturile electronice, sancționând refuzul nejustificat al acestora.",
+      "article": "art. 44 alin. (2), art. 59–60, art. 73–75",
+      "quote": "Autoritatea este obligată să indice în mod clar natura documentelor solicitate, motivul imposibilității obținerii acestora din oficiu și temeiul legal.",
+      "weight": 2
+    },
+    {
+      "text": "Oferă cetățenilor dreptul de a cere corectarea în 15 zile lucrătoare a datelor sau documentelor administrative greșite și obligă instituțiile să mențină canale securizate 24/7 și protecție contra represaliilor pentru avertizori.",
+      "article": "art. 41 alin. (3), art. 473–482",
       "quote": "Persoana are dreptul să formuleze o replică administrativă atunci când identifică informații, documente sau mențiuni administrative inexacte, incomplete ori prejudiciabile, solicitând corectarea sau completarea acestora.",
-      "weight": 2
-    },
-    {
-      "text": "Obligă administrația să aleagă măsura cea mai puțin intruzivă asupra drepturilor persoanei și să folosească avertizări și consultări preventive înainte de măsuri represive.",
-      "article": "art. 12 alin. (1) și art. 16",
-      "quote": "alegându-se, dintre mai multe măsuri posibile, pe aceea care afectează în cel mai mic grad drepturile și interesele legitime ale persoanelor.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Exclude din cod actele autorităților deliberative locale, asimilându-le celor legislative, deși art. 19 le definește ca acte administrative, lăsând hotărârile locale fără garanții.",
+      "text": "Scade termenul de atac în instanță de la 6 luni la 30 de zile sub sancțiunea decăderii, deși art. 218 păstrează 6 luni; cum actele digitale se consideră comunicate în 24 de ore, oamenii riscă să piardă dreptul la proces.",
+      "article": "art. 490, art. 218 alin. (2) lit. b), art. 518 alin. (2), art. 76 alin. (3), art",
+      "quote": "Acțiunea în contencios administrativ poate fi introdusă la instanța competentă în termen de 30 de zile calendaristice de la data comunicării răspunsului la plângerea prealabilă",
+      "weight": 3
+    },
+    {
+      "text": "Stabilește două sisteme incompatibile de căi de atac: o parte a codului prevede recurs direct la instanța superioară, iar alta impune apel în 15 zile și califică recursul drept cale extraordinară, creând haos procedural.",
+      "article": "art. 495 alin. (2), art. 497–500, art. 587–602",
+      "quote": "Recursul este o cale extraordinară de atac îndreptată împotriva hotărârilor pronunțate în apel în materia contenciosului administrativ, fiind admisibil numai în cazurile expres prevăzute de lege.",
+      "weight": 3
+    },
+    {
+      "text": "Abrogă la grămadă „dispozițiile contrare” și „de principiu” din Codul administrativ, achiziții publice, construcții și finanțe fără a numi articolele, lăsând necunoscut ce legi și norme UE mai rămân în vigoare.",
+      "article": "art. 693, art. 29 alin. (3)",
+      "quote": "La data intrării în vigoare a prezentului cod se abrogă dispozițiile contrare sau care reglementează domenii preluate de prezentul cod, din următoarele acte normative:",
+      "weight": 3
+    },
+    {
+      "text": "Se contrazice asupra priorității legilor: unele articole spun că prevalează legea specială, altele că prevalează codul sau norma mai favorabilă, iar art. 237 declară nule absolut normele sectoriale contrare.",
+      "article": "art. 3 alin. (3), art. 27 alin. (2), art. 31 alin. (1), art. 237 alin. (4)–(5), ",
+      "quote": "Normele procedurale sectoriale care contravin dispozițiilor prezentului cod sunt lovite de nulitate absolută, care se constată de instanța de contencios administrativ competentă sau de autoritatea de control abilitată prin lege.",
+      "weight": 3
+    },
+    {
+      "text": "Permite instituțiilor să inventeze contravenții și amenzi prin ordine de ministru și „regulamente interne”, încălcând principiul legalității sancțiunilor, și permite suspendarea accesului cetățenilor la proceduri administrative.",
+      "article": "art. 390 alin. (1), art. 392 alin. (2) lit. c)",
+      "quote": "Contravențiile administrative prevăzut la art. 389 alin. (2) se stabilesc și se sancționează prin acte normative speciale – legi, hotărâri ale Guvernului, ordine de ministru ori regulamente interne cu caracter normativ",
+      "weight": 3
+    },
+    {
+      "text": "Suspendă automat orice act administrativ sau executare silită la simpla depunere a unei cereri, contrazicând articolele care cer decizia instanței; similar, art. 384 se contrazice între două alineate vecine la sancțiuni disciplinare.",
+      "article": "art. 232 alin. (2) lit. c), art. 492–493, art. 384 alin. (2)–(3), art. 624 alin.",
+      "quote": "de drept, în temeiul legii, în cazul formulării unei acțiuni în contencios administrativ cu cerere de suspendare a executării actului.",
+      "weight": 3
+    },
+    {
+      "text": "Exclude din cod actele adoptate de „autoritățile deliberative locale”, confundând consiliile locale și județene cu autoritățile legislative, în contradicție directă cu restul legii care reglementează atacarea hotărârilor lor.",
       "article": "art. 7 alin. (1) lit. a)",
-      "quote": "actele adoptate de Parlament, de autoritățile deliberative locale sau de alte autorități legislative, precum și actele emise de autoritățile judecătorești",
+      "quote": "actele adoptate de Parlament, de autoritățile deliberative locale sau de alte autorități legislative, precum și actele emise de autoritățile judecătorești, în exercitarea atribuțiilor lor constituționale;",
       "weight": 3
     },
     {
-      "text": "Art. 3 și 7 dau prioritate legii speciale, dar art. 31 dă prioritate codului în caz de conflict, iar art. 29 abrogă generic normele contrare fără a le enumera, creând haos normativ.",
-      "article": "art. 3 alin. (3), art. 7 alin. (2), art. 29 alin. (3) și art. 31 alin. (1)",
-      "quote": "În cazul în care există divergențe sau conflicte între dispozițiile prezentului cod și reglementările cuprinse în alte acte normative privind desfășurarea procedurii administrative generale, se aplică cu prioritate normele prezentului cod",
+      "text": "Permite funcționarilor fără pregătire medicală să aprecieze subiectiv că un cetățean „suferă de tulburări psihice grave”, să îi claseze petiția fără răspuns și să sesizeze asistența socială, creând un risc sever de abuz.",
+      "article": "art. 100 alin. (4)–(5)",
+      "quote": "În cazul în care, din conținutul petiției, rezultă în mod evident că persoana semnatară nu are discernământ sau suferă de tulburări psihice grave care afectează capacitatea de înțelegere",
       "weight": 3
     },
     {
-      "text": "Permite autorităților să execute silit „fără concursul instanței” obligațiile din acte administrative ce pot fi executorii de drept din momentul emiterii, deschizând calea executărilor abuzive.",
-      "article": "art. 19 alin. (2) pct. 32 și art. 8 alin. (3) lit. a)",
-      "quote": "procedura prin care autoritatea publică pune în aplicare, fără concursul instanței, obligațiile prevăzute într-un act administrativ executoriu.",
+      "text": "Cere o garanție de 100% din suma fiscală contestată pentru orice suspendare a executării, în locul cauțiunii plafonate actuale, blocând apărarea firmelor față de decizii abuzive și contrazicând art. 675 care cere o cauțiune proporțională.",
+      "article": "art. 277 alin. (2), art. 675 alin. (3)",
+      "quote": "Cererea de suspendare trebuie să fie însoțită de constituirea unei garanții egale cu cuantumul creanței contestate.",
       "weight": 3
     },
     {
-      "text": "Actele emise de un funcționar aflat în conflict de interese sunt lovite doar de nulitate relativă și numai dacă victima dovedește că influența lui a afectat efectiv decizia.",
-      "article": "art. 37 alin. (3)",
-      "quote": "Continuarea participării persoanei aflate în conflict de interese atrage nulitatea relativă a actelor semnate sau emise de aceasta, dacă se dovedește că influența sa a afectat decizia administrativă.",
+      "text": "Reintroduce notificarea prealabilă obligatorie și suspendarea automată a licitațiilor la simpla depunere a unei contestații la CNSC, riscând blocarea investițiilor publice și a proiectelor din fonduri europene.",
+      "article": "art. 305 alin. (1) lit. c), art. 306 alin. (1)",
+      "quote": "Introducerea contestației produce, de regulă, suspendarea de drept a procedurii de atribuire, începând cu data înregistrării acesteia la Consiliul Național pentru Soluționarea Contestațiilor",
       "weight": 3
     },
     {
-      "text": "Declară inaplicabile de drept ordinele și regulamentele subsecvente contrare din ziua intrării în vigoare, înainte de armonizare, lăsând cetățeanul să ghicească ce regulă mai este valabilă.",
-      "article": "art. 30 alin. (3)",
-      "quote": "Dispozițiile subsecvente contrare prezentului cod devin inaplicabile de drept de la data intrării în vigoare a acestuia, iar neîndeplinirea obligațiilor de armonizare în termen atrage răspunderea",
+      "text": "Mută contenciosul administrativ la judecătorii fără a modifica concret Legea 304/2022 și impune noi structuri și platforme IT naționale fără impact bugetar și sursă de finanțare, riscând blocarea instanțelor și neconstituționalitate.",
+      "article": "art. 495 alin. (2) și (5), art. 497, art. 441, art. 447, art. 698–702",
+      "quote": "Dispozițiile prezentului articol se corelează cu prevederile Legii nr. 304/2022 privind organizarea judiciară, care se modifică în sensul extinderii competenței judecătoriilor la cauzele prevăzute de prezentul cod.",
+      "weight": 3
+    },
+    {
+      "text": "Permite primăriei să revoce unilateral o autorizație de construire deja emisă doar pentru „motive de oportunitate”, amenințând dreptul de proprietate și investițiile și contrazicând art. 226 care apără drepturile câștigate.",
+      "article": "art. 248 alin. (1)",
+      "quote": "Autorizația poate fi revocată de autoritatea emitentă pentru motive de oportunitate justificate.",
       "weight": 2
     },
     {
-      "text": "Stabilește un termen general de „30 de zile” fără a preciza dacă sunt lucrătoare sau calendaristice și permite amânarea unilaterală cu un simplu „nou termen estimat”, fără limită maximă.",
-      "article": "art. 41 alin. (2)",
-      "quote": "autoritatea este obligată să informeze proactiv solicitantul, indicând motivele întârzierii și noul termen estimat.",
+      "text": "Pentru funcționarii publici, termenul de decădere de 30 de zile pentru proces curge de la comunicarea actului, dar plângerea prealabilă obligatorie durează tot 30 de zile, făcând termenul să expire; plus două instanțe teritoriale opuse.",
+      "article": "art. 660 alin. (3), art. 663, art. 662 alin. (1), art. 505 alin. (4)",
+      "quote": "Înainte de sesizarea instanței, funcționarul public are obligația de a formula plângere prealabilă adresată autorității emitente a actului sau celei care a refuzat ori a omis să emită actul, în termen de 30 de zile",
       "weight": 2
     },
     {
-      "text": "Prevede vag răspundere contravențională sau penală pentru „lipsa de cooperare”, „îngrădirea accesului” ori refuzul traducerii, fără a defini faptele sau sancțiunile, încălcând claritatea legii.",
-      "article": "art. 18 alin. (3), art. 39 alin. (7) și art. 43 alin. (3)",
-      "quote": "Refuzul nejustificat de a acorda interpretarea sau traducerea atrage nulitatea absolută a actului administrativ emis fără respectarea dreptului la comunicare efectivă și răspunderea disciplinară, contravențională sau penală",
+      "text": "La abrogarea Legii 544/2001, introduce excepția vagă și nedefinită a „procesului deliberativ intern”, dispare scutirea de taxă de timbru, iar consultarea publică poate scădea la 24 de ore chiar pentru „oportunități financiare”.",
+      "article": "art. 124 alin. (1) lit. c), art. 135–136, art. 160 alin. (1) lit. c), art. 161 a",
+      "quote": "informațiile care privesc procesul deliberativ intern al autorităților publice, până la adoptarea unei decizii oficiale, astfel cum este definit în prezentul cod;",
       "weight": 2
     },
     {
-      "text": "Art. 20 alin. (2) aplică codul procedurilor în curs dacă nu afectează drepturi câștigate, dar art. 21 alin. (2) cere cumulativ dispoziții tranzitorii exprese și chiar acordul persoanei vizate.",
-      "article": "art. 20 alin. (2) și art. 21 alin. (2)",
-      "quote": "Normele procedurale prevăzute de prezentul cod pot fi aplicate și procedurilor aflate în curs la data intrării sale în vigoare, numai dacă",
+      "text": "Stabilește răspunderea disciplinară, patrimonială și penală a magistraților într-un cod administrativ și aplicarea Constituției fără sesizarea CCR, afectând independența justiției și statutul judecătorilor.",
+      "article": "art. 635 alin. (4), art. 691 alin. (8), art. 501 alin. (2) lit. a)",
+      "quote": "Încălcarea obligației de soluționare promptă atrage răspunderea disciplinară, patrimonială sau, după caz, penală a funcționarilor ori a magistraților responsabili.",
       "weight": 2
     },
     {
-      "text": "Obligă autoritățile administrative să sesizeze instanța pentru trimiteri preliminare la CJUE, deși doar instanțele într-un litigiu pot sesiza CJUE, riscând blocaje procedurale nejustificate.",
-      "article": "art. 25 alin. (3)",
-      "quote": "autoritățile administrative au obligația de a sesiza instanța competentă în acest scop, atunci când apare o astfel de necesitate.",
+      "text": "Trimite repetat la legi greșite: Legea 233/2002 (care privește petițiile, nu contractele administrative) și Legea 269/2022 în loc de Legea 242/2022 privind interoperabilitatea, și dă sarcini fostului „Minister al Integrării Europene”.",
+      "article": "art. 683 alin. (2), art. 693 alin. (1), art. 699 alin. (1), art. 689 alin. (7)",
+      "quote": "Legea nr. 233/2002 privind reglementarea contractelor administrative, publicată în Monitorul Oficial al României, Partea I, nr. 299 din 8 mai 2002",
       "weight": 2
     },
     {
-      "text": "Permite autorității să închidă procedura dacă persoana nu răspunde la solicitări sau convocări, fără a reglementa dovada comunicării efective a acestora ori procedura de redeschidere.",
-      "article": "art. 45 alin. (2)",
-      "quote": "Nerespectarea acestei obligații, fără un motiv justificat și după acordarea unui termen suplimentar rezonabil, poate conduce la întârzieri în soluționarea cererii sau, dacă lipsa cooperării face imposibilă continuarea procedurii, la închiderea acesteia",
-      "weight": 2
-    },
-    {
-      "text": "Expunerea de motive confundă grav legi de bază: atribuie Legii nr. 233/2002 contractele de achiziție (aprobă OG 27/2002 privind petițiile) și citează Legea nr. 269/2022 în loc de 242/2022.",
-      "article": "Expunerea de motive, Capitolul I",
-      "quote": null,
-      "weight": 2
-    },
-    {
-      "text": "Condiționează măsurile de sprijin pentru vârstnici, persoane cu dizabilități sau vulnerabile de „resursele disponibile”, oferind instituțiilor un pretext ușor pentru refuz.",
-      "article": "art. 32 alin. (2)",
-      "quote": "pot beneficia, în funcție de natura procedurii și de resursele disponibile, de măsuri de sprijin adaptate pentru asigurarea participării effective",
-      "weight": 1
-    },
-    {
-      "text": "Art. 5 sare direct la alineatul (2), fără alineat (1), iar art. 19 definește separat „partea interesată” și „persoana interesată” cu conținut aproape identic, afectând claritatea legii.",
-      "article": "art. 5 și art. 19 alin. (2) pct. 43 și 47",
-      "quote": "Persoană interesată – orice persoană fizică sau juridică ce dovedește existența unui interes legitim, personal, direct și actual, potrivit legii",
-      "weight": 1
-    },
-    {
-      "text": "Permite suspendarea procedurii cetățeanului până la 10 zile lucrătoare dacă funcționarul incompatibil nu are înlocuitor imediat, transferând blocajul intern al instituției asupra solicitantului.",
-      "article": "art. 37 alin. (1) lit. b)",
-      "quote": "suspendarea procedurii administrative pentru o perioadă de cel mult 10 zile lucrătoare, dacă persoana incompatibilă are un rol esențial și nu există înlocuitor imediat disponibil",
+      "text": "Textul are numeroase scăpări grave: termenul general e ba 30 zile lucrătoare, ba calendaristice; art. 5 nu are alin. (1); art. 405 e fără număr; zeci de trimiteri duc la articole inexistente sau la Legea 554/2004, pe care codul o abrogă.",
+      "article": "art. 5, art. 41, art. 50, art. 61, art. 69–70, art. 105, art. 240, art. 405, art",
+      "quote": "Decizia produce efecte obligatorii și executorii de la data comunicării, putând fi atacată în contencios administrativ la curtea de apel competentă, potrivit Legii contenciosului administrativ.",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 25,
-    "verified": 24
+    "checked": 27,
+    "verified": 27,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

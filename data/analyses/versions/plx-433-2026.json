@@ -1,0 +1,200 @@
+{
+  "slug": "plx-433-2026",
+  "billId": "PL-x 433/2026",
+  "updatedAt": "2026-11-27T09:02:10.201Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L225FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "150 euro de la stat pentru fiecare scrofiță de prăsilă crescută și vândută de fermele de reproducție",
+      "summaryTlDr": "Este o subvenție agricolă mică, cu un scop legitim, dar redactată neglijent. O trimitere greșită face ca beneficiarii să fie, literal, «întreprinderile aflate în dificultate». Condiția «născute în România» și plata fără un plafon pe cap expun schema la respingerea Comisiei Europene, iar fermierii riscă să returneze banii cu dobânzi.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/30/3/se476.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "150 de euro de stat pentru fiecare scrofiță de reproducție vândută de fermele românești",
+      "summaryTlDr": "Scopul e legitim: sprijin pentru o verigă a lanțului porcin care nu primește subvenții. Textul are însă trimiteri greșite, o perioadă lăsată neterminată, o condiție de origine națională și o redistribuire fără plafon pe cap de animal, care pot bloca aprobarea Comisiei Europene sau pot duce la recuperarea banilor de la fermieri.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a lăsat neterminată perioada schemei, iar erorile de fond din forma inițială au rămas",
+      "summary": "Senatul a făcut aproape numai corecturi de redactare. Perioada de aplicare din art. 1 alin. (4) a rămas acum neterminată, iar declarația din cerere trimite corect la condițiile din art. 3. Problemele importante (beneficiari, regim de minimis, condiția de origine) au rămas.",
+      "changes": [
+        {
+          "title": "Perioada de aplicare a schemei a rămas neterminată",
+          "text": "Art. 1 alin. (4) spunea inițial că schema se aplică în 2026-2030. Acum textul se oprește la „2026 -”, deși alin. (1) păstrează 2026-2030.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 1 alin. (4)",
+          "before": "(4) Schema se aplică pe întreg teritoriul României în perioada 2026-2030.",
+          "after": "(4) Schema se aplică pe întreg territoriul României în perioada 2026 -",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Declarația din cerere trimite corect la condițiile de eligibilitate",
+          "text": "În cererea din anexa nr. 1, solicitantul se obligă acum să respecte condițiile din art. 3 (eligibilitate), nu pe cele din art. 4 (documente).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "anexa nr. 1",
+          "before": "a) Să respect condițiile de acordare prevăzute la art.4 din prezenta lege",
+          "after": "a) Să respect condițiile de acordare prevăzute la art.3 din prezenta lege;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Societatea agricolă e legată acum de actul despre PFA",
+          "text": "În antetul cererii, societatea agricolă nu mai trimite la legea societăților agricole, ci la OUG 44/2008 privind PFA/ÎI/ÎF. Trimiterea rămâne imprecisă.",
+          "effect": "neutru",
+          "major": false,
+          "article": "anexa nr. 1",
+          "before": "PERSOANE JURIDICE, PFA/ ÎI/ ÎF și SOCIETATEA AGRICOLĂ POTRIVIT LEGII NR. 44/2008 PRIVIND SOCIETĂȚILE AGRICOLE ȘI ALTE FORME DE ASOCIERE ÎN AGRICULTURĂ",
+          "after": "Persoane juridice, PFA/ÎI/ÎF și Societatea agricolă potrivit Ordonanței de urgență a Guvernului nr.44/2008 privind desfășurarea activităților economice de către persoanele fizice autorizate",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Beneficiarii sunt desemnați prin trimitere greșită la întreprinderea aflată în dificultate",
+            "major": true,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Schema e numită „de minimis”, deși e ajutor de stat notificat",
+            "major": true,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Crescătorul e definit doar ca persoană juridică, dar PFA/ÎI/ÎF și PF apar eligibili",
+            "major": true,
+            "article": "art. 2 lit. d)"
+          },
+          {
+            "text": "Condiția ca scrofițele să fie născute în România poate fi discriminatorie",
+            "major": true,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "O singură sesiune de cereri, fără perioadă de referință pentru vânzările eligibile",
+            "major": true,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Sumele rămase se împart peste cuantumul de 150 euro/scrofiță",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Perioada de aplicare din alin. (4) este neterminată",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "„Fermă de multiplicare” nu este definită în lege",
+            "major": false,
+            "article": "art. 3 alin. (2) lit. f)"
+          },
+          {
+            "text": "Anexa cere document de la „ANARZ”, deși legea vorbește de ANZ",
+            "major": false,
+            "article": "anexa nr. 1"
+          },
+          {
+            "text": "Site generic „www.DAJ.org.ro” pentru publicarea beneficiarilor",
+            "major": false,
+            "article": "art. 9 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cuantum clar: 150 euro pentru fiecare scrofiță vândută",
+            "major": true,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "Buget plafonat la 25 milioane lei, cu reducere proporțională dacă se depășește",
+            "major": true,
+            "article": "art. 5 alin. (3), art. 6 alin. (3)"
+          },
+          {
+            "text": "Exclude întreprinderile în dificultate și pe cele cu decizii de recuperare neexecutate",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Interzice cumulul cu alte ajutoare pentru aceleași cheltuieli",
+            "major": true,
+            "article": "art. 3 alin. (2) lit. d)"
+          },
+          {
+            "text": "Beneficiarul poate contesta actele, cu procedură prealabilă și contencios administrativ",
+            "major": true,
+            "article": "art. 11 alin. (4)"
+          },
+          {
+            "text": "Schema se notifică la Comisia Europeană",
+            "major": false,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "O singură cerere la DAJ de la sediu, pentru toate exploatațiile",
+            "major": false,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Se publică beneficiarii care primesc peste 10.000 euro",
+            "major": false,
+            "article": "art. 9 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 41,
+        "removed": 37,
+        "same": 0.72
+      },
+      "model": "claude",
+      "schema": 4,
+      "basis": {
+        "a": "fbdc6f502b29e510",
+        "b": "fd61bef5bab0be35",
+        "findings": "f8ddc4cf8e2d478c",
+        "prompt": 4
+      },
+      "updatedAt": "2026-11-27T09:02:10.201Z"
+    }
+  ]
+}

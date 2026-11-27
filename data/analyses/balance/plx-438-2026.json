@@ -1,58 +1,64 @@
 {
   "slug": "plx-438-2026",
   "billId": "PL-x 438/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:44:58.779Z",
-  "inputHash": "26e2bf68fe42",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:56:44.783Z",
+  "inputHash": "c0921723540e",
   "riskScore": 7.7,
-  "summary": "Un proiect de lege cu un singur articol, problematic de la un capăt la altul, care permite internarea psihiatrică forțată pe criterii vagi și neconstituționale, ocolind garanțiile judiciare existente.",
-  "good": [],
-  "bad": [
+  "input": {
+    "textChars": 1377,
+    "memoChars": 12026,
+    "baseline": {
+      "file": "data/baseline/plx-438-2026.json",
+      "key": "e38820500fce4a3b",
+      "articlesShown": 0,
+      "truncated": false
+    }
+  },
+  "summary": "Un scop legitim (tratarea dependențelor grave), compromis de un singur articol redactat vag, necorelat procedural și cu riscuri majore de internare forțată abuzivă.",
+  "good": [
     {
-      "text": "Permite internarea forțată doar pentru că persoana e minoră sau „pusă sub interdicție”, chiar fără pericol iminent sau tulburare psihică gravă, încălcând grav libertatea individuală.",
-      "article": "art. unic (art. 22² lit. c))",
-      "quote": "și necesită de urgență instituirea tratamentului; c) persoana este minor sau pus sub interdicție.",
-      "weight": 3
-    },
-    {
-      "text": "Extinde internarea psihiatrică forțată la „alte comportamente addictive” nedefinite, putând permite privarea de libertate pentru dependența de jocuri de noroc, internet sau cumpărături.",
-      "article": "art. unic (art. 22² partea introductivă)",
-      "quote": "În cazul persoanei care suferă de dependențe de substanțe psihoactive sau alte comportamente addictive, a cărei stare s-a degradat continuu",
-      "weight": 3
-    },
-    {
-      "text": "Plasează norma după un inexistent art. 22¹, în afara capitolului privind internarea nevoluntară, fără a preciza cine decide măsura, pe ce durată și dacă se aplică controlul judecătoresc.",
-      "article": "art. unic",
-      "quote": "- După art.22¹ se introduce un articol nou, art.22², cu următorul cuprins:",
-      "weight": 3
-    },
-    {
-      "text": "Folosește noțiunea de persoană „pusă sub interdicție”, deși aceasta a fost declarată neconstituțională de CCR în 2020 și eliminată din Codul civil în 2022.",
-      "article": "art. unic (art. 22² lit. c))",
-      "quote": "nu are capacitatea psihică de a înțelege starea de boală și necesită de urgență instituirea tratamentului; c) persoana este minor sau pus sub interdicție.",
-      "weight": 3
-    },
-    {
-      "text": "Folosește criterii vagi („s-a degradat continuu”, „în mod repetat a refuzat”) și o formulare obligatorie („se instituie”), lăsând loc abuzurilor în dispunerea privării de libertate.",
-      "article": "art. unic (art. 22² partea introductivă)",
-      "quote": "a cărei stare s-a degradat continuu și care în mod repetat a refuzat internarea în vederea tratamentului, se instituie internarea nevoluntară și tratament de specialitate",
-      "weight": 2
-    },
-    {
-      "text": "Impune refuzul repetat și degradarea continuă ca cerințe prealabile pentru toate cazurile, ceea ce poate bloca sau întârzia intervenția medicală la primul episod de pericol iminent.",
-      "article": "art. unic (art. 22² partea introductivă și lit. a))",
-      "quote": "care în mod repetat a refuzat internarea în vederea tratamentului, se instituie internarea nevoluntară și tratament de specialitate în următoarele situații: a) persoana reprezintă un pericol iminent pentru viața lui sau a altor persoane;",
-      "weight": 2
-    },
-    {
-      "text": "Dublează regulile existente în Legea 487/2002, care acoperă deja dependența de substanțe și internarea nevoluntară la pericol sau tulburare gravă, creând confuzie în aplicarea legii.",
+      "text": "Permite expres tratamentul de specialitate prin internare nevoluntară pentru dependenții de substanțe psihoactive aflați în pericol iminent de viață ori cu o tulburare psihică gravă și fără discernământ al bolii.",
       "article": "art. unic (art. 22² lit. a) și b))",
       "quote": "b) persoana suferă de o tulburare psihică gravă ca urmare a consumului, judecata îi este afectată, nu are capacitatea psihică de a înțelege starea de boală și necesită de urgență instituirea tratamentului;",
       "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Permite internarea forțată a minorilor doar pe baza vârstei, a unui „comportament adictiv” și a refuzului tratamentului, fără să ceară pericol iminent pentru viață sau tulburare psihică gravă, literele a)–c) fiind alternative.",
+      "article": "art. unic (art. 22² lit. c))",
+      "quote": null,
+      "weight": 3
     },
     {
-      "text": "Conține greșeli de redactare și dezacorduri gramaticale („addictive”, „persoana... viața lui”, „persoana este minor sau pus”) care scad claritatea și rigoarea textului legal.",
+      "text": "Permite privarea de libertate pe termeni vagi și nedefiniți („alte comportamente addictive”, „starea s-a degradat continuu”, „în mod repetat”), putând acoperi arbitrar jocuri de noroc, ecrane sau alte obiceiuri.",
+      "article": "art. unic (art. 22²)",
+      "quote": "În cazul persoanei care suferă de dependențe de substanțe psihoactive sau alte comportamente addictive, a cărei stare s-a degradat continuu și care în mod repetat a refuzat internarea în vederea tratamentului",
+      "weight": 3
+    },
+    {
+      "text": "Plasează articolul izolat și folosește formula obligatorie „se instituie”, fără trimitere la procedura internării nevoluntare (evaluare psihiatrică, comisie, instanță, avocat, durată), lăsând neclar cum se controlează abuzurile.",
+      "article": "art. unic (art. 22²)",
+      "quote": "care în mod repetat a refuzat internarea în vederea tratamentului, se instituie internarea nevoluntară și tratament de specialitate în următoarele situații:",
+      "weight": 3
+    },
+    {
+      "text": "Folosește noțiunea „pus sub interdicție”, declarată neconstituțională (CCR nr. 601/2020) și înlocuită în 2022 cu consilierea judiciară și tutela specială, măsuri care nu suprimă automat dreptul de a decide asupra tratamentului.",
+      "article": "art. unic (art. 22² lit. c))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Impune obligatoriu internarea și tratamentul de specialitate pentru dependențe, dar nu prevede finanțare, capacitate de tratament ori mecanisme post-internare, deși expunerea de motive arată lipsa centrelor funcționale.",
+      "article": "art. unic (art. 22²)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Conține numeroase erori de redactare și tehnică legislativă: grafia greșită „addictive”, marcarea articolului ca alineat „(22²)”, dezacorduri de gen („persoana” / „viața lui”, „pus”) și lipsa legăturii explicite între literele a)–c).",
       "article": "art. unic (art. 22²)",
       "quote": "a) persoana reprezintă un pericol iminent pentru viața lui sau a altor persoane;",
       "weight": 1
@@ -60,7 +66,9 @@
   ],
   "fix": null,
   "quotes": {
-    "checked": 8,
-    "verified": 8
+    "checked": 4,
+    "verified": 4,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

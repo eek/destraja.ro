@@ -1,60 +1,93 @@
 {
   "slug": "plx-424-2026",
   "billId": "Pl-x 424/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:44:38.242Z",
-  "inputHash": "03928bb9dfca",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:41:26.556Z",
+  "inputHash": "2d5c8b0936d8",
   "riskScore": 9,
-  "summary": "O lege profund nocivă și neconstituțională în ansamblu, care dezincriminează fascismul, legionarismul și antisemitismul sub pretextul apărării intereselor naționale.",
-  "good": [],
-  "bad": [
+  "input": {
+    "textChars": 4196,
+    "memoChars": 8089,
+    "baseline": "no-acts"
+  },
+  "summary": "O lege cu scop declarativ și o evaluare parlamentară utilă, dar grav afectată de abrogări imediate fără înlocuire și de o imunitate neconstituțională.",
+  "good": [
     {
-      "text": "Abrogă integral legislația contra fascismului, legionarismului, rasismului și antisemitismului, dezincriminând organizațiile extremiste, cultul criminalilor de război și negarea Holocaustului.",
-      "article": "art. 4",
-      "quote": "Art. 4 - Se abrogă Legea nr.107/2006, O.U.G. nr.31/2002, Legea nr.217/ 2015, Legea nr.157/2018 și Legea nr.241/2025, care încalcă flagrant Constituția, după cum urmează:",
-      "weight": 3
-    },
-    {
-      "text": "Dezincriminarea acționează retroactiv, ceea ce duce la închiderea dosarelor penale în curs și la încetarea pedepselor definitive pentru fapte fasciste, legionare sau antisemite.",
-      "article": "art. 4 și art. 9",
-      "quote": "Art. 9 - Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.",
-      "weight": 3
-    },
-    {
-      "text": "Introduce în textul legii expresii pamfletare și acuzații că o altă etnie ar avea un „exces de influență/putere”, consfințind clișee antisemite și discriminatorii într-un act normativ.",
-      "article": "art. 4",
-      "quote": "- în plan logic, reprezintă o circularitate absurdă, căci protejarea exclusivă a intereselor unei alte etnii, denotă prin aceste legi un exces de influență/putere a acesteia, exces a cărui denunțare poate fi incriminată pe baza lor.",
-      "weight": 3
-    },
-    {
-      "text": "Declară direct în textul legii că cinci legi în vigoare „încalcă flagrant Constituția”, uzurpând atribuția exclusivă a Curții Constituționale și încălcând separația puterilor în stat.",
-      "article": "art. 4",
-      "quote": "– în plan individual, încalcă flagrant art.1.3, 20, 23.1, 29, 30, 31, 40, 53 din Constituție și le anulează legitimitatea, căci neagă libertăți naturale, fără de care acordul constituțional nu mai poate fi prezumat;",
-      "weight": 3
-    },
-    {
-      "text": "Interzice restricționarea „pe nici o cale” a acțiunilor făcute în numele identității românești, creând o imunitate abuzivă care contrazice direct alineatul următor și art. 7 din proiect.",
-      "article": "art. 3 alin. (2)",
-      "quote": "(2) Folosirea libertății de conștiință, exprimare, informare, asociere – întru apărarea intereselor identității românești este recunoscută ca fundamental legitimă și nu poate fi restricționată pe nici o cale.",
-      "weight": 3
-    },
-    {
-      "text": "Acordă protecție specială apărării „intereselor identității românești”, o expresie vagă și nedefinită în lege, ceea ce permite interpretări arbitrare și discriminarea minorităților naționale.",
-      "article": "art. 2 și art. 3 alin. (2)",
-      "quote": "În sensul prezentei legi, prin interese naționale se înțelege ansamblul valorilor, obiectivelor și priorităților care asigură suveranitatea, unitatea, integritatea teritorială, identitatea constituțională, securitatea și dezvoltarea statului român.",
+      "text": "Obligă comisiile juridice ale Parlamentului să prezinte în 12 luni un raport despre constituționalitatea, proporționalitatea și claritatea legilor care limitează libertățile, putând propune apoi modificări.",
+      "article": "art. 5–6",
+      "quote": "Parlamentul României instituie un mecanism de evaluare periodică a legislației care reglementează limitele exercitării libertăților fundamentale.",
       "weight": 2
     },
     {
-      "text": "Creează un mecanism neclar prin care comisiile juridice verifică constituționalitatea legilor în vigoare, dublând atribuțiile lor permanente și rolul Curții Constituționale.",
-      "article": "art. 5 și art. 6",
-      "quote": "(1) În termen de 12 luni de la intrarea în vigoare a prezentei legi, comisiile juridice ale Parlamentului vor prezenta un raport privind compatibilitatea cadrului legislativ existent cu principiile prevăzute de prezenta lege.",
-      "weight": 2
+      "text": "Reconfirmă că libertățile pot fi restrânse doar în condițiile art. 53 din Constituție și obligă autoritățile publice să interpreteze și să aplice legile în favoarea drepturilor fundamentale.",
+      "article": "art. 7–8",
+      "quote": "Autoritățile publice au obligația de a asigura interpretarea și aplicarea legislației în sensul respectării drepturilor și libertăților fundamentale.",
+      "weight": 1
     }
   ],
-  "fix": null,
+  "bad": [
+    {
+      "text": "Abrogă integral, la 30 de zile de la publicare, cinci legi fără nicio normă de înlocuire sau regim tranzitoriu, contrazicând expunerea de motive care susține că nu slăbește combaterea extremismului, rasismului și antisemitismului.",
+      "article": "art. 4, art. 9",
+      "quote": "Se abrogă Legea nr.107/2006, O.U.G. nr.31/2002, Legea nr.217/ 2015, Legea nr.157/2018 și Legea nr.241/2025, care încalcă flagrant Constituția, după cum urmează:",
+      "weight": 3
+    },
+    {
+      "text": "Interzice «pe nici o cale» restricționarea libertăților invocate pentru «identitatea românească», încălcând art. 53 din Constituție și contrazicând chiar alineatul următor și art. 7, ceea ce face legea imprevizibilă.",
+      "article": "art. 3 alin. (2)–(3), art. 7",
+      "quote": "Folosirea libertății de conștiință, exprimare, informare, asociere – întru apărarea intereselor identității românești este recunoscută ca fundamental legitimă și nu poate fi restricționată pe nici o cale.",
+      "weight": 3
+    },
+    {
+      "text": "Introduce în corpul legii afirmații polemice despre «exces de influență/putere» al «unei alte etnii» și «blocarea anticorpilor identitari», stigmatizând o comunitate etnică și încălcând regulile de tehnică legislativă.",
+      "article": "art. 4",
+      "quote": "protejarea exclusivă a intereselor unei alte etnii, denotă prin aceste legi un exces de influență/putere a acesteia, exces a cărui denunțare poate fi incriminată pe baza lor.",
+      "weight": 3
+    },
+    {
+      "text": "Declară direct în textul legii că actele abrogate «încalcă flagrant Constituția», preluând atribuția exclusivă a Curții Constituționale de a constata neconstituționalitatea legilor.",
+      "article": "art. 4",
+      "quote": "în plan individual, încalcă flagrant art.1.3, 20, 23.1, 29, 30, 31, 40, 53 din Constituție și le anulează legitimitatea, căci neagă libertăți naturale",
+      "weight": 2
+    },
+    {
+      "text": "Abrogă cele cinci legi în 30 de zile de la publicare, deși prevede abia în 12 luni un raport al comisiilor juridice care să analizeze legislația și să propună eventuale modificări sau abrogări.",
+      "article": "art. 4, art. 6, art. 9",
+      "quote": "În termen de 12 luni de la intrarea în vigoare a prezentei legi, comisiile juridice ale Parlamentului vor prezenta un raport privind compatibilitatea cadrului legislativ existent cu principiile prevăzute de prezenta lege.",
+      "weight": 2
+    },
+    {
+      "text": "Definește vag «interesele naționale», folosește expresia nedefinită «interesele identității românești» și nu stabilește frecvența sau procedura evaluării periodice, permițând interpretări arbitrare.",
+      "article": "art. 2, art. 3 alin. (2), art. 5",
+      "quote": "prin interese naționale se înțelege ansamblul valorilor, obiectivelor și priorităților care asigură suveranitatea, unitatea, integritatea teritorială, identitatea constituțională, securitatea și dezvoltarea statului român.",
+      "weight": 2
+    },
+    {
+      "text": "Abrogă separat legi de aprobare și de modificare deja încorporate în actul de bază, citează neconform articole din Constituție («art.33.2/3») și amestecă ortografia veche cu cea nouă («stînjenind», «încălcându-se»).",
+      "article": "art. 4",
+      "quote": "în plan colectiv, încalcă art.2, 3.4, 54.1, 55.1 din Constituție, stînjenind apărarea intereselor naționale, provocînd blocarea anticorpilor identitari, deci corodînd suveranitatea României;",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea art. 4 (abrogările imediate și pledoaria ideologică) și a art. 3 alin. (2) (interdicția absolută de restricționare) ar înlătura conflictele constituționale și ar lăsa un cadru acceptabil pentru evaluarea parlamentară.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2.5
+  },
   "quotes": {
-    "checked": 7,
-    "verified": 7
+    "checked": 9,
+    "verified": 9,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

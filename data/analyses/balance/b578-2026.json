@@ -1,122 +1,93 @@
 {
   "slug": "b578-2026",
   "billId": "B578/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
   "modelId": "gemini-4-neon-high",
-  "updatedAt": "2026-11-26T11:25:04.580Z",
-  "inputHash": "8bcb2318ab72",
+  "updatedAt": "2026-11-27T09:51:59.720Z",
+  "inputHash": "3f92691c8a52",
   "riskScore": 7.7,
-  "summary": "O intenție populară de integritate, dar scrisă grav defectuos și plină de prevederi neconstituționale de la un capăt la altul.",
+  "input": {
+    "textChars": 8803,
+    "memoChars": 4117,
+    "baseline": "no-acts"
+  },
+  "summary": "Un scop declarat de integritate, dar transpus într-un proiect neconstituțional și redactat haotic de la un capăt la altul.",
   "good": [
     {
-      "text": "Testarea este realizată exclusiv de personal medical specializat și acreditat, nu de angajați administrativi sau factori politici, ceea ce crește siguranța actului medical.",
-      "article": "după art. 3 lit. e)",
+      "text": "Orice test inițial pozitiv trebuie confirmat printr-o analiză biologică la o unitate spitalicească autorizată, reducând riscul ca o persoană să fie acuzată pe baza unui rezultat fals pozitiv.",
+      "article": "art. 10",
+      "quote": "pentru recoltarea probelor biologice în vederea confirmării rezultatului și stabilirii substanței identificate.",
+      "weight": 2
+    },
+    {
+      "text": "Testarea se face gratuit, în spații special amenajate în Palatul Parlamentului, exclusiv de personal medical acreditat, ceea ce oferă condiții medicale și de igienă adecvate.",
+      "article": "art. 3",
       "quote": "Testarea se efectuează exclusiv de către personal medical specializat și acreditat, desemnat prin ordin comun al Ministerului Sănătății și Ministerului Afacerilor Interne.",
-      "weight": 2
-    },
-    {
-      "text": "Un test inițial pozitiv nu e suficient singur: legea cere confirmare de laborator într-un spital autorizat și identificarea substanței, reducând riscul de erori ale testelor rapide.",
-      "article": "art. 10 alin. (1)",
-      "quote": "În situația unui test inițial pozitiv, persoana vizată este condusă la o unitate spitalicească autorizată, pentru recoltarea probelor biologice în vederea confirmării rezultatului și stabilirii substanței identificate.",
-      "weight": 2
-    },
-    {
-      "text": "Spațiile de testare sunt amenajate gratuit chiar în Palatul Parlamentului, astfel încât persoanele testate nu plătesc analizele și nu pierd timp cu deplasări.",
-      "article": "după art. 3 lit. e)",
-      "quote": "are obligația de a organiza, în mod gratuit, spații special amenajate în incinta Palatului Parlamentului, dotate și autorizate pentru desfășurarea testării antidrog.",
       "weight": 1
     },
     {
-      "text": "Legea acordă 90 de zile pentru elaborarea normelor de aplicare și 6 luni până la intrarea în vigoare, oferind un termen de pregătire administrativă.",
-      "article": "art. 12",
+      "text": "Legea prevede un termen de 6 luni până la intrarea în vigoare și 90 de zile pentru elaborarea normelor metodologice, lăsând teoretic timp de pregătire instituțională.",
+      "article": "art. 11–12",
       "quote": "În termen de 90 de zile de la publicarea prezentei legi, Guvernul, prin Ministerul Sănătății și Ministerul Afacerilor Interne, va elabora și aproba normele metodologice de aplicare.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Dacă testarea nu e organizată, lucrările Parlamentului se suspendă automat, inclusiv în sesiuni de urgență. O simplă problemă administrativă poate bloca puterea legislativă, contrar Constituției.",
-      "article": "art. 5 (ultimul alineat)",
+      "text": "Dacă testarea nu e organizată la timp, lucrările Parlamentului se suspendă automat, inclusiv în sesiuni extraordinare; o simplă blocare administrativă poate paraliza puterea legislativă, fără termen sau remediere.",
+      "article": "art. 5",
       "quote": "În situația în care testarea nu este organizată conform prezentei legi, lucrările sesiunii parlamentare se suspendă de drept până la îndeplinirea acestei obligații procedurale.",
       "weight": 3
     },
     {
-      "text": "Parlamentarii pot pierde 3 luni dreptul la cuvânt și la inițiativă legislativă și până la 50% din indemnizație, lovind în mandatul constituțional, fără organ decident sau cale de atac.",
-      "article": "art. 8 alin. (1)",
-      "quote": "suspendarea dreptului la cuvânt și la inițiativă parlamentară pentru o perioadă de 3 luni;",
+      "text": "Suspendarea dreptului la cuvânt și la inițiativă legislativă timp de 3 luni pentru neprezentare sau refuz lovește direct în mandatul constituțional al parlamentarilor și îi privează pe alegători de reprezentare.",
+      "article": "art. 8 lit. a)",
+      "quote": "suspendarea dreptului la cuvânt și la inițiativă parlamentară pentru o perioadă de 3 luni",
       "weight": 3
     },
     {
-      "text": "Testarea vizează și substanțe psihoactive legale, fără excepții pentru tratamente cu rețetă și fără praguri, expunând la sancțiuni oameni bolnavi și permițând recoltări invazive fără reguli.",
-      "article": "art. 3 lit. e)",
+      "text": "Testarea vizează inclusiv substanțe psihoactive legale, fără excepții pentru tratamente medicale prescrise sau praguri, iar principiul transparenței invocă publicarea rezultatelor, afectând grav viața privată și datele medicale.",
+      "article": "art. 3 lit. e) și art. 1",
       "quote": "procedura de recoltare și analiză a probelor biologice (urina, salivă, sânge sau păr), în scopul depistării consumului de substanțe psihoactive, legale sau ilegale.",
       "weight": 3
     },
     {
-      "text": "Persoana cu test inițial pozitiv este „condusă” la spital, fără a preciza cine o poate reține, cum se respectă libertatea și imunitatea parlamentară sau dacă există drept la contraexpertiză.",
-      "article": "art. 10 alin. (1)",
-      "quote": "În situația unui test inițial pozitiv, persoana vizată este condusă la o unitate spitalicească autorizată, pentru recoltarea probelor biologice în vederea confirmării rezultatului și stabilirii substanței identificate.",
+      "text": "La un test inițial pozitiv, persoana este „condusă” la spital fără a se stabili cine aplică măsura, ce se întâmplă în caz de refuz, cum se respectă integritatea fizică și imunitatea și fără drept la contraexpertiză.",
+      "article": "art. 10",
+      "quote": "În situația unui test inițial pozitiv, persoana vizată este condusă la o unitate spitalicească autorizată",
       "weight": 3
     },
     {
-      "text": "Angajaților li se suspendă automat contractul de muncă fără durată, cercetare disciplinară, apărare sau condiții de revenire, în conflict cu Codul muncii și dreptul la muncă.",
-      "article": "art. 9",
+      "text": "Lipsesc organul sancționator, procedura de apărare, calea de atac și durata suspendării contractului angajaților; pentru parlamentari, la rezultat pozitiv se sesizează Ministerul Justiției, care nu are atribuții legale.",
+      "article": "art. 7–9",
       "quote": "În cazul personalului angajat, sancțiunile includ suspendarea contractului de muncă, iar în caz de rezultate pozitive confirmate, contractul va fi suspendat de drept.",
       "weight": 3
     },
     {
-      "text": "La rezultat pozitiv, se sesizează Ministerul Justiției, instituție fără rol penal sau disciplinar, iar art. 8 omite să prevadă efectiv sancțiuni pentru parlamentarii testați pozitiv.",
-      "article": "art. 8 alin. (2)",
-      "quote": "În cazul unui rezultat pozitiv confirmat, Președintele Camerei din care face parte parlamentarul sesizează de îndată Ministerul Justiției și organele competente, în vederea demarării procedurilor legale.",
-      "weight": 2
-    },
-    {
-      "text": "Art. 1 vorbește de „publicarea rezultatelor”, dar legea nu are nicio regulă privind confidențialitatea, accesul sau ștergerea acestor date medicale sensibile, încălcând viața privată și GDPR.",
-      "article": "art. 1",
-      "quote": "Cetățenii au dreptul de a fi informați că aleșii lor nu sunt sub influența substanțelor psihoactive. Testarea antidrog periodică și publicarea rezultatelor vor contribui la consolidarea încrederii în activitatea Parlamentului.",
-      "weight": 2
-    },
-    {
-      "text": "Orice absență la data și ora stabilite este automat „abatere gravă” sancționată dur, fără nicio excepție pentru concediu medical, deplasări oficiale, urgențe familiale sau reprogramare.",
-      "article": "art. 7",
-      "quote": "Parlamentarii, angajații, consilierii și personalul auxiliar au obligația de a se prezenta la testare la data și ora stabilite. Neprezentarea sau refuzul constituie abatere gravă și atrage sancțiunile prevăzute de prezenta lege.",
-      "weight": 2
-    },
-    {
-      "text": "Testarea „prin sondaj” a angajaților și regulile esențiale sunt lăsate complet la norme ale Guvernului, permițând verificări arbitrare și restrângerea drepturilor fără prevederi clare în lege.",
-      "article": "art. 5 și art. 12",
-      "quote": "Angajații, consilierii și personalul auxiliar se testează anual, precum și prin sondaj, în perioada sesiunilor parlamentare.",
-      "weight": 2
-    },
-    {
-      "text": "Proiectul este încadrat ca lege ordinară (art. 76 alin. 2), deși modificarea statutului parlamentarilor și a raporturilor de muncă necesită lege organică, riscând neconstituționalitatea.",
-      "article": "formula finală de adoptare",
+      "text": "Guvernul primește puterea de a stabili prin norme și ordine comune regulile esențiale ale testării Parlamentului, iar proiectul se adoptă ca lege ordinară, deși afectează statutul parlamentarilor și raporturile de muncă.",
+      "article": "art. 3, art. 12 și formula de adoptare",
       "quote": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și ale art. 76 alin. (2) din Constituția României, republicată.",
       "weight": 2
     },
     {
-      "text": "Textul are vicii grave de redactare: lipsesc art. 2, art. 4 și Cap. II, include pasaje narative fără valoare de normă, iar art. 10 trimite la instituții din art. 9 care nu există în text.",
-      "article": "art. 1–11",
-      "quote": "Rezultatele confirmate sunt comunicate în regim de urgență instituțiilor prevăzute la art. 8 și 9.",
+      "text": "Impune amenajarea de spații și testări periodice și prin sondaj din bugetul Parlamentului, plus obligația Guvernului de a face rectificări bugetare la nevoie, fără estimare de costuri și fără plafon de cheltuieli.",
+      "article": "art. 6",
+      "quote": "Dacă este necesar, Guvernul va aloca fonduri suplimentare prin rectificare bugetară, pentru asigurarea funcționării programului.",
       "weight": 2
     },
     {
-      "text": "Categoria „personal auxiliar” e definită vag, putând include firme externe sau colaboratori, iar sancțiunile vizează doar contracte de muncă, lăsând neclar regimul funcționarilor și consilierilor.",
-      "article": "art. 3 lit. d)",
-      "quote": "d) Personal auxiliar – alte categorii de personal care sprijină activitatea Parlamentului;",
-      "weight": 1
-    },
-    {
-      "text": "Art. 6 obligă Guvernul să aloce fonduri suplimentare prin rectificare bugetară fără estimarea costurilor și fără indicarea sursei de finanțare, în conflict cu regulile constituționale bugetare.",
-      "article": "art. 6 alin. (2)",
-      "quote": "Dacă este necesar, Guvernul va aloca fonduri suplimentare prin rectificare bugetară, pentru asigurarea funcționării programului.",
+      "text": "Textul inserează pasaje din expunerea de motive în articole (inclusiv art. 9), sare peste art. 2, art. 4 și capitolul II și face trimiteri în gol (art. 10 trimite la instituții inexistente în art. 9), generând haos juridic.",
+      "article": "art. 1–11",
+      "quote": "Legea prevede sancțiuni clare și proporționale pentru neprezentarea la testare sau pentru rezultatele pozitive.",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 17,
-    "verified": 17
+    "checked": 11,
+    "verified": 11,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

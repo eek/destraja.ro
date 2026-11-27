@@ -2,7 +2,7 @@
  "slug": "plx-496-2026",
  "billId": "PL-x 496/2026",
  "schema": 1,
- "updatedAt": "2026-11-25T19:55:25.880Z",
+ "updatedAt": "2026-11-27T09:23:41.597Z",
  "documents": [
   {
    "kind": "comisie",
@@ -112,11 +112,22 @@
    "docUrl": "https://www.cdep.ro/comisii/aparare/doc/2026/av496.docx",
    "source": "cdep.ro",
    "receivedAt": "2026-10-14",
-   "verdict": null,
-   "verdictQuote": null,
-   "verdictFrom": null,
-   "date": null,
-   "observations": []
+   "verdict": "favorabil",
+   "verdictQuote": "În urma dezbaterilor, membrii Comisiei pentru apărare, ordine publică și siguranță națională au hotărât, cu majoritate de voturi, avizarea favorabilă a proiectului de lege.",
+   "verdictFrom": "regex",
+   "vote": {
+    "statement": "cu majoritate de voturi",
+    "pentru": null,
+    "contra": null,
+    "abtineri": null,
+    "quote": "cu majoritate de voturi"
+   },
+   "date": "2026-10-14",
+   "observations": [],
+   "textHash": "3e0831c85bde4de119ab5e51083601a66079524c",
+   "textMethod": "text",
+   "extractVersion": 4,
+   "checkedAt": "2026-11-27T09:22:39.749Z"
   },
   {
    "kind": "comisie",
@@ -132,11 +143,23 @@
    "docUrl": "https://www.cdep.ro/comisii/juridica/doc/2026/av496.doc",
    "source": "cdep.ro",
    "receivedAt": "2026-10-15",
-   "verdict": null,
-   "verdictQuote": null,
-   "verdictFrom": null,
+   "verdict": "favorabil",
+   "verdictQuote": "În urma dezbaterilor s-a hotărât, cu unanimitate de voturi, avizarea favorabilă a proiectului de lege, în forma transmisă Comisiei juridice, de disciplină și imunități de către Biroul Permanent.",
+   "verdictFrom": "regex",
+   "vote": {
+    "statement": "cu unanimitate de voturi",
+    "pentru": null,
+    "contra": null,
+    "abtineri": null,
+    "quote": "cu unanimitate de voturi",
+    "unanimous": true
+   },
    "date": null,
-   "observations": []
+   "observations": [],
+   "textHash": "23c75ea62ad6bf9bc07feceea3124ff53b86f428",
+   "textMethod": "text",
+   "extractVersion": 4,
+   "checkedAt": "2026-11-27T09:23:41.597Z"
   }
  ]
 }

@@ -1,0 +1,177 @@
+{
+  "slug": "plx-716-2026",
+  "billId": "PL-x 716/2026",
+  "updatedAt": "2026-11-27T09:07:02.654Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L527FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Asociații își pot lua înapoi banii împrumutați firmei, chiar dacă firma are capitalul pe minus",
+      "summaryTlDr": "Este o corecție utilă pentru IMM-uri. Relaxează interdicția introdusă în 2025 de a restitui împrumuturile asociaților când activul net e sub jumătate din capital. Riscul principal nu vine din idee, ci din nepotrivirea dintre forma inițiatorului și forma aflată acum în dezbatere, plus un test de lichiditate de doar 30 de zile, cam scurt.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 6
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/10/6/se814.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Asociații își pot lua înapoi banii împrumutați firmei, chiar dacă firma are capitalul pe minus, cu condiția să nu lase datorii neplătite în urmă",
+      "summaryTlDr": "E o corecție utilă și relativ prudentă a interdicției totale introduse prin Legea nr. 239/2025. Interdicția rămâne regula, dar asociații își pot recupera împrumuturile dacă firma nu are restanțe la salariați, la stat sau la creditorii externi și are lichidități pentru scadențele din următoarele 30 de zile. Riscurile țin mai ales de câțiva termeni vagi și de un orizont de protecție scurt.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Împrumuturile de la asociați se pot restitui doar dacă firma își plătește salariații, statul și creditorii",
+      "summary": "Inițial, firmele cu activ net sub jumătate din capital ar fi putut returna oricând împrumuturile asociaților. Acum restituirea e permisă doar dacă nu există datorii restante și banii acoperă plățile din următoarele 30 de zile.",
+      "changes": [
+        {
+          "title": "Restituirea permisă doar fără datorii restante",
+          "text": "La art. 67 alin. (2⁴), permisiunea totală de restituire este înlocuită cu o condiție: firma să nu aibă datorii exigibile neplătite către salariați, stat sau creditori neafiliați.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I",
+          "before": "rambursarea împrumuturilor acordate societății de către asociați sau acționari nu este considerată repartizare sau distribuire de profit și este permisă chiar dacă activul net al societății este diminuat la mai puțin de jumătate din valoarea capitalului social subscris",
+          "after": "pot fi restituite, integral sau parțial, dacă, la data restituirii, societatea nu are obligații certe, lichide și exigibile neachitate față de salariați, bugetul general consolidat ori creditori neafiliați",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Bani suficienți pentru plățile din următoarele 30 zile",
+          "text": "Art. 67 alin. (2⁴) cere în plus ca, după restituire, disponibilitățile bănești să acopere datoriile către salariați, stat și creditori scadente în 30 de zile.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I",
+          "before": null,
+          "after": "după restituire, disponibilitățile bănești acoperă obligațiile certe și lichide față de aceștia, a căror scadență intervine în următoarele 30 de zile",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Răspundere solidară pentru oricine primește banii ilegal",
+          "text": "Art. 67 alin. (2⁵) face răspunzătoare solidar cu firma, pentru datoriile la fisc, orice persoană care a primit împrumuturi cu încălcarea interdicțiilor, în limita sumelor.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I",
+          "before": null,
+          "after": "(2⁵) În cazul încălcării interdicțiilor prevăzute la alin. (2³) și (2⁴), societatea și persoana căreia i-au fost acordate ori restituite împrumuturi cu încălcarea acestor dispoziții răspund solidar",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Excepția doar pentru împrumuturi evidențiate separat",
+          "text": "Excepția din art. 67 alin. (2⁴) vizează numai împrumuturile de la acționari sau asociați evidențiate distinct în contabilitate; alte persoane afiliate rămân blocate.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. I",
+          "before": "rambursarea împrumuturilor acordate societății de către asociați sau acționari",
+          "after": "Prin excepție, împrumuturile primite de la acționari sau asociați, evidențiate distinct în contabilitatea societății",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se modifică articolul corect din lege",
+          "text": "Inițial se completa art. 69¹ cu trimitere la alin. (3), despre dividende interimare, deci textul ar fi fost inoperant; acum se modifică direct art. 67 alin. (2⁴) și (2⁵).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I",
+          "before": "Prin excepție de la dispozițiile alin. (3)",
+          "after": "alineatele (2⁴) și (2⁵) se modifică și vor avea următorul cuprins",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Împrumuturile de la firme-soră sau alte persoane afiliate rămân complet blocate",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Obligație nouă de evidență contabilă distinctă a împrumuturilor de la asociați",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Răspunderea solidară acoperă doar datoriile administrate de organul fiscal central",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Testul se bazează pe situațiile financiare anuale, posibil depășite la data restituirii",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "good": [
+          {
+            "text": "Salariații, statul și creditorii neafiliați sunt protejați printr-un test de solvabilitate",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Asociații își pot recupera împrumuturile când firma e solvabilă",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Răspunderea solidară se extinde la orice beneficiar al restituirilor ilegale",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Răspunderea este plafonată la sumele acordate sau restituite ilegal",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Textul vizează corect art. 67, evitând antinomia din forma inițiatorului",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "basis": {
+        "a": "190325b154d0fa93",
+        "b": "4dccadef0e3cebde",
+        "findings": "f93607b05fb7ee8b",
+        "prompt": 4
+      },
+      "updatedAt": "2026-11-27T09:07:02.654Z"
+    }
+  ]
+}

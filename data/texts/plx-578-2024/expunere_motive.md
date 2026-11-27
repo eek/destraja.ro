@@ -1,0 +1,55 @@
+ROMÂNIA
+
+Expunere de motive
+
+Propunere legislativă pentru completarea Legii învățământului superior nr. 199/2023
+
+Legislație actuală. Legea învățământului superior nr. 199/2023 prevede, la art. 128, alin. (3), dreptul înmatriculați la forma de învățământ cu frecvență din instituțiile de învățământ superior acreditate să beneficieze de un „tarif redus cu 90% pe mijloacele de transport local în comun, transportul intern auto, cu metroul, precum și pentru transportul intern feroviar la toate categoriile de trenuri, clasa a II-a și naval, pe tot parcursul anului calendaristic, până la împlinirea vârstei de 30 de ani". Totodată, pentru acei studenți care au unul sau ambii părinți decedați, precum și pentru aceia care provin din centre de plasament sau care au fost în plasament la familia extinsă, substitutivă sau la asistent maternal, reducerea de 90% este înlocuită cu gratuitate la toate tipurile de transport prevăzute | normă. Acest drept al studenților a fost prevăzut de legiuitor sub forma unui tarif redus, sintagmă ce presupune că prețul abonamentelor achiziționate de aceștia va fi redus cu 90% din valoarea sa inițială. Această terminologie este caracteristică unui mecanism specific serviciilor publice. Mai precis, contravaloarea diferenței de tarif practicate de operatorii de transport este recuperată de către operatorii de transport de la autoritatea contractantă responsabilă de tipul de transport pe care aceștia îl practică, sub forma unei compensații de serviciu public. Această interpretare este susținută de art. 128, alin. (4) din Lege, care prevede următoarele: „(4) In vederea asigurării reducerii/gratuității pentru studenți, finanțarea cheltuielilor pentru transportul cu metroul și feroviar, la toate categoriile de trenuri, clasa a II-a, se asigură din bugetul Ministerului Transporturilor și Infrastructurii." In practică, pentru transportul feroviar și cel cu metroul studenții au putut beneficia de tarif redus cu 90% la achiziționarea abonamentelor de transport. Cu toate acestea, în ceea ce privește transportul local în comun, deși legiuitorul a folosit aceeași sintagmă, „tarif redus', au existat probleme de interpretare ale legii ce au rezultat în imposibilitatea studenților de a beneficia de o reducere a prețului la achiziționarea abonamentelor de transport, ci la o decontare a acestora de către universități.
+
+Schimbări preconizate Prin actuala inițiativă legislativă, propunem adăugarea unui alineat suplimentar la art. 128, care să clarifice că sursa de finanțare pentru asigurarea tarifului redus cu 90%/gratuității la achiziționarea abonamentelor de transport local de către studenți o reprezintă bugetele locale ale unităților administrativ-teritoriale, iar nu bugetul Ministerului Educației/al instituțiilor de învățământ superior de stat:
+
+„(4^1) În vederea asigurării reducerii/gratuității pentru studenți, finanțarea cheltuielilor pentru transportul local în comun se asigură din bugetele locale ale unităților administrativ-teritoriale."
+
+Confuzia cu privire la sursa de finanțare a acestor cheltuieli a apărut ca urmare a introducerii, în mod eronat, a art. 149, alin. (3), lit. g) din Legea nr. 199/2023, care prevede că universitățile primesc fonduri pentru „subvenții pentru transportul local în comun al studenților". Or, universitățile nu pot subvenționa transportul local în comun, având în vedere că ele nu constituie autorități contractante. Din acest motiv, prevederea a generat confuzii de interpretare, Ministerul Educației și universitățile înțelegând că legiuitorul a intenționat ca studenților să le fie decontate abonamentele ulterior achiziționării lor la preț integral și aplicând acest mecanism în practică, care generează probleme atât din punct de vedere al timpului în care studenții își recuperează banii, cât și din punct de vedere al aplicării legii. Este evident faptul că legiuitorul a utilizat terminologia de „turif redus" pentru toate tipurile de transport tocmai pentru a fi aplicat același mecanism universal. Ca atare, considerăm că adoptarea proiectului legislativ ar îndrepta această eroare a legiuitorului și ar permite studenților să achiziționeze abonamente la un preț redus cu 90%, nemaifiind nevoiți să aștepte decontarea de la universități.
+
+Motivație. Inițiativa legislativă propusă va corecta o diferență nejustificată a mecanismelor de acordare a reducerilor de la transportul feroviar/cu metroul și transportul local în comun al studenților, permițând aplicarea aceluiași mecanism pentru toate tipurile de transport, așa cum a intenționat legiuitorul în art. 128, alin. (3) din Lege. Această modificare va permite, de asemenea, studenților din cadrul învățământului superior să achiziționeze abonamentele de transport la un preț redus deja cu 90%, ceea ce va favoriza mobilitatea elevilor cu posibilități financiare reduse, aceștia nemaifiind nevoiți să plătească în avans sumele, în special având în vedere că decontarea acestora depinde în mare măsură de capacitatea administrativă a universităților, iar în multe cazuri actuale studenții își primesc banii la distanță de 2-3 săptămâni de la depunerea documentelor necesare. Un alt argument în favoarea inițiativei îl reprezintă procedura aplicată pentru elevii din învățământul preuniversitar, care beneficiază de abonamente gratuite la transportul local în comun, nefiind nevoiți să avanseze sumele, urmând a fi decontate. Nu există niciun argument de ordin juridic, social sau economic pentru care mecanismele de aplicare a acestor facilități ar trebui să
+
+difere în funcție de ciclul de învățământ în care o persoană se află. Studenții sunt încântați de faptul că transportul cu metroul și cel feroviar oferă reduceri sau gratuități la fața locului. Acest lucru le aduce mai multă flexibilitate și accesibilitate, eliminând necesitatea de a solicita decontări ulterioare și făcând procesul mai simplu și mai convenabil pentru ei. Aceștia și-au arătat în multiple rânduri dorința de a putea beneficia de tarif redus direct la casele de bilete, existând și o petiție semnată de peste 2300 de persoane, prin care se susține modificarea legii actuale, precum și poziții ale organizațiilor studențești împotriva acestui mecanism; „Spre deosebire de transportul public feroviar și cu metroul, unde decontarea se face direct prin fondurile Ministerului Transportului, motiv pentru care reducerea de 90% a fost aplicată intr-un termen scurt după intrarea în vigoare a legii, transportul public local se efectuează prin operatori de transport local, iar reducerea se acordă prin fondurile Ministerului Educației, pe bază de decont. Federația nu susține soluția decontului, ci soluția aplicării directe a reducerii la casă" Mai mult decât atât, procedurile de decontare generează o creștere a gradului de birocrație în instituțiile de învățământ superior care nu dispun de aceeași capacitate administrativă, fiind nevoite să adauge la atribuțiile personalului angajat și gestionarea deconturilor studenților la transport. Pentru studenți, nevoia de a păstra bonurile și chitanțele de la transportul local în comun, ale fotocopia și aduce la universitate pentru decont generează dificultăți suplimentare și nejustificate în a beneficia de dreptul lor. Pentru motivele invocate mai sus, dar și din necesitatea de a asigura o unitate legislativă în ceea ce privește Vă propun astfel, spre dezbatere și adoptare, prezenta inițiativă legislativă.
+
+Senator USR Silvia-Monica Dinică
+
+TABEL SEMNĂTURI PROPUNEREA LEGISLATIVĂ pentru modificarea și completarea Legii învățământului superior nr. 199/2023
+
+NR. CRT. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID
+
+1\. | RADU MIHAL SEBASTIAN | USE 2. | CErNie NEGei 3. | VSR EUGEN REMUS :100L | USR. 4. COSTEZ SANIUTA ARLA | USR 5.
+
+6\. | Bob Virgal Marus, | USR BODpEi CRisTA | ÜXR 8. | DARĂU AMBROZiE - iRINEV | USR
+
+9\. | PALARE STETAM | 452
+
+10\.
+
+11\.
+
+12\.
+
+13\.
+
+14\.
+
+15\.
+
+16\.
+
+17\.
+
+18\.
+
+19\.
+
+20\.
+
+21\.
+
+22\.

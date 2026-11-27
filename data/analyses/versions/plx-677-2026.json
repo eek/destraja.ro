@@ -1,0 +1,156 @@
+{
+  "slug": "plx-677-2026",
+  "billId": "PL-x 677/2026",
+  "updatedAt": "2026-11-27T09:04:30.776Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L520FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Concediu plătit și pentru cine însoțește bolnavul de cancer la investigații",
+      "summaryTlDr": "Legea e utilă și umple un gol real: azi, însoțitorul primește concediu doar la operații și tratamente, nu și la analize sau imagistică. Redactarea are însă scăpări care pot crea confuzie: „persoana” în loc de „asiguratul”, o recomandare medicală nouă obligatorie și trimiterea alin. (2) la un „acord” care dispare din alin. (1).",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/70/7/se769.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Concediu plătit și pentru cei care însoțesc bolnavii de cancer la investigații medicale",
+      "summaryTlDr": "Este o lege benefică, cu o singură modificare de fond: pe lângă intervenții și tratamente, concediul de însoțire acoperă acum și investigațiile. Problema ei este redactarea: cere recomandarea medicului curant pentru orice însoțire, inclusiv la operații și tratamente, unde azi această recomandare nu e necesară.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Concediul pentru însoțirea bolnavului de cancer revine la „asigurat” și cere medicul curant de specialitate",
+      "summary": "Acum textul spune clar că beneficiază asiguratul, cu acordul pacientului, ceea ce elimină ambiguitățile inițiale. În schimb, sunt acoperite doar investigațiile și tratamentele prescrise de medicul curant de specialitate, nu de orice specialist.",
+      "changes": [
+        {
+          "title": "Beneficiar clar: asiguratul, nu orice persoană",
+          "text": "La art. 30¹ alin. (1), „persoana” devine „asiguratul”. Dispare ambiguitatea care putea duce la cereri de la neasigurați sau la refuzuri contestate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 30¹ alin. (1)",
+          "before": "în vârstă de peste 18 ani, persoana care, la solicitarea pacientului",
+          "after": "în vârstă de peste 18 ani asiguratul care, cu acordul pacientului",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Doar prescripțiile medicului curant de specialitate contează",
+          "text": "La art. 30¹ alin. (1) și (2), „medicul specialist” devine „medicul curant de specialitate”. Investigațiile prescrise de alți medici pot rămâne fără concediu.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 30¹ alin. (1)-(2)",
+          "before": "tratamente prescrise de medicul specialist.",
+          "after": "tratamente prescrise de medicul curant de specialitate.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se precizează cine recomandă însoțirea",
+          "text": "La art. 30¹ alin. (1), recomandarea vine acum de la „medicul curant de specialitate”, nu de la un „medic curant” neprecizat. Condiția rămâne însă și pentru operații și tratamente.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 30¹ alin. (1)",
+          "before": "la recomandarea medicului curant, îl însoțește pe acesta la investigații",
+          "after": "la recomandarea medicului curant de specialitate, îl însoțește pe acesta la investigații",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "„Acordul” pacientului, coerent între alineate",
+          "text": "La art. 30¹ alin. (1), „la solicitarea pacientului” devine „cu acordul pacientului”. Astfel se potrivește cu trimiterea la acord din alin. (2).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 30¹ alin. (1)",
+          "before": "la solicitarea pacientului",
+          "after": "cu acordul pacientului",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Recomandarea medicului se cere și la operații și tratamente: birocrație în plus",
+            "major": true,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Investigațiile prescrise de medicul de familie sau alt specialist pot rămâne neacoperite",
+            "major": true,
+            "article": "art. 30¹ alin. (1)-(2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Investigațiile intră în concediul de îngrijire a pacientului oncologic adult",
+            "major": true,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Beneficiarul este clar asiguratul, în acord cu plata din FNUASS",
+            "major": true,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Acordul pacientului este formulat coerent între alin. (1) și alin. (2)",
+            "major": false,
+            "article": "art. 30¹ alin. (1)-(2)"
+          },
+          {
+            "text": "Acordul pentru o singură persoană se dă pentru fiecare zi, formulare mai clară",
+            "major": false,
+            "article": "art. 30¹ alin. (2)"
+          },
+          {
+            "text": "Medicul care recomandă însoțirea este identificat ca medic curant de specialitate",
+            "major": false,
+            "article": "art. 30¹ alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 8,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "basis": {
+        "a": "3dd0bea3357c9ea4",
+        "b": "d69467eac4036e14",
+        "findings": "1596d319fe7e12a8",
+        "prompt": 4
+      },
+      "updatedAt": "2026-11-27T09:04:30.776Z"
+    }
+  ]
+}

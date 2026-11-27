@@ -1,183 +1,98 @@
 {
   "slug": "plx-354-2026",
   "billId": "Pl-x 354/2026",
-  "schema": 1,
-  "model": "claude",
-  "updatedAt": "2026-11-03T08:24:23.018Z",
-  "inputHash": "c34dbd1660fa",
-  "riskScore": 7.7,
-  "summary": "Câteva reguli utile pentru platforme, stricate de sancțiuni care lovesc părinții în locul firmelor și de o interdicție care prinde aproape tot internetul.",
+  "schema": 2,
+  "model": "agy",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:50:07.375Z",
+  "inputHash": "d923b25d9759",
+  "riskScore": 8,
+  "input": {
+    "textChars": 4799,
+    "memoChars": 4070,
+    "baseline": {
+      "file": "data/baseline/plx-354-2026.json",
+      "key": "e634f25555cdb205",
+      "articlesShown": 0,
+      "truncated": false
+    }
+  },
+  "summary": "Scop legitim de protecție a copiilor online, dar legea e construită greșit în ansamblu: sancționează discriminatoriu și disproporționat părinții, lasă platformele nepedepsite și are lacune grave de aplicare.",
   "good": [
     {
-      "text": "Interzice profilarea copiilor pentru reclame sau pentru a le influența comportamentul, o protecție mai largă decât cea din regulile UE actuale.",
-      "article": "art. 27⁵ alin. (1)",
-      "quote": "Se interzice profilarea copiilor în scopuri comerciale, publicitare sau de influențare comportamentală",
+      "text": "Interzice profilarea copiilor în scopuri comerciale, publicitare sau de influențare comportamentală și promovarea către ei a drogurilor, violenței ori autovătămării.",
+      "article": "art. 27⁵ alin. (1)–(2)",
+      "quote": "Se interzice profilarea copiilor în scopuri comerciale, publicitare sau de influențare comportamentală.",
       "weight": 2
     },
     {
-      "text": "Platformele nu pot cere copiilor mai multe date decât e strict necesar, ceea ce limitează colectarea de date, inclusiv la verificarea vârstei.",
+      "text": "Obligă platformele să respecte minimizarea datelor și le interzice să condiționeze accesul copiilor de furnizarea unor date excesive sau nejustificate.",
       "article": "art. 27⁴ alin. (2)",
-      "quote": "Furnizorii nu pot condiționa accesul copilului de furnizarea unor date excessive sau nejustificate, fiind obligați să respecte principiul minimizării datelor",
+      "quote": "Furnizorii nu pot condiționa accesul copilului de furnizarea unor date excessive sau nejustificate, fiind obligați să respecte principiul minimizării datelor.",
       "weight": 2
     },
     {
-      "text": "Verificarea vârstei devine obligația platformelor, nu mai depinde doar de ce declară copilul la înscriere.",
-      "article": "art. 27⁴ alin. (1) lit. a)",
-      "quote": "Furnizorii de platforme de socializare au obligația de a implementa măsuri tehnice și organizatorice adecvate pentru",
-      "weight": 2
-    },
-    {
-      "text": "Interzice să li se arate sau să li se recomande copiilor conținut care promovează drogurile, violența sau autovătămarea.",
-      "article": "art. 27⁵ alin. (2) lit. a) și b)",
-      "quote": "Se interzice afișarea sau promovarea, către copii, a conținutului care",
-      "weight": 2
-    },
-    {
-      "text": "Prima abatere aduce doar un avertisment și consiliere, nu o amendă, așa că familia are o șansă să corecteze situația.",
-      "article": "art. 27⁷ alin. (1) lit. a)",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Legea scrie explicit dreptul copilului la protecție față de violență, manipulare și conținut dăunător online, util la interpretarea altor reguli.",
-      "article": "art. 27¹ alin. (1)",
-      "quote": "Copilul are dreptul la protecție împotriva oricăror forme de violență, exploatare, manipulare, influență nocivă sau expunere la conținut dăunător în mediul digital",
-      "weight": 1
-    },
-    {
-      "text": "Autoritățile trebuie să lucreze cu școlile, platformele și ONG-urile pentru prevenirea riscurilor online.",
+      "text": "Prevede cooperarea autorităților cu școlile, organizațiile neguvernamentale și furnizorii de platforme pentru prevenirea riscurilor digitale la care sunt expuși copiii.",
       "article": "art. 27⁶ alin. (2)",
-      "quote": "cooperează cu furnizorii de platforme, unitățile de învățământ și organizațiile neguvernamentale pentru prevenirea riscurilor digitale la care sunt expuși copiii",
-      "weight": 1
-    },
-    {
-      "text": "Autoritatea pentru protecția datelor e printre cei care aplică legea, potrivită pentru controlul profilării și al datelor copiilor.",
-      "article": "art. 27⁶ alin. (1) lit. b)",
-      "quote": "Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal",
+      "quote": "Autoritățile prevăzute la alin. (1) cooperează cu furnizorii de platforme, unitățile de învățământ și organizațiile neguvernamentale pentru prevenirea riscurilor digitale la care sunt expuși copiii.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "La a treia „abatere”, de pildă copilul își face iar cont, instanța e sesizată să restrângă drepturile părintești: o măsură pentru abuz, folosită pentru o rețea socială.",
-      "article": "art. 27⁷ alin. (1) lit. c)",
-      "quote": "la a treia abatere, sesizarea instanței de judecată competente în vederea analizării măsurilor de restrângere temporară a exercițiului drepturilor părintești",
+      "text": "Impune obligații doar furnizorilor de platforme, dar sancționează exclusiv părinții, lăsând platformele fără nicio pedeapsă și amendând părinții fără să le stabilească obligații exprese.",
+      "article": "art. 27⁷ alin. (1), art. 27⁴–27⁵",
+      "quote": "Nerespectarea obligațiilor prevăzute de prezentul capitol constituie contravenție și se sancționează gradual, după cum urmează:",
       "weight": 3
     },
     {
-      "text": "Părinții sunt avertizați, amendați și duși în instanță, deși nicio prevedere nu le impune vreo obligație: răspund pentru ce face copilul sau platforma, fără vină proprie.",
-      "article": "art. 27⁷ alin. (1)",
-      "quote": "aplicarea unei avertizări scrise adresate părinților sau reprezentanților legali",
-      "weight": 3
-    },
-    {
-      "text": "Definiția prinde orice serviciu cu cont și interacțiune: grupul clasei pe WhatsApp, YouTube, Discord, Roblox, Wikipedia, comentariile la știri, platformele școlare.",
-      "article": "art. 27² lit. a)",
-      "quote": "orice serviciu al societății informaționale care permite crearea unui cont personal și interacțiunea publică sau semi-publică cu alți utilizatori prin conținut digital",
-      "weight": 3
-    },
-    {
-      "text": "Interdicție totală sub 16 ani, fără excepție pentru acordul părinților, scop educativ sau servicii cu risc mic; taie copiilor accesul la informare și exprimare.",
-      "article": "art. 27³ alin. (1)",
-      "quote": "Este interzisă crearea și utilizarea unui cont personal pe platformele de socializare de către copiii cu vârsta sub 16 ani",
-      "weight": 3
-    },
-    {
-      "text": "Platformele primesc obligații, dar sancțiunile sunt scrise pentru părinți; pentru firme nu există o amendă clară, așa că regulile pentru ele rămân fără efect practic.",
-      "article": "art. 27⁴, art. 27⁵ și art. 27⁷",
-      "quote": null,
-      "weight": 3
-    },
-    {
-      "text": "Contravenția nu spune ce faptă e pedepsită, cine o comite, cine o constată și cum se numără abaterile, cum cere OG 2/2001; sesizarea instanței nici nu e sancțiune contravențională.",
-      "article": "art. 27⁷ alin. (1)",
-      "quote": "Nerespectarea obligațiilor prevăzute de prezentul capitol constituie contravenție și se sancționează gradual, după cum urmează",
-      "weight": 3
-    },
-    {
-      "text": "Amenda: cine are salariu plătește 20–30% din salariul minim (circa 800–1.300 lei), cine nu are salariu plătește 1.500–3.000 lei; cei mai săraci plătesc mai mult.",
+      "text": "Pedepsirea financiară e discriminatorie: salariații riscă 20–30% din salariul minim brut, dar părinții fără salariu (șomeri, casnici, agricultori, PFA) primesc amenzi de 1.500–3.000 lei, peste dublu, încălcând egalitatea în fața legii.",
       "article": "art. 27⁷ alin. (1) lit. b)",
-      "quote": "cuprinsă între 20% și 30% din salariul minim brut pe economie, sau, după caz, între 1.500 și 3.000 lei, dacă persoana sancționată nu realizează venituri salariale",
+      "quote": "aplicarea unei amenzi contravenționale, cuprinsă între 20% și 30% din salariul minim brut pe economie, sau, după caz, între 1.500 și 3.000 lei, dacă persoana sancționată nu realizează venituri salariale;",
+      "weight": 3
+    },
+    {
+      "text": "A treia abatere duce automat la sesizarea instanței pentru restrângerea drepturilor părintești, iar pentru situații repetate se evocă monitorizarea familială sau plasamentul temporar, reacții vădit disproporționate.",
+      "article": "art. 27⁷ alin. (1) lit. c) și alin. (2)",
+      "quote": "la a treia abatere, sesizarea instanței de judecată competente în vederea analizării măsurilor de restrângere temporară a exercițiului drepturilor părintești, potrivit dispozițiilor Codului civil și legislației speciale în materia protecției copilului.",
+      "weight": 3
+    },
+    {
+      "text": "Interzice absolut conturile sub 16 ani, chiar și cu acordul părinților, deși definește «consimțământul parental verificabil» fără să îl folosească nicăieri, contrazicând referirile ulterioare la accesul copilului.",
+      "article": "art. 27² lit. b), art. 27³ alin. (1)",
+      "quote": "Este interzisă crearea și utilizarea unui cont personal pe platformele de socializare de către copiii cu vârsta sub 16 ani.",
+      "weight": 3
+    },
+    {
+      "text": "Definește atât de larg «platforma de socializare» încât poate cuprinde forumuri, jocuri, platforme educaționale sau site-uri cu recenzii, fără delimitări după scop, risc sau dimensiunea furnizorului.",
+      "article": "art. 27² lit. a)",
+      "quote": "platformă de socializare reprezintă orice serviciu al societății informaționale care permite crearea unui cont personal și interacțiunea publică sau semi-publică cu alți utilizatori prin conținut digital;",
       "weight": 2
     },
     {
-      "text": "„Pericolul repetat”, legat de acest capitol, poate fi invocat pentru monitorizarea familiei sau plasamentul copilului, deci folosirea repetată a rețelelor poate duce la măsuri grave.",
-      "article": "art. 27⁷ alin. (2)",
-      "quote": "În situații de pericol grav, iminent sau repetat asupra dezvoltării fizice, psihice ori morale a copilului, autoritățile competente pot dispune măsuri de protecție specială, inclusiv monitorizarea familială sau plasamentul temporar",
-      "weight": 2
-    },
-    {
-      "text": "Obligațiile pentru platforme se suprapun peste Regulamentul UE privind serviciile digitale; platformele din alte state UE le pot contesta, iar legea riscă să nu li se aplice.",
-      "article": "art. 27³–27⁵",
-      "quote": null,
-      "weight": 2
-    },
-    {
-      "text": "Verificarea vârstei nu are metodă sau limite; cum interdicția e totală, platformele ar putea cere acte de identitate tuturor, inclusiv adulților.",
+      "text": "Obligă platformele să verifice vârsta tuturor utilizatorilor (inclusiv a adulților), fără a stabili metodele permise, păstrarea datelor, contestarea erorilor sau corelarea cu regulile UE pentru servicii digitale.",
       "article": "art. 27⁴ alin. (1) lit. a)",
-      "quote": null,
+      "quote": "Furnizorii de platforme de socializare au obligația de a implementa măsuri tehnice și organizatorice adecvate",
       "weight": 2
     },
     {
-      "text": "Interzice conținutul care „aduce atingere dezvoltării psihice și emoționale” fără să spună cine decide, pe ce criterii și cui i se adresează interdicția; poate duce la cenzură arbitrară.",
-      "article": "art. 27⁵ alin. (2) lit. c)",
-      "quote": "aduce atingere demnității umane sau dezvoltării psihice și emoționale a copilului",
+      "text": "Nu stabilește ce autoritate constată și aplică contravențiile, în ce termen se numără cele trei abateri, cine poate bloca servicii digitale și cum se contestă măsurile, creând risc de aplicare arbitrară.",
+      "article": "art. 27⁶ alin. (1), art. 27⁷ alin. (1) și (3)",
+      "quote": "Aplicarea sancțiunilor prevăzute la alin. (1) nu exclude luarea măsurilor necesare pentru restrângerea, suspendarea sau condiționarea accesului copilului la servicii digitale care încalcă în mod grav drepturile acestuia.",
       "weight": 2
     },
     {
-      "text": "Accesul copilului la servicii digitale poate fi restrâns sau suspendat, dar nu se spune cine decide, după ce procedură și cu ce control al unui judecător.",
-      "article": "art. 27⁷ alin. (3)",
-      "quote": "nu exclude luarea măsurilor necesare pentru restrângerea, suspendarea sau condiționarea accesului copilului la servicii digitale care încalcă în mod grav drepturile acestuia",
-      "weight": 1
-    },
-    {
-      "text": "Definește „consimțământul parental verificabil”, dar nu-l folosește nicăieri; textul sugerează că părinții pot aproba, deși interdicția e absolută.",
-      "article": "art. 27² lit. b)",
-      "quote": "consimțământul exprimat de părintele sau reprezentantul legal al copilului, prin mijloace care permit verificarea rezonabilă a identității și a voinței acestuia",
-      "weight": 1
-    },
-    {
-      "text": "Consilierea parentală obligatorie nu are procedură, durată, cost sau consecință dacă părintele nu se prezintă.",
-      "article": "art. 27⁷ alin. (1) lit. a)",
-      "quote": "însoțită de obligativitatea participării la o sesiune de consiliere parentală privind protecția copilului în mediul digital",
-      "weight": 1
-    },
-    {
-      "text": "ANCOM, autoritatea care supraveghează platformele după regulile UE, nu e numită, iar „alte autorități competente” lasă neclar cine controlează efectiv.",
-      "article": "art. 27⁶ alin. (1)",
-      "quote": "Aplicarea și monitorizarea dispozițiilor prezentului capitol se realizează de către",
-      "weight": 1
-    },
-    {
-      "text": "Obligația platformelor de a proteja „interesul superior al copilului în toate etapele” e prea generală ca să poată fi verificată.",
-      "article": "art. 27⁴ alin. (1) lit. b)",
-      "quote": "protejarea interesului superior al copilului în toate etapele furnizării serviciilor digitale",
-      "weight": 1
-    },
-    {
-      "text": "Nu există termen de pregătire: interdicția și obligațiile s-ar aplica imediat după publicare, fără timp pentru platforme, școli și părinți.",
-      "article": "art. unic",
-      "quote": null,
+      "text": "Include termeni vagi în interdicțiile de conținut («comportamente antisociale», «atingere dezvoltării psihice») și scăpări de redactare («date excessive», un singur alineat numerotat la art. 27³).",
+      "article": "art. 27³ alin. (1), art. 27⁴ alin. (2), art. 27⁵ alin. (2)",
+      "quote": "aduce atingere demnității umane sau dezvoltării psihice și emoționale a copilului.",
       "weight": 1
     }
   ],
-  "fix": {
-    "text": "Art. 27⁷ rescris ca să sancționeze platformele, cu fapte și agenți constatatori clari și fără măsuri împotriva părinților, iar definiția din art. 27² lit. a) restrânsă la rețelele sociale propriu-zise.",
-    "removes": [
-      0,
-      1,
-      2,
-      4,
-      5,
-      6,
-      7,
-      13
-    ],
-    "levelAfter": "yellow",
-    "scoreAfter": 5
-  },
+  "fix": null,
   "quotes": {
-    "checked": 20,
-    "verified": 20
+    "checked": 11,
+    "verified": 11,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

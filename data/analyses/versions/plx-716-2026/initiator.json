@@ -1,0 +1,158 @@
+{
+  "billId": "PL-x 716/2026",
+  "slug": "plx-716-2026",
+  "version": "initiator",
+  "updatedAt": "2026-11-27T09:06:24.475Z",
+  "coverage": {
+    "method": "whole-text-v1",
+    "form": "initiator",
+    "billChars": 1236,
+    "ordinanceChars": 0,
+    "memoChars": 7822,
+    "memoSupplied": 7822,
+    "marker": "SF-190325B1"
+  },
+  "baseline": {
+    "method": "baseline-v2",
+    "file": "data/baseline/versions/plx-716-2026/initiator.json",
+    "form": "initiator",
+    "textHash": "190325b154d0fa93",
+    "fetchedAt": "2026-11-27T09:04:52.297Z",
+    "acts": 1,
+    "actsFound": 1,
+    "actsRepealed": 0,
+    "articlesFound": 1,
+    "articlesShown": 1,
+    "articleCap": 8000,
+    "articlesCut": 0,
+    "chars": 2563,
+    "truncated": false,
+    "included": true,
+    "key": "fc87a61eea22e468"
+  },
+  "consensus": {
+    "riskScore": 4.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Asociații își pot lua înapoi banii împrumutați firmei, chiar dacă firma are capitalul pe minus",
+    "summaryTlDr": "Este o corecție utilă pentru IMM-uri. Relaxează interdicția introdusă în 2025 de a restitui împrumuturile asociaților când activul net e sub jumătate din capital. Riscul principal nu vine din idee, ci din nepotrivirea dintre forma inițiatorului și forma aflată acum în dezbatere, plus un test de lichiditate de doar 30 de zile, cam scurt.",
+    "initiatorClaim": "Inițiatorii susțin că restituirea unui împrumut de la asociat stinge o datorie și nu distribuie profit. Interdicția introdusă prin Legea nr. 239/2025 i-ar descuraja pe asociați să-și finanțeze firma tocmai când aceasta are mai mare nevoie de bani.",
+    "realityCheck": "Forma inițiatorului adăuga un alin. (4) la art. 69¹, care permitea restituirea fără nicio condiție. Fișa Camerei descrie însă o modificare a art. 67 alin. (2⁴)–(2⁵), cu o excepție condiționată: împrumutul trebuie evidențiat distinct, firma nu trebuie să aibă datorii scadente neplătite către salariați, stat sau creditori neafiliați, iar după plată banii trebuie să acopere datoriile care ajung la scadență în următoarele 30 de zile. Chichițe: excepția îi acoperă doar pe acționari și asociați, nu și pe celelalte persoane afiliate, iar orizontul de 30 de zile permite restituirea cu puțin înainte de scadențe mari.",
+    "affectedGroups": [
+      "IMM & Antreprenori",
+      "Contabili & Fiscalitate",
+      "Angajați & HR"
+    ],
+    "senatForm": {
+      "articleRef": "Art.67 alin.(2^5) din Legea nr.31/1990",
+      "proposalContent": "La art.67 alin.(2^5), în loc de «următoarele 30 de zile» se va scrie «următoarele 90 de zile», iar la final se adaugă: «Îndeplinirea condițiilor se constată printr-o declarație a administratorului, întocmită la data restituirii și păstrată la sediul societății, care răspunde potrivit art.73.»",
+      "argumentation": "Testul de 30 de zile e prea scurt: asociatul își poate recupera banii cu puțin înainte de scadențe mari față de salariați sau stat. Un orizont de 90 de zile și o declarație asumată de administrator dau creditorilor o protecție reală, fără a bloca finanțarea IMM-urilor de către asociați.",
+      "otherComments": "Forma inițiatorului (alin.(4) la art.69^1, prin excepție de la alin.(3) privind dividendele interimare) nu se corelează cu interdicția din art.67 alin.(2^4). Rog comisiile să confirme că se dezbate forma Senatului și să clarifice raportul cu sancțiunile și răspunderea solidară din art.67."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "modelId": "gemini-4-neon-high",
+      "durationMs": 79804,
+      "sourceEndMarker": "SF-190325B1",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Deblocarea restituirii împrumuturilor acordate firmelor de propriii asociați",
+      "verdictShort": "Intenția economică este utilă pentru IMM-urile blocate de restricțiile dure din Legea nr. 239/2025, dar forma inițiatorului este scrisă defectuos și intră în conflict direct cu articolul din lege pe care pretinde să îl corecteze. Varianta indicată în fișa Camerei (mutată pe art. 67) pare să repare eroarea și să protejeze creditorii, însă testul de lichiditate pe 30 de zile riscă să creeze abuzuri la controale în lipsa unor reguli clare de probă.",
+      "initiatorClaim": "Inițiatorii susțin că interdicția introdusă prin Legea nr. 239/2025 blochează finanțarea IMM-urilor de către propriii asociați în perioadele dificile și confundă restituirea unei datorii cu distribuirea de profit, motiv pentru care propun permiterea rambursării acestor împrumuturi chiar dacă activul net este sub jumătate din capitalul social.",
+      "realityCheck": "În forma inițiatorului, legea nu modifică art. 67 alin. (2⁴) — unde se află interdicția reală și amenzile de până la 200.000 lei — ci introduce un alin. (4) la art. 69¹ (care reglementează dividendele), creând o contradicție directă în aceeași lege și permițând golirea firmelor fără protecție pentru salariați sau Fisc. Titlul și rezumatul oficial al Camerei Deputaților arată însă că Senatul a rescris proiectul pe art. 67 alin. (2⁴)-(2⁵), condiționând restituirea de lipsa restanțelor la salariați, buget și creditori neafiliați și de acoperirea scadențelor pe următoarele 30 de zile — soluție mult mai echilibrată, dar al cărei text exact lipsește din forma inițiatorului și care necesită reguli clare de probă contabilă.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Contradicție normativă gravă în forma inițiatorului (Art. I): inițiatorii adaugă alin. (4) la art. 69¹ din Legea nr. 31/1990 (articol dedicat exclusiv dividendelor) și fac trimitere greșită „prin excepție de la alin. (3)” (care vizează doar dividendele interimare), lăsând neatinsă interdicția expresă din art. 67 alin. (2⁴) introdusă prin Legea nr. 239/2025.",
+        "Discrepanță majoră între forma inițiatorului și fișa oficială a Camerei Deputaților: titlul și obiectul de reglementare de la Camera Deputaților vizează art. 67 alin. (2⁴) și (2⁵) și introduc un test de solvabilitate (zero datorii restante certe, lichide și exigibile față de salariați, buget și creditori neafiliați + acoperirea obligațiilor scadente în 30 de zile), condiții complet absente din forma inițiatorului.",
+        "Risc de sancțiuni disproporționate și birocrație contabilă: în lipsa precizării documentelor prin care firma dovedește acoperirea obligațiilor certe și lichide scadente în următoarele 30 de zile, antreprenorii și contabilii rămân expuși amenzilor de 10.000–200.000 lei (fără plata a jumătate din minim) și răspunderii solidare fiscale.",
+        "Efect tehnic nociv în Art. II din forma inițiatorului: dispune republicarea cu renumerotare a întregii Legi nr. 31/1990 (un cod comercial de sute de articole la care fac trimitere mii de acte normative și contracte) pentru adăugarea unui singur alineat."
+      ],
+      "blindSpotsCaught": "Există o ruptură completă între textul depus de inițiatori (completarea art. 69¹ cu rambursare necondiționată și trimitere greșită la alin. 3 despre dividende interimare) și forma consemnată în fișa Camerei (modificarea art. 67 alin. 2⁴-2⁵ cu test de lichiditate pe 30 de zile); în plus, rezumatul Camerei menține interdicția pentru „alte persoane afiliate”, dar exceptează expres doar „acționarii sau asociații”, iar Art. II ascunde o renumerotare generală a Legii nr. 31/1990.",
+      "constitutionalityNote": "Forma inițiatorului vulnerabilizează grav art. 1 alin. (5) din Constituția României (principiul legalității, calității și previzibilității legii): menținerea simultană a interdicției din art. 67 alin. (2⁴) și a permisiunii din art. 69¹ alin. (4) creează norme contradictorii în același act normativ, afectând și certitudinea regimului contravențional sever (amendă până la 200.000 lei). Forma descrisă în fișa Camerei (pe art. 67) elimină conflictul structural, dar trebuie redactată riguros privind proba lichidității pe 30 de zile pentru a respecta exigențele de claritate impuse de jurisprudența CCR pe art. 1 alin. (5).",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2018/958 (nu reglementează accesul la profesii reglementate) și nici a Directivei (UE) 2015/1535 (TRIS, nevizând servicii digitale sau norme tehnice). Are însă relevanță față de Directiva (UE) 2017/1132 privind dreptul societăților comerciale (protecția capitalului social și a creditorilor la societățile pe acțiuni): forma inițiatorului riscă să încurajeze preferarea asociaților-creditori în prag de insolvență, în timp ce varianta din fișa Camerei (cu prioritate pentru salariați, stat și creditori neafiliați) este compatibilă cu standardele UE.",
+      "senatForm": {
+        "articleRef": "Art. 67 alin. (2⁴)-(2⁵) din Legea nr. 31/1990",
+        "proposalContent": "Menținerea modificării la art. 67 alin. (2⁴)-(2⁵) (nu la art. 69¹), cu precizarea clară a documentelor contabile care probează acoperirea obligațiilor scadente în 30 de zile (ex. balanță/situație trezorerie la data plății), excluderea obligațiilor contestate și eliminarea Art. II privind republicarea cu renumerotare a Legii nr. 31/1990.",
+        "argumentation": "Forma inițiatorului modifică greșit art. 69¹ (dividende), generând conflict cu art. 67 alin. (2⁴) și încălcând art. 1 alin. (5) din Constituție. Varianta pe art. 67 protejează creditorii, dar fără reguli clare de probă a lichidității pe 30 de zile, sub amenințarea amenzii de până la 200.000 lei, IMM-urile riscă sancțiuni arbitrare.",
+        "otherComments": "Solicităm publicarea și corelarea exactă în raportul comisiilor a textului adoptat de Senat cu regimul contravențional și răspunderea solidară fiscală din Legea nr. 239/2025, precum și clarificarea regimului pentru celelalte persoane afiliate. Renumerotarea întregii Legi nr. 31/1990 pentru o modificare punctuală ar bulversa trimiterile legislative."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "claude": {
+      "model": "claude",
+      "durationMs": 49869,
+      "sourceEndMarker": "SF-190325B1",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Asociații își pot lua înapoi banii împrumutați firmei, chiar dacă firma are capitalul pe minus",
+      "verdictShort": "Este o corecție utilă pentru IMM-uri. Relaxează interdicția introdusă în 2025 de a restitui împrumuturile asociaților când activul net e sub jumătate din capital. Riscul principal nu vine din idee, ci din nepotrivirea dintre forma inițiatorului și forma aflată acum în dezbatere, plus un test de lichiditate de doar 30 de zile, cam scurt.",
+      "initiatorClaim": "Inițiatorii susțin că restituirea unui împrumut de la asociat stinge o datorie și nu distribuie profit. Interdicția introdusă prin Legea nr. 239/2025 i-ar descuraja pe asociați să-și finanțeze firma tocmai când aceasta are mai mare nevoie de bani.",
+      "realityCheck": "Forma inițiatorului adăuga un alin. (4) la art. 69¹, care permitea restituirea fără nicio condiție. Fișa Camerei descrie însă o modificare a art. 67 alin. (2⁴)–(2⁵), cu o excepție condiționată: împrumutul trebuie evidențiat distinct, firma nu trebuie să aibă datorii scadente neplătite către salariați, stat sau creditori neafiliați, iar după plată banii trebuie să acopere datoriile care ajung la scadență în următoarele 30 de zile. Chichițe: excepția îi acoperă doar pe acționari și asociați, nu și pe celelalte persoane afiliate, iar orizontul de 30 de zile permite restituirea cu puțin înainte de scadențe mari.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Forma inițiatorului introduce la art. 69¹ un alin. (4) «prin excepție de la alin. (3)». Alin. (3) din art. 69¹ privește însă dividendele interimare, nu împrumuturile. Interdicția restituirii împrumuturilor se află în art. 67 alin. (2⁴), care ar fi rămas neatins. Textul inițial era deci inoperant sau generator de antinomie.",
+        "Forma descrisă în fișa Camerei (modificarea art. 67 alin. (2⁴) și (2⁵)) corectează ținta. Ea înlocuiește permisiunea totală din forma inițiatorului cu un test de solvabilitate: nicio datorie certă, lichidă și exigibilă neplătită către salariați, bugetul general consolidat sau creditori neafiliați, plus acoperirea obligațiilor scadente în următoarele 30 de zile.",
+        "Excepția se aplică doar împrumuturilor de la acționari sau asociați «evidențiate distinct în contabilitate». Împrumuturile de la alte persoane afiliate (de exemplu societăți-soră) rămân blocate, iar împrumuturile neevidențiate separat nu beneficiază de excepție. Contabilii au astfel o obligație practică nouă de evidență.",
+        "Potrivit expunerii de motive, regimul actual sancționează încălcarea cu amendă de 10.000–200.000 lei și cu răspunderea solidară a asociatului pentru datoriile bugetare restante. Pentru restituirile care respectă condițiile noii excepții, aceste riscuri dispar. Nu am textul consolidat al art. 67, așa că aceste detalii vin din expunere și nu sunt verificate.",
+        "Proiectul nu are impact bugetar direct. Reduce sarcina asupra IMM-urilor finanțate de asociați și nu creează taxe, monopoluri sau sancțiuni noi."
+      ],
+      "blindSpotsCaught": "Textul primit e forma inițiatorului (art. 69¹), dar titlul oficial și fișa Camerei vizează art. 67 alin. (2⁴)–(2⁵). Probabil Senatul a reformulat proiectul, iar textul adoptat de Senat nu este în dosarul analizat. Amendamentele trebuie raportate la forma Senatului. În plus, testul de 30 de zile nu împiedică restituirea înaintea unor scadențe mari din luna 2–3. Acțiunile în anulare pentru plăți preferențiale din Legea nr. 85/2014 rămân însă aplicabile dacă urmează insolvența.",
+      "constitutionalityNote": "Forma inițiatorului ar fi ridicat probleme de claritate și previzibilitate (art. 1 alin. (5)). Derogarea ar fi trimis la o normă greșită, art. 69¹ alin. (3), lăsând în vigoare interdicția contrară din art. 67 alin. (2⁴). Forma descrisă de fișa Camerei înlătură această antinomie. Măsura servește libertatea economică (art. 45) și dreptul de proprietate al asociatului-creditor (art. 44). Condițiile privind salariații și bugetul asigură un echilibru rezonabil cu protecția creditorilor și cu obligația statului de a proteja interesul general (art. 135). Procedura e corectă: lege ordinară (art. 76 alin. (2)), Senat primă cameră, Camera Deputaților decizională (art. 75). Noțiunea de «creditori neafiliați» trebuie corelată cu definiția persoanelor afiliate din reglementările contabile, la care textul trimite deja.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu privește profesii reglementate. Nici TRIS (2015/1535) nu se aplică, pentru că nu sunt reglementate servicii ale societății informaționale sau reguli tehnice. Directiva (UE) 2017/1132, art. 56 privind distribuirile către acționari în SA, interzice distribuirile când activul net scade sub capital plus rezervele nedistribuibile. Rambursarea unui împrumut nu este însă «distribuire» în sensul directivei, deci relaxarea e compatibilă. Soluția se apropie de modelele europene de testare a solvabilității. Nu e afectată piața unică.",
+      "senatForm": {
+        "articleRef": "Art.67 alin.(2^5) din Legea nr.31/1990",
+        "proposalContent": "La art.67 alin.(2^5), în loc de «următoarele 30 de zile» se va scrie «următoarele 90 de zile», iar la final se adaugă: «Îndeplinirea condițiilor se constată printr-o declarație a administratorului, întocmită la data restituirii și păstrată la sediul societății, care răspunde potrivit art.73.»",
+        "argumentation": "Testul de 30 de zile e prea scurt: asociatul își poate recupera banii cu puțin înainte de scadențe mari față de salariați sau stat. Un orizont de 90 de zile și o declarație asumată de administrator dau creditorilor o protecție reală, fără a bloca finanțarea IMM-urilor de către asociați.",
+        "otherComments": "Forma inițiatorului (alin.(4) la art.69^1, prin excepție de la alin.(3) privind dividendele interimare) nu se corelează cu interdicția din art.67 alin.(2^4). Rog comisiile să confirme că se dezbate forma Senatului și să clarifice raportul cu sancțiunile și răspunderea solidară din art.67."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    },
+    "codex": {
+      "model": "codex",
+      "durationMs": 92152,
+      "sourceEndMarker": "SF-190325B1",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Restituirea împrumuturilor către asociați când firma are capitalul afectat",
+      "verdictShort": "Finanțarea firmelor prin împrumuturi de la asociați merită un regim previzibil, dar textul furnizat introduce o permisiune fără condiții proprii de protecție a creditorilor și o plasează lângă interdicția greșită. Garanțiile descrise în fișa Camerei lipsesc din articolele acestei versiuni.",
+      "initiatorClaim": "Inițiatorii urmăresc să faciliteze finanțarea societăților, în special a IMM-urilor, permițând recuperarea împrumuturilor acordate de asociați sau acționari chiar când activul net scade sub jumătate din capitalul social. Ei susțin că rambursarea reprezintă stingerea unei datorii, nu distribuirea unui profit.",
+      "realityCheck": "Art. I adaugă la art. 69¹ un alineat care declară rambursarea permisă, dar derogă expres numai de la alin. (3), referitor la dividende interimare; interdicția specifică restituirii împrumuturilor este identificată chiar în documentație la art. 67 alin. (2⁴). Rezultă o contradicție de interpretare, fără modificarea expresă a interdicției și a consecințelor încălcării ei. Condițiile privind lipsa restanțelor și acoperirea obligațiilor scadente în următoarele 30 de zile apar în fișa Camerei, însă nu în textul normativ furnizat, astfel încât analiza acestei versiuni nu le poate considera garanții adoptate.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Neconcordanță esențială de versiune: titlul oficial anunță modificarea art. 67 alin. (2⁴) și (2⁵), dar textul inițiatorului completează art. 69¹. Cele două soluții trebuie evaluate separat; forma efectiv aflată la comisii necesită confirmare.",
+        "În prezent, art. 69¹ alin. (3) condiționează distribuirea dividendelor interimare de reîntregirea activului net. Proiectul adaugă o regulă despre rambursarea împrumuturilor, fără să modifice expres interdicția distinctă de la art. 67 alin. (2⁴), descrisă în documentație.",
+        "Rambursarea principalului unui împrumut real stinge o datorie și nu reprezintă, prin natura sa, dividend. Interdicția actuală poate urmări protecția creditorilor fără să presupună juridic asimilarea împrumutului cu profitul; premisa expunerii de motive nu justifică singură derogarea.",
+        "Contabil, rambursarea principalului reduce simultan disponibilitățile și datoria, fără să reducă prin această operațiune activul net. Economic, ea consumă lichidități și poate diminua resursele disponibile pentru salarii, impozite și creditorii externi.",
+        "Permisiunea propusă privește asociații și acționarii, fără să includă expres celelalte persoane afiliate menționate în interdicția actuală. Nu introduce obligații documentare sau teste proprii de lichiditate; regulile generale privind insolvența, anularea plăților prejudiciabile și răspunderea administratorilor continuă să se aplice.",
+        "Art. II prevede numai republicarea și renumerotarea Legii nr. 31/1990. Nu abrogă expres interdicția relevantă și nu conține dispoziții tranzitorii ori o dată specială de intrare în vigoare.",
+        "Proiectul nu instituie taxe, cheltuieli publice sau formalități noi pentru cetățeni. Totuși, afirmația din expunerea de motive privind lipsa oricărui impact bugetar nu exclude efecte indirecte asupra recuperării creanțelor fiscale; nici beneficiul economic invocat nu este cuantificat."
+      ],
+      "blindSpotsCaught": "Capcana principală este diferența dintre fișa Camerei, care descrie o derogare condiționată, și articolul furnizat, care formulează o permisiune fără acele condiții și trimite la interdicția dividendelor interimare. Republicarea de la art. II nu repară această necorelare. Termenul indicat pentru amendamente, 10.11.2026, este anterior datei analizei; observațiile unui cetățean nu devin automat amendamente parlamentare.",
+      "constitutionalityNote": "Riscul constituțional principal privește art. 1 alin. (5): destinatarii trebuie să poată determina dacă rambursarea este permisă sau interzisă și când intervin sancțiunile ori răspunderea. Conflictul dintre noua permisiune și interdicția existentă trebuie eliminat expres. Art. 23 alin. (12) privește legalitatea pedepselor și nu constituie temeiul direct pentru a declara neconstituțională această normă societară; proiectul nu introduce pedepse penale. Libertatea economică și protecția creanțelor, relevante prin art. 45 și art. 44, cer o evaluare echilibrată, dar lipsa unui test de lichiditate nu dovedește singură neconstituționalitatea.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor; această modificare societară nu intră, prin obiectul prezentat, în domeniul ei. Nu există reguli tehnice pentru produse sau servicii ale societății informaționale care să indice necesitatea notificării TRIS potrivit Directivei (UE) 2015/1535. Nu rezultă un monopol, o barieră profesională ori discriminare după naționalitate, însă rambursările către persoane din interiorul societății pot afecta economic creditorii externi. Afirmația generală de compatibilitate din expunerea de motive nu înlocuiește verificarea normelor europene aplicabile protecției capitalului și insolvenței. Sursele externe nu au putut fi verificate în această sesiune.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 67, alineat nou după alin. (2⁴)",
+        "proposalContent": "(2⁴¹) Prin excepție de la alin. (2⁴), împrumuturile asociaților sau acționarilor, evidențiate distinct, se pot restitui dacă nu există datorii certe, lichide și exigibile neachitate către salariați, buget sau creditori neafiliați, iar disponibilitățile bănești rămase acoperă datoriile certe și lichide către aceștia scadente în următoarele 30 de zile.",
+        "argumentation": "Derogarea trebuie plasată lângă interdicția restituirii împrumuturilor, nu lângă regulile dividendelor interimare. Condițiile propuse permit recuperarea finanțării asociaților și reduc riscul retragerii lichidităților necesare salariilor, obligațiilor fiscale și creditorilor neafiliați.",
+        "otherComments": "Propunerea înlocuiește completarea art. 69¹. Corelați răspunderea și sancțiunile cu derogarea. Confirmați forma aflată la comisii, deoarece fișa Camerei descrie alt text. Termenul indicat pentru amendamente a trecut; observațiile cetățeanului pot fi valorificate de un deputat potrivit procedurii aplicabile."
+      },
+      "reachedEnd": true,
+      "status": "ok"
+    }
+  }
+}

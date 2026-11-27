@@ -1,60 +1,68 @@
 {
   "slug": "plx-230-2026",
   "billId": "Pl-x 230/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:33:57.810Z",
-  "inputHash": "2945de6c7f50",
-  "riskScore": 8.7,
-  "summary": "O lege profund problematică și neconstituțională în ansamblu, care reintroduce o infracțiune din regimul comunist prin formulări vagi ce pot fi folosite împotriva grevelor, protestelor, ONG-urilor sau mediului de afaceri.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:44:14.101Z",
+  "inputHash": "02d1f83b379f",
+  "riskScore": 8.3,
+  "input": {
+    "textChars": 1775,
+    "memoChars": 1953,
+    "baseline": "no-acts"
+  },
+  "summary": "Problematică de la un capăt la altul: incriminează vag fapte deja acoperite de lege, pune în pericol protestele și ONG-urile și încalcă direct Constituția.",
   "good": [],
   "bad": [
     {
-      "text": "Pedepsește cu 5-15 ani de închisoare fapte vagi („perturbarea piețelor”, „manipularea resurselor”, „sabotaj economic”), putând fi folosită abuziv împotriva grevelor, protestelor sau firmelor.",
-      "article": "Art. I - Art. 394¹ alin. (1) lit. b)-d)",
-      "quote": "b) perturbarea deliberată a piețelor financiare, energetice, agricole sau industriale; c) manipularea resurselor economice în scopul destabilizării economice; d) fapte de sabotaj economic cu impact asupra funcționării normale a economiei naționale;",
+      "text": "Folosește termeni vagi și nedefiniți, ca „manipularea resurselor”, „sabotaj economic” sau „consecințe majore”, pentru pedepse de 5–20 de ani și pedepsește tentativa, permițând acuzații arbitrare.",
+      "article": "art. I (art. 394¹ alin. (1)–(3))",
+      "quote": "Dacă fapta a avut consecințe majore asupra stabilității economice, strategice sau a securității naționale, pedeapsa este închisoare de la 10 la 20 de ani și interzicerea exercitării unor drepturi.",
       "weight": 3
     },
     {
-      "text": "Formula „acțiuni de natură să submineze” nu cere o pagubă reală ori un pericol concret, lăsând la aprecierea arbitrară a anchetatorilor ce fapte ar putea afecta economia.",
-      "article": "Art. I - Art. 394¹ alin. (1)",
-      "quote": "(1) Fapta unei persoane de a desfășura acțiuni de natură să submineze economia națională, prin:",
+      "text": "Pedepsirea cu 5–15 ani de închisoare pentru „perturbarea deliberată a piețelor” poate transforma grevele din energie, protestele fermierilor sau boicoturile consumatorilor în infracțiuni grave.",
+      "article": "art. I (art. 394¹ alin. (1) lit. b))",
+      "quote": "perturbarea deliberată a piețelor financiare, energetice, agricole sau industriale;",
       "weight": 3
     },
     {
-      "text": "Aplică pedeapsa de 10-20 de ani (egală cu cea pentru omor) pentru „consecințe majore”, o expresie nedefinită în lege, fără prag valoric sau criterii obiective de gravitate.",
-      "article": "Art. I - Art. 394¹ alin. (2)",
-      "quote": "(2) Dacă fapta a avut consecințe majore asupra stabilității economice, strategice sau a securității naționale, pedeapsa este închisoare de la 10 la 20 de ani și interzicerea exercitării unor drepturi.",
+      "text": "Vizează expres ONG-urile, asociațiile și fundațiile și trage la răspundere membrii sau conducătorii lor, ocolind regulile generale pentru persoane juridice și intimidând libertatea de asociere.",
+      "article": "art. I (art. 394¹ alin. (4))",
+      "quote": "inclusiv organizații neguvernamentale, fundații, asociații sau alte entități colective, responsabili fiind membrii sau conducătorii acestora care au inițiat sau executat fapta.",
       "weight": 3
     },
     {
-      "text": "Vizează expres ONG-urile, fundațiile și asociațiile, expunând acțiunile civice sau litigiile de mediu unor pedepse grele și creând confuzie privind răspunderea penală a membrilor.",
-      "article": "Art. I - Art. 394¹ alin. (4)",
-      "quote": "precum și dacă aceasta a fost săvârșită prin persoane juridice, inclusiv organizații neguvernamentale, fundații, asociații sau alte entități colective, responsabili fiind membrii sau conducătorii acestora care au inițiat sau executat fapta.",
+      "text": "Prevede aplicarea legii chiar din ziua publicării în Monitorul Oficial, încălcând direct art. 78 din Constituție, care impune un termen de minimum trei zile de la publicare.",
+      "article": "art. II alin. (1)",
+      "quote": "Prezenta lege se aplică de la data publicării în Monitorul Oficial al României, Partea I.",
       "weight": 3
     },
     {
-      "text": "Prevede aplicarea legii chiar în ziua publicării în Monitorul Oficial, încălcând direct art. 78 din Constituție, care impune un termen minim de 3 zile până la intrarea în vigoare.",
-      "article": "Art. II alin. (1)",
-      "quote": "(1) Prezenta lege se aplică de la data publicării în Monitorul Oficial al României, Partea I.",
+      "text": "Dublează infracțiuni existente (actele de diversiune, distrugerea, manipularea piețelor), dar dă pedepse la fel de mari sau mai aspre fără să ceară scopul de a pune în pericol securitatea națională.",
+      "article": "art. I (art. 394¹ alin. (1) și (2))",
+      "quote": "Fapta unei persoane de a desfășura acțiuni de natură să submineze economia națională, prin:",
       "weight": 2
     },
     {
-      "text": "Folosește noțiunea nedefinită de „infrastructură economică critică” și dublează inutil infracțiuni de distrugere și atentat la securitatea națională deja prevăzute în Codul penal.",
-      "article": "Art. I - Art. 394¹ alin. (1) lit. a)",
-      "quote": "a) distrugerea sau degradarea infrastructurii economice critice; b) perturbarea deliberată a piețelor financiare, energetice, agricole sau industriale;",
-      "weight": 2
-    },
-    {
-      "text": "Folosește expresia „interzicerea unor drepturi civile, politice și profesionale”, inexistentă în Codul penal actual, unde pedeapsa corectă este „interzicerea exercitării unor drepturi”.",
-      "article": "Art. I - Art. 394¹ alin. (1)",
+      "text": "Introduce „interzicerea unor drepturi civile, politice și profesionale”, o categorie care nu există în Codul penal (art. 66 are o listă fixă) și contravine chiar formulării din alineatul următor.",
+      "article": "art. I (art. 394¹ alin. (1))",
       "quote": "se pedepsește cu închisoare de la 5 la 15 de ani și interzicerea unor drepturi civile, politice și profesionale.",
+      "weight": 2
+    },
+    {
+      "text": "Are greșeli evidente de redactare și tehnică legislativă: „inititulată”, „5 la 15 de ani”, articole numerotate cu alin. (1) fără alin. (2) și mențiuni redundante despre cetățenie și tentativă.",
+      "article": "titlu, art. I, art. II",
+      "quote": "Proiect de Lege pentru modificarea Legii nr. 286/2009 privind Codul penal inititulată „Legea Conștiinței Naționale”",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
     "checked": 7,
-    "verified": 7
+    "verified": 7,
+    "lawChecked": 0,
+    "lawVerified": 0
   }
 }

@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## L E G E
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.106/2024 pentru modificarea și completarea Legii nr. 95/2006 privind reforma în domeniul sănătății, precum și pentru modificarea și completarea unor acte normative cu impact în domeniul sănătății
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.106 din 4 septembrie 2024 pentru modificarea și completarea Legii nr.95/2006 privind reforma în domeniul sănătății, precum și pentru modificarea și completarea unor acte normative cu impact în domeniul sănătății, publicată în Monitorul Oficial al României, Partea I, nr.903 din 6 septembrie 2024.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 1 octombrie 2024, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+VIRGIL/GURAN

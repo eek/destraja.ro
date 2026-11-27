@@ -1,0 +1,17 @@
+# Parlamentul României Cameră Deputaților
+
+București, 25 noiembrie 2026 Nr.BPI 891
+
+## Domnule președinte,
+
+Avem onoarea să vă înaintăm alăturat, în original, Propunerea legislativă pentru completarea art.27 din Legea fondului funciar nr.18/1991 (BPI 891/2026), inițiată de doamnele deputat Stănescu Vetuța, Pistru-Popa Simona-Geanina, Matei Aneta, Gorghiu Alina-Ștefania, Neacșu Andreea-Firuța, domnii deputați Roman Florin-Claudiu, Vela Ion-Marcel, Stoica Ștefan-Bucur, Andronache Gabriel, Știrbu Gigel-Sorinel, Moiseev Alexandrin, Ciobanu Adrian-Virgil, Cadar Răzvan-Olimpiu, ț Cotinescu Ilie-Aurelian, Năcuță Sorin, Ciobotaru Dragoș-Fănică, Jianu Iosif-Florin, Crușoveanu Marian, Moisin Radu-Marin, Bogdan Ionel-Ovidiu, Cozma Adrian-Felician, Dobre Ciprian-Minodor, Sighiartău Robert-Ionatan, Grupul parlamentar al P.N.L., doamna deputat Hangan Pollyanna-Hanellore, Grupul parlamentar al U.S.R., în vederea dezbaterii și adoptării, potrivit art.75 alin.(1) din Constituția României.
+
+În ședința din data de 25 noiembrie 2026, Biroul permanent al Camerei Deputaților a stabilit că domeniul reglementat de această inițiativă legislativă este de competența decizională a Camerei Deputaților, Senatul fiind prima Cameră sesizată.
+
+Cu stimă,
+
+p.PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Bogdan-Grúia/IVAN
+
+Domnului Mircea ABRUDEAN PREȘEDINTELE SENATULUI

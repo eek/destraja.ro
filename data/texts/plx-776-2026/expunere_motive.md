@@ -1,0 +1,43 @@
+EXPUNERE DE MOTIVE
+
+Legea nr. 51/1991 privind securitatea națională a României, cu modificările și completările ulterioare, constituie cadrul juridic fundamental pentru prevenirea și combaterea amenințărilor la adresa securității statului. Articolul 11 din acest act normativ definește cercul beneficiarilor legali care pot fi informați cu privire la riscurile sau amenințările identificate de organele cu atribuții în domeniul securității naționale. În contextul evoluției climatului de securitate european și euroatlantic, în special în ceea ce privește problematica teroristă, migrația ilegală din zonele cu potențial terorist, amenințările cibernetice și cele hibride constituie factori care impun o reglementare actuală a asigurării securității naționale. Dinamica activă a fenomenelor transnaționale negative, cu potențial agresiv sau de amenințare la adresa securității, accentuarea caracteristicilor transfrontaliere ale majorității amenințărilor care în alte condiții aveau sorginte și arie de manifestare interne, susțin și ele modificarea și completarea cadrului normativ în domeniul securității naționale. Astfel, contextul geopolitic actual, caracterizat prin proliferarea riscurilor hibride și a atacurilor cibernetice, impune o cooperare mai strânsă și o informare rapidă a autorităților locale și centrale pentru a asigura o reacție promptă. Prezenta modificare legislativă vizează necesitatea modificării integrale a art. 11 din Legea nr.51/1991 în condițiile existenței unui vid de reglementare în privința legalității/legitimității informării de către serviciile de informații a anumitor beneficiari legali. Din analiza textului art. 11 se poate observa că acesta este unul restrictiv și desuet, categoriile de decizionali cărora le pot fi comunicate informații fiind nominalizate expres și limitativ, în acord cu viziunea legiuitorului la momentul adoptării actului normativ. Spre exemplu, în enumerarea de la nivelul anului 1991 nu sunt incluși factori de decizie extrem de importanți precum: Președintele României și întregul corp al consilierilor prezidențiali și al consilierilor de stat din cadrul Administrației Prezidențiale; prim-ministru și viceprim - miniștri; aparatul de lucru al Guvernului și șefii instituțiilor subordonate sau aflate în coordonarea ministerelor; șefii unor autorități administrative autonome etc., astfel că informarea acestora se realizează prin prisma interpretării juridice extinse și corelative a Constituției României și a legilor/regulamentelor de funcționare a instituțiilor menționate.
+
+Din perspectiva activității de informare la nivel central, în prezent sunt aplicabile dispozițiile alin. (1) lit. a), respectiv b), cu referire la președintele Senatului, președintele Camerei Deputaților, președinții comisiilor permanente pentru apărare, ordine publică și siguranță națională ale celor două camere ale Parlamentului, miniștrii și șefii departamentelor din ministere. Așadar, este esențială extinderea listei beneficiarilor legali prevăzuți la art. 11 alin. (a) prin includerea unor noi autorități care, prin natura activității lor, gestionează infrastructuri critice sau asigură ordinea publică la nivel local și regional. Adoptarea acestei modificări va contribui la asigurarea unui mecanism de securitate consolidat, garantând astfel o mai bună apărare a intereselor naționale și o protecție sporită a cetățenilor.
+
+Inițiator: Eugen BEJINARIU - Deputat PSD
+
+PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR | SENATUL
+
+TABEL INIȚIATORI
+
+Lege pentru modificarea și completarea Legii nr. 51/1991 privind securitatea națională a României Nr. | Nume și Prenume | Grup | Semnătură crt. | Parlamentar | parlamentar
+
+1\. easu Nicoar | PNL 2. EPELIS LAUREM,, 4 CRIOTIZZ PS ! 3. MIWA MANAN | PSD 4. RADU FABiAN - CRISTiAN | AUR 5. | USR COLIBAN ALLEN 6. | PNL PRISCA RAZUAN 7. NAGY VASILE | 5.O.S. 1O. 8.
+
+9\.
+
+10\.
+
+11\.
+
+12\.
+
+13\.
+
+14\.
+
+15\.
+
+16\.
+
+17\.
+
+18\.
+
+Tabel comparativ
+
+Proiect de Lege privind modificarea și completarea Legii nr.51/1991 privind securitatea națională a României
+
+Nr. crt | Forma actuală a textului | Forma propusă 1. | ART.11 | ART.11 (1) Informațiile din domeniul securității | (1) Informațiile referitoare la securitatea națională, obținute în naționale pot fi comunicate: | condițiile prezentei legi, sunt a) președintelui Senatului, președintelui | clasificate secret de stat și se pot Camerei Deputaților, precum ș1 | comunica, atunci când informațiile privesc probleme ce comisiilor permanente pentru apărare, ordine publică și siguranță națională ale celor două | au legătură cu domeniile de activitate pe care le coordonează camere ale Parlamentului. și de care răspund, cu b) miniștrilor și șefilor departamentelor din | respectarea dispozițiilor legale ministere, când informațiile privesc probleme ce au legătură cu domeniile de | în materia protecției informațiilor clasificate și a activitate pe care le coordonează sau de care | principiului necesității de a răspund; c) prefecților, primarului general al capitalei, | cunoaște, următorilor beneficiari legali: primarilor de sector ai municipiului a) Președintelui României și București, primarilor municipiilor reședință de județ, precum și președinților consiliilor | consilierului prezidențial pentru județene, pentru probleme ce vizează | securitate națională; b) prim-ministrului Guvernului competența organelor respective; d) organelor de urmărire penală, când | României, viceprim - informațiile privesc săvârșirea unei | miniștrilor, miniștrilor și infracțiuni. | secretarilor de stat și secretarului general al (-...) | Guvernului. c) șefilor instituțiilor cu atribuții (3) Prevederile art. 10 privitoare la apărarea | în domeniul securității secretului de stat se aplică în mod | naționale; corespunzător tuturor persoanelor prevăzute | d) președintelui Senatului, la alin.(1) lit. a) -d). | președintelui Camerei Deputaților; e)membrilor Comisiei comune permanente a Camerei Deputaților și Senatului pentru exercitarea controlului parlamentar asupra activității SRI și cei ai comisiei de apărare, ordine publică și siguranță națională ale celor două camere.
+
+f) șefilor instituțiilor din domeniu judiciar; g) prefecților, primarului general al Capitalei, primarilor de sector ai Municipiului București, primarilor municipiilor reședință de județ, precum și președinților consiliilor județene; h) organelor de urmărire penală, când informațiile privesc săvârșirea unei infracțiuni. (-→ (3) Prevederile art. 10 privitoare la apărarea secretului de stat se aplică în mod corespunzător tuturor persoanelor prevăzute la alin.(1) lit. a) -h).

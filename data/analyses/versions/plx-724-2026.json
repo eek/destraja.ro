@@ -1,0 +1,146 @@
+{
+  "slug": "plx-724-2026",
+  "billId": "PL-x 724/2026",
+  "updatedAt": "2026-11-27T09:11:33.930Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L479FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Femeile din armată, poliție și penitenciare pot ieși la pensie mai devreme dacă au crescut copii",
+      "summaryTlDr": "Scopul e legitim și social, dar textul are probleme reale. Nu indică de unde vin banii, rezervă beneficiul doar femeilor chiar și pentru copiii adoptați, ceea ce intră în conflict cu jurisprudența CJUE, și permite, prin cumul cu alte reduceri, pensionarea la 45 de ani.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 3
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/20/4/se829.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Militarele, polițistele și angajatele din penitenciare cu copii s-ar putea pensiona cu până la 3 ani și jumătate mai devreme",
+      "summaryTlDr": "Scopul e legitim și social, dar textul e scris în grabă. Avantajul e rezervat doar femeilor, deși se acordă și pentru copii adoptați, ceea ce intră în conflict cu jurisprudența CJUE (Griesmar, Leone). Lipsesc estimarea costului și sursa de finanțare, iar normele de aplicare uită jumătate din instituțiile vizate.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 4
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițial; reducerea vârstei de pensionare pentru mame rămâne neschimbată",
+      "summary": "Textul s-a schimbat doar formal: antetul Senatului, mențiunea adoptării tacite și corectura unor greșeli de scriere. Reducerea vârstei de pensionare pentru femeile din sistem, cu prag minim de 45 de ani, a rămas neschimbată.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cumul cu alte reduceri permite pensionarea chiar de la 45 de ani",
+            "major": true,
+            "article": "art. 21^1 alin. (4)"
+          },
+          {
+            "text": "Impactul bugetar al reducerilor cumulate nu este cuantificat",
+            "major": true,
+            "article": "art. 21^1 alin. (4)"
+          },
+          {
+            "text": "Beneficiul e doar pentru femei; tații care cresc copii sunt excluși",
+            "major": true,
+            "article": "art. 21^1 alin. (1)"
+          },
+          {
+            "text": "Copiii adoptați după vârsta de circa 3 ani nu dau dreptul la reducere",
+            "major": true,
+            "article": "art. 21^1 alin. (3)"
+          },
+          {
+            "text": "Trimiterea la art. 16 lit. b) omite alineatul, condiția de vechime e imprecisă",
+            "major": false,
+            "article": "art. 21^1 alin. (1)"
+          },
+          {
+            "text": "Formula „născuți și/sau adoptați și crescuți” e ambiguă",
+            "major": false,
+            "article": "art. 21^1 alin. (1)"
+          },
+          {
+            "text": "Nicio regulă pentru tutelă, plasament sau ambii părinți în sistem",
+            "major": false,
+            "article": "art. 21^1"
+          },
+          {
+            "text": "Ministerul Justiției și alte instituții lipsesc de la elaborarea normelor",
+            "major": false,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Greșeală de redactare „adoptția” în textul legii",
+            "major": false,
+            "article": "art. 21^1 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Reducere graduală a vârstei de pensionare, de la 6 luni la 3 ani și 6 luni",
+            "major": true,
+            "article": "art. 21^1 alin. (1)"
+          },
+          {
+            "text": "Se acordă și pentru copiii adoptați, nu doar pentru cei născuți",
+            "major": true,
+            "article": "art. 21^1 alin. (1)"
+          },
+          {
+            "text": "Definiție clară a copilului crescut, până la 16 ani",
+            "major": false,
+            "article": "art. 21^1 alin. (2)"
+          },
+          {
+            "text": "Există un prag minim de vârstă, de 45 de ani",
+            "major": false,
+            "article": "art. 21^1 alin. (4)"
+          },
+          {
+            "text": "Normele trebuie emise în 30 de zile, inclusiv pentru tutelă și ocrotire",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0.6
+      },
+      "model": "claude",
+      "schema": 4,
+      "basis": {
+        "a": "db3fc049b651aa3a",
+        "b": "8f64dcc2589daf80",
+        "findings": "42b1aedb8643dc48",
+        "prompt": 4
+      },
+      "updatedAt": "2026-11-27T09:11:33.930Z"
+    }
+  ]
+}

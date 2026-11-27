@@ -1,0 +1,160 @@
+{
+  "slug": "plx-717-2026",
+  "billId": "PL-x 717/2026",
+  "updatedAt": "2026-11-27T09:09:25.502Z",
+  "plan": [
+    "initiator",
+    "senat"
+  ],
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L532FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Șoferii de ride-sharing nu mai pot lucra cu mașina împrumutată (comodat)",
+      "summaryTlDr": "Proiectul are un obiect îngust, dar e redactat neglijent: scoate comodatul din transportul alternativ fără perioadă de tranziție. În plus, noua lit. d) pare să ceară tuturor operatorilor un contract de închiriere autentificat, inclusiv proprietarilor. Scopul antievaziune e servit slab, pentru că un comodat se poate transforma ușor într-o închiriere cu chirie simbolică.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/10/7/se815.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Ride-sharing (Uber/Bolt): o singură mașină împrumutată prin comodat per operator",
+      "summaryTlDr": "Senatul a îndulcit propunerea inițială: comodatul nu mai e interzis, ci plafonat la o singură mașină per operator. Ideea e defendabilă, dar redactarea e stângace. Lit. d) pierde contractul de închiriere și sintagma „după caz”, iar lipsesc normele tranzitorii.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      },
+      "method": "whole-text-v1",
+      "agyModel": "gemini-4-neon-high"
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Comodatul revine pentru o singură mașină, iar închirierea nu mai cere contract la notar",
+      "summary": "Inițial, comodatul dispărea complet și se cerea contract de închiriere autentificat. Acum comodatul e permis pentru o mașină, iar închirierea nu mai cere notar. Rămân probleme: lit. d) pare să ceară comodat autentic pentru orice mașină și nu există dispoziții tranzitorii.",
+      "changes": [
+        {
+          "title": "Comodatul e din nou permis, pentru o mașină",
+          "text": "Art. 13 alin. (2): inițial copia conformă se elibera doar pentru mașini în proprietate sau închiriere. Acum se adaugă un singur autoturism deținut în comodat.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 13 alin. (2)",
+          "before": "(2) Copia conformă a autorizației pentru transportul alternativ se eliberează operatorului de transport alternativ autorizat numai pentru autoturismele deținute în proprietate sau închiriere.",
+          "after": "(2) Copia conformă a autorizației pentru transportul alternativ se eliberează operatorului de transport alternativ autorizat numai pentru autoturismele deținute în proprietate, închiriere sau pentru un singur autoturism deținut în baza unui contract de comodat.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nu mai trebuie contract de închiriere la notar",
+          "text": "Art. 13 alin. (1) lit. d): inițial se cerea contract de închiriere autentificat, deci un cost notarial pe mașină. Acum se cere doar comodat autentificat, dar mașinile închiriate rămân fără document de depus.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 13 alin. (1) lit. d)",
+          "before": "d) contractul de închiriere a autoturismului în formă autentificată;",
+          "after": "d) contractul de comodat în formă autentificată.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Formele de deținere nu mai sunt enumerate la început",
+          "text": "Art. 13 alin. (1), partea introductivă: inițial enumera proprietatea, închirierea și leasingul. Acum vorbește doar de autoturismul utilizat, iar enumerarea rămâne în alin. (2) și (3).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 13 alin. (1)",
+          "before": "Pentru fiecare autoturism deținut în proprietate, închiriere, contract de leasing și utilizat în vederea efectuării transportului alternativ",
+          "after": "Pentru fiecare autoturism utilizat în efectuarea transportului alternativ",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Citită literal, lit. d) cere comodat autentificat pentru fiecare mașină",
+            "major": true,
+            "article": "art. 13 alin. (1) lit. d)"
+          },
+          {
+            "text": "Mașinile închiriate sunt permise, dar fără document doveditor în listă",
+            "major": true,
+            "article": "art. 13 alin. (1) lit. d)"
+          },
+          {
+            "text": "Comodatul limitat la o singură mașină; operatorii cu mai multe pierd copii",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Fără dispoziții tranzitorii pentru copiile conforme emise pe mai multe comodate",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Contractul de comodat trebuie autentificat la notar, cu cost suplimentar",
+            "major": true,
+            "article": "art. 13 alin. (1) lit. d)"
+          },
+          {
+            "text": "Neclar cum se aplică înlocuirea mașinii „deținut în aceleași condiții”",
+            "major": false,
+            "article": "art. 13 alin. (9)"
+          },
+          {
+            "text": "Partea introductivă nu enumeră formele de deținere, sporind dependența de interpretare",
+            "major": false,
+            "article": "art. 13 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Comodatul rămâne posibil pentru un autoturism",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Proprietatea și închirierea rămân nelimitate, fără contract de închiriere la notar",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Leasingul rămâne neschimbat, reglementat prin alin. (3)",
+            "major": false,
+            "article": "art. 13 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 8,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 4,
+      "basis": {
+        "a": "886a742c28a52fdf",
+        "b": "9e219cb6d8f9e5ac",
+        "findings": "8f98469e5e989b80",
+        "prompt": 4
+      },
+      "updatedAt": "2026-11-27T09:09:25.502Z"
+    }
+  ]
+}

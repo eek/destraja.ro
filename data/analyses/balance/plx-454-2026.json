@@ -1,72 +1,68 @@
 {
   "slug": "plx-454-2026",
   "billId": "Pl-x 454/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
-  "updatedAt": "2026-10-30T10:45:45.753Z",
-  "inputHash": "b5e0a59ac99d",
-  "riskScore": 7.7,
-  "summary": "O încercare de plafonare a achizițiilor de teren agricol de către străini, dar neconstituțională, contrară dreptului UE și inaplicabilă în practică.",
+  "modelId": "gemini-4-neon-high",
+  "updatedAt": "2026-11-27T09:51:58.646Z",
+  "inputHash": "7a7d611f304f",
+  "riskScore": 8,
+  "input": {
+    "textChars": 1872,
+    "memoChars": 6915,
+    "baseline": {
+      "file": "data/baseline/plx-454-2026.json",
+      "key": "590cdd0f07bea930",
+      "articlesShown": 1,
+      "truncated": false
+    }
+  },
+  "summary": "Un proiect problematic de la un capăt la altul: impune plafoane discriminatorii contrare dreptului UE, fără reguli de aplicare sau sancțiuni.",
   "good": [],
   "bad": [
     {
-      "text": "Plafonează la 10 ha cumpărarea de teren agricol pentru cetățenii și firmele din UE, discriminându-i direct pe criteriul cetățeniei față de români, contrar tratatelor UE.",
-      "article": "art. I (art. 3¹ alin. (1))",
-      "quote": "cetățeanul unui stat membru, apatridul cu domiciliul într-un stat membru sau în România, precum și persoana juridică constituită în conformitate cu legislația unui stat membru pot dobândi dreptul de proprietate asupra terenurilor agricole, în limita a maximum 10 ha.",
+      "text": "Legea actuală le dă cetățenilor și firmelor UE aceleași drepturi la teren ca românilor. Proiectul pune plafoane de 10 sau 30 ha după cetățenie și originea capitalului, încălcând tratatele UE și riscând sancțiuni europene.",
+      "article": "art. I (art. 3¹ alin. (1)–(3))",
+      "quote": "persoana juridică constituită în conformitate cu legislația unui stat membru pot dobândi dreptul de proprietate asupra terenurilor agricole, în limita a maximum 10 ha.",
+      "lawQuote": "pot dobândi dreptul de proprietate asupra terenurilor în aceleași condiții cu cele prevăzute de lege pentru cetățenii români și pentru persoanele juridice române.",
       "weight": 3
     },
     {
-      "text": "Limitează la 30 ha terenul pe care îl pot cumpăra unele firme românești cu capital străin, deși Constituția ocrotește egal proprietatea indiferent de titular, iar legea vizează doar străinii.",
-      "article": "art. I (art. 3¹ alin. (3))",
-      "quote": "Persoanele juridice române cu o participație la capitalul social formată în proporție de cel puțin 50% din capital străin și care nu au beneficiari reali cetățeni români, pot dobândi dreptul de proprietate asupra terenurilor agricole",
+      "text": "Nu se precizează dacă limita de 10 sau 30 ha e per act ori cumulată, dacă include terenul intravilan, cine verifică pragurile, ce sancțiuni se aplică sau cum se corelează cu Legea 17/2014. Neclaritatea blochează aplicarea.",
+      "article": "art. I (art. 3¹ alin. (1)–(3))",
+      "quote": null,
       "weight": 3
     },
     {
-      "text": "Prevede adoptarea ca lege ordinară (art. 76 alin. 2 din Constituție), deși regimul juridic al proprietății și dobândirea terenurilor de către străini se reglementează doar prin lege organică.",
-      "article": "clauza de adoptare",
-      "quote": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.",
+      "text": "Plafonul de 30 ha lovește nejustificat firme românești cu cel puțin 50% capital străin, dar se ocolește banal: o firmă română cu 49% capital străin sau cu un singur beneficiar real român poate cumpăra nelimitat.",
+      "article": "art. I (art. 3¹ alin. (2) și (3))",
+      "quote": "cel puțin 50% din capital străin și care nu au beneficiari reali cetățeni români, pot dobândi dreptul de proprietate asupra terenurilor agricole, în limita a maximum 30 ha.",
       "weight": 3
     },
     {
-      "text": "Nu precizează dacă limita de 10 sau 30 ha se aplică pe fiecare contract de vânzare, pe totalul achizițiilor viitoare sau cumulat cu terenurile deținute deja, blocând aplicarea la notar.",
-      "article": "art. I (art. 3¹)",
+      "text": "Limita vizează orice dobândire a proprietății, nu doar cumpărarea, și nu exceptează moștenirea legală. Un cetățean UE care moștenește peste 10 ha de teren agricol ar putea fi blocat, contrar garanției din Constituție.",
+      "article": "art. I (art. 3¹ alin. (1)–(3))",
       "quote": "pot dobândi dreptul de proprietate asupra terenurilor agricole, în limita a maximum 10 ha.",
-      "weight": 3
-    },
-    {
-      "text": "Nu prevede niciun registru de evidență a hectarelor cumpărate, nicio procedură de verificare pentru notari și nicio sancțiune (cum ar fi nulitatea actului) dacă plafonul este depășit.",
-      "article": "art. I (art. 3¹)",
-      "quote": null,
-      "weight": 3
-    },
-    {
-      "text": "Instituie o excepție de la art. 3 din Legea 312/2005 (care vizează terenurile pentru reședințe secundare și sedii sociale), ignorând art. 4 și 5 care reglementează de fapt terenurile agricole.",
-      "article": "art. I (art. 3¹ alin. (1))",
-      "quote": "(1) Prin excepție de la prevederile Art. 3, cetățeanul unui stat membru, apatridul cu domiciliul într-un stat membru sau în România",
       "weight": 2
     },
     {
-      "text": "Creează un paradox: o firmă din UE poate cumpăra direct doar 10 ha, dar prin înființarea unui SRL în România poate lua 30 ha sau chiar nelimitat dacă are un singur beneficiar real român.",
-      "article": "art. I (art. 3¹ alin. (1)-(3))",
-      "quote": "Persoanele juridice constituite în conformitate cu legislația unui stat membru, cu o participație la capitalul social formată în proporție de cel puțin 50% din persoane fizice sau juridice române și cu cel puțin un beneficiar real cetățean român",
+      "text": "Formula finală prevede adoptarea ca lege ordinară, însă Constituția cere lege organică pentru regulile privind dobândirea terenurilor de către cetățenii străini și apatrizi, ceea ce face proiectul neconstituțional și procedural.",
+      "article": "formula de atestare finală",
+      "quote": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.",
       "weight": 2
     },
     {
-      "text": "Nu prevede cumularea suprafețelor între firme afiliate sau controlate de aceeași persoană, permițând ocolirea plafonului prin simpla înființare a mai multor societăți comerciale.",
-      "article": "art. I (art. 3¹)",
-      "quote": null,
-      "weight": 2
-    },
-    {
-      "text": "Nu clarifică dacă plafonul vizează doar terenurile agricole din extravilan sau și pe cele din intravilan și nici ce se întâmplă cu antecontractele sau procedurile de vânzare aflate în curs.",
-      "article": "art. I și art. II",
-      "quote": "Prezenta lege intră în vigoare la 60 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
-      "weight": 2
+      "text": "Redactarea e incoerentă: alin. (2) nu precizează că derogă de la alin. (1), firmele românești sunt puse într-o lege pentru străini, iar „capitalul străin” rămâne nedefinit, creând suprapuneri și anomalii.",
+      "article": "art. I (art. 3¹ alin. (1)–(3))",
+      "quote": "Persoanele juridice constituite în conformitate cu legislația unui stat membru, cu o participație la capitalul social formată în proporție de cel puțin 50% din persoane fizice sau juridice române",
+      "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 7,
-    "verified": 7
+    "checked": 5,
+    "verified": 5,
+    "lawChecked": 1,
+    "lawVerified": 1
   }
 }

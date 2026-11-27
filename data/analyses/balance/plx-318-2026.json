@@ -1,224 +1,132 @@
 {
   "slug": "plx-318-2026",
   "billId": "PL-x 318/2026",
-  "schema": 1,
+  "schema": 2,
   "model": "agy",
   "modelId": "gemini-4-neon-high",
-  "updatedAt": "2026-11-24T11:20:28.795Z",
-  "inputHash": "7278194c3d16",
+  "updatedAt": "2026-11-27T09:55:46.117Z",
+  "inputHash": "c1006ad85805",
   "riskScore": 7.7,
-  "summary": "Un proiect cu scop legitim și o reglementare tehnică solidă pentru fauna sălbatică, dar stricat în ansamblu de numeroase prevederi penale, procedurale și de acces la domiciliu vag redactate și neconstituționale.",
+  "input": {
+    "textChars": 69362,
+    "memoChars": 8454,
+    "baseline": {
+      "file": "data/baseline/plx-318-2026.json",
+      "key": "c68998be6cae2e6f",
+      "articlesShown": 17,
+      "truncated": false
+    }
+  },
+  "summary": "Un proiect cu măsuri utile pentru protecția animalelor și a faunei sălbatice, dar compromis în ansamblu de prevederi neconstituționale privind domiciliul, confiscarea fără instanță și norme penale vagi sau defectuoase.",
   "good": [
     {
-      "text": "Stabilește reguli stricte pentru centrele de reabilitare și sanctuarele de animale sălbatice, cu evaluări independente, biosecuritate, reevaluare anuală și rapoarte publice.",
-      "article": "art. 11 și Anexa nr. 1",
-      "quote": "Prezenta anexă stabilește criteriile tehnice, etice și administrative pentru evaluarea post-tratament și decizia de menținere în captivitate permanentă a exemplarelor din specii indigene neeliberabile, precum și obligațiile minime de bunăstare aplicabile sanctuarelor",
+      "text": "Înlocuiește regulile sumare actuale cu standarde clare pentru centrele de reabilitare și sanctuarele de faună sălbatică, interzicând deținerea privată și impunând biosecuritate, evaluări independente și raportare publică.",
+      "article": "art. 11, Anexa nr. 1, Anexa nr. 2",
+      "quote": "Centru de reabilitare pentru animale sălbatice reprezintă o entitate juridică distinctă, autorizată potrivit legii de către Autoritatea Sanitar Veterinară și pentru Siguranța Alimentelor și de către Agenția pentru Protecția Mediului competentă teritorial",
+      "lawQuote": "Deținătorii de animale pot deține animale sălbatice, potrivit legii, numai dacă sunt autorizați de direcția sanitară veterinară și pentru siguranța alimentelor județeană, respectiv a municipiului București.",
       "weight": 3
     },
     {
-      "text": "Interzice strict eliberarea în natură a animalelor sălbatice din specii invazive, protejând flora și fauna locală de dezechilibre ecologice.",
-      "article": "art. 11 alin. (7)",
-      "quote": "Pentru animalele sălbatice aparținând speciilor alohtone invazive, centrele de reabilitare pot asigura îngrijire, evaluare și, după caz, eutanasiere, fiind strict interzisă eliberarea acestora în mediul natural.",
-      "weight": 2
-    },
-    {
-      "text": "Permite hrănirea și adăparea animalelor fără stăpân pe domeniul public și amplasarea de căsuțe cu avizul primăriei, oprind amenzile arbitrare și ajutând animalele pe ger.",
-      "article": "art. 5 alin. (3)",
-      "quote": "amplasarea de adăposturi temporare de tip căsuțe pentru câini și pisici, pe domeniul public, cu avizul prealabil al autorității administrației publice locale, privind locațiile permise, acolo unde comunitatea se îngrijește de animale;",
-      "weight": 2
-    },
-    {
-      "text": "Permite experimentele pe animale doar dacă nu există metode alternative și rezultatele nu au fost deja validate, și interzice folosirea lor didactică dacă le provoacă leziuni sau moarte.",
-      "article": "art. 24",
-      "quote": "Se interzice folosirea oricâror specii de animale în scopuri didactice, dacă prin acestea se produce lezarea fizică, psihică sau moartea animalului.",
-      "weight": 2
-    },
-    {
-      "text": "Sancționează filmarea și publicarea online a abuzurilor asupra animalelor în scop de amuzament sau profit, protejând explicit scopul jurnalistic, educativ și de denunțare.",
-      "article": "art. 6 alin. (2) lit. o)",
-      "quote": "filmarea, distribuirea sau publicarea în mediul online a imaginilor, înregistrărilor ori materialelor care prezintă acte de cruzime, abuz, violență sau suferință intenționată asupra animalelor, în scop de amuzament, provocare, câștig, popularitate",
-      "weight": 2
-    },
-    {
-      "text": "Combate comerțul necontrolat cu animale de companie din târguri și de pe internet, cerând înregistrarea sanitar-veterinară a crescătoriilor care vând animale.",
-      "article": "art. 15¹ alin. (2)",
+      "text": "Interzice vânzarea și promovarea animalelor de companie în târguri sau online fără crescătorii înregistrate sanitar-veterinar, sub amendă de 2.000–20.000 lei, combătând fabricile ilegale de pui și abandonul.",
+      "article": "art. 15¹, art. 26 alin. (1) lit. f)",
       "quote": "Se interzice promovarea comercializării și comercializarea animalelor de companie în târguri ori alte locuri publice/private și pe internet, dacă proprietarii persoane fizice sau juridice nu dețin cănise, felise, alte crescătorii de animale înregistrate sanitar-veterinar.",
-      "weight": 2
+      "weight": 3
     },
     {
-      "text": "Interzice dresarea animalelor pentru atac și testele de agresivitate, inclusiv pentru câinii ciobănești folosiți ilegal în lupte, crescând siguranța oamenilor și a animalelor.",
-      "article": "art. 14¹ alin. (1) și (2)",
+      "text": "Interzice și incriminează penal concursurile de tracțiune cu cai ori alte animale de rentă, supunerea la eforturi inutile urmate de moarte și dresarea sau testarea animalelor pentru atac, protejând inclusiv câinii ciobănești.",
+      "article": "art. 14¹, art. 17 alin. (3), art. 25 alin. (2) lit. a), e), alin. (3) lit. e)",
       "quote": "Este interzisă dresarea unui animal pentru a ataca omul, un alt animal sălbatic sau domestic și organizarea de teste sau probe în acest sens, cu excepția câinilor utilitari de pază.",
+      "lawQuote": "Caii, câinii și animalele de rentă pot participa la concursuri, târguri, competiții și expoziții de profil organizate și autorizate conform legii.",
+      "weight": 3
+    },
+    {
+      "text": "Consacră legal animalele (vertebrate, cefalopode și crustacee decapode) drept ființe simțitoare și permite expres hrănirea, adăparea și amplasarea de căsuțe cu avizul primăriei pentru animalele fără stăpân pe domeniul public.",
+      "article": "art. 1 alin. (1¹), art. 5 alin. (3)",
+      "quote": "hrănirea și adăparea acestora pe domeniul public, în condiții care nu afectează sănătatea publică sau siguranța cetățenilor",
       "weight": 2
     },
     {
-      "text": "Interzice concursurile de tracțiune pentru cai și animale de rentă, unde animalele sunt adesea forțate brutal să tragă greutăți extreme.",
-      "article": "art. 17 alin. (3)",
-      "quote": "Caii, câinii și animalele de rentă pot participa la concursuri, târguri, competiții și expoziții de profil organizate și autorizate conform legii, cu excepția concursurilor de tracțiune.",
-      "weight": 2
-    },
-    {
-      "text": "Extinde definiția abandonului și la lăsarea animalelor pe proprietăți private sau la instituții publice, nu doar pe stradă, acoperind cazurile reale de abandon.",
-      "article": "art. 7",
+      "text": "Extinde abandonul la proprietăți private și lipsa apei, amendează distribuirea online a cruzimii în scop de profit sau amuzament și urcă plafonul amenzilor de la 12.000 la 20.000 lei, acoperind fapte nesancționate.",
+      "article": "art. 6 alin. (2) lit. o), art. 7, art. 26",
       "quote": "Abandonul constă în lăsarea pe domeniul public sau pe proprietatea privată a unei persoane fizice/juridice sau instituții publice a unui animal fără hrană, apă, adăpost și tratament medical.",
+      "lawQuote": "Abandonul constă în lăsarea unui animal aflat în proprietatea și îngrijirea omului, pe domeniul public, fără hrană, adăpost și tratament medical.",
       "weight": 2
     },
     {
-      "text": "Impune interdicția de a mai deține animale celor condamnați pentru cruzimi grave (ucidere, schingiuire, lupte, zoofilie), reducând riscul de recidivă.",
-      "article": "art. 25 alin. (4)",
-      "quote": "iar în cazul condamnării pentru una dintre infracțiunile prevăzute la alin.(3), instanța dispune ca pedeapsă complementară interdicția de a deține animale.",
+      "text": "Permite restricții de comerț pe criterii meteo, corelează transportul comercial cu normele UE, adaugă medic veterinar în comisiile competițiilor și interzice testele repetitive ori procedurile didactice vătămătoare.",
+      "article": "art. 15, art. 16 alin. (3), art. 18 alin. (2), art. 24",
+      "quote": "Se interzice folosirea oricâror specii de animale în scopuri didactice, dacă prin acestea se produce lezarea fizică, psihică sau moartea animalului.",
+      "lawQuote": "Animalele pot fi folosite pentru cercetare științifică, diagnosticarea de boli, producerea unor medicamente sau produse biologice, atunci când obiectivul activității nu poate fi atins prin alte metode ce nu implică folosirea animalelor.",
       "weight": 2
     },
     {
-      "text": "Recunoaște legal animalele vertebrate, cefalopodele și crustaceele decapode ca ființe simțitoare, capabile să simtă durere și emoții, în linie cu principiile europene.",
-      "article": "art. 1 alin. (1¹)",
-      "quote": "Animalele sunt ființe simțitoare, cu drepturi și libertăți, capabile să simtă durere, suferință și emoții și au dreptul la un tratament uman, care să țină cont de nevoile lor de bunăstare",
-      "weight": 1
-    },
-    {
-      "text": "Permite consiliilor județene să încredințeze animalele salvate unor asociații cu contract veterinar, degrevând adăposturile publice și îmbunătățind îngrijirea.",
-      "article": "art. 24¹ alin. (1)",
-      "quote": "acesta din urmă putând opta pentru încredințarea lui prin ordin de plasare unei asociații sau fundații de protecție a animalelor, care are contract de prestări servicii medicale veterinare cu un cabinet veterinar înregistrat conform legii.",
-      "weight": 1
-    },
-    {
-      "text": "Crește amenzile maxime la 20.000 de lei pentru rele tratamente și cruzime, făcând sancțiunile mai descurajante decât în prezent.",
-      "article": "art. 26 alin. (2) și (3)",
-      "quote": "Contravențiile prevăzute la alin.(1), cu excepția art.6 lit.j), se sancționează cu amendă de la 2.000 de lei la 20.000 de lei.",
-      "weight": 1
-    },
-    {
-      "text": "Obligă organizatorii competițiilor cu animale să includă un medic veterinar în comisie, ajutând la prevenirea dopajului și a accidentărilor.",
-      "article": "art. 18 alin. (2)",
-      "quote": "Comisia de organizare a competițiilor și/sau de arbitraj va cuprinde obligatoriu un medic veterinar de liberă practică și un reprezentant al organizațiilor de protecție a animalelor.",
+      "text": "Adaugă Poliția Locală lângă ANSVSA și MAI la constatarea și sancționarea contravențiilor, sporind capacitatea de control pe domeniul public (fără a justifica însă intrarea obligatorie în locuințe).",
+      "article": "art. 29 alin. (1), art. 30 alin. (1)",
+      "quote": "Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la art.26 se fac de persoane împuternicite, potrivit atribuțiilor de serviciu, din cadrul Autorității Naționale Sanitare Veterinare și pentru Siguranța Alimentelor, Poliției Locale și Ministerului Afacerilor Interne.",
+      "lawQuote": "Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la art. 26 se fac de persoane împuternicite, potrivit atribuțiilor de serviciu, din cadrul Autorității Naționale Sanitare Veterinare și pentru Siguranța Alimentelor și al Ministerului Afacerilor Interne.",
       "weight": 1
     }
   ],
   "bad": [
     {
-      "text": "Permite polițistului să intre fără mandat și fără acord în orice spațiu privat, inclusiv în locuință, fără garanții procedurale sau control judiciar, în conflict cu inviolabilitatea domiciliului.",
-      "article": "art. 24¹ alin. (5)",
+      "text": "Elimină acordul actual pentru controlul la domiciliu, obligând accesul MAI și Poliției Locale sub amendă până la 20.000 lei, și lasă polițistul să intre în orice spațiu privat fără mandat sau garanții.",
+      "article": "art. 30 alin. (3), art. 24¹ alin. (5), art. 26 alin. (1) lit. d)",
       "quote": "Pentru punerea în executare a ordinului de plasare a animalului în adăpost, dacă viața animalului este pusă în pericol, polițistul poate pătrunde în orice spațiu privat, chiar și în lipsa acordului proprietarului sau deținătorului spațiului.",
+      "lawQuote": "În situația în care locul unde sunt ținute animalele se află la domiciliul sau reședința deținătorilor de animale, accesul persoanelor prevăzute la alin. (2) în acest spațiu se face cu acordul deținătorului.",
       "weight": 3
     },
     {
-      "text": "Obligă cetățeanul, sub amendă de 2.000–20.000 lei, să lase MAI și Poliția Locală unde ține animalele pentru controale de rutină, fără mandat și fără suspiciune de pericol grav.",
-      "article": "art. 30 alin. (3) și art. 26 alin. (1) lit. d)",
-      "quote": "Deținătorul are obligația de a permite accesul personalului Ministerului Afacerilor Interne și Poliției Locale în locul unde sunt ținute animalele pentru a face dovada respectării art.5.",
+      "text": "Redefinește infracțiunea de rănire (1–5 ani închisoare) ca orice faptă ce produce «durere, stres, frică sau suferință» fără leziuni, fără praguri sau excepții și în suprapunere directă cu contravenția de la art. 6.",
+      "article": "art. 25¹, art. 25 alin. (2) lit. d), art. 6 alin. (2) lit. j)",
+      "quote": "Prin rănire, în sensul prezentei legi, se înțelege orice faptă care provoacă animalului o vătămare fizică sau psihică, durere, stres ori suferință, indiferent dacă există urme vizibile, leziuni externe.",
+      "lawQuote": "provocarea de suferințe fizice și psihice prin orice mijloace",
       "weight": 3
     },
     {
-      "text": "Transformă orice stres, frică sau suferință fără leziuni în infracțiunea de «rănire» (1–5 ani închisoare), fără prag de gravitate și suprapusă total cu contravenția, lăsând încadrarea la bunul-plac.",
-      "article": "art. 25¹ și art. 25 alin. (2) lit. d)",
-      "quote": "Rănirea înseamnă orice faptă care provoacă animalului durere, stres, frică sau suferință; chiar și fără leziuni externe.",
-      "weight": 3
-    },
-    {
-      "text": "Restrânge restituirea animalului doar la 3 cazuri (în 15 zile); în rest — inclusiv la vaga «suferință fără leziuni» — proprietarul pierde animalul fără hotărâre judecătorească, chiar nevinovat.",
-      "article": "art. 24⁵ alin. (1) și art. 24¹ alin. (2) lit. h)",
+      "text": "Restituirea animalului (redusă de la 30 la 15 zile) rămâne posibilă doar la lit. e)–g); în rest, inclusiv pentru «suferință fără leziuni», proprietarul îl pierde fără hotărâre de instanță și plătește oricum adăpostul.",
+      "article": "art. 24⁵ alin. (1)–(2), (5), art. 24¹ alin. (2) lit. h)",
       "quote": "restituirea animalului plasat în adăpost, în termen de maximum 15 de zile de Ia data la care încetează aplicarea măsurii de plasare în adăpost, doar pentru animalele plasate în adăpost potrivit art.24¹ alin.(2) lit.e), f) și g).",
+      "lawQuote": "Deținătorul poate solicita entității care asigură prestarea serviciului public de adăpostire a animalelor restituirea animalului plasat în adăpost, în termen de maximum 30 de zile de la data la care încetează aplicarea măsurii de plasare în adăpost.",
       "weight": 3
     },
     {
-      "text": "Majorează pedeapsa cu jumătate dacă imaginile difuzate generează ulterior «replici sau imitări» comise de alte persoane, încălcând principiul răspunderii penale personale și previzibilitatea legii.",
-      "article": "art. 25³ alin. (1) lit. c) și alin. (2)",
-      "quote": "prin difuzarea publică, imaginile generează replici, imitări, incitări sau alte forme de violență împotriva animalelor.",
-      "weight": 3
-    },
-    {
-      "text": "Reglementează contradictoriu durata plasării: un articol spune că «poate fi prelungit de drept» până la finalul cercetărilor, altul până la sentință, iar altul oprește măsura la 30 de zile.",
-      "article": "art. 24¹ alin. (6) și art. 24⁵ alin. (4)",
-      "quote": "Ordinul de plasare emis în cadrul activităților de urmărire penală cu au ca obiect infracțiuni cuprinse în Legea nr.205/2004, OUG nr.55/2002, OUG nr.155/2001 poate fi prelungit de drept până la finalizarea cercetărilor",
-      "weight": 2
-    },
-    {
-      "text": "Obligă deținătorul să plătească toate costurile veterinare și de cazare chiar dacă nu primește animalul înapoi sau acuzația cade, fără vreun plafon sau control al cheltuielilor.",
-      "article": "art. 24⁵ alin. (2)",
-      "quote": "Deținătorul are obligația de a plăti către consiliul județean sau către Consiliul General al Municipiului București cheltuielile cu asistența veterinară de urgență, inclusiv intervenția chirurgicală, hrănirea, cazarea, deparazitarea, vaccinarea și controlul bolilor animalelor efectuate cu animalul plasat în adăpost.",
-      "weight": 2
-    },
-    {
-      "text": "Impune obligatoriu interdicția de a deține animale pentru infracțiunile grave, dar nu prevede nicio durată, lăsând neclar dacă e pe viață și încălcând legalitatea pedepselor.",
-      "article": "art. 25 alin. (4)",
-      "quote": "iar în cazul condamnării pentru una dintre infracțiunile prevăzute la alin.(3), instanța dispune ca pedeapsă complementară interdicția de a deține animale.",
-      "weight": 2
-    },
-    {
-      "text": "Scutește de pedeapsă jurnaliștii și martorii care filmează abuzuri doar dacă lipsa intenției rele «rezultă clar» din filmare, inversând sarcina probei și descurajând denunțarea cruzimii.",
-      "article": "art. 25³ alin. (4)",
-      "quote": "Nu constituie infracțiune filmarea, deținerea sau publicarea materialelor realizate în scop jurnalistic, probatoriu, educativ sau de denunțare a faptelor de cruzime față de animale, dacă din conținutul acestora rezultă clar lipsa intenției de promovare a violenței.",
-      "weight": 2
-    },
-    {
-      "text": "Pedepsește ca infracțiune «tentativa de filmare» chiar dacă violența nu a avut efecte, dar trimite pentru sancțiune la alin. (1), care nu prevede nicio pedeapsă, blocând aplicarea legală.",
-      "article": "art. 25³ alin. (3)",
+      "text": "Majorează pedepsele cu jumătate și pentru imitări ulterioare comise de terți, incriminează «tentativa de filmare» fără a indica o pedeapsă și răstoarnă sarcina probei pentru jurnaliști sau denunțători.",
+      "article": "art. 25³",
       "quote": "Tentativa de filmare, transmitere sau publicare intenționată a unor fapte de cruzime, chiar dacă actul de violență nu a produs efecte, constituie infracțiune și se sancționează potrivit dispozițiilor alin.(1).",
+      "weight": 3
+    },
+    {
+      "text": "Durata plasării în adăpost e contradictorie (30 de zile, «prelungit de drept» până la finalul cercetărilor ori sentința definitivă), iar abrogarea art. 27 elimină singurul temei expres din lege pentru confiscarea animalelor.",
+      "article": "art. 24¹ alin. (1), (2) lit. i), alin. (6), art. 24⁵ alin. (4), art. 27",
+      "quote": "Ordinul de plasare emis în cadrul activităților de urmărire penală cu au ca obiect infracțiuni cuprinse în Legea nr.205/2004, OUG nr.55/2002, OUG nr.155/2001 poate fi prelungit de drept până la finalizarea cercetărilor",
+      "lawQuote": "În cazul săvârșirii de două ori a faptelor prevăzute la art. 25 alin. (1) lit. a) și b) de către proprietarul animalelor, pe lângă sancțiunile aplicate, se aplică și măsura confiscării animalelor.",
       "weight": 2
     },
     {
-      "text": "Definește tentativa la infracțiunile din lege, dar omite să spună expres că tentativa se pedepsește, ceea ce o face inaplicabilă potrivit Codului penal și creează confuzie în instanțe.",
-      "article": "art. 25² alin. (1)",
-      "quote": "Se consideră tentativă la infracțiunile prevăzute art.25 punerea în executare a intenției de a săvârși infracțiunea, executare care a fost însă întreruptă sau nu și-a produs efectul.",
+      "text": "Interdicția obligatorie de a deține animale pentru infracțiunile grave nu are nicio durată, încălcând legalitatea pedepsei, iar art. 25² copiază definiția tentativei fără a dispune expres că aceasta se pedepsește.",
+      "article": "art. 25 alin. (4), art. 25²",
+      "quote": "iar în cazul condamnării pentru una dintre infracțiunile prevăzute la alin.(3), instanța dispune ca pedeapsă complementară interdicția de a deține animale.",
+      "lawQuote": "În cazul condamnării pentru una dintre infracțiunile prevăzute la alin. (1) și (2), instanța poate dispune ca pedeapsă complementară interdicția de a deține animale pentru o perioadă de la un an la 5 ani.",
       "weight": 2
     },
     {
-      "text": "Pedepsește cu 2–7 ani închisoare dresajul contra animalelor sălbatice, cu o excepție nedefinită («câini utilitari de pază»), punând în pericol legal dresajul câinilor de vânătoare sau de stână.",
-      "article": "art. 14¹ și art. 25 alin. (3) lit. e)",
-      "quote": "dresarea unui animal pentru a ataca omul, un alt animal sălbatic sau domestic și organizarea de teste sau probe în acest sens, cu excepția câinilor utilitari de pază.",
+      "text": "Anexa nr. 1 creează o nouă structură națională (CNSRAS) cu puteri de reglementare și revocare fără statut juridic, subordonare sau finanțare, iar art. 11 omite grădinile zoologice și salvarea temporară de urgență.",
+      "article": "Anexa nr. 1 pct. 2.9, 4.4, art. 11 alin. (1), (6)",
+      "quote": "Consiliului Național al Specialiștilor în Reabilitarea Animalelor Sălbatice (CNSRAS) se va înființa la cel mult 12 luni de la publicarea în Monitorul Oficial a prezentei modificări și va coordona lista națională a specialiștilor în fauna sălbatică",
       "weight": 2
     },
     {
-      "text": "Interzice și persoanelor fizice să vândă ocazional un animal propriu fără crescătorie înregistrată, sub amendă de 2.000–20.000 lei, restrângând excesiv dreptul de proprietate.",
-      "article": "art. 15¹ alin. (2) și art. 26 alin. (1) lit. f)",
-      "quote": "Prin comercializare se înțelege acțiunea de a oferi spre vânzare animale, indiferent de cine este proprietarul animalelor.",
-      "weight": 2
-    },
-    {
-      "text": "Înființează un nou consiliu național (CNSRAS) printr-o anexă, cu putere de a suspenda specialiști pe 24 de luni, fără a stabili cine îl creează, ce statut juridic are și din ce bani funcționează.",
-      "article": "Anexa nr. 1 pct. 2.9 și pct. 4.4 alin. (6)",
-      "quote": "Consiliului Național al Specialiștilor în Reabilitarea Animalelor Sălbatice (CNSRAS) se va înființa la cel mult 12 luni de la publicarea în Monitorul Oficial a prezentei modificări",
-      "weight": 2
-    },
-    {
-      "text": "Oferă Poliției Locale dreptul de a intra în clădiri, de a cere orice documente și de a preleva probe de laborator, atribuții tehnice intruzive pentru agenți fără pregătire veterinară.",
-      "article": "art. 30 alin. (2)",
-      "quote": "Poliției Locale au acces în clădiri, adăposturi și alte locuri unde sunt ținute animalele, precum și dreptul de a solicita orice informație și documente necesare controlului și de a preleva probe pentru cercetări și analize de laborator.",
-      "weight": 1
-    },
-    {
-      "text": "Sancționează în bloc cu 2.000–20.000 lei «nerespectarea art. 11», articol cu 10 alineate care include simple definiții și obligații ale autorităților, lipsind norma contravențională de claritate.",
-      "article": "art. 26 alin. (1) lit. e) și alin. (2)",
-      "quote": null,
-      "weight": 1
-    },
-    {
-      "text": "Acordă animalelor (inclusiv crustaceelor decapode) «drepturi și libertăți» nedefinite juridic, riscând interpretări imprevizibile în agricultură, pescuit și relațiile de proprietate.",
-      "article": "art. 1 alin. (1¹)",
-      "quote": "Animalele sunt ființe simțitoare, cu drepturi și libertăți, capabile să simtă durere, suferință și emoții și au dreptul la un tratament uman",
-      "weight": 1
-    },
-    {
-      "text": "Impune obligatoriu un reprezentant al ONG-urilor de protecție a animalelor în comisiile competițiilor, fără reguli de desemnare sau soluție la refuz, putând bloca evenimente legale.",
-      "article": "art. 18 alin. (2)",
-      "quote": "Comisia de organizare a competițiilor și/sau de arbitraj va cuprinde obligatoriu un medic veterinar de liberă practică și un reprezentant al organizațiilor de protecție a animalelor.",
-      "weight": 1
-    },
-    {
-      "text": "Pedepsește cu 1–5 ani închisoare sau amendă folosirea animalelor de rentă la «concursuri de tracțiune», fără a defini noțiunea și fără a distinge probele tradiționale lipsite de abuz.",
-      "article": "art. 25 alin. (2) lit. a)",
-      "quote": "precum și în orice alte tipuri de spectacole similare, precum și folosirea animalelor de rentă la concursurile de tracțiune;",
-      "weight": 1
-    },
-    {
-      "text": "Definește abandonul prin lipsa cumulativă a hranei, apei, adăpostului «și» tratamentului medical, lăsând portița ca un animal sănătos sau lăsat cu mâncare să nu fie considerat abandonat.",
-      "article": "art. 7",
-      "quote": "lăsarea pe domeniul public sau pe proprietatea privată a unei persoane fizice/juridice sau instituții publice a unui animal fără hrană, apă, adăpost și tratament medical.",
+      "text": "Textul are numeroase erori de tehnică legislativă: art. 24 elimină neexplicat «medicamente» din cercetare, Anexa 1 inversează prin negări duble două libertăți ale animalelor, iar componența comisiei diferă între anexe.",
+      "article": "Art. I, art. 24 alin. (1), Anexa nr. 1 pct. 2.8, 6.3, Anexa nr. 2 pct. 2.4",
+      "quote": "Libertatea de a nu suferi de lipsa disconfortului - adăpost, microclimat, spațiu și substrat potrivite pentru odihnă, scăderea nivelului de stres și termoreglare, mimând condițiile speciei din mediul natural",
       "weight": 1
     }
   ],
   "fix": null,
   "quotes": {
-    "checked": 33,
-    "verified": 33
+    "checked": 15,
+    "verified": 15,
+    "lawChecked": 10,
+    "lawVerified": 10
   }
 }
